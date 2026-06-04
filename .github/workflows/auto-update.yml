@@ -1,24 +1,16 @@
 # ============================================================
 # 极光引擎 - GitHub Actions 每日自动部署配置
+# 功能：每天自动采集最新AI资讯 → 提交更新 → 自动触发 Pages 部署
 # ============================================================
 
 name: "Aurora Engine - Daily AI News Update"
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-    - cron: '0 12 * * *'
+    - cron: '0 0 * * *'       # UTC 0:00 = 北京时间 8:00
+    - cron: '0 12 * * *'      # UTC 12:00 = 北京时间 20:00
 
   workflow_dispatch:
-    inputs:
-      force_fetch:
-        description: 'Force full fetch (ignore cache)'
-        required: false
-        default: 'false'
-        type: choice
-        options:
-          - 'false'
-          - 'true'
 
   push:
     branches:
@@ -27,16 +19,14 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 env:
   PYTHON_VERSION: '3.11'
   TZ: 'Asia/Shanghai'
 
 jobs:
-  fetch-news:
-    name: "Fetch AI News"
+  fetch-and-update:
+    name: "Fetch AI News & Update"
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -57,10 +47,9 @@ jobs:
           pip install requests feedparser beautifulsoup4
 
       - name: Run fetch script
-        id: fetch
         run: |
           echo "================================================"
-          echo " Aurora Engine - Auto Fetch"
+          echo " Aurora Engine - Daily AI News Fetch"
           echo " Time: $(date '+%Y-%m-%d %H:%M:%S')"
           echo "================================================"
           python 自动采集AI资讯.py
@@ -68,9 +57,6 @@ jobs:
 
       - name: Show stats
         run: |
-          echo "===== Git Status ====="
-          git status
-          echo ""
           echo "===== Article Database Stats ====="
           python -c "
           import json
@@ -79,11 +65,15 @@ jobs:
           print(f'Total articles: {len(data)}')
           sources = {}
           cats = {}
+          new_today = 0
           for a in data:
               s = a.get('来源', 'Unknown')
               c = a.get('分类', 'Unknown')
               sources[s] = sources.get(s, 0) + 1
               cats[c] = cats.get(c, 0) + 1
+              if '2026-06-04' in str(a.get('日期', '')):
+                  new_today += 1
+          print(f'New today: {new_today}')
           print(f'Sources: {sources}')
           print(f'Categories: {cats}')
           print(f'Latest: {data[0][\"标题\"][:60] if data else \"None\"}')
@@ -100,56 +90,5 @@ jobs:
             git commit -m "Auto update: $(date '+%Y-%m-%d') - Latest AI news"
             git pull --rebase origin main
             git push
-            echo "Changes committed and pushed"
+            echo "Changes committed and pushed - Pages will auto-deploy"
           fi
-
-  deploy-site:
-    name: "Deploy to GitHub Pages"
-    needs: fetch-news
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-
-    steps:
-      - name: Checkout latest code
-        uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0
-        with:
-          fetch-depth: 1
-
-      - name: Deploy to GitHub Pages
-        id: deploy
-        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
-        with:
-          artifact-name: github-pages
-
-      - name: Upload artifact (fallback)
-        if: steps.deploy.outcome == 'skipped'
-        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
-        with:
-          path: '.'
-          name: github-pages
-
-      - name: Deploy (fallback)
-        if: steps.deploy.outcome == 'skipped'
-        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
-        id: final-deploy
-        with:
-          artifact-name: github-pages
-
-  health-check:
-    name: "Health Check"
-    needs: deploy-site
-    runs-on: ubuntu-latest
-    timeout-minutes: 3
-    if: always() && needs.deploy-site.result == 'success'
-
-    steps:
-      - name: Verify deployment
-        run: |
-          echo "Waiting for GitHub Pages deployment (30s)..."
-          sleep 30
-          echo "Aurora Engine - Deployment complete!"
-          echo "Visit: https://t416454999.github.io/George/"
