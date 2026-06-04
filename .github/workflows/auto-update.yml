@@ -57,13 +57,13 @@ jobs:
     steps:
       # 1.1 检出代码
       - name: "\U0001F4E5 检出仓库代码"
-        uses: actions/checkout@v4
+        uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0
         with:
           fetch-depth: 1
 
       # 1.2 设置 Python 环境
       - name: "\U0001F40D 设置 Python 环境"
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: 'pip'
@@ -140,28 +140,28 @@ jobs:
     steps:
       # 2.1 检出最新代码（包含刚提交的数据库更新）
       - name: "\U0001F4E5 检出最新代码"
-        uses: actions/checkout@v4
+        uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0
         with:
           fetch-depth: 1
 
       # 2.2 部署到 GitHub Pages
       - name: "\U0001F680 部署到 GitHub Pages"
         id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
         with:
           artifact-name: github-pages
 
       # 2.3 如果上一步跳过（首次需配置），使用 upload-pages-artifact
       - name: "\U0001F4E6 打包网站文件"
         if: steps.deploy.outcome == 'skipped'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
         with:
           path: '.'
           name: github-pages
 
       - name: "\U0001F310 部署"
         if: steps.deploy.outcome == 'skipped'
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
         id: final-deploy
         with:
           artifact-name: github-pages
