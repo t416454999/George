@@ -1,0 +1,7 @@
+# 极光引擎 - Python 依赖包清单
+# 安装方式：pip install -r Python依赖清单.txt
+# 这些包用于自动采集AI资讯脚本
+
+requests>=2.28.0        # HTTP请求库，用于获取网页和API
+feedparser>=6.0.0       # RSS解析库，用于解析各媒体的RSS源
+beautifulsoup4>=4.12.0  # HTML解析库，用于网页内容提取

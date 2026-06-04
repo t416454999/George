@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="极光引擎 - 每日AI前沿资讯自动聚合平台，追踪大模型、AI应用、AI绘画等领域最新动态">
+    <meta name="keywords" content="AI资讯,人工智能,大模型,AI绘画,机器学习,深度学习">
+    <title>极光引擎 | 每日AI前沿资讯</title>
+    <link rel="stylesheet" href="极光样式.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>">
+</head>
+<body>
+    <!-- 极光背景动画 -->
+    <div class="极光背景">
+        <div class="极光层 极光层1"></div>
+        <div class="极光层 极光层2"></div>
+        <div class="极光层 极光层3"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="导航栏" id="导航栏">
+        <div class="导航容器">
+            <a href="#首页" class="网站标志" onclick="切换页面('首页')">
+                <span class="标志图标">🌌</span>
+                <span class="标志文字">极光引擎</span>
+            </a>
+            <div class="导航菜单" id="导航菜单">
+                <a href="#首页" class="导航链接 活跃" onclick="切换页面('首页')" data-page="首页">🏠 首页</a>
+                <a href="#分类" class="导航链接" onclick="切换页面('分类')" data-page="分类">📂 分类</a>
+                <a href="#搜索" class="导航链接" onclick="切换页面('搜索')" data-page="搜索">🔍 搜索</a>
+                <a href="#关于" class="导航链接" onclick="切换页面('关于')" data-page="关于">ℹ️ 关于</a>
+            </div>
+            <button class="菜单按钮" onclick="切换移动菜单()" aria-label="菜单">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="主内容" id="主内容">
+        <!-- 首页视图 -->
+        <section id="首页视图" class="页面视图 活跃视图">
+            <!-- 英雄区域 -->
+            <header class="英雄区域">
+                <div class="英雄内容">
+                    <h1 class="英雄标题">
+                        <span class="标题极光">极光引擎</span>
+                    </h1>
+                    <p class="英雄副标题">每日自动汇聚AI前沿资讯，让灵感如极光般闪耀</p>
+                    <div class="英雄统计" id="英雄统计">
+                        <div class="统计项">
+                            <span class="统计数字" id="文章总数">0</span>
+                            <span class="统计标签">篇资讯</span>
+                        </div>
+                        <div class="统计项">
+                            <span class="统计数字" id="今日新增">0</span>
+                            <span class="统计标签">今日新增</span>
+                        </div>
+                        <div class="统计项">
+                            <span class="统计数字" id="覆盖来源">0</span>
+                            <span class="统计标签">个来源</span>
+                        </div>
+                    </header>
+                    <!-- 来源标签 -->
+                    <div class="来源标签" id="来源标签"></div>
+                </div>
+            </header>
+
+            <!-- 筛选栏 -->
+            <div class="筛选栏">
+                <div class="筛选容器">
+                    <div class="分类标签组" id="分类标签组">
+                        <button class="分类标签 活跃" onclick="筛选分类('全部')">全部</button>
+                        <button class="分类标签" onclick="筛选分类('大模型')">🧠 大模型</button>
+                        <button class="分类标签" onclick="筛选分类('AI应用')">🚀 AI应用</button>
+                        <button class="分类标签" onclick="筛选分类('AI绘画')">🎨 AI绘画</button>
+                        <button class="分类标签" onclick="筛选分类('学术前沿')">📚 学术前沿</button>
+                        <button class="分类标签" onclick="筛选分类('行业动态')">📊 行业动态</button>
+                        <button class="分类标签" onclick="筛选分类('开源工具')">🛠 开源工具</button>
+                    </div>
+                    <div class="排序选择">
+                        <select class="排序下拉" onchange="切换排序(this.value)" aria-label="排序方式">
+                            <option value="最新">🕐 最新优先</option>
+                            <option value="最热">🔥 热度优先</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 文章列表 -->
+            <div class="文章区域">
+                <div class="文章网格" id="文章网格">
+                    <!-- 动态渲染文章卡片 -->
+                </div>
+                <!-- 加载更多 -->
+                <div class="加载区域" id="加载区域">
+                    <button class="加载更多按钮" id="加载更多按钮" onclick="加载更多()">
+                        查看更多资讯 ↓
+                    </button>
+                </div>
+                <!-- 空状态 -->
+                <div class="空状态" id="空状态" style="display:none;">
+                    <span class="空状态图标">📭</span>
+                    <p>暂无匹配的文章</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 分类视图 -->
+        <section id="分类视图" class="页面视图">
+            <h2 class="页面标题">📂 分类浏览</h2>
+            <div class="分类网格" id="分类网格">
+                <div class="分类卡片" onclick="筛选分类('大模型');切换页面('首页')">
+                    <span class="分类卡片图标">🧠</span>
+                    <h3>大模型</h3>
+                    <p>GPT、Claude、Gemini等大模型最新进展</p>
+                    <span class="分类卡片数量" id="计数-大模型">0篇</span>
+                </div>
+                <div class="分类卡片" onclick="筛选分类('AI应用');切换页面('首页')">
+                    <span class="分类卡片图标">🚀</span>
+                    <h3>AI应用</h3>
+                    <p>AI产品、落地案例与商业应用</p>
+                    <span class="分类卡片数量" id="计数-AI应用">0篇</span>
+                </div>
+                <div class="分类卡片" onclick="筛选分类('AI绘画');切换页面('首页')">
+                    <span class="分类卡片图标">🎨</span>
+                    <h3>AI绘画</h3>
+                    <p>Midjourney、SD、DALL·E等AI绘画工具</p>
+                    <span class="分类卡片数量" id="计数-AI绘画">0篇</span>
+                </div>
+                <div class="分类卡片" onclick="筛选分类('学术前沿');切换页面('首页')">
+                    <span class="分类卡片图标">📚</span>
+                    <h3>学术前沿</h3>
+                    <p>AI论文、研究成果与技术突破</p>
+                    <span class="分类卡片数量" id="计数-学术前沿">0篇</span>
+                </div>
+                <div class="分类卡片" onclick="筛选分类('行业动态');切换页面('首页')">
+                    <span class="分类卡片图标">📊</span>
+                    <h3>行业动态</h3>
+                    <p>AI行业融资、政策与市场趋势</p>
+                    <span class="分类卡片数量" id="计数-行业动态">0篇</span>
+                </div>
+                <div class="分类卡片" onclick="筛选分类('开源工具');切换页面('首页')">
+                    <span class="分类卡片图标">🛠</span>
+                    <h3>开源工具</h3>
+                    <p>AI开源框架、工具与项目推荐</p>
+                    <span class="分类卡片数量" id="计数-开源工具">0篇</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 搜索视图 -->
+        <section id="搜索视图" class="页面视图">
+            <h2 class="页面标题">🔍 搜索资讯</h2>
+            <div class="搜索区域">
+                <div class="搜索输入组">
+                    <input type="text" class="搜索输入框" id="搜索输入框"
+                           placeholder="搜索AI资讯关键词..." oninput="实时搜索()"
+                           aria-label="搜索AI资讯">
+                    <button class="搜索按钮" onclick="执行搜索()">🔍 搜索</button>
+                </div>
+                <div class="搜索建议" id="搜索建议">
+                    <span>热门搜索：</span>
+                    <button class="建议标签" onclick="快速搜索('GPT-5')">GPT-5</button>
+                    <button class="建议标签" onclick="快速搜索('Claude')">Claude</button>
+                    <button class="建议标签" onclick="快速搜索('Sora')">Sora</button>
+                    <button class="建议标签" onclick="快速搜索('开源模型')">开源模型</button>
+                    <button class="建议标签" onclick="快速搜索('AI Agent')">AI Agent</button>
+                    <button class="建议标签" onclick="快速搜索('多模态')">多模态</button>
+                </div>
+            </div>
+            <div class="搜索结果" id="搜索结果">
+                <p class="搜索提示">请输入关键词开始搜索</p>
+            </div>
+        </section>
+
+        <!-- 文章详情视图 -->
+        <section id="详情视图" class="页面视图">
+            <div class="详情容器" id="详情容器">
+                <!-- 动态渲染文章详情 -->
+            </div>
+        </section>
+
+        <!-- 关于视图 -->
+        <section id="关于视图" class="页面视图">
+            <div class="关于容器">
+                <h2 class="页面标题">🌌 关于极光引擎</h2>
+                <div class="关于内容">
+                    <div class="关于介绍">
+                        <h3>什么是极光引擎？</h3>
+                        <p><strong>极光引擎</strong> 是一个专注于人工智能领域的自动资讯聚合平台。如同夜空中变幻莫测的极光，AI技术日新月异——我们致力于捕捉每一道闪耀的技术光芒，将它们汇聚于此。</p>
+                        <p>每天自动从多个国内优质AI媒体采集最新资讯，无需翻墙即可浏览全球AI前沿动态。</p>
+                    </div>
+                    <div class="关于功能">
+                        <h3>核心功能</h3>
+                        <ul>
+                            <li>🤖 <strong>每日自动更新</strong>：通过GitHub Actions每天自动采集最新AI资讯</li>
+                            <li>📡 <strong>多源聚合</strong>：整合机器之心、量子位、36氪等多个AI媒体</li>
+                            <li>🏷️ <strong>分类筛选</strong>：按大模型、AI应用、AI绘画等分类浏览</li>
+                            <li>🔍 <strong>全文搜索</strong>：快速找到感兴趣的AI话题</li>
+                            <li>📱 <strong>响应式设计</strong>：完美适配电脑、平板、手机</li>
+                            <li>⚡ <strong>免费部署</strong>：基于GitHub Pages，完全免费，国内可直连</li>
+                        </ul>
+                    </div>
+                    <div class="关于技术">
+                        <h3>技术架构</h3>
+                        <p>纯静态站点 + Python自动采集脚本 + GitHub Actions定时任务 → GitHub Pages托管</p>
+                        <p>无需服务器、无需数据库、无需后端，极致轻量，永久免费。</p>
+                    </div>
+                    <div class="关于来源">
+                        <h3>资讯来源</h3>
+                        <div class="来源列表" id="关于来源列表">
+                            <span class="来源项">机器之心</span>
+                            <span class="来源项">量子位</span>
+                            <span class="来源项">36氪</span>
+                            <span class="来源项">虎嗅</span>
+                            <span class="来源项">雷锋网</span>
+                            <span class="来源项">新浪科技</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="页脚">
+        <div class="页脚容器">
+            <div class="页脚信息">
+                <span class="页脚标志">🌌 极光引擎</span>
+                <span class="页脚分割">|</span>
+                <span>每日AI资讯自动聚合</span>
+                <span class="页脚分割">|</span>
+                <span id="更新时间">更新于：加载中...</span>
+            </div>
+            <div class="页脚链接">
+                <a href="https://github.com" target="_blank" rel="noopener">GitHub Pages 托管</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部 -->
+    <button class="返回顶部" id="返回顶部" onclick="滚动到顶部()" aria-label="返回顶部">↑</button>
+
+    <!-- 文章数据 -->
+    <script src="文章数据库.json?v=1"></script>
+    <script src="极光脚本.js"></script>
+</body>
+</html>
