@@ -98,6 +98,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto update: $(date '+%Y-%m-%d') - Latest AI news"
+            git pull --rebase origin main
             git push
             echo "Changes committed and pushed"
           fi
