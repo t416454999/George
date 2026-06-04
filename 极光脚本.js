@@ -17,19 +17,29 @@ const 状态 = {
 };
 
 // --- 初始化 ---
-document.addEventListener('DOMContentLoaded', () => {
-    初始化数据();
+document.addEventListener('DOMContentLoaded', async () => {
+    await 初始化数据();
     初始化路由();
     渲染当前页面();
     监听滚动();
 });
 
 // --- 数据初始化 ---
-function 初始化数据() {
-    if (typeof 文章数据库 !== 'undefined' && Array.isArray(文章数据库)) {
-        状态.文章列表 = 文章数据库;
-    } else {
-        console.warn('文章数据库未加载，使用空列表');
+async function 初始化数据() {
+    try {
+        const 响应 = await fetch('文章数据库.json?v=' + Date.now());
+        if (响应.ok) {
+            const 数据 = await 响应.json();
+            if (Array.isArray(数据)) {
+                状态.文章列表 = 数据;
+                console.log('文章数据库加载成功，共 ' + 数据.length + ' 篇');
+            }
+        } else {
+            console.warn('文章数据库加载失败，状态码：' + 响应.status);
+            状态.文章列表 = [];
+        }
+    } catch (错误) {
+        console.warn('文章数据库加载异常：' + 错误.message);
         状态.文章列表 = [];
     }
 
