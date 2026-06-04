@@ -1,25 +1,18 @@
 # ============================================================
 # 极光引擎 - GitHub Actions 每日自动部署配置
-# 功能：
-#   1. 每天北京时间 08:00 自动运行采集脚本
-#   2. 采集最新AI资讯并更新文章数据库
-#   3. 自动提交变更并部署到 GitHub Pages
 # ============================================================
 
-name: "\U0001F30C 极光引擎 - 每日AI资讯自动更新"
+name: "Aurora Engine - Daily AI News Update"
 
-# ----- 触发器配置 -----
 on:
-  # 定时任务：每天北京时间 08:00（UTC 00:00）
   schedule:
-    - cron: '0 0 * * *'        # UTC 0点 = 北京时间 8点
-    - cron: '0 12 * * *'       # UTC 12点 = 北京时间 20点（晚间更新）
+    - cron: '0 0 * * *'
+    - cron: '0 12 * * *'
 
-  # 手动触发（在 GitHub Actions 页面点击按钮）
   workflow_dispatch:
     inputs:
       force_fetch:
-        description: '是否强制全量采集（忽略缓存）'
+        description: 'Force full fetch (ignore cache)'
         required: false
         default: 'false'
         type: choice
@@ -27,159 +20,135 @@ on:
           - 'false'
           - 'true'
 
-  # 推送到 main 分支时触发（首次部署和代码更新时）
   push:
     branches:
       - main
       - master
 
-# ----- 权限配置 -----
 permissions:
-  contents: write        # 允许写入仓库内容（提交数据库更新）
-  pages: write           # 允许部署到 GitHub Pages
-  id-token: write        # 用于 Pages 部署认证
+  contents: write
+  pages: write
+  id-token: write
 
-# ----- 环境变量 -----
 env:
   PYTHON_VERSION: '3.11'
-  TZ: 'Asia/Shanghai'    # 设置时区为北京时间
+  TZ: 'Asia/Shanghai'
 
-# ----- 任务定义 -----
 jobs:
-  # ============================
-  # 任务1：采集AI资讯并更新数据库
-  # ============================
   fetch-news:
-    name: "\U0001F4E1 采集AI资讯"
+    name: "Fetch AI News"
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
-      # 1.1 检出代码
-      - name: "\U0001F4E5 检出仓库代码"
+      - name: Checkout code
         uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0
         with:
           fetch-depth: 1
 
-      # 1.2 设置 Python 环境
-      - name: "\U0001F40D 设置 Python 环境"
+      - name: Setup Python
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: 'pip'
 
-      # 1.3 安装依赖
-      - name: "\U0001F4E6 安装 Python 依赖"
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests feedparser beautifulsoup4
 
-      # 1.4 运行采集脚本
-      - name: "\U0001F30C 运行AI资讯采集脚本"
+      - name: Run fetch script
         id: fetch
         run: |
-          echo "=============================="
-          echo " 极光引擎 - 自动采集开始"
-          echo " 时间: $(date '+%Y-%m-%d %H:%M:%S')"
-          echo "=============================="
+          echo "================================================"
+          echo " Aurora Engine - Auto Fetch"
+          echo " Time: $(date '+%Y-%m-%d %H:%M:%S')"
+          echo "================================================"
           python 自动采集AI资讯.py
-          echo "采集完成"
+          echo "Fetch completed"
 
-      # 1.5 显示采集结果
-      - name: "\U0001F4CA 显示变更统计"
+      - name: Show stats
         run: |
-          echo "===== Git 变更状态 ====="
+          echo "===== Git Status ====="
           git status
           echo ""
-          echo "===== 文章数据库统计 ====="
+          echo "===== Article Database Stats ====="
           python -c "
           import json
           with open('文章数据库.json', 'r', encoding='utf-8') as f:
               data = json.load(f)
-          print(f'文章总数：{len(data)}')
+          print(f'Total articles: {len(data)}')
           sources = {}
           cats = {}
           for a in data:
-              s = a.get('来源', '未知')
-              c = a.get('分类', '未知')
+              s = a.get('来源', 'Unknown')
+              c = a.get('分类', 'Unknown')
               sources[s] = sources.get(s, 0) + 1
               cats[c] = cats.get(c, 0) + 1
-          print(f'来源分布：{sources}')
-          print(f'分类分布：{cats}')
-          print(f'最新文章：{data[0][\"标题\"][:60] if data else \"无\"}')
+          print(f'Sources: {sources}')
+          print(f'Categories: {cats}')
+          print(f'Latest: {data[0][\"标题\"][:60] if data else \"None\"}')
           "
 
-      # 1.6 提交并推送变更
-      - name: "\U0001F4E4 提交数据库更新"
+      - name: Commit and push changes
         run: |
-          git config user.name "极光引擎[Bot]"
+          git config user.name "Aurora Bot"
           git config user.email "aurora-bot@users.noreply.github.com"
           git add 文章数据库.json
           if git diff --staged --quiet; then
-            echo "没有变更需要提交"
+            echo "No changes to commit"
           else
-            git commit -m "🌌 自动更新：$(date '+%Y-%m-%d') - 采集最新AI资讯"
+            git commit -m "Auto update: $(date '+%Y-%m-%d') - Latest AI news"
             git push
-            echo "✅ 变更已提交并推送"
+            echo "Changes committed and pushed"
           fi
 
-  # ============================
-  # 任务2：部署到 GitHub Pages
-  # ============================
   deploy-site:
-    name: "\U0001F680 部署到 GitHub Pages"
-    needs: fetch-news               # 等待采集任务完成
+    name: "Deploy to GitHub Pages"
+    needs: fetch-news
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
-    # 环境配置（GitHub Pages 部署环境）
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
 
     steps:
-      # 2.1 检出最新代码（包含刚提交的数据库更新）
-      - name: "\U0001F4E5 检出最新代码"
+      - name: Checkout latest code
         uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0
         with:
           fetch-depth: 1
 
-      # 2.2 部署到 GitHub Pages
-      - name: "\U0001F680 部署到 GitHub Pages"
+      - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
         with:
           artifact-name: github-pages
 
-      # 2.3 如果上一步跳过（首次需配置），使用 upload-pages-artifact
-      - name: "\U0001F4E6 打包网站文件"
+      - name: Upload artifact (fallback)
         if: steps.deploy.outcome == 'skipped'
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
         with:
           path: '.'
           name: github-pages
 
-      - name: "\U0001F310 部署"
+      - name: Deploy (fallback)
         if: steps.deploy.outcome == 'skipped'
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
         id: final-deploy
         with:
           artifact-name: github-pages
 
-  # ============================
-  # 任务3：健康检查（验证网站可用）
-  # ============================
   health-check:
-    name: "✅ 健康检查"
+    name: "Health Check"
     needs: deploy-site
     runs-on: ubuntu-latest
     timeout-minutes: 3
     if: always() && needs.deploy-site.result == 'success'
 
     steps:
-      - name: "\U0001F50D 检查网站是否可访问"
+      - name: Verify deployment
         run: |
-          echo "等待 GitHub Pages 部署生效（30秒）..."
+          echo "Waiting for GitHub Pages deployment (30s)..."
           sleep 30
-          echo "极光引擎 - 部署完成！"
-          echo "🌌 访问你的博客看看最新资讯吧！"
+          echo "Aurora Engine - Deployment complete!"
+          echo "Visit: https://t416454999.github.io/George/"
