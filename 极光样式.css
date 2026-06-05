@@ -35,7 +35,7 @@
     --font-mono:  "SF Mono", "JetBrains Mono", "Cascadia Code", "Consolas", ui-monospace, monospace;
 
     /* 布局 */
-    --maxw: 1040px;
+    --maxw: 1100px;
     --readw: 680px;
     --radius: 4px;
     --ease: cubic-bezier(0.4, 0, 0.2, 1);
@@ -372,14 +372,14 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     letter-spacing: 0.03em;
 }
 
-/* —— 紧凑列表 — 双栏横向 —— */
+/* —— 更多资讯 — 三栏卡片，杜绝竖向堆叠 —— */
 .列表区域标题 {
     font-family: var(--font-serif);
     font-weight: 400;
     font-size: 14px;
     color: var(--text-faint);
     letter-spacing: 0.08em;
-    margin: 36px 0 14px;
+    margin: 36px 0 16px;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--line);
     grid-column: 1 / -1;
@@ -388,62 +388,55 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .资讯列表 {
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
 }
 
 .资讯列表项 {
-    border-bottom: 1px solid var(--line-soft);
-    transition: padding 0.2s var(--ease);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition: background 0.2s var(--ease);
 }
-.资讯列表项:hover { padding-left: 6px; }
+.资讯列表项:hover { background: var(--surface-2); }
 
 .资讯列表链接 {
     display: flex;
-    align-items: baseline;
-    gap: 10px;
-    padding: 12px 0;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 22px;
+    height: 100%;
 }
 
 .列表元信息 {
     display: flex;
     align-items: center;
-    gap: 6px;
-    flex-shrink: 0;
+    gap: 8px;
 }
 .列表来源 {
-    font-size: 12.5px;
+    font-size: 12px;
     color: var(--brass);
     letter-spacing: 0.04em;
 }
 .列表日期 {
     font-family: var(--font-mono);
-    font-size: 12px;
+    font-size: 11.5px;
     color: var(--text-faint);
     letter-spacing: 0.02em;
 }
-.列表分隔 { color: var(--line); font-size: 12px; }
+.列表分隔 { color: var(--line); font-size: 11px; }
 
 .列表标题 {
-    flex: 1;
     font-family: var(--font-serif);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.45;
     color: var(--text);
-    min-width: 0;
     transition: color 0.2s var(--ease);
 }
 .资讯列表项:hover .列表标题 { color: var(--brass); }
 
-.列表分类 {
-    font-size: 12px;
-    color: var(--text-faint);
-    letter-spacing: 0.03em;
-    flex-shrink: 0;
-    display: none;
-}
+.列表分类 { display: none; }
 
 /* ---------- 加载更多 ---------- */
 .加载区域 { text-align: center; padding: 40px 0 0; }
@@ -835,8 +828,12 @@ mark {
 
     .筛选栏 { flex-direction: column; align-items: flex-start; }
     .搜索输入组 { flex-direction: column; }
-    .资讯列表 { grid-template-columns: 1fr; }
+    .资讯列表 { grid-template-columns: 1fr 1fr; }
     .列表元信息 { min-width: auto; }
     .列表标题 { min-width: 0; }
     .返回顶部 { right: 16px; bottom: 16px; width: 36px; height: 36px; }
+}
+
+@media (max-width: 440px) {
+    .资讯列表 { grid-template-columns: 1fr; }
 }
