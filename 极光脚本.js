@@ -121,6 +121,15 @@ function 应用筛选() {
     if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类);
     if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
 
+    // 工具排行作为独立分类
+    if (状态.当前分类 === '工具排行') {
+        clearContainers();
+        加载工具排行();
+        if (空状态) 空状态.style.display = 'none';
+        if (加载区域) 加载区域.style.display = 'none';
+        return;
+    }
+
     const 空状态 = document.getElementById('空状态');
     const 加载区域 = document.getElementById('加载区域');
     if (文章列表.length === 0) {
@@ -249,9 +258,15 @@ async function 加载工具排行() {
 function 筛选分类(分类名) {
     状态.当前分类 = 分类名;
     document.querySelectorAll('.分类标签').forEach(tag => {
-        tag.classList.toggle('活跃', tag.textContent.trim() === 分类名 || (分类名 === '全部' && tag.textContent.trim() === '全部'));
+        const t = tag.textContent.trim();
+        tag.classList.toggle('活跃', t === 分类名 || (分类名 === '全部' && t === '全部'));
     });
-    切换页面('首页');
+    if (分类名 === '工具排行') {
+        // 直接切到首页渲染工具区
+        切换页面('首页');
+    } else {
+        切换页面('首页');
+    }
 }
 function 切换排序(方式) { 状态.排序方式 = 方式; 应用筛选(); }
 

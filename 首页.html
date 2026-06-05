@@ -68,6 +68,7 @@
                     <button class="分类标签" onclick="筛选分类('学术前沿')">学术前沿</button>
                     <button class="分类标签" onclick="筛选分类('行业动态')">行业动态</button>
                     <button class="分类标签" onclick="筛选分类('开源工具')">开源工具</button>
+                    <button class="分类标签" onclick="筛选分类('工具排行')">工具排行</button>
                     <button class="分类标签" onclick="筛选分类('原生资讯')">原生资讯</button>
                 </div>
                 <select class="排序下拉" onchange="切换排序(this.value)" aria-label="排序方式">
@@ -134,6 +135,11 @@
                     <h3>开源工具</h3>
                     <p>框架、工具与开发者生态</p>
                     <span class="分类卡片数量" id="计数-开源工具">0 篇</span>
+                </div>
+                <div class="分类卡片" onclick="筛选分类('工具排行');切换页面('首页')">
+                    <h3>工具排行</h3>
+                    <p>GitHub 收藏/推荐量排名前三的扩展工具</p>
+                    <span class="分类卡片数量">TOP 3</span>
                 </div>
                 <div class="分类卡片" onclick="筛选分类('原生资讯');切换页面('首页')">
                     <h3>原生资讯</h3>
