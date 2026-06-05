@@ -175,8 +175,11 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
             标题.textContent = 分类 === '全部' ? '今日推荐' : 分类;
             容器.appendChild(标题);
             const 网格 = document.createElement('div'); 网格.className = '特征网格';
-            // 根据文章数量调整列数：≤2篇用1列，否则2列
-            网格.style.gridTemplateColumns = 特征文章.length <= 2 ? '1fr' : '';
+            // 4篇=2x2，3篇=3列，2篇=2列，1篇=1列
+            if (特征文章.length === 4) 网格.style.gridTemplateColumns = '1fr 1fr';
+            else if (特征文章.length === 3) 网格.style.gridTemplateColumns = 'repeat(3, 1fr)';
+            else if (特征文章.length === 2) 网格.style.gridTemplateColumns = '1fr 1fr';
+            else 网格.style.gridTemplateColumns = '1fr';
             特征文章.forEach(a => 网格.appendChild(创建特征卡片(a)));
             容器.appendChild(网格);
         }
@@ -214,10 +217,6 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
         }
     }
 
-    // 全部分类时显示工具排行
-    if (分类 === '全部') {
-        加载工具排行();
-    }
 }
 
 function 创建一手行(文章, 列表) {
