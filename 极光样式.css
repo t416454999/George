@@ -1,42 +1,43 @@
 /* ============================================================
-   极光引擎 · 深夜暖墨主题
-   设计语言：深夜电台 / 树洞 / 深夜来信
-   暖、沉、克制、有陪伴感。绝不甜腻、不科技炫酷。
+   极光引擎 · 暖纸墨印主题
+   设计语言：纸质刊物 / 编辑阅读
+   暖白纸底，克制暗字，一道极淡暖光在顶。
+   不刺眼、不甜腻、不科技。
    最后修改：见 修改登记.json
    ============================================================ */
 
 /* ---------- 设计令牌 ---------- */
 :root {
-    /* 背景色系 — 暖调浓缩咖啡黑 */
-    --bg:            #1A1512;
-    --surface:       #221C17;
-    --surface-2:     #2A231C;
+    /* 背景 — 暖调纸白 */
+    --bg:            #FCF9F3;
+    --surface:       #F4F0E8;
+    --surface-2:     #ECE7DD;
 
-    /* 文字色系 — 暖白，层次分明 */
-    --text:          #E9E1D5;
-    --text-dim:      #A89C8C;
-    --text-faint:    #6B645B;
+    /* 文字 — 深棕，非纯黑，不刺眼 */
+    --text:          #2C2416;
+    --text-dim:      #6B5E4E;
+    --text-faint:    #9E9180;
 
-    /* 分割线 / 边框 */
-    --line:          #322A22;
-    --line-soft:     #2A231C;
+    /* 边框 — 极淡暖灰 */
+    --line:          #E5DFD3;
+    --line-soft:     #EDE8DF;
 
-    /* 强调色 — 双暖金系统 */
-    --brass:         #D9A04A;   /* 黄铜金：标签、选中态、统计数字 */
-    --brass-dim:     #B5843A;
+    /* 强调色 — 暖金 + 铁锈 */
+    --brass:         #A07830;
+    --brass-dim:     #8B6620;
+    --rust:          #B8503A;
+    --rust-dim:      #9A3E2A;
 
-    --rust:          #C7613B;   /* 铁锈橙：仅头条竖线 + hover链接 */
-    --rust-dim:      #A84F2E;
-
-    /* 字体 — 系统衬线，不依赖外部CDN */
+    /* 字体 — 系统衬线，不依赖CDN */
     --font-serif: "Songti SC", "STSong", "SimSun", Georgia, "Times New Roman", serif;
     --font-sans:  -apple-system, BlinkMacSystemFont, "PingFang SC",
                   "HarmonyOS Sans SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
     --font-mono:  "SF Mono", "JetBrains Mono", "Cascadia Code", "Consolas", ui-monospace, monospace;
 
     /* 布局 */
-    --maxw: 760px;
-    --radius: 6px;
+    --maxw: 880px;
+    --readw: 680px;
+    --radius: 4px;
     --ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -47,9 +48,6 @@ html { scroll-behavior: smooth; }
 
 body {
     background-color: var(--bg);
-    background-image: radial-gradient(120% 60% at 50% -10%,
-                      rgba(217, 160, 74, 0.05) 0%, transparent 55%);
-    background-attachment: fixed;
     color: var(--text);
     font-family: var(--font-sans);
     font-size: 16px;
@@ -61,7 +59,7 @@ body {
 
 a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 
-::selection { background: rgba(199, 97, 59, 0.3); color: #fff; }
+::selection { background: rgba(168, 120, 48, 0.2); color: var(--text); }
 
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
@@ -73,18 +71,17 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     position: sticky;
     top: 0;
     z-index: 50;
-    background: rgba(26, 21, 18, 0.92);
+    background: rgba(252, 249, 243, 0.94);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--line);
 }
-
 .导航栏.隐藏 { transform: translateY(-100%); }
 
 .导航容器 {
     max-width: var(--maxw);
     margin: 0 auto;
-    padding: 18px 24px;
+    padding: 18px 28px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -105,7 +102,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     height: 7px;
     border-radius: 50%;
     background: var(--rust);
-    box-shadow: 0 0 8px rgba(199, 97, 59, 0.5);
+    box-shadow: 0 0 6px rgba(168, 80, 58, 0.3);
 }
 
 .导航菜单 { display: flex; gap: 28px; }
@@ -148,34 +145,34 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .主内容 {
     max-width: var(--maxw);
     margin: 0 auto;
-    padding: 0 24px 100px;
+    padding: 0 28px 100px;
 }
 
 .页面视图 { display: none; }
 .活跃视图 {
     display: block;
-    animation: 淡入 0.5s var(--ease) both;
+    animation: 淡入 0.4s var(--ease) both;
 }
 @keyframes 淡入 {
-    from { opacity: 0; transform: translateY(8px); }
+    from { opacity: 0; transform: translateY(6px); }
     to   { opacity: 1; transform: translateY(0); }
 }
 
 /* ---------- 标题区 ---------- */
-.标题区域 { padding: 72px 0 36px; }
+.标题区域 { padding: 64px 0 32px; }
 .主标题 {
     font-family: var(--font-serif);
-    font-size: clamp(38px, 7vw, 56px);
+    font-size: clamp(36px, 6vw, 52px);
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: 0.04em;
     color: var(--text);
 }
 .副标题 {
-    margin-top: 18px;
+    margin-top: 16px;
     max-width: 30em;
     font-size: 16px;
-    line-height: 1.85;
+    line-height: 1.8;
     color: var(--text-dim);
 }
 
@@ -183,7 +180,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .统计条 {
     display: flex;
     gap: 40px;
-    padding: 28px 0 36px;
+    padding: 24px 0 32px;
     border-bottom: 1px solid var(--line);
 }
 .统计项 { display: flex; align-items: baseline; gap: 7px; }
@@ -202,7 +199,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 16px;
-    padding: 26px 0;
+    padding: 24px 0;
 }
 .分类标签组 { display: flex; flex-wrap: wrap; gap: 8px; }
 .分类标签 {
@@ -212,13 +209,13 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: transparent;
     border: 1px solid var(--line);
     border-radius: 100px;
-    padding: 6px 15px;
+    padding: 5px 14px;
     cursor: pointer;
     transition: 0.2s var(--ease);
 }
 .分类标签:hover { color: var(--text); border-color: var(--text-faint); }
 .分类标签.活跃 {
-    color: var(--bg);
+    color: #fff;
     background: var(--brass);
     border-color: var(--brass);
     font-weight: 500;
@@ -231,14 +228,21 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 7px 12px;
+    padding: 6px 12px;
     cursor: pointer;
 }
 .排序下拉:focus { outline: none; border-color: var(--brass-dim); }
 
 /* ============================================================
-   文章渲染区 — JS 动态生成的元素
+   文章渲染区
    ============================================================ */
+
+/* —— 文章区域容器（确保不溢出、不被覆盖） —— */
+.文章区域 { padding-top: 8px; overflow: visible; }
+#头条容器, #次条容器, #列表容器 {
+    display: block;
+    overflow: visible;
+}
 
 /* —— 头条卡片 —— */
 #头条容器 [class*="卡片"],
@@ -250,8 +254,8 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     border-radius: 0 var(--radius) var(--radius) 0;
     padding: 34px 32px;
     margin-bottom: 24px;
-    transition: background 0.25s var(--ease);
     cursor: pointer;
+    transition: background 0.2s var(--ease);
 }
 #头条容器 [class*="卡片"]:hover,
 #头条容器 article:hover { background: var(--surface-2); }
@@ -286,6 +290,27 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     max-width: 90%;
 }
 
+/* 头条标签栏 */
+.头条标签栏 { margin-top: 12px; }
+.头条标签 {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--brass);
+    background: rgba(168, 120, 48, 0.08);
+    border-radius: 3px;
+    padding: 2px 8px;
+    letter-spacing: 0.03em;
+    margin-right: 6px;
+    margin-bottom: 4px;
+}
+.头条标签::before { content: '#'; margin-right: 1px; opacity: 0.5; }
+.头条元信息 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
 /* —— 次条双栏 —— */
 #次条容器 {
     display: grid;
@@ -300,21 +325,19 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 28px 28px;
-    margin-bottom: 0;
-    height: 100%;
+    padding: 26px 28px;
     cursor: pointer;
-    transition: background 0.25s var(--ease);
+    transition: background 0.2s var(--ease);
 }
 #次条容器 [class*="卡片"]:hover,
 #次条容器 article:hover { background: var(--surface-2); }
 
 #次条容器 [class*="来源"] {
+    display: block;
     font-size: 12.5px;
     color: var(--brass);
     letter-spacing: 0.04em;
     margin-bottom: 10px;
-    display: block;
 }
 #次条容器 [class*="标题"] {
     font-family: var(--font-serif);
@@ -350,28 +373,23 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 }
 
 /* —— 紧凑列表 —— */
-#列表容器 > div[class*="列表区域标题"],
-#列表容器 > h2,
-#列表容器 > h3,
 .列表区域标题 {
     font-family: var(--font-serif);
     font-weight: 400;
     font-size: 14px;
     color: var(--text-faint);
     letter-spacing: 0.08em;
-    margin: 40px 0 16px;
+    margin: 36px 0 14px;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--line);
 }
 
-#列表容器 [class*="列表项"],
-#列表容器 li,
+.资讯列表 { list-style: none; }
+
 .资讯列表项 {
     border-bottom: 1px solid var(--line-soft);
-    transition: padding 0.25s var(--ease);
+    transition: padding 0.2s var(--ease);
 }
-#列表容器 [class*="列表项"]:hover,
-#列表容器 li:hover,
 .资讯列表项:hover { padding-left: 6px; }
 
 .资讯列表链接 {
@@ -421,27 +439,8 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     flex-shrink: 0;
 }
 
-/* 标签 pill */
-.头条标签 {
-    font-size: 12px;
-    color: var(--brass);
-    background: rgba(217, 160, 74, 0.1);
-    border-radius: 4px;
-    padding: 2px 8px;
-    letter-spacing: 0.03em;
-    margin-right: 4px;
-}
-.头条标签::before { content: '#'; margin-right: 1px; opacity: 0.6; }
-
-/* —— 文章区域内通用兜底 —— */
-.文章区域 [class*="卡片"]:hover,
-.文章区域 article:hover {
-    background: var(--surface-2);
-    border-color: var(--line);
-}
-
 /* ---------- 加载更多 ---------- */
-.加载区域 { text-align: center; padding: 44px 0 0; }
+.加载区域 { text-align: center; padding: 40px 0 0; }
 .加载更多按钮 {
     font-family: var(--font-sans);
     font-size: 14px;
@@ -449,10 +448,10 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: transparent;
     border: 1px solid var(--line);
     border-radius: 100px;
-    padding: 11px 30px;
+    padding: 10px 28px;
     cursor: pointer;
     letter-spacing: 0.06em;
-    transition: 0.25s var(--ease);
+    transition: 0.2s var(--ease);
 }
 .加载更多按钮:hover {
     color: var(--text);
@@ -474,29 +473,29 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     letter-spacing: 0.04em;
 }
 
-/* ---------- 页面标题（分类/搜索/关于） ---------- */
+/* ---------- 页面标题 ---------- */
 .页面标题 {
     font-family: var(--font-serif);
     font-weight: 400;
     font-size: clamp(28px, 5vw, 38px);
     letter-spacing: 0.03em;
     color: var(--text);
-    padding: 64px 0 32px;
+    padding: 56px 0 28px;
 }
 
 /* ---------- 分类网格 ---------- */
 .分类网格 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 16px;
+    gap: 14px;
 }
 .分类卡片 {
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 26px 24px;
+    padding: 24px;
     cursor: pointer;
-    transition: 0.25s var(--ease);
+    transition: 0.2s var(--ease);
 }
 .分类卡片:hover {
     background: var(--surface-2);
@@ -505,16 +504,16 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .分类卡片 h3 {
     font-family: var(--font-serif);
     font-weight: 400;
-    font-size: 21px;
+    font-size: 20px;
     letter-spacing: 0.03em;
     color: var(--text);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .分类卡片 p {
     font-size: 14px;
-    line-height: 1.75;
+    line-height: 1.7;
     color: var(--text-dim);
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 .分类卡片数量 {
     font-family: var(--font-mono);
@@ -523,7 +522,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 }
 
 /* ---------- 搜索 ---------- */
-.搜索区域 { margin-bottom: 36px; }
+.搜索区域 { margin-bottom: 32px; }
 .搜索输入组 { display: flex; gap: 10px; }
 .搜索输入框 {
     flex: 1;
@@ -533,30 +532,30 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    padding: 13px 16px;
+    padding: 12px 16px;
 }
 .搜索输入框::placeholder { color: var(--text-faint); }
 .搜索输入框:focus { outline: none; border-color: var(--brass-dim); }
 .搜索按钮 {
     font-family: var(--font-sans);
     font-size: 14px;
-    color: var(--bg);
+    color: #fff;
     background: var(--brass);
     border: none;
     border-radius: var(--radius);
-    padding: 0 26px;
+    padding: 0 24px;
     cursor: pointer;
     letter-spacing: 0.05em;
     transition: 0.2s var(--ease);
 }
-.搜索按钮:hover { background: var(--rust); color: #fff; }
+.搜索按钮:hover { background: var(--rust); }
 
 .搜索建议 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 18px;
+    margin-top: 16px;
 }
 .搜索建议 > span { font-size: 13px; color: var(--text-faint); }
 .建议标签 {
@@ -566,7 +565,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: transparent;
     border: 1px solid var(--line);
     border-radius: 100px;
-    padding: 5px 13px;
+    padding: 4px 12px;
     cursor: pointer;
     transition: 0.2s var(--ease);
 }
@@ -582,10 +581,10 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     text-align: center;
 }
 
-/* ---------- 详情视图（文章正文页） ---------- */
+/* ---------- 详情视图 ---------- */
 .详情容器 {
-    padding: 56px 0;
-    max-width: 38em;
+    padding: 48px 0;
+    max-width: var(--readw);
     margin: 0 auto;
 }
 .详情返回 {
@@ -597,7 +596,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     border: none;
     background: transparent;
     cursor: pointer;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
     letter-spacing: 0.03em;
     transition: color 0.2s var(--ease);
 }
@@ -610,15 +609,15 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     line-height: 1.25;
     letter-spacing: 0.02em;
     color: var(--text);
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .详情元信息 {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    margin-bottom: 36px;
-    padding-bottom: 28px;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
     border-bottom: 1px solid var(--line);
     font-size: 13px;
     color: var(--text-faint);
@@ -643,7 +642,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     margin: 32px 0 12px;
     letter-spacing: 0.02em;
 }
-.详情正文 strong { color: #fff; font-weight: 500; }
+.详情正文 strong { color: var(--text); font-weight: 600; }
 .详情正文 blockquote {
     border-left: 2px solid var(--brass);
     padding: 4px 0 4px 20px;
@@ -656,21 +655,21 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     font-size: 0.88em;
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 4px;
+    border-radius: 3px;
     padding: 2px 6px;
     color: var(--brass);
 }
-.详情正文 a { color: var(--rust); border-bottom: 1px solid rgba(199, 97, 59, 0.3); }
+.详情正文 a { color: var(--rust); border-bottom: 1px solid rgba(168, 80, 58, 0.25); }
 .详情正文 a:hover { color: var(--brass); border-bottom-color: var(--brass); }
 
 .详情来源链接 {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-top: 32px;
+    margin-top: 28px;
     font-size: 14px;
     color: var(--rust);
-    border-bottom: 1px solid rgba(199, 97, 59, 0.3);
+    border-bottom: 1px solid rgba(168, 80, 58, 0.25);
     letter-spacing: 0.03em;
     transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
 }
@@ -678,26 +677,26 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 
 /* ---------- 关于 ---------- */
 .关于容器 { padding-bottom: 40px; }
-.关于内容 section { margin-bottom: 40px; }
+.关于内容 section { margin-bottom: 36px; }
 .关于内容 h3 {
     font-family: var(--font-serif);
     font-weight: 400;
     font-size: 19px;
     color: var(--brass);
     letter-spacing: 0.04em;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 .关于内容 p {
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.85;
     color: var(--text);
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
-.关于内容 strong { color: var(--text); font-weight: 500; }
+.关于内容 strong { color: var(--text); font-weight: 600; }
 .关于内容 ul { list-style: none; }
 .关于内容 li {
     font-size: 15.5px;
-    line-height: 1.85;
+    line-height: 1.8;
     color: var(--text-dim);
     padding-left: 18px;
     position: relative;
@@ -714,19 +713,19 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     font-size: 0.88em;
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 4px;
+    border-radius: 3px;
     padding: 2px 6px;
     color: var(--brass);
 }
 
-.来源列表 { display: flex; flex-wrap: wrap; gap: 9px; }
+.来源列表 { display: flex; flex-wrap: wrap; gap: 8px; }
 .来源项 {
     font-size: 13px;
     color: var(--text-dim);
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: 100px;
-    padding: 6px 14px;
+    padding: 5px 14px;
     letter-spacing: 0.02em;
 }
 
@@ -738,7 +737,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .页脚容器 {
     max-width: var(--maxw);
     margin: 0 auto;
-    padding: 32px 24px;
+    padding: 28px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -768,8 +767,8 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     position: fixed;
     right: 28px;
     bottom: 28px;
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: var(--surface);
     border: 1px solid var(--line);
@@ -787,9 +786,9 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 }
 .返回顶部:hover { color: var(--brass); border-color: var(--brass-dim); }
 
-/* ---------- 高亮（搜索用） ---------- */
+/* ---------- 高亮 ---------- */
 mark {
-    background: rgba(217, 160, 74, 0.2);
+    background: rgba(168, 120, 48, 0.15);
     color: var(--brass);
     padding: 1px 3px;
 }
@@ -797,10 +796,10 @@ mark {
 /* ============================================================
    响应式
    ============================================================ */
-@media (max-width: 640px) {
+@media (max-width: 700px) {
     .主内容 { padding: 0 18px 80px; }
     .导航容器 { padding: 16px 18px; }
-    .标题区域 { padding: 48px 0 28px; }
+    .标题区域 { padding: 44px 0 24px; }
     .统计条 { gap: 26px; }
     #次条容器 { grid-template-columns: 1fr; }
 
@@ -833,5 +832,5 @@ mark {
     .列表元信息 { min-width: auto; width: 100%; }
     .列表标题 { min-width: auto; width: 100%; }
     .列表分类 { display: none; }
-    .返回顶部 { right: 18px; bottom: 18px; width: 38px; height: 38px; }
+    .返回顶部 { right: 16px; bottom: 16px; width: 36px; height: 36px; }
 }
