@@ -57,6 +57,11 @@ if 缺少的包:
 # 数据文件路径
 脚本目录 = Path(__file__).parent
 数据库路径 = 脚本目录 / "文章数据库.json"
+登记路径 = 脚本目录 / "修改登记.json"
+
+# 当前采集智能体身份（运行前可通过环境变量覆盖）
+采集智能体名称 = os.environ.get("AURORA_AGENT_NAME", "自动采集脚本 (Python)")
+采集操作人 = os.environ.get("AURORA_OPERATOR", "GitHub Actions")
 
 # HTTP 请求头（模拟浏览器，避免被反爬）
 请求头 = {
@@ -500,6 +505,56 @@ def 保存数据库(文章列表):
     print(f"[保存] 数据库已更新，共 {len(文章列表)} 篇文章")
 
 
+def 登记修改(新增数量):
+    """铁律：任何智能体修改文件必须在修改登记中记录。
+    本函数在自动采集脚本修改文章数据库后，将本次操作写入修改登记.json。"""
+    try:
+        登记数据 = {"修改历史": []}
+        if 登记路径.exists():
+            try:
+                with open(登记路径, "r", encoding="utf-8") as f:
+                    登记数据 = json.load(f)
+            except (json.JSONDecodeError, IOError):
+                登记数据 = {"修改历史": []}
+
+        # 构建新记录
+        新记录 = {
+            "id": len(登记数据.get("修改历史", [])) + 1,
+            "时间": datetime.now().strftime("%Y-%m-%dT%H:%M:%S+08:00"),
+            "智能体": 采集智能体名称,
+            "操作人": 采集操作人,
+            "修改文件": ["文章数据库.json"],
+            "改动摘要": f"自动采集：新增 {新增数量} 篇文章",
+            "改动原因": "GitHub Actions 定时自动采集最新AI资讯"
+        }
+
+        # 更新历史
+        if "修改历史" not in 登记数据:
+            登记数据["修改历史"] = []
+        登记数据["修改历史"].insert(0, 新记录)
+
+        # 更新文件最后修改记录
+        if "files_last_modified" not in 登记数据:
+            登记数据["files_last_modified"] = {}
+        登记数据["files_last_modified"]["文章数据库.json"] = {
+            "最后修改者": 采集智能体名称,
+            "操作人": 采集操作人,
+            "时间": 新记录["时间"]
+        }
+
+        登记数据["最后更新"] = 新记录["时间"]
+
+        # 写入
+        临时路径 = 登记路径.with_suffix(".tmp")
+        with open(临时路径, "w", encoding="utf-8") as f:
+            json.dump(登记数据, f, ensure_ascii=False, indent=2)
+        临时路径.replace(登记路径)
+        print(f"[登记] 已在修改登记中记录本次变更")
+
+    except Exception as e:
+        print(f"[登记] 警告：修改登记写入失败 - {e}")
+
+
 def 生成内容摘要(文章列表):
     """为缺少内容的文章生成内容字段"""
     for 文章 in 文章列表:
@@ -510,12 +565,12 @@ def 生成内容摘要(文章列表):
 def 主流程():
     """主执行流程"""
     print("=" * 60)
-    print("🌌 极光引擎 - 每日AI资讯自动采集")
-    print(f"📅 运行时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("极光引擎 · 每日AI资讯自动采集")
+    print(f"运行时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
     # 1. 加载已有数据
-    print("\n[步骤1] 加载已有数据库...")
+    print(f"\n[步骤1] 加载已有数据库...")
     已有文章 = 加载已有数据库()
     print(f"  当前数据库共有 {len(已有文章)} 篇文章")
 
@@ -533,12 +588,12 @@ def 主流程():
             if 新文章:
                 去重后 = 文章去重(新文章, 已有文章 + 所有新文章)
                 所有新文章.extend(去重后)
-                print(f"  ✅ {来源名称}：获取 {len(新文章)} 篇，去重后 {len(去重后)} 篇")
+                print(f"  [OK] {来源名称}：获取 {len(新文章)} 篇，去重后 {len(去重后)} 篇")
                 成功数 += 1
             else:
-                print(f"  ⚠️ {来源名称}：未获取到文章")
+                print(f"  [--] {来源名称}：未获取到文章")
         except Exception as e:
-            print(f"  ❌ {来源名称}：采集失败 - {e}")
+            print(f"  [!!] {来源名称}：采集失败 - {e}")
             失败数 += 1
 
         # 请求间隔，避免被封
@@ -565,9 +620,12 @@ def 主流程():
         合并后.sort(key=lambda x: x.get("日期", "2000-01-01"), reverse=True)
 
         保存数据库(合并后)
-        print(f"  ✅ 数据库更新完成！新增 {len(所有新文章)} 篇，总计 {len(合并后)} 篇")
+        print(f"  [OK] 数据库更新完成！新增 {len(所有新文章)} 篇，总计 {len(合并后)} 篇")
+
+        # 铁律：任何智能体修改文件必须登记
+        登记修改(len(所有新文章))
     else:
-        print("  ℹ️ 没有新文章，数据库保持不变")
+        print("  [--] 没有新文章，数据库保持不变")
 
     # 4. 输出新增文章标题
     if 所有新文章:
@@ -576,7 +634,7 @@ def 主流程():
             print(f"  {i}. [{文章['来源']}] {文章['标题'][:60]}")
 
     print(f"\n{'=' * 60}")
-    print(f"🌌 采集任务完成！")
+    print("采集任务完成。")
     print(f"{'=' * 60}")
 
     return len(所有新文章)

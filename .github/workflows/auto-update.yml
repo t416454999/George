@@ -52,6 +52,8 @@ jobs:
           echo " Aurora Engine - Daily AI News Fetch"
           echo " Time: $(date '+%Y-%m-%d %H:%M:%S')"
           echo "================================================"
+          export AURORA_AGENT_NAME="自动采集脚本 (GitHub Actions)"
+          export AURORA_OPERATOR="GitHub Actions Bot"
           python 自动采集AI资讯.py
           echo "Fetch completed"
 
@@ -83,7 +85,7 @@ jobs:
         run: |
           git config user.name "Aurora Bot"
           git config user.email "aurora-bot@users.noreply.github.com"
-          git add 文章数据库.json
+          git add 文章数据库.json 修改登记.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
