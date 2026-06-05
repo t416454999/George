@@ -1,49 +1,33 @@
 /* ============================================================
    极光引擎 · 暖纸墨印主题
    设计语言：纸质刊物 / 编辑阅读
-   暖白纸底，克制暗字，一道极淡暖光在顶。
-   不刺眼、不甜腻、不科技。
    最后修改：见 修改登记.json
    ============================================================ */
 
-/* ---------- 设计令牌 ---------- */
 :root {
-    /* 背景 — 暖调纸白 */
     --bg:            #FCF9F3;
     --surface:       #F4F0E8;
     --surface-2:     #ECE7DD;
-
-    /* 文字 — 深棕，非纯黑，不刺眼 */
     --text:          #2C2416;
     --text-dim:      #6B5E4E;
     --text-faint:    #9E9180;
-
-    /* 边框 — 极淡暖灰 */
     --line:          #E5DFD3;
     --line-soft:     #EDE8DF;
-
-    /* 强调色 — 暖金 + 铁锈 */
     --brass:         #A07830;
     --brass-dim:     #8B6620;
     --rust:          #B8503A;
     --rust-dim:      #9A3E2A;
-
-    /* 字体 — 系统衬线，不依赖CDN */
-    --font-serif: "Songti SC", "STSong", "SimSun", Georgia, "Times New Roman", serif;
+    --font-serif: "Songti SC", "STSong", "SimSun", Georgia, serif;
     --font-sans:  -apple-system, BlinkMacSystemFont, "PingFang SC",
-                  "HarmonyOS Sans SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
-    --font-mono:  "SF Mono", "JetBrains Mono", "Cascadia Code", "Consolas", ui-monospace, monospace;
-
-    /* 布局 */
-    --maxw: 1280px;
+                  "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    --font-mono:  "SF Mono", "JetBrains Mono", "Cascadia Code", "Consolas", monospace;
+    --maxw: 1100px;
     --readw: 680px;
     --radius: 4px;
     --ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ---------- 基础 ---------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
 html { scroll-behavior: smooth; }
 
 body {
@@ -54,749 +38,284 @@ body {
     line-height: 1.75;
     letter-spacing: 0.01em;
     -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
 }
-
 a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
-
 ::selection { background: rgba(168, 120, 48, 0.2); color: var(--text); }
-
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: var(--text-faint); }
 
 /* ---------- 导航栏 ---------- */
 .导航栏 {
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    position: sticky; top: 0; z-index: 50;
     background: rgba(252, 249, 243, 0.94);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--line);
 }
 .导航栏.隐藏 { transform: translateY(-100%); }
-
 .导航容器 {
-    max-width: var(--maxw);
-    margin: 0 auto;
-    padding: 18px 28px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    max-width: var(--maxw); margin: 0 auto; padding: 18px 28px;
+    display: flex; align-items: center; justify-content: space-between;
 }
-
 .网站标志 {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    font-family: var(--font-serif);
-    font-size: 19px;
-    letter-spacing: 0.06em;
-    color: var(--text);
+    display: inline-flex; align-items: center; gap: 9px;
+    font-family: var(--font-serif); font-size: 19px;
+    letter-spacing: 0.06em; color: var(--text);
 }
-
 .标志标记 {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--rust);
-    box-shadow: 0 0 6px rgba(168, 80, 58, 0.3);
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--rust); box-shadow: 0 0 6px rgba(168, 80, 58, 0.3);
 }
-
 .导航菜单 { display: flex; gap: 28px; }
-
 .导航链接 {
-    font-size: 14.5px;
-    color: var(--text-dim);
-    letter-spacing: 0.04em;
-    padding-bottom: 2px;
+    font-size: 14.5px; color: var(--text-dim);
+    letter-spacing: 0.04em; padding-bottom: 2px;
     border-bottom: 1px solid transparent;
     transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
 }
 .导航链接:hover { color: var(--text); }
-.导航链接.活跃 {
-    color: var(--text);
-    border-bottom-color: var(--brass);
-}
-
-.菜单按钮 {
-    display: none;
-    flex-direction: column;
-    gap: 5px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 4px;
-}
-.菜单按钮 span {
-    width: 22px;
-    height: 1.5px;
-    background: var(--text-dim);
-    border-radius: 1px;
-    transition: 0.25s var(--ease);
-}
+.导航链接.活跃 { color: var(--text); border-bottom-color: var(--brass); }
+.菜单按钮 { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; }
+.菜单按钮 span { width: 22px; height: 1.5px; background: var(--text-dim); border-radius: 1px; transition: 0.25s var(--ease); }
 .菜单按钮.展开 span:nth-child(1) { transform: rotate(45deg) translate(4.5px, 4.5px); }
 .菜单按钮.展开 span:nth-child(2) { opacity: 0; }
 .菜单按钮.展开 span:nth-child(3) { transform: rotate(-45deg) translate(4.5px, -4.5px); }
 
 /* ---------- 主内容 ---------- */
-.主内容 {
-    max-width: var(--maxw);
-    margin: 0 auto;
-    padding: 0 28px 100px;
-}
-
+.主内容 { max-width: var(--maxw); margin: 0 auto; padding: 0 28px 100px; }
 .页面视图 { display: none; }
-.活跃视图 {
-    display: block;
-    animation: 淡入 0.4s var(--ease) both;
-}
-@keyframes 淡入 {
-    from { opacity: 0; transform: translateY(6px); }
-    to   { opacity: 1; transform: translateY(0); }
-}
+.活跃视图 { display: block; animation: 淡入 0.4s var(--ease) both; }
+@keyframes 淡入 { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
 
 /* ---------- 标题区 ---------- */
 .标题区域 { padding: 64px 0 32px; }
 .主标题 {
-    font-family: var(--font-serif);
-    font-size: clamp(36px, 6vw, 52px);
-    font-weight: 500;
-    line-height: 1.15;
-    letter-spacing: 0.04em;
-    color: var(--text);
+    font-family: var(--font-serif); font-size: clamp(36px, 6vw, 52px);
+    font-weight: 500; line-height: 1.15; letter-spacing: 0.04em; color: var(--text);
 }
-.副标题 {
-    margin-top: 16px;
-    max-width: 30em;
-    font-size: 16px;
-    line-height: 1.8;
-    color: var(--text-dim);
-}
+.副标题 { margin-top: 16px; max-width: 30em; font-size: 16px; line-height: 1.8; color: var(--text-dim); }
 
 /* ---------- 统计条 ---------- */
-.统计条 {
-    display: flex;
-    gap: 40px;
-    padding: 24px 0 32px;
-    border-bottom: 1px solid var(--line);
-}
+.统计条 { display: flex; gap: 40px; padding: 24px 0 32px; border-bottom: 1px solid var(--line); }
 .统计项 { display: flex; align-items: baseline; gap: 7px; }
-.统计数字 {
-    font-family: var(--font-mono);
-    font-size: 22px;
-    color: var(--brass);
-    letter-spacing: 0.02em;
-}
+.统计数字 { font-family: var(--font-mono); font-size: 22px; color: var(--brass); letter-spacing: 0.02em; }
 .统计标签 { font-size: 13px; color: var(--text-faint); }
 
 /* ---------- 筛选栏 ---------- */
-.筛选栏 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 24px 0;
-}
+.筛选栏 { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding: 24px 0; }
 .分类标签组 { display: flex; flex-wrap: wrap; gap: 8px; }
 .分类标签 {
-    font-family: var(--font-sans);
-    font-size: 13.5px;
-    color: var(--text-dim);
-    background: transparent;
-    border: 1px solid var(--line);
-    border-radius: 100px;
-    padding: 5px 14px;
-    cursor: pointer;
-    transition: 0.2s var(--ease);
+    font-size: 13.5px; color: var(--text-dim); background: transparent;
+    border: 1px solid var(--line); border-radius: 100px; padding: 5px 14px;
+    cursor: pointer; transition: 0.2s var(--ease);
 }
 .分类标签:hover { color: var(--text); border-color: var(--text-faint); }
-.分类标签.活跃 {
-    color: #fff;
-    background: var(--brass);
-    border-color: var(--brass);
-    font-weight: 500;
-}
-
+.分类标签.活跃 { color: #fff; background: var(--brass); border-color: var(--brass); font-weight: 500; }
 .排序下拉 {
-    font-family: var(--font-sans);
-    font-size: 13.5px;
-    color: var(--text-dim);
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 6px 12px;
-    cursor: pointer;
+    font-size: 13.5px; color: var(--text-dim); background: var(--surface);
+    border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 12px; cursor: pointer;
 }
 .排序下拉:focus { outline: none; border-color: var(--brass-dim); }
 
 /* ============================================================
    文章渲染区
    ============================================================ */
-
-/* —— 文章区域容器（确保不溢出、不被覆盖） —— */
 .文章区域 { padding-top: 8px; overflow: visible; }
-#头条容器, #次条容器, #列表容器 {
-    display: block;
-    overflow: visible;
-}
 
-/* —— 头条卡片 —— */
-#头条容器 [class*="卡片"],
-#头条容器 article {
-    display: block;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-left: 2px solid var(--rust);
-    border-radius: 0 var(--radius) var(--radius) 0;
-    padding: 34px 32px;
-    margin-bottom: 24px;
-    cursor: pointer;
+/* —— 特征区：4 个等大卡片，2×2 —— */
+.特征区标题 {
+    font-family: var(--font-serif); font-weight: 400; font-size: 14px;
+    color: var(--text-faint); letter-spacing: 0.08em;
+    margin: 0 0 16px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
+}
+.特征网格 {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 40px;
+}
+.特征卡片 {
+    display: block; background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 26px 28px; cursor: pointer;
     transition: background 0.2s var(--ease);
 }
-#头条容器 [class*="卡片"]:hover,
-#头条容器 article:hover { background: var(--surface-2); }
-
-#头条容器 [class*="来源"] {
-    font-size: 12.5px;
-    color: var(--brass);
-    letter-spacing: 0.04em;
+.特征卡片:hover { background: var(--surface-2); }
+.特征卡片 .卡片来源 {
+    font-size: 12.5px; color: var(--brass); letter-spacing: 0.04em;
 }
-#头条容器 [class*="日期"],
-#头条容器 [class*="分类"] {
-    font-size: 12px;
-    color: var(--text-faint);
-    letter-spacing: 0.02em;
+.特征卡片 .卡片元信息 {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 12px;
 }
-#头条容器 [class*="标题"] {
-    font-family: var(--font-serif);
-    font-weight: 500;
-    font-size: clamp(24px, 4vw, 32px);
-    line-height: 1.35;
-    letter-spacing: 0.02em;
-    color: var(--text);
-    margin: 14px 0 10px;
+.特征卡片 .卡片日期 { font-size: 12px; color: var(--text-faint); }
+.特征卡片 .卡片分类 { font-size: 12px; color: var(--text-faint); letter-spacing: 0.03em; }
+.特征卡片 .卡片标题 {
+    font-family: var(--font-serif); font-weight: 500; font-size: 19px;
+    line-height: 1.4; color: var(--text); margin-bottom: 8px;
     transition: color 0.2s var(--ease);
 }
-#头条容器 [class*="卡片"]:hover [class*="标题"] { color: var(--brass); }
-
-#头条容器 [class*="摘要"] {
-    font-size: 15px;
-    line-height: 1.8;
-    color: var(--text-dim);
-    max-width: 90%;
+.特征卡片:hover .卡片标题 { color: var(--brass); }
+.特征卡片 .卡片摘要 { font-size: 14px; line-height: 1.7; color: var(--text-dim); }
+.特征卡片 .卡片标签栏 { margin-top: 10px; }
+.特征卡片 .卡片标签 {
+    display: inline-block; font-size: 12px; color: var(--brass);
+    background: rgba(168, 120, 48, 0.08); border-radius: 3px;
+    padding: 2px 6px; margin-right: 4px; margin-bottom: 4px; letter-spacing: 0.03em;
 }
 
-/* 头条标签栏 */
-.头条标签栏 { margin-top: 12px; }
-.头条标签 {
-    display: inline-block;
-    font-size: 12px;
-    color: var(--brass);
-    background: rgba(168, 120, 48, 0.08);
-    border-radius: 3px;
-    padding: 2px 8px;
-    letter-spacing: 0.03em;
-    margin-right: 6px;
-    margin-bottom: 4px;
+/* —— 一手消息区块 —— */
+.一手区块 { margin-bottom: 40px; }
+.一手标题 {
+    font-family: var(--font-serif); font-weight: 400; font-size: 14px;
+    color: var(--text-faint); letter-spacing: 0.08em;
+    margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
 }
-.头条标签::before { content: '#'; margin-right: 1px; opacity: 0.5; }
-.头条元信息 {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    flex-wrap: wrap;
+.一手列表 { list-style: none; }
+.一手列表项 { border-bottom: 1px solid var(--line-soft); }
+.一手列表链接 {
+    display: flex; align-items: baseline; gap: 16px; padding: 12px 0; flex-wrap: wrap;
+    transition: padding 0.2s var(--ease);
 }
-
-/* —— 次条双栏 —— */
-#次条容器 {
-    margin-bottom: 24px;
+.一手列表链接:hover { padding-left: 6px; }
+.一手标记 {
+    font-size: 11px; color: var(--rust); letter-spacing: 0.06em;
+    border: 1px solid rgba(168, 80, 58, 0.3); border-radius: 2px;
+    padding: 1px 6px; flex-shrink: 0; white-space: nowrap;
 }
-
-.次条网格 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-}
-
-#次条容器 [class*="卡片"],
-#次条容器 article {
-    display: block;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 26px 28px;
-    cursor: pointer;
-    transition: background 0.2s var(--ease);
-}
-#次条容器 [class*="卡片"]:hover,
-#次条容器 article:hover { background: var(--surface-2); }
-
-#次条容器 [class*="来源"] {
-    display: block;
-    font-size: 12.5px;
-    color: var(--brass);
-    letter-spacing: 0.04em;
-    margin-bottom: 10px;
-}
-#次条容器 [class*="标题"] {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 1.4;
-    letter-spacing: 0.02em;
-    color: var(--text);
-    margin-bottom: 8px;
+.一手来源 { font-size: 12.5px; color: var(--brass); letter-spacing: 0.04em; }
+.一手日期 { font-family: var(--font-mono); font-size: 12px; color: var(--text-faint); }
+.一手标题文字 {
+    flex: 1; font-family: var(--font-serif); font-weight: 400; font-size: 16px;
+    line-height: 1.45; color: var(--text); min-width: 260px;
     transition: color 0.2s var(--ease);
 }
-#次条容器 [class*="卡片"]:hover [class*="标题"] { color: var(--brass); }
+.一手列表项:hover .一手标题文字 { color: var(--brass); }
 
-#次条容器 [class*="摘要"] {
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--text-dim);
-    margin-bottom: 12px;
-}
-#次条容器 [class*="日期"],
-#次条容器 [class*="时间"],
-#次条容器 [class*="热度"],
-#次条容器 [class*="元信息"] {
-    font-family: var(--font-mono);
-    font-size: 12px;
-    color: var(--text-faint);
-    letter-spacing: 0.02em;
-}
-#次条容器 [class*="分类"] {
-    font-size: 12px;
-    color: var(--text-faint);
-    letter-spacing: 0.03em;
-}
-
-/* —— 更多资讯 — 横向流式卡片，杜绝竖向堆叠 —— */
+/* —— 更多资讯：纯文字行 —— */
 .列表区域标题 {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--text-faint);
-    letter-spacing: 0.08em;
-    margin: 36px 0 16px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--line);
-    width: 100%;
+    font-family: var(--font-serif); font-weight: 400; font-size: 14px;
+    color: var(--text-faint); letter-spacing: 0.08em;
+    margin: 40px 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
 }
-
-.资讯列表 {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-}
-
-.资讯列表项 {
-    flex: 1 1 280px;
-    min-width: 260px;
-    max-width: 100%;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    transition: background 0.2s var(--ease);
-}
-.资讯列表项:hover { background: var(--surface-2); }
-
+.资讯列表 { list-style: none; }
+.资讯列表项 { border-bottom: 1px solid var(--line-soft); }
 .资讯列表链接 {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 20px 22px;
-    height: 100%;
+    display: flex; align-items: baseline; gap: 14px; padding: 11px 0; flex-wrap: wrap;
+    transition: padding 0.2s var(--ease);
 }
-
-.列表元信息 {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-.列表来源 {
-    font-size: 12px;
-    color: var(--brass);
-    letter-spacing: 0.04em;
-}
-.列表日期 {
-    font-family: var(--font-mono);
-    font-size: 11.5px;
-    color: var(--text-faint);
-    letter-spacing: 0.02em;
-}
-.列表分隔 { color: var(--line); font-size: 11px; }
-
+.资讯列表链接:hover { padding-left: 6px; }
+.列表元信息 { display: flex; align-items: center; gap: 6px; flex-shrink: 0; min-width: 130px; }
+.列表来源 { font-size: 12.5px; color: var(--brass); letter-spacing: 0.04em; }
+.列表日期 { font-family: var(--font-mono); font-size: 12px; color: var(--text-faint); }
+.列表分隔 { color: var(--line); font-size: 12px; }
 .列表标题 {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.45;
-    color: var(--text);
-    transition: color 0.2s var(--ease);
+    flex: 1; font-family: var(--font-serif); font-weight: 400; font-size: 16px;
+    line-height: 1.45; color: var(--text); min-width: 260px; transition: color 0.2s var(--ease);
 }
 .资讯列表项:hover .列表标题 { color: var(--brass); }
+.列表分类 { font-size: 12px; color: var(--text-faint); letter-spacing: 0.03em; flex-shrink: 0; }
 
-.列表分类 { display: none; }
+/* —— GitHub 工具排行 —— */
+.工具区块 { margin-top: 40px; }
+.工具标题 {
+    font-family: var(--font-serif); font-weight: 400; font-size: 14px;
+    color: var(--text-faint); letter-spacing: 0.08em;
+    margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
+}
+.工具列表 { list-style: none; counter-reset: 工具排行; }
+.工具列表项 {
+    counter-increment: 工具排行;
+    display: flex; align-items: baseline; gap: 14px;
+    padding: 14px 0; border-bottom: 1px solid var(--line-soft);
+    flex-wrap: wrap;
+}
+.工具列表项::before {
+    content: "#" counter(工具排行);
+    font-family: var(--font-mono); font-size: 14px;
+    color: var(--brass); letter-spacing: 0.04em; flex-shrink: 0; width: 28px;
+}
+.工具名 {
+    font-weight: 600; font-size: 15px; color: var(--text);
+    flex-shrink: 0; min-width: 120px;
+}
+.工具链接 { color: var(--rust); font-size: 12px; margin-left: 4px; }
+.工具链接:hover { color: var(--brass); }
+.工具说明 { font-size: 13.5px; color: var(--text-dim); line-height: 1.6; flex: 1; }
+.工具排行标记 {
+    font-size: 11px; color: var(--text-faint); letter-spacing: 0.04em;
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 100px; padding: 2px 10px; margin-left: 8px; flex-shrink: 0;
+}
 
-/* ---------- 加载更多 ---------- */
+/* ---------- 加载更多 / 空状态 / 页面标题 ---------- */
 .加载区域 { text-align: center; padding: 40px 0 0; }
 .加载更多按钮 {
-    font-family: var(--font-sans);
-    font-size: 14px;
-    color: var(--text-dim);
-    background: transparent;
-    border: 1px solid var(--line);
-    border-radius: 100px;
-    padding: 10px 28px;
-    cursor: pointer;
-    letter-spacing: 0.06em;
-    transition: 0.2s var(--ease);
+    font-size: 14px; color: var(--text-dim); background: transparent;
+    border: 1px solid var(--line); border-radius: 100px; padding: 10px 28px;
+    cursor: pointer; letter-spacing: 0.06em; transition: 0.2s var(--ease);
 }
-.加载更多按钮:hover {
-    color: var(--text);
-    border-color: var(--rust);
-}
-.加载更多按钮:disabled {
-    color: var(--text-faint);
-    border-color: var(--line);
-    cursor: not-allowed;
-}
+.加载更多按钮:hover { color: var(--text); border-color: var(--rust); }
+.加载更多按钮:disabled { color: var(--text-faint); border-color: var(--line); cursor: not-allowed; }
+.空状态 { text-align: center; padding: 80px 0; color: var(--text-faint); font-family: var(--font-serif); font-size: 16px; }
+.页面标题 { font-family: var(--font-serif); font-weight: 400; font-size: clamp(28px, 5vw, 38px); letter-spacing: 0.03em; color: var(--text); padding: 56px 0 28px; }
 
-/* ---------- 空状态 ---------- */
-.空状态 {
-    text-align: center;
-    padding: 80px 0;
-    color: var(--text-faint);
-    font-family: var(--font-serif);
-    font-size: 16px;
-    letter-spacing: 0.04em;
-}
+/* ---------- 分类网格 / 搜索 / 详情 / 关于 / 页脚 ---------- */
+.分类网格 { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+.分类卡片 { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; cursor: pointer; transition: 0.2s var(--ease); }
+.分类卡片:hover { background: var(--surface-2); border-color: var(--rust); }
+.分类卡片 h3 { font-family: var(--font-serif); font-weight: 400; font-size: 20px; color: var(--text); margin-bottom: 8px; }
+.分类卡片 p { font-size: 14px; color: var(--text-dim); margin-bottom: 14px; }
+.分类卡片数量 { font-family: var(--font-mono); font-size: 12px; color: var(--brass); }
 
-/* ---------- 页面标题 ---------- */
-.页面标题 {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: clamp(28px, 5vw, 38px);
-    letter-spacing: 0.03em;
-    color: var(--text);
-    padding: 56px 0 28px;
-}
-
-/* ---------- 分类网格 ---------- */
-.分类网格 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 14px;
-}
-.分类卡片 {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 24px;
-    cursor: pointer;
-    transition: 0.2s var(--ease);
-}
-.分类卡片:hover {
-    background: var(--surface-2);
-    border-color: var(--rust);
-}
-.分类卡片 h3 {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 0.03em;
-    color: var(--text);
-    margin-bottom: 8px;
-}
-.分类卡片 p {
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--text-dim);
-    margin-bottom: 14px;
-}
-.分类卡片数量 {
-    font-family: var(--font-mono);
-    font-size: 12px;
-    color: var(--brass);
-}
-
-/* ---------- 搜索 ---------- */
 .搜索区域 { margin-bottom: 32px; }
 .搜索输入组 { display: flex; gap: 10px; }
-.搜索输入框 {
-    flex: 1;
-    font-family: var(--font-sans);
-    font-size: 15px;
-    color: var(--text);
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 12px 16px;
-}
+.搜索输入框 { flex: 1; font-size: 15px; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 16px; }
 .搜索输入框::placeholder { color: var(--text-faint); }
 .搜索输入框:focus { outline: none; border-color: var(--brass-dim); }
-.搜索按钮 {
-    font-family: var(--font-sans);
-    font-size: 14px;
-    color: #fff;
-    background: var(--brass);
-    border: none;
-    border-radius: var(--radius);
-    padding: 0 24px;
-    cursor: pointer;
-    letter-spacing: 0.05em;
-    transition: 0.2s var(--ease);
-}
+.搜索按钮 { font-size: 14px; color: #fff; background: var(--brass); border: none; border-radius: var(--radius); padding: 0 24px; cursor: pointer; letter-spacing: 0.05em; transition: 0.2s var(--ease); }
 .搜索按钮:hover { background: var(--rust); }
-
-.搜索建议 {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 16px;
-}
+.搜索建议 { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .搜索建议 > span { font-size: 13px; color: var(--text-faint); }
-.建议标签 {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    color: var(--text-dim);
-    background: transparent;
-    border: 1px solid var(--line);
-    border-radius: 100px;
-    padding: 4px 12px;
-    cursor: pointer;
-    transition: 0.2s var(--ease);
-}
+.建议标签 { font-size: 13px; color: var(--text-dim); background: transparent; border: 1px solid var(--line); border-radius: 100px; padding: 4px 12px; cursor: pointer; transition: 0.2s var(--ease); }
 .建议标签:hover { color: var(--text); border-color: var(--rust); }
-
 .搜索结果 { min-height: 120px; }
-.搜索提示 {
-    color: var(--text-faint);
-    font-family: var(--font-serif);
-    font-size: 15px;
-    letter-spacing: 0.04em;
-    padding: 40px 0;
-    text-align: center;
-}
+.搜索提示 { color: var(--text-faint); font-family: var(--font-serif); font-size: 15px; padding: 40px 0; text-align: center; }
 
-/* ---------- 详情视图 ---------- */
-.详情容器 {
-    padding: 48px 0;
-    max-width: var(--readw);
-    margin: 0 auto;
-}
-.详情返回 {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 14px;
-    color: var(--text-faint);
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    margin-bottom: 24px;
-    letter-spacing: 0.03em;
-    transition: color 0.2s var(--ease);
-}
+.详情容器 { padding: 48px 0; max-width: var(--readw); margin: 0 auto; }
+.详情返回 { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--text-faint); border: none; background: transparent; cursor: pointer; margin-bottom: 24px; transition: color 0.2s var(--ease); }
 .详情返回:hover { color: var(--rust); }
-
-.详情标题 {
-    font-family: var(--font-serif);
-    font-weight: 500;
-    font-size: clamp(28px, 5vw, 40px);
-    line-height: 1.25;
-    letter-spacing: 0.02em;
-    color: var(--text);
-    margin-bottom: 16px;
-}
-
-.详情元信息 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin-bottom: 32px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid var(--line);
-    font-size: 13px;
-    color: var(--text-faint);
-    letter-spacing: 0.03em;
-}
-
+.详情标题 { font-family: var(--font-serif); font-weight: 500; font-size: clamp(28px, 5vw, 40px); line-height: 1.25; letter-spacing: 0.02em; color: var(--text); margin-bottom: 16px; }
+.详情元信息 { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid var(--line); font-size: 13px; color: var(--text-faint); }
 .详情正文 { font-size: 17px; line-height: 1.95; color: var(--text); }
 .详情正文 p { margin-bottom: 22px; }
-.详情正文 h2 {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--text);
-    margin: 40px 0 16px;
-    letter-spacing: 0.02em;
-}
-.详情正文 h3 {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 20px;
-    color: var(--text);
-    margin: 32px 0 12px;
-    letter-spacing: 0.02em;
-}
-.详情正文 strong { color: var(--text); font-weight: 600; }
-.详情正文 blockquote {
-    border-left: 2px solid var(--brass);
-    padding: 4px 0 4px 20px;
-    margin: 28px 0;
-    color: var(--text-dim);
-    font-family: var(--font-serif);
-}
-.详情正文 code {
-    font-family: var(--font-mono);
-    font-size: 0.88em;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 3px;
-    padding: 2px 6px;
-    color: var(--brass);
-}
-.详情正文 a { color: var(--rust); border-bottom: 1px solid rgba(168, 80, 58, 0.25); }
-.详情正文 a:hover { color: var(--brass); border-bottom-color: var(--brass); }
+.详情正文 h2 { font-family: var(--font-serif); font-weight: 400; font-size: 24px; color: var(--text); margin: 40px 0 16px; }
+.详情正文 h3 { font-family: var(--font-serif); font-weight: 400; font-size: 20px; color: var(--text); margin: 32px 0 12px; }
+.详情正文 strong { font-weight: 600; }
+.详情正文 blockquote { border-left: 2px solid var(--brass); padding: 4px 0 4px 20px; margin: 28px 0; color: var(--text-dim); font-family: var(--font-serif); }
+.详情正文 code { font-family: var(--font-mono); font-size: 0.88em; background: var(--surface); border: 1px solid var(--line); border-radius: 3px; padding: 2px 6px; color: var(--brass); }
+.详情正文 a, .详情来源链接 { color: var(--rust); border-bottom: 1px solid rgba(168, 80, 58, 0.25); }
+.详情正文 a:hover, .详情来源链接:hover { color: var(--brass); border-bottom-color: var(--brass); }
+.详情来源链接 { display: inline-flex; align-items: center; gap: 6px; margin-top: 28px; font-size: 14px; letter-spacing: 0.03em; }
 
-.详情来源链接 {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    margin-top: 28px;
-    font-size: 14px;
-    color: var(--rust);
-    border-bottom: 1px solid rgba(168, 80, 58, 0.25);
-    letter-spacing: 0.03em;
-    transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
-}
-.详情来源链接:hover { color: var(--brass); border-bottom-color: var(--brass); }
-
-/* ---------- 关于 ---------- */
 .关于容器 { padding-bottom: 40px; }
 .关于内容 section { margin-bottom: 36px; }
-.关于内容 h3 {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 19px;
-    color: var(--brass);
-    letter-spacing: 0.04em;
-    margin-bottom: 12px;
-}
-.关于内容 p {
-    font-size: 16px;
-    line-height: 1.85;
-    color: var(--text);
-    margin-bottom: 12px;
-}
-.关于内容 strong { color: var(--text); font-weight: 600; }
-.关于内容 ul { list-style: none; }
-.关于内容 li {
-    font-size: 15.5px;
-    line-height: 1.8;
-    color: var(--text-dim);
-    padding-left: 18px;
-    position: relative;
-    margin-bottom: 8px;
-}
-.关于内容 li::before {
-    content: "\2014";
-    position: absolute;
-    left: 0;
-    color: var(--rust);
-}
-.关于内容 code {
-    font-family: var(--font-mono);
-    font-size: 0.88em;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 3px;
-    padding: 2px 6px;
-    color: var(--brass);
-}
-
+.关于内容 h3 { font-family: var(--font-serif); font-weight: 400; font-size: 19px; color: var(--brass); letter-spacing: 0.04em; margin-bottom: 12px; }
+.关于内容 p { font-size: 16px; line-height: 1.85; color: var(--text); margin-bottom: 12px; }
+.关于内容 li { font-size: 15.5px; color: var(--text-dim); padding-left: 18px; position: relative; margin-bottom: 8px; }
+.关于内容 li::before { content: "\2014"; position: absolute; left: 0; color: var(--rust); }
+.关于内容 code { font-family: var(--font-mono); font-size: 0.88em; background: var(--surface); border: 1px solid var(--line); border-radius: 3px; padding: 2px 6px; color: var(--brass); }
 .来源列表 { display: flex; flex-wrap: wrap; gap: 8px; }
-.来源项 {
-    font-size: 13px;
-    color: var(--text-dim);
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 100px;
-    padding: 5px 14px;
-    letter-spacing: 0.02em;
-}
+.来源项 { font-size: 13px; color: var(--text-dim); background: var(--surface); border: 1px solid var(--line); border-radius: 100px; padding: 5px 14px; }
 
-/* ---------- 页脚 ---------- */
-.页脚 {
-    border-top: 1px solid var(--line);
-    margin-top: 40px;
-}
-.页脚容器 {
-    max-width: var(--maxw);
-    margin: 0 auto;
-    padding: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-.页脚信息 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    font-size: 13px;
-    color: var(--text-faint);
-}
-.页脚标志 {
-    font-family: var(--font-serif);
-    font-size: 15px;
-    color: var(--text-dim);
-    letter-spacing: 0.05em;
-}
+.页脚 { border-top: 1px solid var(--line); margin-top: 40px; }
+.页脚容器 { max-width: var(--maxw); margin: 0 auto; padding: 28px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.页脚信息 { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--text-faint); }
+.页脚标志 { font-family: var(--font-serif); font-size: 15px; color: var(--text-dim); }
 .页脚分割 { color: var(--line); }
 .页脚链接 a { font-size: 13px; color: var(--text-faint); }
 .页脚链接 a:hover { color: var(--rust); }
 
-/* ---------- 返回顶部 ---------- */
-.返回顶部 {
-    position: fixed;
-    right: 28px;
-    bottom: 28px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    color: var(--text-dim);
-    font-size: 18px;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s var(--ease);
-    z-index: 40;
-}
-.返回顶部.可见 {
-    opacity: 1;
-    pointer-events: auto;
-}
+.返回顶部 { position: fixed; right: 28px; bottom: 28px; width: 40px; height: 40px; border-radius: 50%; background: var(--surface); border: 1px solid var(--line); color: var(--text-dim); font-size: 18px; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity 0.3s var(--ease); z-index: 40; }
+.返回顶部.可见 { opacity: 1; pointer-events: auto; }
 .返回顶部:hover { color: var(--brass); border-color: var(--brass-dim); }
 
-/* ---------- 高亮 ---------- */
-mark {
-    background: rgba(168, 120, 48, 0.15);
-    color: var(--brass);
-    padding: 1px 3px;
-}
+mark { background: rgba(168, 120, 48, 0.15); color: var(--brass); padding: 1px 3px; }
 
 /* ============================================================
    响应式
@@ -806,40 +325,20 @@ mark {
     .导航容器 { padding: 16px 18px; }
     .标题区域 { padding: 44px 0 24px; }
     .统计条 { gap: 26px; }
-    .次条网格 { grid-template-columns: 1fr; }
-
-    .菜单按钮 { display: flex; }
-    .导航菜单 {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        gap: 0;
-        background: var(--bg);
-        border-bottom: 1px solid var(--line);
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s var(--ease);
-    }
-    .导航菜单.展开 { max-height: 320px; }
-    .导航链接 {
-        padding: 14px 24px;
-        border-bottom: 1px solid var(--line-soft);
-    }
-    .导航链接.活跃 {
-        border-bottom-color: var(--line-soft);
-        color: var(--brass);
-    }
-
+    .特征网格 { grid-template-columns: 1fr; }
     .筛选栏 { flex-direction: column; align-items: flex-start; }
     .搜索输入组 { flex-direction: column; }
-    .资讯列表项 { flex: 1 1 240px; min-width: 200px; }
-    .列表元信息 { min-width: auto; }
-    .列表标题 { min-width: 0; }
+    .列表元信息 { min-width: auto; width: 100%; }
+    .列表标题 { min-width: auto; width: 100%; }
+    .列表分类 { display: none; }
+    .一手标题文字 { min-width: auto; width: 100%; }
     .返回顶部 { right: 16px; bottom: 16px; width: 36px; height: 36px; }
+    .菜单按钮 { display: flex; }
+    .导航菜单 { position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--bg); border-bottom: 1px solid var(--line); max-height: 0; overflow: hidden; transition: max-height 0.3s var(--ease); }
+    .导航菜单.展开 { max-height: 320px; }
+    .导航链接 { padding: 14px 24px; border-bottom: 1px solid var(--line-soft); }
+    .导航链接.活跃 { border-bottom-color: var(--line-soft); color: var(--brass); }
 }
-
 @media (max-width: 440px) {
-    .资讯列表项 { flex: 1 1 100%; min-width: 100%; }
+    .工具列表项 { flex-direction: column; gap: 4px; }
 }
