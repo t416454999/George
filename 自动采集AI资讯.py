@@ -78,10 +78,51 @@ if 缺少的包:
 每源最大文章数 = 10
 
 # ============================================================
-# 资讯来源配置（全部可在中国内地直连）
+# 资讯来源配置
 # ============================================================
 
+原生资讯分类映射 = {
+    "原生资讯": [
+        "release", "launch", "introducing", "announce", "announcing", "new model",
+        "research", "paper", "benchmark", "open source", "API", "developer",
+        "safety", "alignment", "multimodal", "agent", "inference", "dataset",
+        "发布", "推出", "研究", "论文", "模型", "开源"
+    ],
+}
+
 资讯来源配置 = [
+    {
+        "名称": "OpenAI 官方",
+        "RSS": "https://openai.com/news/rss.xml",
+        "类型": "RSS",
+        "固定分类": "原生资讯",
+        "原生资讯": True,
+        "分类映射": 原生资讯分类映射,
+    },
+    {
+        "名称": "Hugging Face 官方",
+        "RSS": "https://huggingface.co/blog/feed.xml",
+        "类型": "RSS",
+        "固定分类": "原生资讯",
+        "原生资讯": True,
+        "分类映射": 原生资讯分类映射,
+    },
+    {
+        "名称": "Google DeepMind 官方",
+        "RSS": "https://deepmind.google/blog/rss.xml",
+        "类型": "RSS",
+        "固定分类": "原生资讯",
+        "原生资讯": True,
+        "分类映射": 原生资讯分类映射,
+    },
+    {
+        "名称": "arXiv AI",
+        "RSS": "https://export.arxiv.org/rss/cs.AI",
+        "类型": "RSS",
+        "固定分类": "原生资讯",
+        "原生资讯": True,
+        "分类映射": 原生资讯分类映射,
+    },
     {
         "名称": "机器之心",
         "RSS": "https://www.jiqizhixin.com/rss",
@@ -256,6 +297,29 @@ def 提取摘要(文本, 最大长度=150):
     return 文本[:截断位置].strip()
 
 
+def 生成原生资讯标题(标题, 来源):
+    """为一手消息加中文重点标识，保留原始标题主体。"""
+    原标题 = 清理文本(标题)
+    if 原标题.startswith("【原生·"):
+        return 原标题
+
+    小写标题 = 原标题.lower()
+    规则 = [
+        ("发布", ["release", "launch", "introducing", "announce", "announcing", "released"]),
+        ("模型", ["model", "gpt", "llm", "multimodal", "inference"]),
+        ("研究", ["research", "paper", "benchmark", "dataset", "arxiv"]),
+        ("开源", ["open source", "github", "weights", "library"]),
+        ("安全", ["safety", "alignment", "policy", "preparedness"]),
+        ("开发者", ["api", "developer", "sdk", "agents", "tool"]),
+    ]
+    重点 = "一手"
+    for 标签, 关键词列表 in 规则:
+        if any(关键词 in 小写标题 for 关键词 in 关键词列表):
+            重点 = 标签
+            break
+    return f"【原生·{重点}】{原标题}"
+
+
 def 提取标签(标题, 摘要):
     """从标题和摘要中提取关键词标签"""
     候选标签 = [
@@ -321,8 +385,12 @@ def 采集RSS来源(来源配置):
                 else:
                     日期 = datetime.now().strftime("%Y-%m-%d")
 
-                分类 = 自动分类(标题, 摘要, 来源配置)
+                分类 = 来源配置.get("固定分类") or 自动分类(标题, 摘要, 来源配置)
+                if 来源配置.get("原生资讯"):
+                    标题 = 生成原生资讯标题(标题, 来源名称)
                 标签 = 提取标签(标题, 摘要)
+                if 来源配置.get("原生资讯"):
+                    标签 = list(dict.fromkeys(["原生资讯", 来源名称] + 标签))
                 热度 = 计算热度(标题, 摘要)
 
                 文章列表.append({
@@ -395,8 +463,12 @@ def 采集API来源(来源配置):
                 else:
                     日期 = datetime.now().strftime("%Y-%m-%d")
 
-                分类 = 自动分类(标题, 摘要, 来源配置)
+                分类 = 来源配置.get("固定分类") or 自动分类(标题, 摘要, 来源配置)
+                if 来源配置.get("原生资讯"):
+                    标题 = 生成原生资讯标题(标题, 来源名称)
                 标签 = 提取标签(标题, 摘要)
+                if 来源配置.get("原生资讯"):
+                    标签 = list(dict.fromkeys(["原生资讯", 来源名称] + 标签))
                 热度 = 计算热度(标题, 摘要)
 
                 文章列表.append({
