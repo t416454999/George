@@ -35,7 +35,7 @@
     --font-mono:  "SF Mono", "JetBrains Mono", "Cascadia Code", "Consolas", ui-monospace, monospace;
 
     /* 布局 */
-    --maxw: 1100px;
+    --maxw: 1280px;
     --readw: 680px;
     --radius: 4px;
     --ease: cubic-bezier(0.4, 0, 0.2, 1);
@@ -314,9 +314,17 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 /* —— 次条双栏 —— */
 #次条容器 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
     margin-bottom: 24px;
+    align-items: stretch;
+}
+
+.次条网格 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    width: 100%;
 }
 
 #次条容器 [class*="卡片"],
@@ -372,7 +380,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     letter-spacing: 0.03em;
 }
 
-/* —— 更多资讯 — 三栏卡片，杜绝竖向堆叠 —— */
+/* —— 更多资讯 — 横向流式卡片，杜绝竖向堆叠 —— */
 .列表区域标题 {
     font-family: var(--font-serif);
     font-weight: 400;
@@ -382,17 +390,20 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     margin: 36px 0 16px;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--line);
-    grid-column: 1 / -1;
+    width: 100%;
 }
 
 .资讯列表 {
     list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
 .资讯列表项 {
+    flex: 1 1 280px;
+    min-width: 260px;
+    max-width: 100%;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
@@ -828,12 +839,12 @@ mark {
 
     .筛选栏 { flex-direction: column; align-items: flex-start; }
     .搜索输入组 { flex-direction: column; }
-    .资讯列表 { grid-template-columns: 1fr 1fr; }
+    .资讯列表项 { flex: 1 1 240px; min-width: 200px; }
     .列表元信息 { min-width: auto; }
     .列表标题 { min-width: 0; }
     .返回顶部 { right: 16px; bottom: 16px; width: 36px; height: 36px; }
 }
 
 @media (max-width: 440px) {
-    .资讯列表 { grid-template-columns: 1fr; }
+    .资讯列表项 { flex: 1 1 100%; min-width: 100%; }
 }

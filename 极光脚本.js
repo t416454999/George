@@ -22,7 +22,6 @@ const 状态 = {
 document.addEventListener('DOMContentLoaded', async () => {
     await 初始化数据();
     初始化路由();
-    渲染当前页面();
     监听滚动();
 });
 
@@ -31,13 +30,27 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ============================================================
 
 async function 初始化数据() {
+    // 来源白名单 — 只显示真正的AI资讯来源
+    const AI来源白名单 = [
+        'The Information', 'Stratechery', 'Anthropic Blog', 'CVPR 2026 现场报道',
+        'World Arena 独家访谈', 'Stanford HAI', 'The Verge', 'ArXiv 论文解读',
+        'Steersman AI Blog', 'AI Developer Survey', '机器之心', '量子位', '36氪',
+        '雷锋网', '虎嗅', 'Google Research', 'Google DeepMind', 'Meta AI Blog',
+        'Figure AI Blog', 'Variety', 'OpenAI Blog'
+    ];
+
     try {
         const 响应 = await fetch('文章数据库.json?v=' + Date.now());
         if (响应.ok) {
             const 数据 = await 响应.json();
             if (Array.isArray(数据)) {
-                状态.文章列表 = 数据;
-                console.log('文章数据库加载成功，共 ' + 数据.length + ' 篇');
+                // 只保留AI资讯来源的文章
+                状态.文章列表 = 数据.filter(a => AI来源白名单.includes(a.来源));
+                const 被过滤 = 数据.length - 状态.文章列表.length;
+                if (被过滤 > 0) {
+                    console.log('已过滤 ' + 被过滤 + ' 篇非AI资讯');
+                }
+                console.log('文章数据库加载成功，共 ' + 状态.文章列表.length + ' 篇');
             }
         } else {
             console.warn('文章数据库加载失败，状态码：' + 响应.status);
@@ -77,7 +90,7 @@ function 获取今日日期() {
 }
 
 function 更新分类计数() {
-    const 分类列表 = ['大模型', 'AI应用', 'AI绘画', '学术前沿', '行业动态', '开源工具'];
+    const 分类列表 = ['大模型', 'AI应用', 'AI绘画', '学术前沿', '行业动态', '开源工具', '原生资讯'];
     分类列表.forEach(分类 => {
         const 计数 = 状态.文章列表.filter(a => a.分类 === 分类).length;
         const 元素 = document.getElementById(`计数-${分类}`);
@@ -269,13 +282,10 @@ function 渲染文章区块(文章批次, 是首次加载) {
         if (文章批次.length >= 2) {
             const 次条容器 = document.getElementById('次条容器');
             if (次条容器) {
-                const 网格 = document.createElement('div');
-                网格.className = '次条网格';
                 const 次条结束 = Math.min(3, 文章批次.length);
                 for (let i = 1; i < 次条结束; i++) {
-                    网格.appendChild(创建次条卡片(文章批次[i]));
+                    次条容器.appendChild(创建次条卡片(文章批次[i]));
                 }
-                次条容器.appendChild(网格);
             }
         }
 
