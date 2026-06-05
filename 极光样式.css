@@ -325,13 +325,17 @@ mark { background: rgba(168, 120, 48, 0.15); color: var(--brass); padding: 1px 3
     .导航容器 { padding: 16px 18px; }
     .标题区域 { padding: 44px 0 24px; }
     .统计条 { gap: 26px; }
-    .特征网格 { grid-template-columns: 1fr; }
+    .特征网格 { grid-template-columns: 1fr !important; }
+    .特征卡片 { max-width: 100%; }
     .筛选栏 { flex-direction: column; align-items: flex-start; }
     .搜索输入组 { flex-direction: column; }
     .列表元信息 { min-width: auto; width: 100%; }
     .列表标题 { min-width: auto; width: 100%; }
     .列表分类 { display: none; }
-    .一手标题文字 { min-width: auto; width: 100%; }
+    /* 一手消息：来源+日期换行到标题下方 */
+    .一手列表链接 { flex-wrap: wrap; }
+    .一手标题文字 { min-width: 100%; width: 100%; order: 1; }
+    .一手来源, .一手日期, .一手标记 { order: 2; }
     .返回顶部 { right: 16px; bottom: 16px; width: 36px; height: 36px; }
     .菜单按钮 { display: flex; }
     .导航菜单 { position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--bg); border-bottom: 1px solid var(--line); max-height: 0; overflow: hidden; transition: max-height 0.3s var(--ease); }

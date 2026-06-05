@@ -121,11 +121,23 @@ function 应用筛选() {
     if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类);
     if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
 
-    // 工具排行作为独立分类
+    // 工具排行 / 一手消息 作为独立分类
     if (状态.当前分类 === '工具排行') {
         clearContainers();
         加载工具排行();
         if (空状态) 空状态.style.display = 'none';
+        if (加载区域) 加载区域.style.display = 'none';
+        return;
+    }
+    if (状态.当前分类 === '一手消息') {
+        clearContainers();
+        const 一手来源 = ['The Information', 'Stratechery', 'Stanford HAI', 'Anthropic Blog',
+            'CVPR 2026 现场报道', 'World Arena 独家访谈', 'ArXiv 论文解读', 'Steersman AI Blog', 'Variety'];
+        const 一手列表 = 文章列表.filter(a => 一手来源.includes(a.来源));
+        if (一手列表.length > 0) {
+            渲染纯一手容器(一手列表);
+        }
+        if (空状态) 空状态.style.display = 一手列表.length === 0 ? 'block' : 'none';
         if (加载区域) 加载区域.style.display = 'none';
         return;
     }
@@ -175,11 +187,13 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
             标题.textContent = 分类 === '全部' ? '今日推荐' : 分类;
             容器.appendChild(标题);
             const 网格 = document.createElement('div'); 网格.className = '特征网格';
-            // 4篇=2x2，3篇=3列，2篇=2列，1篇=1列
-            if (特征文章.length === 4) 网格.style.gridTemplateColumns = '1fr 1fr';
-            else if (特征文章.length === 3) 网格.style.gridTemplateColumns = 'repeat(3, 1fr)';
-            else if (特征文章.length === 2) 网格.style.gridTemplateColumns = '1fr 1fr';
-            else 网格.style.gridTemplateColumns = '1fr';
+            // 桌面端精确列数，手机端交给CSS媒体查询
+            if (window.innerWidth > 700) {
+                if (特征文章.length === 4) 网格.style.gridTemplateColumns = '1fr 1fr';
+                else if (特征文章.length === 3) 网格.style.gridTemplateColumns = 'repeat(3, 1fr)';
+                else if (特征文章.length === 2) 网格.style.gridTemplateColumns = '1fr 1fr';
+                else 网格.style.gridTemplateColumns = '1fr';
+            }
             特征文章.forEach(a => 网格.appendChild(创建特征卡片(a)));
             容器.appendChild(网格);
         }
@@ -217,6 +231,17 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
         }
     }
 
+}
+
+/** 一手消息作为独立容器时（全列表，无特征卡片） */
+function 渲染纯一手容器(文章列表) {
+    const 容器 = document.getElementById('特征容器');
+    if (!容器 || 文章列表.length === 0) return;
+    const 标题 = document.createElement('div'); 标题.className = '特征区标题'; 标题.textContent = '一手消息';
+    容器.appendChild(标题);
+    const 列表 = document.createElement('ul'); 列表.className = '一手列表';
+    文章列表.forEach(a => 创建一手行(a, 列表));
+    容器.appendChild(列表);
 }
 
 function 创建一手行(文章, 列表) {
