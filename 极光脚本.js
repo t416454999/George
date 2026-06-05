@@ -149,9 +149,7 @@ function 应用筛选() {
         const 特征文章 = 常规文章列表.slice(0, 4);
         const 列表文章 = 常规文章列表.slice(4);
 
-        渲染特征区(特征文章);
-        渲染一手区(一手消息列表);
-        渲染列表区(列表文章);
+        渲染容器(状态.当前分类, 特征文章, 一手消息列表, 列表文章);
     }
 }
 
@@ -165,15 +163,72 @@ function clearContainers() {
     });
 }
 
-function 渲染特征区(文章列表) {
-    const 容器 = document.getElementById('特征容器');
-    if (!容器 || 文章列表.length === 0) return;
-    const 标题 = document.createElement('div'); 标题.className = '特征区标题'; 标题.textContent = '今日推荐';
-    容器.appendChild(标题);
-    const 网格 = document.createElement('div'); 网格.className = '特征网格';
-    文章列表.forEach(a => 网格.appendChild(创建特征卡片(a)));
-    容器.appendChild(网格);
+/** 统一渲染：根据当前分类展示对应容器 */
+function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
+    clearContainers();
+
+    // 特征区 — 分类不为"全部"时标注分类名
+    if (特征文章.length > 0) {
+        const 容器 = document.getElementById('特征容器');
+        if (容器) {
+            const 标题 = document.createElement('div'); 标题.className = '特征区标题';
+            标题.textContent = 分类 === '全部' ? '今日推荐' : 分类;
+            容器.appendChild(标题);
+            const 网格 = document.createElement('div'); 网格.className = '特征网格';
+            // 根据文章数量调整列数：≤2篇用1列，否则2列
+            网格.style.gridTemplateColumns = 特征文章.length <= 2 ? '1fr' : '';
+            特征文章.forEach(a => 网格.appendChild(创建特征卡片(a)));
+            容器.appendChild(网格);
+        }
+    }
+
+    // 一手消息区 — 只在全部分类或原生资讯时显示
+    if (一手消息列表.length > 0 && (分类 === '全部')) {
+        const 容器 = document.getElementById('一手容器');
+        if (容器) {
+            const 标题 = document.createElement('div'); 标题.className = '一手标题'; 标题.textContent = '一手消息';
+            容器.appendChild(标题);
+            const 列表 = document.createElement('ul'); 列表.className = '一手列表';
+            一手消息列表.forEach(文章 => {
+                创建一手行(文章, 列表);
+            });
+            容器.appendChild(列表);
+        }
+    }
+
+    // 更多资讯
+    if (列表文章.length > 0) {
+        const 容器 = document.getElementById('列表容器');
+        if (容器) {
+            const 标题 = document.createElement('div'); 标题.className = '列表区域标题'; 标题.textContent = '更多资讯';
+            容器.appendChild(标题);
+            const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
+            列表文章.forEach(文章 => {
+                const 项 = document.createElement('li'); 项.className = '资讯列表项';
+                const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
+                链接.href='#详情/'+文章.id; 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
+                链接.innerHTML=`<div class="列表元信息"><span class="列表来源">${文章.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${文章.日期||''}</span></div><span class="列表标题">${文章.标题||''}</span><span class="列表分类">${文章.分类||''}</span>`;
+                项.appendChild(链接); 列表.appendChild(项);
+            });
+            容器.appendChild(列表);
+        }
+    }
+
+    // 全部分类时显示工具排行
+    if (分类 === '全部') {
+        加载工具排行();
+    }
 }
+
+function 创建一手行(文章, 列表) {
+    const 项 = document.createElement('li'); 项.className = '一手列表项';
+    const 链接 = document.createElement('a'); 链接.className = '一手列表链接';
+    链接.href='#详情/'+文章.id; 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
+    链接.innerHTML=`<span class="一手标记">一手</span><span class="一手来源">${文章.来源||''}</span><span class="一手日期">${文章.日期||''}</span><span class="一手标题文字">${文章.标题||''}</span>`;
+    项.appendChild(链接); 列表.appendChild(项);
+}
+
+function 渲染特征区(文章列表) { /* 已合并到渲染容器 */ }
 
 function 创建特征卡片(文章) {
     const 卡片 = document.createElement('article'); 卡片.className = '特征卡片';
@@ -185,38 +240,6 @@ function 创建特征卡片(文章) {
         <div class="卡片摘要">${(文章.摘要||'').substring(0,120)}</div>
         ${标签HTML ? '<div class="卡片标签栏">'+标签HTML+'</div>' : ''}`;
     return 卡片;
-}
-
-function 渲染一手区(文章列表) {
-    const 容器 = document.getElementById('一手容器');
-    if (!容器 || 文章列表.length === 0) return;
-    const 标题 = document.createElement('div'); 标题.className = '一手标题'; 标题.textContent = '一手消息';
-    容器.appendChild(标题);
-    const 列表 = document.createElement('ul'); 列表.className = '一手列表';
-    文章列表.forEach(文章 => {
-        const 项 = document.createElement('li'); 项.className = '一手列表项';
-        const 链接 = document.createElement('a'); 链接.className = '一手列表链接';
-        链接.href = '#详情/'+文章.id; 链接.onclick = (e) => { e.preventDefault(); 打开文章详情(文章); };
-        链接.innerHTML = `<span class="一手标记">一手</span><span class="一手来源">${文章.来源||''}</span><span class="一手日期">${文章.日期||''}</span><span class="一手标题文字">${文章.标题||''}</span>`;
-        项.appendChild(链接); 列表.appendChild(项);
-    });
-    容器.appendChild(列表);
-}
-
-function 渲染列表区(文章列表) {
-    const 容器 = document.getElementById('列表容器');
-    if (!容器 || 文章列表.length === 0) return;
-    const 标题 = document.createElement('div'); 标题.className = '列表区域标题'; 标题.textContent = '更多资讯';
-    容器.appendChild(标题);
-    const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
-    文章列表.forEach(文章 => {
-        const 项 = document.createElement('li'); 项.className = '资讯列表项';
-        const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
-        链接.href = '#详情/'+文章.id; 链接.onclick = (e) => { e.preventDefault(); 打开文章详情(文章); };
-        链接.innerHTML = `<div class="列表元信息"><span class="列表来源">${文章.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${文章.日期||''}</span></div><span class="列表标题">${文章.标题||''}</span><span class="列表分类">${文章.分类||''}</span>`;
-        项.appendChild(链接); 列表.appendChild(项);
-    });
-    容器.appendChild(列表);
 }
 
 // ============================================================
