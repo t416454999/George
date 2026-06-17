@@ -1,5 +1,556 @@
 [
   {
+    "id": 1552741104,
+    "标题": "【原生·开发者】From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+    "摘要": "",
+    "内容": "",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+    "标签": [
+      "原生资讯",
+      "Hugging Face 官方"
+    ]
+  },
+  {
+    "id": 4067703055,
+    "标题": "【原生·一手】GLM-5.2: Built for Long-Horizon Tasks",
+    "摘要": "",
+    "内容": "",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://huggingface.co/blog/zai-org/glm-52-blog",
+    "标签": [
+      "原生资讯",
+      "Hugging Face 官方"
+    ]
+  },
+  {
+    "id": 752858000,
+    "标题": "【原生·一手】Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
+    "摘要": "arXiv:2606.17209v1 Announce Type: new Abstract: Test-time scaling for agentic search typically increases depth (i.e., more turns and tokens per trajectory) or breadth (i.e., more",
+    "内容": "arXiv:2606.17209v1 Announce Type: new Abstract: Test-time scaling for agentic search typically increases depth (i.e., more turns and tokens per trajectory) or breadth (i.e., more",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17209",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 2296395116,
+    "标题": "【原生·一手】When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
+    "摘要": "arXiv:2606.17220v1 Announce Type: new Abstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between",
+    "内容": "arXiv:2606.17220v1 Announce Type: new Abstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17220",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 3732102914,
+    "标题": "【原生·研究】SkillChain-Gym: A Benchmark for Reskilling-Aware Production-Inventory Control under Disruptions",
+    "摘要": "arXiv:2606.17266v1 Announce Type: new Abstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not",
+    "内容": "arXiv:2606.17266v1 Announce Type: new Abstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17266",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 3295355445,
+    "标题": "【原生·模型】Skill-Constrained Model Predictive Control for Resilient Manufacturing Supply Chains",
+    "摘要": "arXiv:2606.17269v1 Announce Type: new Abstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions",
+    "内容": "arXiv:2606.17269v1 Announce Type: new Abstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17269",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 3929972459,
+    "标题": "【原生·模型】Nothing from Something: Can a Language Model Discover 0?",
+    "摘要": "arXiv:2606.17289v1 Announce Type: new Abstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical",
+    "内容": "arXiv:2606.17289v1 Announce Type: new Abstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17289",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 3057773706,
+    "标题": "【原生·模型】Quantifying Consistency in LLM Logical Reasoning via Structural Uncertainty",
+    "摘要": "arXiv:2606.17312v1 Announce Type: new Abstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank",
+    "内容": "arXiv:2606.17312v1 Announce Type: new Abstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17312",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 3399858194,
+    "标题": "【原生·一手】MemTrace: Probing What Final Accuracy Misses in Long-Term Memory",
+    "摘要": "arXiv:2606.17328v1 Announce Type: new Abstract: LLM agents increasingly maintain long-term memory of user facts across sessions. Yet such memory is usually evaluated by",
+    "内容": "arXiv:2606.17328v1 Announce Type: new Abstract: LLM agents increasingly maintain long-term memory of user facts across sessions. Yet such memory is usually evaluated by",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17328",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 965245555,
+    "标题": "【原生·研究】SpeechDx: A Multi-Task Benchmark for Clinical Speech AI",
+    "摘要": "arXiv:2606.17339v1 Announce Type: new Abstract: Speech offers a uniquely informative window into health by simultaneously engaging neurological, motor, respiratory, and vocal",
+    "内容": "arXiv:2606.17339v1 Announce Type: new Abstract: Speech offers a uniquely informative window into health by simultaneously engaging neurological, motor, respiratory, and vocal",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17339",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 3210635241,
+    "标题": "【原生·一手】Distributed General-Purpose Agent Networks: Architecture, Key Mechanisms, and Prototypes",
+    "摘要": "arXiv:2606.17368v1 Announce Type: new Abstract: Large language models have accelerated the transition from passive conversational assistants to autonomous agents that can",
+    "内容": "arXiv:2606.17368v1 Announce Type: new Abstract: Large language models have accelerated the transition from passive conversational assistants to autonomous agents that can",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17368",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 2417594542,
+    "标题": "【原生·一手】Treatment Response Optimized Clinical Decision Support AI System via Digital Twin Simulation",
+    "摘要": "arXiv:2606.17405v1 Announce Type: new Abstract: Clinical decision support AI systems (CDSASs) must adapt to evolving patient conditions in real-time while adhering to strict",
+    "内容": "arXiv:2606.17405v1 Announce Type: new Abstract: Clinical decision support AI systems (CDSASs) must adapt to evolving patient conditions in real-time while adhering to strict",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2606.17405",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ]
+  },
+  {
+    "id": 4074274392,
+    "标题": "氪星晚报｜菜鸟将在荷兰建设欧洲供应链履约中心；有道词典笔获2026 EdTech Breakthrough Award年度K-12教育科技应用大奖；国务院：深入实施“人工智能+”行动，探索人机协同的新型工作形态",
+    "摘要": "大公司： 监管约谈山姆后，沃尔玛中国多位高管变动 36氪了解到，山姆会员商店中国 CMO（首席采购官）张青已于近日提交辞呈。此外，据36氪独家了解，沃尔玛中国本次人事变动还包括：Tony Paladinetti，现任沃尔玛国际部战略副总裁，将加入沃尔玛中国，担任沃尔玛中国战略副总裁，直接向朱晓静汇报。",
+    "内容": "大公司： 监管约谈山姆后，沃尔玛中国多位高管变动 36氪了解到，山姆会员商店中国 CMO（首席采购官）张青已于近日提交辞呈。此外，据36氪独家了解，沃尔玛中国本次人事变动还包括：Tony Paladinetti，现任沃尔玛国际部战略副总裁，将加入沃尔玛中国，担任沃尔玛中国战略副总裁，直接向朱晓静汇报。",
+    "来源": "36氪",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://36kr.com/p/3857175761081348?f=rss",
+    "标签": []
+  },
+  {
+    "id": 262136722,
+    "标题": "风拂阳澄，来半岛解锁夏日限定AI狂欢！",
+    "摘要": "风口已至，静候同行。  提起阳澄湖，你的脑海里浮现的画面是什么？  是远近闻名的阳澄湖大闸蟹，是波光粼粼的度假区风光，还是惬意舒展的环湖骑行赛道？在大多数人的印象里，阳澄湖半岛风光旖旎，向来是周末卸下疲惫、放松身心的度假好去处。 然而在今年盛夏，这片湖畔热土将迎来全新的科技活力。",
+    "内容": "风口已至，静候同行。  提起阳澄湖，你的脑海里浮现的画面是什么？  是远近闻名的阳澄湖大闸蟹，是波光粼粼的度假区风光，还是惬意舒展的环湖骑行赛道？在大多数人的印象里，阳澄湖半岛风光旖旎，向来是周末卸下疲惫、放松身心的度假好去处。 然而在今年盛夏，这片湖畔热土将迎来全新的科技活力。",
+    "来源": "36氪",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://36kr.com/p/3857051317359622?f=rss",
+    "标签": []
+  },
+  {
+    "id": 1675214260,
+    "标题": "浙大系创业者冲港股IPO，仙工智能招股书五大看点",
+    "摘要": "6月15日，智能机器人公司仙工智能（06106.HK）开始招股，招股价101.60港元，每手50股，市值112.27亿港元。 仙工智能最早于2025年5月第一次向港交所递交招股书，6个月失效后，又于当年11月重新递交，直到今年6月才通过聆讯。仙工智能这次是以18C特专科技公司身份赴港上市，预计6月24日挂牌敲钟。中金独家保荐，招银国际为整体协调人。",
+    "内容": "6月15日，智能机器人公司仙工智能（06106.HK）开始招股，招股价101.60港元，每手50股，市值112.27亿港元。 仙工智能最早于2025年5月第一次向港交所递交招股书，6个月失效后，又于当年11月重新递交，直到今年6月才通过聆讯。仙工智能这次是以18C特专科技公司身份赴港上市，预计6月24日挂牌敲钟。中金独家保荐，招银国际为整体协调人。",
+    "来源": "36氪",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 64,
+    "链接": "https://36kr.com/p/3857011810112521?f=rss",
+    "标签": []
+  },
+  {
+    "id": 3284495634,
+    "标题": "把AI当「电子校医」的大学生，一个人看病不慌了",
+    "摘要": "01.深夜急诊室：校医下班后，“电子校医”上线了 深夜11点，宿舍快熄灯了，张雯的小腹突然一阵绞痛，疼得她揪紧被子，直冒冷汗。校医室这个点已经下班了，室友说陪她去校外医院。但张雯犹豫了，大半夜不想折腾，万一一会儿就缓过来了呢？ 她打开蚂蚁阿福，把自己的症状输进去，“凌晨腹部绞痛，一阵一阵的，没有拉肚子，没有发烧，也不是生理期。",
+    "内容": "01.深夜急诊室：校医下班后，“电子校医”上线了 深夜11点，宿舍快熄灯了，张雯的小腹突然一阵绞痛，疼得她揪紧被子，直冒冷汗。校医室这个点已经下班了，室友说陪她去校外医院。但张雯犹豫了，大半夜不想折腾，万一一会儿就缓过来了呢？ 她打开蚂蚁阿福，把自己的症状输进去，“凌晨腹部绞痛，一阵一阵的，没有拉肚子，没有发烧，也不是生理期。",
+    "来源": "36氪",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://36kr.com/p/3856958075802633?f=rss",
+    "标签": []
+  },
+  {
+    "id": 774471949,
+    "标题": "NoonWake.AI完成近千万元种子轮融资，用AI做年轻人的情绪消费品｜智能涌现首发",
+    "摘要": "作者｜梁键强 编辑｜王毓婵 一句话介绍 NoonWake.AI是一家以泛心理为切入点、结合AI技术做情绪消费产品的创业公司，业务覆盖软件和硬件，并同时面向国内外市场。 目前，公司产品包括国内AI陪伴应用“万象有灵”、海外应用Starot、桌面AI陪伴硬件“好运日历机”，以及正在探索的智能水晶手串等轻硬件产品。",
+    "内容": "作者｜梁键强 编辑｜王毓婵 一句话介绍 NoonWake.AI是一家以泛心理为切入点、结合AI技术做情绪消费产品的创业公司，业务覆盖软件和硬件，并同时面向国内外市场。 目前，公司产品包括国内AI陪伴应用“万象有灵”、海外应用Starot、桌面AI陪伴硬件“好运日历机”，以及正在探索的智能水晶手串等轻硬件产品。",
+    "来源": "36氪",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://36kr.com/p/3848483761493250?f=rss",
+    "标签": []
+  },
+  {
+    "id": 2879020406,
+    "标题": "监管约谈山姆后，沃尔玛中国多位高管变动｜独家",
+    "摘要": "文｜ 彭倩、 任彩茹  编辑 ｜乔芊 处于监管和舆论漩涡中的山姆迎来了新的人事调整。 36氪了解到，山姆会员商店中国 CMO（首席采购官）张青已于近日提交辞呈。对此，沃尔玛中国回应称：“衷心感谢她在任职期间对山姆业务作出的卓越贡献，并诚挚祝愿她在未来一切顺利。目前我们正在全球范围内积极物色继任人选。",
+    "内容": "文｜ 彭倩、 任彩茹  编辑 ｜乔芊 处于监管和舆论漩涡中的山姆迎来了新的人事调整。 36氪了解到，山姆会员商店中国 CMO（首席采购官）张青已于近日提交辞呈。对此，沃尔玛中国回应称：“衷心感谢她在任职期间对山姆业务作出的卓越贡献，并诚挚祝愿她在未来一切顺利。目前我们正在全球范围内积极物色继任人选。",
+    "来源": "36氪",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://36kr.com/p/3856751835976706?f=rss",
+    "标签": []
+  },
+  {
+    "id": 4220225922,
+    "标题": "硬氪专访 | 罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里",
+    "摘要": "作者 | 邱晓芬 编辑 | 袁斯来 过去半年，国内具身智能赛道经历了一场静悄悄的重心转移：聚光灯从硬件本体的“自由度竞赛”，逐渐移向决定机器人智能上限的深水区。 只是，当行业反复讨论“机器人能否通过暴力堆数据复刻大语言模型 ScalingLaw”时，上海创智学院副教授、智元机器人首席科学家罗剑岚，",
+    "内容": "作者 | 邱晓芬 编辑 | 袁斯来 过去半年，国内具身智能赛道经历了一场静悄悄的重心转移：聚光灯从硬件本体的“自由度竞赛”，逐渐移向决定机器人智能上限的深水区。 只是，当行业反复讨论“机器人能否通过暴力堆数据复刻大语言模型 ScalingLaw”时，上海创智学院副教授、智元机器人首席科学家罗剑岚，",
+    "来源": "36氪",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 57,
+    "链接": "https://36kr.com/p/3856871787189252?f=rss",
+    "标签": [
+      "具身智能"
+    ]
+  },
+  {
+    "id": 4243924719,
+    "标题": "36氪首发 | 中科大博士做量子赛道“卖水人”，连续融资两轮",
+    "摘要": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，中性原子量子计算平台级核心供应商——太微量子（MQTEK）已连续完成天使轮、天使+轮融资。投资方包括英诺天使、东方嘉富、小苗朗程、云启资本、水木投资、远东远至等知名投资机构，慕石资本担任独家财务顾问。融资资金将主要用于三大核心产品矩阵的扩产与研发。",
+    "内容": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，中性原子量子计算平台级核心供应商——太微量子（MQTEK）已连续完成天使轮、天使+轮融资。投资方包括英诺天使、东方嘉富、小苗朗程、云启资本、水木投资、远东远至等知名投资机构，慕石资本担任独家财务顾问。融资资金将主要用于三大核心产品矩阵的扩产与研发。",
+    "来源": "36氪",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://36kr.com/p/3856755190551811?f=rss",
+    "标签": []
+  },
+  {
+    "id": 319417147,
+    "标题": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
+    "摘要": "文｜王毓婵 编辑｜张雨忻 2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。 36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。",
+    "内容": "文｜王毓婵 编辑｜张雨忻 2026 年以来，一级市场对世界模型的抢筹进入白热化阶段。资金不再像早期那样“广撒网”，而是高度向头部玩家集中。这其中，逆矩阵科技（Physis）就接连完成了多轮融资。 36氪智能涌现独家据悉，世界模型公司逆矩阵科技已完成超亿美元种子++轮融资；此前的 3 月，刚完成了超千万美元首轮融资。",
+    "来源": "36氪",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://36kr.com/p/3826129009234824?f=rss",
+    "标签": []
+  },
+  {
+    "id": 2296697379,
+    "标题": "8点1氪丨连涨3天，SpaceX超越亚马逊跻身全球前五；支付宝启动史上最大改版；微信支付“AI专属卡”最快本周内上线",
+    "摘要": "今日热点导览 山姆中国变更董事长 海康威视7月1日上调硬盘价 5月份全球纯电和插电式混动汽车销量连续三个月增长 美国零售经纪商处的SpaceX投资者每人至少分得一股IPO股票 传苹果首款折叠屏将延期发布，产业链人士：假的 TOP 3 大新闻 连涨3天，SpaceX超越亚马逊跻身全球前五 6月16日，SpaceX开盘迅速拉升，涨幅一度扩大至17%，",
+    "内容": "今日热点导览 山姆中国变更董事长 海康威视7月1日上调硬盘价 5月份全球纯电和插电式混动汽车销量连续三个月增长 美国零售经纪商处的SpaceX投资者每人至少分得一股IPO股票 传苹果首款折叠屏将延期发布，产业链人士：假的 TOP 3 大新闻 连涨3天，SpaceX超越亚马逊跻身全球前五 6月16日，SpaceX开盘迅速拉升，涨幅一度扩大至17%，",
+    "来源": "36氪",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://36kr.com/p/3856525981275138?f=rss",
+    "标签": []
+  },
+  {
+    "id": 2834512529,
+    "标题": "特朗普称国家情报总监提名应被推迟",
+    "摘要": "美国总统唐纳德·特朗普向参议院共和党人施压，要求推迟确认Jay Clayton出任下一任国家情报总监。这打乱了共和党领导层的计划，他们原本打算在特朗普忠实盟友Bill...",
+    "内容": "美国总统唐纳德·特朗普向参议院共和党人施压，要求推迟确认Jay Clayton出任下一任国家情报总监。这打乱了共和党领导层的计划，他们原本打算在特朗普忠实盟友Bill...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-06-17/doc-inictnup3790024.shtml",
+    "标签": []
+  },
+  {
+    "id": 2183443127,
+    "标题": "美国5月份零售销售额大幅增长 表明消费者需求强韧",
+    "摘要": "美国5月份零售销售额大幅增长，表明尽管汽油价格走高，但消费者需求依然强韧。 美国普查局周三公布的数据显示，5月份零售额增长0.9%，4月数据修正后增幅为0.4%。",
+    "内容": "美国5月份零售销售额大幅增长，表明尽管汽油价格走高，但消费者需求依然强韧。 美国普查局周三公布的数据显示，5月份零售额增长0.9%，4月数据修正后增幅为0.4%。",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-06-17/doc-inictnut2760182.shtml",
+    "标签": []
+  },
+  {
+    "id": 4116952845,
+    "标题": "中国太保董事长傅帆：为中国的海外利益提供保障是沪港保险协同的发力点",
+    "摘要": "6月17日金融一线消息，2026陆家嘴论坛于今日召开，中国太平洋保险（集团）股份有限公司董事长、执行董事傅帆出席“全体大会四：沪港金融协同发展赋能高水平金融开放”并发言...",
+    "内容": "6月17日金融一线消息，2026陆家嘴论坛于今日召开，中国太平洋保险（集团）股份有限公司董事长、执行董事傅帆出席“全体大会四：沪港金融协同发展赋能高水平金融开放”并发言...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/jryx/bank/2026-06-17/doc-inictnup3789370.shtml",
+    "标签": []
+  },
+  {
+    "id": 4258486282,
+    "标题": "梁凤仪：沪港强强协同，依托新能源赛道助力人民币国际化新突破",
+    "摘要": "6月17日，2026陆家嘴论坛举行，香港证券及期货事务监察委员会行政总裁梁凤仪表示，依托国家“十五五”金融强国建设蓝图，沪港两大国际金融中心错位互补、强强联合...",
+    "内容": "6月17日，2026陆家嘴论坛举行，香港证券及期货事务监察委员会行政总裁梁凤仪表示，依托国家“十五五”金融强国建设蓝图，沪港两大国际金融中心错位互补、强强联合...",
+    "来源": "新浪科技",
+    "分类": "学术前沿",
+    "日期": "2026-06-17",
+    "热度": 58,
+    "链接": "https://finance.sina.com.cn/roll/2026-06-17/doc-inictnut2759245.shtml",
+    "标签": []
+  },
+  {
+    "id": 3634205022,
+    "标题": "AI正在填平足球鸿沟：联想如何参与打造“首届AI世界杯”？",
+    "摘要": "北京时间6月17日，世界杯小组赛J组第1轮，梅西率领阿根廷3-0击败阿尔及利亚取得开门红。然而，比赛第5分钟的一次判罚，却引发球迷热议：梅西接队友直塞后单刀破门...",
+    "内容": "北京时间6月17日，世界杯小组赛J组第1轮，梅西率领阿根廷3-0击败阿尔及利亚取得开门红。然而，比赛第5分钟的一次判罚，却引发球迷热议：梅西接队友直塞后单刀破门...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/stock/marketresearch/2026-06-17/doc-inictnup3783856.shtml",
+    "标签": []
+  },
+  {
+    "id": 2049806182,
+    "标题": "青岛农商行1年赚31亿，股东执着讨“分红”",
+    "摘要": "来源 | 独角金融 作者 |谢美浴 青岛农商行（002958.SZ）与股东之间围绕分红的“拉锯战”再度上演。 近日，青岛农商行私募股东同发裕（深圳）投资有限责任公司（下称“同发裕投...",
+    "内容": "来源 | 独角金融 作者 |谢美浴 青岛农商行（002958.SZ）与股东之间围绕分红的“拉锯战”再度上演。 近日，青岛农商行私募股东同发裕（深圳）投资有限责任公司（下称“同发裕投...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/money/bank/gsdt/2026-06-17/doc-inictnum7011373.shtml",
+    "标签": []
+  },
+  {
+    "id": 2049806182,
+    "标题": "青岛农商行1年赚31亿，股东执着讨“分红”",
+    "摘要": "作者 |谢美浴 编辑 | 付影 来源 | 独角金融 青岛农商行（002958.SZ）与股东之间围绕分红的“拉锯战”再度上演。 近日，青岛农商行私募股东同发裕（深圳）投资有限责任公司（...",
+    "内容": "作者 |谢美浴 编辑 | 付影 来源 | 独角金融 青岛农商行（002958.SZ）与股东之间围绕分红的“拉锯战”再度上演。 近日，青岛农商行私募股东同发裕（深圳）投资有限责任公司（...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/stock/s/2026-06-17/doc-inictnum7008039.shtml",
+    "标签": []
+  },
+  {
+    "id": 1722478262,
+    "标题": "从“遇见小面”到“国信证券”：大企业维权的边界在哪？",
+    "摘要": "来源：行家券业 从“遇见小面”到“国信证券”：大企业维权的边界在哪？ 在普罗大众的关注中，“遇见小面”起诉“渝见小面”的风波刚刚平息。",
+    "内容": "来源：行家券业 从“遇见小面”到“国信证券”：大企业维权的边界在哪？ 在普罗大众的关注中，“遇见小面”起诉“渝见小面”的风波刚刚平息。",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/stock/roll/2026-06-17/doc-inictnum7009143.shtml",
+    "标签": []
+  },
+  {
+    "id": 1873359245,
+    "标题": "农银汇理员工惊爆“自购”血泪史！总经理孙建坤知道吗？",
+    "摘要": "来源：挖掘机007 “知道有多少是员工自己买的吗？亏的都是员工的血汗钱啊！” 前几天，有财经博主在聊农银汇理基金的文章底下，有人回复了这么一条留言。",
+    "内容": "来源：挖掘机007 “知道有多少是员工自己买的吗？亏的都是员工的血汗钱啊！” 前几天，有财经博主在聊农银汇理基金的文章底下，有人回复了这么一条留言。",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/stock/marketresearch/2026-06-17/doc-inictnut2756857.shtml",
+    "标签": []
+  },
+  {
+    "id": 3300038232,
+    "标题": "傅帆：打造再保险的离岸枢纽和在岸中心互补格局",
+    "摘要": "6月17日金融一线消息，2026陆家嘴论坛于今日召开，中国太平洋保险（集团）股份有限公司董事长、执行董事傅帆出席“全体大会四：沪港金融协同发展赋能高水平金融开放”并发言...",
+    "内容": "6月17日金融一线消息，2026陆家嘴论坛于今日召开，中国太平洋保险（集团）股份有限公司董事长、执行董事傅帆出席“全体大会四：沪港金融协同发展赋能高水平金融开放”并发言...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/jryx/bank/2026-06-17/doc-inictnum7012544.shtml",
+    "标签": []
+  },
+  {
+    "id": 3538801036,
+    "标题": "九章云极发布“AI工厂”战略 定义智能规模化新基建",
+    "摘要": "6月17日，“智算·新云·新章——2026全球智算科技峰会暨九章云极战略发布会”在北京举行。九章云极创始人兼董事长方磊正式发布“AI工厂”核心战略，提出以DCU为度量衡、以专业Token为产出单元的智能规模化交付体系。这是九章云极向智能时代基础设施运营平台跃迁的重要一步。“一个时代的真正确立，始于一项伟大的发明，但最终，成于一套伟大的规模化生产体系。",
+    "内容": "6月17日，“智算·新云·新章——2026全球智算科技峰会暨九章云极战略发布会”在北京举行。九章云极创始人兼董事长方磊正式发布“AI工厂”核心战略，提出以DCU为度量衡、以专业Token为产出单元的智能规模化交付体系。这是九章云极向智能时代基础设施运营平台跃迁的重要一步。“一个时代的真正确立，始于一项伟大的发明，但最终，成于一套伟大的规模化生产体系。",
+    "来源": "雷锋网",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://www.leiphone.com/category/industrynews/zbQdehRHS9NgQjAv.html",
+    "标签": []
+  },
+  {
+    "id": 1503099701,
+    "标题": "给 AI 建「流水线」，九章云极看清了什么？",
+    "摘要": "当一个行业的核心问题开始转移，旧的基础设施就会在无声中失效——AI，正在经历这样的时刻。2026年3月，国家数据局公布了一个数字：中国日均Token调用量已达140万亿；4月，斯坦福人工智能指数报告写道，过去两年推理成本下降了280倍；Gartner的预测则显示，2026年将有40%的企业把AI Agent嵌入自己的业务系统。",
+    "内容": "当一个行业的核心问题开始转移，旧的基础设施就会在无声中失效——AI，正在经历这样的时刻。2026年3月，国家数据局公布了一个数字：中国日均Token调用量已达140万亿；4月，斯坦福人工智能指数报告写道，过去两年推理成本下降了280倍；Gartner的预测则显示，2026年将有40%的企业把AI Agent嵌入自己的业务系统。",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 58,
+    "链接": "https://www.leiphone.com/category/chips/Z9LFtadgTOmhxmcV.html",
+    "标签": [
+      "AI Agent"
+    ]
+  },
+  {
+    "id": 3768486665,
+    "标题": "理想汽车举办Livis Day软件与具身智能发布会",
+    "摘要": "L9 Livis发布后一个月， 李想进一步阐释了他的具身智能技术图景。6月15日，在Livis Day理想汽车软件与具身智能发布会上，理想汽车提出具身智能汽车的完整定义，即同时拥有电动车、职业司机、AI计算机与生活助手四大能力的智能体。围绕这一定义，",
+    "内容": "L9 Livis发布后一个月， 李想进一步阐释了他的具身智能技术图景。6月15日，在Livis Day理想汽车软件与具身智能发布会上，理想汽车提出具身智能汽车的完整定义，即同时拥有电动车、职业司机、AI计算机与生活助手四大能力的智能体。围绕这一定义，",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://www.leiphone.com/category/transportation/iKKAYzqzrW0294JG.html",
+    "标签": [
+      "具身智能"
+    ]
+  },
+  {
+    "id": 3165066045,
+    "标题": "阿里发布世界模型HappyOyster 1.0，用户可实时探索、导演并重塑 AI 世界",
+    "摘要": "6月17日，阿里发布可实时构建和交互的开放式世界模型产品HappyOyster 1.0（快乐生蚝1.0），该产品深度学习物理世界状态转移规律，能主动推演从动作到反馈的因果链，并保持人物和环境的长程一致性。HappyOyster 1.0具备世界探索（Adventure）和实时导演（Directing）两大核心能力，并升级了交互功能，",
+    "内容": "6月17日，阿里发布可实时构建和交互的开放式世界模型产品HappyOyster 1.0（快乐生蚝1.0），该产品深度学习物理世界状态转移规律，能主动推演从动作到反馈的因果链，并保持人物和环境的长程一致性。HappyOyster 1.0具备世界探索（Adventure）和实时导演（Directing）两大核心能力，并升级了交互功能，",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://www.leiphone.com/category/industrynews/1CH2JRMcIM0JbVu1.html",
+    "标签": []
+  },
+  {
+    "id": 4104661499,
+    "标题": "阿里云扩建全球基础设施，新增法国巴黎、马来西亚柔佛地域",
+    "摘要": "6月17日，阿里云在‌VivaTech大会期间宣布法国巴黎、马来西亚柔佛地域正式开服，同时扩建日本东京和墨西哥的数据中心，以满足AI出海与全球市场激增的Token调用需求。本轮扩张完成后，阿里云全球布局升至 32 个地域、105个可用区。据 Gartner 数据，阿里云是中国最大、亚太第一的云服务商。",
+    "内容": "6月17日，阿里云在‌VivaTech大会期间宣布法国巴黎、马来西亚柔佛地域正式开服，同时扩建日本东京和墨西哥的数据中心，以满足AI出海与全球市场激增的Token调用需求。本轮扩张完成后，阿里云全球布局升至 32 个地域、105个可用区。据 Gartner 数据，阿里云是中国最大、亚太第一的云服务商。",
+    "来源": "雷锋网",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://www.leiphone.com/category/industrynews/65PN2PmZCC0YKFaS.html",
+    "标签": []
+  },
+  {
+    "id": 2833344940,
+    "标题": "分子之心获逾亿美元融资，多方资本押注AI生物“产业新基建”",
+    "摘要": "雷峰网获悉，近日，AI蛋白质设计平台公司分子之心（MoleculeMind）完成A轮系列融资，累计融资金额逾亿美元。本轮融资由蓝桥资本、浦东创投、中粮新兴产业基金、东方富海、复星创富、国方创投、赛分科技、英飞尼迪、财鑫资本、正鼎等机构参与投资，凯赛生物、芯航资本等老股东亦继续追加投资。",
+    "内容": "雷峰网获悉，近日，AI蛋白质设计平台公司分子之心（MoleculeMind）完成A轮系列融资，累计融资金额逾亿美元。本轮融资由蓝桥资本、浦东创投、中粮新兴产业基金、东方富海、复星创富、国方创投、赛分科技、英飞尼迪、财鑫资本、正鼎等机构参与投资，凯赛生物、芯航资本等老股东亦继续追加投资。",
+    "来源": "雷锋网",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://www.leiphone.com/category/aihealth/NUPeBXShajKt90nJ.html",
+    "标签": []
+  },
+  {
+    "id": 3397827859,
+    "标题": "OpenAI 被传要终止 IPO？",
+    "摘要": "GPT 或许已经接近递归自我改进。    作者丨郑佳美    编辑丨马晓宁                                                                                                               最近关于 OpenAI 是否要 IPO 的讨论里，",
+    "内容": "GPT 或许已经接近递归自我改进。    作者丨郑佳美    编辑丨马晓宁                                                                                                               最近关于 OpenAI 是否要 IPO 的讨论里，",
+    "来源": "雷锋网",
+    "分类": "大模型",
+    "日期": "2026-06-17",
+    "热度": 67,
+    "链接": "https://www.leiphone.com/category/ai/OOjkRGQUyVp9mtQ4.html",
+    "标签": [
+      "OpenAI"
+    ]
+  },
+  {
+    "id": 1641589858,
+    "标题": "刷新权威榜单SOTA！ACE-Ego 解锁“以人为中心”的规模化具身模型训练新范式",
+    "摘要": "近日，大晓机器人联合香港中文大学多媒体实验室（CUHK MMLab）正式发布全新“一脑多型”具身操作VLA模型 ACE-Ego，并向行业开源。作为“以人为中心”ACE 研发范式在具身模型预训练的核心落地成果，ACE-Ego提出大规模第一视角人类视频与多型机器人数据高效联合预训练的新范式，在两大国际权威具身智能基准上双双领先，",
+    "内容": "近日，大晓机器人联合香港中文大学多媒体实验室（CUHK MMLab）正式发布全新“一脑多型”具身操作VLA模型 ACE-Ego，并向行业开源。作为“以人为中心”ACE 研发范式在具身模型预训练的核心落地成果，ACE-Ego提出大规模第一视角人类视频与多型机器人数据高效联合预训练的新范式，在两大国际权威具身智能基准上双双领先，",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 70,
+    "链接": "https://www.leiphone.com/category/ai/Dt3i3KlHCTdZGukZ.html",
+    "标签": [
+      "开源",
+      "具身智能"
+    ]
+  },
+  {
+    "id": 1836368471,
+    "标题": "全国首个！广东政务智能中枢湾擎上线，集成WorkBuddy打造政务办公新标配",
+    "摘要": "6月16日，全国首个省级政务智能中枢平台湾擎宣布上线试运行，WorkBuddy作为核心智能办公组件之一，也宣布即将上线湾擎中枢，面向广东省政务系统提供效率办公新标配，这标志着广东省率先迈入“人手一AI助手”的政务智能化新阶段。 湾擎政务智能中枢是广东省政务服务和数据管理局精心打造的全国首个省级政务智能中枢平台，为全省各级政府部门提供标准化、模块化的AI能力。",
+    "内容": "6月16日，全国首个省级政务智能中枢平台湾擎宣布上线试运行，WorkBuddy作为核心智能办公组件之一，也宣布即将上线湾擎中枢，面向广东省政务系统提供效率办公新标配，这标志着广东省率先迈入“人手一AI助手”的政务智能化新阶段。 湾擎政务智能中枢是广东省政务服务和数据管理局精心打造的全国首个省级政务智能中枢平台，为全省各级政府部门提供标准化、模块化的AI能力。",
+    "来源": "雷锋网",
+    "分类": "行业动态",
+    "日期": "2026-06-17",
+    "热度": 50,
+    "链接": "https://www.leiphone.com/category/industrynews/fpHs0biXwPGOEBmK.html",
+    "标签": []
+  },
+  {
+    "id": 244345417,
+    "标题": "天工3.1 重磅发布：上线 Skywork Design 与 Dynamic Workflows，给 AI 一张画布和一支军团",
+    "摘要": "AI 时代最大的幻觉，是把 Demo 等同于产品。 一句 prompt 生成一个漂亮页面，截图发朋友圈，点赞过百。但你真拿它去见客户，客户问：其他页面呢？配色统一吗？手机端适配了吗？能不能改一版？ Demo 和产品之间，差的就是这些问题。 Skywork 3.0 上线后一个月，天工超级智能体的收入实现了三倍增长。",
+    "内容": "AI 时代最大的幻觉，是把 Demo 等同于产品。 一句 prompt 生成一个漂亮页面，截图发朋友圈，点赞过百。但你真拿它去见客户，客户问：其他页面呢？配色统一吗？手机端适配了吗？能不能改一版？ Demo 和产品之间，差的就是这些问题。 Skywork 3.0 上线后一个月，天工超级智能体的收入实现了三倍增长。",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-06-17",
+    "热度": 56,
+    "链接": "https://www.leiphone.com/category/industrynews/umAJxC6SnrzeF4vz.html",
+    "标签": []
+  },
+  {
     "id": 145577877,
     "标题": "6月17日外盘头条：SpaceX上市后飙升49% 卢特尼克敲打Anthropic 苹果明年推出带摄像头AirPods和折叠屏iPhone",
     "摘要": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、伊朗料从美伊协议获广泛经济回报 包括立即售油及3000亿美元发展基金 2、苹果将于明年推出带摄像头的AirPods和折叠屏iP...",
@@ -2111,6 +2662,21 @@
     "标签": []
   },
   {
+    "id": 3161323971,
+    "标题": "【原生·模型】olmo-eval: An evaluation workbench for the model development loop",
+    "摘要": "",
+    "内容": "",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-12",
+    "热度": 50,
+    "链接": "https://huggingface.co/blog/allenai/olmo-eval",
+    "标签": [
+      "原生资讯",
+      "Hugging Face 官方"
+    ]
+  },
+  {
     "id": 193970519,
     "标题": "神了，世界杯第一天真按千问剧本踢了",
     "摘要": "比分、红牌、绝杀全押中",
@@ -2785,6 +3351,22 @@
     "热度": 50,
     "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-06-12/doc-inicarac3717966.shtml",
     "标签": []
+  },
+  {
+    "id": 2035127876,
+    "标题": "【原生·一手】Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+    "摘要": "",
+    "内容": "",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-11",
+    "热度": 50,
+    "链接": "https://huggingface.co/blog/torch-mlp-fusion",
+    "标签": [
+      "原生资讯",
+      "Hugging Face 官方",
+      "PyTorch"
+    ]
   },
   {
     "id": 306174587,
@@ -4268,6 +4850,37 @@
     "标签": []
   },
   {
+    "id": 3093926246,
+    "标题": "【原生·一手】How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+    "摘要": "",
+    "内容": "",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-09",
+    "热度": 50,
+    "链接": "https://huggingface.co/blog/mishig/spaces-agents-md",
+    "标签": [
+      "原生资讯",
+      "Hugging Face 官方"
+    ]
+  },
+  {
+    "id": 2605275852,
+    "标题": "【原生·开源】Migrating Your GitHub CI to Hugging Face Jobs",
+    "摘要": "",
+    "内容": "",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-09",
+    "热度": 57,
+    "链接": "https://huggingface.co/blog/github-ci-hf-jobs",
+    "标签": [
+      "原生资讯",
+      "Hugging Face 官方",
+      "开源"
+    ]
+  },
+  {
     "id": 3120267257,
     "标题": "【原生·一手】Fluid, natural voice translation with Gemini 3.5 Live Translate",
     "摘要": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
@@ -5002,6 +5615,22 @@
     "热度": 50,
     "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-06-09/doc-iniattre6787400.shtml",
     "标签": []
+  },
+  {
+    "id": 2791505666,
+    "标题": "【原生·开源】The Open Source Community is backing OpenEnv for Agentic RL",
+    "摘要": "",
+    "内容": "",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-08",
+    "热度": 57,
+    "链接": "https://huggingface.co/blog/openenv-agentic-rl",
+    "标签": [
+      "原生资讯",
+      "Hugging Face 官方",
+      "开源"
+    ]
   },
   {
     "id": 4175404854,
@@ -5869,667 +6498,48 @@
     "标签": []
   },
   {
-    "id": 1574738485,
-    "标题": "证监会主席吴清：基金行业服务投资者超过8.6亿人、渗透率达60%",
-    "摘要": "6月6日，中国证券投资基金业协会第四届会员代表大会在北京召开。中国证监会主席吴清出席会议并致辞。吴清表示，公募基金和私募基金是资本市场重要的专业机构投资者...",
-    "内容": "6月6日，中国证券投资基金业协会第四届会员代表大会在北京召开。中国证监会主席吴清出席会议并致辞。吴清表示，公募基金和私募基金是资本市场重要的专业机构投资者...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/jjxw/2026-06-06/doc-inianuvi0432841.shtml",
-    "标签": []
-  },
-  {
-    "id": 169018218,
-    "标题": "“一度电5角，变成Token卖10元”",
-    "摘要": "来源：央视财经 2026年，“算电协同”首次被写入政府工作报告。这背后是一个深刻的时代命题：当全球AI竞赛进入“万亿参数”时代，驱动每一个智能Token诞生的...",
-    "内容": "来源：央视财经 2026年，“算电协同”首次被写入政府工作报告。这背后是一个深刻的时代命题：当全球AI竞赛进入“万亿参数”时代，驱动每一个智能Token诞生的...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/wm/2026-06-06/doc-inianuvk7205717.shtml",
-    "标签": []
-  },
-  {
-    "id": 8637220,
-    "标题": "宗馥莉再出手！把自己名字印在包装上，名下多家公司去掉“娃哈哈”字样",
-    "摘要": "沉寂一年后，宗馥莉亲手创立的饮料品牌KELLYONE悄然回归。 据《南方都市报》报道，6月初，一款名为“果然啵啵”的果汁汽水悄然上线叮咚买菜与全家便利店。",
-    "内容": "沉寂一年后，宗馥莉亲手创立的饮料品牌KELLYONE悄然回归。 据《南方都市报》报道，6月初，一款名为“果然啵啵”的果汁汽水悄然上线叮咚买菜与全家便利店。",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/wm/2026-06-06/doc-inianqpn7321780.shtml",
-    "标签": []
-  },
-  {
-    "id": 2116769483,
-    "标题": "去年60亿收购被否，华峰化学重启关联交易，尤氏家族两块资产再闯股东大会 | 长三角资本局",
-    "摘要": "文|新浪财经上海站 十里 一年前被股东大会挡在门外的两块尤氏家族资产，再次摆到了华峰化学面前。 6月5日晚间，华峰化学公告，拟通过发行股份及支付现金方式...",
-    "内容": "文|新浪财经上海站 十里 一年前被股东大会挡在门外的两块尤氏家族资产，再次摆到了华峰化学面前。 6月5日晚间，华峰化学公告，拟通过发行股份及支付现金方式...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 55,
-    "链接": "https://finance.sina.com.cn/stock/csjzbj/2026-06-06/doc-inianqpn7311487.shtml",
-    "标签": []
-  },
-  {
-    "id": 269897194,
-    "标题": "连续两年亏损后，盛洋科技拟募资10.76亿元扩产，卫星互联网项目仅获1.37亿元 | 长三角资本局",
-    "摘要": "文|新浪财经上海站 十里 仍处于小批量试产阶段的卫星互联网业务，被盛洋科技写进了一份10.76亿元的定增方案。但从资金分配看，商业航天并不是此次募资的绝对主角...",
-    "内容": "文|新浪财经上海站 十里 仍处于小批量试产阶段的卫星互联网业务，被盛洋科技写进了一份10.76亿元的定增方案。但从资金分配看，商业航天并不是此次募资的绝对主角...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/stock/csjzbj/2026-06-06/doc-inianqpn7311281.shtml",
-    "标签": []
-  },
-  {
-    "id": 3484151707,
-    "标题": "五洲特纸并购切入电解电容器纸，仅小规模量产，家族纸企寻找新增长点 | 长三角资本局",
-    "摘要": "文|新浪财经上海站 十里 五洲特纸切入电解电容器纸，并不是一笔金额巨大的跨界收购。 6月5日，五洲特纸在互动平台回复投资者称，公司2025年通过并购新增电解电容器纸产品赛...",
-    "内容": "文|新浪财经上海站 十里 五洲特纸切入电解电容器纸，并不是一笔金额巨大的跨界收购。 6月5日，五洲特纸在互动平台回复投资者称，公司2025年通过并购新增电解电容器纸产品赛...",
-    "来源": "新浪科技",
-    "分类": "AI应用",
-    "日期": "2026-06-06",
-    "热度": 55,
-    "链接": "https://finance.sina.com.cn/stock/csjzbj/2026-06-06/doc-inianqpm0535033.shtml",
-    "标签": []
-  },
-  {
-    "id": 3869779535,
-    "标题": "线缆材料公司追逐算力风口，杭州高新服务器项目仍待落地 | 长三角资本局",
-    "摘要": "文|新浪财经上海站 十里 一家主营线缆用高分子材料的上市公司，准备在无锡搭建服务器组装产线。 6月4日晚间，杭州高新公告称，公司计划与无锡国家高新技术产业开发区管理委...",
-    "内容": "文|新浪财经上海站 十里 一家主营线缆用高分子材料的上市公司，准备在无锡搭建服务器组装产线。 6月4日晚间，杭州高新公告称，公司计划与无锡国家高新技术产业开发区管理委...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 57,
-    "链接": "https://finance.sina.com.cn/stock/csjzbj/2026-06-06/doc-inianqpn7310862.shtml",
-    "标签": []
-  },
-  {
-    "id": 2554148672,
-    "标题": "【原生·模型】How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
-    "摘要": "arXiv:2606.05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention,",
-    "内容": "arXiv:2606.05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention,",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05256",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 827383756,
-    "标题": "【原生·开发者】What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
-    "摘要": "arXiv:2606.05304v1 Announce Type: new Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while",
-    "内容": "arXiv:2606.05304v1 Announce Type: new Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05304",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 2325134109,
-    "标题": "【原生·一手】I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
-    "摘要": "arXiv:2606.05316v1 Announce Type: new Abstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation. Existing methods often overlook",
-    "内容": "arXiv:2606.05316v1 Announce Type: new Abstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation. Existing methods often overlook",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05316",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 1392476688,
-    "标题": "【原生·模型】GITCO: Gated Inference-Time Context Optimization in TSFMs",
-    "摘要": "arXiv:2606.05332v1 Announce Type: new Abstract: Patch-based Time Series Foundation Models (TSFMs) suffer from context poisoning: structurally anomalous patches capture",
-    "内容": "arXiv:2606.05332v1 Announce Type: new Abstract: Patch-based Time Series Foundation Models (TSFMs) suffer from context poisoning: structurally anomalous patches capture",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05332",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 1942200542,
-    "标题": "【原生·一手】Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory",
-    "摘要": "arXiv:2606.05334v1 Announce Type: new Abstract: Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining",
-    "内容": "arXiv:2606.05334v1 Announce Type: new Abstract: Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05334",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 836744801,
-    "标题": "【原生·研究】SentinelBench: A Benchmark for Long-Running Monitoring Agents",
-    "摘要": "arXiv:2606.05342v1 Announce Type: new Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is",
-    "内容": "arXiv:2606.05342v1 Announce Type: new Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 58,
-    "链接": "https://arxiv.org/abs/2606.05342",
-    "标签": [
-      "原生资讯",
-      "arXiv AI",
-      "AI Agent"
-    ]
-  },
-  {
-    "id": 3829479070,
-    "标题": "【原生·一手】An interpretable and trustworthy AI framework for large-scale longitudinal structure-pain association studies using data from the Osteoarthritis Initiative (OAI)",
-    "摘要": "arXiv:2606.05357v1 Announce Type: new Abstract: Purpose: To develop an interpretable and trustworthy AI framework that combines deep learning based MRI Osteoarthritis Knee Score",
-    "内容": "arXiv:2606.05357v1 Announce Type: new Abstract: Purpose: To develop an interpretable and trustworthy AI framework that combines deep learning based MRI Osteoarthritis Knee Score",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05357",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 4202357796,
-    "标题": "【原生·一手】Synthetic Contrastive Reasoning for Multi-Table Q&A",
-    "摘要": "arXiv:2606.05382v1 Announce Type: new Abstract: Multi-table question answering requires models to retrieve relevant evidence, link schemas, and perform compositional reasoning",
-    "内容": "arXiv:2606.05382v1 Announce Type: new Abstract: Multi-table question answering requires models to retrieve relevant evidence, link schemas, and perform compositional reasoning",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05382",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 3109820344,
-    "标题": "【原生·模型】Stability vs. Manipulability: Evaluating Robustness Under Post-Decision Interaction in LLM Judges",
-    "摘要": "arXiv:2606.05384v1 Announce Type: new Abstract: LLM-as-judge evaluation is widely used in benchmarking pipelines, where model outputs are compared and ranked using automated",
-    "内容": "arXiv:2606.05384v1 Announce Type: new Abstract: LLM-as-judge evaluation is widely used in benchmarking pipelines, where model outputs are compared and ranked using automated",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05384",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 2518957322,
-    "标题": "【原生·模型】Residual Modeling for High-Fidelity Learned Compression of Scientific Data",
-    "摘要": "arXiv:2606.05389v1 Announce Type: new Abstract: Lossy compression is essential for massive spatiotemporal data from scientific simulations. Learned compressors can achieve high",
-    "内容": "arXiv:2606.05389v1 Announce Type: new Abstract: Lossy compression is essential for massive spatiotemporal data from scientific simulations. Learned compressors can achieve high",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2606.05389",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ]
-  },
-  {
-    "id": 802980542,
-    "标题": "大模型发展三年半，AI圈终于等来了一场“不要大厂，只赌脑洞”的比赛",
-    "摘要": "观众投币定前十！",
-    "内容": "观众投币定前十！",
-    "来源": "量子位",
-    "分类": "大模型",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/06/431287.html",
-    "标签": [
-      "大模型"
-    ]
-  },
-  {
-    "id": 1966027240,
-    "标题": "Hinton吹哨了：AI已经有意识！",
-    "摘要": "人类得接受自己不再是唯一智能生命体",
-    "内容": "人类得接受自己不再是唯一智能生命体",
-    "来源": "量子位",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/06/431349.html",
-    "标签": []
-  },
-  {
-    "id": 3925355384,
-    "标题": "今年CVPR看点是广东：何恺明再获至高大奖，广工大打破大厂名校垄断",
-    "摘要": "广东上大分！",
-    "内容": "广东上大分！",
-    "来源": "量子位",
-    "分类": "学术前沿",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/06/431186.html",
-    "标签": [
-      "CVPR"
-    ]
-  },
-  {
-    "id": 1154150751,
-    "标题": "港股鞋王千百度，一夜完成AI数据公司转型",
-    "摘要": "形成「鞋履+人工智能数据」双主业",
-    "内容": "形成「鞋履+人工智能数据」双主业",
-    "来源": "量子位",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/06/431056.html",
-    "标签": []
-  },
-  {
-    "id": 3773121662,
-    "标题": "9点1氪｜豆包推出付费后月活减少610万；Anthropic呼吁全球放缓AI开发，警告AI“自我改进”风险；罗永浩卸任锤子软件公司执行董事",
-    "摘要": "今日热点导览 SpaceX据悉将其IPO的日本融资目标提高至25亿美元 二手房挂牌量回落新房库存下降，楼市供需关系向好 B站宣布启动AI创造公开赛 TOP3大新闻 数据显示，豆包推出付费后月活减少610万  据全球人工智能市场追踪机构Aicpb.com周三发布的数据显示，在豆包推出订阅选项后，该应用5月份的月活跃用户（MAU）减少了610万，",
-    "内容": "今日热点导览 SpaceX据悉将其IPO的日本融资目标提高至25亿美元 二手房挂牌量回落新房库存下降，楼市供需关系向好 B站宣布启动AI创造公开赛 TOP3大新闻 数据显示，豆包推出付费后月活减少610万  据全球人工智能市场追踪机构Aicpb.com周三发布的数据显示，在豆包推出订阅选项后，该应用5月份的月活跃用户（MAU）减少了610万，",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 62,
-    "链接": "https://36kr.com/p/3840996342073604?f=rss",
-    "标签": [
-      "Anthropic"
-    ]
-  },
-  {
-    "id": 1531590910,
-    "标题": "特锐德发布算力中心高压交直流预制舱供电站“算电岛”",
-    "摘要": "6月6日消息，特锐德今天发布算力中心高压交直流预制舱供电站（简称“算电岛”）。 该设备是将高压变压器、GIS、中压开关柜及母线、环网柜、SST、微机保护、控制通信等设备...",
-    "内容": "6月6日消息，特锐德今天发布算力中心高压交直流预制舱供电站（简称“算电岛”）。 该设备是将高压变压器、GIS、中压开关柜及母线、环网柜、SST、微机保护、控制通信等设备...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 56,
-    "链接": "https://finance.sina.com.cn/china/gncj/2026-06-06/doc-iniankfm8624654.shtml",
-    "标签": []
-  },
-  {
-    "id": 3572281734,
-    "标题": "基金业协会第四届会员代表大会召开 吴清定调行业高质量发展“四个坚持”",
-    "摘要": "6月6日，中国证券投资基金业协会第四届会员代表大会在北京召开。中国证监会主席吴清出席会议并发表讲话，强调全行业要深入贯彻落实党中央、国务院决策部署...",
-    "内容": "6月6日，中国证券投资基金业协会第四届会员代表大会在北京召开。中国证监会主席吴清出席会议并发表讲话，强调全行业要深入贯彻落实党中央、国务院决策部署...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/money/fund/original/2026-06-06/doc-iniankfm8622725.shtml",
-    "标签": []
-  },
-  {
-    "id": 2295162462,
-    "标题": "“小作文”引发闪崩，机构抛售！银之杰，严正声明：已报案",
-    "摘要": "公司已第一时间就相关谣传事件向公安机关报案并已收到报案回执。 6月6日，银之杰（300085）发布严正声明称，近日，网络平台出现关于公司“被立案调查”等不实传闻。",
-    "内容": "公司已第一时间就相关谣传事件向公安机关报案并已收到报案回执。 6月6日，银之杰（300085）发布严正声明称，近日，网络平台出现关于公司“被立案调查”等不实传闻。",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 56,
-    "链接": "https://finance.sina.com.cn/wm/2026-06-06/doc-iniankfp0642595.shtml",
-    "标签": []
-  },
-  {
-    "id": 3207627866,
-    "标题": "知情人士：美国政府考虑入股人工智能企业",
-    "摘要": "据美国方面6月6日消息，三名知情人士透露，美国政府高级官员已与美国大型人工智能企业进行了初步讨论，探讨政府入股这些企业的可能性。",
-    "内容": "据美国方面6月6日消息，三名知情人士透露，美国政府高级官员已与美国大型人工智能企业进行了初步讨论，探讨政府入股这些企业的可能性。",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/jjxw/2026-06-06/doc-iniankfp0649997.shtml",
-    "标签": []
-  },
-  {
-    "id": 1737364344,
-    "标题": "刘晓艳当选基金业协会理事会兼职会长 马向晖、王曙光、李俊杰、张志洲、赵军、黄杰、雷军等当选兼职副会长",
-    "摘要": "6月6日，中国证券投资基金业协会第四届会员代表大会在京隆重召开，大会选举产生协会第四届会员理事、监事，宣布证监会委派的非会员理事。",
-    "内容": "6月6日，中国证券投资基金业协会第四届会员代表大会在京隆重召开，大会选举产生协会第四届会员理事、监事，宣布证监会委派的非会员理事。",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/money/fund/2026-06-06/doc-iniankfm8611599.shtml",
-    "标签": []
-  },
-  {
-    "id": 2199425182,
-    "标题": "刘晓艳当选基金业协会理事会兼职会长 李一梅、陈戈、经雷、赵桂才、康乐、鲁伟铭等担任兼职副会长",
-    "摘要": "6月6日，中国证券投资基金业协会第四届会员代表大会在京隆重召开，大会选举产生协会第四届会员理事、监事，宣布证监会委派的非会员理事。",
-    "内容": "6月6日，中国证券投资基金业协会第四届会员代表大会在京隆重召开，大会选举产生协会第四届会员理事、监事，宣布证监会委派的非会员理事。",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/money/fund/2026-06-06/doc-iniankfq7408449.shtml",
-    "标签": []
-  },
-  {
-    "id": 2388500763,
-    "标题": "高考期间天气如何？这份全国天气地图请收好",
-    "摘要": "6月7日，2026年高考大幕将拉开！今年高考期间天气形势如何？该如何应对？ 今年高考期间，江南、华南、云南、东北等地的部分地区阴雨来扰，体感湿凉，其中...",
-    "内容": "6月7日，2026年高考大幕将拉开！今年高考期间天气形势如何？该如何应对？ 今年高考期间，江南、华南、云南、东北等地的部分地区阴雨来扰，体感湿凉，其中...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/jjxw/2026-06-06/doc-iniankfp0629180.shtml",
-    "标签": []
-  },
-  {
-    "id": 3567969249,
-    "标题": "金饰克价年内大跌400元，金价已回到去年年底水平",
-    "摘要": "6月5日，国际黄金价格收盘价为4328.92美元/盎司，日内跌超140美元，较年内高点已跌超1200美元。 在国内市场上，6月6日，周生生金饰报1315元/克，单日跌39元。",
-    "内容": "6月5日，国际黄金价格收盘价为4328.92美元/盎司，日内跌超140美元，较年内高点已跌超1200美元。 在国内市场上，6月6日，周生生金饰报1315元/克，单日跌39元。",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/roll/2026-06-06/doc-iniankfp0632055.shtml",
-    "标签": []
-  },
-  {
-    "id": 387524742,
-    "标题": "俄石油CEO指责美国从霍尔木兹海峡封锁中获利",
-    "摘要": "俄罗斯石油公司（Rosneft）首席执行官伊戈尔·谢钦周六表示，美国能源公司是霍尔木兹海峡封锁的主要受益者，华盛顿正试图改变全球能源市场的基本格局，以符合美国利益。",
-    "内容": "俄罗斯石油公司（Rosneft）首席执行官伊戈尔·谢钦周六表示，美国能源公司是霍尔木兹海峡封锁的主要受益者，华盛顿正试图改变全球能源市场的基本格局，以符合美国利益。",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-06-06/doc-iniancxr0755056.shtml",
-    "标签": []
-  },
-  {
-    "id": 194487302,
-    "标题": "刘晓艳：团结更多会员机构的力量 抓住发展机遇 破解发展难题 助力行业高速发展",
-    "摘要": "6月6日，中国证券投资基金业协会第四届会员代表大会在北京召开。会上，刘晓艳当选为协会第四届理事会兼职会长。 刘晓艳在发言中表示，大会提出的“加快建设一流投资机构...",
-    "内容": "6月6日，中国证券投资基金业协会第四届会员代表大会在北京召开。会上，刘晓艳当选为协会第四届理事会兼职会长。 刘晓艳在发言中表示，大会提出的“加快建设一流投资机构...",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-06-06",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/money/fund/original/2026-06-06/doc-iniancxr0753623.shtml",
-    "标签": []
-  },
-  {
-    "id": 32652569,
-    "标题": "【原生·模型】Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+    "id": 2359084812,
+    "标题": "【原生·模型】Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
     "摘要": "",
     "内容": "",
     "来源": "Hugging Face 官方",
     "分类": "原生资讯",
-    "日期": "2026-06-05",
+    "日期": "2026-06-04",
     "热度": 50,
-    "链接": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+    "链接": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
     "标签": [
       "原生资讯",
       "Hugging Face 官方"
     ]
   },
   {
-    "id": 3305714840,
-    "标题": "有人靠CPU把AI算力密度卷到了新高度",
-    "摘要": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」",
-    "内容": "Agentic AI的算力焦虑，英特尔给来了一剂「猛药」",
-    "来源": "量子位",
-    "分类": "AI应用",
-    "日期": "2026-06-05",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/06/431045.html",
-    "标签": []
-  },
-  {
-    "id": 3543343840,
-    "标题": "智源&清华合作成果登上Science：脑科学多模态基础模型Brainμ支撑揭示“记忆-睡眠”调控的神经机制",
-    "摘要": "研究表明，睡眠中的记忆重激活参与调控睡眠动态，为理解“记忆-睡眠”双向作用机制提供了新的实验证据。",
-    "内容": "研究表明，睡眠中的记忆重激活参与调控睡眠动态，为理解“记忆-睡眠”双向作用机制提供了新的实验证据。",
-    "来源": "量子位",
-    "分类": "学术前沿",
-    "日期": "2026-06-05",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/06/431033.html",
-    "标签": [
-      "多模态"
-    ]
-  },
-  {
-    "id": 3377708367,
-    "标题": "华为云发布Agentic AI系列新品 打造智能时代“硅基黑土地”",
+    "id": 2537054025,
+    "标题": "【原生·一手】Designing the hf CLI as an agent-optimized way to work with the Hub",
     "摘要": "",
     "内容": "",
-    "来源": "量子位",
-    "分类": "AI应用",
-    "日期": "2026-06-05",
-    "热度": 64,
-    "链接": "https://www.qbitai.com/2026/06/431027.html",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-04",
+    "热度": 50,
+    "链接": "https://huggingface.co/blog/hf-cli-for-agents",
     "标签": [
-      "华为"
+      "原生资讯",
+      "Hugging Face 官方"
     ]
   },
   {
-    "id": 3458682117,
-    "标题": "国星宇航与腾讯云签署“星算”计划战略合作协议，携手领航AI云服务新生态",
+    "id": 17918208,
+    "标题": "【原生·一手】Direct Preference Optimization Beyond Chatbots",
     "摘要": "",
     "内容": "",
-    "来源": "量子位",
-    "分类": "行业动态",
-    "日期": "2026-06-05",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/06/430757.html",
-    "标签": []
-  },
-  {
-    "id": 2640078027,
-    "标题": "WPS笔记正式发布：AI贯穿记录、整理与复用全过程",
-    "摘要": "AI笔记不是聊天框，而是信息入口。",
-    "内容": "AI笔记不是聊天框，而是信息入口。",
-    "来源": "量子位",
-    "分类": "行业动态",
-    "日期": "2026-06-05",
-    "热度": 56,
-    "链接": "https://www.qbitai.com/2026/06/431014.html",
-    "标签": []
-  },
-  {
-    "id": 4275912252,
-    "标题": "从超级个体到超级团队，腾讯云发布WorkBuddy企业版",
-    "摘要": "打造企业AI效率工具新标配",
-    "内容": "打造企业AI效率工具新标配",
-    "来源": "量子位",
-    "分类": "开源工具",
-    "日期": "2026-06-05",
-    "热度": 56,
-    "链接": "https://www.qbitai.com/2026/06/430758.html",
-    "标签": []
-  },
-  {
-    "id": 2450360676,
-    "标题": "氪星晚报 ｜日本或通过抛售美债，为创纪录规模的日元汇市干预筹资；俞浩内部发文：未来将继续心无旁骛做实业",
-    "摘要": "大公司： 首关15亿元，英诺科创三期基金持续聚焦早期科技投资 36氪获悉，6月5日，英诺基金宣布旗下英诺科创三期基金完成首轮关账，规模15亿元。该基金聚焦早期科技投资，重点布局前沿科技及人工智能领域。 比特币“金库”公司市值蒸发620亿美元 比特币本周下跌约14%，至四个月低点附近。",
-    "内容": "大公司： 首关15亿元，英诺科创三期基金持续聚焦早期科技投资 36氪获悉，6月5日，英诺基金宣布旗下英诺科创三期基金完成首轮关账，规模15亿元。该基金聚焦早期科技投资，重点布局前沿科技及人工智能领域。 比特币“金库”公司市值蒸发620亿美元 比特币本周下跌约14%，至四个月低点附近。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-06-05",
-    "热度": 50,
-    "链接": "https://36kr.com/p/3840267945969929?f=rss",
-    "标签": []
-  },
-  {
-    "id": 1123172346,
-    "标题": "Token大战中，华为云选择了第三条路｜最前线",
-    "摘要": "作者 | 邓咏仪 编辑 | 张雨忻 “在当前国产化算力正在成长的情况下，华为云现在不太在乎Token总量是多少，也不太在乎收入的总量是多少，在乎的是国产化的算力系统所生产出来的Tokens的健康度，并且要代表着生产力提升，而不仅仅是情绪价值。” 6月5日，2026华为云 INSPIRE 创想者大会在上海开幕，华为云CEO周跃峰表示。",
-    "内容": "作者 | 邓咏仪 编辑 | 张雨忻 “在当前国产化算力正在成长的情况下，华为云现在不太在乎Token总量是多少，也不太在乎收入的总量是多少，在乎的是国产化的算力系统所生产出来的Tokens的健康度，并且要代表着生产力提升，而不仅仅是情绪价值。” 6月5日，2026华为云 INSPIRE 创想者大会在上海开幕，华为云CEO周跃峰表示。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-06-05",
-    "热度": 58,
-    "链接": "https://36kr.com/p/3840016255126016?f=rss",
-    "标签": [
-      "华为"
-    ]
-  },
-  {
-    "id": 981418212,
-    "标题": "中国入境游距离「世界第一」还有多远？",
-    "摘要": "“曾有外国友人让我推荐中国的最佳旅行目的地，我的回答是：你应该看看中国的山。” 最近的一场入境游研讨会，携程集团联合创始人兼董事局主席梁建章这样回答。在他的表述中，中国有世界最高的山——喜马拉雅；全世界最美的山，则在中国南方最独特的喀斯特地貌——桂林。 与此同时，他正将这份“私藏推荐”转化为全球旅行者的实际行动。",
-    "内容": "“曾有外国友人让我推荐中国的最佳旅行目的地，我的回答是：你应该看看中国的山。” 最近的一场入境游研讨会，携程集团联合创始人兼董事局主席梁建章这样回答。在他的表述中，中国有世界最高的山——喜马拉雅；全世界最美的山，则在中国南方最独特的喀斯特地貌——桂林。 与此同时，他正将这份“私藏推荐”转化为全球旅行者的实际行动。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-06-05",
-    "热度": 50,
-    "链接": "https://36kr.com/p/3840001908361472?f=rss",
-    "标签": []
-  },
-  {
-    "id": 266951364,
-    "标题": "探店13家，理想/蔚来/问界如何征服50万客群？",
-    "摘要": "一周之内，三款“9系”旗舰SUV密集上市，高端新能源市场竞争战况升级。 5月15日，理想发布新一代L9，其中Livis版本搭载800V主动悬架、线控制动、线控转向的全线控底盘，售价50.98万元起。 5月27日，蔚来ES9与问界新M9同天发布。姚明也称“空间大”的蔚来ES9，起售价49.8万元；在高端市场已经破局的问界M9，起售价49.98万元。",
-    "内容": "一周之内，三款“9系”旗舰SUV密集上市，高端新能源市场竞争战况升级。 5月15日，理想发布新一代L9，其中Livis版本搭载800V主动悬架、线控制动、线控转向的全线控底盘，售价50.98万元起。 5月27日，蔚来ES9与问界新M9同天发布。姚明也称“空间大”的蔚来ES9，起售价49.8万元；在高端市场已经破局的问界M9，起售价49.98万元。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-06-05",
-    "热度": 63,
-    "链接": "https://36kr.com/p/3839803361741313?f=rss",
-    "标签": []
-  },
-  {
-    "id": 390019748,
-    "标题": "微信AI对手机厂商打开一道窄门｜焦点分析",
-    "摘要": "文｜王毓婵 梁键强 编辑｜张雨忻 昨日，腾讯客服回应称，微信正在与华为、小米、荣耀、OPPO、vivo等手机厂商合作推出A2A助手能力，目前已有多家厂商完成接入。 “您可以通过对应手机系统的AI助手发起微信音视频通话或向指定好友发送消息。该功能基于A2A（Agent-to-Agent）协作机制，数据安全与隐私通过双重授权机制保障。",
-    "内容": "文｜王毓婵 梁键强 编辑｜张雨忻 昨日，腾讯客服回应称，微信正在与华为、小米、荣耀、OPPO、vivo等手机厂商合作推出A2A助手能力，目前已有多家厂商完成接入。 “您可以通过对应手机系统的AI助手发起微信音视频通话或向指定好友发送消息。该功能基于A2A（Agent-to-Agent）协作机制，数据安全与隐私通过双重授权机制保障。",
-    "来源": "36氪",
-    "分类": "AI应用",
-    "日期": "2026-06-05",
-    "热度": 58,
-    "链接": "https://36kr.com/p/3839575253993985?f=rss",
-    "标签": [
-      "华为"
-    ]
-  },
-  {
-    "id": 3508769034,
-    "标题": "前华为员工创业线控底盘，曾参编国标，获松禾、苏高新投资丨36氪首发",
-    "摘要": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，线控底盘核心零部件供应商毫秒智控已于近期完成数千万元天使+轮融资，本轮投资方为松禾资本和苏高新融晟。这也是公司成立仅一年以来，继获得厚雪资本天使轮独家投资后，接连完成的第二轮融资。 毫秒智控2025年4月成立于上海，专注于线控转向（SBW）系统及核心电控部件的研发与生产。 毫秒智控的核心竞争力，源于其极度稀缺的团队基因。",
-    "内容": "作者丨欧雪 编辑丨袁斯来 硬氪获悉，线控底盘核心零部件供应商毫秒智控已于近期完成数千万元天使+轮融资，本轮投资方为松禾资本和苏高新融晟。这也是公司成立仅一年以来，继获得厚雪资本天使轮独家投资后，接连完成的第二轮融资。 毫秒智控2025年4月成立于上海，专注于线控转向（SBW）系统及核心电控部件的研发与生产。 毫秒智控的核心竞争力，源于其极度稀缺的团队基因。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-06-05",
-    "热度": 64,
-    "链接": "https://36kr.com/p/3839600052898054?f=rss",
-    "标签": [
-      "华为"
-    ]
-  },
-  {
-    "id": 2264511846,
-    "标题": "硬氪独家 | 唐文斌「原力灵机」并购物流机器人公司，并获智谱、商汤、阶跃等投资",
-    "摘要": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪独家获悉，具身智能企业「原力灵机」近期完成新一轮融资，资方主要为数家大模型公司，包括智谱、阶跃星辰、商汤科技。此外，华勤、上汽恒旭等产业投资方持续加注。 「原力灵机」是一家通用具身大模型公司，2025年3月由旷视科技联合创始人兼CTO唐文斌创立，团队核心创始成员为旷视科技原班人马。",
-    "内容": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪独家获悉，具身智能企业「原力灵机」近期完成新一轮融资，资方主要为数家大模型公司，包括智谱、阶跃星辰、商汤科技。此外，华勤、上汽恒旭等产业投资方持续加注。 「原力灵机」是一家通用具身大模型公司，2025年3月由旷视科技联合创始人兼CTO唐文斌创立，团队核心创始成员为旷视科技原班人马。",
-    "来源": "36氪",
-    "分类": "大模型",
-    "日期": "2026-06-05",
-    "热度": 63,
-    "链接": "https://36kr.com/p/3838835333253385?f=rss",
-    "标签": [
-      "大模型",
-      "具身智能"
-    ]
-  },
-  {
-    "id": 2246170031,
-    "标题": "为什么库里没有选择安踏？",
-    "摘要": "文｜贺哲馨 编辑｜乔芊 2026年6月2日，NBA现役金州勇士队球星斯蒂芬·库里（Stephen Curry）在其个人社交媒体上宣布，个人品牌“库里品牌”（Curry Brand）将与李宁正式签约。 ESPN援引知情人士称，这份合同有效期长达十年，内容涵盖篮球产品、运动休闲服饰、库里以个人品牌签约运动员的权利，以及完整的高尔夫球杆产品线，合同具体金额未披露。",
-    "内容": "文｜贺哲馨 编辑｜乔芊 2026年6月2日，NBA现役金州勇士队球星斯蒂芬·库里（Stephen Curry）在其个人社交媒体上宣布，个人品牌“库里品牌”（Curry Brand）将与李宁正式签约。 ESPN援引知情人士称，这份合同有效期长达十年，内容涵盖篮球产品、运动休闲服饰、库里以个人品牌签约运动员的权利，以及完整的高尔夫球杆产品线，合同具体金额未披露。",
-    "来源": "36氪",
-    "分类": "AI应用",
-    "日期": "2026-06-05",
-    "热度": 50,
-    "链接": "https://36kr.com/p/3836116289877385?f=rss",
-    "标签": []
-  },
-  {
-    "id": 2422330290,
-    "标题": "【原生·发布】We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-    "摘要": "",
-    "内容": "",
-    "来源": "Google DeepMind 官方",
+    "来源": "Hugging Face 官方",
     "分类": "原生资讯",
-    "日期": "2026-05-21",
-    "热度": 63,
-    "链接": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+    "日期": "2026-06-03",
+    "热度": 50,
+    "链接": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
     "标签": [
       "原生资讯",
-      "Google DeepMind 官方",
-      "Google"
-    ]
-  },
-  {
-    "id": 1683729966,
-    "标题": "【原生·一手】Fast-tracking genetic leads to reverse cellular aging",
-    "摘要": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-    "内容": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-    "来源": "Google DeepMind 官方",
-    "分类": "原生资讯",
-    "日期": "2026-05-18",
-    "热度": 50,
-    "链接": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-    "标签": [
-      "原生资讯",
-      "Google DeepMind 官方"
-    ]
-  },
-  {
-    "id": 235740956,
-    "标题": "【原生·一手】Simulate real-world places with Project Genie and Street View",
-    "摘要": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-    "内容": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-    "来源": "Google DeepMind 官方",
-    "分类": "原生资讯",
-    "日期": "2026-05-17",
-    "热度": 57,
-    "链接": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-    "标签": [
-      "原生资讯",
-      "Google DeepMind 官方",
-      "Google"
+      "Hugging Face 官方"
     ]
   }
 ]
