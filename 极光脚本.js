@@ -121,7 +121,14 @@ function 应用筛选() {
     if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类);
     if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
 
-    // 工具排行 / 一手消息 作为独立分类
+    // 金融 / 工具排行 / 一手消息 作为独立分类
+    if (状态.当前分类 === '金融') {
+        clearContainers();
+        加载金融热点();
+        if (空状态) 空状态.style.display = 'none';
+        if (加载区域) 加载区域.style.display = 'none';
+        return;
+    }
     if (状态.当前分类 === '工具排行') {
         clearContainers();
         加载工具排行();
@@ -264,6 +271,70 @@ function 创建特征卡片(文章) {
         <div class="卡片摘要">${(文章.摘要||'').substring(0,120)}</div>
         ${标签HTML ? '<div class="卡片标签栏">'+标签HTML+'</div>' : ''}`;
     return 卡片;
+}
+
+// ============================================================
+// 金融热点
+// ============================================================
+
+async function 加载金融热点() {
+    const 容器 = document.getElementById('特征容器');
+    if (!容器) return;
+
+    let 金融数据 = null;
+    try {
+        const 响应 = await fetch('金融API.json?v=' + Date.now());
+        if (响应.ok) 金融数据 = await 响应.json();
+    } catch (e) { console.log('金融API加载失败：' + e.message); }
+
+    if (!金融数据 || !金融数据.articles || 金融数据.articles.length === 0) {
+        const 标题 = document.createElement('div'); 标题.className = '特征区标题'; 标题.textContent = '金融热点';
+        容器.appendChild(标题);
+        const 空 = document.createElement('div'); 空.className = '空状态';
+        空.innerHTML = '<p>金融热点数据加载中，请稍后刷新</p>';
+        容器.appendChild(空);
+        return;
+    }
+
+    const 标题 = document.createElement('div'); 标题.className = '特征区标题';
+    标题.textContent = '金融热点 · ' + 金融数据.updated.substring(0, 10);
+    容器.appendChild(标题);
+
+    // 前3条大卡片，其余列表
+    const 头条 = 金融数据.articles.slice(0, 3);
+    const 其余 = 金融数据.articles.slice(3);
+
+    if (头条.length > 0) {
+        const 网格 = document.createElement('div'); 网格.className = '特征网格';
+        if (头条.length <= 2) 网格.style.gridTemplateColumns = '1fr 1fr';
+        else 网格.style.gridTemplateColumns = 'repeat(3, 1fr)';
+        头条.forEach(a => {
+            const 卡片 = document.createElement('article'); 卡片.className = '特征卡片';
+            const 原文链接 = a.链接 || '#';
+            卡片.innerHTML = `
+                <div class="卡片元信息"><span class="卡片来源">${a.来源||''}</span><span class="卡片日期">${a.日期||''}</span></div>
+                <div class="卡片标题"><a href="${原文链接}" target="_blank" rel="noopener" style="color:inherit">${a.标题||''}</a></div>
+                <div class="卡片摘要">${(a.摘要||'').substring(0, 100)}</div>
+                ${a.标签 ? '<div class="卡片标签栏">' + a.标签.slice(0,3).map(t => `<span class="卡片标签">${t}</span>`).join('') + '</div>' : ''}`;
+            网格.appendChild(卡片);
+        });
+        容器.appendChild(网格);
+    }
+
+    if (其余.length > 0) {
+        const 列表容器 = document.getElementById('列表容器');
+        if (列表容器) {
+            const 列表标题 = document.createElement('div'); 列表标题.className = '列表区域标题'; 列表标题.textContent = '更多热点';
+            列表容器.appendChild(列表标题);
+            const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
+            其余.forEach(a => {
+                const 项 = document.createElement('li'); 项.className = '资讯列表项';
+                项.innerHTML = `<a class="资讯列表链接" href="${a.链接||'#'}" target="_blank" rel="noopener"><div class="列表元信息"><span class="列表来源">${a.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${a.日期||''}</span></div><span class="列表标题">${a.标题||''}</span></a>`;
+                列表.appendChild(项);
+            });
+            列表容器.appendChild(列表);
+        }
+    }
 }
 
 // ============================================================

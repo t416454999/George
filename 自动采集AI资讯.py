@@ -215,6 +215,62 @@ if 缺少的包:
     },
 ]
 
+# ============================================================
+# 金融资讯来源（独立配置，固定分类=金融）
+# ============================================================
+
+金融来源配置 = [
+    {
+        "名称": "华尔街见闻",
+        "RSS": "https://wallstreetcn.com/feed",
+        "类型": "RSS",
+        "固定分类": "金融",
+    },
+    {
+        "名称": "财联社",
+        "RSS": "https://www.cls.cn/api/sw?app=CailianpressWeb&os=web&sv=8.4.6",
+        "类型": "API",
+        "固定分类": "金融",
+    },
+    {
+        "名称": "金十数据",
+        "RSS": "https://www.jin10.com/flash",
+        "类型": "RSS",
+        "固定分类": "金融",
+    },
+    {
+        "名称": "东方财富",
+        "RSS": "https://finance.eastmoney.com/rss/",
+        "类型": "RSS",
+        "固定分类": "金融",
+    },
+    {
+        "名称": "新浪财经",
+        "RSS": "https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2511&k=&num=20",
+        "类型": "API",
+        "固定分类": "金融",
+    },
+    {
+        "名称": "第一财经",
+        "RSS": "https://www.yicai.com/feed/",
+        "类型": "RSS",
+        "固定分类": "金融",
+    },
+    {
+        "名称": "每经网",
+        "RSS": "https://www.nbd.com.cn/rss/",
+        "类型": "RSS",
+        "固定分类": "金融",
+    },
+]
+
+# ============================================================
+# 金融API输出路径
+# ============================================================
+
+金融API路径 = 脚本目录 / "金融API.json"
+金融API最大条数 = 50
+
 
 # ============================================================
 # 工具函数
@@ -634,6 +690,70 @@ def 生成内容摘要(文章列表):
             文章["内容"] = 文章.get("摘要", "")
 
 
+def 采集金融资讯():
+    """单独采集金融资讯，生成金融API"""
+    print("\n" + "=" * 60)
+    print("金融热点采集 · Financial Hot News API")
+    print(f"运行时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("=" * 60)
+
+    金融文章 = []
+    for 来源 in 金融来源配置:
+        来源名称 = 来源["名称"]
+        print(f"\n--- {来源名称} ---")
+        try:
+            if 来源.get("类型") == "API":
+                新文章 = 采集API来源(来源)
+            else:
+                新文章 = 采集RSS来源(来源)
+            if 新文章:
+                金融文章.extend(新文章)
+                print(f"  [OK] {来源名称}：获取 {len(新文章)} 篇")
+        except Exception as e:
+            print(f"  [!!] {来源名称}：采集失败 - {e}")
+        time.sleep(1)
+
+    # 金融文章去重
+    已有金融文章 = []
+    if 金融API路径.exists():
+        try:
+            with open(金融API路径, "r", encoding="utf-8") as f:
+                数据 = json.load(f)
+                已有金融文章 = 数据.get("articles", [])
+        except:
+            pass
+
+    # 去重
+    去重后 = 文章去重(金融文章, 已有金融文章)
+
+    # 合并：新文章在前
+    全部金融文章 = 去重后 + 已有金融文章
+
+    # 按热度排序
+    全部金融文章.sort(key=lambda x: (x.get("热度", 50), x.get("日期", "")), reverse=True)
+
+    # 限制最大条数
+    if len(全部金融文章) > 金融API最大条数:
+        全部金融文章 = 全部金融文章[:金融API最大条数]
+
+    # 生成API格式
+    api数据 = {
+        "updated": datetime.now().strftime("%Y-%m-%dT%H:%M:%S+08:00"),
+        "source": "极光引擎 · 金融热点API",
+        "description": "实时金融热点资讯，按热度排序，每天自动更新。可直接 GET 请求获取 JSON。",
+        "count": len(全部金融文章),
+        "articles": 全部金融文章
+    }
+
+    # 写入API文件
+    临时路径 = 金融API路径.with_suffix(".tmp")
+    with open(临时路径, "w", encoding="utf-8") as f:
+        json.dump(api数据, f, ensure_ascii=False, indent=2)
+    临时路径.replace(金融API路径)
+    print(f"\n[金融API] 已生成：{金融API路径}，共 {len(全部金融文章)} 条热点")
+    return len(去重后)
+
+
 def 主流程():
     """主执行流程"""
     print("=" * 60)
@@ -708,6 +828,14 @@ def 主流程():
     print(f"\n{'=' * 60}")
     print("采集任务完成。")
     print(f"{'=' * 60}")
+
+    # 6. 采集金融资讯 + 生成金融API
+    print(f"\n[步骤6] 采集金融热点资讯...")
+    try:
+        金融新增 = 采集金融资讯()
+        print(f"[金融API] 新增 {金融新增} 条金融热点")
+    except Exception as e:
+        print(f"[金融API] 采集失败：{e}")
 
     return len(所有新文章)
 
