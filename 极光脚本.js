@@ -27,7 +27,8 @@ async function 初始化数据() {
         'World Arena 独家访谈', 'Stanford HAI', 'The Verge', 'ArXiv 论文解读',
         'Steersman AI Blog', 'AI Developer Survey', '机器之心', '量子位', '36氪',
         '雷锋网', '虎嗅', 'Google Research', 'Google DeepMind', 'Meta AI Blog',
-        'Figure AI Blog', 'Variety', 'OpenAI Blog'
+        'Figure AI Blog', 'Variety', 'OpenAI Blog',
+        '新浪科技', '华尔街见闻', '财联社', '金十数据', '东方财富', '第一财经', '每经网'
     ];
 
     try {
