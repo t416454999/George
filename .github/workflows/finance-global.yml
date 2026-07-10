@@ -7,7 +7,7 @@ name: "Finance Global - Foreign News Collector"
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
