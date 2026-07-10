@@ -355,11 +355,11 @@ async function 加载行业热议() {
 
     let 数据 = null;
     try {
-        const 响应 = await fetch('https://boke.jgyq.me/行业热议API.json?v=' + Date.now());
+        const 响应 = await fetch('https://boke.jgyq.me/industry-buzz.json?v=' + Date.now());
         if (响应.ok) 数据 = await 响应.json();
     } catch (e) {
         try {
-            const 响应 = await fetch('行业热议API.json?v=' + Date.now());
+            const 响应 = await fetch('industry-buzz.json?v=' + Date.now());
             if (响应.ok) 数据 = await 响应.json();
         } catch (e2) {}
     }

@@ -2,19 +2,36 @@
   {
     "名称": "Cursor",
     "链接": "https://github.com/getcursor/cursor",
-    "说明": "AI 原生代码编辑器，基于 VS Code 深度集成 Claude 和 GPT 模型，支持自然语言编程和多文件重构。当前 AI 编程工具中开发者体验最成熟的选择。",
-    "星标": "128k"
-  },
-  {
-    "名称": "LangChain",
-    "链接": "https://github.com/langchain-ai/langchain",
-    "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。几乎所有 AI 应用开发者的入门首选框架。",
-    "星标": "112k"
+    "说明": "AI 原生代码编辑器，基于 VS Code 深度集成 Claude 和 GPT 模型，支持自然语言编程和多文件重构。",
+    "星标": "128k",
+    "排行变化": "─"
   },
   {
     "名称": "Ollama",
     "链接": "https://github.com/ollama/ollama",
-    "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。支持 CPU 和 GPU 推理，消费级硬件即可部署。",
-    "星标": "105k"
+    "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。支持 CPU 和 GPU 推理。",
+    "星标": "115k",
+    "排行变化": "↑1"
+  },
+  {
+    "名称": "LangChain",
+    "链接": "https://github.com/langchain-ai/langchain",
+    "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
+    "星标": "112k",
+    "排行变化": "↓1"
+  },
+  {
+    "名称": "v0 by Vercel",
+    "链接": "https://github.com/vercel/ai",
+    "说明": "Vercel 推出的 AI 驱动 UI 生成工具，输入提示词即可生成可直接部署的前端代码。支持 React、Next.js、Tailwind。",
+    "星标": "89k",
+    "排行变化": "NEW"
+  },
+  {
+    "名称": "AutoGen",
+    "链接": "https://github.com/microsoft/autogen",
+    "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务，适用于企业级自动化流程。",
+    "星标": "76k",
+    "排行变化": "NEW"
   }
 ]
