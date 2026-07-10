@@ -421,8 +421,8 @@ async function 加载行业热议() {
         }
         let titleHTML;
         if (isForeign) {
-            // 英文标题：显示中文分类上下文 + 英文原文（小字灰色）
-            titleHTML = `<span class="一手标题文字"><span style="font-weight:500">${cat || '国际商业'}</span><br><span style="font-size:13px;color:var(--text-faint);font-weight:400">${a.标题}</span></span>`;
+            // 外媒原文直接展示，不加伪翻译
+            titleHTML = `<span class="一手标题文字">${a.标题}</span>`;
         } else {
             titleHTML = `<span class="一手标题文字">${a.标题}</span>`;
         }
