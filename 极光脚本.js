@@ -118,6 +118,10 @@ function 切换页面(页面名) {
 function 渲染首页() { 应用筛选(); }
 
 function 应用筛选() {
+    // 先声明要用到的 DOM 元素，避免 early return 时未定义
+    const 空状态 = document.getElementById('空状态');
+    const 加载区域 = document.getElementById('加载区域');
+
     let 文章列表 = [...状态.文章列表];
     if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类);
     if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
@@ -157,8 +161,6 @@ function 应用筛选() {
         return;
     }
 
-    const 空状态 = document.getElementById('空状态');
-    const 加载区域 = document.getElementById('加载区域');
     if (文章列表.length === 0) {
         if (空状态) 空状态.style.display = 'block';
         if (加载区域) 加载区域.style.display = 'none';
@@ -228,23 +230,36 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
         }
     }
 
-    // 更多资讯
+    // 更多资讯（默认收起，最多显示 8 条后折叠）
     if (列表文章.length > 0) {
         const 容器 = document.getElementById('列表容器');
         if (容器) {
             const 标题 = document.createElement('div'); 标题.className = '列表区域标题'; 标题.textContent = '更多资讯';
             容器.appendChild(标题);
             const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
-            列表文章.forEach(文章 => {
-                const 项 = document.createElement('li'); 项.className = '资讯列表项';
-                const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
-                链接.href='#详情/'+文章.id; 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
-                链接.innerHTML=`<div class="列表元信息"><span class="列表来源">${文章.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${文章.日期||''}</span></div><span class="列表标题">${文章.标题||''}</span><span class="列表分类">${文章.分类||''}</span>`;
-                项.appendChild(链接); 列表.appendChild(项);
-            });
+            const 限制数 = 8;
+            列表文章.slice(0, 限制数).forEach(文章 => append列表项(列表, 文章));
             容器.appendChild(列表);
+            if (列表文章.length > 限制数) {
+                const 展开按钮 = document.createElement('button');
+                展开按钮.className = '加载更多按钮'; 展开按钮.style.marginTop = '12px';
+                展开按钮.textContent = `展开剩余 ${列表文章.length - 限制数} 篇`;
+                展开按钮.onclick = () => {
+                    列表文章.slice(限制数).forEach(文章 => append列表项(列表, 文章));
+                    展开按钮.remove();
+                };
+                容器.appendChild(展开按钮);
+            }
         }
     }
+
+function append列表项(列表, 文章) {
+    const 项 = document.createElement('li'); 项.className = '资讯列表项';
+    const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
+    链接.href='#详情/'+文章.id; 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
+    链接.innerHTML=`<div class="列表元信息"><span class="列表来源">${文章.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${文章.日期||''}</span></div><span class="列表标题">${文章.标题||''}</span><span class="列表分类">${文章.分类||''}</span>`;
+    项.appendChild(链接); 列表.appendChild(项);
+}
 
 }
 
@@ -369,15 +384,23 @@ async function 加载行业热议() {
         return;
     }
 
-    const 标题 = document.createElement('div'); 标题.className = '特征区标题'; 标题.textContent = '行业热议';
+    const 标题 = document.createElement('div'); 标题.className = '特征区标题'; 标题.textContent = '行业热议 · 商业八卦实时追踪';
     容器.appendChild(标题);
 
     const 列表 = document.createElement('ul'); 列表.className = '一手列表';
     数据.articles.forEach(a => {
         const 项 = document.createElement('li'); 项.className = '一手列表项';
         const cat = a.分类 || '';
-        const tag = cat ? `<span class="一手标记" style="border-color:rgba(168,120,48,0.3);color:var(--brass)">${cat}</span>` : '<span class="一手标记">热议</span>';
-        项.innerHTML = `<a class="一手列表链接" href="${a.链接||'#'}" target="_blank" rel="noopener">${tag}<span class="一手来源">${a.来源||''}</span><span class="一手日期">${a.日期||''}</span><span class="一手标题文字">${a.标题||''}</span></a>`;
+        const isForeign = /^[A-Za-z\s\.,:;!?0-9"']{10,}/.test(a.标题);
+        let tagHTML;
+        if (isForeign) {
+            tagHTML = `<span class="一手标记" style="border-color:rgba(168,80,58,0.4);color:var(--rust)">外媒</span>`;
+        } else if (cat) {
+            tagHTML = `<span class="一手标记" style="border-color:rgba(168,120,48,0.3);color:var(--brass)">${cat}</span>`;
+        } else {
+            tagHTML = '<span class="一手标记">热议</span>';
+        }
+        项.innerHTML = `<a class="一手列表链接" href="${a.链接||'#'}" target="_blank" rel="noopener">${tagHTML}<span class="一手来源">${a.来源||''}</span><span class="一手日期">${a.日期||''}</span><span class="一手标题文字">${isForeign ? '<span style="color:var(--text-dim);font-size:13px;">' + a.标题 + '</span>' : a.标题}</span></a>`;
         列表.appendChild(项);
     });
     容器.appendChild(列表);
