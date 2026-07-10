@@ -122,7 +122,14 @@ function 应用筛选() {
     if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类);
     if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
 
-    // 金融 / 工具排行 / 一手消息 作为独立分类
+    // 金融 / 工具排行 / 一手消息 / 行业热议 作为独立分类
+    if (状态.当前分类 === '行业热议') {
+        clearContainers();
+        加载行业热议();
+        if (空状态) 空状态.style.display = 'none';
+        if (加载区域) 加载区域.style.display = 'none';
+        return;
+    }
     if (状态.当前分类 === '金融') {
         clearContainers();
         加载金融热点();
@@ -336,6 +343,44 @@ async function 加载金融热点() {
             列表容器.appendChild(列表);
         }
     }
+}
+
+// ============================================================
+// 行业热议
+// ============================================================
+
+async function 加载行业热议() {
+    const 容器 = document.getElementById('特征容器');
+    if (!容器) return;
+
+    let 数据 = null;
+    try {
+        const 响应 = await fetch('https://boke.jgyq.me/行业热议API.json?v=' + Date.now());
+        if (响应.ok) 数据 = await 响应.json();
+    } catch (e) {
+        try {
+            const 响应 = await fetch('行业热议API.json?v=' + Date.now());
+            if (响应.ok) 数据 = await 响应.json();
+        } catch (e2) {}
+    }
+
+    if (!数据 || !数据.articles || 数据.articles.length === 0) {
+        容器.innerHTML = '<div class="特征区标题">行业热议</div><div class="空状态"><p>暂无数据</p></div>';
+        return;
+    }
+
+    const 标题 = document.createElement('div'); 标题.className = '特征区标题'; 标题.textContent = '行业热议';
+    容器.appendChild(标题);
+
+    const 列表 = document.createElement('ul'); 列表.className = '一手列表';
+    数据.articles.forEach(a => {
+        const 项 = document.createElement('li'); 项.className = '一手列表项';
+        const cat = a.分类 || '';
+        const tag = cat ? `<span class="一手标记" style="border-color:rgba(168,120,48,0.3);color:var(--brass)">${cat}</span>` : '<span class="一手标记">热议</span>';
+        项.innerHTML = `<a class="一手列表链接" href="${a.链接||'#'}" target="_blank" rel="noopener">${tag}<span class="一手来源">${a.来源||''}</span><span class="一手日期">${a.日期||''}</span><span class="一手标题文字">${a.标题||''}</span></a>`;
+        列表.appendChild(项);
+    });
+    容器.appendChild(列表);
 }
 
 // ============================================================
