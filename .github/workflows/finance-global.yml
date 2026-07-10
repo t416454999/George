@@ -39,18 +39,15 @@ jobs:
       - name: Fetch foreign financial news
         run: python3 .github/workflows/finance-global-fetch.py
 
-      - name: Fetch HN + Google Translate
-        run: python3 .github/workflows/hn-translate-fetch.py
-
       - name: Commit and push
         run: |
           git config user.name "Finance Global Bot"
           git config user.email "finance-global@aurora-engine"
-          git add 金融API-国外.json hn-translated.json
+          git add 金融API-国外.json
           if git diff --staged --quiet; then
             echo "No new data"
           else
-            git commit -m "Auto: foreign finance + HN translated $(date '+%Y-%m-%d %H:%M')"
+            git commit -m "Auto: foreign finance $(date '+%Y-%m-%d %H:%M')"
             git pull --rebase origin main
             git push
             echo "Data updated"
