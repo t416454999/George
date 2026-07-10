@@ -104,7 +104,7 @@ function 切换页面(页面名) {
     const 视图ID = 视图映射[页面名];
     if (视图ID) { const 视图 = document.getElementById(视图ID); if (视图) 视图.classList.add('活跃视图'); }
     document.querySelectorAll('.导航链接').forEach(link => { link.classList.toggle('活跃', link.dataset.page === 页面名); });
-    if (window.location.hash.slice(1) !== 页面名) history.replaceState(null, '', '#' + 页面名);
+    if (window.location.hash.slice(1) !== 页面名) history.pushState(null, '', '#' + 页面名);
     switch (页面名) { case '首页': 渲染首页(); break; case '分类': 更新分类计数(); break; case '搜索': 初始化搜索(); break; }
     const 菜单 = document.getElementById('导航菜单'); const 按钮 = document.querySelector('.菜单按钮');
     if (菜单) 菜单.classList.remove('展开'); if (按钮) 按钮.classList.remove('展开');

@@ -14,15 +14,15 @@
     <!-- 导航栏 -->
     <nav class="导航栏" id="导航栏">
         <div class="导航容器">
-            <a href="#首页" class="网站标志" onclick="切换页面('首页')">
+            <a href="#首页" class="网站标志" onclick="切换页面('首页');return false">
                 <span class="标志标记"></span>
                 极光引擎
             </a>
             <div class="导航菜单" id="导航菜单">
-                <a href="#首页" class="导航链接 活跃" onclick="切换页面('首页')" data-page="首页">首页</a>
-                <a href="#分类" class="导航链接" onclick="切换页面('分类')" data-page="分类">分类</a>
-                <a href="#搜索" class="导航链接" onclick="切换页面('搜索')" data-page="搜索">搜索</a>
-                <a href="#关于" class="导航链接" onclick="切换页面('关于')" data-page="关于">关于</a>
+                <a href="#首页" class="导航链接 活跃" onclick="切换页面('首页');return false" data-page="首页">首页</a>
+                <a href="#分类" class="导航链接" onclick="切换页面('分类');return false" data-page="分类">分类</a>
+                <a href="#搜索" class="导航链接" onclick="切换页面('搜索');return false" data-page="搜索">搜索</a>
+                <a href="#关于" class="导航链接" onclick="切换页面('关于');return false" data-page="关于">关于</a>
             </div>
             <button class="菜单按钮" onclick="切换移动菜单()" aria-label="菜单">
                 <span></span><span></span><span></span>
