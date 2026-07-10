@@ -410,9 +410,9 @@ async function 加载行业热议() {
     数据.articles.forEach(a => {
         const 项 = document.createElement('li'); 项.className = '一手列表项';
         const cat = a.分类 || '';
-        const isForeign = /^[A-Za-z\s\.,:;!?0-9"'\-#]{15,}/.test(a.标题);
+        const 有原文 = !!a.原文;
         let tagHTML;
-        if (isForeign) {
+        if (有原文) {
             tagHTML = `<span class="一手标记" style="border-color:rgba(168,80,58,0.4);color:var(--rust)">外媒</span>`;
         } else if (cat) {
             tagHTML = `<span class="一手标记" style="border-color:rgba(168,120,48,0.3);color:var(--brass)">${cat}</span>`;
@@ -420,9 +420,8 @@ async function 加载行业热议() {
             tagHTML = '<span class="一手标记">热议</span>';
         }
         let titleHTML;
-        if (isForeign) {
-            // 外媒原文直接展示，不加伪翻译
-            titleHTML = `<span class="一手标题文字">${a.标题}</span>`;
+        if (有原文) {
+            titleHTML = `<span class="一手标题文字">${a.标题}<br><span style="font-size:13px;color:var(--text-faint);font-weight:400">${a.原文}</span></span>`;
         } else {
             titleHTML = `<span class="一手标题文字">${a.标题}</span>`;
         }
