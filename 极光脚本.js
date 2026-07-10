@@ -238,28 +238,47 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
             容器.appendChild(标题);
             const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
             const 限制数 = 8;
-            列表文章.slice(0, 限制数).forEach(文章 => append列表项(列表, 文章));
+            const allItems = 列表文章.map(文章 => createListLink(文章));
+            const limited = allItems.slice(0, 限制数);
+            const rest = allItems.slice(限制数);
+            limited.forEach(el => 列表.appendChild(el));
             容器.appendChild(列表);
-            if (列表文章.length > 限制数) {
+            if (rest.length > 0) {
                 const 展开按钮 = document.createElement('button');
                 展开按钮.className = '加载更多按钮'; 展开按钮.style.marginTop = '12px';
-                展开按钮.textContent = `展开剩余 ${列表文章.length - 限制数} 篇`;
+                展开按钮.textContent = `展开剩余 ${rest.length} 篇`;
                 展开按钮.onclick = () => {
-                    列表文章.slice(限制数).forEach(文章 => append列表项(列表, 文章));
+                    rest.forEach(el => 列表.insertBefore(el, 容器.lastChild));
                     展开按钮.remove();
+                    // 添加浮动收起按钮
+                    const 收起BTN = document.createElement('button');
+                    收起BTN.className = '收起浮动按钮';
+                    收起BTN.textContent = '收起';
+                    收起BTN.id = '收起浮动按钮';
+                    收起BTN.onclick = () => {
+                        // 收起：移除展开的部分，重新显示展开按钮
+                        rest.forEach(el => el.remove());
+                        容器.appendChild(展开按钮);
+                        收起BTN.remove();
+                        window.scrollTo({top: 容器.offsetTop - 100, behavior: 'smooth'});
+                    };
+                    document.body.appendChild(收起BTN);
                 };
                 容器.appendChild(展开按钮);
             }
         }
     }
 
-function append列表项(列表, 文章) {
+function createListLink(文章) {
     const 项 = document.createElement('li'); 项.className = '资讯列表项';
     const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
     链接.href='#详情/'+文章.id; 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
     链接.innerHTML=`<div class="列表元信息"><span class="列表来源">${文章.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${文章.日期||''}</span></div><span class="列表标题">${文章.标题||''}</span><span class="列表分类">${文章.分类||''}</span>`;
-    项.appendChild(链接); 列表.appendChild(项);
+    项.appendChild(链接);
+    return 项;
 }
+
+function append列表项(列表, 文章) { 列表.appendChild(createListLink(文章)); }
 
 }
 
@@ -391,7 +410,7 @@ async function 加载行业热议() {
     数据.articles.forEach(a => {
         const 项 = document.createElement('li'); 项.className = '一手列表项';
         const cat = a.分类 || '';
-        const isForeign = /^[A-Za-z\s\.,:;!?0-9"']{10,}/.test(a.标题);
+        const isForeign = /^[A-Za-z\s\.,:;!?0-9"'\-#]{15,}/.test(a.标题);
         let tagHTML;
         if (isForeign) {
             tagHTML = `<span class="一手标记" style="border-color:rgba(168,80,58,0.4);color:var(--rust)">外媒</span>`;
@@ -400,7 +419,14 @@ async function 加载行业热议() {
         } else {
             tagHTML = '<span class="一手标记">热议</span>';
         }
-        项.innerHTML = `<a class="一手列表链接" href="${a.链接||'#'}" target="_blank" rel="noopener">${tagHTML}<span class="一手来源">${a.来源||''}</span><span class="一手日期">${a.日期||''}</span><span class="一手标题文字">${isForeign ? '<span style="color:var(--text-dim);font-size:13px;">' + a.标题 + '</span>' : a.标题}</span></a>`;
+        let titleHTML;
+        if (isForeign) {
+            // 英文标题：显示中文分类上下文 + 英文原文（小字灰色）
+            titleHTML = `<span class="一手标题文字"><span style="font-weight:500">${cat || '国际商业'}</span><br><span style="font-size:13px;color:var(--text-faint);font-weight:400">${a.标题}</span></span>`;
+        } else {
+            titleHTML = `<span class="一手标题文字">${a.标题}</span>`;
+        }
+        项.innerHTML = `<a class="一手列表链接" href="${a.链接||'#'}" target="_blank" rel="noopener">${tagHTML}<span class="一手来源">${a.来源||''}</span><span class="一手日期">${a.日期||''}</span>${titleHTML}</a>`;
         列表.appendChild(项);
     });
     容器.appendChild(列表);
