@@ -4,7 +4,7 @@
 可在 GitHub Actions 或阿里云服务器运行。
 输出: 当前工作目录下的 platform-hot.json
 """
-import json, requests, re, os, html as html_mod
+import json, requests, re, os, subprocess, html as html_mod
 from datetime import datetime
 
 OUTPUT = os.path.join(os.getcwd(), 'platform-hot.json')
@@ -309,6 +309,21 @@ def fetch_xiaohongshu():
 
 def fetch_kuaishou():
     items = []
+    # Try Node script first (works on GitHub Actions US runner, may also work
+    # from Alibaba China if WAF cooperates with rotated UA)
+    try:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        script_path = os.path.join(script_dir, 'fetch-kuaishou.mjs')
+        r = subprocess.run(['node', script_path],
+                         capture_output=True, text=True, timeout=30)
+        if r.returncode == 0:
+            parsed = json.loads(r.stdout)
+            if parsed and isinstance(parsed, list):
+                print(f'  快手热榜: {len(parsed)} 条')
+                return parsed
+    except Exception as e:
+        pass  # fall through to direct scraping
+    # fallback — direct scraping (may work from some networks)
     try:
         headers = {**HEADERS, "Referer": "https://www.kuaishou.com/"}
         r = requests.get('https://www.kuaishou.com/?isHome=1', headers=headers, timeout=10)
@@ -350,7 +365,7 @@ def fetch_kuaishou():
         if items:
             print(f'  快手热榜: {len(items)} 条')
         else:
-            print(f'  快手热榜: 从国内直爬失败，等待 GitHub Actions')
+            print(f'  快手热榜: 直爬未获取到数据')
     except Exception as e:
         print(f'  快手热榜: {type(e).__name__}')
     return items
