@@ -117,32 +117,24 @@ function 切换页面(页面名) {
 function 渲染首页() { 应用筛选(); }
 
 function 应用筛选() {
-    // 先声明要用到的 DOM 元素，避免 early return 时未定义
     const 空状态 = document.getElementById('空状态');
     const 加载区域 = document.getElementById('加载区域');
 
-    let 文章列表 = [...状态.文章列表];
-    if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类);
-    if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
-
-    // 金融 / 工具排行 / 一手消息 / 行业热议 作为独立分类
+    // 独立分类：不走分类过滤，直接加载对应模块
     if (状态.当前分类 === '行业热议') {
-        clearContainers();
-        加载行业热议();
+        clearContainers(); 加载行业热议();
         if (空状态) 空状态.style.display = 'none';
         if (加载区域) 加载区域.style.display = 'none';
         return;
     }
     if (状态.当前分类 === '金融') {
-        clearContainers();
-        加载金融热点();
+        clearContainers(); 加载金融热点();
         if (空状态) 空状态.style.display = 'none';
         if (加载区域) 加载区域.style.display = 'none';
         return;
     }
     if (状态.当前分类 === '工具排行') {
-        clearContainers();
-        加载工具排行();
+        clearContainers(); 加载工具排行();
         if (空状态) 空状态.style.display = 'none';
         if (加载区域) 加载区域.style.display = 'none';
         return;
@@ -150,14 +142,23 @@ function 应用筛选() {
     if (状态.当前分类 === '一手消息') {
         clearContainers();
         const 一手来源 = ['OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI'];
-        const 一手列表 = 文章列表.filter(a => 一手来源.includes(a.来源));
-        if (一手列表.length > 0) {
-            渲染纯一手容器(一手列表);
+        const 一手列表 = 状态.文章列表.filter(a => 一手来源.includes(a.来源));
+        const 容器 = document.getElementById('特征容器');
+        if (容器 && 一手列表.length > 0) {
+            const 标题 = document.createElement('div'); 标题.className = '特征区标题'; 标题.textContent = '一手消息';
+            容器.appendChild(标题);
+            const 列表 = document.createElement('ul'); 列表.className = '一手列表';
+            一手列表.forEach(a => 创建一手行(a, 列表));
+            容器.appendChild(列表);
         }
         if (空状态) 空状态.style.display = 一手列表.length === 0 ? 'block' : 'none';
         if (加载区域) 加载区域.style.display = 'none';
         return;
     }
+
+    let 文章列表 = [...状态.文章列表];
+    if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类);
+    if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
 
     if (文章列表.length === 0) {
         if (空状态) 空状态.style.display = 'block';
@@ -167,15 +168,10 @@ function 应用筛选() {
         if (空状态) 空状态.style.display = 'none';
         if (加载区域) 加载区域.style.display = 'none';
 
-        // 分离一手消息（官方/原始来源）
-        const 一手来源 = ['OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI'];
-        const 一手消息列表 = 文章列表.filter(a => 一手来源.includes(a.来源));
-        const 常规文章列表 = 文章列表.filter(a => !一手来源.includes(a.来源));
+        const 特征文章 = 文章列表.slice(0, 4);
+        const 列表文章 = 文章列表.slice(4);
 
-        const 特征文章 = 常规文章列表.slice(0, 4);
-        const 列表文章 = 常规文章列表.slice(4);
-
-        渲染容器(状态.当前分类, 特征文章, 一手消息列表, 列表文章);
+        渲染容器(状态.当前分类, 特征文章, 列表文章);
     }
 }
 
@@ -189,11 +185,11 @@ function clearContainers() {
     });
 }
 
-/** 统一渲染：根据当前分类展示对应容器 */
-function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
+/** 统一渲染：特征卡片 + 更多资讯列表（默认8条折叠） */
+function 渲染容器(分类, 特征文章, 列表文章) {
     clearContainers();
 
-    // 特征区 — 分类不为"全部"时标注分类名
+    // 特征区
     if (特征文章.length > 0) {
         const 容器 = document.getElementById('特征容器');
         if (容器) {
@@ -203,11 +199,8 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
             const 网格 = document.createElement('div'); 网格.className = '特征网格';
             特征文章.forEach((文章, index) => {
                 const 卡片 = 创建特征卡片(文章);
-                if (index === 0) {
-                    卡片.classList.add('主推荐卡片');
-                } else {
-                    卡片.classList.add('次推荐卡片');
-                }
+                if (index === 0) 卡片.classList.add('主推荐卡片');
+                else 卡片.classList.add('次推荐卡片');
                 卡片.dataset.index = String(index + 1).padStart(2, '0');
                 网格.appendChild(卡片);
             });
@@ -215,21 +208,7 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
         }
     }
 
-    // 一手消息区 — 只在全部分类或原生资讯时显示
-    if (一手消息列表.length > 0 && (分类 === '全部')) {
-        const 容器 = document.getElementById('一手容器');
-        if (容器) {
-            const 标题 = document.createElement('div'); 标题.className = '一手标题'; 标题.textContent = '一手消息';
-            容器.appendChild(标题);
-            const 列表 = document.createElement('ul'); 列表.className = '一手列表';
-            一手消息列表.forEach(文章 => {
-                创建一手行(文章, 列表);
-            });
-            容器.appendChild(列表);
-        }
-    }
-
-    // 更多资讯（默认收起，最多显示 8 条后折叠）
+    // 更多资讯（默认8条折叠，带展开/收起）
     if (列表文章.length > 0) {
         const 容器 = document.getElementById('列表容器');
         if (容器) {
@@ -243,30 +222,27 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
             limited.forEach(el => 列表.appendChild(el));
             容器.appendChild(列表);
             if (rest.length > 0) {
-                const 展开按钮 = document.createElement('button');
-                展开按钮.className = '加载更多按钮'; 展开按钮.style.marginTop = '12px';
-                展开按钮.textContent = `展开剩余 ${rest.length} 篇`;
-                展开按钮.onclick = () => {
-                    rest.forEach(el => 列表.insertBefore(el, 容器.lastChild));
-                    展开按钮.remove();
-                    // 添加浮动收起按钮
-                    const 收起BTN = document.createElement('button');
-                    收起BTN.className = '收起浮动按钮';
-                    收起BTN.textContent = '收起';
-                    收起BTN.id = '收起浮动按钮';
-                    收起BTN.onclick = () => {
-                        // 收起：移除展开的部分，重新显示展开按钮
-                        rest.forEach(el => el.remove());
-                        容器.appendChild(展开按钮);
-                        收起BTN.remove();
+                let 已展开 = false;
+                const 折叠按钮 = document.createElement('button');
+                折叠按钮.className = '加载更多按钮';
+                折叠按钮.style.marginTop = '12px';
+                折叠按钮.textContent = `展开全部（${rest.length} 条）`;
+                折叠按钮.onclick = () => {
+                    已展开 = !已展开;
+                    if (已展开) {
+                        rest.forEach(el => 列表.appendChild(el));
+                        折叠按钮.textContent = '收起';
                         window.scrollTo({top: 容器.offsetTop - 100, behavior: 'smooth'});
-                    };
-                    document.body.appendChild(收起BTN);
+                    } else {
+                        rest.forEach(el => el.remove());
+                        折叠按钮.textContent = `展开全部（${rest.length} 条）`;
+                    }
                 };
-                容器.appendChild(展开按钮);
+                容器.appendChild(折叠按钮);
             }
         }
     }
+}
 
 function createListLink(文章) {
     const 项 = document.createElement('li'); 项.className = '资讯列表项';
@@ -278,19 +254,6 @@ function createListLink(文章) {
 }
 
 function append列表项(列表, 文章) { 列表.appendChild(createListLink(文章)); }
-
-}
-
-/** 一手消息作为独立容器时（全列表，无特征卡片） */
-function 渲染纯一手容器(文章列表) {
-    const 容器 = document.getElementById('特征容器');
-    if (!容器 || 文章列表.length === 0) return;
-    const 标题 = document.createElement('div'); 标题.className = '特征区标题'; 标题.textContent = '一手消息';
-    容器.appendChild(标题);
-    const 列表 = document.createElement('ul'); 列表.className = '一手列表';
-    文章列表.forEach(a => 创建一手行(a, 列表));
-    容器.appendChild(列表);
-}
 
 function 创建一手行(文章, 列表) {
     const 项 = document.createElement('li'); 项.className = '一手列表项';

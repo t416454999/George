@@ -1,0 +1,43 @@
+# 极光引擎 · GitHub AI 工具排行自动更新
+# 每日 UTC 8:00 (北京时间 16:00) 更新一次
+# 输出 GitHub工具排行.json
+
+name: "GitHub Tools - 工具排行"
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-tools:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch GitHub tool rankings
+        run: python3 tools/fetch-github-tools.py
+        continue-on-error: true
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Tools Bot"
+          git config user.email "tools-bot@aurora-engine"
+          git add GitHub工具排行.json
+          if git diff --staged --quiet; then
+            echo "No new data"
+          else
+            git commit -m "Tools: $(date '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push
+          fi
