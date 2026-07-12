@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-12T20:27:01+08:00",
+  "updated": "2026-07-12T21:23:04+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "91459da9",
+      "标题": "Flash-MSA：利用稀疏注意力内核加速百万代币训练",
+      "原文": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels",
+      "摘要": "Flash-MSA: Accelerating Million-Token Training with Sparse Attention Kernels",
+      "来源": "Hacker News",
+      "日期": "2026-07-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://nanduruganesh.github.io/flash-msa/",
+      "标签": []
+    },
+    {
+      "id": "0ffc5fdd",
+      "标题": "MCP 安全状况 [pdf]",
+      "原文": "The State of MCP Security [pdf]",
+      "摘要": "The State of MCP Security [pdf]",
+      "来源": "Hacker News",
+      "日期": "2026-07-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.canopii.dev/State%20of%20MCP%20Security%202026.pdf",
+      "标签": []
+    },
+    {
+      "id": "08246765",
+      "标题": "使用 hijax 定义新的 Jax 类型",
+      "原文": "Defining new Jax types with hijax",
+      "摘要": "Defining new Jax types with hijax",
+      "来源": "Hacker News",
+      "日期": "2026-07-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://docs.jax.dev/en/latest/hijax_types.html",
+      "标签": []
+    },
+    {
+      "id": "f16680fd",
+      "标题": "爱尔兰数据中心目前消耗了该国 23% 的电力",
+      "原文": "Irish datacenters now guzzle 23% of the country's electricity",
+      "摘要": "Irish datacenters now guzzle 23% of the country's electricity",
+      "来源": "Hacker News",
+      "日期": "2026-07-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+      "标签": []
+    },
+    {
+      "id": "76faf8fe",
+      "标题": "从 Chrium 148 开始，Math.tanh 现在可以通过指纹识别来链接底层操作系统",
+      "原文": "Since Chronium 148, Math.tanh is now fingerprintable to link underlying OS",
+      "摘要": "Since Chronium 148, Math.tanh is now fingerprintable to link underlying OS",
+      "来源": "Hacker News",
+      "日期": "2026-07-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+      "标签": []
+    },
+    {
+      "id": "cc27a798",
+      "标题": "微型模拟器",
+      "原文": "Tiny Emulators",
+      "摘要": "Tiny Emulators",
+      "来源": "Hacker News",
+      "日期": "2026-07-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://floooh.github.io/tiny8bit-preview/index.html",
+      "标签": []
+    },
     {
       "id": "99e5266f",
       "标题": "了解 Odin 编程语言",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://visitfaroeislands.com/en/plan-your-stay/getting-around/world-first-under-sea-roundabout",
-      "标签": []
-    },
-    {
-      "id": "c3169769",
-      "标题": "UPI：支付交易剖析",
-      "原文": "UPI: Anatomy of a Payment Transaction",
-      "摘要": "UPI: Anatomy of a Payment Transaction",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://timeseriesofindia.com/economy/reads/upi-architecture/",
-      "标签": []
-    },
-    {
-      "id": "f38a7021",
-      "标题": "斐波那契的真正数学遗产",
-      "原文": "Fibonacci's Real Mathematical Legacy",
-      "摘要": "Fibonacci's Real Mathematical Legacy",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://blogs.nature.com/aviewfromthebridge/2017/04/20/fibonaccis-mathematical-legacy/",
-      "标签": []
-    },
-    {
-      "id": "a546706e",
-      "标题": "EF Core 11 让您的拆分查询更快",
-      "原文": "EF Core 11 makes your split queries faster",
-      "摘要": "EF Core 11 makes your split queries faster",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://steven-giesel.com/blogPost/d4401fd0-805a-4703-9d9e-5fe3b57c25ea",
-      "标签": []
-    },
-    {
-      "id": "9f57babd",
-      "标题": "数据中心使大型科技公司的碳排放量达到法国的三分之一",
-      "原文": "Datacentres drive up big tech's carbon emissions to a third of those of France",
-      "摘要": "Datacentres drive up big tech's carbon emissions to a third of those of France",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france",
-      "标签": []
-    },
-    {
-      "id": "51345c55",
-      "标题": "我没有杀斯坦利·利伯：如何画画（与 9front 合作）",
-      "原文": "I Did Not Kill Stanley Lieber: How to Draw (With 9front)",
-      "摘要": "I Did Not Kill Stanley Lieber: How to Draw (With 9front)",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://triapul.cz/automa/i_did_not_kill_stanley_lieber",
-      "标签": []
-    },
-    {
-      "id": "a99da07d",
-      "标题": "文字艺术工具",
-      "原文": "Text art tools",
-      "摘要": "Text art tools",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://hlnet.notion.site/text-art-tools",
       "标签": []
     }
   ]
