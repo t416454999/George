@@ -347,9 +347,48 @@ def fetch_kuaishou():
                         'heat': '', 'raw_heat': 0,
                         'link': url or 'https://www.kuaishou.com/',
                     })
-        print(f'  快手热榜: {len(items)} 条')
+        if items:
+            print(f'  快手热榜: {len(items)} 条')
+        else:
+            print(f'  快手热榜: 从国内直爬失败，等待 GitHub Actions')
     except Exception as e:
         print(f'  快手热榜: {type(e).__name__}')
+    return items
+
+# ----------------------------------------------------------------
+#  天行数据 · 微信公众平台热点话题榜
+#  注册获取 API Key: https://www.tianapi.com/apiview/196
+#  设置环境变量 TIANAPI_KEY, 或直接填入下方字符串
+# ----------------------------------------------------------------
+TIANAPI_KEY = os.environ.get('TIANAPI_KEY', '')
+
+def fetch_wechat():
+    """微信公众平台热点话题（天行数据）"""
+    if not TIANAPI_KEY:
+        print(f'  微信热点: 未配置 TIANAPI_KEY')
+        return []
+    items = []
+    try:
+        r = requests.get(f'https://apis.tianapi.com/wxhottopic/index?key={TIANAPI_KEY}',
+                         headers=HEADERS, timeout=10)
+        data = r.json()
+        if data.get('code') != 200:
+            print(f'  微信热点: API 返回错误 - {data.get("msg","?")}')
+            return []
+        for item in (data.get('result', {}).get('list', []) or []):
+            word = (item.get('word') or '').strip()
+            if not word: continue
+            idx = item.get('index', 0)
+            items.append({
+                'rank': idx + 1,
+                'title': word,
+                'heat': '',
+                'raw_heat': 0,
+                'link': 'https://weixin.sogou.com/weixin?type=2&query=' + requests.utils.quote(word),
+            })
+        print(f'  微信热点: {len(items)} 条')
+    except Exception as e:
+        print(f'  微信热点: {type(e).__name__}')
     return items
 
 def main():
@@ -358,6 +397,7 @@ def main():
         '微博热搜': fetch_weibo(), '知乎热榜': fetch_zhihu(), 'B站热门': fetch_bilibili(),
         '百度热搜': fetch_baidu(), '抖音热榜': fetch_douyin(), '头条热榜': fetch_toutiao(),
         '小红书热榜': fetch_xiaohongshu(), '快手热榜': fetch_kuaishou(),
+        '微信热点': fetch_wechat(),
     }
     output = {
         'updated': datetime.now().strftime('%Y-%m-%dT%H:%M:%S+08:00'),
