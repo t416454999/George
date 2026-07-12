@@ -51,9 +51,9 @@ def merge():
             domestic_ids.add(a['id'])
             new_count += 1
 
-    # 优先排中文来源，同等日期下国内源在前
+    # 优先排中文来源：同等日期下国内源在前
     chinese_sources = {'华尔街见闻','新浪财经','第一财经','财联社','金十数据','东方财富','每经网'}
-    domestic.sort(key=lambda x: (x.get('日期', '') or '', 0 if x.get('来源','') in chinese_sources else 1))
+    domestic.sort(key=lambda x: (x.get('日期', '') or '', 0 if x.get('来源','') not in chinese_sources else 1))
     domestic = list(reversed(domestic))[:50]
 
     output = {
