@@ -22,7 +22,46 @@ def fmt_heat(n):
     if n >= 10000: return f'{n/10000:.1f}万'
     return str(n)
 
+# ----------------------------------------------------------------
+#  Unified 60s.viki.moe helper — works from anywhere (CN / global)
+# ----------------------------------------------------------------
+def fetch_via_60s(name, path, max_items=50):
+    """Fetch hot topics via 60s.viki.moe unified API.
+    Returns list of {rank, title, heat, raw_heat, link} or None.
+    """
+    items = []
+    try:
+        r = requests.get(f'https://60s.viki.moe/v2/{path}', headers=HEADERS, timeout=15)
+        if not r.ok:
+            print(f'  {name}: 60s API {r.status_code}')
+            return None
+        data = r.json().get('data', [])
+        if not data:
+            print(f'  {name}: 60s API empty data')
+            return None
+        for i, item in enumerate(data[:max_items]):
+            title = (item.get('title') or '').strip()
+            if not title: continue
+            raw = int(item.get('hot_value', 0) or 0)
+            link = (item.get('link') or '').strip()
+            rank = item.get('rank', i + 1)
+            items.append({
+                'rank': rank,
+                'title': title,
+                'heat': fmt_heat(raw) if raw else (item.get('score_desc', item.get('score', '')) or ''),
+                'raw_heat': raw,
+                'link': link,
+            })
+        print(f'  {name}: {len(items)} 条 (via 60s)')
+    except Exception as e:
+        print(f'  {name}: 60s API {type(e).__name__}')
+        return None
+    return items
+
 def fetch_weibo():
+    items = fetch_via_60s('微博热搜', 'weibo')
+    if items is not None: return items
+    # fallback — direct scraping
     items = []
     try:
         headers = {**HEADERS, "Referer": "https://weibo.com/"}
@@ -39,12 +78,15 @@ def fetch_weibo():
                 'raw_heat': raw,
                 'link': f'https://s.weibo.com/weibo?q={requests.utils.quote(word)}',
             })
-        print(f'  微博热搜: {len(items)} 条')
+        print(f'  微博热搜: {len(items)} 条 (fallback)')
     except Exception as e:
         print(f'  微博热搜: {type(e).__name__}')
     return items
 
 def fetch_zhihu():
+    items = fetch_via_60s('知乎热榜', 'zhihu')
+    if items is not None: return items
+    # fallback — direct scraping
     items = []
     try:
         headers = {**HEADERS, "Referer": "https://www.zhihu.com/"}
@@ -88,7 +130,7 @@ def fetch_zhihu():
                         'raw_heat': int(heat) if isinstance(heat, (int, float)) else 0,
                         'link': link,
                     })
-        print(f'  知乎热榜: {len(items)} 条')
+        print(f'  知乎热榜: {len(items)} 条 (fallback)')
     except Exception as e:
         print(f'  知乎热榜: {type(e).__name__}')
     return items
@@ -115,6 +157,8 @@ def fetch_bilibili():
     return items
 
 def fetch_baidu():
+    items = fetch_via_60s('百度热搜', 'baidu/hot')
+    if items is not None: return items
     items = []
     try:
         headers = {**HEADERS, "Referer": "https://top.baidu.com/"}
@@ -135,12 +179,14 @@ def fetch_baidu():
                     'raw_heat': hot,
                     'link': url or f'https://www.baidu.com/s?wd={requests.utils.quote(title)}',
                 })
-        print(f'  百度热搜: {len(items)} 条')
+        print(f'  百度热搜: {len(items)} 条 (fallback)')
     except Exception as e:
         print(f'  百度热搜: {type(e).__name__}')
     return items
 
 def fetch_douyin():
+    items = fetch_via_60s('抖音热榜', 'douyin')
+    if items is not None: return items
     items = []
     try:
         headers = {**HEADERS, "Referer": "https://www.douyin.com/"}
@@ -183,12 +229,14 @@ def fetch_douyin():
                             'heat': fmt_heat(heat), 'raw_heat': heat,
                             'link': 'https://www.douyin.com/hot/',
                         })
-        print(f'  抖音热榜: {len(items)} 条')
+        print(f'  抖音热榜: {len(items)} 条 (fallback)')
     except Exception as e:
         print(f'  抖音热榜: {type(e).__name__}')
     return items
 
 def fetch_toutiao():
+    items = fetch_via_60s('头条热榜', 'toutiao')
+    if items is not None: return items
     items = []
     try:
         headers = {**HEADERS, "Referer": "https://www.toutiao.com/"}
@@ -234,7 +282,7 @@ def fetch_toutiao():
                                     })
                                 if items: break
                     except: pass
-        print(f'  头条热榜: {len(items)} 条' if items else '  头条热榜: 0 条')
+        print(f'  头条热榜: {len(items)} 条 (fallback)')
     except Exception as e:
         print(f'  头条热榜: {type(e).__name__}')
     return items
