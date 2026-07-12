@@ -622,12 +622,9 @@ function 显示文章详情() {
 
 function 切换移动菜单() { document.getElementById('导航菜单').classList.toggle('展开'); document.querySelector('.菜单按钮').classList.toggle('展开'); }
 function 监听滚动() {
-    const 返回按钮=document.getElementById('返回顶部'), 导航栏=document.getElementById('导航栏');
-    let 上次滚动=0;
+    const 返回按钮=document.getElementById('返回顶部');
     window.addEventListener('scroll',()=>{
         if(返回按钮) 返回按钮.classList.toggle('可见',window.scrollY>600);
-        if(导航栏){if(window.scrollY>上次滚动&&window.scrollY>200)导航栏.classList.add('隐藏');else 导航栏.classList.remove('隐藏');}
-        上次滚动=window.scrollY;
     });
 }
 function 滚动到顶部(){window.scrollTo({top:0,behavior:'smooth'});}
