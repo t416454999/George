@@ -110,7 +110,7 @@ function 切换页面(页面名) {
     switch (页面名) { case '首页': 渲染首页(); break; case '分类': 加载平台热点(); break; case '搜索': 初始化搜索(); break; }
     const 菜单 = document.getElementById('导航菜单'); const 按钮 = document.querySelector('.菜单按钮');
     if (菜单) 菜单.classList.remove('展开'); if (按钮) 按钮.classList.remove('展开');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (!arguments[1]) window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // ============================================================
@@ -559,12 +559,7 @@ function 筛选分类(分类名) {
         const t = tag.textContent.trim();
         tag.classList.toggle('活跃', t === 分类名 || (分类名 === '全部' && t === '全部'));
     });
-    if (分类名 === '工具排行') {
-        // 直接切到首页渲染工具区
-        切换页面('首页');
-    } else {
-        切换页面('首页');
-    }
+    切换页面('首页', true); // true = 不滚动到顶部
 }
 function 切换排序(方式) { 状态.排序方式 = 方式; 应用筛选(); }
 

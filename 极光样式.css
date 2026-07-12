@@ -30,7 +30,7 @@
     --signal:        #D96D42;
     --signal-dark:   #A9492D;
 
-    --font-serif:    "Source Han Serif SC", "Noto Serif SC",
+    --font-serif:    "Noto Serif SC", "Source Han Serif SC",
                      "Songti SC", "STSong", "SimSun", Georgia, serif;
     --font-sans:     "HarmonyOS Sans SC", "MiSans", "PingFang SC",
                      "Microsoft YaHei", "Noto Sans SC", sans-serif;
@@ -548,14 +548,18 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     transition: background 0.2s var(--ease);
 }
 .资讯列表链接::after {
-    content: "↗";
-    font-size: 14px;
-    color: var(--text-faint);
-    transition: transform 0.2s var(--ease), color 0.2s var(--ease);
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: 1.5px solid var(--text-faint);
+    border-right: 1.5px solid var(--text-faint);
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    transition: transform 0.2s var(--ease), border-color 0.2s var(--ease);
 }
 .资讯列表链接:hover::after {
-    transform: translate(2px, -2px);
-    color: var(--aurora-purple);
+    transform: rotate(45deg) translate(2px, -2px);
+    border-color: var(--aurora-purple);
 }
 .资讯列表项:hover {
     background: linear-gradient(90deg, rgba(84,184,138,0.045), transparent 70%);
@@ -827,14 +831,18 @@ mark {
     transition: background 0.2s var(--ease);
 }
 .热点条目::after {
-    content: "↗";
-    font-size: 14px;
-    color: var(--text-faint);
-    transition: transform 0.2s var(--ease), color 0.2s var(--ease);
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: 1.5px solid var(--text-faint);
+    border-right: 1.5px solid var(--text-faint);
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    transition: transform 0.2s var(--ease), border-color 0.2s var(--ease);
 }
 .热点条目:hover::after {
-    transform: translate(2px, -2px);
-    color: var(--aurora-purple);
+    transform: rotate(45deg) translate(2px, -2px);
+    border-color: var(--aurora-purple);
 }
 .热点条目:hover { background: linear-gradient(90deg, rgba(84,184,138,0.045), transparent 70%); }
 .热点条目:hover .热点标题 { color: var(--aurora-purple); }
@@ -867,14 +875,6 @@ mark {
 .平台空状态 {
     text-align: center; padding: 60px 0; color: var(--text-faint);
     font-family: var(--font-serif); font-size: 15px;
-}
-@media (max-width: 700px) {
-    .热点条目 { flex-wrap: wrap; gap: 6px; }
-    .热点标题 { white-space: normal; min-width: 100%; order: 1; }
-    .热点排名 { order: 2; }
-    .热点热度 { order: 3; }
-    .平台标签组 { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 12px; }
-    .平台标签 { flex-shrink: 0; }
 }
 
 /* 浮动收起按钮 */
@@ -925,7 +925,7 @@ mark {
     .标题统计区 { max-width: 100%; }
     .统计条 { grid-template-columns: repeat(3, 1fr); }
     .统计项 { min-height: 96px; padding: 15px 10px; }
-    .筛选栏 { flex-direction: column; align-items: flex-start; gap: 12px; }
+    .筛选栏 { flex-direction: column; align-items: flex-start; gap: 12px; top: 56px; }
     .分类标签组 { width: 100%; }
     .特征网格 { display: grid; grid-template-columns: 1fr !important; grid-template-rows: auto; }
     .主推荐卡片, .次推荐卡片 { grid-column: auto; grid-row: auto; }
@@ -944,7 +944,7 @@ mark {
     .返回顶部 { right: 16px; bottom: 16px; width: 36px; height: 36px; }
     /* 热点条目移动端 */
     .热点条目 { grid-template-columns: 32px minmax(0, 1fr) auto 18px; gap: 8px; }
-    .热点条目::after { font-size: 12px; }
+    .热点条目::after { width: 6px; height: 6px; }
     .热点标题 { white-space: normal; -webkit-line-clamp: 2; }
     .热点热度 { font-size: 11px; }
     .平台标签组 { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 12px; }
