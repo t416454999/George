@@ -133,17 +133,11 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     border-radius: 14px;
     background: rgba(250,248,242,0.78);
     box-shadow: 0 10px 30px rgba(40,35,25,0.06);
-    display: flex; align-items: center; justify-content: space-between;
-}
-.网站标志 {
-    display: inline-flex; align-items: center; gap: 9px;
-    font-family: var(--font-sans); font-size: 18px;
-    font-weight: 700; letter-spacing: 0.04em; color: var(--text);
-}
-.标志标记 {
-    width: 10px; height: 10px; border-radius: 50%;
-    background: linear-gradient(135deg, var(--aurora-green), var(--aurora-blue), var(--aurora-purple));
-    box-shadow: 0 0 18px rgba(84,184,138,0.42);
+    display: flex; align-items: center; justify-content: center;
+    background:
+        radial-gradient(ellipse at 15% 50%, rgba(84,184,138,0.07) 0%, transparent 60%),
+        radial-gradient(ellipse at 85% 50%, rgba(131,105,200,0.05) 0%, transparent 60%),
+        rgba(250,248,242,0.78);
 }
 .导航菜单 { display: flex; gap: 4px; }
 .导航链接 {
@@ -206,16 +200,25 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 }
 .主标题 {
     margin: 0;
+    padding-bottom: 6px;
     font-family: var(--font-sans);
     font-size: clamp(58px, 9vw, 112px);
-    line-height: 0.9;
+    line-height: 1.05;
     letter-spacing: -0.08em;
     font-weight: 900;
     background: linear-gradient(100deg, var(--text) 0%, var(--text) 44%, var(--aurora-green) 68%, var(--aurora-purple) 100%);
+    background-size: 200% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    animation: 极光流动 10s ease-in-out infinite;
 }
+
+@keyframes 极光流动 {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
 .副标题 {
     margin-top: 22px;
     font-family: var(--font-serif);
@@ -914,8 +917,7 @@ mark {
 @media (max-width: 700px) {
     .主内容 { padding: 0 18px 80px; }
     .导航栏 { padding: 8px 0 0; }
-    .导航容器 { padding: 10px 12px; border-radius: 12px; }
-    .网站标志 { font-size: 16px; }
+    .导航容器 { padding: 10px 12px; border-radius: 12px; justify-content: space-between; }
     .标题区域 { grid-template-columns: 1fr; gap: 26px; padding: 50px 0 32px; }
     .标题区域::before { display: none; }
     .主标题 { font-size: clamp(58px, 20vw, 84px); }

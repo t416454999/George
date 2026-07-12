@@ -58,8 +58,19 @@ function 更新统计() {
     const 今日 = 状态.文章列表.filter(a => { try { return a.日期 && a.日期.includes(获取今日日期()); } catch { return false; } }).length;
     ['文章总数','今日新增','覆盖来源'].forEach((id, i) => {
         const el = document.getElementById(id);
-        if (el) el.textContent = [总数, 今日, 状态.来源集合.size][i];
+        if (el) 动画递增(el, [总数, 今日, 状态.来源集合.size][i]);
     });
+}
+function 动画递增(元素, 目标值, 时长 = 800) {
+    const 开始 = performance.now();
+    function 更新(时间) {
+        const 进度 = Math.min((时间 - 开始) / 时长, 1);
+        const 缓动 = 1 - Math.pow(1 - 进度, 3);
+        元素.textContent = Math.floor(0 + (目标值 - 0) * 缓动);
+        if (进度 < 1) requestAnimationFrame(更新);
+        else 元素.textContent = 目标值;
+    }
+    requestAnimationFrame(更新);
 }
 function 获取今日日期() {
     const d = new Date();
