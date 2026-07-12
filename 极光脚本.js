@@ -13,7 +13,6 @@ const 状态 = {
 document.addEventListener('DOMContentLoaded', async () => {
     await 初始化数据();
     初始化路由();
-    渲染当前页面();
     监听滚动();
 });
 
@@ -474,9 +473,12 @@ async function 加载平台热点() {
     ];
     for (const url of urls) {
         try {
-            const 响应 = await fetch(url);
+            const 控制器 = new AbortController();
+            setTimeout(() => 控制器.abort(), 15000);
+            const 响应 = await fetch(url, { signal: 控制器.signal });
             if (响应.ok) { 数据 = await 响应.json(); break; }
-        } catch (e) {}
+            else console.warn('平台热点 fetch 失败:', url, 响应.status);
+        } catch (e) { console.warn('平台热点 fetch 异常:', url, e.message); }
     }
 
     if (!数据 || !数据.platforms) {
