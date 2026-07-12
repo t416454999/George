@@ -195,14 +195,16 @@ function 渲染容器(分类, 特征文章, 一手消息列表, 列表文章) {
             标题.textContent = 分类 === '全部' ? '今日推荐' : 分类;
             容器.appendChild(标题);
             const 网格 = document.createElement('div'); 网格.className = '特征网格';
-            // 桌面端精确列数，手机端交给CSS媒体查询
-            if (window.innerWidth > 700) {
-                if (特征文章.length === 4) 网格.style.gridTemplateColumns = '1fr 1fr';
-                else if (特征文章.length === 3) 网格.style.gridTemplateColumns = 'repeat(3, 1fr)';
-                else if (特征文章.length === 2) 网格.style.gridTemplateColumns = '1fr 1fr';
-                else 网格.style.gridTemplateColumns = '1fr';
-            }
-            特征文章.forEach(a => 网格.appendChild(创建特征卡片(a)));
+            特征文章.forEach((文章, index) => {
+                const 卡片 = 创建特征卡片(文章);
+                if (index === 0) {
+                    卡片.classList.add('主推荐卡片');
+                } else {
+                    卡片.classList.add('次推荐卡片');
+                }
+                卡片.dataset.index = String(index + 1).padStart(2, '0');
+                网格.appendChild(卡片);
+            });
             容器.appendChild(网格);
         }
     }
@@ -404,9 +406,9 @@ async function 加载行业热议() {
         const 有原文 = !!a.原文;
         let tagHTML;
         if (有原文) {
-            tagHTML = `<span class="一手标记" style="border-color:rgba(168,80,58,0.4);color:var(--rust)">外媒</span>`;
+            tagHTML = `<span class="一手标记" style="border-color:rgba(217,109,66,0.4);color:var(--signal)">外媒</span>`;
         } else if (cat) {
-            tagHTML = `<span class="一手标记" style="border-color:rgba(168,120,48,0.3);color:var(--brass)">${cat}</span>`;
+            tagHTML = `<span class="一手标记" style="border-color:rgba(84,184,138,0.3);color:var(--aurora-green)">${cat}</span>`;
         } else {
             tagHTML = '<span class="一手标记">热议</span>';
         }
@@ -567,7 +569,7 @@ function 执行搜索() {
     if (!关键词) { 结果容器.innerHTML = '<p class="搜索提示">输入关键词开始搜索</p>'; return; }
     const 结果 = 状态.文章列表.filter(a => `${a.标题} ${a.摘要} ${a.内容} ${a.来源} ${(a.标签||[]).join(' ')}`.toLowerCase().includes(关键词.toLowerCase()));
     if (结果.length === 0) { 结果容器.innerHTML = `<div class="空状态"><p>未找到与「${关键词}」相关的资讯</p></div>`; return; }
-    结果容器.innerHTML = `<p style="margin-bottom:24px;color:var(--text-faint);font-size:var(--text-sm)">找到 <span style="color:var(--brass);font-weight:600">${结果.length}</span> 篇</p>`;
+    结果容器.innerHTML = `<p style="margin-bottom:24px;color:var(--text-faint);font-size:13px">找到 <span style="color:var(--signal);font-weight:600">${结果.length}</span> 篇</p>`;
     const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
     结果.slice(0,30).forEach(a => {
         const 项 = document.createElement('li'); 项.className = '资讯列表项';
