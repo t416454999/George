@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """极光引擎 · 平台热点聚合
 采集各平台公开热点榜单（仅聚合公开的标题/排名/热度，链接回原平台）。
-不涉及侵权：仅展示公开热点标题 + 跳转链接，不缓存全文。
-运行在阿里云服务器，cron 每 10 分钟执行一次。
-输出: /var/www/boke/platform-hot.json
+可在 GitHub Actions 或阿里云服务器运行。
+输出: 当前工作目录下的 platform-hot.json
 """
 import json, requests, re, os, html as html_mod
 from datetime import datetime
 
-OUTPUT = '/var/www/boke/platform-hot.json'
+OUTPUT = os.path.join(os.getcwd(), 'platform-hot.json')
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",

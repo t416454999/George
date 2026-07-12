@@ -1,0 +1,49 @@
+# 极光引擎 · 平台热点聚合
+# GitHub Actions 每 10 分钟采集各平台热点
+# 输出 platform-hot.json → 阿里云服务器 git pull 自动获取
+
+name: "Platform Hot - 平台热点聚合"
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  fetch-platform-hot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install deps
+        run: pip install requests -q
+
+      - name: Fetch platform hot topics
+        run: python3 tools/platform-hot.py
+        continue-on-error: true
+
+      - name: Commit and push
+        run: |
+          git config user.name "Platform Hot Bot"
+          git config user.email "platform-hot@aurora-engine"
+          git add platform-hot.json
+          if git diff --staged --quiet; then
+            echo "No new data"
+          else
+            git commit -m "Hot: $(date '+%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push
+          fi

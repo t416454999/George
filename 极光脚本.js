@@ -467,14 +467,16 @@ async function 加载平台热点() {
     内容区.innerHTML = '<div class="平台空状态"><p>加载中...</p></div>';
 
     let 数据 = null;
-    try {
-        const 响应 = await fetch('https://boke.jgyq.me/platform-hot.json?v=' + Date.now());
-        if (响应.ok) 数据 = await 响应.json();
-    } catch (e) {
+    const urls = [
+        'https://boke.jgyq.me/platform-hot.json?v=' + Date.now(),
+        'platform-hot.json?v=' + Date.now(),
+        'https://raw.githubusercontent.com/t416454999/George/main/platform-hot.json?v=' + Date.now(),
+    ];
+    for (const url of urls) {
         try {
-            const 响应 = await fetch('platform-hot.json?v=' + Date.now());
-            if (响应.ok) 数据 = await 响应.json();
-        } catch (e2) {}
+            const 响应 = await fetch(url);
+            if (响应.ok) { 数据 = await 响应.json(); break; }
+        } catch (e) {}
     }
 
     if (!数据 || !数据.platforms) {
