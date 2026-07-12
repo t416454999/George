@@ -22,12 +22,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function 初始化数据() {
     const AI来源白名单 = [
-        'The Information', 'Stratechery', 'Anthropic Blog', 'CVPR 2026 现场报道',
-        'World Arena 独家访谈', 'Stanford HAI', 'The Verge', 'ArXiv 论文解读',
-        'Steersman AI Blog', 'AI Developer Survey', '机器之心', '量子位', '36氪',
-        '雷锋网', '虎嗅', 'Google Research', 'Google DeepMind', 'Meta AI Blog',
-        'Figure AI Blog', 'Variety', 'OpenAI Blog',
-        '新浪科技', '华尔街见闻', '财联社', '金十数据', '东方财富', '第一财经', '每经网'
+        '36氪', 'Google DeepMind 官方', 'Hugging Face 官方',
+        'OpenAI 官方', 'arXiv AI', '新浪科技',
+        '量子位', '雷锋网'
     ];
 
     try {
@@ -152,8 +149,7 @@ function 应用筛选() {
     }
     if (状态.当前分类 === '一手消息') {
         clearContainers();
-        const 一手来源 = ['The Information', 'Stratechery', 'Stanford HAI', 'Anthropic Blog',
-            'CVPR 2026 现场报道', 'World Arena 独家访谈', 'ArXiv 论文解读', 'Steersman AI Blog', 'Variety'];
+        const 一手来源 = ['OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI'];
         const 一手列表 = 文章列表.filter(a => 一手来源.includes(a.来源));
         if (一手列表.length > 0) {
             渲染纯一手容器(一手列表);
@@ -171,9 +167,8 @@ function 应用筛选() {
         if (空状态) 空状态.style.display = 'none';
         if (加载区域) 加载区域.style.display = 'none';
 
-        // 分离一手消息
-        const 一手来源 = ['The Information', 'Stratechery', 'Stanford HAI', 'Anthropic Blog',
-            'CVPR 2026 现场报道', 'World Arena 独家访谈', 'ArXiv 论文解读', 'Steersman AI Blog', 'Variety'];
+        // 分离一手消息（官方/原始来源）
+        const 一手来源 = ['OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI'];
         const 一手消息列表 = 文章列表.filter(a => 一手来源.includes(a.来源));
         const 常规文章列表 = 文章列表.filter(a => !一手来源.includes(a.来源));
 
@@ -411,8 +406,10 @@ async function 加载行业热议() {
     容器.appendChild(标题);
 
     const 列表 = document.createElement('ul'); 列表.className = '一手列表';
-    数据.articles.forEach(a => {
+    const 限制数 = 5;
+    数据.articles.forEach((a, i) => {
         const 项 = document.createElement('li'); 项.className = '一手列表项';
+        if (i >= 限制数) 项.style.display = 'none';
         const cat = a.分类 || '';
         const 有原文 = !!a.原文;
         let tagHTML;
@@ -433,6 +430,23 @@ async function 加载行业热议() {
         列表.appendChild(项);
     });
     容器.appendChild(列表);
+    // 收起/展开
+    if (数据.articles.length > 限制数) {
+        const 折叠按钮 = document.createElement('button');
+        折叠按钮.className = '加载更多按钮';
+        折叠按钮.style.marginTop = '12px';
+        const 多余 = 列表.children.length - 限制数;
+        折叠按钮.textContent = `展开全部（${多余} 条）`;
+        let 已展开 = false;
+        折叠按钮.onclick = () => {
+            已展开 = !已展开;
+            for (let i = 限制数; i < 列表.children.length; i++) {
+                列表.children[i].style.display = 已展开 ? '' : 'none';
+            }
+            折叠按钮.textContent = 已展开 ? '收起' : `展开全部（${多余} 条）`;
+        };
+        容器.appendChild(折叠按钮);
+    }
 }
 
 // ============================================================
