@@ -51,7 +51,6 @@ async function 初始化数据() {
 
     状态.文章列表.forEach(文章 => { 状态.来源集合.add(文章.来源); });
     更新统计();
-    更新分类计数();
     更新更新时间();
 }
 
@@ -66,13 +65,6 @@ function 更新统计() {
 function 获取今日日期() {
     const d = new Date();
     return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-}
-function 更新分类计数() {
-    ['大模型', 'AI应用', 'AI绘画', '学术前沿', '行业动态', '开源工具'].forEach(分类 => {
-        const 计数 = 状态.文章列表.filter(a => a.分类 === 分类).length;
-        const 元素 = document.getElementById(`计数-${分类}`);
-        if (元素) 元素.textContent = `${计数} 篇`;
-    });
 }
 function 更新更新时间() {
     const 元素 = document.getElementById('更新时间');
@@ -105,7 +97,7 @@ function 切换页面(页面名) {
     if (视图ID) { const 视图 = document.getElementById(视图ID); if (视图) 视图.classList.add('活跃视图'); }
     document.querySelectorAll('.导航链接').forEach(link => { link.classList.toggle('活跃', link.dataset.page === 页面名); });
     if (window.location.hash.slice(1) !== 页面名) history.pushState(null, '', '#' + 页面名);
-    switch (页面名) { case '首页': 渲染首页(); break; case '分类': 更新分类计数(); break; case '搜索': 初始化搜索(); break; }
+    switch (页面名) { case '首页': 渲染首页(); break; case '分类': 加载平台热点(); break; case '搜索': 初始化搜索(); break; }
     const 菜单 = document.getElementById('导航菜单'); const 按钮 = document.querySelector('.菜单按钮');
     if (菜单) 菜单.classList.remove('展开'); if (按钮) 按钮.classList.remove('展开');
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -460,6 +452,84 @@ async function 加载工具排行() {
         列表.appendChild(项);
     });
     容器.appendChild(列表);
+}
+
+// ============================================================
+// 平台热点聚合
+// ============================================================
+
+async function 加载平台热点() {
+    const 标签组 = document.getElementById('平台标签组');
+    const 内容区 = document.getElementById('平台内容');
+    if (!标签组 || !内容区) return;
+
+    标签组.innerHTML = '';
+    内容区.innerHTML = '<div class="平台空状态"><p>加载中...</p></div>';
+
+    let 数据 = null;
+    try {
+        const 响应 = await fetch('https://boke.jgyq.me/platform-hot.json?v=' + Date.now());
+        if (响应.ok) 数据 = await 响应.json();
+    } catch (e) {
+        try {
+            const 响应 = await fetch('platform-hot.json?v=' + Date.now());
+            if (响应.ok) 数据 = await 响应.json();
+        } catch (e2) {}
+    }
+
+    if (!数据 || !数据.platforms) {
+        内容区.innerHTML = '<div class="平台空状态"><p>暂无数据，请稍后刷新</p></div>';
+        return;
+    }
+
+    const 平台名列表 = Object.keys(数据.platforms).filter(k => 数据.platforms[k].length > 0);
+    if (平台名列表.length === 0) {
+        内容区.innerHTML = '<div class="平台空状态"><p>暂无数据，请稍后刷新</p></div>';
+        return;
+    }
+
+    // 上次选中的平台
+    let 当前平台 = localStorage.getItem('平台热点选中') || 平台名列表[0];
+    if (!平台名列表.includes(当前平台)) 当前平台 = 平台名列表[0];
+
+    // 渲染标签
+    平台名列表.forEach(名 => {
+        const 标签 = document.createElement('button');
+        标签.className = '平台标签' + (名 === 当前平台 ? ' 活跃' : '');
+        标签.textContent = 名;
+        标签.onclick = () => {
+            document.querySelectorAll('.平台标签').forEach(t => t.classList.remove('活跃'));
+            标签.classList.add('活跃');
+            localStorage.setItem('平台热点选中', 名);
+            渲染平台列表(内容区, 数据.platforms[名]);
+        };
+        标签组.appendChild(标签);
+    });
+
+    // 渲染当前平台
+    渲染平台列表(内容区, 数据.platforms[当前平台]);
+}
+
+function 渲染平台列表(容器, 文章列表) {
+    容器.innerHTML = '';
+    if (!文章列表 || 文章列表.length === 0) {
+        容器.innerHTML = '<div class="平台空状态"><p>暂无数据</p></div>';
+        return;
+    }
+
+    文章列表.forEach((a, i) => {
+        const 条目 = document.createElement('a');
+        条目.className = '热点条目';
+        条目.href = a.link || '#';
+        条目.target = '_blank';
+        条目.rel = 'noopener';
+        条目.innerHTML = `
+            <span class="热点排名">${a.rank || i + 1}</span>
+            <span class="热点标题">${a.title || ''}</span>
+            ${a.heat ? '<span class="热点热度">' + a.heat + '</span>' : ''}
+        `;
+        容器.appendChild(条目);
+    });
 }
 
 // ============================================================

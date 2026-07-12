@@ -317,6 +317,64 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 
 mark { background: rgba(168, 120, 48, 0.15); color: var(--brass); padding: 1px 3px; }
 
+/* ---------- 平台热点 ---------- */
+.平台标签组 {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    padding-bottom: 20px; border-bottom: 1px solid var(--line);
+    margin-bottom: 24px;
+}
+.平台标签 {
+    font-size: 13.5px; color: var(--text-dim); background: transparent;
+    border: 1px solid var(--line); border-radius: 100px;
+    padding: 6px 16px; cursor: pointer;
+    font-family: var(--font-sans);
+    transition: 0.2s var(--ease);
+}
+.平台标签:hover { color: var(--text); border-color: var(--text-faint); }
+.平台标签.活跃 {
+    color: #fff; background: var(--brass); border-color: var(--brass);
+    font-weight: 500;
+}
+.平台内容 { min-height: 300px; }
+.热点列表 { list-style: none; }
+.热点条目 {
+    display: flex; align-items: center; gap: 14px;
+    padding: 12px 0; border-bottom: 1px solid var(--line-soft);
+    text-decoration: none; color: inherit;
+    transition: padding 0.2s var(--ease);
+}
+.热点条目:hover { padding-left: 6px; }
+.热点条目:hover .热点标题 { color: var(--brass); }
+.热点排名 {
+    font-family: var(--font-mono); font-size: 14px; font-weight: 500;
+    min-width: 28px; color: var(--text-faint);
+    flex-shrink: 0; text-align: right;
+}
+.热点条目:nth-child(-n+3) .热点排名 { color: var(--rust); font-weight: 700; }
+.热点标题 {
+    flex: 1; font-family: var(--font-serif); font-size: 16px;
+    line-height: 1.45; color: var(--text);
+    transition: color 0.2s var(--ease);
+    min-width: 0; overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.热点热度 {
+    font-family: var(--font-mono); font-size: 12px; color: var(--text-faint);
+    flex-shrink: 0; white-space: nowrap;
+}
+.平台空状态 {
+    text-align: center; padding: 60px 0; color: var(--text-faint);
+    font-family: var(--font-serif); font-size: 15px;
+}
+@media (max-width: 700px) {
+    .热点条目 { flex-wrap: wrap; gap: 6px; }
+    .热点标题 { white-space: normal; min-width: 100%; order: 1; }
+    .热点排名 { order: 2; }
+    .热点热度 { order: 3; }
+    .平台标签组 { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 12px; }
+    .平台标签 { flex-shrink: 0; }
+}
+
 /* 浮动收起按钮 */
 .收起浮动按钮 {
     position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%);
