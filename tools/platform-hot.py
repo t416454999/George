@@ -309,8 +309,33 @@ def fetch_xiaohongshu():
 
 def fetch_kuaishou():
     items = []
-    # Try Node script first (works on GitHub Actions US runner, may also work
-    # from Alibaba China if WAF cooperates with rotated UA)
+    # Try GraphQL API first (https://www.kuaishou.com/graphql)
+    try:
+        r = requests.post('https://www.kuaishou.com/graphql', json={
+            'operationName': 'visionHotRank',
+            'variables': {},
+            'query': 'query visionHotRank { visionHotRank { items { id name hotValue poster } } }',
+        }, headers={**HEADERS, 'Content-Type': 'application/json'}, timeout=15)
+        if r.ok:
+            data = r.json()
+            raw = data.get('data', {}).get('visionHotRank', {}).get('items', [])
+            for i, item in enumerate(raw[:50]):
+                title = (item.get('name') or '').strip()
+                if not title: continue
+                items.append({
+                    'rank': i + 1,
+                    'title': title,
+                    'heat': item.get('hotValue', '') or '',
+                    'raw_heat': 0,
+                    'link': 'https://www.kuaishou.com/hot-board',
+                })
+            if items:
+                print(f'  快手热榜: {len(items)} 条 (GraphQL)')
+                return items
+    except Exception as e:
+        print(f'  快手热榜 GraphQL: {type(e).__name__}')
+
+    # fallback — Node script
     try:
         script_dir = os.path.dirname(os.path.abspath(__file__))
         script_path = os.path.join(script_dir, 'fetch-kuaishou.mjs')
@@ -319,55 +344,12 @@ def fetch_kuaishou():
         if r.returncode == 0:
             parsed = json.loads(r.stdout)
             if parsed and isinstance(parsed, list):
-                print(f'  快手热榜: {len(parsed)} 条')
+                print(f'  快手热榜: {len(parsed)} 条 (Node)')
                 return parsed
     except Exception as e:
-        pass  # fall through to direct scraping
-    # fallback — direct scraping (may work from some networks)
-    try:
-        headers = {**HEADERS, "Referer": "https://www.kuaishou.com/"}
-        r = requests.get('https://www.kuaishou.com/?isHome=1', headers=headers, timeout=10)
-        m = re.search(r'window\.__NUXT__\s*=\s*(\{.*?\});', r.text, re.DOTALL)
-        if not m:
-            m = re.search(r'<script>window\.__INITIAL_STATE__\s*=\s*({.*?})</script>', r.text, re.DOTALL)
-        if m:
-            raw = html_mod.unescape(m.group(1)); payload = json.loads(raw)
-            def find_hot(obj, depth=0):
-                if depth > 6: return None
-                if isinstance(obj, dict):
-                    for k in ['hotList', 'list', 'data', 'feeds', 'hotWords']:
-                        val = obj.get(k, [])
-                        if isinstance(val, list) and len(val) > 5:
-                            if any(isinstance(x, dict) and ('name' in x or 'title' in x or 'caption' in x) for x in val[:3]): return val
-                    for v in obj.values():
-                        r = find_hot(v, depth + 1)
-                        if r: return r
-                if isinstance(obj, list):
-                    for v in obj:
-                        r = find_hot(v, depth + 1)
-                        if r: return r
-                return None
-            hot_list = find_hot(payload)
-            if hot_list:
-                for i, item in enumerate(hot_list[:50]):
-                    title = None
-                    for key in ['name', 'title', 'caption', 'word', 'description']:
-                        t = item.get(key, '')
-                        if t: title = t; break
-                    if not title: continue
-                    url = item.get('url', item.get('link', item.get('shareUrl', '')))
-                    if url and not url.startswith('http'): url = 'https://www.kuaishou.com' + url
-                    items.append({
-                        'rank': i + 1, 'title': str(title).strip(),
-                        'heat': '', 'raw_heat': 0,
-                        'link': url or 'https://www.kuaishou.com/',
-                    })
-        if items:
-            print(f'  快手热榜: {len(items)} 条')
-        else:
-            print(f'  快手热榜: 直爬未获取到数据')
-    except Exception as e:
-        print(f'  快手热榜: {type(e).__name__}')
+        print(f'  快手热榜 Node: {type(e).__name__}')
+
+    print(f'  快手热榜: 所有方式均失败')
     return items
 
 # ----------------------------------------------------------------
