@@ -75,7 +75,9 @@ jobs:
               c = a.get('分类', 'Unknown')
               sources[s] = sources.get(s, 0) + 1
               cats[c] = cats.get(c, 0) + 1
-              if '2026-06-04' in str(a.get('日期', '')):
+              import datetime
+              today_str = datetime.date.today().strftime('%Y-%m-%d')
+              if today_str in str(a.get('日期', '')):
                   new_today += 1
           print(f'New today: {new_today}')
           print(f'Sources: {sources}')
