@@ -1,8 +1,68 @@
 {
-  "updated": "2026-07-13T03:53:17+08:00",
+  "updated": "2026-07-13T06:41:52+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "23562486",
+      "标题": "您是在告诉我只读属性正在破坏我的性能吗？",
+      "原文": "Are you telling me a readonly property is wrecking my performance?",
+      "摘要": "Are you telling me a readonly property is wrecking my performance?",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://shub.club/writings/2026/july/check-your-scrollheight/",
+      "标签": []
+    },
+    {
+      "id": "1bc65a89",
+      "标题": "盖伊用 Game Boy 相机、巨型望远镜拍摄木星照片，并发布教程",
+      "原文": "Guy took Jupiter photo with Game Boy Camera, giant telescope, publishes tutorial",
+      "摘要": "Guy took Jupiter photo with Game Boy Camera, giant telescope, publishes tutorial",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.engadget.com/2211886/guy-who-took-photo-of-jupiter-with-a-game-boy-camera-and-giant-telescope-publishes-diy-tutorial/",
+      "标签": []
+    },
+    {
+      "id": "f0abb985",
+      "标题": "宾法斯伯爵",
+      "原文": "Count Binface",
+      "摘要": "Count Binface",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://countbinface.com",
+      "标签": []
+    },
+    {
+      "id": "15a3f185",
+      "标题": "在 JavaScript 中以每秒 6B 次的速度转换颜色",
+      "原文": "Converting colors in JavaScript at 6B operations per second",
+      "摘要": "Converting colors in JavaScript at 6B operations per second",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://dkryaklin.com/blog/colordx-gpu",
+      "标签": []
+    },
+    {
+      "id": "f073eadc",
+      "标题": "Beavis 超声波 PnP ISA 声卡复制品",
+      "原文": "Beavis Ultrasound PnP ISA Sound Card Replica",
+      "摘要": "Beavis Ultrasound PnP ISA Sound Card Replica",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/schlae/BeavisUltrasound",
+      "标签": []
+    },
     {
       "id": "3adc1a9c",
       "标题": "第一眼看到南极探险家沙克尔顿的最后一艘船“探索号”",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain",
-      "标签": []
-    },
-    {
-      "id": "1343e6f1",
-      "标题": "不是说灭绝了吗？",
-      "原文": "Don't you mean extinct?",
-      "摘要": "Don't you mean extinct?",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://fabiensanglard.net/extinct/index.html",
-      "标签": []
-    },
-    {
-      "id": "bb1f6658",
-      "标题": "新旧应用程序，通过现代编码代理",
-      "原文": "Old and new apps, via modern coding agents",
-      "摘要": "Old and new apps, via modern coding agents",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
-      "标签": []
-    },
-    {
-      "id": "c6db9047",
-      "标题": "形态计量学：形状分析简介",
-      "原文": "Morphometrics: Introduction to the Analysis of Shape",
-      "摘要": "Morphometrics: Introduction to the Analysis of Shape",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.geol.umd.edu/~tholtz/G331/lectures/331biomech.html",
-      "标签": []
-    },
-    {
-      "id": "65ff84ce",
-      "标题": "Theo de Raadt：“你一直在吸一些改变心智的东西”（2007）",
-      "原文": "Theo de Raadt: \"You've been smoking something mind altering\" (2007)",
-      "摘要": "Theo de Raadt: \"You've been smoking something mind altering\" (2007)",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://marc.info/?l=openbsd-misc&m=119318909016582",
-      "标签": []
-    },
-    {
-      "id": "beac52aa",
-      "标题": "Autoresearch，克劳德和约束优化",
-      "原文": "Autoresearch, Claude and Constrained Optimization",
-      "摘要": "Autoresearch, Claude and Constrained Optimization",
-      "来源": "Hacker News",
-      "日期": "2026-07-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization/",
       "标签": []
     }
   ]
