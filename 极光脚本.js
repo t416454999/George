@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function 初始化数据() {
     const AI来源白名单 = [
         '36氪', 'Google DeepMind 官方', 'Hugging Face 官方',
-        'OpenAI 官方', 'arXiv AI', '新浪科技',
-        '量子位', '雷锋网'
+        'OpenAI 官方', 'Anthropic 官方', 'arXiv AI', '新浪科技',
+        '量子位', '雷锋网', 'GitHub 官方博客',
     ];
 
     try {
@@ -141,7 +141,7 @@ function 应用筛选() {
     }
     if (状态.当前分类 === '一手消息') {
         clearContainers();
-        const 一手来源 = ['OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI'];
+        const 一手来源 = ['OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI', 'Anthropic 官方'];
         const 一手列表 = 状态.文章列表.filter(a => 一手来源.includes(a.来源));
         const 容器 = document.getElementById('特征容器');
         if (容器 && 一手列表.length > 0) {
@@ -150,6 +150,25 @@ function 应用筛选() {
             const 列表 = document.createElement('ul'); 列表.className = '一手列表';
             一手列表.forEach(a => 创建一手行(a, 列表));
             容器.appendChild(列表);
+            // 默认折叠：只显示前5条
+            const 限制数 = 5;
+            for (let i = 限制数; i < 列表.children.length; i++) 列表.children[i].style.display = 'none';
+            if (一手列表.length > 限制数) {
+                const 折叠按钮 = document.createElement('button');
+                折叠按钮.className = '加载更多按钮';
+                折叠按钮.style.marginTop = '12px';
+                const 多余 = 一手列表.length - 限制数;
+                折叠按钮.textContent = `展开全部（${多余} 条）`;
+                let 已展开 = false;
+                折叠按钮.onclick = () => {
+                    已展开 = !已展开;
+                    for (let i = 限制数; i < 列表.children.length; i++) {
+                        列表.children[i].style.display = 已展开 ? '' : 'none';
+                    }
+                    折叠按钮.textContent = 已展开 ? '收起' : `展开全部（${多余} 条）`;
+                };
+                容器.appendChild(折叠按钮);
+            }
         }
         if (空状态) 空状态.style.display = 一手列表.length === 0 ? 'block' : 'none';
         if (加载区域) 加载区域.style.display = 'none';
@@ -431,27 +450,56 @@ async function 加载工具排行() {
     const 容器 = document.getElementById('工具容器');
     if (!容器) return;
 
-    let 工具列表 = [];
+    let 数据 = { stable: [], trending: [] };
     try {
         const 响应 = await fetch('GitHub工具排行.json?v=' + Date.now());
-        if (响应.ok) 工具列表 = await 响应.json();
+        if (响应.ok) {
+            const raw = await 响应.json();
+            // 新版：{stable, trending} | 旧版平铺数组兼容
+            if (raw.stable && raw.trending !== undefined) {
+                数据 = raw;
+            } else if (Array.isArray(raw)) {
+                数据.stable = raw;
+            }
+        }
     } catch (e) { console.log('工具排行加载失败：' + e.message); }
 
-    if (工具列表.length === 0) return;
+    if (数据.stable.length === 0 && 数据.trending.length === 0) return;
 
-    const 标题 = document.createElement('div'); 标题.className = '工具标题'; 标题.textContent = 'GitHub 工具排行';
-    容器.appendChild(标题);
-    const 列表 = document.createElement('ul'); 列表.className = '工具列表';
+    // 核心仓库
+    if (数据.stable.length > 0) {
+        const 标题 = document.createElement('div'); 标题.className = '工具标题'; 标题.textContent = '核心工具追踪';
+        容器.appendChild(标题);
+        const 列表 = document.createElement('ul'); 列表.className = '工具列表';
+        数据.stable.forEach(工具 => {
+            const 项 = document.createElement('li'); 项.className = '工具列表项';
+            const 变化标签 = 工具.本周变化 && 工具.本周变化 !== '─' ?
+                `<span class="工具排行标记" style="color:var(--aurora-green)">${工具.本周变化}</span>` :
+                `<span class="工具排行标记">${工具.星标 || ''}</span>`;
+            项.innerHTML = `
+                <span class="工具名">${工具.名称 || ''}<a class="工具链接" href="https://github.com/${工具.repo}" target="_blank" rel="noopener">&nearr;</a></span>
+                <span class="工具说明">${工具.说明 || ''}</span>
+                ${变化标签}`;
+            列表.appendChild(项);
+        });
+        容器.appendChild(列表);
+    }
 
-    工具列表.forEach(工具 => {
-        const 项 = document.createElement('li'); 项.className = '工具列表项';
-        项.innerHTML = `
-            <span class="工具名">${工具.名称 || ''}<a class="工具链接" href="${工具.链接 || '#'}" target="_blank" rel="noopener">&nearr;</a></span>
-            <span class="工具说明">${工具.说明 || ''}</span>
-            <span class="工具排行标记">${工具.星标 || ''} stars</span>`;
-        列表.appendChild(项);
-    });
-    容器.appendChild(列表);
+    // 本周趋势
+    if (数据.trending.length > 0) {
+        const 标题2 = document.createElement('div'); 标题2.className = '工具标题'; 标题2.textContent = '本周趋势项目';
+        容器.appendChild(标题2);
+        const 列表2 = document.createElement('ul'); 列表2.className = '工具列表';
+        数据.trending.forEach(工具 => {
+            const 项 = document.createElement('li'); 项.className = '工具列表项';
+            项.innerHTML = `
+                <span class="工具名">${工具.名称 || ''}<a class="工具链接" href="https://github.com/${工具.repo}" target="_blank" rel="noopener">&nearr;</a></span>
+                <span class="工具说明">${工具.说明 || ''}</span>
+                <span class="工具排行标记">${工具.星标 || ''} stars</span>`;
+            列表2.appendChild(项);
+        });
+        容器.appendChild(列表2);
+    }
 }
 
 // ============================================================

@@ -139,7 +139,10 @@ if 缺少的包:
             "行业动态": ["融资", "上市", "收购", "政策", "监管", "芯片", "算力", "GPU",
                        "市场", "报告", "趋势", "裁员", "招聘"],
             "开源工具": ["开源", "GitHub", "框架", "工具", "库", "SDK", "API", "HuggingFace",
-                       "PyTorch", "TensorFlow", "代码", "编程"],
+                       "PyTorch", "TensorFlow", "代码", "编程", "Ollama", "LangChain",
+                       "Cursor", "Copilot", "Dify", "ComfyUI", "vLLM", "n8n", "AutoGen",
+                       "RAG", "Whisper", "Gradio", "Streamlit", "FastAPI", "Chainlit",
+                       "LlamaIndex", "Chroma", "Pinecone", "Milvus", "Weaviate"],
         },
     },
     {
@@ -158,7 +161,8 @@ if 缺少的包:
             "行业动态": ["融资", "上市", "收购", "政策", "监管", "芯片", "算力", "GPU",
                        "市场", "报告", "趋势"],
             "开源工具": ["开源", "GitHub", "框架", "工具", "库", "SDK", "API", "HuggingFace",
-                       "PyTorch", "代码"],
+                       "PyTorch", "代码", "Ollama", "LangChain", "Cursor", "Copilot",
+                       "Dify", "ComfyUI", "vLLM", "AutoGen", "Gradio", "RAG"],
         },
     },
     {
@@ -171,7 +175,8 @@ if 缺少的包:
             "AI绘画": ["绘画", "图像", "视频", "Sora", "Midjourney", "AI生成"],
             "学术前沿": ["论文", "研究", "突破", "发现", "算法"],
             "行业动态": ["融资", "上市", "收购", "政策", "芯片", "算力", "市场", "报告"],
-            "开源工具": ["开源", "GitHub", "框架", "工具", "HuggingFace"],
+            "开源工具": ["开源", "GitHub", "框架", "工具", "HuggingFace", "Ollama", "LangChain",
+                       "Cursor", "Copilot", "Dify", "vLLM", "AutoGen", "Gradio"],
         },
     },
     {
@@ -184,7 +189,8 @@ if 缺少的包:
             "AI绘画": ["绘画", "图像生成", "视频生成", "Sora", "Midjourney"],
             "学术前沿": ["论文", "研究", "突破", "算法"],
             "行业动态": ["融资", "上市", "收购", "政策", "芯片", "算力", "市场"],
-            "开源工具": ["开源", "GitHub", "框架", "工具"],
+            "开源工具": ["开源", "GitHub", "框架", "工具", "Ollama", "LangChain",
+                       "Cursor", "Copilot", "Dify", "vLLM", "AutoGen", "Gradio", "RAG"],
         },
     },
     {
@@ -197,7 +203,8 @@ if 缺少的包:
             "AI绘画": ["绘画", "图像", "视频生成", "Sora", "Midjourney"],
             "学术前沿": ["论文", "研究", "突破", "算法"],
             "行业动态": ["融资", "上市", "收购", "政策", "芯片", "算力"],
-            "开源工具": ["开源", "GitHub", "框架", "工具"],
+            "开源工具": ["开源", "GitHub", "框架", "工具", "Ollama", "LangChain",
+                       "Cursor", "Copilot", "Dify", "vLLM", "AutoGen", "Gradio", "RAG"],
         },
     },
     {
@@ -210,7 +217,27 @@ if 缺少的包:
             "AI绘画": ["绘画", "图像", "视频生成", "视觉"],
             "学术前沿": ["论文", "研究", "突破", "算法"],
             "行业动态": ["融资", "上市", "收购", "政策", "芯片", "算力", "安防"],
-            "开源工具": ["开源", "GitHub", "框架", "工具"],
+            "开源工具": ["开源", "GitHub", "框架", "工具", "Ollama", "LangChain",
+                       "Cursor", "Copilot", "Dify", "vLLM", "AutoGen", "Gradio", "RAG"],
+        },
+    },
+    {
+        "名称": "Anthropic 官方",
+        "RSS": "https://www.anthropic.com/blog/rss.xml",
+        "类型": "RSS",
+        "固定分类": "原生资讯",
+        "原生资讯": True,
+        "分类映射": 原生资讯分类映射,
+    },
+    {
+        "名称": "GitHub 官方博客",
+        "RSS": "https://github.blog/feed/",
+        "类型": "RSS",
+        "分类映射": {
+            "大模型": ["GPT", "Claude", "LLM", "Copilot", "ChatGPT", "模型"],
+            "AI应用": ["AI", "应用", "产品", "Agent", "GitHub Copilot"],
+            "开源工具": ["开源", "GitHub", "工具", "框架", "SDK", "API", "代码"],
+            "行业动态": ["安全", "政策", "市场", "报告"],
         },
     },
 ]
@@ -377,20 +404,33 @@ def 生成原生资讯标题(标题, 来源):
 
 
 # ============================================================
-# DeepSeek AI 翻译 + 提炼（用于一手消息）
+# AI 翻译 + 提炼（用于一手消息）
 # ============================================================
 
 DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY', '')
-DEEPSEEK_MODEL = 'deepseek-chat'
+
+def google翻译(文本):
+    """Google Translate 免费API（无key，仅翻译，不提炼）"""
+    if not 文本 or len(文本) < 6: return 文本
+    try:
+        import requests as req
+        url = 'https://translate.googleapis.com/translate_a/single'
+        r = req.get(url, params={'client': 'gtx', 'sl': 'en', 'tl': 'zh-CN', 'dt': 't', 'q': 文本[:2000]},
+                    timeout=10)
+        if r.status_code == 200:
+            parts = r.json()
+            return ''.join(parts[0][i][0] for i in range(len(parts[0]))).strip() or 文本
+    except:
+        pass
+    return 文本
+
 
 def 翻译并提炼(原标题, 摘要):
-    """调用 DeepSeek API 英译中+提炼要点。
-    返回 (翻译后标题, 中文要点) 或 (原标题, '')。
+    """英译中+提炼要点。
+    优先 DeepSeek（翻译+提炼），回退 Google Translate（仅翻译）。
+    返回 (翻译后标题, 中文要点)。
     """
-    if not DEEPSEEK_API_KEY:
-        return 原标题, ''
-
-    # 去掉 【原生·XXX】 前缀再翻译，翻译完再加回去
+    # 去掉 【原生·XXX】 前缀，翻译完再加回去
     前缀 = ''
     m = re.match(r'^(【原生·[^】]+】)', 原标题)
     if m:
@@ -399,52 +439,50 @@ def 翻译并提炼(原标题, 摘要):
     else:
         原文标题 = 原标题
 
-    try:
-        import requests as req
-        prompt = f'''你是一位AI新闻编辑。将以下英文AI资讯的标题翻译成中文，并提炼3-5个关键要点。
+    if DEEPSEEK_API_KEY:
+        try:
+            import requests as req
+            prompt = f'''你是一位AI新闻编辑。将以下英文AI资讯的标题翻译成中文，并提炼3-5个关键要点。
 
-要求：
-- 标题翻译准确，专业术语保持原样（如 GPT、LLM、RAG 等）
-- 每行一条要点，用"• "开头，每条1-2句话
-- 保留所有数字、日期、人名、模型名、组织名
-- 如含技术性能数据必须在要点中保留
-- 语气客观中立
+    要求：
+    - 标题翻译准确，专业术语保持原样（如 GPT、LLM、RAG 等）
+    - 每行一条要点，用"• "开头，每条1-2句话
+    - 保留所有数字、日期、人名、模型名、组织名
+    - 如含技术性能数据必须在要点中保留
+    - 语气客观中立
 
-输出格式（纯JSON，不要markdown标记）：
-{{"title":"中文标题","points":"• 要点1\\n• 要点2\\n• 要点3"}}
+    输出格式（纯JSON，不要markdown标记）：
+    {{"title":"中文标题","points":"• 要点1\\n• 要点2\\n• 要点3"}}
 
-标题：{原文标题}
-内容：{摘要[:1000]}'''
+    标题：{原文标题}
+    内容：{摘要[:1000]}'''
 
-        resp = req.post(
-            'https://api.deepseek.com/v1/chat/completions',
-            headers={'Authorization': f'Bearer {DEEPSEEK_API_KEY}', 'Content-Type': 'application/json'},
-            json={'model': DEEPSEEK_MODEL, 'messages': [{'role': 'user', 'content': prompt}],
-                  'max_tokens': 500, 'temperature': 0.3},
-            timeout=30,
-        )
-        if not resp.ok:
-            print(f'  [翻译] DeepSeek {resp.status_code}')
-            return 原标题, ''
+            resp = req.post(
+                'https://api.deepseek.com/v1/chat/completions',
+                headers={'Authorization': f'Bearer {DEEPSEEK_API_KEY}', 'Content-Type': 'application/json'},
+                json={'model': 'deepseek-chat', 'messages': [{'role': 'user', 'content': prompt}],
+                      'max_tokens': 500, 'temperature': 0.3},
+                timeout=30,
+            )
+            if resp.ok:
+                content = resp.json()['choices'][0]['message']['content'].strip()
+                if '```json' in content:
+                    content = content.split('```json')[1].split('```')[0].strip()
+                elif '```' in content:
+                    content = content.split('```')[1].split('```')[0].strip()
+                结果 = json.loads(content)
+                中文标题 = 结果.get('title', '').strip()
+                要点 = 结果.get('points', '').strip()
+                if 中文标题:
+                    return f'{前缀}{中文标题}', 要点
+        except Exception as e:
+            print(f'  [翻译] DeepSeek异常: {type(e).__name__}, 回退Google翻译')
 
-        content = resp.json()['choices'][0]['message']['content'].strip()
-        # 清理可能的 markdown 代码块标记
-        if '```json' in content:
-            content = content.split('```json')[1].split('```')[0].strip()
-        elif '```' in content:
-            content = content.split('```')[1].split('```')[0].strip()
-
-        结果 = json.loads(content)
-        中文标题 = 结果.get('title', '').strip()
-        要点 = 结果.get('points', '').strip()
-
-        if 中文标题:
-            return f'{前缀}{中文标题}', 要点
-        return 原标题, ''
-
-    except Exception as e:
-        print(f'  [翻译] 异常: {type(e).__name__}')
-        return 原标题, ''
+    # 回退：Google Translate 仅翻译标题
+    中文标题 = google翻译(原文标题)
+    if 中文标题 and 中文标题 != 原文标题:
+        return f'{前缀}{中文标题}', ''
+    return 原标题, ''
 
 
 def 提取标签(标题, 摘要):
@@ -761,6 +799,52 @@ def 生成内容摘要(文章列表):
             文章["内容"] = 文章.get("摘要", "")
 
 
+def 生成本周大事(所有文章):
+    """汇总本周热度最高的文章，生成周报 JSON"""
+    周报路径 = 脚本目录 / "本周AI大事.json"
+    今日 = datetime.now()
+    七天前 = 今日 - timedelta(days=7)
+    本周文章 = [a for a in 所有文章 if a.get('日期', '') >= 七天前.strftime('%Y-%m-%d')]
+
+    if not 本周文章:
+        print('  [周报] 本周无文章')
+        return 0
+
+    本周文章.sort(key=lambda x: x.get('热度', 0), reverse=True)
+
+    # 按分类分组
+    分类分组 = {}
+    for a in 本周文章:
+        c = a.get('分类', '其他')
+        分类分组.setdefault(c, []).append(a)
+
+    # 每个分类取前5
+    精选 = []
+    for 分类列表 in 分类分组.values():
+        for a in 分类列表[:5]:
+            精选.append({
+                '标题': a.get('标题', ''),
+                '来源': a.get('来源', ''),
+                '日期': a.get('日期', ''),
+                '热度': a.get('热度', 0),
+                '分类': a.get('分类', ''),
+                '链接': a.get('链接', ''),
+            })
+
+    data = {
+        'updated': 今日.strftime('%Y-%m-%dT%H:%M:%S+08:00'),
+        'week_start': 七天前.strftime('%Y-%m-%d'),
+        'week_end': 今日.strftime('%Y-%m-%d'),
+        'total': len(本周文章),
+        'articles': 精选[:20],
+    }
+
+    with open(周报路径, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f'  [周报] 已写入 {周报路径}，本周 {len(本周文章)} 篇文章，精选 {len(data["articles"])} 条')
+    return len(精选)
+
+
 def 采集金融资讯():
     """单独采集金融资讯，生成金融API"""
     print("\n" + "=" * 60)
@@ -866,9 +950,10 @@ def 主流程():
     print(f"[统计] 本轮共获取 {len(所有新文章)} 篇新文章")
 
     # 2.5 翻译原生资讯（一手消息）：英译中 + 提炼要点
-    原生来源 = {'OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI'}
-    if DEEPSEEK_API_KEY and 所有新文章:
-        print(f"\n[步骤2.5] 翻译原生资讯（一手消息）...")
+    # 优先 DeepSeek（翻译+提炼），回退 Google Translate（仅翻译标题）
+    原生来源 = {'OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI', 'Anthropic 官方'}
+    if 所有新文章:
+        print(f"\n[步骤2.5] 翻译新文章...")
         翻译数 = 0
         for 文章 in 所有新文章:
             if 文章.get('来源') in 原生来源 and not 文章.get('原标题'):
@@ -885,6 +970,29 @@ def 主流程():
             print(f'  [翻译] 完成 {翻译数} 篇')
         else:
             print(f'  [翻译] 无新文章需要翻译')
+
+    # 批量翻译已有数据中的未翻译文章（每次最多50篇）
+    if 已有文章:
+        待翻译 = [a for a in 已有文章 if a.get('来源') in 原生来源 and not a.get('原标题')]
+        if 待翻译:
+            print(f"\n[步骤2.5b] 批量翻译已有文章（发现 {len(待翻译)} 篇未翻译）...")
+            batch数 = 0
+            for 文章 in 待翻译[:50]:
+                原标题 = 文章['标题']
+                中文标题, 要点 = 翻译并提炼(原标题, 文章.get('摘要', ''))
+                if 中文标题 and 中文标题 != 原标题:
+                    文章['原标题'] = 原标题
+                    文章['标题'] = 中文标题
+                    文章['中文提炼'] = 要点
+                    batch数 += 1
+                    print(f'  ✓ [{文章["来源"]}] {原标题[:40]}... → {中文标题[:40]}')
+                time.sleep(0.3)
+            if batch数:
+                print(f'  [批量翻译] 完成 {batch数} 篇')
+            else:
+                print(f'  [批量翻译] 无文章需要翻译')
+        else:
+            print(f'  [批量翻译] 已有文章均已翻译')
 
     # 3. 合并数据库
     print(f"\n[步骤3] 合并数据库...")
@@ -920,6 +1028,16 @@ def 主流程():
     print(f"\n{'=' * 60}")
     print("采集任务完成。")
     print(f"{'=' * 60}")
+
+    # 5. 如果是周六，生成本周AI大事周报
+    今日星期 = datetime.now().weekday()
+    if 今日星期 == 5:  # Saturday
+        print(f"\n[步骤5] 生成本周AI大事周报...")
+        try:
+            本周大事数 = 生成本周大事(已有文章 + (所有新文章 if 所有新文章 else []))
+            print(f"[周报] 已生成，本周 {本周大事数} 条精选")
+        except Exception as e:
+            print(f"[周报] 生成失败：{e}")
 
     # 6. 采集金融资讯 + 生成金融API
     print(f"\n[步骤6] 采集金融热点资讯...")
