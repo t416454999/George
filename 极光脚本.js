@@ -259,7 +259,18 @@ function 创建一手行(文章, 列表) {
     const 项 = document.createElement('li'); 项.className = '一手列表项';
     const 链接 = document.createElement('a'); 链接.className = '一手列表链接';
     链接.href='#详情/'+文章.id; 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
-    链接.innerHTML=`<span class="一手标记">一手</span><span class="一手来源">${文章.来源||''}</span><span class="一手日期">${文章.日期||''}</span><span class="一手标题文字">${文章.标题||''}</span>`;
+    let html = `<span class="一手标记">一手</span><span class="一手来源">${文章.来源||''}</span><span class="一手日期">${文章.日期||''}</span>`;
+    // 有翻译：显示中文标题 + 原标题副文本
+    if (文章.原标题) {
+        html += `<span class="一手标题文字">${文章.标题||''}</span>`;
+        html += `<span class="一手原标题">${文章.原标题.replace(/【[^】]+】/g,'').trim()}</span>`;
+        if (文章.中文提炼) {
+            html += `<span class="一手要点">${文章.中文提炼.replace(/\n/g,'<br>')}</span>`;
+        }
+    } else {
+        html += `<span class="一手标题文字">${文章.标题||''}</span>`;
+    }
+    链接.innerHTML = html;
     项.appendChild(链接); 列表.appendChild(项);
 }
 

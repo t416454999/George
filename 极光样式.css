@@ -532,6 +532,16 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     line-height: 1.45; color: var(--text); min-width: 260px;
     transition: color 0.2s var(--ease);
 }
+.一手原标题 {
+    font-size: 12.5px; color: var(--text-faint); font-weight: 400;
+    margin-top: -2px; width: 100%; min-width: 260px;
+    order: 3; font-style: italic;
+}
+.一手要点 {
+    font-size: 13px; color: var(--text-muted); font-weight: 400;
+    line-height: 1.5; margin-top: 4px; width: 100%; min-width: 260px;
+    order: 4;
+}
 .一手列表项:hover .一手标题文字 { color: var(--aurora-purple); }
 
 /* —— 更多资讯：杂志目录 —— */

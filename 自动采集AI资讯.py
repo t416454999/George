@@ -376,6 +376,77 @@ def 生成原生资讯标题(标题, 来源):
     return f"【原生·{重点}】{原标题}"
 
 
+# ============================================================
+# DeepSeek AI 翻译 + 提炼（用于一手消息）
+# ============================================================
+
+DEEPSEEK_API_KEY = os.environ.get('DEEPSEEK_API_KEY', '')
+DEEPSEEK_MODEL = 'deepseek-chat'
+
+def 翻译并提炼(原标题, 摘要):
+    """调用 DeepSeek API 英译中+提炼要点。
+    返回 (翻译后标题, 中文要点) 或 (原标题, '')。
+    """
+    if not DEEPSEEK_API_KEY:
+        return 原标题, ''
+
+    # 去掉 【原生·XXX】 前缀再翻译，翻译完再加回去
+    前缀 = ''
+    m = re.match(r'^(【原生·[^】]+】)', 原标题)
+    if m:
+        前缀 = m.group(1)
+        原文标题 = 原标题[len(前缀):]
+    else:
+        原文标题 = 原标题
+
+    try:
+        import requests as req
+        prompt = f'''你是一位AI新闻编辑。将以下英文AI资讯的标题翻译成中文，并提炼3-5个关键要点。
+
+要求：
+- 标题翻译准确，专业术语保持原样（如 GPT、LLM、RAG 等）
+- 每行一条要点，用"• "开头，每条1-2句话
+- 保留所有数字、日期、人名、模型名、组织名
+- 如含技术性能数据必须在要点中保留
+- 语气客观中立
+
+输出格式（纯JSON，不要markdown标记）：
+{{"title":"中文标题","points":"• 要点1\\n• 要点2\\n• 要点3"}}
+
+标题：{原文标题}
+内容：{摘要[:1000]}'''
+
+        resp = req.post(
+            'https://api.deepseek.com/v1/chat/completions',
+            headers={'Authorization': f'Bearer {DEEPSEEK_API_KEY}', 'Content-Type': 'application/json'},
+            json={'model': DEEPSEEK_MODEL, 'messages': [{'role': 'user', 'content': prompt}],
+                  'max_tokens': 500, 'temperature': 0.3},
+            timeout=30,
+        )
+        if not resp.ok:
+            print(f'  [翻译] DeepSeek {resp.status_code}')
+            return 原标题, ''
+
+        content = resp.json()['choices'][0]['message']['content'].strip()
+        # 清理可能的 markdown 代码块标记
+        if '```json' in content:
+            content = content.split('```json')[1].split('```')[0].strip()
+        elif '```' in content:
+            content = content.split('```')[1].split('```')[0].strip()
+
+        结果 = json.loads(content)
+        中文标题 = 结果.get('title', '').strip()
+        要点 = 结果.get('points', '').strip()
+
+        if 中文标题:
+            return f'{前缀}{中文标题}', 要点
+        return 原标题, ''
+
+    except Exception as e:
+        print(f'  [翻译] 异常: {type(e).__name__}')
+        return 原标题, ''
+
+
 def 提取标签(标题, 摘要):
     """从标题和摘要中提取关键词标签"""
     候选标签 = [
@@ -793,6 +864,27 @@ def 主流程():
 
     print(f"\n[统计] 成功：{成功数}/{len(资讯来源配置)}，失败：{失败数}")
     print(f"[统计] 本轮共获取 {len(所有新文章)} 篇新文章")
+
+    # 2.5 翻译原生资讯（一手消息）：英译中 + 提炼要点
+    原生来源 = {'OpenAI 官方', 'Google DeepMind 官方', 'Hugging Face 官方', 'arXiv AI'}
+    if DEEPSEEK_API_KEY and 所有新文章:
+        print(f"\n[步骤2.5] 翻译原生资讯（一手消息）...")
+        翻译数 = 0
+        for 文章 in 所有新文章:
+            if 文章.get('来源') in 原生来源 and not 文章.get('原标题'):
+                原标题 = 文章['标题']
+                中文标题, 要点 = 翻译并提炼(原标题, 文章.get('摘要', ''))
+                if 中文标题 and 中文标题 != 原标题:
+                    文章['原标题'] = 原标题
+                    文章['标题'] = 中文标题
+                    文章['中文提炼'] = 要点
+                    翻译数 += 1
+                    print(f'  ✓ [{文章["来源"]}] {原标题[:40]}... → {中文标题[:40]}')
+                time.sleep(0.3)
+        if 翻译数:
+            print(f'  [翻译] 完成 {翻译数} 篇')
+        else:
+            print(f'  [翻译] 无新文章需要翻译')
 
     # 3. 合并数据库
     print(f"\n[步骤3] 合并数据库...")

@@ -47,6 +47,8 @@ jobs:
           pip install requests feedparser beautifulsoup4
 
       - name: Run fetch script
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           echo "================================================"
           echo " Aurora Engine - Daily AI News Fetch"
