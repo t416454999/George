@@ -43,7 +43,7 @@ def fetch_via_60s(name, path, max_items=50):
             title = (item.get('title') or '').strip()
             if not title: continue
             raw = int(item.get('hot_value', 0) or 0)
-            link = (item.get('link') or '').strip()
+            link = (item.get('link') or item.get('url') or '').strip()
             rank = item.get('rank', i + 1)
             items.append({
                 'rank': rank,
@@ -300,7 +300,7 @@ def fetch_xiaohongshu():
                 'title': title,
                 'heat': item.get('score', '') or '',
                 'raw_heat': 0,
-                'link': item.get('link', '') or f'https://www.xiaohongshu.com/search_result?keyword={requests.utils.quote(title)}',
+                'link': 'https://www.xiaohongshu.com/explore',
             })
         print(f'  小红书热榜: {len(items)} 条')
     except Exception as e:
