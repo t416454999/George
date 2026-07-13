@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-13T20:07:07+08:00",
+  "updated": "2026-07-13T21:10:28+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "50557701",
+      "标题": "每个 Lionshead PR 的安全检查",
+      "原文": "The security checks in every Lionshead PR",
+      "摘要": "The security checks in every Lionshead PR",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://lionshead.digital/notes/the-security-checks-in-every-lionshead-pr",
+      "标签": []
+    },
+    {
+      "id": "f0b390f0",
+      "标题": "Telegram 的 t.me 域名已被暂停",
+      "原文": "Telegram's t.me domain has been suspended",
+      "摘要": "Telegram's t.me domain has been suspended",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.whois.com/whois/t.me",
+      "标签": []
+    },
+    {
+      "id": "7deae624",
+      "标题": "Show HN：YouTube 吉他谱解析器",
+      "原文": "Show HN: YouTube Guitar Tab Parser",
+      "摘要": "Show HN: YouTube Guitar Tab Parser",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
+      "标签": []
+    },
+    {
+      "id": "b293c93d",
+      "标题": "Show HN：我用 SQL 实现了一个神经网络",
+      "原文": "Show HN: I implemented a neural network in SQL",
+      "摘要": "Show HN: I implemented a neural network in SQL",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
+      "标签": []
+    },
+    {
+      "id": "9dff7097",
+      "标题": "SalesPatriot (YC W25) 正在招聘全栈工程师 (SF)",
+      "原文": "SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)",
+      "摘要": "SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7",
+      "标签": []
+    },
+    {
+      "id": "09ff20f4",
+      "标题": "Climate.gov 被摧毁。打开数据保存它",
+      "原文": "Climate.gov was destroyed. Open data saved it",
+      "摘要": "Climate.gov was destroyed. Open data saved it",
+      "来源": "Hacker News",
+      "日期": "2026-07-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://werd.io/climate-gov-was-destroyed-open-data-saved-it/",
+      "标签": []
+    },
     {
       "id": "8f4c912b",
       "标题": "Show HN：Nobie – 适用于代理和人类的 Excel 兼容运行时",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://shub.club/writings/2026/july/check-your-scrollheight/",
-      "标签": []
-    },
-    {
-      "id": "1bc65a89",
-      "标题": "盖伊用 Game Boy 相机、巨型望远镜拍摄木星照片，并发布教程",
-      "原文": "Guy took Jupiter photo with Game Boy Camera, giant telescope, publishes tutorial",
-      "摘要": "Guy took Jupiter photo with Game Boy Camera, giant telescope, publishes tutorial",
-      "来源": "Hacker News",
-      "日期": "2026-07-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.engadget.com/2211886/guy-who-took-photo-of-jupiter-with-a-game-boy-camera-and-giant-telescope-publishes-diy-tutorial/",
-      "标签": []
-    },
-    {
-      "id": "f0abb985",
-      "标题": "宾法斯伯爵",
-      "原文": "Count Binface",
-      "摘要": "Count Binface",
-      "来源": "Hacker News",
-      "日期": "2026-07-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://countbinface.com",
-      "标签": []
-    },
-    {
-      "id": "15a3f185",
-      "标题": "在 JavaScript 中以每秒 6B 次的速度转换颜色",
-      "原文": "Converting colors in JavaScript at 6B operations per second",
-      "摘要": "Converting colors in JavaScript at 6B operations per second",
-      "来源": "Hacker News",
-      "日期": "2026-07-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://dkryaklin.com/blog/colordx-gpu",
-      "标签": []
-    },
-    {
-      "id": "f073eadc",
-      "标题": "Beavis 超声波 PnP ISA 声卡复制品",
-      "原文": "Beavis Ultrasound PnP ISA Sound Card Replica",
-      "摘要": "Beavis Ultrasound PnP ISA Sound Card Replica",
-      "来源": "Hacker News",
-      "日期": "2026-07-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/schlae/BeavisUltrasound",
-      "标签": []
-    },
-    {
-      "id": "3adc1a9c",
-      "标题": "第一眼看到南极探险家沙克尔顿的最后一艘船“探索号”",
-      "原文": "First look at Quest, the final ship of Antarctic explorer Shackleton",
-      "摘要": "First look at Quest, the final ship of Antarctic explorer Shackleton",
-      "来源": "Hacker News",
-      "日期": "2026-07-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.cbc.ca/news/canada/quest-shipwreck-expedition-images-9.7262229",
-      "标签": []
-    },
-    {
-      "id": "91f2b7ab",
-      "标题": "1970 普利茅斯半'CUDA",
-      "原文": "1970 Plymouth Hemi 'CUDA",
-      "摘要": "1970 Plymouth Hemi 'CUDA",
-      "来源": "Hacker News",
-      "日期": "2026-07-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://knuckledustchronicles.com/1970-plymouth-hemi-cuda/",
       "标签": []
     }
   ]
