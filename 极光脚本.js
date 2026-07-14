@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await 初始化数据();
     初始化路由();
     监听滚动();
+    初始化分类折叠();
 });
 
 // ============================================================
@@ -902,6 +903,40 @@ function 监听滚动() {
     });
 }
 function 滚动到顶部(){window.scrollTo({top:0,behavior:'smooth'});}
+
+// ============================================================
+// 分类标签展开/收起
+// ============================================================
+
+function 初始化分类折叠() {
+    const 组 = document.getElementById('分类标签组');
+    if (!组) return;
+    const 标签列表 = 组.querySelectorAll(':scope > .分类标签');
+    const 折叠阈值 = 10; // 显示前10个标签（全部~金融），折叠后4个
+    if (标签列表.length <= 折叠阈值) return;
+
+    // 给后几个标签添加折叠类并隐藏
+    for (let i = 折叠阈值; i < 标签列表.length; i++) {
+        标签列表[i].classList.add('折叠标签', 'hidden');
+    }
+
+    // 创建展开/收起按钮
+    const 按钮 = document.createElement('button');
+    按钮.className = '展开按钮';
+    按钮.textContent = '展开全部 ▸';
+    按钮.setAttribute('aria-label', '展开更多分类');
+    let 已展开 = false;
+    按钮.onclick = (e) => {
+        e.stopPropagation();
+        已展开 = !已展开;
+        for (let i = 折叠阈值; i < 标签列表.length; i++) {
+            标签列表[i].classList.toggle('hidden', !已展开);
+        }
+        按钮.textContent = 已展开 ? '收起 ▾' : '展开全部 ▸';
+        按钮.setAttribute('aria-label', 已展开 ? '收起多余分类' : '展开更多分类');
+    };
+    组.appendChild(按钮);
+}
 
 window.addEventListener('popstate',()=>{
     const hash=window.location.hash.slice(1);

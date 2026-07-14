@@ -1,14 +1,13 @@
 # ============================================================
-# 极光引擎 - GitHub Actions 每日自动部署配置
-# 功能：长期采集、翻译和图片压缩全部在 GitHub 云端运行，不依赖个人电脑开机
+# 极光引擎 - GitHub Actions 实时自动采集配置
+# 功能：每30分钟自动采集、翻译和图片压缩，全部在 GitHub 云端运行
 # ============================================================
 
-name: "Aurora Engine - Daily AI News Update"
+name: "Aurora Engine - Real-time Content Update"
 
 on:
   schedule:
-    - cron: '0 0 * * *'       # UTC 0:00 = 北京时间 8:00
-    - cron: '0 12 * * *'      # UTC 12:00 = 北京时间 20:00
+    - cron: '*/30 * * * *'    # 每30分钟运行一次
 
   workflow_dispatch:
 
