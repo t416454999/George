@@ -105,8 +105,8 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto update: $(date '+%Y-%m-%d') - Latest AI news"
-            # 遇到冲突时自动使用远程版本（bot的数据总是最新的）
-            git pull --rebase -X theirs origin main
+            # 自动stash未跟踪文件（assets图片下载残留），冲突时用远程版本
+            git pull --rebase --autostash -X theirs origin main
             git push
             echo "Changes committed and pushed - Pages will auto-deploy"
           fi
