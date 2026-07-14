@@ -542,13 +542,82 @@ def 比赛阶段中文(阶段):
     }.get(阶段 or "", 阶段 or "世界杯")
 
 
+世界杯队名中文 = {
+    "Algeria": "阿尔及利亚", "Argentina": "阿根廷", "Australia": "澳大利亚",
+    "Austria": "奥地利", "Belgium": "比利时", "Bosnia & Herzegovina": "波黑",
+    "Brazil": "巴西", "Canada": "加拿大", "Cape Verde": "佛得角",
+    "Colombia": "哥伦比亚", "Croatia": "克罗地亚", "Curaçao": "库拉索",
+    "Czech Republic": "捷克", "DR Congo": "刚果（金）", "Ecuador": "厄瓜多尔",
+    "Egypt": "埃及", "England": "英格兰", "France": "法国", "Germany": "德国",
+    "Ghana": "加纳", "Haiti": "海地", "Iran": "伊朗", "Iraq": "伊拉克",
+    "Ivory Coast": "科特迪瓦", "Japan": "日本", "Jordan": "约旦",
+    "Mexico": "墨西哥", "Morocco": "摩洛哥", "Netherlands": "荷兰",
+    "New Zealand": "新西兰", "Norway": "挪威", "Panama": "巴拿马",
+    "Paraguay": "巴拉圭", "Portugal": "葡萄牙", "Qatar": "卡塔尔",
+    "Saudi Arabia": "沙特阿拉伯", "Scotland": "苏格兰", "Senegal": "塞内加尔",
+    "South Africa": "南非", "South Korea": "韩国", "Spain": "西班牙",
+    "Sweden": "瑞典", "Switzerland": "瑞士", "Tunisia": "突尼斯",
+    "Turkey": "土耳其", "Uruguay": "乌拉圭", "USA": "美国",
+    "Uzbekistan": "乌兹别克斯坦",
+}
+
+
+def _世界杯比赛胜负(比赛):
+    """比分已确定时返回胜方/负方的原始队名；未赛或平局则返回空值。"""
+    得分 = 比赛.get("score") or {}
+    最终比分 = 得分.get("p") or 得分.get("et") or 得分.get("ft") or []
+    if len(最终比分) != 2 or any(x is None for x in 最终比分) or 最终比分[0] == 最终比分[1]:
+        return None, None
+    主队, 客队 = 比赛.get("team1"), 比赛.get("team2")
+    return (主队, 客队) if 最终比分[0] > 最终比分[1] else (客队, 主队)
+
+
+def 世界杯席位中文(席位, 比赛索引, 已访问=None):
+    """把 W101/L101 等晋级路径解析为真实球队或可读席位，绝不把内部代码交给读者。"""
+    席位 = 清理文本(席位, 100)
+    if not 席位 or 席位.upper() in {"TBD", "TBA", "TO BE DETERMINED"}:
+        return "待定席位"
+    if 席位 in 世界杯队名中文:
+        return 世界杯队名中文[席位]
+
+    路径 = re.fullmatch(r"([WL])(\d+)", 席位, re.IGNORECASE)
+    if 路径:
+        胜负, 场次文本 = 路径.groups()
+        场次 = int(场次文本)
+        已访问 = set(已访问 or ())
+        if 场次 in 已访问:
+            return f"第{场次}场{'胜者' if 胜负.upper() == 'W' else '负者'}"
+        上一场 = 比赛索引.get(场次)
+        if not 上一场:
+            return f"第{场次}场{'胜者' if 胜负.upper() == 'W' else '负者'}"
+        已访问.add(场次)
+        胜方, 负方 = _世界杯比赛胜负(上一场)
+        已确定 = 胜方 if 胜负.upper() == "W" else 负方
+        if 已确定:
+            return 世界杯席位中文(已确定, 比赛索引, 已访问)
+        主队 = 世界杯席位中文(上一场.get("team1"), 比赛索引, 已访问)
+        客队 = 世界杯席位中文(上一场.get("team2"), 比赛索引, 已访问)
+        结果 = "胜者" if 胜负.upper() == "W" else "负者"
+        return f"{主队}/{客队}{结果}"
+
+    小组席位 = re.fullmatch(r"([123])([A-L])", 席位, re.IGNORECASE)
+    if 小组席位:
+        名次, 小组 = 小组席位.groups()
+        return f"{小组.upper()}组第{名次}"
+    if "play-off" in 席位.lower() or "playoff" in 席位.lower():
+        return "附加赛胜者"
+    return 席位
+
+
 def 采集OpenFootball世界杯():
     地址 = "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json"
     响应 = requests.get(地址, headers=请求头, timeout=超时)
     响应.raise_for_status()
+    比赛列表 = 响应.json().get("matches", [])
+    比赛索引 = {比赛.get("num"): 比赛 for 比赛 in 比赛列表 if 比赛.get("num") is not None}
     今天 = datetime.now().date()
     文章 = []
-    for 序号, 比赛 in enumerate(响应.json().get("matches", []), 1):
+    for 序号, 比赛 in enumerate(比赛列表, 1):
         日期文本 = 比赛.get("date", "")
         时间 = 比赛.get("time") or "时间待定"
         try:
@@ -567,7 +636,9 @@ def 采集OpenFootball世界杯():
         except ValueError:
             比赛日期 = 今天
             时间说明 = f"{日期文本} {时间}"
-        主队, 客队 = 比赛.get("team1") or "待定", 比赛.get("team2") or "待定"
+        原主队, 原客队 = 比赛.get("team1"), 比赛.get("team2")
+        主队 = 世界杯席位中文(原主队, 比赛索引)
+        客队 = 世界杯席位中文(原客队, 比赛索引)
         得分 = 比赛.get("score") or {}
         最终比分 = 得分.get("p") or 得分.get("et") or 得分.get("ft") or []
         有比分 = len(最终比分) == 2 and all(x is not None for x in 最终比分)
@@ -585,7 +656,8 @@ def 采集OpenFootball世界杯():
         # 未来赛程按日期由近及远，然后展示最近结束的比赛。
         排序键 = [0, (比赛日期 - 今天).days] if 比赛日期 >= 今天 else [1, (今天 - 比赛日期).days]
         文章.append({
-            "id": 稳定ID(序号, 日期文本, 主队, 客队),
+            # ID 使用数据源原值，显示名称由中文映射调整时不会制造重复文章。
+            "id": 稳定ID(序号, 日期文本, 原主队, 原客队),
             "标题": f"{主队} {比分} {客队}",
             "摘要": f"{阶段}{赛制说明} · {时间说明} · {场地} · {状态}",
             "来源": "openfootball/worldcup.json", "分类": "世界杯", "日期": 比赛日期.isoformat(),
@@ -617,8 +689,8 @@ def 采集世界杯():
     响应.raise_for_status()
     文章 = []
     for 比赛 in 响应.json().get("matches", []):
-        主队 = 比赛.get("homeTeam", {}).get("name") or "待定"
-        客队 = 比赛.get("awayTeam", {}).get("name") or "待定"
+        主队 = 世界杯席位中文(比赛.get("homeTeam", {}).get("name"), {})
+        客队 = 世界杯席位中文(比赛.get("awayTeam", {}).get("name"), {})
         状态 = 比赛.get("status", "SCHEDULED")
         全场 = 比赛.get("score", {}).get("fullTime", {})
         有比分 = 全场.get("home") is not None and 全场.get("away") is not None

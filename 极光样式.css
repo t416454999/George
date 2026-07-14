@@ -583,11 +583,32 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .主推荐卡片.分类主视觉-人文艺术:not(.有图片) { background: radial-gradient(circle at 84% 16%, rgba(212,143,93,.48), transparent 30%), linear-gradient(145deg,#211713,#493329); }
 .主推荐卡片.分类主视觉-情感:not(.有图片) { background: radial-gradient(circle at 84% 16%, rgba(199,132,166,.48), transparent 30%), linear-gradient(145deg,#211720,#493143); }
 .主推荐卡片.分类主视觉-情感 {
-    min-height: 330px;
+    min-height: 280px;
+    justify-content: flex-start;
+    padding: 28px 30px;
+}
+.专题网格.分类专题-情感 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: auto auto;
+}
+.专题网格.分类专题-情感 .主推荐卡片 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+.专题网格.分类专题-情感 .次推荐卡片 {
+    grid-column: auto;
+    grid-row: 2;
+}
+.主推荐卡片.分类主视觉-情感 .卡片元信息 {
+    margin-bottom: 18px;
+    order: -1;
 }
 .主推荐卡片.分类主视觉-情感 .卡片标题 {
-    margin-top: 42px;
-    font-size: clamp(25px, 3.25vw, 38px);
+    max-width: 88%;
+    margin-top: 0;
+    font-size: clamp(24px, 3vw, 36px);
+    line-height: 1.2;
+    order: -2;
 }
 .主推荐卡片.分类主视觉-情感 .卡片摘要 {
     margin-top: 8px;
@@ -606,6 +627,16 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .主推荐卡片.分类主视觉-全部:not(.有图片) { background: radial-gradient(circle at 84% 16%, rgba(93,190,146,.48), transparent 30%), linear-gradient(145deg,#141a17,#304039); }
 .专题版权 { position: relative; z-index: 1; margin-top: 12px; color: var(--text-faint); font-size: 11px; letter-spacing: 0.03em; }
 .主推荐卡片 .专题版权 { color: rgba(255,255,255,0.48); }
+.编辑推荐说明 {
+    position: relative;
+    z-index: 1;
+    margin-top: 14px;
+    color: var(--text-faint);
+    font-size: 11px;
+    line-height: 1.45;
+    letter-spacing: 0.02em;
+}
+.主推荐卡片 .编辑推荐说明 { color: rgba(255,255,255,0.58); }
 
 /* —— 一手消息区块 —— */
 #一手容器 { margin: 46px 0; padding: 24px 26px; border: 1px solid rgba(84,184,138,0.24); border-radius: var(--radius-md); background: linear-gradient(110deg, rgba(84,184,138,0.08), rgba(77,127,214,0.025)); }
@@ -1098,13 +1129,27 @@ mark {
     .主推荐卡片, .次推荐卡片 { grid-column: auto; grid-row: auto; }
     .主推荐卡片 { min-height: 390px; }
     .主推荐卡片.分类主视觉-情感 {
-        min-height: 285px;
-        padding: 24px;
+        min-height: 210px;
+        padding: 20px;
+        justify-content: flex-start;
+    }
+    .专题网格.分类专题-情感 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .专题网格.分类专题-情感 .主推荐卡片,
+    .专题网格.分类专题-情感 .次推荐卡片 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .主推荐卡片.分类主视觉-情感 .卡片元信息 {
+        margin-bottom: 12px;
     }
     .主推荐卡片.分类主视觉-情感 .卡片标题 {
         max-width: 100%;
-        margin-top: 28px;
-        font-size: clamp(23px, 7.6vw, 31px);
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: clamp(20px, 6.2vw, 26px);
         line-height: 1.18;
         display: -webkit-box;
         overflow: hidden;

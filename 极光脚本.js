@@ -6,7 +6,7 @@
 
 const 状态 = {
     当前页面: '首页', 当前分类: '全部', 排序方式: '最新',
-    搜索关键词: '', 文章列表: [], 已筛选文章: [],
+    搜索关键词: '', 文章列表: [], 首页精选文章: [], 首页头条ID: null, 已筛选文章: [],
     来源集合: new Set(), 当前文章ID: null, 当前详情文章: null, 专题缓存: {},
     专题请求序号: 0, 专题请求控制器: null,
 };
@@ -53,7 +53,18 @@ async function 初始化数据() {
         状态.文章列表 = [];
     }
 
-    状态.文章列表.forEach(文章 => { 状态.来源集合.add(文章.来源); });
+    try {
+        const 精选响应 = await fetch('首页精选.json?v=' + Date.now());
+        if (精选响应.ok) {
+            const 精选数据 = await 精选响应.json();
+            状态.首页精选文章 = Array.isArray(精选数据.articles) ? 精选数据.articles : [];
+            状态.首页头条ID = 精选数据.headline_id || null;
+        }
+    } catch (错误) {
+        console.warn('首页精选加载异常，使用文章库回退：' + 错误.message);
+    }
+
+    [...状态.文章列表, ...状态.首页精选文章].forEach(文章 => { 状态.来源集合.add(文章.来源); });
     更新统计();
     更新更新时间();
 }
@@ -195,7 +206,9 @@ function 应用筛选() {
         return;
     }
 
-    let 文章列表 = [...状态.文章列表];
+    let 文章列表 = 状态.当前分类 === '全部' && 状态.首页精选文章.length
+        ? [...状态.首页精选文章]
+        : [...状态.文章列表];
     if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类);
     if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
 
@@ -297,7 +310,8 @@ async function 加载专题栏目(分类名) {
         return;
     }
 
-    const 网格 = document.createElement('div'); 网格.className = '特征网格 专题网格';
+    const 网格 = document.createElement('div');
+    网格.className = '特征网格 专题网格 分类专题-' + String(分类名 || '').replace(/[^\u4e00-\u9fa5A-Za-z0-9_-]/g, '');
     const 栏目主视觉 = 数据.主视觉 || 数据.封面 || 数据.cover || '';
     文章.slice(0, 4).forEach((条目, index) => {
         const 卡片 = 创建专题卡片(条目, index, 分类名, index === 0 ? 栏目主视觉 : '');
@@ -338,7 +352,8 @@ function 应用卡片主视觉(卡片, 文章, 分类名, 备用图片, index) {
     if (index !== 0) return;
     const 图片 = 获取文章图片(文章, 备用图片);
     卡片.classList.add('有主视觉', '分类主视觉-' + String(分类名 || '全部').replace(/[^\u4e00-\u9fa5A-Za-z0-9_-]/g, ''));
-    if (!图片) return;
+    // 情感数据没有真实配图时保留纯色杂志版，避免把通用占位图误当成内容图片。
+    if (!图片 || (分类名 === '情感' && /assets\/covers\/emotion\.svg(?:[?#].*)?$/i.test(图片))) return;
     卡片.classList.add('有图片');
     const 图框 = document.createElement('div'); 图框.className = '专题图片框';
     const img = document.createElement('img');
@@ -363,7 +378,8 @@ function 创建专题卡片(文章, index, 分类名, 备用图片) {
     卡片.setAttribute('role', 'link');
     卡片.onclick = () => 打开文章详情(文章);
     卡片.onkeydown = e => { if (e.key === 'Enter') 卡片.click(); };
-    const 图片 = index === 0 ? '' : 获取文章图片(文章);
+    const 候选图片 = index === 0 ? '' : 获取文章图片(文章);
+    const 图片 = 分类名 === '情感' && /assets\/covers\/emotion\.svg(?:[?#].*)?$/i.test(候选图片) ? '' : 候选图片;
     if (图片) {
         卡片.classList.add('有图片');
         const 图框 = document.createElement('div'); 图框.className = '专题图片框';
@@ -415,7 +431,9 @@ function 渲染容器(分类, 特征文章, 列表文章) {
         const 容器 = document.getElementById('特征容器');
         if (容器) {
             const 标题 = document.createElement('div'); 标题.className = '特征区标题';
-            标题.textContent = 分类 === '全部' ? '今日推荐' : 分类;
+            标题.textContent = 分类 === '全部'
+                ? (状态.首页头条ID ? '今日头条 · 编辑精选' : '今日推荐 · 本期无人达到头条门槛')
+                : 分类;
             容器.appendChild(标题);
             const 网格 = document.createElement('div'); 网格.className = '特征网格';
             特征文章.forEach((文章, index) => {
@@ -508,6 +526,12 @@ function 创建特征卡片(文章) {
         <div class="卡片标题">${文章.标题||'无标题'}</div>
         <div class="卡片摘要">${(文章.摘要||'').substring(0,120)}</div>
         ${标签HTML ? '<div class="卡片标签栏">'+标签HTML+'</div>' : ''}`;
+    if (文章.编辑分 != null) {
+        const 说明 = document.createElement('div');
+        说明.className = '编辑推荐说明';
+        说明.textContent = `${文章.来源级别 || ''}级来源 · 编辑分 ${文章.编辑分} · ${文章.入选理由 || ''}`;
+        卡片.appendChild(说明);
+    }
     return 卡片;
 }
 
@@ -837,11 +861,12 @@ function 高亮关键词(文本, 关键词) {
 }
 
 function 打开文章详情(文章) { if (!文章||!文章.id) return; 状态.当前文章ID=文章.id; 状态.当前详情文章=文章; 状态.当前页面='详情'; history.pushState(null,'','#详情/'+文章.id); 显示文章详情(); }
-function 打开文章详情ById(id) { const 文章=状态.文章列表.find(a=>a.id===id); if(文章) 打开文章详情(文章); }
+function 打开文章详情ById(id) { const 文章=[...状态.首页精选文章,...状态.文章列表].find(a=>a.id===id); if(文章) 打开文章详情(文章); }
 
 function 显示文章详情() {
     const 专题文章 = Object.values(状态.专题缓存).flatMap(数据 => Array.isArray(数据.articles) ? 数据.articles : []);
     const 文章 = (状态.当前详情文章 && 状态.当前详情文章.id === 状态.当前文章ID ? 状态.当前详情文章 : null)
+        || 状态.首页精选文章.find(a=>a.id===状态.当前文章ID)
         || 状态.文章列表.find(a=>a.id===状态.当前文章ID)
         || 专题文章.find(a=>a.id===状态.当前文章ID);
     if(!文章){切换页面('首页');return;}

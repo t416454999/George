@@ -67,6 +67,7 @@ jobs:
           export AURORA_OPERATOR="GitHub Actions Bot"
           python 自动采集AI资讯.py
           python 自动采集综合栏目.py
+          python 生成首页精选.py
           echo "Fetch completed"
 
       - name: Show stats
@@ -99,7 +100,7 @@ jobs:
         run: |
           git config user.name "Aurora Bot"
           git config user.email "aurora-bot@users.noreply.github.com"
-          git add 文章数据库.json 修改登记.json 国际形势.json 世界杯.json 人文艺术.json 情感.json assets
+          git add 文章数据库.json 修改登记.json 国际形势.json 世界杯.json 人文艺术.json 情感.json 首页精选.json assets
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
