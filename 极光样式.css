@@ -822,7 +822,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: var(--surface-muted);
     box-shadow: var(--shadow-soft);
 }
-.详情封面 img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.详情封面 img { width: 100%; height: 100%; display: block; object-fit: contain; }
 .详情返回 { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--text-faint); border: none; background: transparent; cursor: pointer; margin-bottom: 24px; transition: color 0.2s var(--ease); }
 .详情返回:hover { color: var(--aurora-green); }
 .详情标题 {

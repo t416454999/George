@@ -14,8 +14,8 @@ const 状态 = {
 
 // 跟随当前脚本的发布版本。版本只在发布时变化，避免每次访问都强制绕过浏览器缓存。
 const 数据资源版本 = (() => {
-    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714h'; }
-    catch { return '20260714h'; }
+    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714i'; }
+    catch { return '20260714i'; }
 })();
 
 const 专题栏目文件 = {
@@ -1199,8 +1199,9 @@ async function 显示文章详情(分类 = '') {
     }).join('');
     const 要点HTML = 真实要点.length
         ? `<section class="详情要点"><h2>阅读要点</h2><ul>${真实要点.map(点 => `<li>${转义HTML(点)}</li>`).join('')}</ul></section>` : '';
+    // 只对真实配图展示封面框，占位封面（assets/covers/）不显示
     const 封面 = 获取文章图片(文章);
-    const 封面HTML = 封面 ? `<figure class="详情封面"><img src="${转义HTML(封面)}" alt="${转义HTML(清洗标题)}" decoding="async" fetchpriority="high"></figure>` : '';
+    const 封面HTML = 封面 && !/assets\/covers\//i.test(封面) ? `<figure class="详情封面"><img src="${转义HTML(封面)}" alt="${转义HTML(清洗标题)}" decoding="async" fetchpriority="high"></figure>` : '';
     const 原文 = 安全外链(文章.原文链接 || 文章.链接);
     const 出处 = 文章.出处说明 || 文章.版权 || (文章.来源 ? '内容整理自 ' + 文章.来源 + '，版权归原作者及原机构所有。' : '');
     const 出处HTML = 出处 || 原文 ? `<aside class="详情出处"><strong>出处说明</strong><p>${转义HTML(出处)}</p>${原文 ? `<a href="${转义HTML(原文)}" target="_blank" rel="noopener" class="详情来源链接">查看原始出处</a>` : ''}</aside>` : '';

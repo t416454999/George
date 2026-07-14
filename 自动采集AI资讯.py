@@ -649,7 +649,13 @@ def 采集API来源(来源配置):
                     "标签": 标签,
                 }
                 # API 配图（新浪等来源的封面/缩略图字段）
-                API图片 = 条目.get("cover", "") or 条目.get("thumbnail", "") or 条目.get("images", "")
+                API图片 = (
+                    条目.get("cover", "") or 条目.get("thumbnail", "") or 条目.get("images", "") or
+                    条目.get("pic", "") or 条目.get("img", "") or 条目.get("image", "") or
+                    条目.get("thumb", "") or 条目.get("thumb_pic", "") or 条目.get("thumburl", "") or
+                    条目.get("图片", "") or 条目.get("缩略图", "") or
+                    (条目.get("images", []) if isinstance(条目.get("images"), list) else "")
+                )
                 if isinstance(API图片, list) and API图片:
                     API图片 = API图片[0] if isinstance(API图片[0], str) else (API图片[0].get("url", "") if isinstance(API图片[0], dict) else "")
                 if API图片:
@@ -942,6 +948,44 @@ def 采集金融资讯():
     return len(去重后)
 
 
+def 补充OG配图(文章列表, 最多=20):
+    """对没有图片但有链接的文章，尝试从原文抓取 OG 图片。"""
+    配图数 = 0
+    for 文章 in 文章列表:
+        if 文章.get("图片") or 配图数 >= 最多:
+            continue
+        链接 = 文章.get("链接") or 文章.get("原文链接") or ""
+        if not 链接.startswith("http"):
+            continue
+        try:
+            响应 = requests.get(链接, headers=请求头, timeout=8)
+            if 响应.ok:
+                import re as _re
+                html = 响应.text
+                og_match = _re.search(r'<meta\s+property=["\']og:image["\'].*?content=["\'](.*?)["\']', html, _re.I)
+                if not og_match:
+                    og_match = _re.search(r'<meta\s+content=["\'](.*?)["\'].*?property=["\']og:image["\']', html, _re.I)
+                if not og_match:
+                    og_match = _re.search(r'<img[^>]+src=["\'](https?://[^"\']+\.(?:jpg|jpeg|png|webp))["\']', html, _re.I)
+                if og_match:
+                    图片 = og_match.group(1).strip()
+                    if 图片.startswith("//"):
+                        图片 = "https:" + 图片
+                    elif 图片.startswith("/"):
+                        from urllib.parse import urlparse
+                        解析 = urlparse(链接)
+                        图片 = f"{解析.scheme}://{解析.netloc}{图片}"
+                    文章["图片"] = 图片
+                    配图数 += 1
+                    print(f"  [OG配图] {文章.get('标题','')[:30]}...")
+            time.sleep(0.5)
+        except Exception:
+            pass
+    if 配图数:
+        print(f"  [OG配图] 共补充 {配图数} 篇文章配图")
+    return 配图数
+
+
 def 主流程():
     """主执行流程"""
     if not 允许写入:
@@ -1053,6 +1097,11 @@ def 主流程():
 
         # 铁律：任何智能体修改文件必须登记
         登记修改(len(所有新文章))
+
+        # 补充 OG 配图
+        print(f"\n[步骤3b] 补充OG配图...")
+        补充OG配图(合并后, 最多=20)
+        保存数据库(合并后)
     else:
         # 即使本轮没有新增，也持续修复历史重复项和空摘要项。
         清理后 = sorted(已有文章, key=lambda x: (x.get("日期", "2000-01-01"), str(x.get("id", ""))), reverse=True)

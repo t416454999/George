@@ -55,8 +55,8 @@ jobs:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
           RIJKSMUSEUM_API_KEY: ${{ secrets.RIJKSMUSEUM_API_KEY }}
           # 标题翻译与杂志正文分别计数，正文不会耗尽人文标题配额。
-          DEEPSEEK_TITLE_QUOTAS: '{"国际形势":8,"人文艺术":14,"情感":12,"世界杯":0}'
-          DEEPSEEK_CATEGORY_QUOTAS: '{"国际形势":4,"人文艺术":4,"情感":4,"世界杯":0}'
+          DEEPSEEK_TITLE_QUOTAS: '{"国际形势":8,"人文艺术":14,"情感":20,"世界杯":0}'
+          DEEPSEEK_CATEGORY_QUOTAS: '{"国际形势":4,"人文艺术":4,"情感":12,"世界杯":0}'
           AURORA_CLOUD_RUNTIME: github-actions
         run: |
           echo "================================================"
