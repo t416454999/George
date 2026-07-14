@@ -54,11 +54,22 @@ def 文章集合():
 
 
 def 解析日期(值):
-    文本 = str(值 or "")[:10]
-    try:
-        return datetime.strptime(文本, "%Y-%m-%d").replace(tzinfo=北京时间)
-    except ValueError:
+    文本 = str(值 or "").strip()
+    if not 文本:
         return None
+    # YYYY-MM-DD
+    if len(文本) >= 10:
+        try:
+            return datetime.strptime(文本[:10], "%Y-%m-%d").replace(tzinfo=北京时间)
+        except ValueError:
+            pass
+    # YYYY（仅年份）
+    if len(文本) == 4 and 文本.isdigit():
+        try:
+            return datetime.strptime(文本, "%Y").replace(tzinfo=北京时间)
+        except ValueError:
+            pass
+    return None
 
 
 def 来源等级(文章):

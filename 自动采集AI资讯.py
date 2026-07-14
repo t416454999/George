@@ -131,8 +131,8 @@ if 缺少的包:
             "大模型": ["大模型", "GPT", "Claude", "Gemini", "LLM", "Llama", "DeepSeek", "Qwen", "通义",
                       "文心", "混元", "ChatGPT", "语言模型", "transformer"],
             "AI应用": ["应用", "产品", "落地", "Agent", "智能体", "Copilot", "助手", "搜索", "推荐",
-                      "自动驾驶", "机器人", "医疗", "教育", "金融"],
-            "AI绘画": ["绘画", "生成", "图像", "视频", "Sora", "Stable Diffusion", "Midjourney",
+                      "自动驾驶", "机器人", "医疗", "教育", "金融",
+                      "绘画", "生成", "图像", "视频", "Sora", "Stable Diffusion", "Midjourney",
                       "DALL", "视觉", "图片", "视频生成", "StyleGAN"],
             "学术前沿": ["论文", "研究", "NeurIPS", "ICML", "CVPR", "ACL", "EMNLP", "ICLR",
                        "arXiv", "突破", "发现", "算法", "架构"],
@@ -153,8 +153,8 @@ if 缺少的包:
             "大模型": ["大模型", "GPT", "Claude", "Gemini", "LLM", "Llama", "DeepSeek", "通义千问",
                       "文心一言", "混元", "ChatGPT", "语言模型", "预训练"],
             "AI应用": ["应用", "产品", "落地", "Agent", "智能体", "Copilot", "助手", "搜索",
-                      "推荐", "自动驾驶", "机器人", "医疗AI", "教育"],
-            "AI绘画": ["绘画", "生成", "图像", "视频", "Sora", "Stable Diffusion", "Midjourney",
+                      "推荐", "自动驾驶", "机器人", "医疗AI", "教育",
+                      "绘画", "生成", "图像", "视频", "Sora", "Stable Diffusion", "Midjourney",
                       "DALL", "视觉", "图片", "视频生成"],
             "学术前沿": ["论文", "研究", "NeurIPS", "ICML", "CVPR", "ACL", "ICLR",
                        "arXiv", "突破", "发现", "算法"],
@@ -171,8 +171,8 @@ if 缺少的包:
         "类型": "RSS",
         "分类映射": {
             "大模型": ["大模型", "GPT", "Claude", "Gemini", "LLM", "开源模型", "DeepSeek"],
-            "AI应用": ["应用", "产品", "落地", "Agent", "智能体", "Copilot", "AI\\+", "机器人"],
-            "AI绘画": ["绘画", "图像", "视频", "Sora", "Midjourney", "AI生成"],
+            "AI应用": ["应用", "产品", "落地", "Agent", "智能体", "Copilot", "AI\\+", "机器人",
+                      "绘画", "图像", "视频", "Sora", "Midjourney", "AI生成"],
             "学术前沿": ["论文", "研究", "突破", "发现", "算法"],
             "行业动态": ["融资", "上市", "收购", "政策", "芯片", "算力", "市场", "报告"],
             "开源工具": ["开源", "GitHub", "框架", "工具", "HuggingFace", "Ollama", "LangChain",
@@ -185,8 +185,8 @@ if 缺少的包:
         "类型": "RSS",
         "分类映射": {
             "大模型": ["大模型", "GPT", "Claude", "Gemini", "LLM", "DeepSeek"],
-            "AI应用": ["应用", "产品", "Agent", "智能体", "Copilot", "AI产品"],
-            "AI绘画": ["绘画", "图像生成", "视频生成", "Sora", "Midjourney"],
+            "AI应用": ["应用", "产品", "Agent", "智能体", "Copilot", "AI产品",
+                      "绘画", "图像生成", "视频生成", "Sora", "Midjourney"],
             "学术前沿": ["论文", "研究", "突破", "算法"],
             "行业动态": ["融资", "上市", "收购", "政策", "芯片", "算力", "市场"],
             "开源工具": ["开源", "GitHub", "框架", "工具", "Ollama", "LangChain",
@@ -199,8 +199,8 @@ if 缺少的包:
         "类型": "API",
         "分类映射": {
             "大模型": ["大模型", "GPT", "Claude", "Gemini", "LLM", "DeepSeek"],
-            "AI应用": ["应用", "产品", "Agent", "智能体", "AI产品", "机器人"],
-            "AI绘画": ["绘画", "图像", "视频生成", "Sora", "Midjourney"],
+            "AI应用": ["应用", "产品", "Agent", "智能体", "AI产品", "机器人",
+                      "绘画", "图像", "视频生成", "Sora", "Midjourney"],
             "学术前沿": ["论文", "研究", "突破", "算法"],
             "行业动态": ["融资", "上市", "收购", "政策", "芯片", "算力"],
             "开源工具": ["开源", "GitHub", "框架", "工具", "Ollama", "LangChain",
@@ -213,8 +213,8 @@ if 缺少的包:
         "类型": "RSS",
         "分类映射": {
             "大模型": ["大模型", "GPT", "Claude", "Gemini", "LLM", "DeepSeek"],
-            "AI应用": ["应用", "产品", "Agent", "智能体", "AI产品", "机器人", "自动驾驶"],
-            "AI绘画": ["绘画", "图像", "视频生成", "视觉"],
+            "AI应用": ["应用", "产品", "Agent", "智能体", "AI产品", "机器人", "自动驾驶",
+                      "绘画", "图像", "视频生成", "视觉"],
             "学术前沿": ["论文", "研究", "突破", "算法"],
             "行业动态": ["融资", "上市", "收购", "政策", "芯片", "算力", "安防"],
             "开源工具": ["开源", "GitHub", "框架", "工具", "Ollama", "LangChain",
@@ -380,6 +380,22 @@ def 提取摘要(文本, 最大长度=150):
     return 文本[:截断位置].strip()
 
 
+def 提取RSS配图(条目):
+    """从 RSS 条目提取图片链接（enclosure 或 media:content），不访问原文页面。"""
+    # feedparser 的 enclosures
+    for 附件 in 条目.get("enclosures", []) or []:
+        if isinstance(附件, dict) and str(附件.get("type", "")).startswith("image/"):
+            return 附件.get("href", 附件.get("url", ""))
+    # media:content / media:thumbnail (feedparser 可能合并到 media_content)
+    media = 条目.get("media_content", []) or 条目.get("media_thumbnail", []) or []
+    for m in media:
+        if isinstance(m, dict):
+            url = m.get("url", "") or m.get("href", "")
+            if url:
+                return url
+    return ""
+
+
 def 生成原生资讯标题(标题, 来源):
     """为一手消息加中文重点标识，保留原始标题主体。"""
     原标题 = 清理文本(标题)
@@ -493,7 +509,7 @@ def 提取标签(标题, 摘要):
         "Sora", "Midjourney", "Stable Diffusion", "DALL-E",
         "OpenAI", "Anthropic", "Google", "Meta", "微软", "华为",
         "大模型", "开源", "多模态", "AI Agent", "具身智能",
-        "人形机器人", "AI芯片", "视频生成", "AI绘画", "AI音乐",
+        "人形机器人", "AI芯片", "视频生成", "AI音乐",
         "AI医疗", "自动驾驶", "RAG", "向量数据库", "AI编程",
         "HuggingFace", "PyTorch", "NeurIPS", "ICML", "CVPR",
     ]
@@ -540,6 +556,9 @@ def 采集RSS来源(来源配置):
 
                 链接 = 条目.get("link", "")
 
+                # RSS 配图
+                图片 = 提取RSS配图(条目)
+
                 # 尝试获取发布日期
                 日期 = ""
                 if hasattr(条目, "published_parsed") and 条目.published_parsed:
@@ -558,7 +577,7 @@ def 采集RSS来源(来源配置):
                     标签 = list(dict.fromkeys(["原生资讯", 来源名称] + 标签))
                 热度 = 计算热度(标题, 摘要)
 
-                文章列表.append({
+                文章dict = {
                     "id": 生成文章ID(标题, 来源名称),
                     "标题": 标题,
                     "摘要": 摘要,
@@ -569,7 +588,10 @@ def 采集RSS来源(来源配置):
                     "热度": 热度,
                     "链接": 链接,
                     "标签": 标签,
-                })
+                }
+                if 图片:
+                    文章dict["图片"] = 图片
+                文章列表.append(文章dict)
             except Exception as e:
                 print(f"  [错误] 处理 {来源名称} 文章时出错：{e}")
                 continue
@@ -636,7 +658,7 @@ def 采集API来源(来源配置):
                     标签 = list(dict.fromkeys(["原生资讯", 来源名称] + 标签))
                 热度 = 计算热度(标题, 摘要)
 
-                文章列表.append({
+                文章dict = {
                     "id": 生成文章ID(标题, 来源名称),
                     "标题": 标题,
                     "摘要": 摘要,
@@ -647,7 +669,14 @@ def 采集API来源(来源配置):
                     "热度": 热度,
                     "链接": 链接,
                     "标签": 标签,
-                })
+                }
+                # API 配图（新浪等来源的封面/缩略图字段）
+                API图片 = 条目.get("cover", "") or 条目.get("thumbnail", "") or 条目.get("images", "")
+                if isinstance(API图片, list) and API图片:
+                    API图片 = API图片[0] if isinstance(API图片[0], str) else (API图片[0].get("url", "") if isinstance(API图片[0], dict) else "")
+                if API图片:
+                    文章dict["图片"] = API图片
+                文章列表.append(文章dict)
             except Exception as e:
                 print(f"  [错误] 处理 {来源名称} 文章时出错：{e}")
                 continue

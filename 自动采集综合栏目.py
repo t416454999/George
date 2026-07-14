@@ -208,9 +208,14 @@ def _回退杂志内容(文章, 素材=""):
     来源 = 清理文本(文章.get("来源"), 80) or "原始来源"
     素材 = 清理文本(素材 or 文章.get("摘要"), 460)
     if 分类 == "世界杯":
-        导语 = 清理文本(文章.get("摘要"), 110) or "赛程信息以数据源最新更新为准。"
-        要点 = [x.strip() for x in re.split(r"[·|]", 文章.get("摘要", "")) if x.strip()][:3]
-        正文 = f"{标题}。{导语} 本页提供便于国内访问的赛程速览；临场调整、最终比分与判罚请以赛事官方信息为准。"
+        if 文章.get("来源") in ("openfootball/worldcup.json", "football-data.org"):
+            导语 = 清理文本(文章.get("摘要"), 110) or "赛程信息以数据源最新更新为准。"
+            要点 = [x.strip() for x in re.split(r"[·|]", 文章.get("摘要", "")) if x.strip()][:3]
+            正文 = f"{标题}。{导语} 本页提供便于国内访问的赛程速览；临场调整、最终比分与判罚请以赛事官方信息为准。"
+        else:
+            导语 = 素材[:110] or "关于2026世界杯的最新动态。"
+            要点 = ["发生了什么", "涉及哪些球队或人物", "后续值得关注什么"]
+            正文 = f"{素材 or 标题}。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文。"
     elif 分类 == "人文艺术":
         导语 = f"从馆藏资料出发，认识《{标题}》及其创作背景。"
         要点 = [x.strip() for x in re.split(r"[·|]", 文章.get("摘要", "")) if x.strip()][:3]
@@ -662,71 +667,125 @@ def 采集OpenFootball世界杯():
             "摘要": f"{阶段}{赛制说明} · {时间说明} · {场地} · {状态}",
             "来源": "openfootball/worldcup.json", "分类": "世界杯", "日期": 比赛日期.isoformat(),
             "链接": "https://github.com/openfootball/worldcup.json/tree/master/2026",
+            "图片": 栏目封面["世界杯"], "封面": 栏目封面["世界杯"],
             "标签": [阶段, 状态], "比赛状态": 状态, "_排序": 排序键,
         })
     文章.sort(key=lambda x: x.get("_排序", [9, 0]))
     for 条目 in 文章:
         条目.pop("_排序", None)
-    return 文章[:60]
+    return 文章[:35]
+
+
+def 采集世界杯新闻():
+    """从公共 RSS 采集世界杯相关新闻、分析与评论；与比赛数据互补。"""
+    地址列表 = [
+        "https://news.google.com/rss/search?q=World+Cup+2026&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=2026%E4%B8%96%E7%95%8C%E6%9D%AF&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    ]
+    旧索引 = 旧文章索引("世界杯.json")
+    全部文章 = []
+    for 地址 in 地址列表:
+        try:
+            响应 = requests.get(地址, headers=请求头, timeout=超时)
+            响应.raise_for_status()
+            feed = feedparser.parse(响应.content)
+            for 条目 in feed.entries[:15]:
+                原标题 = 清理文本(条目.get("title"), 150)
+                链接 = 安全链接(条目.get("link"))
+                if not 原标题 or not 链接:
+                    continue
+                摘要 = 清理文本(条目.get("summary") or 条目.get("description"), 220)
+                日期 = 规范日期(条目.get("published") or 条目.get("updated"))
+                文章ID = 稳定ID(原标题, 链接)
+                临时项 = {"id": 文章ID, "链接": 链接}
+                旧项 = 匹配旧文章(旧索引, 临时项)
+                标题 = 生成中文标题(原标题, "世界杯", 旧项, "世界杯新闻")
+                全部文章.append({
+                    "id": 文章ID, "标题": 标题,
+                    "原标题": 原标题,
+                    "标题翻译方式": "DeepSeek" if ("世界杯", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "短译/历史复用"),
+                    "摘要": 摘要,
+                    "来源": "Google News · World Cup 2026", "分类": "世界杯",
+                    "日期": 日期, "链接": 链接,
+                    "标签": ["世界杯", "足球", "新闻"],
+                    "图片": 栏目封面["世界杯"], "封面": 栏目封面["世界杯"],
+                })
+            time.sleep(0.3)
+        except Exception as e:
+            print(f"[提示] 世界杯新闻 RSS 采集失败：{e}")
+            continue
+    全部文章.sort(key=lambda x: x.get("日期", ""), reverse=True)
+    return 全部文章[:25]
 
 
 def 采集世界杯():
     旧索引 = 旧文章索引("世界杯.json")
     令牌 = os.environ.get("FOOTBALL_DATA_TOKEN", "").strip()
+
+    # 1. 采集比赛数据
     if not 令牌:
-        文章 = 采集OpenFootball世界杯()
-        for 项 in 文章:
-            补充杂志字段(项, 项.get("摘要", ""), 匹配旧文章(旧索引, 项))
-        return 栏目数据(
-            "世界杯", "openfootball/worldcup.json",
-            "2026 世界杯赛程与赛果；开放数据，无需密钥。", 文章,
-            "ok", "当前使用公共领域开放数据；配置 FOOTBALL_DATA_TOKEN 后将自动切换到 football-data.org。",
+        比赛文章 = 采集OpenFootball世界杯()
+        数据源 = "openfootball/worldcup.json"
+        数据源说明 = "2026 世界杯赛程与赛果；开放数据，无需密钥。"
+        额外信息 = "当前使用公共领域开放数据；配置 FOOTBALL_DATA_TOKEN 后将自动切换到 football-data.org。"
+    else:
+        响应 = requests.get(
+            "https://api.football-data.org/v4/competitions/WC/matches",
+            headers={**请求头, "X-Auth-Token": 令牌}, timeout=超时,
         )
-    响应 = requests.get(
-        "https://api.football-data.org/v4/competitions/WC/matches",
-        headers={**请求头, "X-Auth-Token": 令牌}, timeout=超时,
-    )
-    响应.raise_for_status()
-    文章 = []
-    for 比赛 in 响应.json().get("matches", []):
-        主队 = 世界杯席位中文(比赛.get("homeTeam", {}).get("name"), {})
-        客队 = 世界杯席位中文(比赛.get("awayTeam", {}).get("name"), {})
-        状态 = 比赛.get("status", "SCHEDULED")
-        全场 = 比赛.get("score", {}).get("fullTime", {})
-        有比分 = 全场.get("home") is not None and 全场.get("away") is not None
-        比分 = f"{全场.get('home')} : {全场.get('away')}" if 有比分 else "未开赛"
-        开球 = 比赛.get("utcDate", "")
-        try:
-            时间 = datetime.fromisoformat(开球.replace("Z", "+00:00")).astimezone()
-            日期, 本地时间 = 时间.strftime("%Y-%m-%d"), 时间.strftime("%m月%d日 %H:%M")
-        except ValueError:
-            日期, 本地时间 = 规范日期(开球), 开球
-        阶段 = 比赛阶段中文(比赛.get("stage"))
-        标题 = f"{主队} {比分} {客队}" if 有比分 else f"{主队} vs {客队}"
-        try:
-            排序时间 = datetime.fromisoformat(开球.replace("Z", "+00:00")).timestamp()
-        except ValueError:
-            排序时间 = 0
-        直播状态 = {"IN_PLAY", "PAUSED", "LIVE", "EXTRA_TIME", "PENALTY_SHOOTOUT"}
-        if 状态 in 直播状态:
-            排序键 = [0, 排序时间]
-        elif 状态 in {"SCHEDULED", "TIMED"}:
-            排序键 = [1, 排序时间]
-        else:
-            排序键 = [2, -排序时间]
-        文章.append({
-            "id": 稳定ID(比赛.get("id"), 标题), "标题": 标题,
-            "摘要": f"{阶段} · 北京时间 {本地时间} · 状态 {状态}",
-            "来源": "football-data.org", "分类": "世界杯", "日期": 日期,
-            "链接": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
-            "标签": [阶段, 状态], "比赛状态": 状态, "开球时间": 开球,
-            "_排序": 排序键,
-        })
-    文章.sort(key=lambda x: x.get("_排序", [9, 0]))
-    for 条目 in 文章:
-        条目.pop("_排序", None)
-        补充杂志字段(条目, 条目.get("摘要", ""), 匹配旧文章(旧索引, 条目))
-    return 栏目数据("世界杯", "football-data.org", "2026 世界杯赛程、比分与对阵数据。", 文章[:60])
+        响应.raise_for_status()
+        比赛文章 = []
+        for 比赛 in 响应.json().get("matches", []):
+            主队 = 世界杯席位中文(比赛.get("homeTeam", {}).get("name"), {})
+            客队 = 世界杯席位中文(比赛.get("awayTeam", {}).get("name"), {})
+            状态 = 比赛.get("status", "SCHEDULED")
+            全场 = 比赛.get("score", {}).get("fullTime", {})
+            有比分 = 全场.get("home") is not None and 全场.get("away") is not None
+            比分 = f"{全场.get('home')} : {全场.get('away')}" if 有比分 else "未开赛"
+            开球 = 比赛.get("utcDate", "")
+            try:
+                时间 = datetime.fromisoformat(开球.replace("Z", "+00:00")).astimezone()
+                日期, 本地时间 = 时间.strftime("%Y-%m-%d"), 时间.strftime("%m月%d日 %H:%M")
+            except ValueError:
+                日期, 本地时间 = 规范日期(开球), 开球
+            阶段 = 比赛阶段中文(比赛.get("stage"))
+            标题 = f"{主队} {比分} {客队}" if 有比分 else f"{主队} vs {客队}"
+            try:
+                排序时间 = datetime.fromisoformat(开球.replace("Z", "+00:00")).timestamp()
+            except ValueError:
+                排序时间 = 0
+            直播状态 = {"IN_PLAY", "PAUSED", "LIVE", "EXTRA_TIME", "PENALTY_SHOOTOUT"}
+            if 状态 in 直播状态:
+                排序键 = [0, 排序时间]
+            elif 状态 in {"SCHEDULED", "TIMED"}:
+                排序键 = [1, 排序时间]
+            else:
+                排序键 = [2, -排序时间]
+            比赛文章.append({
+                "id": 稳定ID(比赛.get("id"), 标题), "标题": 标题,
+                "摘要": f"{阶段} · 北京时间 {本地时间} · 状态 {状态}",
+                "来源": "football-data.org", "分类": "世界杯", "日期": 日期,
+                "链接": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+                "图片": 栏目封面["世界杯"], "封面": 栏目封面["世界杯"],
+                "标签": [阶段, 状态], "比赛状态": 状态, "开球时间": 开球,
+                "_排序": 排序键,
+            })
+        比赛文章.sort(key=lambda x: x.get("_排序", [9, 0]))
+        for 条目 in 比赛文章:
+            条目.pop("_排序", None)
+        数据源 = "football-data.org"
+        数据源说明 = "2026 世界杯赛程、比分与对阵数据。"
+        额外信息 = ""
+
+    # 2. 采集世界杯新闻并合并
+    新闻文章 = 采集世界杯新闻()
+    文章 = 合并去重(新闻文章, 比赛文章, 最大条数=60)
+
+    # 3. 补充杂志字段
+    for 项 in 文章:
+        补充杂志字段(项, 项.get("摘要", ""), 匹配旧文章(旧索引, 项))
+
+    return 栏目数据("世界杯", 数据源, 数据源说明, 文章, "ok", 额外信息)
 
 
 def 采集人文艺术():
@@ -804,6 +863,61 @@ def 提取PubMed文本(元素, 路径):
     return "".join(节点.itertext()).strip() if 节点 is not None else ""
 
 
+def _解析PubMed日期(记录):
+    """从 PubMed XML 记录中提取日期；优先完整日期，其次仅年份，绝不编造月日。"""
+    月名映射 = {
+        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+        "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+        "january": 1, "february": 2, "march": 3, "april": 4, "june": 6,
+        "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12,
+    }
+    年 = 提取PubMed文本(记录, ".//PubDate/Year")
+    月文本 = 提取PubMed文本(记录, ".//PubDate/Month")
+    日文本 = 提取PubMed文本(记录, ".//PubDate/Day")
+
+    月 = None
+    if 月文本:
+        小写 = 月文本.strip().lower().rstrip(".")
+        try:
+            月 = int(小写)
+        except ValueError:
+            月 = 月名映射.get(小写)
+        if 月 is not None and not (1 <= 月 <= 12):
+            月 = None
+
+    日 = None
+    if 日文本 and 月 is not None:
+        try:
+            日 = int(日文本.strip())
+        except ValueError:
+            pass
+
+    # 完整日期：年月日齐全且合法
+    if 年 and 月 is not None and 日 is not None:
+        try:
+            datetime(int(年), 月, 日)
+            return f"{年}-{月:02d}-{日:02d}"
+        except ValueError:
+            pass
+
+    # 仅年月：月份合法
+    if 年 and 月 is not None:
+        return f"{年}-{月:02d}"
+
+    # 仅年份
+    if 年:
+        return 年
+
+    # 从 MedlineDate（如 "2025 Jan-Feb"）中尝试提取年份
+    原始日期 = 提取PubMed文本(记录, ".//PubDate/MedlineDate")
+    if 原始日期:
+        年匹配 = re.search(r"(20\d{2})", 原始日期)
+        if 年匹配:
+            return 年匹配.group(1)
+
+    return datetime.now().strftime("%Y-%m-%d")
+
+
 def 采集情感():
     当前年 = datetime.now().year
     查询 = (
@@ -841,9 +955,7 @@ def 采集情感():
         ):
             continue
         期刊 = 提取PubMed文本(记录, ".//Journal/Title") or "PubMed"
-        年 = 提取PubMed文本(记录, ".//PubDate/Year")
-        月 = 提取PubMed文本(记录, ".//PubDate/Month")
-        日期 = f"{年}-01-01" if 年 else datetime.now().strftime("%Y-%m-%d")
+        日期 = _解析PubMed日期(记录)
         关键词 = [清理文本("".join(k.itertext()), 40) for k in 记录.findall(".//Keyword")[:3]]
         摘要段 = [清理文本("".join(a.itertext()), 800) for a in 记录.findall(".//Abstract/AbstractText")]
         论文摘要 = 清理文本(" ".join(x for x in 摘要段 if x), 1600)

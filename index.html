@@ -39,23 +39,6 @@
                     <h1 class="主标题">极光引擎</h1>
                     <p class="副标题">从一个想法，到一束极光。</p>
                 </div>
-                <div class="标题统计区">
-                    <!-- 统计条 -->
-                    <div class="统计条">
-                        <div class="统计项">
-                            <span class="统计数字" id="文章总数">0</span>
-                            <span class="统计标签">篇文章</span>
-                        </div>
-                        <div class="统计项">
-                            <span class="统计数字" id="今日新增">0</span>
-                            <span class="统计标签">今日新增</span>
-                        </div>
-                        <div class="统计项">
-                            <span class="统计数字" id="覆盖来源">0</span>
-                            <span class="统计标签">个来源</span>
-                        </div>
-                    </div>
-                </div>
             </header>
 
             <!-- 筛选栏 -->
@@ -64,7 +47,6 @@
                     <button class="分类标签 活跃" onclick="筛选分类('全部')">全部</button>
                     <button class="分类标签" onclick="筛选分类('大模型')">大模型</button>
                     <button class="分类标签" onclick="筛选分类('AI应用')">AI应用</button>
-                    <button class="分类标签" onclick="筛选分类('AI绘画')">AI绘画</button>
                     <button class="分类标签" onclick="筛选分类('学术前沿')">学术前沿</button>
                     <button class="分类标签" onclick="筛选分类('行业动态')">行业动态</button>
                     <button class="分类标签" onclick="筛选分类('国际形势')">国际形势</button>
@@ -212,6 +194,11 @@
                 <span>每日世界观察</span>
                 <span class="页脚分割">·</span>
                 <span id="更新时间">更新于：加载中...</span>
+            </div>
+            <div class="页脚统计" id="页脚统计">
+                <span class="统计数字" id="文章总数">0</span> 篇文章 ·
+                <span class="统计数字" id="今日新增">0</span> 今日新增 ·
+                <span class="统计数字" id="覆盖来源">0</span> 个来源
             </div>
             <div class="页脚链接">
                 <span id="备案号" style="font-size:12px;color:var(--text-faint)"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">鄂ICP备2026029561号</a></span>
