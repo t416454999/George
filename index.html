@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="极光引擎 · 从一个想法，到一束极光。">
-    <meta name="keywords" content="AI,人工智能,大模型,机器学习,深度求索,OpenAI,Anthropic">
-    <title>极光引擎 · 安静的AI观察</title>
+    <meta name="description" content="极光引擎 · AI、世界、足球、艺术与情感的安静观察。">
+    <meta name="keywords" content="AI,人工智能,国际形势,世界杯,人文艺术,情感">
+    <title>极光引擎 · 安静的世界观察</title>
     <link rel="stylesheet" href="极光样式.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,6 +70,10 @@
                     <button class="分类标签" onclick="筛选分类('AI绘画')">AI绘画</button>
                     <button class="分类标签" onclick="筛选分类('学术前沿')">学术前沿</button>
                     <button class="分类标签" onclick="筛选分类('行业动态')">行业动态</button>
+                    <button class="分类标签 专题标签" onclick="筛选分类('国际形势')">国际形势</button>
+                    <button class="分类标签 专题标签" onclick="筛选分类('世界杯')">世界杯</button>
+                    <button class="分类标签 专题标签" onclick="筛选分类('人文艺术')">人文艺术</button>
+                    <button class="分类标签 专题标签" onclick="筛选分类('情感')">情感</button>
                     <button class="分类标签" onclick="筛选分类('金融')">金融</button>
                     <button class="分类标签" onclick="筛选分类('一手消息')">一手消息</button>
                     <button class="分类标签" onclick="筛选分类('开源工具')">开源工具</button>
@@ -161,7 +165,7 @@
                 <div class="关于内容">
                     <section>
                         <h3>这是什么</h3>
-                        <p><strong>极光引擎</strong> 是一个安静的 AI 观察站。像夜空中一道光，不喧嚣，不聒噪，只是每天追踪人工智能领域真正重要的事。</p>
+                        <p><strong>极光引擎</strong> 是一个安静的观察站。像夜空中一道光，不喧嚣，不聒噪，每天追踪 AI、世界、足球、艺术与人的内心。</p>
                         <p>我们厌倦了满屏表情包和霓虹特效的资讯聚合器。好的内容不需要花哨的包装。</p>
                     </section>
                     <section>
@@ -170,6 +174,7 @@
                             <li>优先一手来源：论文原文、官方博客、独家访谈</li>
                             <li>每日自动采集 + 人工精选前沿内容</li>
                             <li>中英双语：中文标题导读，保留英文原文语境</li>
+                            <li>开放数据：世界杯赛程、公共领域艺术与研究资料均标明来源</li>
                             <li>不追热点，只追信号</li>
                         </ul>
                     </section>
@@ -183,6 +188,11 @@
                             <span class="来源项">量子位</span>
                             <span class="来源项">36氪</span>
                             <span class="来源项">雷锋网</span>
+                            <span class="来源项">联合国新闻</span>
+                            <span class="来源项">GDELT</span>
+                            <span class="来源项">football-data.org</span>
+                            <span class="来源项">The Met Open Access</span>
+                            <span class="来源项">PubMed</span>
                             <span class="来源项">各AI Lab官方博客</span>
                         </div>
                     </section>
@@ -202,7 +212,7 @@
             <div class="页脚信息">
                 <span class="页脚标志">极光引擎</span>
                 <span class="页脚分割">·</span>
-                <span>每日AI观察</span>
+                <span>每日世界观察</span>
                 <span class="页脚分割">·</span>
                 <span id="更新时间">更新于：加载中...</span>
             </div>

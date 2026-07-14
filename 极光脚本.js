@@ -7,7 +7,14 @@
 const 状态 = {
     当前页面: '首页', 当前分类: '全部', 排序方式: '最新',
     搜索关键词: '', 文章列表: [], 已筛选文章: [],
-    来源集合: new Set(), 当前文章ID: null,
+    来源集合: new Set(), 当前文章ID: null, 专题缓存: {},
+};
+
+const 专题栏目文件 = {
+    '国际形势': '国际形势.json',
+    '世界杯': '世界杯.json',
+    '人文艺术': '人文艺术.json',
+    '情感': '情感.json',
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -120,7 +127,13 @@ function 应用筛选() {
     const 空状态 = document.getElementById('空状态');
     const 加载区域 = document.getElementById('加载区域');
 
-    // 独立分类：不走分类过滤，直接加载对应模块
+    // 独立分类：不走 AI 文章库过滤，读取各自的开放数据文件
+    if (专题栏目文件[状态.当前分类]) {
+        clearContainers(); 加载专题栏目(状态.当前分类);
+        if (空状态) 空状态.style.display = 'none';
+        if (加载区域) 加载区域.style.display = 'none';
+        return;
+    }
     if (状态.当前分类 === '行业热议') {
         clearContainers(); 加载行业热议();
         if (空状态) 空状态.style.display = 'none';
@@ -202,6 +215,123 @@ function clearContainers() {
     ['特征容器','一手容器','列表容器','工具容器'].forEach(id => {
         const el = document.getElementById(id); if (el) el.innerHTML = '';
     });
+}
+
+function 安全外链(值) {
+    try {
+        const u = new URL(值, window.location.href);
+        return ['http:', 'https:'].includes(u.protocol) ? u.href : '';
+    } catch { return ''; }
+}
+
+function 添加文本元素(父元素, 标签, 类名, 文本) {
+    const 元素 = document.createElement(标签);
+    if (类名) 元素.className = 类名;
+    元素.textContent = 文本 || '';
+    父元素.appendChild(元素);
+    return 元素;
+}
+
+async function 加载专题栏目(分类名) {
+    const 容器 = document.getElementById('特征容器');
+    if (!容器) return;
+    添加文本元素(容器, 'div', '特征区标题', 分类名);
+
+    let 数据 = 状态.专题缓存[分类名];
+    if (!数据) {
+        const 加载提示 = 添加文本元素(容器, 'div', '专题提示', '正在加载…');
+        try {
+            const 响应 = await fetch(专题栏目文件[分类名] + '?v=' + Date.now());
+            if (!响应.ok) throw new Error('HTTP ' + 响应.status);
+            数据 = await 响应.json();
+            状态.专题缓存[分类名] = 数据;
+        } catch (e) {
+            加载提示.textContent = '栏目暂时无法加载，请稍后刷新。';
+            console.warn(分类名 + '加载失败：' + e.message);
+            return;
+        }
+        加载提示.remove();
+    }
+
+    const 说明 = document.createElement('div');
+    说明.className = '专题说明';
+    添加文本元素(说明, 'p', '专题说明文字', 数据.description || '');
+    const 更新时间 = (数据.updated || '').replace('T', ' ').substring(0, 16);
+    添加文本元素(说明, 'span', '专题更新时间', 更新时间 ? '更新于 ' + 更新时间 : '');
+    容器.appendChild(说明);
+
+    if (数据.message) {
+        const 提示 = 添加文本元素(容器, 'div', '专题提示', 数据.message);
+        if (数据.status === 'config_required') 提示.classList.add('待配置');
+    }
+
+    const 文章 = Array.isArray(数据.articles) ? 数据.articles : [];
+    if (!文章.length) {
+        添加文本元素(容器, 'div', '空状态', 分类名 === '世界杯' ? '世界杯数据源等待配置。' : '本栏目暂时没有数据。');
+        return;
+    }
+
+    const 网格 = document.createElement('div'); 网格.className = '特征网格 专题网格';
+    文章.slice(0, 4).forEach((条目, index) => {
+        const 卡片 = 创建专题卡片(条目, index);
+        if (index === 0) 卡片.classList.add('主推荐卡片'); else 卡片.classList.add('次推荐卡片');
+        网格.appendChild(卡片);
+    });
+    容器.appendChild(网格);
+
+    if (文章.length > 4) {
+        const 列表容器 = document.getElementById('列表容器');
+        添加文本元素(列表容器, 'div', '列表区域标题', 分类名 === '世界杯' ? '更多赛程' : '更多内容');
+        const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
+        文章.slice(4).forEach(条目 => 列表.appendChild(创建专题列表项(条目)));
+        列表容器.appendChild(列表);
+    }
+}
+
+function 创建专题卡片(文章, index) {
+    const 卡片 = document.createElement('article');
+    卡片.className = '特征卡片 专题卡片';
+    卡片.dataset.index = String(index + 1).padStart(2, '0');
+    const 链接 = 安全外链(文章.链接);
+    if (链接) {
+        卡片.tabIndex = 0;
+        卡片.setAttribute('role', 'link');
+        卡片.onclick = () => window.open(链接, '_blank', 'noopener');
+        卡片.onkeydown = e => { if (e.key === 'Enter') 卡片.click(); };
+    }
+    const 图片 = 安全外链(文章.图片);
+    if (图片) {
+        卡片.classList.add('有图片');
+        const 图框 = document.createElement('div'); 图框.className = '专题图片框';
+        const img = document.createElement('img'); img.src = 图片; img.alt = 文章.标题 || '艺术作品';
+        img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
+        img.onerror = () => { 图框.remove(); 卡片.classList.remove('有图片'); };
+        图框.appendChild(img); 卡片.appendChild(图框);
+    }
+    const 信息 = document.createElement('div'); 信息.className = '卡片元信息';
+    添加文本元素(信息, 'span', '卡片来源', 文章.来源 || '');
+    添加文本元素(信息, 'span', '卡片日期', 文章.日期 || '');
+    添加文本元素(信息, 'span', '卡片分类', 文章.分类 || '');
+    卡片.appendChild(信息);
+    添加文本元素(卡片, 'div', '卡片标题', 文章.标题 || '无标题');
+    添加文本元素(卡片, 'div', '卡片摘要', (文章.摘要 || '').substring(0, 180));
+    if (文章.版权) 添加文本元素(卡片, 'div', '专题版权', 文章.版权);
+    return 卡片;
+}
+
+function 创建专题列表项(文章) {
+    const 项 = document.createElement('li'); 项.className = '资讯列表项';
+    const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
+    链接.href = 安全外链(文章.链接) || '#'; 链接.target = '_blank'; 链接.rel = 'noopener';
+    const 元信息 = document.createElement('div'); 元信息.className = '列表元信息';
+    添加文本元素(元信息, 'span', '列表来源', 文章.来源 || '');
+    添加文本元素(元信息, 'span', '列表分隔', '·');
+    添加文本元素(元信息, 'span', '列表日期', 文章.日期 || '');
+    链接.appendChild(元信息);
+    添加文本元素(链接, 'span', '列表标题', 文章.标题 || '');
+    添加文本元素(链接, 'span', '列表分类', 文章.分类 || '');
+    项.appendChild(链接);
+    return 项;
 }
 
 /** 统一渲染：特征卡片 + 更多资讯列表（默认8条折叠） */

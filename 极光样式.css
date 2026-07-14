@@ -304,6 +304,8 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: linear-gradient(120deg, #242824, #343B36);
     border-color: rgba(0,0,0,0.12);
 }
+.分类标签.专题标签 { border-color: rgba(77,127,214,0.18); }
+.分类标签.专题标签:hover { color: var(--aurora-blue); border-color: rgba(77,127,214,0.34); }
 .排序下拉 {
     flex-shrink: 0;
     font-size: 13px; color: var(--text-dim);
@@ -508,6 +510,56 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
 }
+
+/* —— 世界、世界杯、艺术与情感专题 —— */
+.专题说明 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+    margin: -14px 0 24px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+}
+.专题说明文字 { color: var(--text-dim); font-size: 13px; line-height: 1.7; }
+.专题更新时间 { flex-shrink: 0; color: var(--text-faint); font-family: var(--font-mono); font-size: 11px; }
+.专题提示 {
+    margin: 0 0 22px;
+    padding: 12px 15px;
+    border-left: 3px solid var(--aurora-blue);
+    border-radius: 0 5px 5px 0;
+    color: var(--text-dim);
+    background: rgba(77,127,214,0.055);
+    font-size: 13px;
+    line-height: 1.6;
+}
+.专题提示.待配置 { border-left-color: var(--signal); background: rgba(217,109,66,0.055); }
+.专题卡片 { outline: none; }
+.专题卡片:focus-visible { box-shadow: 0 0 0 3px rgba(77,127,214,0.2); }
+.专题图片框 {
+    height: 148px;
+    margin: -24px -24px 18px;
+    overflow: hidden;
+    background: #e8e4db;
+}
+.专题图片框 img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform 0.45s var(--ease); }
+.专题卡片:hover .专题图片框 img { transform: scale(1.025); }
+.专题卡片.主推荐卡片.有图片 { background: #171b18; }
+.专题卡片.主推荐卡片.有图片 .专题图片框 {
+    position: absolute;
+    inset: 0;
+    height: auto;
+    margin: 0;
+    opacity: 0.52;
+}
+.专题卡片.主推荐卡片.有图片 .专题图片框::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(15,18,16,0.12), rgba(15,18,16,0.92) 78%);
+}
+.专题版权 { position: relative; z-index: 1; margin-top: 12px; color: var(--text-faint); font-size: 11px; letter-spacing: 0.03em; }
+.主推荐卡片 .专题版权 { color: rgba(255,255,255,0.48); }
 
 /* —— 一手消息区块 —— */
 #一手容器 { margin: 46px 0; padding: 24px 26px; border: 1px solid rgba(84,184,138,0.24); border-radius: var(--radius-md); background: linear-gradient(110deg, rgba(84,184,138,0.08), rgba(77,127,214,0.025)); }
@@ -961,6 +1013,7 @@ mark {
     .热点热度 { font-size: 11px; }
     .平台标签组 { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 12px; }
     .平台标签 { flex-shrink: 0; }
+    .专题说明 { align-items: flex-start; flex-direction: column; gap: 4px; }
     /* 菜单 */
     .菜单按钮 { display: flex; }
     .导航菜单 { position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; gap: 0; background: rgba(248,245,238,0.96); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); max-height: 0; overflow: hidden; transition: max-height 0.3s var(--ease); }
