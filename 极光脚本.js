@@ -14,8 +14,8 @@ const 状态 = {
 
 // 跟随当前脚本的发布版本。版本只在发布时变化，避免每次访问都强制绕过浏览器缓存。
 const 数据资源版本 = (() => {
-    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714d'; }
-    catch { return '20260714d'; }
+    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714e'; }
+    catch { return '20260714e'; }
 })();
 
 const 专题栏目文件 = {
