@@ -1,51 +1,159 @@
-[
-  {
-    "名称": "Ollama",
-    "链接": "https://github.com/ollama/ollama",
-    "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。支持 CPU 和 GPU 推理。",
-    "星标": "176k stars",
-    "排行变化": "─"
-  },
-  {
-    "名称": "LangChain",
-    "链接": "https://github.com/langchain-ai/langchain",
-    "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-    "星标": "142k stars",
-    "排行变化": "─"
-  },
-  {
-    "名称": "DeepSeek-V3",
-    "链接": "https://github.com/deepseek-ai/DeepSeek-V3",
-    "说明": "深度求索开源大语言模型，MoE 架构 671B 参数，性能对标 GPT-4，支持 128K 上下文。",
-    "星标": "104k stars",
-    "排行变化": "─"
-  },
-  {
-    "名称": "Stable Diffusion",
-    "链接": "https://github.com/CompVis/stable-diffusion",
-    "说明": "开源文生图模型，Stability AI 维护，支持文本到图像生成，生态最丰富的图像生成框架。",
-    "星标": "73k stars",
-    "排行变化": "─"
-  },
-  {
-    "名称": "AutoGen",
-    "链接": "https://github.com/microsoft/autogen",
-    "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务，适用于企业级自动化流程。",
-    "星标": "60k stars",
-    "排行变化": "─"
-  },
-  {
-    "名称": "Cursor",
-    "链接": "https://github.com/getcursor/cursor",
-    "说明": "AI 原生代码编辑器，基于 VS Code 深度集成 Claude 和 GPT 模型，支持自然语言编程和多文件重构。",
-    "星标": "33k stars",
-    "排行变化": "─"
-  },
-  {
-    "名称": "v0 by Vercel",
-    "链接": "https://github.com/vercel/ai",
-    "说明": "Vercel 推出的 AI 驱动 UI 生成工具，输入提示词即可生成可直接部署的前端代码。支持 React、Next.js、Tailwind。",
-    "星标": "26k stars",
-    "排行变化": "─"
-  }
-]
+{
+  "updated": "2026-07-14T10:02:53+08:00",
+  "stable": [
+    {
+      "名称": "Ollama",
+      "repo": "ollama/ollama",
+      "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
+      "星标": "176.1k",
+      "本周变化": "─",
+      "语言": "Go"
+    },
+    {
+      "名称": "LangChain",
+      "repo": "langchain-ai/langchain",
+      "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
+      "星标": "141.7k",
+      "本周变化": "─",
+      "语言": "Python"
+    },
+    {
+      "名称": "Vercel AI SDK",
+      "repo": "vercel/ai",
+      "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
+      "星标": "25.6k",
+      "本周变化": "─",
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "AutoGen",
+      "repo": "microsoft/autogen",
+      "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
+      "星标": "59.7k",
+      "本周变化": "─",
+      "语言": "Python"
+    },
+    {
+      "名称": "DeepSeek-V3",
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "说明": "深度求索开源大语言模型，MoE 架构 671B 参数，性能对标 GPT-4。",
+      "星标": "103.9k",
+      "本周变化": "─",
+      "语言": "Python"
+    },
+    {
+      "名称": "Stable Diffusion",
+      "repo": "CompVis/stable-diffusion",
+      "说明": "开源文生图模型，支持文本到图像生成，生态最丰富的图像生成框架。",
+      "星标": "73.2k",
+      "本周变化": "─",
+      "语言": "Jupyter Notebook"
+    },
+    {
+      "名称": "Cursor",
+      "repo": "getcursor/cursor",
+      "说明": "AI 原生代码编辑器，深度集成 Claude 和 GPT 模型，支持自然语言编程和多文件重构。",
+      "星标": "33.0k",
+      "本周变化": "─",
+      "语言": ""
+    }
+  ],
+  "trending": [
+    {
+      "名称": "ai-job-search",
+      "repo": "MadsLorentzen/ai-job-search",
+      "说明": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "星标": 22169,
+      "本周新增": 15420,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "DesktopCommanderMCP",
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "说明": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "星标": 8215,
+      "本周新增": 1939,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "meetily",
+      "repo": "Zackriya-Solutions/meetily",
+      "说明": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "星标": 24406,
+      "本周新增": 5392,
+      "语言": "Rust"
+    },
+    {
+      "名称": "CubeSandbox",
+      "repo": "TencentCloud/CubeSandbox",
+      "说明": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "星标": 10070,
+      "本周新增": 2367,
+      "语言": "Rust"
+    },
+    {
+      "名称": "codex-plugin-cc",
+      "repo": "openai/codex-plugin-cc",
+      "说明": "Use Codex from Claude Code to review code or delegate tasks.",
+      "星标": 28517,
+      "本周新增": 2265,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "herdr",
+      "repo": "ogulcancelik/herdr",
+      "说明": "agent multiplexer that lives in your terminal.",
+      "星标": 16275,
+      "本周新增": 3449,
+      "语言": "Rust"
+    },
+    {
+      "名称": "OfficeCLI",
+      "repo": "iOfficeAI/OfficeCLI",
+      "说明": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "星标": 16423,
+      "本周新增": 7596,
+      "语言": "C#"
+    },
+    {
+      "名称": "OmniRoute",
+      "repo": "diegosouzapw/OmniRoute",
+      "说明": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "星标": 17075,
+      "本周新增": 4345,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "system_prompts_leaks",
+      "repo": "asgeirtj/system_prompts_leaks",
+      "说明": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "星标": 57541,
+      "本周新增": 6284,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "claude-video",
+      "repo": "bradautomates/claude-video",
+      "说明": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "星标": 8319,
+      "本周新增": 4128,
+      "语言": "Python"
+    },
+    {
+      "名称": "orca",
+      "repo": "stablyai/orca",
+      "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "星标": 18746,
+      "本周新增": 5263,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "archify",
+      "repo": "tt-a1i/archify",
+      "说明": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
+      "星标": 4361,
+      "本周新增": 1333,
+      "语言": "JavaScript"
+    }
+  ]
+}
