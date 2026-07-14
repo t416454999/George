@@ -10,6 +10,7 @@ import random
 import re
 import time
 import zlib
+from io import BytesIO
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -18,6 +19,7 @@ import xml.etree.ElementTree as ET
 
 import feedparser
 import requests
+from PIL import Image, UnidentifiedImageError
 
 
 根目录 = Path(__file__).resolve().parent
@@ -26,6 +28,15 @@ import requests
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.7",
 }
 超时 = 30
+图片缓存目录 = 根目录 / "assets" / "art"
+栏目封面 = {
+    "国际形势": "assets/covers/international.svg",
+    "世界杯": "assets/covers/world-cup.svg",
+    "人文艺术": "assets/covers/humanities.svg",
+    "情感": "assets/covers/emotion.svg",
+}
+深度求索分类调用 = {"国际形势": 0, "人文艺术": 0, "情感": 0, "世界杯": 0}
+深度求索默认配额 = {"国际形势": 4, "人文艺术": 4, "情感": 4, "世界杯": 0}
 
 
 def 现在字符串():
@@ -72,6 +83,178 @@ def 翻译成中文(文本):
         return "".join(x[0] for x in 响应.json()[0] if x and x[0]).strip() or 文本
     except Exception:
         return 文本
+
+
+def 旧文章索引(文件名):
+    索引 = {}
+    for 项 in 读取旧数据(文件名).get("articles", []):
+        if 项.get("id") is not None:
+            索引[("id", str(项["id"]))] = 项
+        if 项.get("链接"):
+            索引.setdefault(("链接", 项["链接"]), 项)
+    return 索引
+
+
+def 匹配旧文章(索引, 文章):
+    return (
+        索引.get(("id", str(文章.get("id"))))
+        or 索引.get(("链接", 文章.get("链接")))
+    )
+
+
+def _提取JSON对象(文本):
+    匹配 = re.search(r"\{.*\}", 文本 or "", re.S)
+    if not 匹配:
+        return {}
+    try:
+        return json.loads(匹配.group(0))
+    except json.JSONDecodeError:
+        return {}
+
+
+def _回退杂志内容(文章, 素材=""):
+    """只依据已有元数据编写，不补造事实，也不复制来源全文。"""
+    分类 = 文章.get("分类", "专题")
+    标题 = 清理文本(文章.get("标题"), 120)
+    来源 = 清理文本(文章.get("来源"), 80) or "原始来源"
+    素材 = 清理文本(素材 or 文章.get("摘要"), 460)
+    if 分类 == "世界杯":
+        导语 = 清理文本(文章.get("摘要"), 110) or "赛程信息以数据源最新更新为准。"
+        要点 = [x.strip() for x in re.split(r"[·|]", 文章.get("摘要", "")) if x.strip()][:3]
+        正文 = f"{标题}。{导语} 本页提供便于国内访问的赛程速览；临场调整、最终比分与判罚请以赛事官方信息为准。"
+    elif 分类 == "人文艺术":
+        导语 = f"从馆藏资料出发，认识《{标题}》及其创作背景。"
+        要点 = [x.strip() for x in re.split(r"[·|]", 文章.get("摘要", "")) if x.strip()][:3]
+        正文 = f"《{标题}》现由{来源}收录。{素材}。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索。"
+    elif 分类 == "情感":
+        导语 = f"这项研究为理解“{标题}”提供了一个观察角度。"
+        要点 = ["关注研究讨论的问题", "区分研究关联与因果结论", "结合原论文理解适用范围"]
+        正文 = f"{素材 or 标题}。这是基于论文题目与摘要整理的知识导读，只帮助理解研究线索，不替代原论文，也不构成诊断、治疗或个体化医疗建议。"
+    else:
+        导语 = 素材[:110] or f"从{来源}的最新信息观察“{标题}”。"
+        要点 = ["发生了什么", "涉及哪些主体", "后续值得关注什么"]
+        正文 = f"{素材 or 标题}。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对。"
+    return {
+        "导语": 清理文本(导语, 140),
+        "要点": [清理文本(x, 80) for x in 要点 if 清理文本(x, 80)][:3],
+        "正文": 清理文本(正文, 760),
+        "编辑方式": "规则整理",
+    }
+
+
+def 生成杂志内容(文章, 素材="", 旧文章=None):
+    """优先复用已生成短稿；可选 DeepSeek 只编辑给定素材，不抓取或复刻全文。"""
+    if (
+        旧文章 and 旧文章.get("编辑方式") == "DeepSeek"
+        and all(旧文章.get(k) for k in ("导语", "要点", "正文"))
+    ):
+        return {k: 旧文章[k] for k in ("导语", "要点", "正文", "编辑方式")}
+    回退 = _回退杂志内容(文章, 素材)
+    密钥 = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+    分类 = 文章.get("分类", "")
+    try:
+        配额 = json.loads(os.environ.get("DEEPSEEK_CATEGORY_QUOTAS", "{}"))
+    except json.JSONDecodeError:
+        配额 = {}
+    最大调用 = max(0, int(配额.get(分类, 深度求索默认配额.get(分类, 0))))
+    if not 密钥 or 深度求索分类调用.get(分类, 0) >= 最大调用:
+        return 回退
+    输入素材 = 清理文本(素材 or 文章.get("摘要"), 1600)
+    if not 输入素材:
+        return 回退
+    提示 = (
+        "你是中文杂志编辑。只能依据下方元数据和摘要改写，不得补造事实，不得大段翻译或复刻原文。"
+        "输出严格 JSON：导语(不超过80字)、要点(3条，每条不超过45字)、正文(250至450字)。"
+        "国际内容保持中性；艺术内容说明馆藏语境；情感研究必须写明不构成医疗建议，避免诊断和治疗建议。\n"
+        f"分类：{文章.get('分类')}\n标题：{文章.get('标题')}\n来源：{文章.get('来源')}\n素材：{输入素材}"
+    )
+    try:
+        深度求索分类调用[分类] = 深度求索分类调用.get(分类, 0) + 1
+        响应 = requests.post(
+            os.environ.get("DEEPSEEK_API_URL", "https://api.deepseek.com/chat/completions"),
+            headers={"Authorization": f"Bearer {密钥}", "Content-Type": "application/json"},
+            json={
+                "model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"),
+                "messages": [{"role": "user", "content": 提示}],
+                "temperature": 0.3,
+                "response_format": {"type": "json_object"},
+            },
+            timeout=45,
+        )
+        响应.raise_for_status()
+        内容 = _提取JSON对象(响应.json()["choices"][0]["message"]["content"])
+        导语 = 清理文本(内容.get("导语"), 140)
+        要点 = [清理文本(x, 80) for x in 内容.get("要点", []) if 清理文本(x, 80)][:3]
+        正文 = 清理文本(内容.get("正文"), 760)
+        return {"导语": 导语, "要点": 要点, "正文": 正文, "编辑方式": "DeepSeek"} if 导语 and 要点 and 正文 else 回退
+    except Exception as e:
+        print(f"[提示] DeepSeek 编辑失败，使用安全短稿：{e}")
+        return 回退
+
+
+def 补充杂志字段(文章, 素材="", 旧文章=None):
+    文章.update(生成杂志内容(文章, 素材, 旧文章))
+    文章["原文链接"] = 文章.get("链接", "")
+    文章["出处说明"] = f"根据{文章.get('来源', '原始来源')}公开元数据/摘要整理，非原文转载。"
+    文章.setdefault("版权", "标题与摘要版权归原发布者；本站短稿为资料性改写")
+    文章.setdefault("封面", 栏目封面.get(文章.get("分类"), ""))
+    return 文章
+
+
+def 下载馆藏图片(图片链接, 作品ID):
+    """缓存 The Met 小图：下载有硬上限，转成最长边 1200px 的轻量 WebP。"""
+    图片缓存目录.mkdir(parents=True, exist_ok=True)
+    已有 = 图片缓存目录 / f"met-{作品ID}.webp"
+    if 已有.is_file() and 1024 < 已有.stat().st_size <= 300 * 1024:
+        return 已有.relative_to(根目录).as_posix()
+    临时 = 图片缓存目录 / f".met-{作品ID}.webp.tmp"
+    try:
+        with requests.get(图片链接, headers=请求头, timeout=超时, stream=True) as 响应:
+            响应.raise_for_status()
+            类型 = 响应.headers.get("Content-Type", "").split(";")[0].lower()
+            if 类型 not in {"image/jpeg", "image/png", "image/webp"}:
+                raise ValueError(f"不支持的图片类型：{类型}")
+            总量 = 0
+            原图 = BytesIO()
+            for 块 in 响应.iter_content(64 * 1024):
+                if not 块:
+                    continue
+                总量 += len(块)
+                if 总量 > 4 * 1024 * 1024:
+                    raise ValueError("原图超过 4 MiB 下载限制")
+                原图.write(块)
+        if 总量 < 1024:
+            raise ValueError("图片内容过小")
+        原图.seek(0)
+        with Image.open(原图) as 图像:
+            图像.load()
+            if 图像.width * 图像.height > 40_000_000:
+                raise ValueError("图片像素尺寸异常")
+            图像.thumbnail((1200, 1200), Image.Resampling.LANCZOS)
+            if 图像.mode not in ("RGB", "RGBA"):
+                图像 = 图像.convert("RGB")
+            # 逐级压缩，通常在 60–180KB；极复杂图仍不得超过 300KB。
+            for 质量 in (80, 72, 64, 56):
+                图像.save(临时, "WEBP", quality=质量, method=6)
+                if 临时.stat().st_size <= 250 * 1024:
+                    break
+            if 临时.stat().st_size > 300 * 1024:
+                raise ValueError("压缩后图片仍超过 300 KiB")
+        临时.replace(已有)
+        return 已有.relative_to(根目录).as_posix()
+    except (OSError, ValueError, requests.RequestException, UnidentifiedImageError) as e:
+        临时.unlink(missing_ok=True)
+        print(f"[提示] 馆藏图片缓存失败 {作品ID}：{e}")
+        return ""
+
+
+def 清理馆藏缓存(保留路径):
+    """仅清理本站专用缓存；保留本周与上周最多 28 张，防止仓库无限增长。"""
+    保留名称 = {Path(x).name for x in 保留路径 if x}
+    文件 = sorted(图片缓存目录.glob("met-*.webp"), key=lambda p: p.stat().st_mtime, reverse=True)
+    for 路径 in 文件:
+        if 路径.name not in 保留名称 and 文件.index(路径) >= 28:
+            路径.unlink(missing_ok=True)
 
 
 def 安全链接(链接):
@@ -173,6 +356,7 @@ def 采集GDELT():
 
 def 采集国际形势():
     旧文章 = 读取旧数据("国际形势.json").get("articles", [])
+    旧索引 = 旧文章索引("国际形势.json")
     联合国文章, gdelt文章, 错误 = [], [], []
     try:
         联合国文章 = 采集联合国中文新闻()
@@ -185,6 +369,8 @@ def 采集国际形势():
     文章 = 合并去重(联合国文章, gdelt文章, 旧文章, 最大条数=40)
     if not 文章:
         raise RuntimeError("；".join(错误) or "没有获取到国际形势数据")
+    for 项 in 文章:
+        补充杂志字段(项, 项.get("摘要", ""), 匹配旧文章(旧索引, 项))
     return 栏目数据(
         "国际形势", "联合国新闻 / GDELT",
         "全球局势与外交动态；仅展示摘要并链接至原始来源。", 文章,
@@ -257,9 +443,12 @@ def 采集OpenFootball世界杯():
 
 
 def 采集世界杯():
+    旧索引 = 旧文章索引("世界杯.json")
     令牌 = os.environ.get("FOOTBALL_DATA_TOKEN", "").strip()
     if not 令牌:
         文章 = 采集OpenFootball世界杯()
+        for 项 in 文章:
+            补充杂志字段(项, 项.get("摘要", ""), 匹配旧文章(旧索引, 项))
         return 栏目数据(
             "世界杯", "openfootball/worldcup.json",
             "2026 世界杯赛程与赛果；开放数据，无需密钥。", 文章,
@@ -308,12 +497,14 @@ def 采集世界杯():
     文章.sort(key=lambda x: x.get("_排序", [9, 0]))
     for 条目 in 文章:
         条目.pop("_排序", None)
+        补充杂志字段(条目, 条目.get("摘要", ""), 匹配旧文章(旧索引, 条目))
     return 栏目数据("世界杯", "football-data.org", "2026 世界杯赛程、比分与对阵数据。", 文章[:60])
 
 
 def 采集人文艺术():
     主题列表 = ["love", "solitude", "landscape", "family", "music", "poetry", "portrait"]
-    随机 = random.Random(datetime.now().strftime("%Y-%m-%d"))
+    # 按自然周轮换，避免每天新增一批图片导致仓库膨胀。
+    随机 = random.Random(datetime.now().strftime("%G-W%V"))
     主题 = 随机.sample(主题列表, 2)
     候选ID = []
     for 关键词 in 主题:
@@ -325,6 +516,8 @@ def 采集人文艺术():
         候选ID.extend((响应.json().get("objectIDs") or [])[:30])
     随机.shuffle(候选ID)
     文章 = []
+    旧索引 = 旧文章索引("人文艺术.json")
+    本轮缓存 = []
     for 作品ID in 候选ID:
         if len(文章) >= 14:
             break
@@ -344,19 +537,28 @@ def 采集人文艺术():
         作者 = 清理文本(作品.get("artistDisplayName"), 100) or "佚名"
         年代 = 清理文本(作品.get("objectDate"), 80) or "年代不详"
         材质 = 清理文本(作品.get("medium"), 100)
-        文章.append({
+        原图链接 = 安全链接(作品.get("primaryImageSmall"))
+        本地图 = 下载馆藏图片(原图链接, 作品ID)
+        项 = {
             "id": 稳定ID(作品ID, 原标题), "标题": 标题,
             "原标题": 原标题 if 标题 != 原标题 else "",
             "摘要": f"{作者} · {年代}" + (f" · {材质}" if 材质 else ""),
             "来源": "The Metropolitan Museum of Art", "分类": "人文艺术",
             "日期": datetime.now().strftime("%Y-%m-%d"),
             "链接": 安全链接(作品.get("objectURL")),
-            "图片": 安全链接(作品.get("primaryImageSmall")),
+            "图片": 本地图 or 栏目封面["人文艺术"],
+            "原始图片": 原图链接,
+            "封面": 本地图 or 栏目封面["人文艺术"],
             "版权": "Public Domain / Open Access", "标签": [主题[0], "公共领域"],
-        })
+        }
+        补充杂志字段(项, f"作者：{作者}；年代：{年代}；材质：{材质}", 匹配旧文章(旧索引, 项))
+        文章.append(项)
+        if 本地图:
+            本轮缓存.append(本地图)
         time.sleep(0.08)
     if not 文章:
         raise RuntimeError("The Met 没有返回可用的公共领域作品")
+    清理馆藏缓存(本轮缓存)
     return 栏目数据(
         "人文艺术", "The Metropolitan Museum of Art Open Access",
         "每日从公共领域馆藏中选取艺术作品，图片可开放使用。", 文章,
@@ -393,6 +595,7 @@ def 采集情感():
     详情.raise_for_status()
     根 = ET.fromstring(详情.content)
     文章 = []
+    旧索引 = 旧文章索引("情感.json")
     for 记录 in 根.findall(".//PubmedArticle"):
         pmid = 提取PubMed文本(记录, ".//PMID")
         原标题 = 提取PubMed文本(记录, ".//ArticleTitle")
@@ -409,14 +612,18 @@ def 采集情感():
         月 = 提取PubMed文本(记录, ".//PubDate/Month")
         日期 = f"{年}-01-01" if 年 else datetime.now().strftime("%Y-%m-%d")
         关键词 = [清理文本("".join(k.itertext()), 40) for k in 记录.findall(".//Keyword")[:3]]
-        文章.append({
+        摘要段 = [清理文本("".join(a.itertext()), 800) for a in 记录.findall(".//Abstract/AbstractText")]
+        论文摘要 = 清理文本(" ".join(x for x in 摘要段 if x), 1600)
+        项 = {
             "id": 稳定ID(pmid, 原标题), "标题": 标题,
             "原标题": 原标题 if 标题 != 原标题 else "",
             "摘要": f"来自《{期刊}》的关系与情绪研究。仅作知识阅读，不构成医疗建议。",
             "来源": f"PubMed · {期刊}", "分类": "情感", "日期": 日期,
             "链接": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
             "标签": [x for x in 关键词 if x][:3] or ["情绪", "关系"],
-        })
+        }
+        补充杂志字段(项, 论文摘要 or 原标题, 匹配旧文章(旧索引, 项))
+        文章.append(项)
         time.sleep(0.08)
     return 栏目数据(
         "情感", "PubMed / NCBI",

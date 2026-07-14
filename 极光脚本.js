@@ -7,7 +7,8 @@
 const 状态 = {
     当前页面: '首页', 当前分类: '全部', 排序方式: '最新',
     搜索关键词: '', 文章列表: [], 已筛选文章: [],
-    来源集合: new Set(), 当前文章ID: null, 专题缓存: {},
+    来源集合: new Set(), 当前文章ID: null, 当前详情文章: null, 专题缓存: {},
+    专题请求序号: 0, 专题请求控制器: null,
 };
 
 const 专题栏目文件 = {
@@ -127,6 +128,12 @@ function 应用筛选() {
     const 空状态 = document.getElementById('空状态');
     const 加载区域 = document.getElementById('加载区域');
 
+    if (!专题栏目文件[状态.当前分类] && 状态.专题请求控制器) {
+        状态.专题请求控制器.abort();
+        状态.专题请求控制器 = null;
+        状态.专题请求序号++;
+    }
+
     // 独立分类：不走 AI 文章库过滤，读取各自的开放数据文件
     if (专题栏目文件[状态.当前分类]) {
         clearContainers(); 加载专题栏目(状态.当前分类);
@@ -235,23 +242,30 @@ function 添加文本元素(父元素, 标签, 类名, 文本) {
 async function 加载专题栏目(分类名) {
     const 容器 = document.getElementById('特征容器');
     if (!容器) return;
+    const 请求序号 = ++状态.专题请求序号;
+    if (状态.专题请求控制器) 状态.专题请求控制器.abort();
+    const 请求控制器 = new AbortController();
+    状态.专题请求控制器 = 请求控制器;
     添加文本元素(容器, 'div', '特征区标题', 分类名);
 
     let 数据 = 状态.专题缓存[分类名];
     if (!数据) {
         const 加载提示 = 添加文本元素(容器, 'div', '专题提示', '正在加载…');
         try {
-            const 响应 = await fetch(专题栏目文件[分类名] + '?v=' + Date.now());
+            const 响应 = await fetch(专题栏目文件[分类名] + '?v=' + Date.now(), { signal: 请求控制器.signal });
             if (!响应.ok) throw new Error('HTTP ' + 响应.status);
             数据 = await 响应.json();
+            if (请求序号 !== 状态.专题请求序号 || 状态.当前分类 !== 分类名) return;
             状态.专题缓存[分类名] = 数据;
         } catch (e) {
+            if (e.name === 'AbortError' || 请求序号 !== 状态.专题请求序号) return;
             加载提示.textContent = '栏目暂时无法加载，请稍后刷新。';
             console.warn(分类名 + '加载失败：' + e.message);
             return;
         }
         加载提示.remove();
     }
+    if (请求序号 !== 状态.专题请求序号 || 状态.当前分类 !== 分类名) return;
 
     const 说明 = document.createElement('div');
     说明.className = '专题说明';
@@ -272,8 +286,9 @@ async function 加载专题栏目(分类名) {
     }
 
     const 网格 = document.createElement('div'); 网格.className = '特征网格 专题网格';
+    const 栏目主视觉 = 数据.主视觉 || 数据.封面 || 数据.cover || '';
     文章.slice(0, 4).forEach((条目, index) => {
-        const 卡片 = 创建专题卡片(条目, index);
+        const 卡片 = 创建专题卡片(条目, index, 分类名, index === 0 ? 栏目主视觉 : '');
         if (index === 0) 卡片.classList.add('主推荐卡片'); else 卡片.classList.add('次推荐卡片');
         网格.appendChild(卡片);
     });
@@ -282,32 +297,70 @@ async function 加载专题栏目(分类名) {
     if (文章.length > 4) {
         const 列表容器 = document.getElementById('列表容器');
         添加文本元素(列表容器, 'div', '列表区域标题', 分类名 === '世界杯' ? '更多赛程' : '更多内容');
-        const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
-        文章.slice(4).forEach(条目 => 列表.appendChild(创建专题列表项(条目)));
+        const 列表 = document.createElement('ul'); 列表.className = '资讯列表 专题资讯列表';
+        const 全部列表项 = 文章.slice(4).map(条目 => 创建专题列表项(条目));
+        const 默认数量 = 8;
+        全部列表项.slice(0, 默认数量).forEach(列表项 => 列表.appendChild(列表项));
         列表容器.appendChild(列表);
+        const 折叠项 = 全部列表项.slice(默认数量);
+        if (折叠项.length) {
+            const 折叠按钮 = document.createElement('button');
+            折叠按钮.className = '加载更多按钮';
+            折叠按钮.style.marginTop = '12px';
+            折叠按钮.textContent = `展开全部（${折叠项.length} 条）`;
+            折叠按钮.setAttribute('aria-expanded', 'false');
+            let 已展开 = false;
+            折叠按钮.onclick = () => {
+                已展开 = !已展开;
+                if (已展开) 折叠项.forEach(列表项 => 列表.appendChild(列表项));
+                else 折叠项.forEach(列表项 => 列表项.remove());
+                折叠按钮.textContent = 已展开 ? '收起' : `展开全部（${折叠项.length} 条）`;
+                折叠按钮.setAttribute('aria-expanded', String(已展开));
+            };
+            列表容器.appendChild(折叠按钮);
+        }
     }
 }
 
-function 创建专题卡片(文章, index) {
+function 应用卡片主视觉(卡片, 文章, 分类名, 备用图片, index) {
+    if (index !== 0) return;
+    const 图片 = 安全外链(文章.封面 || 文章.图片 || 备用图片);
+    卡片.classList.add('有主视觉', '分类主视觉-' + String(分类名 || '全部').replace(/[^\u4e00-\u9fa5A-Za-z0-9_-]/g, ''));
+    if (!图片) return;
+    卡片.classList.add('有图片');
+    const 图框 = document.createElement('div'); 图框.className = '专题图片框';
+    const img = document.createElement('img');
+    img.src = 图片; img.alt = 文章.标题 || 分类名 || '栏目主视觉';
+    img.loading = 'eager'; img.decoding = 'async'; img.fetchPriority = 'high';
+    img.referrerPolicy = 'no-referrer';
+    img.onerror = () => { 图框.remove(); 卡片.classList.remove('有图片'); };
+    图框.appendChild(img); 卡片.prepend(图框);
+}
+
+function 转义HTML(值) {
+    return String(值 == null ? '' : 值).replace(/[&<>"']/g, 字符 => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    })[字符]);
+}
+
+function 创建专题卡片(文章, index, 分类名, 备用图片) {
     const 卡片 = document.createElement('article');
     卡片.className = '特征卡片 专题卡片';
     卡片.dataset.index = String(index + 1).padStart(2, '0');
-    const 链接 = 安全外链(文章.链接);
-    if (链接) {
-        卡片.tabIndex = 0;
-        卡片.setAttribute('role', 'link');
-        卡片.onclick = () => window.open(链接, '_blank', 'noopener');
-        卡片.onkeydown = e => { if (e.key === 'Enter') 卡片.click(); };
-    }
-    const 图片 = 安全外链(文章.图片);
+    卡片.tabIndex = 0;
+    卡片.setAttribute('role', 'link');
+    卡片.onclick = () => 打开文章详情(文章);
+    卡片.onkeydown = e => { if (e.key === 'Enter') 卡片.click(); };
+    const 图片 = index === 0 ? '' : 安全外链(文章.封面 || 文章.图片);
     if (图片) {
         卡片.classList.add('有图片');
         const 图框 = document.createElement('div'); 图框.className = '专题图片框';
         const img = document.createElement('img'); img.src = 图片; img.alt = 文章.标题 || '艺术作品';
-        img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
+        img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
         img.onerror = () => { 图框.remove(); 卡片.classList.remove('有图片'); };
         图框.appendChild(img); 卡片.appendChild(图框);
     }
+    应用卡片主视觉(卡片, 文章, 分类名, 备用图片, index);
     const 信息 = document.createElement('div'); 信息.className = '卡片元信息';
     添加文本元素(信息, 'span', '卡片来源', 文章.来源 || '');
     添加文本元素(信息, 'span', '卡片日期', 文章.日期 || '');
@@ -322,7 +375,8 @@ function 创建专题卡片(文章, index) {
 function 创建专题列表项(文章) {
     const 项 = document.createElement('li'); 项.className = '资讯列表项';
     const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
-    链接.href = 安全外链(文章.链接) || '#'; 链接.target = '_blank'; 链接.rel = 'noopener';
+    链接.href = '#详情/' + 文章.id;
+    链接.onclick = e => { e.preventDefault(); 打开文章详情(文章); };
     const 元信息 = document.createElement('div'); 元信息.className = '列表元信息';
     添加文本元素(元信息, 'span', '列表来源', 文章.来源 || '');
     添加文本元素(元信息, 'span', '列表分隔', '·');
@@ -348,7 +402,10 @@ function 渲染容器(分类, 特征文章, 列表文章) {
             const 网格 = document.createElement('div'); 网格.className = '特征网格';
             特征文章.forEach((文章, index) => {
                 const 卡片 = 创建特征卡片(文章);
-                if (index === 0) 卡片.classList.add('主推荐卡片');
+                if (index === 0) {
+                    卡片.classList.add('主推荐卡片');
+                    应用卡片主视觉(卡片, 文章, 分类, 文章.主视觉 || 文章.封面 || '', index);
+                }
                 else 卡片.classList.add('次推荐卡片');
                 卡片.dataset.index = String(index + 1).padStart(2, '0');
                 网格.appendChild(卡片);
@@ -381,7 +438,6 @@ function 渲染容器(分类, 特征文章, 列表文章) {
                     if (已展开) {
                         rest.forEach(el => 列表.appendChild(el));
                         折叠按钮.textContent = '收起';
-                        window.scrollTo({top: 容器.offsetTop - 100, behavior: 'smooth'});
                     } else {
                         rest.forEach(el => el.remove());
                         折叠按钮.textContent = `展开全部（${rest.length} 条）`;
@@ -464,22 +520,27 @@ async function 加载金融热点() {
     标题.textContent = '金融热点 · ' + 金融数据.updated.substring(0, 10);
     容器.appendChild(标题);
 
-    // 前3条大卡片，其余列表
-    const 头条 = 金融数据.articles.slice(0, 3);
-    const 其余 = 金融数据.articles.slice(3);
+    // 与其他栏目一致：1 张主视觉卡片 + 3 张次卡片
+    const 头条 = 金融数据.articles.slice(0, 4);
+    const 其余 = 金融数据.articles.slice(4);
 
     if (头条.length > 0) {
         const 网格 = document.createElement('div'); 网格.className = '特征网格';
-        if (头条.length <= 2) 网格.style.gridTemplateColumns = '1fr 1fr';
-        else 网格.style.gridTemplateColumns = 'repeat(3, 1fr)';
-        头条.forEach(a => {
+        头条.forEach((a, index) => {
             const 卡片 = document.createElement('article'); 卡片.className = '特征卡片';
-            const 原文链接 = a.链接 || '#';
+            if (index === 0) {
+                卡片.classList.add('主推荐卡片');
+            } else 卡片.classList.add('次推荐卡片');
+            卡片.dataset.index = String(index + 1).padStart(2, '0');
+            卡片.tabIndex = 0; 卡片.setAttribute('role', 'link');
+            卡片.onclick = () => 打开文章详情(a);
+            卡片.onkeydown = e => { if (e.key === 'Enter') 卡片.click(); };
             卡片.innerHTML = `
-                <div class="卡片元信息"><span class="卡片来源">${a.来源||''}</span><span class="卡片日期">${a.日期||''}</span></div>
-                <div class="卡片标题"><a href="${原文链接}" target="_blank" rel="noopener" style="color:inherit">${a.标题||''}</a></div>
-                <div class="卡片摘要">${(a.摘要||'').substring(0, 100)}</div>
-                ${a.标签 ? '<div class="卡片标签栏">' + a.标签.slice(0,3).map(t => `<span class="卡片标签">${t}</span>`).join('') + '</div>' : ''}`;
+                <div class="卡片元信息"><span class="卡片来源">${转义HTML(a.来源||'')}</span><span class="卡片日期">${转义HTML(a.日期||'')}</span></div>
+                <div class="卡片标题">${转义HTML(a.标题||'')}</div>
+                <div class="卡片摘要">${转义HTML((a.摘要||'').substring(0, 100))}</div>
+                ${a.标签 ? '<div class="卡片标签栏">' + a.标签.slice(0,3).map(t => `<span class="卡片标签">${转义HTML(t)}</span>`).join('') + '</div>' : ''}`;
+            if (index === 0) 应用卡片主视觉(卡片, a, '金融', 金融数据.主视觉 || 金融数据.封面 || '', index);
             网格.appendChild(卡片);
         });
         容器.appendChild(网格);
@@ -757,18 +818,34 @@ function 高亮关键词(文本, 关键词) {
     return 文本.replace(new RegExp(`(${转义})`, 'gi'), '<mark>$1</mark>');
 }
 
-function 打开文章详情(文章) { if (!文章||!文章.id) return; 状态.当前文章ID=文章.id; 状态.当前页面='详情'; history.pushState(null,'','#详情/'+文章.id); 显示文章详情(); }
+function 打开文章详情(文章) { if (!文章||!文章.id) return; 状态.当前文章ID=文章.id; 状态.当前详情文章=文章; 状态.当前页面='详情'; history.pushState(null,'','#详情/'+文章.id); 显示文章详情(); }
 function 打开文章详情ById(id) { const 文章=状态.文章列表.find(a=>a.id===id); if(文章) 打开文章详情(文章); }
 
 function 显示文章详情() {
-    const 文章 = 状态.文章列表.find(a=>a.id===状态.当前文章ID);
+    const 专题文章 = Object.values(状态.专题缓存).flatMap(数据 => Array.isArray(数据.articles) ? 数据.articles : []);
+    const 文章 = (状态.当前详情文章 && 状态.当前详情文章.id === 状态.当前文章ID ? 状态.当前详情文章 : null)
+        || 状态.文章列表.find(a=>a.id===状态.当前文章ID)
+        || 专题文章.find(a=>a.id===状态.当前文章ID);
     if(!文章){切换页面('首页');return;}
     document.querySelectorAll('.页面视图').forEach(v=>v.classList.remove('活跃视图'));
     document.querySelectorAll('.导航链接').forEach(l=>l.classList.remove('活跃'));
     const dv=document.getElementById('详情视图'); if(dv)dv.classList.add('活跃视图');
     const c=document.getElementById('详情容器'); if(!c)return;
-    const 段落 = (文章.内容||文章.摘要||'暂无').split('\n').filter(p=>p.trim()).map(p=>p.trim().match(/^#{1,3}\s/)?`<${p.match(/^(#{1,3})/)[1].length===1?'h2':'h3'}>${p.replace(/^#{1,3}\s/,'')}</${p.match(/^(#{1,3})/)[1].length===1?'h2':'h3'}>`:`<p>${p.trim()}</p>`).join('');
-    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button><h1 class="详情标题">${文章.标题||''}</h1><div class="详情元信息"><span>来源：${文章.来源||''}</span><span>${文章.日期||''}</span><span>分类：${文章.分类||''}</span>${文章.热度?'<span>热度 '+文章.热度+'</span>':''}</div><div class="详情正文">${段落||'<p>暂无详细内容。</p>'}</div>${文章.链接?'<a href="'+文章.链接+'" target="_blank" class="详情来源链接">阅读原文 &rarr;</a>':''}`;
+    const 正文文本 = 文章.正文 || 文章.内容 || 文章.摘要 || '暂无详细内容。';
+    const 段落 = 正文文本.split('\n').filter(p=>p.trim()).map(p => {
+        const 行 = p.trim(); const 标题匹配 = 行.match(/^(#{1,3})\s+(.+)/);
+        if (标题匹配) { const 标签 = 标题匹配[1].length === 1 ? 'h2' : 'h3'; return `<${标签}>${转义HTML(标题匹配[2])}</${标签}>`; }
+        return `<p>${转义HTML(行)}</p>`;
+    }).join('');
+    const 要点 = Array.isArray(文章.要点) && 文章.要点.length
+        ? `<section class="详情要点"><h2>阅读要点</h2><ul>${文章.要点.map(点 => `<li>${转义HTML(点)}</li>`).join('')}</ul></section>` : '';
+    const 导语 = 文章.导语 ? `<p class="详情导语">${转义HTML(文章.导语)}</p>` : '';
+    const 封面 = 安全外链(文章.封面 || 文章.图片);
+    const 封面HTML = 封面 ? `<figure class="详情封面"><img src="${转义HTML(封面)}" alt="${转义HTML(文章.标题 || '')}" decoding="async" fetchpriority="high"></figure>` : '';
+    const 原文 = 安全外链(文章.原文链接 || 文章.链接);
+    const 出处 = 文章.出处说明 || 文章.版权 || (文章.来源 ? '内容整理自 ' + 文章.来源 + '，版权归原作者及原机构所有。' : '');
+    const 出处HTML = 出处 || 原文 ? `<aside class="详情出处"><strong>出处说明</strong><p>${转义HTML(出处)}</p>${原文 ? `<a href="${转义HTML(原文)}" target="_blank" rel="noopener" class="详情来源链接">查看原始出处</a>` : ''}</aside>` : '';
+    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(文章.标题||'')}</h1><div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语}${要点}<div class="详情正文">${段落}</div>${出处HTML}`;
     window.scrollTo({top:0,behavior:'smooth'});
 }
 
