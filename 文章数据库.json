@@ -1,5 +1,536 @@
 [
   {
+    "id": 2741291210,
+    "标题": "【原生·模型】从 ML 预测到使用 Toulmin 论证模型的知情诊断帮助",
+    "摘要": "arXiv:2607.09664v1 Announce Type: new Abstract: To provide a structured and interpretable assessment, we decompose the image-based diagnosis into components following the Toulmin",
+    "内容": "arXiv:2607.09664v1 Announce Type: new Abstract: To provide a structured and interpretable assessment, we decompose the image-based diagnosis into components following the Toulmin",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09664",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·模型】From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
+    "中文提炼": ""
+  },
+  {
+    "id": 120798565,
+    "标题": "【原生·模型】格式敏感性指数：LLM 基准测试中令牌控制的提示包装器稳健性和模式合规性",
+    "摘要": "arXiv:2607.09665v1 Announce Type: new Abstract: Prompt wrappers often differ only in formatting, yet they can change model scores enough to flip leaderboard conclusions. We study",
+    "内容": "arXiv:2607.09665v1 Announce Type: new Abstract: Prompt wrappers often differ only in formatting, yet they can change model scores enough to flip leaderboard conclusions. We study",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09665",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·模型】Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking",
+    "中文提炼": ""
+  },
+  {
+    "id": 16792714,
+    "标题": "【原生·一手】忠实，而非纠正：多跳代理中继中的消息格式效果与层相关",
+    "摘要": "arXiv:2607.09678v1 Announce Type: new Abstract: When LLM agents hand off information to one another, does the message format matter? Two literatures disagree: format-optimization",
+    "内容": "arXiv:2607.09678v1 Announce Type: new Abstract: When LLM agents hand off information to one another, does the message format matter? Two literatures disagree: format-optimization",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09678",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·一手】Faithful, Not Corrective: Message-Format Effects in Multi-Hop Agent Relays Are Tier-Dependent",
+    "中文提炼": ""
+  },
+  {
+    "id": 505503348,
+    "标题": "【原生·一手】Boltzmann MapReduce：可分叉沙箱的分区函数缩减",
+    "摘要": "arXiv:2607.09689v1 Announce Type: new Abstract: To leading order under local asymptotic normality (LAN), the confidence density a worker emits over a chunk of size $n$ is a",
+    "内容": "arXiv:2607.09689v1 Announce Type: new Abstract: To leading order under local asymptotic normality (LAN), the confidence density a worker emits over a chunk of size $n$ is a",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09689",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·一手】Boltzmann MapReduce: A Partition-Function Reduce for Forkable Sandboxes",
+    "中文提炼": ""
+  },
+  {
+    "id": 3884409735,
+    "标题": "【原生·一手】将潜在 CoT 推理解释为动态系统",
+    "摘要": "arXiv:2607.09698v1 Announce Type: new Abstract: Recent latent reasoning methods, such as CODI and COCONUT, face a fundamental interpretability problem: they maintain multiple",
+    "内容": "arXiv:2607.09698v1 Announce Type: new Abstract: Recent latent reasoning methods, such as CODI and COCONUT, face a fundamental interpretability problem: they maintain multiple",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09698",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·一手】Interpreting Latent CoT Reasoning as Dynamical Systems",
+    "中文提炼": ""
+  },
+  {
+    "id": 829598899,
+    "标题": "【原生·一手】YUKTI：从自然语言情况到稳健、可验证的决策不确定性类型的命题 IR、假设稳健的帕累托前沿和遗憾证书",
+    "摘要": "arXiv:2607.09706v1 Announce Type: new Abstract: Language models turn a worded situation into a numeric plan, and the dominant pipelines (NL4Opt, OptiMUS, ORLM, OR-LLM-Agent)",
+    "内容": "arXiv:2607.09706v1 Announce Type: new Abstract: Language models turn a worded situation into a numeric plan, and the dominant pipelines (NL4Opt, OptiMUS, ORLM, OR-LLM-Agent)",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09706",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·一手】YUKTI: From Natural-Language Situations to Robust, Verifiable Decisions An Uncertainty-Typed Proposition IR, Assumption-Robust Pareto Frontiers, and a Regret Certificate",
+    "中文提炼": ""
+  },
+  {
+    "id": 2905346784,
+    "标题": "【原生·一手】GES-TSP：TSP 的图边稀疏化",
+    "摘要": "arXiv:2607.09708v1 Announce Type: new Abstract: Solving large-scale instances of the Traveling Salesman Problem (TSP) exactly is computationally expensive. Researchers often",
+    "内容": "arXiv:2607.09708v1 Announce Type: new Abstract: Solving large-scale instances of the Traveling Salesman Problem (TSP) exactly is computationally expensive. Researchers often",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09708",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·一手】GES-TSP: Graph Edge Sparsification for TSP",
+    "中文提炼": ""
+  },
+  {
+    "id": 2993889767,
+    "标题": "【原生·一手】验证者就是课程：跨家庭游戏生成的执行门控自我蒸馏",
+    "摘要": "arXiv:2607.09709v1 Announce Type: new Abstract: Post-training a code generator against a learned judge can optimize proxy features that raise the score without improving the",
+    "内容": "arXiv:2607.09709v1 Announce Type: new Abstract: Post-training a code generator against a learned judge can optimize proxy features that raise the score without improving the",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09709",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·一手】The Verifier is the Curriculum: Execution-Gated Self-Distillation for Cross-Family Game Generation",
+    "中文提炼": ""
+  },
+  {
+    "id": 3704169625,
+    "标题": "【原生·模型】具有规则对齐小语言模型和多代理自校正的闭环控制",
+    "摘要": "arXiv:2607.09713v1 Announce Type: new Abstract: A key step toward autonomous industrial operation is the ability to create and reconfigure control policies from natural-language",
+    "内容": "arXiv:2607.09713v1 Announce Type: new Abstract: A key step toward autonomous industrial operation is the ability to create and reconfigure control policies from natural-language",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09713",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·模型】Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction",
+    "中文提炼": ""
+  },
+  {
+    "id": 3125077666,
+    "标题": "【原生·一手】连续时间内的反馈耦合记忆系统",
+    "摘要": "arXiv:2607.09714v1 Announce Type: new Abstract: The Feedback-Coupled Memory Systems (FCMS) architecture formalizes closed-loop coordination through four abstract operators, two of",
+    "内容": "arXiv:2607.09714v1 Announce Type: new Abstract: The Feedback-Coupled Memory Systems (FCMS) architecture formalizes closed-loop coordination through four abstract operators, two of",
+    "来源": "arXiv AI",
+    "分类": "原生资讯",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://arxiv.org/abs/2607.09714",
+    "标签": [
+      "原生资讯",
+      "arXiv AI"
+    ],
+    "原标题": "【原生·一手】Feedback-Coupled Memory Systems in Continuous Time",
+    "中文提炼": ""
+  },
+  {
+    "id": 4032748515,
+    "标题": "GPT-5.6-sol入榜DRACO：OpenSquilla集成方案仍在Brave组质量、成本双领先",
+    "摘要": "",
+    "内容": "",
+    "来源": "量子位",
+    "分类": "大模型",
+    "日期": "2026-07-14",
+    "热度": 68,
+    "链接": "https://www.qbitai.com/2026/07/449842.html",
+    "标签": [
+      "GPT-5"
+    ]
+  },
+  {
+    "id": 2406793392,
+    "标题": "产业与全球资本共同加注，爱诗科技完成29.8亿元C轮融资",
+    "摘要": "",
+    "内容": "",
+    "来源": "量子位",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 56,
+    "链接": "https://www.qbitai.com/2026/07/449836.html",
+    "标签": []
+  },
+  {
+    "id": 4200141873,
+    "标题": "高德发布通用世界模型工坊ABot-World Studio：5090单卡可生成小时级实时交互式视频与3D场景",
+    "摘要": "",
+    "内容": "",
+    "来源": "量子位",
+    "分类": "AI绘画",
+    "日期": "2026-07-14",
+    "热度": 56,
+    "链接": "https://www.qbitai.com/2026/07/449568.html",
+    "标签": []
+  },
+  {
+    "id": 1734253329,
+    "标题": "100+Skill导演级专家随叫随到！这回视频Agent终于有了可用级产品",
+    "摘要": "Agent携上百个Skills助我当大导演",
+    "内容": "Agent携上百个Skills助我当大导演",
+    "来源": "量子位",
+    "分类": "AI应用",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://www.qbitai.com/2026/07/449566.html",
+    "标签": []
+  },
+  {
+    "id": 2716890935,
+    "标题": "逐际动力再融2亿美元提速港股IPO，张巍：营收对赌不符合具身商业逻辑",
+    "摘要": "机器人应该掌握什么技能，并不只取决于模型够不够强，而取决于构建这个技能产生的商业价值是否大于它所要数据的成本。",
+    "内容": "机器人应该掌握什么技能，并不只取决于模型够不够强，而取决于构建这个技能产生的商业价值是否大于它所要数据的成本。",
+    "来源": "量子位",
+    "分类": "AI应用",
+    "日期": "2026-07-14",
+    "热度": 57,
+    "链接": "https://www.qbitai.com/2026/07/449474.html",
+    "标签": []
+  },
+  {
+    "id": 1925445043,
+    "标题": "🎁36氪放福利啦！体验10秒，即可免费抽AirPods 4、Redmi手环、超人帆布包！",
+    "摘要": "无门槛参与，所有微信用户都可以免费抽奖！ 只需打开微信，扫描下方二维码进入抽奖链接，浏览10秒36氪企业全情报，任意订阅一家企业，即可获得抽奖资格。 无需付费，无需任何额外操作，简单体验即可参与，AirPods 4、Redmi手环3、36氪限定超人帆布包等好礼随机送出，人人都有机会中奖！",
+    "内容": "无门槛参与，所有微信用户都可以免费抽奖！ 只需打开微信，扫描下方二维码进入抽奖链接，浏览10秒36氪企业全情报，任意订阅一家企业，即可获得抽奖资格。 无需付费，无需任何额外操作，简单体验即可参与，AirPods 4、Redmi手环3、36氪限定超人帆布包等好礼随机送出，人人都有机会中奖！",
+    "来源": "36氪",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://36kr.com/p/3894914381970438?f=rss",
+    "标签": []
+  },
+  {
+    "id": 706717150,
+    "标题": "36氪首发 | 浙大系桌面CNC团队获商汤国香、首形科技等近亿元天使轮，要用AI技术降低制造门槛",
+    "摘要": "作者 | 张子怡 编辑 | 袁斯来 硬氪获悉，桌面级CNC（数控机床）企业「奇塑科技」于近期完成近亿元人民币天使轮融资。本轮融资由商汤国香、首形科技、全新世、奇绩创坛共同投资。本轮资金将主要用于桌面级CNC软硬件产品的研发、量产以及后续的市场营销。",
+    "内容": "作者 | 张子怡 编辑 | 袁斯来 硬氪获悉，桌面级CNC（数控机床）企业「奇塑科技」于近期完成近亿元人民币天使轮融资。本轮融资由商汤国香、首形科技、全新世、奇绩创坛共同投资。本轮资金将主要用于桌面级CNC软硬件产品的研发、量产以及后续的市场营销。",
+    "来源": "36氪",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 56,
+    "链接": "https://36kr.com/p/3894935854677249?f=rss",
+    "标签": []
+  },
+  {
+    "id": 4065686598,
+    "标题": "36氪首发 | 前博世自动驾驶算法工程师创业，用合成数据做触觉大模型",
+    "摘要": "触觉手套（图源/企业） 本文约2400字，建议阅读6分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，空间智能公司「大衍科技」近期完成数千万元天使轮融资，由松禾资本领投，浙江省省金控与广州番禺创新基金等国资背景机构参与。资金将主要用于触觉大模型研发、机器人数据产线建设及团队扩张。",
+    "内容": "触觉手套（图源/企业） 本文约2400字，建议阅读6分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，空间智能公司「大衍科技」近期完成数千万元天使轮融资，由松禾资本领投，浙江省省金控与广州番禺创新基金等国资背景机构参与。资金将主要用于触觉大模型研发、机器人数据产线建设及团队扩张。",
+    "来源": "36氪",
+    "分类": "大模型",
+    "日期": "2026-07-14",
+    "热度": 63,
+    "链接": "https://36kr.com/p/3894821059918855?f=rss",
+    "标签": [
+      "大模型",
+      "自动驾驶"
+    ]
+  },
+  {
+    "id": 682787138,
+    "标题": "花旗：中广核电力目标价下调23%至2.45港元 给予“沽售”评级",
+    "摘要": "花旗发布研报称，下调中广核电力（01816）目标价23.4%，由3.2港元降至2.45港元，评级“沽售”。 该行表示，2026年上半年，中广核上网发电量年度同比下降3.3%至1...",
+    "内容": "花旗发布研报称，下调中广核电力（01816）目标价23.4%，由3.2港元降至2.45港元，评级“沽售”。 该行表示，2026年上半年，中广核上网发电量年度同比下降3.3%至1...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 56,
+    "链接": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-07-14/doc-inihuaae8545400.shtml",
+    "标签": []
+  },
+  {
+    "id": 642262245,
+    "标题": "花旗：中国金茂维持“买入”评级 目标价1.9港元",
+    "摘要": "花旗发布研报称，对中国金茂（00817）开展30日正面催化剂观察，维持“买入”评级，目标价1.9港元。该行建议将关注放在未来盈利，踏入2027年的持续销售上行周期...",
+    "内容": "花旗发布研报称，对中国金茂（00817）开展30日正面催化剂观察，维持“买入”评级，目标价1.9港元。该行建议将关注放在未来盈利，踏入2027年的持续销售上行周期...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 56,
+    "链接": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-07-14/doc-inihtzzx7410868.shtml",
+    "标签": []
+  },
+  {
+    "id": 659407530,
+    "标题": "华商基金看行业之存储：本土厂商或迎来历史性机遇窗口",
+    "摘要": "存储，是一种让数据“记住”的技术。你的工作软件、游戏程序因为DRAM（内存）变得稳定而流畅，你拍的照片和短视频，都可以从NAND（闪存）、HDD（机械硬盘）中随时读取...",
+    "内容": "存储，是一种让数据“记住”的技术。你的工作软件、游戏程序因为DRAM（内存）变得稳定而流畅，你拍的照片和短视频，都可以从NAND（闪存）、HDD（机械硬盘）中随时读取...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/money/fund/jjh/2026-07-14/doc-inihtzzz4186797.shtml",
+    "标签": []
+  },
+  {
+    "id": 213843358,
+    "标题": "花旗：领展房产基金维持“买入”评级 目标价44.8港元",
+    "摘要": "花旗发布研报称，领展房产基金（00823）已于上周四（9日）启动单位回购，首日以平均价37.816元回购157万个单位，公司已表明将全数动用出售Thomson Plaza所得的2...",
+    "内容": "花旗发布研报称，领展房产基金（00823）已于上周四（9日）启动单位回购，首日以平均价37.816元回购157万个单位，公司已表明将全数动用出售Thomson Plaza所得的2...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 56,
+    "链接": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-07-14/doc-inihtzzz4186365.shtml",
+    "标签": []
+  },
+  {
+    "id": 3667248643,
+    "标题": "伊朗媒体：伊朗打击了两艘油轮 因无视警告违规航行",
+    "摘要": "据伊朗媒体周二早间报道，伊朗伊斯兰革命卫队“锁定并打击”两艘超级油轮，原因是它们关闭了导航系统，无视警告，危及航行安全。",
+    "内容": "据伊朗媒体周二早间报道，伊朗伊斯兰革命卫队“锁定并打击”两艘超级油轮，原因是它们关闭了导航系统，无视警告，危及航行安全。",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 57,
+    "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-07-14/doc-inihtzzx7409968.shtml",
+    "标签": []
+  },
+  {
+    "id": 2766590255,
+    "标题": "人工智能高额投入遭市场质疑 甲骨文股价大跌拖累埃里森富豪排名下滑",
+    "摘要": "受市场对人工智能（AI）资本开支过高以及债务压力的担忧影响，美国科技巨头甲骨文公司（Oracle）股价近日遭遇剧烈调整，导致该公司创始人兼董事长拉里·埃里森（Larry...",
+    "内容": "受市场对人工智能（AI）资本开支过高以及债务压力的担忧影响，美国科技巨头甲骨文公司（Oracle）股价近日遭遇剧烈调整，导致该公司创始人兼董事长拉里·埃里森（Larry...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-07-14/doc-inihtzzx7409556.shtml",
+    "标签": []
+  },
+  {
+    "id": 900647920,
+    "标题": "大和：腾讯控股目标价降至670港元 维持“买入”评级",
+    "摘要": "大和发布研报称，预计腾讯控股（00700）将上调对AI资本开支的预期，这将对其中期盈利带来压力。同时，游戏业务增长在高基数下有所放缓，但其市场份额增长势头依然完好。",
+    "内容": "大和发布研报称，预计腾讯控股（00700）将上调对AI资本开支的预期，这将对其中期盈利带来压力。同时，游戏业务增长在高基数下有所放缓，但其市场份额增长势头依然完好。",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 56,
+    "链接": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-07-14/doc-inihuaah5319790.shtml",
+    "标签": []
+  },
+  {
+    "id": 3121866441,
+    "标题": "“加息噩梦”萦绕？投资专家：沃什只会“喊鹰”，黄金长期牛市未变！",
+    "摘要": "来源：财联社 财联社7月14日讯（编辑 黄君芝）在美联储“加息噩梦”萦绕的环境下，安本集团（Abrdn）投资策略主管罗伯特·明特（Robert...",
+    "内容": "来源：财联社 财联社7月14日讯（编辑 黄君芝）在美联储“加息噩梦”萦绕的环境下，安本集团（Abrdn）投资策略主管罗伯特·明特（Robert...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/money/nmetal/gjshz/2026-07-14/doc-inihuaae8543499.shtml",
+    "标签": []
+  },
+  {
+    "id": 1287855998,
+    "标题": "谷歌斥资支持美国大型太阳能项目，用以抵消化石燃料碳排放",
+    "摘要": "谷歌敲定采购一座大型光伏电站全部发电量，用以抵消自身化石燃料碳排放。尽管特朗普政府不断出台政策打压可再生能源行业，市场对清洁能源的需求依旧旺盛。",
+    "内容": "谷歌敲定采购一座大型光伏电站全部发电量，用以抵消自身化石燃料碳排放。尽管特朗普政府不断出台政策打压可再生能源行业，市场对清洁能源的需求依旧旺盛。",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-07-14/doc-inihtzzx7408264.shtml",
+    "标签": []
+  },
+  {
+    "id": 4007602124,
+    "标题": "美科技巨头起诉OpenAI 揭示人工智能行业盟友关系破裂与竞争加剧",
+    "摘要": "美国科技巨头苹果公司近日正式起诉人工智能初创企业OpenAI，指控其涉嫌挖角苹果员工并窃取商业机密。此举标志着两家巨头此前的战略盟友关系彻底破裂...",
+    "内容": "美国科技巨头苹果公司近日正式起诉人工智能初创企业OpenAI，指控其涉嫌挖角苹果员工并窃取商业机密。此举标志着两家巨头此前的战略盟友关系彻底破裂...",
+    "来源": "新浪科技",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 59,
+    "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-07-14/doc-inihtzzz4183597.shtml",
+    "标签": [
+      "OpenAI"
+    ]
+  },
+  {
+    "id": 2504774963,
+    "标题": "独家解读丨为什么是 Virtue AI？揭秘 Meta 收购华人 AI 安全团队始末",
+    "摘要": "做决定之前，李博和 Virtue AI 团队讨论过很多问题。这不是一次简单的跳槽，也不是一个创业团队突然被大公司带走。对核心成员来说，他们要判断的不只是“要不要加入 Meta”，而是一个更具体的问题：如果过去两年做出来的 AI 安全能力，真的有机会进入数十亿用户规模的产品系统，他们要不要走进去？这件事最早并不是从一场收购谈判开始的。",
+    "内容": "做决定之前，李博和 Virtue AI 团队讨论过很多问题。这不是一次简单的跳槽，也不是一个创业团队突然被大公司带走。对核心成员来说，他们要判断的不只是“要不要加入 Meta”，而是一个更具体的问题：如果过去两年做出来的 AI 安全能力，真的有机会进入数十亿用户规模的产品系统，他们要不要走进去？这件事最早并不是从一场收购谈判开始的。",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-07-14",
+    "热度": 62,
+    "链接": "https://www.leiphone.com/category/ai/yqP7gtoJd0BkqQZ7.html",
+    "标签": [
+      "Meta"
+    ]
+  },
+  {
+    "id": 479699763,
+    "标题": "刚刚，GPT 5.6 发布会上，OpenAI 暴露了哪些 Agent 技术路线？",
+    "摘要": "ChatGPT 和 codex 合二为一。    作者丨郑佳美    编辑丨马晓宁                                                                                                       北京时间凌晨一点，GPT 5.6 亮相 Open AI 发布会。",
+    "内容": "ChatGPT 和 codex 合二为一。    作者丨郑佳美    编辑丨马晓宁                                                                                                       北京时间凌晨一点，GPT 5.6 亮相 Open AI 发布会。",
+    "来源": "雷锋网",
+    "分类": "大模型",
+    "日期": "2026-07-14",
+    "热度": 73,
+    "链接": "https://www.leiphone.com/category/ai/yRE0svXZn6QDTNov.html",
+    "标签": [
+      "ChatGPT",
+      "OpenAI"
+    ]
+  },
+  {
+    "id": 164527907,
+    "标题": "Anthropic 发文称自家 Claude 已经开智，网友：为了上市，不择手段？",
+    "摘要": "技术发现不小，但意识叙事争议更大。    作者丨郑佳美    编辑丨马晓宁                                                                                                       刚刚，Anthropic 发了一个关于 Claude 内部机制的新研究，",
+    "内容": "技术发现不小，但意识叙事争议更大。    作者丨郑佳美    编辑丨马晓宁                                                                                                       刚刚，Anthropic 发了一个关于 Claude 内部机制的新研究，",
+    "来源": "雷锋网",
+    "分类": "大模型",
+    "日期": "2026-07-14",
+    "热度": 65,
+    "链接": "https://www.leiphone.com/category/ai/a26ldgnexT93o9LV.html",
+    "标签": [
+      "Claude",
+      "Anthropic"
+    ]
+  },
+  {
+    "id": 3258410202,
+    "标题": "刚刚，DeepSeek 文档更新，Agent 开发者要注意这个字段",
+    "摘要": "模型会调工具之后，状态管理成了新难题。    作者丨郑佳美    编辑丨马晓宁                                                                                                       刚刚，",
+    "内容": "模型会调工具之后，状态管理成了新难题。    作者丨郑佳美    编辑丨马晓宁                                                                                                       刚刚，",
+    "来源": "雷锋网",
+    "分类": "大模型",
+    "日期": "2026-07-14",
+    "热度": 59,
+    "链接": "https://www.leiphone.com/category/ai/3KPgkefKuQNtTxzN.html",
+    "标签": [
+      "DeepSeek"
+    ]
+  },
+  {
+    "id": 230135105,
+    "标题": "逐际动力完成2亿美元Pre-IPO 轮融资，半年累计融资4亿美元",
+    "摘要": "近日，通用人形机器人企业逐际动力 LimX Dynamics 宣布完成近 2 亿美元 Pre-IPO 轮融资，投后估值达 150 亿元，跻身超级百亿独角兽行列。公司过去半年累计完成融资 4 亿美元，为后续资本市场运作筑牢基础。 据悉，本轮融资汇聚了中国、欧洲、中东、北美及东南亚的全球头部资本，充分体现了全球市场对具身智能产业长期价值的认可，",
+    "内容": "近日，通用人形机器人企业逐际动力 LimX Dynamics 宣布完成近 2 亿美元 Pre-IPO 轮融资，投后估值达 150 亿元，跻身超级百亿独角兽行列。公司过去半年累计完成融资 4 亿美元，为后续资本市场运作筑牢基础。 据悉，本轮融资汇聚了中国、欧洲、中东、北美及东南亚的全球头部资本，充分体现了全球市场对具身智能产业长期价值的认可，",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-07-14",
+    "热度": 71,
+    "链接": "https://www.leiphone.com/category/robot/kgzBZPwpqBBLdoed.html",
+    "标签": [
+      "具身智能",
+      "人形机器人"
+    ]
+  },
+  {
+    "id": 3677673184,
+    "标题": "激光雷达割草机器人如何盈利？我们找耐士劳总裁秦岭算了一笔账",
+    "摘要": "01 一台没有上市的原型机2022年5月，一座公园里，一台无边界智能割草机原型机正在草坪上来回运行。从结果看，它跑得不错。彼时，秦岭刚加入团队不久，接手的第一个业务就是割草机。团队从2021年底开始组建，到2022年初核心成员基本就位，经过大约5个月研发，做出了这台样机。而这支团队，正是今天独立运作的全球智能户外庭院公司“耐士劳智能科技”的前身。",
+    "内容": "01 一台没有上市的原型机2022年5月，一座公园里，一台无边界智能割草机原型机正在草坪上来回运行。从结果看，它跑得不错。彼时，秦岭刚加入团队不久，接手的第一个业务就是割草机。团队从2021年底开始组建，到2022年初核心成员基本就位，经过大约5个月研发，做出了这台样机。而这支团队，正是今天独立运作的全球智能户外庭院公司“耐士劳智能科技”的前身。",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-07-14",
+    "热度": 64,
+    "链接": "https://www.leiphone.com/category/robot/RR4IBkYWGxNiggvB.html",
+    "标签": []
+  },
+  {
+    "id": 3061543619,
+    "标题": "全国首个体育古籍专题数据库上线，识典古籍联合北京体育大学共建",
+    "摘要": "日前，由识典古籍平台联合北京体育大学人文学院、北京体育大学图书馆共同打造的“中国体育古籍数据库”正式上线。这是全国首个聚焦古代体育古籍文献的专题数据库，涵盖射箭、球类、武术等六大专题内容，以数字技术助力中国古代体育文化的学术研究及大众传播。“中国体育古籍数据库”在识典古籍平台上线六大专题，",
+    "内容": "日前，由识典古籍平台联合北京体育大学人文学院、北京体育大学图书馆共同打造的“中国体育古籍数据库”正式上线。这是全国首个聚焦古代体育古籍文献的专题数据库，涵盖射箭、球类、武术等六大专题内容，以数字技术助力中国古代体育文化的学术研究及大众传播。“中国体育古籍数据库”在识典古籍平台上线六大专题，",
+    "来源": "雷锋网",
+    "分类": "学术前沿",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://www.leiphone.com/category/industrynews/UksxFvs1iGgNd0yG.html",
+    "标签": []
+  },
+  {
+    "id": 3370867735,
+    "标题": "深耕校园场景，企鹅科技成支付宝首批“碰一下”进校企业",
+    "摘要": "7月8日，支付宝“碰一下”公布最新数据，经过两年迭代发展，“碰一下”已有4亿用户、2300余家生态服务商、超3000万线下AI触点。碰一下由此构建全球首个大规模线下AI经营网络。作为支付宝生态长期深度合作伙伴，企鹅科技率先完成碰一下全校园场景规模化落地，目前也已经走出一条从硬件设备供应商向全域校园数字化服务商转型的发展路径。",
+    "内容": "7月8日，支付宝“碰一下”公布最新数据，经过两年迭代发展，“碰一下”已有4亿用户、2300余家生态服务商、超3000万线下AI触点。碰一下由此构建全球首个大规模线下AI经营网络。作为支付宝生态长期深度合作伙伴，企鹅科技率先完成碰一下全校园场景规模化落地，目前也已经走出一条从硬件设备供应商向全域校园数字化服务商转型的发展路径。",
+    "来源": "雷锋网",
+    "分类": "行业动态",
+    "日期": "2026-07-14",
+    "热度": 50,
+    "链接": "https://www.leiphone.com/category/industrynews/dXk6ZqqmqwtAyFZD.html",
+    "标签": []
+  },
+  {
+    "id": 1913854041,
+    "标题": "OpenAI 商业化版图「一拆为三」，原掌舵人 Fidji Simo 突遭离职",
+    "摘要": "就在 OpenAI 发布办公智能体 ChatGPT Work，冲刺 To B 市场时，它的商业化掌舵人却意外离场。近日，OpenAI 负责“AGI 部署与应用”的首席执行官 Fidji Simo 在社交平台 X 上公开宣布：由于过去三个月里慢性神经免疫疾病（POTS）的严重恶化，她将卸任全职高管职务，退居二线转任公司的兼职顾问。",
+    "内容": "就在 OpenAI 发布办公智能体 ChatGPT Work，冲刺 To B 市场时，它的商业化掌舵人却意外离场。近日，OpenAI 负责“AGI 部署与应用”的首席执行官 Fidji Simo 在社交平台 X 上公开宣布：由于过去三个月里慢性神经免疫疾病（POTS）的严重恶化，她将卸任全职高管职务，退居二线转任公司的兼职顾问。",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-07-14",
+    "热度": 73,
+    "链接": "https://www.leiphone.com/category/industrynews/AsJkNmGbxJ5mPq93.html",
+    "标签": [
+      "ChatGPT",
+      "OpenAI"
+    ]
+  },
+  {
+    "id": 2072695373,
+    "标题": "为智能体重新设计操作系统：全球首个智能体原生操作系统Step AOS发布",
+    "摘要": "7月13日，阶跃星辰在上海举办发布会，正式发布全球首个智能体原生操作系统Step AOS（Step Agentic-native OS）、基于模型矩阵及Step AOS打造的个人智能体阶跃Amoo，以及大模型原生AI终端品牌STEPX。全球首款大模型原生智能体手机STEPX Neo同场亮相。至此，阶跃构建起从模型、系统到终端的“模软硬”三位一体技术闭环。",
+    "内容": "7月13日，阶跃星辰在上海举办发布会，正式发布全球首个智能体原生操作系统Step AOS（Step Agentic-native OS）、基于模型矩阵及Step AOS打造的个人智能体阶跃Amoo，以及大模型原生AI终端品牌STEPX。全球首款大模型原生智能体手机STEPX Neo同场亮相。至此，阶跃构建起从模型、系统到终端的“模软硬”三位一体技术闭环。",
+    "来源": "雷锋网",
+    "分类": "AI应用",
+    "日期": "2026-07-14",
+    "热度": 56,
+    "链接": "https://www.leiphone.com/category/ai/DCPWHecweBJl5y9S.html",
+    "标签": [
+      "大模型"
+    ]
+  },
+  {
     "id": 2261483135,
     "标题": "菲尔兹奖提前泄露！王虹邓煜双双在列",
     "摘要": "都是北大07级校友",
@@ -158,6 +689,25 @@
     "热度": 50,
     "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-07-14/doc-inihtrnk8519534.shtml",
     "标签": []
+  },
+  {
+    "id": 1573713762,
+    "标题": "【原生·一手】通过 ATL Saathi 为印度下一代创新者提供支持",
+    "摘要": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+    "内容": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+    "来源": "Google DeepMind 官方",
+    "分类": "原生资讯",
+    "日期": "2026-07-13",
+    "热度": 65,
+    "链接": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+    "标签": [
+      "原生资讯",
+      "Google DeepMind 官方",
+      "Gemini",
+      "Google"
+    ],
+    "原标题": "【原生·一手】Empowering India’s next generation of innovators with ATL Saathi",
+    "中文提炼": ""
   },
   {
     "id": 3711680372,
@@ -5904,674 +6454,92 @@
     ]
   },
   {
-    "id": 1423086741,
-    "标题": "华泰期货：中东局势再起波折，燃料油市场整体反弹",
-    "摘要": "作者： 康远宁 市场分析 上期所燃料油期货主力合约夜盘收涨1.57%，报2978元/吨；INE低硫燃料油期货主力合约夜盘收涨1.54%，报3830元/吨。",
-    "内容": "作者： 康远宁 市场分析 上期所燃料油期货主力合约夜盘收涨1.57%，报2978元/吨；INE低硫燃料油期货主力合约夜盘收涨1.54%，报3830元/吨。",
-    "来源": "新浪科技",
-    "分类": "行业动态",
-    "日期": "2026-07-08",
-    "热度": 50,
-    "链接": "https://finance.sina.com.cn/money/future/fmnews/2026-07-08/doc-inihaawc1398509.shtml",
-    "标签": []
-  },
-  {
-    "id": 3257526920,
-    "标题": "【原生·一手】乐机器人v0.6.0：想象、评估、改进",
-    "摘要": "",
-    "内容": "",
-    "来源": "Hugging Face 官方",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://huggingface.co/blog/lerobot-release-v060",
-    "标签": [
-      "原生资讯",
-      "Hugging Face 官方"
-    ],
-    "原标题": "【原生·一手】LeRobot v0.6.0: Imagine, Evaluate, Improve",
-    "中文提炼": ""
-  },
-  {
-    "id": 518340347,
-    "标题": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
-    "摘要": "New Innovation Graph data shows global developer communities growing faster than ever, with collaboration reaching new highs across many economies. The post Q1 2026 Innovation",
-    "内容": "New Innovation Graph data shows global developer communities growing faster than ever, with collaboration reaching new highs across many economies. The post Q1 2026 Innovation",
-    "来源": "GitHub 官方博客",
-    "分类": "行业动态",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
-    "标签": []
-  },
-  {
-    "id": 2688191906,
-    "标题": "【原生·模型】Australian Payment Plus 借助 ChatGPT 和 Codex 加快步伐",
-    "摘要": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment",
-    "内容": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment",
-    "来源": "OpenAI 官方",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 58,
-    "链接": "https://openai.com/index/australian-payments-plus",
-    "标签": [
-      "原生资讯",
-      "OpenAI 官方",
-      "ChatGPT"
-    ],
-    "原标题": "【原生·模型】Australian Payments Plus moves faster with ChatGPT and Codex",
-    "中文提炼": ""
-  },
-  {
-    "id": 1364745622,
-    "标题": "【原生·一手】MUFG 旨在通过 OpenAI 成为人工智能原生",
-    "摘要": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-    "内容": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-    "来源": "OpenAI 官方",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 67,
-    "链接": "https://openai.com/index/mufg",
-    "标签": [
-      "原生资讯",
-      "OpenAI 官方",
-      "ChatGPT",
-      "OpenAI"
-    ],
-    "原标题": "【原生·一手】MUFG aims to become AI-native with OpenAI",
-    "中文提炼": ""
-  },
-  {
-    "id": 408823037,
-    "标题": "【原生·一手】一键从 Hugging Face 到 Amazon SageMaker Studio",
-    "摘要": "",
-    "内容": "",
-    "来源": "Hugging Face 官方",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-    "标签": [
-      "原生资讯",
-      "Hugging Face 官方"
-    ],
-    "原标题": "【原生·一手】From Hugging Face to Amazon SageMaker Studio in one click",
-    "中文提炼": ""
-  },
-  {
-    "id": 2659178025,
-    "标题": "【原生·模型】Foundry 托管计算上的拥抱脸部模型",
-    "摘要": "",
-    "内容": "",
-    "来源": "Hugging Face 官方",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-    "标签": [
-      "原生资讯",
-      "Hugging Face 官方"
-    ],
-    "原标题": "【原生·模型】Hugging Face Models on Foundry Managed Compute",
-    "中文提炼": ""
-  },
-  {
-    "id": 2648011419,
-    "标题": "【原生·一手】在任何云上运行 AI 工作负载，存储在 Hugging Face 上：使用 SkyPilot 实现零出口存储",
-    "摘要": "",
-    "内容": "",
-    "来源": "Hugging Face 官方",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://huggingface.co/blog/skypilot-hf-storage",
-    "标签": [
-      "原生资讯",
-      "Hugging Face 官方",
-      "RAG"
-    ],
-    "原标题": "【原生·一手】Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-    "中文提炼": ""
-  },
-  {
-    "id": 3343316915,
-    "标题": "【原生·一手】科大讯飞-Embodied-Omni技术报告",
-    "摘要": "arXiv:2607.02542v1 Announce Type: new Abstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce",
-    "内容": "arXiv:2607.02542v1 Announce Type: new Abstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02542",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·一手】iFLYTEK-Embodied-Omni Technical Report",
-    "中文提炼": ""
-  },
-  {
-    "id": 1757582263,
-    "标题": "【原生·一手】内部多元化和成对比较的局限性",
-    "摘要": "arXiv:2607.02672v1 Announce Type: new Abstract: Local pairwise comparisons are a standard tool for learning how people want decision rules to work, e.g., in participatory design",
-    "内容": "arXiv:2607.02672v1 Announce Type: new Abstract: Local pairwise comparisons are a standard tool for learning how people want decision rules to work, e.g., in participatory design",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02672",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·一手】Internal Pluralism and the Limits of Pairwise Comparisons",
-    "中文提炼": ""
-  },
-  {
-    "id": 4294061516,
-    "标题": "【原生·模型】ASK in the Dark：部分可观察性下的不确定性门控法学硕士援助",
-    "摘要": "arXiv:2607.02686v1 Announce Type: new Abstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural",
-    "内容": "arXiv:2607.02686v1 Announce Type: new Abstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02686",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·模型】ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
-    "中文提炼": ""
-  },
-  {
-    "id": 3474561266,
-    "标题": "【原生·一手】科学人工智能的自动化数据准备",
-    "摘要": "arXiv:2607.02771v1 Announce Type: new Abstract: Leadership computing facilities steward large-scale scientific datasets that routinely require substantial transformation before",
-    "内容": "arXiv:2607.02771v1 Announce Type: new Abstract: Leadership computing facilities steward large-scale scientific datasets that routinely require substantial transformation before",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02771",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·一手】Automated Data Readiness for Scientific AI",
-    "中文提炼": ""
-  },
-  {
-    "id": 2986526505,
-    "标题": "【原生·研究】SwarmResearch：编排编码代理以实现开放式发现",
-    "摘要": "arXiv:2607.02807v1 Announce Type: new Abstract: Long-running coding agents such as autoresearch can persistently discover optimizations for open-ended problems. However, they tend",
-    "内容": "arXiv:2607.02807v1 Announce Type: new Abstract: Long-running coding agents such as autoresearch can persistently discover optimizations for open-ended problems. However, they tend",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02807",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·研究】SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery",
-    "中文提炼": ""
-  },
-  {
-    "id": 2127367318,
-    "标题": "【原生·模型】代理任务的以对象为中心的环境建模",
-    "摘要": "arXiv:2607.02846v1 Announce Type: new Abstract: Large language model (LLM) agents can improve through accumulated experience, but free-form textual memories become difficult to",
-    "内容": "arXiv:2607.02846v1 Announce Type: new Abstract: Large language model (LLM) agents can improve through accumulated experience, but free-form textual memories become difficult to",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02846",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·模型】Object-Centric Environment Modeling for Agentic Tasks",
-    "中文提炼": ""
-  },
-  {
-    "id": 50567466,
-    "标题": "【原生·模型】MedCalc-Pro：使用 LLM 代理解决复杂的医学计算",
-    "摘要": "arXiv:2607.02879v1 Announce Type: new Abstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings,",
-    "内容": "arXiv:2607.02879v1 Announce Type: new Abstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings,",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02879",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·模型】MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
-    "中文提炼": ""
-  },
-  {
-    "id": 568792822,
-    "标题": "【原生·模型】Oyster-II：大型语言模型中用于建设性安全调整的强化学习",
-    "摘要": "arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous",
-    "内容": "arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02914",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·模型】Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
-    "中文提炼": ""
-  },
-  {
-    "id": 4111920129,
-    "标题": "【原生·研究】VERITAS：面向科学研究的通用复制工具",
-    "摘要": "arXiv:2607.02931v1 Announce Type: new Abstract: AI tools are accelerating scientific publication while the systems that review it struggle to keep up, and independent verification",
-    "内容": "arXiv:2607.02931v1 Announce Type: new Abstract: AI tools are accelerating scientific publication while the systems that review it struggle to keep up, and independent verification",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02931",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·研究】VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
-    "中文提炼": ""
-  },
-  {
-    "id": 3416242666,
-    "标题": "【原生·一手】基于滑动窗口的强化学习，用于多产品交付的动态装配流水车间调度",
-    "摘要": "arXiv:2607.02941v1 Announce Type: new Abstract: Multi-product kitting delivery imposes significant challenges for real-time scheduling in hybrid manufacturing systems that",
-    "内容": "arXiv:2607.02941v1 Announce Type: new Abstract: Multi-product kitting delivery imposes significant challenges for real-time scheduling in hybrid manufacturing systems that",
-    "来源": "arXiv AI",
-    "分类": "原生资讯",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://arxiv.org/abs/2607.02941",
-    "标签": [
-      "原生资讯",
-      "arXiv AI"
-    ],
-    "原标题": "【原生·一手】A Sliding-Window-Based Reinforcement Learning for Dynamic Assembly Flow Shop Scheduling with Multi-Product Delivery",
-    "中文提炼": ""
-  },
-  {
-    "id": 3727478647,
-    "标题": "DeepSeek招聘被「华为天才少年」公开吐槽，“面到最不专业的”",
-    "摘要": "难怪DeepSeek要着重强调招HR（doge）",
-    "内容": "难怪DeepSeek要着重强调招HR（doge）",
-    "来源": "量子位",
-    "分类": "大模型",
-    "日期": "2026-07-07",
-    "热度": 67,
-    "链接": "https://www.qbitai.com/2026/07/445608.html",
-    "标签": [
-      "DeepSeek",
-      "华为"
-    ]
-  },
-  {
-    "id": 1594529092,
-    "标题": "从共识到非共识：科技有「联想」沙龙首场活动直击具身智能产业化“三大困惑”",
-    "摘要": "“共识与非共识”的深度思辨",
-    "内容": "“共识与非共识”的深度思辨",
-    "来源": "量子位",
-    "分类": "行业动态",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/07/445443.html",
-    "标签": [
-      "具身智能"
-    ]
-  },
-  {
-    "id": 748564942,
-    "标题": "我宣布这是中国最神奇的造车新势力",
-    "摘要": "仅靠一款车5年不倒",
-    "内容": "仅靠一款车5年不倒",
-    "来源": "量子位",
-    "分类": "行业动态",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/07/445292.html",
-    "标签": []
-  },
-  {
-    "id": 1921568202,
-    "标题": "让Skill“有图可依”：openJiuwen首发多模态Skill范式Skill-Omni",
-    "摘要": "从文字说明书到多模态经验库",
-    "内容": "从文字说明书到多模态经验库",
-    "来源": "量子位",
-    "分类": "开源工具",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/07/445229.html",
-    "标签": [
-      "多模态"
-    ]
-  },
-  {
-    "id": 1720640221,
-    "标题": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
-    "摘要": "来自蚂蚁灵波",
-    "内容": "来自蚂蚁灵波",
-    "来源": "量子位",
-    "分类": "AI应用",
-    "日期": "2026-07-07",
-    "热度": 64,
-    "链接": "https://www.qbitai.com/2026/07/445230.html",
-    "标签": [
-      "开源"
-    ]
-  },
-  {
-    "id": 2365622885,
-    "标题": "机器人视觉迎来新突破！蚂蚁灵波空间感知模型LingBot-Depth 2.0正式发布",
-    "摘要": "",
-    "内容": "",
-    "来源": "量子位",
-    "分类": "AI应用",
-    "日期": "2026-07-07",
-    "热度": 71,
-    "链接": "https://www.qbitai.com/2026/07/445184.html",
-    "标签": []
-  },
-  {
-    "id": 738447077,
-    "标题": "征程赶超｜WAIC 2026科学智能：AI4S从“辅助计算”到“自主发现”，中国如何重塑全球科研版图？",
-    "摘要": "",
-    "内容": "",
-    "来源": "量子位",
-    "分类": "学术前沿",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://www.qbitai.com/2026/07/445067.html",
-    "标签": []
-  },
-  {
-    "id": 2044193946,
-    "标题": "征程赶超｜WAIC 2026理论突破：以数理双向赋能为钥，开启AI范式革新新征程",
-    "摘要": "",
-    "内容": "",
-    "来源": "量子位",
-    "分类": "学术前沿",
-    "日期": "2026-07-07",
-    "热度": 58,
-    "链接": "https://www.qbitai.com/2026/07/444859.html",
-    "标签": []
-  },
-  {
-    "id": 302642088,
-    "标题": "Claude的脑子里，也长出了一块「意识」",
-    "摘要": "内部发现「类脑空间」，删掉就变傻",
-    "内容": "内部发现「类脑空间」，删掉就变傻",
-    "来源": "量子位",
-    "分类": "大模型",
-    "日期": "2026-07-07",
-    "热度": 58,
-    "链接": "https://www.qbitai.com/2026/07/444741.html",
-    "标签": [
-      "Claude"
-    ]
-  },
-  {
-    "id": 1090972231,
-    "标题": "瑞为技术暗盘破发，收盘跌17%｜敲钟时刻",
-    "摘要": "《敲钟时刻》栏目聚焦企业正式登陆资本市场的关键时刻。每一次敲钟之后，市场都会给出它对一家企业增长、估值与成色的第一重答案。 在7月7日下午的暗盘，视觉具身智能第一股瑞为技术（07656.HK）破发了。暗盘收在17.99港元，较21.66港元的发行价跌16.94%，对应市值54.92亿港元。",
-    "内容": "《敲钟时刻》栏目聚焦企业正式登陆资本市场的关键时刻。每一次敲钟之后，市场都会给出它对一家企业增长、估值与成色的第一重答案。 在7月7日下午的暗盘，视觉具身智能第一股瑞为技术（07656.HK）破发了。暗盘收在17.99港元，较21.66港元的发行价跌16.94%，对应市值54.92亿港元。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://36kr.com/p/3885560015220997?f=rss",
-    "标签": [
-      "具身智能"
-    ]
-  },
-  {
-    "id": 650497190,
-    "标题": "易控智驾暗盘破发：盘中一度跌近两成、收涨4%｜敲钟时刻",
-    "摘要": "《敲钟时刻》栏目聚焦企业正式登陆资本市场的关键时刻。每一次敲钟之后，市场都会给出它对一家企业增长、估值与成色的第一重答案。 上市前夜，全球矿区无人驾驶第一股易控智驾（07687.HK）在富途暗盘走出一条 V 形。截至 7 月 7 日 18:30 暗盘收盘，报 91.50 港元，较发行价 87.92 港元上涨 4.07%。",
-    "内容": "《敲钟时刻》栏目聚焦企业正式登陆资本市场的关键时刻。每一次敲钟之后，市场都会给出它对一家企业增长、估值与成色的第一重答案。 上市前夜，全球矿区无人驾驶第一股易控智驾（07687.HK）在富途暗盘走出一条 V 形。截至 7 月 7 日 18:30 暗盘收盘，报 91.50 港元，较发行价 87.92 港元上涨 4.07%。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-07-07",
-    "热度": 57,
-    "链接": "https://36kr.com/p/3885481886674951?f=rss",
-    "标签": []
-  },
-  {
-    "id": 3518672715,
-    "标题": "氪星晚报 ｜苹果折叠屏已在量产；潘功胜：香港可以抓住有利时机，吸引更多主权财富和国际企业到港发债融资",
-    "摘要": "大公司： 网传“7月1日新规：新车智驾芯片自主化率不低于70%”系谣言 36氪获悉，近日，有网民发布题为《7月1日新规正式落地！新车智驾芯片自主化率不低于70%》的文章。文中称“7月1日，工信部联合市监总局出台的《新能源汽车车规级AI芯片技术规范》正式强制执行”，并称“国内生产、销售的所有新能源乘用车，智驾芯片全链路关键技术自主化率必须达到70%以上，",
-    "内容": "大公司： 网传“7月1日新规：新车智驾芯片自主化率不低于70%”系谣言 36氪获悉，近日，有网民发布题为《7月1日新规正式落地！新车智驾芯片自主化率不低于70%》的文章。文中称“7月1日，工信部联合市监总局出台的《新能源汽车车规级AI芯片技术规范》正式强制执行”，并称“国内生产、销售的所有新能源乘用车，智驾芯片全链路关键技术自主化率必须达到70%以上，",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-07-07",
-    "热度": 69,
-    "链接": "https://36kr.com/p/3885457443385346?f=rss",
-    "标签": [
-      "AI芯片"
-    ]
-  },
-  {
-    "id": 1077504749,
-    "标题": "不做fast follow的人，都想创造一个新的世界丨36氪离线聚会第三期",
-    "摘要": "“理性的人让自己适应世界，不理性的人坚持让世界适应自己。因此，一切进步都取决于不理性的人。” 萧伯纳在《人与超人》里的论断，其实缺少了一个前提：让世界适应自己，你得先看见一个别人还没看见的世界。 无法否认的是，过去二十年在中国的科技行业里，有一条相对成熟的路径：fast follow。看硅谷做了什么，更快、更便宜地做一遍。",
-    "内容": "“理性的人让自己适应世界，不理性的人坚持让世界适应自己。因此，一切进步都取决于不理性的人。” 萧伯纳在《人与超人》里的论断，其实缺少了一个前提：让世界适应自己，你得先看见一个别人还没看见的世界。 无法否认的是，过去二十年在中国的科技行业里，有一条相对成熟的路径：fast follow。看硅谷做了什么，更快、更便宜地做一遍。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-07-07",
-    "热度": 50,
-    "链接": "https://36kr.com/p/3885415199076352?f=rss",
-    "标签": []
-  },
-  {
-    "id": 3164104241,
-    "标题": "北斗人创业，要建太空数据中心，「星际原点」连续完成两轮数千万元融资���36氪首发",
-    "摘要": "文 | 阿至 太空算力赛道又有新玩家入场。 36氪获悉，太空算力卫星系统解决方案提供商星际原点航天科技（上海）有限公司（以下简称“星际原点”）已于近期连续完成种子轮、天使轮两轮融资，累计规模为数千万元。 种子轮投资方为九合创投。天使轮由老股东九合创投、梅花创投和上海国投旗下上海科创集团策源基金联合领投，上海天使会以联合投资形式参与。一苇资本担任独家财务顾问。",
-    "内容": "文 | 阿至 太空算力赛道又有新玩家入场。 36氪获悉，太空算力卫星系统解决方案提供商星际原点航天科技（上海）有限公司（以下简称“星际原点”）已于近期连续完成种子轮、天使轮两轮融资，累计规模为数千万元。 种子轮投资方为九合创投。天使轮由老股东九合创投、梅花创投和上海国投旗下上海科创集团策源基金联合领投，上海天使会以联合投资形式参与。一苇资本担任独家财务顾问。",
-    "来源": "36氪",
-    "分类": "行业动态",
-    "日期": "2026-07-07",
-    "热度": 56,
-    "链接": "https://36kr.com/p/3885413484163074?f=rss",
-    "标签": []
-  },
-  {
-    "id": 1618011845,
-    "标题": "【原生·一手】PRX 第 4 部分：我们的数据策略",
-    "摘要": "",
-    "内容": "",
-    "来源": "Hugging Face 官方",
-    "分类": "原生资讯",
-    "日期": "2026-07-06",
-    "热度": 50,
-    "链接": "https://huggingface.co/blog/Photoroom/prx-part4-data",
-    "标签": [
-      "原生资讯",
-      "Hugging Face 官方"
-    ],
-    "原标题": "【原生·一手】PRX Part 4: Our Data Strategy",
-    "中文提炼": ""
-  },
-  {
-    "id": 302091663,
-    "标题": "【原生·一手】🤗 内核：主要更新",
-    "摘要": "",
-    "内容": "",
-    "来源": "Hugging Face 官方",
-    "分类": "原生资讯",
-    "日期": "2026-07-06",
-    "热度": 50,
-    "链接": "https://huggingface.co/blog/revamped-kernels",
-    "标签": [
-      "原生资讯",
-      "Hugging Face 官方"
-    ],
-    "原标题": "【原生·一手】🤗 Kernels: Major Updates",
-    "中文提炼": ""
-  },
-  {
-    "id": 4262839586,
-    "标题": "How GitHub used secret scanning to reach inbox zero",
-    "摘要": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine",
-    "内容": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine",
-    "来源": "GitHub 官方博客",
-    "分类": "开源工具",
-    "日期": "2026-07-02",
-    "热度": 50,
-    "链接": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
-    "标签": []
-  },
-  {
-    "id": 2303606673,
-    "标题": "6 security settings every GitHub maintainer should enable this week",
-    "摘要": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder",
-    "内容": "These six free settings will not make your project unhackable. Nothing will. What they will do is close the easy doors. Turn these on, and your project will be meaningfully harder",
-    "来源": "GitHub 官方博客",
-    "分类": "AI应用",
-    "日期": "2026-07-01",
-    "热度": 50,
-    "链接": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
-    "标签": []
-  },
-  {
-    "id": 361520207,
-    "标题": "【原生·一手】开始使用 Nano Banana 2 Lite 和 Gemini Omni Flash 进行构建",
+    "id": 3492969724,
+    "标题": "【原生·发布】谷歌 DeepMind 和 A24 宣布建立首个研究合作伙伴关系",
     "摘要": "",
     "内容": "",
     "来源": "Google DeepMind 官方",
     "分类": "原生资讯",
-    "日期": "2026-06-30",
-    "热度": 58,
-    "链接": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+    "日期": "2026-07-03",
+    "热度": 63,
+    "链接": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+    "标签": [
+      "原生资讯",
+      "Google DeepMind 官方",
+      "Google"
+    ],
+    "原标题": "【原生·发布】Google DeepMind and A24 announce first-of-its-kind research partnership",
+    "中文提炼": ""
+  },
+  {
+    "id": 3679952800,
+    "标题": "【原生·一手】Hugging Face 和 Cerebras 将 Gemma 4 引入实时语音 AI",
+    "摘要": "",
+    "内容": "",
+    "来源": "Hugging Face 官方",
+    "分类": "原生资讯",
+    "日期": "2026-07-01",
+    "热度": 50,
+    "链接": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+    "标签": [
+      "原生资讯",
+      "Hugging Face 官方"
+    ],
+    "原标题": "【原生·一手】Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+    "中文提炼": ""
+  },
+  {
+    "id": 2277760319,
+    "标题": "【原生·发布】Gemini 3.5 Flash 中电脑使用介绍",
+    "摘要": "",
+    "内容": "",
+    "来源": "Google DeepMind 官方",
+    "分类": "原生资讯",
+    "日期": "2026-06-24",
+    "热度": 64,
+    "链接": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
     "标签": [
       "原生资讯",
       "Google DeepMind 官方",
       "Gemini"
     ],
-    "原标题": "【原生·一手】Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+    "原标题": "【原生·发布】Introducing computer use in Gemini 3.5 Flash",
     "中文提炼": ""
   },
   {
-    "id": 2680767883,
-    "标题": "How GitHub maintains compliance for open source dependencies",
-    "摘要": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale. The post How GitHub maintains compliance for",
-    "内容": "Explore how the Open Source Program Office uses GitHub’s new license compliance product to manage open source dependencies at scale. The post How GitHub maintains compliance for",
-    "来源": "GitHub 官方博客",
-    "分类": "AI应用",
-    "日期": "2026-06-30",
-    "热度": 50,
-    "链接": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
-    "标签": []
-  },
-  {
-    "id": 873322615,
-    "标题": "Highlights from Git 2.55",
-    "摘要": "The open source Git project just released Git 2.55. Here is GitHub’s look at some of the most interesting features and changes introduced since last time. The post Highlights from",
-    "内容": "The open source Git project just released Git 2.55. Here is GitHub’s look at some of the most interesting features and changes introduced since last time. The post Highlights from",
-    "来源": "GitHub 官方博客",
-    "分类": "开源工具",
-    "日期": "2026-06-29",
-    "热度": 50,
-    "链接": "https://github.blog/open-source/git/highlights-from-git-2-55/",
-    "标签": []
-  },
-  {
-    "id": 2218521383,
-    "标题": "【原生·一手】DiffusionGemma：文本生成速度提高 4 倍",
-    "摘要": "",
-    "内容": "",
+    "id": 1141707793,
+    "标题": "【原生·一手】通过人工智能加速规划解锁英国房屋建设",
+    "摘要": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+    "内容": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
     "来源": "Google DeepMind 官方",
     "分类": "原生资讯",
-    "日期": "2026-06-10",
-    "热度": 50,
-    "链接": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-    "标签": [
-      "原生资讯",
-      "Google DeepMind 官方"
-    ],
-    "原标题": "【原生·一手】DiffusionGemma: 4x faster text generation",
-    "中文提炼": ""
-  },
-  {
-    "id": 1469028775,
-    "标题": "【原生·研究】投资多智能体人工智能安全研究",
-    "摘要": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-    "内容": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-    "来源": "Google DeepMind 官方",
-    "分类": "原生资讯",
-    "日期": "2026-06-10",
+    "日期": "2026-06-16",
     "热度": 57,
-    "链接": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "链接": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
     "标签": [
       "原生资讯",
       "Google DeepMind 官方",
       "Google"
     ],
-    "原标题": "【原生·研究】Investing in multi-agent AI safety research",
+    "原标题": "【原生·一手】Unlocking UK house-building with AI-accelerated planning",
     "中文提炼": ""
   },
   {
-    "id": 3120267257,
-    "标题": "【原生·一手】使用 Gemini 3.5 实时翻译进行流畅、自然的语音翻译",
-    "摘要": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-    "内容": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+    "id": 2189715276,
+    "标题": "【原生·开发者】确保人工智能代理的未来",
+    "摘要": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+    "内容": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
     "来源": "Google DeepMind 官方",
     "分类": "原生资讯",
-    "日期": "2026-06-09",
-    "热度": 65,
-    "链接": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+    "日期": "2026-06-16",
+    "热度": 58,
+    "链接": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
     "标签": [
       "原生资讯",
       "Google DeepMind 官方",
-      "Gemini",
-      "Google"
+      "AI Agent"
     ],
-    "原标题": "【原生·一手】Fluid, natural voice translation with Gemini 3.5 Live Translate",
-    "中文提炼": ""
-  },
-  {
-    "id": 3670505839,
-    "标题": "【原生·发布】Gemma 4 12B 简介：统一、无编码器的多模态模型",
-    "摘要": "",
-    "内容": "",
-    "来源": "Google DeepMind 官方",
-    "分类": "原生资讯",
-    "日期": "2026-06-09",
-    "热度": 56,
-    "链接": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-    "标签": [
-      "原生资讯",
-      "Google DeepMind 官方"
-    ],
-    "原标题": "【原生·发布】Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-    "中文提炼": ""
-  },
-  {
-    "id": 309663044,
-    "标题": "【原生·一手】为欧洲机器人技术的未来提供动力",
-    "摘要": "",
-    "内容": "",
-    "来源": "Google DeepMind 官方",
-    "分类": "原生资讯",
-    "日期": "2026-06-09",
-    "热度": 50,
-    "链接": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-    "标签": [
-      "原生资讯",
-      "Google DeepMind 官方"
-    ],
-    "原标题": "【原生·一手】Powering the future of robotics in Europe",
+    "原标题": "【原生·开发者】Securing the future of AI agents",
     "中文提炼": ""
   }
 ]
