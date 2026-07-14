@@ -9,6 +9,7 @@ const 状态 = {
     搜索关键词: '', 文章列表: [], 首页精选文章: [], 首页头条ID: null, 已筛选文章: [],
     来源集合: new Set(), 当前文章ID: null, 当前详情文章: null, 专题缓存: {},
     专题请求序号: 0, 专题请求控制器: null, 金融缓存: null, 搜索扩展文章: [], 搜索扩展加载任务: null,
+    编辑评分索引: {},  // { "国际形势": [{id, 编辑分, ...}, ...], ... }
 };
 
 // 跟随当前脚本的发布版本。版本只在发布时变化，避免每次访问都强制绕过浏览器缓存。
@@ -79,6 +80,17 @@ async function 初始化数据() {
         }
     } catch (错误) {
         console.warn('首页精选加载异常，使用文章库回退：' + 错误.message);
+    }
+
+    try {
+        const 评分响应 = await fetch(数据资源地址('编辑评分索引.json'));
+        if (评分响应.ok) {
+            const 评分数据 = await 评分响应.json();
+            状态.编辑评分索引 = 评分数据.sections || {};
+        }
+    } catch (错误) {
+        // 编辑评分索引是渐进功能，没有也不影响运行
+        console.log('编辑评分索引未加载，使用前端质量分回退');
     }
 
     [...状态.文章列表, ...状态.首页精选文章].forEach(文章 => { 状态.来源集合.add(文章.来源); });
@@ -300,6 +312,40 @@ function 获取原标题(文章) {
     return 原标题 && 原标题 !== String((文章 && 文章.标题) || '').trim() ? 原标题 : '';
 }
 
+/** 文章质量评分：用于专题板块排序，决定哪些文章进入特征区（含图片） */
+function 计算文章质量分(文章, 分类名) {
+    let 分 = 0;
+    // 1. 主编评分（最高权重）——已存在于首页精选的跨板块评分
+    if (文章.编辑分 != null) 分 += Math.round(文章.编辑分 * 1.5);
+    // 2. 真实配图（非占位封面）
+    const 图片 = 获取文章图片(文章);
+    if (图片) {
+        const 封面图片 = 'assets/covers/' + String(分类名 || '').replace(/[^一-龥A-Za-z0-9_-]/g, '');
+        if (!图片.includes(封面图片)) 分 += 40;
+        else 分 += 5;
+    }
+    // 3. 内容完整度
+    if (文章.导语) 分 += 20;
+    if (Array.isArray(文章.要点) && 文章.要点.length) 分 += 15;
+    if ((文章.摘要 || '').length > 80) 分 += 10;
+    // 4. 来源质量
+    if (文章.来源级别 === 'A') 分 += 20;
+    else if (文章.来源级别 === 'B') 分 += 10;
+    // 5. 时效
+    if (文章.日期) {
+        try {
+            const d = new Date(文章.日期);
+            if (!isNaN(d.getTime())) {
+                const 天数 = (Date.now() - d.getTime()) / 86400000;
+                if (天数 <= 1) 分 += 25;
+                else if (天数 <= 3) 分 += 15;
+                else if (天数 <= 7) 分 += 8;
+            }
+        } catch {}
+    }
+    return 分;
+}
+
 function 添加文本元素(父元素, 标签, 类名, 文本) {
     const 元素 = document.createElement(标签);
     if (类名) 元素.className = 类名;
@@ -387,6 +433,16 @@ async function 加载专题栏目(分类名) {
         添加文本元素(容器, 'div', '空状态', 分类名 === '世界杯' ? '世界杯数据源等待配置。' : '本栏目暂时没有数据。');
         return;
     }
+
+    // 主编打分排序：高分前4 → 特征卡片（含图片），其余 → 更多内容（纯文本）
+    const 栏目评分 = 状态.编辑评分索引[分类名] || [];
+    const 评分查找 = {};
+    栏目评分.forEach(s => { if (s.编辑分 != null) 评分查找[String(s.id)] = s.编辑分; });
+    文章.sort((a, b) => {
+        const 分A = 评分查找[String(a.id)] || 计算文章质量分(a, 分类名);
+        const 分B = 评分查找[String(b.id)] || 计算文章质量分(b, 分类名);
+        return 分B - 分A;
+    });
 
     const 网格 = document.createElement('div');
     网格.className = '特征网格 专题网格 分类专题-' + String(分类名 || '').replace(/[^\u4e00-\u9fa5A-Za-z0-9_-]/g, '');
@@ -478,6 +534,12 @@ function 创建专题卡片(文章, index, 分类名, 备用图片) {
     if (原标题) 添加文本元素(卡片, 'div', '卡片原标题', 原标题);
     添加文本元素(卡片, 'div', '卡片摘要', (文章.摘要 || '').substring(0, 180));
     if (文章.版权) 添加文本元素(卡片, 'div', '专题版权', 文章.版权);
+    if (文章.编辑分 != null) {
+        const 说明 = document.createElement('div');
+        说明.className = '编辑推荐说明';
+        说明.textContent = `${文章.来源级别 || ''}级来源 · 编辑分 ${文章.编辑分} · ${文章.入选理由 || '编辑推荐'}`;
+        卡片.appendChild(说明);
+    }
     return 卡片;
 }
 
@@ -1088,6 +1150,19 @@ async function 显示文章详情(分类 = '') {
         c.appendChild(错误区); return;
     }
     状态.当前详情文章 = 文章;
+    // 清理标题尾部来源后缀，如" - zjw.cn"、" - 新浪网"
+    const 原始标题 = 文章.标题 || '';
+    const 清洗标题 = 原始标题.replace(/[—–-]\s*[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}(?:\/[^\s]*)?\s*$/, '').trim() || 原始标题;
+    const 原标题 = 获取原标题(文章);
+    const 原标题HTML = 原标题 && 原标题 !== 原始标题 ? `<p class="详情原标题" lang="en">${转义HTML(原标题)}</p>` : '';
+    // 清理导语中重复标题前缀（如情感板块的固定句式）
+    let 导语HTML = '';
+    if (文章.导语) {
+        let 清洗导语 = 文章.导语;
+        const 导语前缀匹配 = 清洗导语.match(/^(这项研究为理解['"]?).+?['"]?提供了/);
+        if (导语前缀匹配) 清洗导语 = '▎ ' + 清洗导语.slice(导语前缀匹配[0].length);
+        导语HTML = `<p class="详情导语">${转义HTML(清洗导语)}</p>`;
+    }
     const 正文文本 = 文章.正文 || 文章.内容 || 文章.摘要 || '暂无详细内容。';
     const 段落 = 正文文本.split('\n').filter(p=>p.trim()).map(p => {
         const 行 = p.trim(); const 标题匹配 = 行.match(/^(#{1,3})\s+(.+)/);
@@ -1096,15 +1171,12 @@ async function 显示文章详情(分类 = '') {
     }).join('');
     const 要点 = Array.isArray(文章.要点) && 文章.要点.length
         ? `<section class="详情要点"><h2>阅读要点</h2><ul>${文章.要点.map(点 => `<li>${转义HTML(点)}</li>`).join('')}</ul></section>` : '';
-    const 导语 = 文章.导语 ? `<p class="详情导语">${转义HTML(文章.导语)}</p>` : '';
     const 封面 = 获取文章图片(文章);
-    const 封面HTML = 封面 ? `<figure class="详情封面"><img src="${转义HTML(封面)}" alt="${转义HTML(文章.标题 || '')}" decoding="async" fetchpriority="high"></figure>` : '';
+    const 封面HTML = 封面 ? `<figure class="详情封面"><img src="${转义HTML(封面)}" alt="${转义HTML(清洗标题)}" decoding="async" fetchpriority="high"></figure>` : '';
     const 原文 = 安全外链(文章.原文链接 || 文章.链接);
     const 出处 = 文章.出处说明 || 文章.版权 || (文章.来源 ? '内容整理自 ' + 文章.来源 + '，版权归原作者及原机构所有。' : '');
     const 出处HTML = 出处 || 原文 ? `<aside class="详情出处"><strong>出处说明</strong><p>${转义HTML(出处)}</p>${原文 ? `<a href="${转义HTML(原文)}" target="_blank" rel="noopener" class="详情来源链接">查看原始出处</a>` : ''}</aside>` : '';
-    const 原标题 = 获取原标题(文章);
-    const 原标题HTML = 原标题 ? `<p class="详情原标题" lang="en">${转义HTML(原标题)}</p>` : '';
-    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(文章.标题||'')}</h1>${原标题HTML}<div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语}${要点}<div class="详情正文">${段落}</div>${出处HTML}`;
+    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(清洗标题)}</h1>${原标题HTML}<div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语HTML}${要点}<div class="详情正文">${段落}</div>${出处HTML}`;
     window.scrollTo({top:0,behavior:'smooth'});
 }
 

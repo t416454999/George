@@ -101,7 +101,7 @@ jobs:
           git config user.name "Aurora Bot"
           git config user.email "aurora-bot@users.noreply.github.com"
           # 不跟踪 修改登记.json（该文件由人工Agent维护，bot加入会导致rebase冲突）
-          git add 文章数据库.json 国际形势.json 世界杯.json 人文艺术.json 情感.json 首页精选.json assets
+          git add 文章数据库.json 国际形势.json 世界杯.json 人文艺术.json 情感.json 首页精选.json 编辑评分索引.json assets
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

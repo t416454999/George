@@ -379,7 +379,7 @@ def 选择精选(候选, 人工, 现在):
             已选[-1] = 重大比赛
         else:
             已选.append(重大比赛)
-    return 已选, 头条, 拒绝
+    return 已选, 合格, 头条, 拒绝
 
 
 def main():
@@ -388,7 +388,7 @@ def main():
         return
     现在 = datetime.now(北京时间)
     人工 = 读取JSON("首页人工编辑.json", {})
-    精选, 头条, 拒绝 = 选择精选(文章集合(), 人工, 现在)
+    精选, 全部合格, 头条, 拒绝 = 选择精选(文章集合(), 人工, 现在)
     输出 = {
         "generated": 现在.astimezone().isoformat(timespec="seconds"), "policy_version": 规则版本,
         "headline_id": 头条.get("id") if 头条 else None,
@@ -413,6 +413,31 @@ def main():
     临时.write_text(json.dumps(输出, ensure_ascii=False, indent=2), encoding="utf-8")
     临时.replace(根目录 / "首页精选.json")
     print(f"[保存] 首页精选.json：{len(精选)} 条；头条={输出['headline_id']}")
+
+    # —- 板块评分索引：给每个专题板块输出含编辑分的数据 —-
+    板块索引 = {}
+    for 项 in 全部合格:
+        栏目 = 项.get("候选栏目") or 项.get("分类") or "AI"
+        if 栏目 not in 板块索引:
+            板块索引[栏目] = []
+        板块索引[栏目].append({
+            "id": 项.get("id"), "标题": 项.get("标题"),
+            "编辑分": 项.get("编辑分"), "评分分项": 项.get("评分分项"),
+            "来源级别": 项.get("来源级别"), "入选理由": 项.get("入选理由"),
+            "日期": 项.get("日期"), "来源": 项.get("来源"),
+        })
+    索引输出 = {
+        "generated": 现在.astimezone().isoformat(timespec="seconds"),
+        "policy_version": 规则版本,
+        "sections": 板块索引,
+    }
+    for 栏目名 in ("国际形势", "世界杯", "人文艺术", "情感", "AI"):
+        if 栏目名 in 板块索引:
+            print(f"  [{栏目名}] {len(板块索引[栏目名])} 篇获得评分")
+    临时索引 = 根目录 / "编辑评分索引.json.tmp"
+    临时索引.write_text(json.dumps(索引输出, ensure_ascii=False, indent=2), encoding="utf-8")
+    临时索引.replace(根目录 / "编辑评分索引.json")
+    print("[保存] 编辑评分索引.json：所有栏目评分索引")
 
 
 if __name__ == "__main__":
