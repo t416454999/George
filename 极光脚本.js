@@ -14,8 +14,8 @@ const 状态 = {
 
 // 跟随当前脚本的发布版本。版本只在发布时变化，避免每次访问都强制绕过浏览器缓存。
 const 数据资源版本 = (() => {
-    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714e'; }
-    catch { return '20260714e'; }
+    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714f'; }
+    catch { return '20260714f'; }
 })();
 
 const 专题栏目文件 = {
@@ -1163,20 +1163,29 @@ async function 显示文章详情(分类 = '') {
         if (导语前缀匹配) 清洗导语 = '▎ ' + 清洗导语.slice(导语前缀匹配[0].length);
         导语HTML = `<p class="详情导语">${转义HTML(清洗导语)}</p>`;
     }
-    const 正文文本 = 文章.正文 || 文章.内容 || 文章.摘要 || '暂无详细内容。';
-    const 段落 = 正文文本.split('\n').filter(p=>p.trim()).map(p => {
+    // 过滤 AI 翻译指令类"要点"（如"关注研究讨论的问题"等通用模板，不是给用户看的）
+    const 真实要点 = Array.isArray(文章.要点) ? 文章.要点.filter(点 => {
+        const 模板要点 = ['关注研究讨论的问题','区分研究关联与因果结论','结合原论文理解适用范围','发生了什么','涉及哪些主体','后续值得关注什么'];
+        return 模板要点.indexOf(点.trim()) === -1 && 点.trim().length > 10;
+    }) : [];
+    const 正文原文 = 文章.正文 || 文章.内容 || 文章.摘要 || '暂无详细内容。';
+    // 分离正文中的免责声明模板（"这是基于论文…"类文字）
+    let 清洗正文 = 正文原文;
+    const 免责声明匹配 = 清洗正文.match(/[。，；][这是基于论文题目|这是基于公开|本短稿依据公开|只帮助理解研究线索，不替代原论文，也不构成诊断、治疗或个体化医疗建议|本短稿为资料性改写]+.*$/);
+    if (免责声明匹配) 清洗正文 = 清洗正文.slice(0, 免责声明匹配.index + 1);
+    const 段落 = 清洗正文.split('\n').filter(p=>p.trim()).map(p => {
         const 行 = p.trim(); const 标题匹配 = 行.match(/^(#{1,3})\s+(.+)/);
         if (标题匹配) { const 标签 = 标题匹配[1].length === 1 ? 'h2' : 'h3'; return `<${标签}>${转义HTML(标题匹配[2])}</${标签}>`; }
         return `<p>${转义HTML(行)}</p>`;
     }).join('');
-    const 要点 = Array.isArray(文章.要点) && 文章.要点.length
-        ? `<section class="详情要点"><h2>阅读要点</h2><ul>${文章.要点.map(点 => `<li>${转义HTML(点)}</li>`).join('')}</ul></section>` : '';
+    const 要点HTML = 真实要点.length
+        ? `<section class="详情要点"><h2>阅读要点</h2><ul>${真实要点.map(点 => `<li>${转义HTML(点)}</li>`).join('')}</ul></section>` : '';
     const 封面 = 获取文章图片(文章);
     const 封面HTML = 封面 ? `<figure class="详情封面"><img src="${转义HTML(封面)}" alt="${转义HTML(清洗标题)}" decoding="async" fetchpriority="high"></figure>` : '';
     const 原文 = 安全外链(文章.原文链接 || 文章.链接);
     const 出处 = 文章.出处说明 || 文章.版权 || (文章.来源 ? '内容整理自 ' + 文章.来源 + '，版权归原作者及原机构所有。' : '');
     const 出处HTML = 出处 || 原文 ? `<aside class="详情出处"><strong>出处说明</strong><p>${转义HTML(出处)}</p>${原文 ? `<a href="${转义HTML(原文)}" target="_blank" rel="noopener" class="详情来源链接">查看原始出处</a>` : ''}</aside>` : '';
-    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(清洗标题)}</h1>${原标题HTML}<div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语HTML}${要点}<div class="详情正文">${段落}</div>${出处HTML}`;
+    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(清洗标题)}</h1>${原标题HTML}<div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语HTML}${要点HTML}<div class="详情正文">${清洗正文 ? 段落 : ''}</div>${出处HTML}`;
     window.scrollTo({top:0,behavior:'smooth'});
 }
 
