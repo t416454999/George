@@ -29,6 +29,7 @@ from PIL import Image, UnidentifiedImageError
 }
 超时 = 30
 云端运行 = os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("AURORA_CLOUD_RUNTIME") == "github-actions"
+允许写入 = 云端运行 or os.environ.get("AURORA_ALLOW_LOCAL_WRITE") == "1"
 图片缓存目录 = 根目录 / "assets" / "art"
 新闻图片缓存目录 = 根目录 / "assets" / "media"
 栏目封面 = {
@@ -431,8 +432,10 @@ def 原子保存(文件名, 数据):
 
 
 def 栏目数据(分类, 来源, 说明, 文章, 状态="ok", 提示=""):
+    截至 = 现在字符串()
     return {
-        "updated": 现在字符串(),
+        "updated": 截至,
+        "as_of": 截至,
         "category": 分类,
         "source": 来源,
         "description": 说明,
@@ -508,8 +511,24 @@ def 采集GDELT():
         "mode": "artlist", "format": "json", "maxrecords": 20,
         "sort": "datedesc", "timespan": "2d",
     }
-    响应 = requests.get("https://api.gdeltproject.org/api/v2/doc/doc", params=参数, headers=请求头, timeout=超时)
-    响应.raise_for_status()
+    响应 = None
+    for 次数 in range(4):
+        响应 = requests.get("https://api.gdeltproject.org/api/v2/doc/doc", params=参数, headers=请求头, timeout=超时)
+        if 响应.status_code != 429:
+            响应.raise_for_status()
+            break
+        retry_after = 响应.headers.get("Retry-After", "")
+        try:
+            等待 = float(retry_after)
+        except ValueError:
+            try:
+                等待 = (parsedate_to_datetime(retry_after) - datetime.now(timezone.utc)).total_seconds()
+            except (TypeError, ValueError, OverflowError):
+                等待 = 2 ** 次数 + random.random()
+        if 次数 == 3:
+            响应.raise_for_status()
+        time.sleep(min(30, max(1, 等待)))
+    数据截至 = datetime.now(timezone.utc).isoformat(timespec="seconds")
     文章 = []
     旧索引 = 旧文章索引("国际形势.json")
     for 条目 in 响应.json().get("articles", []):
@@ -530,6 +549,7 @@ def 采集GDELT():
             "来源": 域名 or "GDELT", "分类": "国际形势",
             "日期": 规范日期(条目.get("seendate")), "链接": 链接,
             "标签": ["国际", "全球媒体"], "原始图片": 原始图片,
+            "数据截至": 数据截至,
             # GDELT 只索引第三方图片，版权不明，不复制；由栏目封面安全回退。
             "图片": 栏目封面["国际形势"], "封面": 栏目封面["国际形势"],
         })
@@ -646,6 +666,7 @@ def 采集OpenFootball世界杯():
     for 序号, 比赛 in enumerate(比赛列表, 1):
         日期文本 = 比赛.get("date", "")
         时间 = 比赛.get("time") or "时间待定"
+        开球时间 = ""
         try:
             时区匹配 = re.fullmatch(r"(\d{1,2}):(\d{2}) UTC([+-]\d+)", 时间)
             if 时区匹配:
@@ -654,6 +675,7 @@ def 采集OpenFootball世界杯():
                     hour=时, minute=分, tzinfo=timezone(timedelta(hours=偏移))
                 )
                 本地时间 = 场地时间.astimezone()
+                开球时间 = 本地时间.isoformat(timespec="minutes")
                 比赛日期 = 本地时间.date()
                 时间说明 = "北京时间 " + 本地时间.strftime("%m月%d日 %H:%M")
             else:
@@ -689,7 +711,8 @@ def 采集OpenFootball世界杯():
             "来源": "openfootball/worldcup.json", "分类": "世界杯", "日期": 比赛日期.isoformat(),
             "链接": "https://github.com/openfootball/worldcup.json/tree/master/2026",
             "图片": 栏目封面["世界杯"], "封面": 栏目封面["世界杯"],
-            "标签": [阶段, 状态], "比赛状态": 状态, "_排序": 排序键,
+            "标签": [阶段, 状态], "比赛阶段": 阶段, "比赛状态": 状态, "_排序": 排序键,
+            "开球时间": 开球时间,
         })
     文章.sort(key=lambda x: x.get("_排序", [9, 0]))
     for 条目 in 文章:
@@ -788,7 +811,7 @@ def 采集世界杯():
                 "来源": "football-data.org", "分类": "世界杯", "日期": 日期,
                 "链接": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
                 "图片": 栏目封面["世界杯"], "封面": 栏目封面["世界杯"],
-                "标签": [阶段, 状态], "比赛状态": 状态, "开球时间": 开球,
+                "标签": [阶段, 状态], "比赛阶段": 阶段, "比赛状态": 状态, "开球时间": 开球,
                 "_排序": 排序键,
             })
         比赛文章.sort(key=lambda x: x.get("_排序", [9, 0]))
@@ -901,7 +924,8 @@ def 采集人文艺术():
 
 def 采集Rijksmuseum():
     """采集荷兰国立博物馆（Rijksmuseum）公共领域作品。"""
-    密钥 = os.environ.get("RUKSMUSEUM_API_KEY", "")
+    # 规范名优先；保留早期拼写错误名称作为迁移期兼容，不记录密钥值。
+    密钥 = os.environ.get("RIJKSMUSEUM_API_KEY", "") or os.environ.get("RUKSMUSEUM_API_KEY", "")
     主题列表 = ["portrait", "landscape", "daily+life", "love", "family"]
     随机 = random.Random(datetime.now().strftime("%G-W%V"))
     主题 = 随机.sample(主题列表, 1)[0]
@@ -1046,7 +1070,7 @@ def 提取PubMed文本(元素, 路径):
     return "".join(节点.itertext()).strip() if 节点 is not None else ""
 
 
-def _解析PubMed日期(记录):
+def _解析PubMed日期及精度(记录):
     """从 PubMed XML 记录中提取日期；优先完整日期，其次仅年份，绝不编造月日。"""
     月名映射 = {
         "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
@@ -1079,26 +1103,49 @@ def _解析PubMed日期(记录):
     if 年 and 月 is not None and 日 is not None:
         try:
             datetime(int(年), 月, 日)
-            return f"{年}-{月:02d}-{日:02d}"
+            return f"{年}-{月:02d}-{日:02d}", "day"
         except ValueError:
             pass
 
     # 仅年月：月份合法
     if 年 and 月 is not None:
-        return f"{年}-{月:02d}"
+        return f"{年}-{月:02d}", "month"
 
     # 仅年份
     if 年:
-        return 年
+        return 年, "year"
 
     # 从 MedlineDate（如 "2025 Jan-Feb"）中尝试提取年份
     原始日期 = 提取PubMed文本(记录, ".//PubDate/MedlineDate")
     if 原始日期:
         年匹配 = re.search(r"(20\d{2})", 原始日期)
         if 年匹配:
-            return 年匹配.group(1)
+            return 年匹配.group(1), "year"
 
-    return datetime.now().strftime("%Y-%m-%d")
+    return "", "unknown"
+
+
+def _解析PubMed日期(记录):
+    return _解析PubMed日期及精度(记录)[0]
+
+
+def _PubMed情感研究合格(记录, 原标题, 论文摘要):
+    """情感栏目只收关系/情绪阅读；排除临床治疗、撤稿及非文章记录。"""
+    类型 = {清理文本("".join(x.itertext()), 80).casefold() for x in 记录.findall(".//PublicationType")}
+    撤稿关联 = any(str(x.get("RefType", "")).casefold() in {"retractionin", "retractionof"} for x in 记录.findall(".//CommentsCorrections"))
+    if 撤稿关联 or any("retracted publication" in x or "retraction of publication" in x for x in 类型):
+        return False
+    if 类型 and not any(x in 类型 for x in {"journal article", "review", "systematic review", "meta-analysis"}):
+        return False
+    文本 = f"{原标题} {论文摘要}".casefold()
+    临床词 = re.compile(
+        r"\b(?:ptsd|post-traumatic|cancer|kidney|renal|stroke|autis(?:m|tic)|adhd|schizophren|"
+        r"bipolar|dementia|parkinson|clinical trial|randomized controlled|patient|diagnos(?:is|tic)|"
+        r"treatment|therapy|therapeutic|dose|drug|mortality|surgery)\b",
+        re.I,
+    )
+    关系词 = re.compile(r"emotion regulation|loneliness|attachment|close relationship|romantic relationship|social connection|friendship|couple", re.I)
+    return bool(关系词.search(文本)) and not 临床词.search(文本)
 
 
 def 采集情感新闻():
@@ -1182,10 +1229,12 @@ def 采集情感():
         ):
             continue
         期刊 = 提取PubMed文本(记录, ".//Journal/Title") or "PubMed"
-        日期 = _解析PubMed日期(记录)
+        日期, 日期精度 = _解析PubMed日期及精度(记录)
         关键词 = [清理文本("".join(k.itertext()), 40) for k in 记录.findall(".//Keyword")[:3]]
         摘要段 = [清理文本("".join(a.itertext()), 800) for a in 记录.findall(".//Abstract/AbstractText")]
         论文摘要 = 清理文本(" ".join(x for x in 摘要段 if x), 1600)
+        if not 日期 or not 论文摘要 or not _PubMed情感研究合格(记录, 原标题, 论文摘要):
+            continue
         临时项 = {
             "id": 稳定ID(pmid, 原标题),
             "链接": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
@@ -1198,6 +1247,7 @@ def 采集情感():
             "标题翻译方式": "DeepSeek" if ("情感", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "短译/历史复用"),
             "摘要": f"来自《{期刊}》的关系与情绪研究。仅作知识阅读，不构成医疗建议。",
             "来源": f"PubMed · {期刊}", "分类": "情感", "日期": 日期,
+            "日期精度": 日期精度,
             "链接": 临时项["链接"],
             "标签": [x for x in 关键词 if x][:3] or ["情绪", "关系"],
             # PubMed 元数据不提供论文主图，不抓取出版社页面；明确回退到栏目封面。
@@ -1237,6 +1287,9 @@ def 安全执行(文件名, 采集函数):
 
 
 def 主流程():
+    if not 允许写入:
+        print("[只读预演] 本地默认不联网、不写入；发布采集仅允许 GitHub Actions 云端运行")
+        return 0
     print("=" * 60)
     print("极光引擎 · 综合栏目自动采集")
     print(f"运行时间：{现在字符串()}")

@@ -53,6 +53,7 @@ jobs:
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          RIJKSMUSEUM_API_KEY: ${{ secrets.RIJKSMUSEUM_API_KEY }}
           # 标题翻译与杂志正文分别计数，正文不会耗尽人文标题配额。
           DEEPSEEK_TITLE_QUOTAS: '{"国际形势":8,"人文艺术":14,"情感":12,"世界杯":0}'
           DEEPSEEK_CATEGORY_QUOTAS: '{"国际形势":4,"人文艺术":4,"情感":4,"世界杯":0}'
@@ -105,8 +106,12 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto update: $(date '+%Y-%m-%d') - Latest AI news"
-            # 自动stash未跟踪文件（assets图片下载残留），冲突时用远程版本
-            git pull --rebase --autostash -X theirs origin main
+            # 自动暂存本轮残留；若真实冲突则显式失败，禁止静默覆盖任一方。
+            if ! git pull --rebase --autostash origin main; then
+              echo "::error::内容更新与 main 发生冲突，已停止推送，请人工合并"
+              git rebase --abort || true
+              exit 1
+            fi
             git push
             echo "Changes committed and pushed - Pages will auto-deploy"
           fi

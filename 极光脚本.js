@@ -8,8 +8,14 @@ const 状态 = {
     当前页面: '首页', 当前分类: '全部', 排序方式: '最新',
     搜索关键词: '', 文章列表: [], 首页精选文章: [], 首页头条ID: null, 已筛选文章: [],
     来源集合: new Set(), 当前文章ID: null, 当前详情文章: null, 专题缓存: {},
-    专题请求序号: 0, 专题请求控制器: null,
+    专题请求序号: 0, 专题请求控制器: null, 金融缓存: null, 搜索扩展文章: [], 搜索扩展加载任务: null,
 };
+
+// 跟随当前脚本的发布版本。版本只在发布时变化，避免每次访问都强制绕过浏览器缓存。
+const 数据资源版本 = (() => {
+    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714d'; }
+    catch { return '20260714d'; }
+})();
 
 const 专题栏目文件 = {
     '国际形势': '国际形势.json',
@@ -17,6 +23,16 @@ const 专题栏目文件 = {
     '人文艺术': '人文艺术.json',
     '情感': '情感.json',
 };
+
+function 数据资源地址(路径) {
+    return 路径 + (String(路径).includes('?') ? '&' : '?') + 'v=' + encodeURIComponent(数据资源版本);
+}
+
+async function 获取JSON(路径, 选项 = {}) {
+    const 响应 = await fetch(数据资源地址(路径), 选项);
+    if (!响应.ok) throw new Error('HTTP ' + 响应.status);
+    return 响应.json();
+}
 
 document.addEventListener('DOMContentLoaded', async () => {
     await 初始化数据();
@@ -37,7 +53,7 @@ async function 初始化数据() {
     ];
 
     try {
-        const 响应 = await fetch('文章数据库.json?v=' + Date.now());
+        const 响应 = await fetch(数据资源地址('文章数据库.json'));
         if (响应.ok) {
             const 数据 = await 响应.json();
             if (Array.isArray(数据)) {
@@ -55,7 +71,7 @@ async function 初始化数据() {
     }
 
     try {
-        const 精选响应 = await fetch('首页精选.json?v=' + Date.now());
+        const 精选响应 = await fetch(数据资源地址('首页精选.json'));
         if (精选响应.ok) {
             const 精选数据 = await 精选响应.json();
             状态.首页精选文章 = Array.isArray(精选数据.articles) ? 精选数据.articles : [];
@@ -104,16 +120,35 @@ function 更新更新时间() {
 // 路由
 // ============================================================
 
-function 初始化路由() {
-    const hash = window.location.hash.slice(1);
-    if (hash.startsWith('详情/')) { const id = parseInt(hash.split('详情/')[1]); if (id) { 状态.当前文章ID = id; 显示文章详情(); return; } }
-    if (hash && ['首页','分类','搜索','关于'].includes(hash)) 切换页面(hash); else 切换页面('首页');
-    window.addEventListener('hashchange', () => {
-        const newHash = window.location.hash.slice(1);
-        if (newHash.startsWith('详情/')) { const id = parseInt(newHash.split('详情/')[1]); if (id) { 状态.当前文章ID = id; 显示文章详情(); return; } }
-        if (newHash && ['首页','分类','搜索','关于'].includes(newHash)) 切换页面(newHash);
-        else if (!newHash.startsWith('详情/')) 切换页面('首页');
-    });
+function 安全解码(值) {
+    try { return decodeURIComponent(值); } catch { return 值; }
+}
+
+function 解析路由(rawHash = window.location.hash.slice(1)) {
+    const 分段 = String(rawHash || '').split('/').map(安全解码);
+    if (分段[0] === '详情') {
+        const 有分类 = 分段.length >= 3;
+        const id = String(有分类 ? 分段.slice(2).join('/') : (分段[1] || '')).trim();
+        return { 类型: '详情', 分类: 有分类 ? 分段[1] : '', id: id || null };
+    }
+    return { 类型: '页面', 页面: 安全解码(String(rawHash || '')) };
+}
+
+async function 处理当前路由() {
+    const 路由 = 解析路由();
+    if (路由.类型 === '详情') {
+        状态.当前文章ID = 路由.id;
+        状态.当前页面 = '详情';
+        await 显示文章详情(路由.分类);
+        return;
+    }
+    if (路由.页面 && ['首页','分类','搜索','关于'].includes(路由.页面)) 切换页面(路由.页面);
+    else 切换页面('首页');
+}
+
+async function 初始化路由() {
+    await 处理当前路由();
+    window.addEventListener('hashchange', 处理当前路由);
 }
 
 function 切换页面(页面名) {
@@ -123,10 +158,11 @@ function 切换页面(页面名) {
     const 视图ID = 视图映射[页面名];
     if (视图ID) { const 视图 = document.getElementById(视图ID); if (视图) 视图.classList.add('活跃视图'); }
     document.querySelectorAll('.导航链接').forEach(link => { link.classList.toggle('活跃', link.dataset.page === 页面名); });
-    if (window.location.hash.slice(1) !== 页面名) history.pushState(null, '', '#' + 页面名);
+    if (安全解码(window.location.hash.slice(1)) !== 页面名) history.pushState(null, '', '#' + encodeURIComponent(页面名));
     switch (页面名) { case '首页': 渲染首页(); break; case '分类': 加载平台热点(); break; case '搜索': 初始化搜索(); break; }
     const 菜单 = document.getElementById('导航菜单'); const 按钮 = document.querySelector('.菜单按钮');
-    if (菜单) 菜单.classList.remove('展开'); if (按钮) 按钮.classList.remove('展开');
+    if (菜单) 菜单.classList.remove('展开');
+    if (按钮) { 按钮.classList.remove('展开'); 按钮.setAttribute('aria-expanded', 'false'); }
     if (!arguments[1]) window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -240,7 +276,9 @@ function clearContainers() {
 
 function 安全外链(值) {
     try {
-        const u = new URL(值, window.location.href);
+        const 原值 = String(值 == null ? '' : 值).trim();
+        if (!原值 || 原值 === '#') return '';
+        const u = new URL(原值, window.location.href);
         return ['http:', 'https:'].includes(u.protocol) ? u.href : '';
     } catch { return ''; }
 }
@@ -265,6 +303,42 @@ function 添加文本元素(父元素, 标签, 类名, 文本) {
     return 元素;
 }
 
+function 构建详情Hash(文章) {
+    const 分类 = String((文章 && 文章.分类) || '').trim();
+    return '#详情/' + (分类 ? encodeURIComponent(分类) + '/' : '') + encodeURIComponent(String(文章.id));
+}
+
+function GitHub仓库链接(repo) {
+    const 值 = String(repo || '').trim();
+    return /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(值) ? 'https://github.com/' + 值 : '';
+}
+
+async function 获取专题数据(分类名, 选项 = {}) {
+    if (状态.专题缓存[分类名]) return 状态.专题缓存[分类名];
+    const 数据 = await 获取JSON(专题栏目文件[分类名], 选项);
+    状态.专题缓存[分类名] = 数据;
+    return 数据;
+}
+
+async function 获取金融数据() {
+    if (状态.金融缓存) return 状态.金融缓存;
+    let 主文件错误 = null;
+    for (const 文件 of ['金融API.json', '金融API-国外.json']) {
+        try {
+            const 数据 = await 获取JSON(文件);
+            if (数据 && Array.isArray(数据.articles) && 数据.articles.length > 0) {
+                数据.articles.forEach(文章 => { if (!文章.分类) 文章.分类 = '金融'; });
+                状态.金融缓存 = 数据;
+                if (文件 !== '金融API.json') console.info('金融API.json 不可用，已回退到金融API-国外.json');
+                return 数据;
+            }
+        } catch (错误) {
+            if (!主文件错误) 主文件错误 = 错误;
+        }
+    }
+    throw (主文件错误 || new Error('金融数据格式无效'));
+}
+
 async function 加载专题栏目(分类名) {
     const 容器 = document.getElementById('特征容器');
     if (!容器) return;
@@ -278,9 +352,7 @@ async function 加载专题栏目(分类名) {
     if (!数据) {
         const 加载提示 = 添加文本元素(容器, 'div', '专题提示', '正在加载…');
         try {
-            const 响应 = await fetch(专题栏目文件[分类名] + '?v=' + Date.now(), { signal: 请求控制器.signal });
-            if (!响应.ok) throw new Error('HTTP ' + 响应.status);
-            数据 = await 响应.json();
+            数据 = await 获取专题数据(分类名, { signal: 请求控制器.signal });
             if (请求序号 !== 状态.专题请求序号 || 状态.当前分类 !== 分类名) return;
             状态.专题缓存[分类名] = 数据;
         } catch (e) {
@@ -377,8 +449,9 @@ function 创建专题卡片(文章, index, 分类名, 备用图片) {
     卡片.dataset.index = String(index + 1).padStart(2, '0');
     卡片.tabIndex = 0;
     卡片.setAttribute('role', 'link');
+    卡片.setAttribute('aria-label', '阅读：' + (文章.标题 || '无标题'));
     卡片.onclick = () => 打开文章详情(文章);
-    卡片.onkeydown = e => { if (e.key === 'Enter') 卡片.click(); };
+    卡片.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); 卡片.click(); } };
     const 候选图片 = index === 0 ? '' : 获取文章图片(文章);
     const 图片 = 分类名 === '情感' && /assets\/covers\/emotion\.svg(?:[?#].*)?$/i.test(候选图片) ? '' : 候选图片;
     if (图片) {
@@ -406,7 +479,7 @@ function 创建专题卡片(文章, index, 分类名, 备用图片) {
 function 创建专题列表项(文章) {
     const 项 = document.createElement('li'); 项.className = '资讯列表项';
     const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
-    链接.href = '#详情/' + 文章.id;
+    链接.href = 构建详情Hash(文章);
     链接.onclick = e => { e.preventDefault(); 打开文章详情(文章); };
     const 元信息 = document.createElement('div'); 元信息.className = '列表元信息';
     添加文本元素(元信息, 'span', '列表来源', 文章.来源 || '');
@@ -489,8 +562,14 @@ function 渲染容器(分类, 特征文章, 列表文章) {
 function createListLink(文章) {
     const 项 = document.createElement('li'); 项.className = '资讯列表项';
     const 链接 = document.createElement('a'); 链接.className = '资讯列表链接';
-    链接.href='#详情/'+文章.id; 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
-    链接.innerHTML=`<div class="列表元信息"><span class="列表来源">${文章.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${文章.日期||''}</span></div><span class="列表标题">${文章.标题||''}</span><span class="列表分类">${文章.分类||''}</span>`;
+    链接.href=构建详情Hash(文章); 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
+    const 元信息 = document.createElement('div'); 元信息.className = '列表元信息';
+    添加文本元素(元信息, 'span', '列表来源', 文章.来源 || '');
+    添加文本元素(元信息, 'span', '列表分隔', '·');
+    添加文本元素(元信息, 'span', '列表日期', 文章.日期 || '');
+    链接.appendChild(元信息);
+    添加文本元素(链接, 'span', '列表标题', 文章.标题 || '');
+    添加文本元素(链接, 'span', '列表分类', 文章.分类 || '');
     项.appendChild(链接);
     return 项;
 }
@@ -500,19 +579,13 @@ function append列表项(列表, 文章) { 列表.appendChild(createListLink(文
 function 创建一手行(文章, 列表) {
     const 项 = document.createElement('li'); 项.className = '一手列表项';
     const 链接 = document.createElement('a'); 链接.className = '一手列表链接';
-    链接.href='#详情/'+文章.id; 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
-    let html = `<span class="一手标记">一手</span><span class="一手来源">${文章.来源||''}</span><span class="一手日期">${文章.日期||''}</span>`;
-    // 有翻译：显示中文标题 + 原标题副文本
-    if (文章.原标题) {
-        html += `<span class="一手标题文字">${文章.标题||''}</span>`;
-        html += `<span class="一手原标题">${文章.原标题.replace(/【[^】]+】/g,'').trim()}</span>`;
-        if (文章.中文提炼) {
-            html += `<span class="一手要点">${文章.中文提炼.replace(/\n/g,'<br>')}</span>`;
-        }
-    } else {
-        html += `<span class="一手标题文字">${文章.标题||''}</span>`;
-    }
-    链接.innerHTML = html;
+    链接.href=构建详情Hash(文章); 链接.onclick=(e)=>{e.preventDefault();打开文章详情(文章);};
+    添加文本元素(链接, 'span', '一手标记', '一手');
+    添加文本元素(链接, 'span', '一手来源', 文章.来源 || '');
+    添加文本元素(链接, 'span', '一手日期', 文章.日期 || '');
+    添加文本元素(链接, 'span', '一手标题文字', 文章.标题 || '');
+    if (文章.原标题) 添加文本元素(链接, 'span', '一手原标题', String(文章.原标题).replace(/【[^】]+】/g,'').trim());
+    if (文章.中文提炼) 添加文本元素(链接, 'span', '一手要点', 文章.中文提炼);
     项.appendChild(链接); 列表.appendChild(项);
 }
 
@@ -520,13 +593,23 @@ function 渲染特征区(文章列表) { /* 已合并到渲染容器 */ }
 
 function 创建特征卡片(文章) {
     const 卡片 = document.createElement('article'); 卡片.className = '特征卡片';
+    卡片.tabIndex = 0; 卡片.setAttribute('role', 'link');
+    卡片.setAttribute('aria-label', '阅读：' + (文章.标题 || '无标题'));
     卡片.onclick = () => 打开文章详情(文章);
-    const 标签HTML = (文章.标签 || []).slice(0, 3).map(t => `<span class="卡片标签">${t}</span>`).join('');
-    卡片.innerHTML = `
-        <div class="卡片元信息"><span class="卡片来源">${文章.来源||''}</span><span class="卡片日期">${文章.日期||''}</span><span class="卡片分类">${文章.分类||''}</span></div>
-        <div class="卡片标题">${文章.标题||'无标题'}</div>
-        <div class="卡片摘要">${(文章.摘要||'').substring(0,120)}</div>
-        ${标签HTML ? '<div class="卡片标签栏">'+标签HTML+'</div>' : ''}`;
+    卡片.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); 卡片.click(); } };
+    const 元信息 = document.createElement('div'); 元信息.className = '卡片元信息';
+    添加文本元素(元信息, 'span', '卡片来源', 文章.来源 || '');
+    添加文本元素(元信息, 'span', '卡片日期', 文章.日期 || '');
+    添加文本元素(元信息, 'span', '卡片分类', 文章.分类 || '');
+    卡片.appendChild(元信息);
+    添加文本元素(卡片, 'div', '卡片标题', 文章.标题 || '无标题');
+    添加文本元素(卡片, 'div', '卡片摘要', String(文章.摘要 || '').substring(0,120));
+    const 标签 = Array.isArray(文章.标签) ? 文章.标签.slice(0, 3) : [];
+    if (标签.length) {
+        const 标签栏 = document.createElement('div'); 标签栏.className = '卡片标签栏';
+        标签.forEach(标签名 => 添加文本元素(标签栏, 'span', '卡片标签', 标签名));
+        卡片.appendChild(标签栏);
+    }
     if (文章.编辑分 != null) {
         const 说明 = document.createElement('div');
         说明.className = '编辑推荐说明';
@@ -546,8 +629,7 @@ async function 加载金融热点() {
 
     let 金融数据 = null;
     try {
-        const 响应 = await fetch('金融API.json?v=' + Date.now());
-        if (响应.ok) 金融数据 = await 响应.json();
+        金融数据 = await 获取金融数据();
     } catch (e) { console.log('金融API加载失败：' + e.message); }
 
     if (!金融数据 || !金融数据.articles || 金融数据.articles.length === 0) {
@@ -576,8 +658,9 @@ async function 加载金融热点() {
             } else 卡片.classList.add('次推荐卡片');
             卡片.dataset.index = String(index + 1).padStart(2, '0');
             卡片.tabIndex = 0; 卡片.setAttribute('role', 'link');
+            卡片.setAttribute('aria-label', '阅读：' + (a.标题 || '无标题'));
             卡片.onclick = () => 打开文章详情(a);
-            卡片.onkeydown = e => { if (e.key === 'Enter') 卡片.click(); };
+            卡片.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); 卡片.click(); } };
             卡片.innerHTML = `
                 <div class="卡片元信息"><span class="卡片来源">${转义HTML(a.来源||'')}</span><span class="卡片日期">${转义HTML(a.日期||'')}</span></div>
                 <div class="卡片标题">${转义HTML(a.标题||'')}</div>
@@ -595,11 +678,7 @@ async function 加载金融热点() {
             const 列表标题 = document.createElement('div'); 列表标题.className = '列表区域标题'; 列表标题.textContent = '更多热点';
             列表容器.appendChild(列表标题);
             const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
-            其余.forEach(a => {
-                const 项 = document.createElement('li'); 项.className = '资讯列表项';
-                项.innerHTML = `<a class="资讯列表链接" href="${a.链接||'#'}" target="_blank" rel="noopener"><div class="列表元信息"><span class="列表来源">${a.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${a.日期||''}</span></div><span class="列表标题">${a.标题||''}</span></a>`;
-                列表.appendChild(项);
-            });
+            其余.forEach(a => 列表.appendChild(createListLink(a)));
             列表容器.appendChild(列表);
         }
     }
@@ -615,11 +694,11 @@ async function 加载行业热议() {
 
     let 数据 = null;
     try {
-        const 响应 = await fetch('https://boke.jgyq.me/industry-buzz.json?v=' + Date.now());
+        const 响应 = await fetch(数据资源地址('https://boke.jgyq.me/industry-buzz.json'));
         if (响应.ok) 数据 = await 响应.json();
     } catch (e) {
         try {
-            const 响应 = await fetch('industry-buzz.json?v=' + Date.now());
+            const 响应 = await fetch(数据资源地址('industry-buzz.json'));
             if (响应.ok) 数据 = await 响应.json();
         } catch (e2) {}
     }
@@ -639,21 +718,26 @@ async function 加载行业热议() {
         if (i >= 限制数) 项.style.display = 'none';
         const cat = a.分类 || '';
         const 有原文 = !!a.原文;
-        let tagHTML;
+        const 链接 = document.createElement('a'); 链接.className = '一手列表链接';
+        链接.href = 安全外链(a.链接) || '#'; 链接.target = '_blank'; 链接.rel = 'noopener noreferrer';
+        const 标签 = document.createElement('span'); 标签.className = '一手标记';
         if (有原文) {
-            tagHTML = `<span class="一手标记" style="border-color:rgba(217,109,66,0.4);color:var(--signal)">外媒</span>`;
+            标签.style.borderColor = 'rgba(217,109,66,0.4)'; 标签.style.color = 'var(--signal)'; 标签.textContent = '外媒';
         } else if (cat) {
-            tagHTML = `<span class="一手标记" style="border-color:rgba(84,184,138,0.3);color:var(--aurora-green)">${cat}</span>`;
+            标签.style.borderColor = 'rgba(84,184,138,0.3)'; 标签.style.color = 'var(--aurora-green)'; 标签.textContent = cat;
         } else {
-            tagHTML = '<span class="一手标记">热议</span>';
+            标签.textContent = '热议';
         }
-        let titleHTML;
+        链接.appendChild(标签);
+        添加文本元素(链接, 'span', '一手来源', a.来源 || '');
+        添加文本元素(链接, 'span', '一手日期', a.日期 || '');
+        const 标题组 = 添加文本元素(链接, 'span', '一手标题文字', a.标题 || '');
         if (有原文) {
-            titleHTML = `<span class="一手标题文字">${a.标题}<br><span style="font-size:13px;color:var(--text-faint);font-weight:400">${a.原文}</span></span>`;
-        } else {
-            titleHTML = `<span class="一手标题文字">${a.标题}</span>`;
+            标题组.appendChild(document.createElement('br'));
+            const 原文 = 添加文本元素(标题组, 'span', '', a.原文);
+            原文.style.fontSize = '13px'; 原文.style.color = 'var(--text-faint)'; 原文.style.fontWeight = '400';
         }
-        项.innerHTML = `<a class="一手列表链接" href="${a.链接||'#'}" target="_blank" rel="noopener">${tagHTML}<span class="一手来源">${a.来源||''}</span><span class="一手日期">${a.日期||''}</span>${titleHTML}</a>`;
+        项.appendChild(链接);
         列表.appendChild(项);
     });
     容器.appendChild(列表);
@@ -686,7 +770,7 @@ async function 加载工具排行() {
 
     let 数据 = { stable: [], trending: [] };
     try {
-        const 响应 = await fetch('GitHub工具排行.json?v=' + Date.now());
+        const 响应 = await fetch(数据资源地址('GitHub工具排行.json'));
         if (响应.ok) {
             const raw = await 响应.json();
             // 新版：{stable, trending} | 旧版平铺数组兼容
@@ -707,13 +791,15 @@ async function 加载工具排行() {
         const 列表 = document.createElement('ul'); 列表.className = '工具列表';
         数据.stable.forEach(工具 => {
             const 项 = document.createElement('li'); 项.className = '工具列表项';
-            const 变化标签 = 工具.本周变化 && 工具.本周变化 !== '─' ?
-                `<span class="工具排行标记" style="color:var(--aurora-green)">${工具.本周变化}</span>` :
-                `<span class="工具排行标记">${工具.星标 || ''}</span>`;
-            项.innerHTML = `
-                <span class="工具名">${工具.名称 || ''}<a class="工具链接" href="https://github.com/${工具.repo}" target="_blank" rel="noopener">&nearr;</a></span>
-                <span class="工具说明">${工具.说明 || ''}</span>
-                ${变化标签}`;
+            const 名称 = 添加文本元素(项, 'span', '工具名', 工具.名称 || '');
+            const 仓库链接 = GitHub仓库链接(工具.repo);
+            if (仓库链接) {
+                const 外链 = 添加文本元素(名称, 'a', '工具链接', '↗');
+                外链.href = 仓库链接; 外链.target = '_blank'; 外链.rel = 'noopener noreferrer';
+            }
+            添加文本元素(项, 'span', '工具说明', 工具.说明 || '');
+            const 变化标签 = 添加文本元素(项, 'span', '工具排行标记', 工具.本周变化 && 工具.本周变化 !== '─' ? 工具.本周变化 : (工具.星标 || ''));
+            if (工具.本周变化 && 工具.本周变化 !== '─') 变化标签.style.color = 'var(--aurora-green)';
             列表.appendChild(项);
         });
         容器.appendChild(列表);
@@ -726,10 +812,14 @@ async function 加载工具排行() {
         const 列表2 = document.createElement('ul'); 列表2.className = '工具列表';
         数据.trending.forEach(工具 => {
             const 项 = document.createElement('li'); 项.className = '工具列表项';
-            项.innerHTML = `
-                <span class="工具名">${工具.名称 || ''}<a class="工具链接" href="https://github.com/${工具.repo}" target="_blank" rel="noopener">&nearr;</a></span>
-                <span class="工具说明">${工具.说明 || ''}</span>
-                <span class="工具排行标记">${工具.星标 || ''} stars</span>`;
+            const 名称 = 添加文本元素(项, 'span', '工具名', 工具.名称 || '');
+            const 仓库链接 = GitHub仓库链接(工具.repo);
+            if (仓库链接) {
+                const 外链 = 添加文本元素(名称, 'a', '工具链接', '↗');
+                外链.href = 仓库链接; 外链.target = '_blank'; 外链.rel = 'noopener noreferrer';
+            }
+            添加文本元素(项, 'span', '工具说明', 工具.说明 || '');
+            添加文本元素(项, 'span', '工具排行标记', (工具.星标 || '') + ' stars');
             列表2.appendChild(项);
         });
         容器.appendChild(列表2);
@@ -750,15 +840,15 @@ async function 加载平台热点() {
 
     let 数据 = null;
     const urls = [
-        'https://boke.jgyq.me/platform-hot.json?v=' + Date.now(),
-        'platform-hot.json?v=' + Date.now(),
-        'https://raw.githubusercontent.com/t416454999/George/main/platform-hot.json?v=' + Date.now(),
+        数据资源地址('platform-hot.json'),
+        数据资源地址('https://boke.jgyq.me/platform-hot.json'),
+        数据资源地址('https://raw.githubusercontent.com/t416454999/George/main/platform-hot.json'),
     ];
     for (const url of urls) {
         try {
             const 控制器 = new AbortController();
-            setTimeout(() => 控制器.abort(), 15000);
-            const 响应 = await fetch(url, { signal: 控制器.signal });
+            const 定时器 = setTimeout(() => 控制器.abort(), 8000);
+            const 响应 = await fetch(url, { signal: 控制器.signal }).finally(() => clearTimeout(定时器));
             if (响应.ok) { 数据 = await 响应.json(); break; }
             else console.warn('平台热点 fetch 失败:', url, 响应.status);
         } catch (e) { console.warn('平台热点 fetch 异常:', url, e.message); }
@@ -807,14 +897,12 @@ function 渲染平台列表(容器, 文章列表) {
     文章列表.forEach((a, i) => {
         const 条目 = document.createElement('a');
         条目.className = '热点条目';
-        条目.href = a.link || '#';
+        条目.href = 安全外链(a.link) || '#';
         条目.target = '_blank';
-        条目.rel = 'noopener';
-        条目.innerHTML = `
-            <span class="热点排名">${a.rank || i + 1}</span>
-            <span class="热点标题">${a.title || ''}</span>
-            ${a.heat ? '<span class="热点热度">' + a.heat + '</span>' : ''}
-        `;
+        条目.rel = 'noopener noreferrer';
+        添加文本元素(条目, 'span', '热点排名', a.rank || i + 1);
+        添加文本元素(条目, 'span', '热点标题', a.title || '');
+        if (a.heat) 添加文本元素(条目, 'span', '热点热度', a.heat);
         容器.appendChild(条目);
     });
 }
@@ -837,44 +925,142 @@ function 初始化搜索() { const 输入框 = document.getElementById('搜索�
 function 实时搜索() { clearTimeout(window.搜索定时器); window.搜索定时器 = setTimeout(() => 执行搜索(), 400); }
 function 快速搜索(关键词) { const 输入框 = document.getElementById('搜索输入框'); if (输入框) 输入框.value = 关键词; 状态.搜索关键词 = 关键词; 执行搜索(); }
 
-function 执行搜索() {
+async function 准备全站搜索数据() {
+    if (!状态.搜索扩展加载任务) {
+        状态.搜索扩展加载任务 = (async () => {
+            const 结果 = await Promise.allSettled([
+                ...Object.keys(专题栏目文件).map(分类 => 获取专题数据(分类)),
+                获取金融数据(),
+            ]);
+            const 本次文章 = 结果
+                .filter(项 => 项.status === 'fulfilled')
+                .flatMap(项 => Array.isArray(项.value.articles) ? 项.value.articles : []);
+            const 合并 = new Map(状态.搜索扩展文章.map(文章 => [`${文章.分类 || ''}/${文章.id || ''}/${文章.链接 || 文章.标题 || ''}`, 文章]));
+            本次文章.forEach(文章 => 合并.set(`${文章.分类 || ''}/${文章.id || ''}/${文章.链接 || 文章.标题 || ''}`, 文章));
+            状态.搜索扩展文章 = [...合并.values()];
+            // 某个动态数据源本次失败时不永久缓存失败状态，下次搜索会只重试尚未进入各自缓存的数据源。
+            if (结果.some(项 => 项.status === 'rejected')) 状态.搜索扩展加载任务 = null;
+        })();
+    }
+    await 状态.搜索扩展加载任务;
+}
+
+function 添加高亮文本(父元素, 文本, 关键词) {
+    const 内容 = String(文本 || '');
+    const 查询 = String(关键词 || '');
+    if (!查询) { 父元素.textContent = 内容; return; }
+    const 小写内容 = 内容.toLocaleLowerCase();
+    const 小写查询 = 查询.toLocaleLowerCase();
+    let 起点 = 0;
+    while (起点 < 内容.length) {
+        const 命中 = 小写内容.indexOf(小写查询, 起点);
+        if (命中 < 0) { 父元素.appendChild(document.createTextNode(内容.slice(起点))); break; }
+        if (命中 > 起点) 父元素.appendChild(document.createTextNode(内容.slice(起点, 命中)));
+        const 标记 = document.createElement('mark'); 标记.textContent = 内容.slice(命中, 命中 + 查询.length);
+        父元素.appendChild(标记); 起点 = 命中 + 查询.length;
+    }
+}
+
+async function 执行搜索() {
     const 输入框 = document.getElementById('搜索输入框');
     const 关键词 = 输入框 ? 输入框.value.trim() : ''; 状态.搜索关键词 = 关键词;
     const 结果容器 = document.getElementById('搜索结果');
     if (!结果容器) return;
     if (!关键词) { 结果容器.innerHTML = '<p class="搜索提示">输入关键词开始搜索</p>'; return; }
-    const 结果 = 状态.文章列表.filter(a => `${a.标题} ${a.摘要} ${a.内容} ${a.来源} ${(a.标签||[]).join(' ')}`.toLowerCase().includes(关键词.toLowerCase()));
-    if (结果.length === 0) { 结果容器.innerHTML = `<div class="空状态"><p>未找到与「${关键词}」相关的资讯</p></div>`; return; }
-    结果容器.innerHTML = `<p style="margin-bottom:24px;color:var(--text-faint);font-size:13px">找到 <span style="color:var(--signal);font-weight:600">${结果.length}</span> 篇</p>`;
+    结果容器.innerHTML = '<p class="搜索提示">正在搜索全站内容…</p>';
+    await 准备全站搜索数据();
+    if (状态.搜索关键词 !== 关键词) return;
+    const 全部文章 = [...状态.文章列表, ...状态.首页精选文章, ...状态.搜索扩展文章];
+    const 去重 = new Map();
+    全部文章.forEach(a => 去重.set(`${a.分类 || ''}/${a.id || ''}/${a.链接 || a.标题 || ''}`, a));
+    const 结果 = [...去重.values()].filter(a => `${a.标题 || ''} ${a.原标题 || ''} ${a.摘要 || ''} ${a.内容 || ''} ${a.正文 || ''} ${a.来源 || ''} ${(Array.isArray(a.标签) ? a.标签 : []).join(' ')}`.toLocaleLowerCase().includes(关键词.toLocaleLowerCase()));
+    结果容器.innerHTML = '';
+    if (结果.length === 0) {
+        const 空 = document.createElement('div'); 空.className = '空状态';
+        添加文本元素(空, 'p', '', `未找到与「${关键词}」相关的资讯`); 结果容器.appendChild(空); return;
+    }
+    const 统计 = document.createElement('p'); 统计.className = '搜索统计';
+    统计.appendChild(document.createTextNode('找到 '));
+    添加文本元素(统计, 'span', '', 结果.length);
+    统计.appendChild(document.createTextNode(' 篇'));
+    结果容器.appendChild(统计);
     const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
     结果.slice(0,30).forEach(a => {
         const 项 = document.createElement('li'); 项.className = '资讯列表项';
-        项.innerHTML = `<a class="资讯列表链接" href="#详情/${a.id}" onclick="event.preventDefault();打开文章详情ById(${a.id})"><div class="列表元信息"><span class="列表来源">${a.来源||''}</span><span class="列表分隔">·</span><span class="列表日期">${a.日期||''}</span></div><span class="列表标题">${高亮关键词(a.标题,关键词)}</span><span class="列表分类">${a.分类||''}</span></a>`;
+        const 链接 = document.createElement('a'); 链接.className = '资讯列表链接'; 链接.href = 构建详情Hash(a);
+        链接.onclick = e => { e.preventDefault(); 打开文章详情(a); };
+        const 元信息 = document.createElement('div'); 元信息.className = '列表元信息';
+        添加文本元素(元信息, 'span', '列表来源', a.来源 || '');
+        添加文本元素(元信息, 'span', '列表分隔', '·');
+        添加文本元素(元信息, 'span', '列表日期', a.日期 || ''); 链接.appendChild(元信息);
+        const 标题 = document.createElement('span'); 标题.className = '列表标题'; 添加高亮文本(标题, a.标题, 关键词); 链接.appendChild(标题);
+        添加文本元素(链接, 'span', '列表分类', a.分类 || ''); 项.appendChild(链接);
         列表.appendChild(项);
     });
     结果容器.appendChild(列表);
 }
 
-function 高亮关键词(文本, 关键词) {
-    if (!文本 || !关键词) return 文本 || '';
-    const 转义 = 关键词.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    return 文本.replace(new RegExp(`(${转义})`, 'gi'), '<mark>$1</mark>');
+function 同一文章ID(文章, id) { return 文章 && id != null && String(文章.id) === String(id); }
+
+function 打开文章详情(文章) {
+    if (!文章 || 文章.id == null) return;
+    状态.当前文章ID = String(文章.id); 状态.当前详情文章 = 文章; 状态.当前页面 = '详情';
+    history.pushState(null, '', 构建详情Hash(文章)); 显示文章详情(文章.分类 || '');
 }
 
-function 打开文章详情(文章) { if (!文章||!文章.id) return; 状态.当前文章ID=文章.id; 状态.当前详情文章=文章; 状态.当前页面='详情'; history.pushState(null,'','#详情/'+文章.id); 显示文章详情(); }
-function 打开文章详情ById(id) { const 文章=[...状态.首页精选文章,...状态.文章列表].find(a=>a.id===id); if(文章) 打开文章详情(文章); }
+function 打开文章详情ById(id, 分类 = '') {
+    const 文章=[...状态.首页精选文章,...状态.文章列表,...状态.搜索扩展文章].find(a => 同一文章ID(a, id) && (!分类 || a.分类 === 分类));
+    if (文章) 打开文章详情(文章); else { 状态.当前文章ID = String(id); 显示文章详情(分类); }
+}
 
-function 显示文章详情() {
-    const 专题文章 = Object.values(状态.专题缓存).flatMap(数据 => Array.isArray(数据.articles) ? 数据.articles : []);
-    const 文章 = (状态.当前详情文章 && 状态.当前详情文章.id === 状态.当前文章ID ? 状态.当前详情文章 : null)
-        || 状态.首页精选文章.find(a=>a.id===状态.当前文章ID)
-        || 状态.文章列表.find(a=>a.id===状态.当前文章ID)
-        || 专题文章.find(a=>a.id===状态.当前文章ID);
-    if(!文章){切换页面('首页');return;}
+function 激活详情视图() {
     document.querySelectorAll('.页面视图').forEach(v=>v.classList.remove('活跃视图'));
     document.querySelectorAll('.导航链接').forEach(l=>l.classList.remove('活跃'));
     const dv=document.getElementById('详情视图'); if(dv)dv.classList.add('活跃视图');
-    const c=document.getElementById('详情容器'); if(!c)return;
+    return document.getElementById('详情容器');
+}
+
+async function 查找详情文章(id, 分类 = '') {
+    const 已加载 = [状态.当前详情文章, ...状态.首页精选文章, ...状态.文章列表, ...状态.搜索扩展文章,
+        ...Object.values(状态.专题缓存).flatMap(数据 => Array.isArray(数据.articles) ? 数据.articles : []),
+        ...(状态.金融缓存 && Array.isArray(状态.金融缓存.articles) ? 状态.金融缓存.articles : [])];
+    let 文章 = 已加载.find(a => 同一文章ID(a, id) && (!分类 || a.分类 === 分类 || (分类 === '金融' && !a.分类)));
+    if (文章) return 文章;
+
+    const 待读取 = [];
+    if (专题栏目文件[分类]) 待读取.push(获取专题数据(分类));
+    else if (分类 === '金融') 待读取.push(获取金融数据());
+    else if (!分类) {
+        Object.keys(专题栏目文件).forEach(栏目 => 待读取.push(获取专题数据(栏目)));
+        待读取.push(获取金融数据());
+    }
+    const 结果 = await Promise.allSettled(待读取);
+    return 结果.filter(项 => 项.status === 'fulfilled')
+        .flatMap(项 => Array.isArray(项.value.articles) ? 项.value.articles : [])
+        .find(a => 同一文章ID(a, id)) || null;
+}
+
+async function 显示文章详情(分类 = '') {
+    const c = 激活详情视图(); if (!c) return;
+    if (!状态.当前文章ID) {
+        c.innerHTML = '<div class="详情错误"><h1>文章地址无效</h1><p>这个链接缺少文章编号，请返回首页重新选择。</p><button class="详情返回" onclick="切换页面(\'首页\')">← 返回首页</button></div>';
+        return;
+    }
+    c.innerHTML = '<p class="搜索提示">正在加载文章…</p>';
+    const 请求ID = String(状态.当前文章ID);
+    let 文章 = null;
+    try { 文章 = await 查找详情文章(请求ID, 分类); }
+    catch (错误) { console.warn('详情加载失败：' + 错误.message); }
+    if (String(状态.当前文章ID) !== 请求ID) return;
+    if (!文章) {
+        c.innerHTML = '';
+        const 错误区 = document.createElement('div'); 错误区.className = '详情错误';
+        添加文本元素(错误区, 'h1', '', '文章暂时无法打开');
+        添加文本元素(错误区, 'p', '', `没有找到编号为 ${请求ID} 的文章。链接可能已过期，也可能是数据源暂时不可用。`);
+        const 返回 = 添加文本元素(错误区, 'button', '详情返回', '← 返回首页'); 返回.onclick = () => 切换页面('首页');
+        c.appendChild(错误区); return;
+    }
+    状态.当前详情文章 = 文章;
     const 正文文本 = 文章.正文 || 文章.内容 || 文章.摘要 || '暂无详细内容。';
     const 段落 = 正文文本.split('\n').filter(p=>p.trim()).map(p => {
         const 行 = p.trim(); const 标题匹配 = 行.match(/^(#{1,3})\s+(.+)/);
@@ -891,11 +1077,16 @@ function 显示文章详情() {
     const 出处HTML = 出处 || 原文 ? `<aside class="详情出处"><strong>出处说明</strong><p>${转义HTML(出处)}</p>${原文 ? `<a href="${转义HTML(原文)}" target="_blank" rel="noopener" class="详情来源链接">查看原始出处</a>` : ''}</aside>` : '';
     const 原标题 = 获取原标题(文章);
     const 原标题HTML = 原标题 ? `<p class="详情原标题" lang="en">${转义HTML(原标题)}</p>` : '';
-    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(文章.标题||'')}</h1>${原标题HTML}<div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语}${要点}<div class="详情正文">${段落}</div>${出处HTML}`;
+    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(文章.标题||'')}</h1>${原标题HTML}<div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语}${要点}<div class="详情正文">${段落}</div>${出处HTML}`;
     window.scrollTo({top:0,behavior:'smooth'});
 }
 
-function 切换移动菜单() { document.getElementById('导航菜单').classList.toggle('展开'); document.querySelector('.菜单按钮').classList.toggle('展开'); }
+function 切换移动菜单() {
+    const 菜单 = document.getElementById('导航菜单'); const 按钮 = document.querySelector('.菜单按钮');
+    if (!菜单 || !按钮) return;
+    const 已展开 = 菜单.classList.toggle('展开'); 按钮.classList.toggle('展开', 已展开);
+    按钮.setAttribute('aria-expanded', String(已展开)); 按钮.setAttribute('aria-label', 已展开 ? '关闭菜单' : '打开菜单');
+}
 function 监听滚动() {
     const 返回按钮=document.getElementById('返回顶部');
     window.addEventListener('scroll',()=>{
@@ -937,9 +1128,3 @@ function 初始化分类折叠() {
     };
     组.appendChild(按钮);
 }
-
-window.addEventListener('popstate',()=>{
-    const hash=window.location.hash.slice(1);
-    if(hash.startsWith('详情/')){const id=parseInt(hash.split('详情/')[1]);if(id){状态.当前文章ID=id;状态.当前页面='详情';显示文章详情();return;}}
-    if(hash&&['首页','分类','搜索','关于'].includes(hash))切换页面(hash);else 切换页面('首页');
-});

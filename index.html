@@ -6,7 +6,7 @@
     <meta name="description" content="极光引擎 · AI、世界、足球、艺术与情感的安静观察。">
     <meta name="keywords" content="AI,人工智能,国际形势,世界杯,人文艺术,情感">
     <title>极光引擎 · 安静的世界观察</title>
-    <link rel="stylesheet" href="极光样式.css?v=20260714c">
+    <link rel="stylesheet" href="极光样式.css?v=20260714d">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%230d0d0d'/><circle cx='16' cy='16' r='4' fill='%237d9b8a' opacity='0.8'/></svg>">
 </head>
 <body>
@@ -20,7 +20,7 @@
                 <a href="#搜索" class="导航链接" onclick="切换页面('搜索');return false" data-page="搜索">搜索</a>
                 <a href="#关于" class="导航链接" onclick="切换页面('关于');return false" data-page="关于">关于</a>
             </div>
-            <button class="菜单按钮" onclick="切换移动菜单()" aria-label="菜单">
+            <button class="菜单按钮" onclick="切换移动菜单()" aria-label="打开菜单" aria-controls="导航菜单" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
         </div>
@@ -112,7 +112,7 @@
                     <input type="text" class="搜索输入框" id="搜索输入框"
                            placeholder="输入关键词搜索..."
                            oninput="实时搜索()"
-                           aria-label="搜索AI资讯">
+                           aria-label="搜索全站资讯">
                     <button class="搜索按钮" onclick="执行搜索()">搜索</button>
                 </div>
                 <div class="搜索建议" id="搜索建议">
@@ -210,6 +210,6 @@
     <button class="返回顶部" id="返回顶部" onclick="滚动到顶部()" aria-label="返回顶部">&uarr;</button>
 
     <!-- 脚本 -->
-    <script src="极光脚本.js?v=20260714c"></script>
+    <script src="极光脚本.js?v=20260714d"></script>
 </body>
 </html>

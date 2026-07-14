@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: aurora-cloud-content-update
+  cancel-in-progress: false
+
 env:
   PYTHON_VERSION: '3.11'
 
@@ -44,6 +48,10 @@ jobs:
             echo "No new data"
           else
             git commit -m "Hot: $(date '+%Y-%m-%d %H:%M')"
-            git pull --rebase origin main
+            if ! git pull --rebase --autostash origin main; then
+              echo "::error::平台热点更新与 main 发生冲突，已停止推送，请人工合并"
+              git rebase --abort || true
+              exit 1
+            fi
             git push
           fi

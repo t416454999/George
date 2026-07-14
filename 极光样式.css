@@ -505,7 +505,7 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     padding: 14px 0;
     border-bottom: 1px solid var(--line);
 }
-.专题说明文字 { color: var(--text-dim); font-size: 13px; line-height: 1.7; }
+.专题说明文字 { min-width: 0; color: var(--text-dim); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; word-break: break-word; }
 .专题更新时间 { flex-shrink: 0; color: var(--text-faint); font-family: var(--font-mono); font-size: 11px; }
 .专题提示 {
     margin: 0 0 22px;
@@ -516,10 +516,13 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     background: rgba(77,127,214,0.055);
     font-size: 13px;
     line-height: 1.6;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 .专题提示.待配置 { border-left-color: var(--signal); background: rgba(217,109,66,0.055); }
 .专题卡片 { outline: none; }
-.专题卡片:focus-visible { box-shadow: 0 0 0 3px rgba(77,127,214,0.2); }
+.专题卡片:focus-visible, .特征卡片[role="link"]:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(77,127,214,0.2); }
 .专题图片框 {
     height: 148px;
     margin: -24px -24px 18px;
@@ -803,8 +806,13 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .建议标签:hover { color: var(--text); border-color: var(--aurora-green); background: rgba(84,184,138,0.06); }
 .搜索结果 { min-height: 120px; }
 .搜索提示 { color: var(--text-faint); font-family: var(--font-serif); font-size: 15px; padding: 40px 0; text-align: center; }
+.搜索统计 { margin-bottom: 24px; color: var(--text-faint); font-size: 13px; }
+.搜索统计 span { color: var(--signal); font-weight: 600; }
 
 .详情容器 { padding: 62px 0 80px; max-width: var(--readw); margin: 0 auto; }
+.详情错误 { padding: 72px 0; text-align: center; }
+.详情错误 h1 { margin-bottom: 14px; font-family: var(--font-serif); font-size: clamp(28px, 5vw, 44px); font-weight: 500; }
+.详情错误 p { max-width: 560px; margin: 0 auto 28px; color: var(--text-dim); line-height: 1.8; overflow-wrap: anywhere; }
 .详情封面 {
     width: min(100%, 920px);
     aspect-ratio: 16 / 9;
@@ -1125,8 +1133,8 @@ mark {
     .主推荐卡片, .次推荐卡片 { grid-column: auto; grid-row: auto; }
     .主推荐卡片 { min-height: 390px; }
     .主推荐卡片.分类主视觉-情感 {
-        min-height: 210px;
-        padding: 20px;
+        min-height: 185px;
+        padding: 18px 20px;
         justify-content: flex-start;
     }
     .专题网格.分类专题-情感 {
@@ -1139,7 +1147,7 @@ mark {
         grid-row: auto;
     }
     .主推荐卡片.分类主视觉-情感 .卡片元信息 {
-        margin-bottom: 12px;
+        margin-bottom: 8px;
     }
     .主推荐卡片.分类主视觉-情感 .卡片标题 {
         max-width: 100%;

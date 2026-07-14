@@ -17,37 +17,12 @@ import hashlib
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# ============================================================
-# 依赖检查与自动安装
-# ============================================================
-缺少的包 = []
-
 try:
-    import requests
-except ImportError:
-    缺少的包.append("requests")
-
-try:
-    import feedparser
-except ImportError:
-    缺少的包.append("feedparser")
-
-try:
-    from bs4 import BeautifulSoup
-except ImportError:
-    缺少的包.append("beautifulsoup4")
-
-if 缺少的包:
-    print(f"[极光引擎] 检测到缺少依赖包：{', '.join(缺少的包)}")
-    print("[极光引擎] 正在自动安装...")
-    import subprocess
-    for 包名 in 缺少的包:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", 包名, "-q"])
-    print("[极光引擎] 依赖安装完成，请重新运行脚本")
-    # 重新导入
     import requests
     import feedparser
     from bs4 import BeautifulSoup
+except ImportError as exc:
+    raise RuntimeError("缺少云端依赖，请由 Python依赖清单.txt / GitHub Actions 安装，脚本禁止运行时 pip install") from exc
 
 
 # ============================================================
@@ -62,6 +37,9 @@ if 缺少的包:
 # 当前采集智能体身份（运行前可通过环境变量覆盖）
 采集智能体名称 = os.environ.get("AURORA_AGENT_NAME", "自动采集脚本 (Python)")
 采集操作人 = os.environ.get("AURORA_OPERATOR", "GitHub Actions")
+云端运行 = os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("AURORA_CLOUD_RUNTIME") == "github-actions"
+允许写入 = 云端运行 or os.environ.get("AURORA_ALLOW_LOCAL_WRITE") == "1"
+英文AI词 = re.compile(r"(?<![A-Za-z])AI(?![A-Za-z])", re.I)
 
 # HTTP 请求头（模拟浏览器，避免被反爬）
 请求头 = {
@@ -716,6 +694,9 @@ def 文章去重(新文章列表, 已有文章列表):
     重复数 = 0
 
     for 文章 in 新文章列表:
+        if not str(文章.get("摘要") or 文章.get("内容") or "").strip():
+            重复数 += 1
+            continue
         # ID去重
         if 文章["id"] in 已有ID集合:
             重复数 += 1
@@ -734,11 +715,29 @@ def 文章去重(新文章列表, 已有文章列表):
             continue
 
         去重后.append(文章)
+        # 每接纳一篇就更新集合，确保同一新批次内部也不会重复。
+        已有ID集合.add(文章["id"])
+        已有标题集合.add(标题小写)
 
     if 重复数 > 0:
         print(f"  [去重] 去除了 {重复数} 篇重复文章")
 
     return 去重后
+
+
+def 全库去重(文章列表):
+    """对历史库和新批次统一去重；稳定保留当前顺序中的第一篇。"""
+    结果, ID集合, 标题集合, 前缀集合 = [], set(), set(), set()
+    for 文章 in 文章列表:
+        摘要 = str(文章.get("摘要") or 文章.get("内容") or "").strip()
+        标题 = str(文章.get("标题") or "").strip().casefold()
+        ID = str(文章.get("id") or "")
+        前缀 = 标题[:30]
+        if not ID or not 标题 or not 摘要 or ID in ID集合 or 标题 in 标题集合 or (前缀 and 前缀 in 前缀集合):
+            continue
+        结果.append(文章)
+        ID集合.add(ID); 标题集合.add(标题); 前缀集合.add(前缀)
+    return 结果
 
 
 # ============================================================
@@ -775,17 +774,26 @@ def 登记修改(新增数量):
     """铁律：任何智能体修改文件必须在修改登记中记录。
     本函数在自动采集脚本修改文章数据库后，将本次操作写入修改登记.json。"""
     try:
-        登记数据 = {"修改历史": []}
-        if 登记路径.exists():
-            try:
-                with open(登记路径, "r", encoding="utf-8") as f:
-                    登记数据 = json.load(f)
-            except (json.JSONDecodeError, IOError):
-                登记数据 = {"修改历史": []}
+        # 修改登记是审计资产：缺失、损坏或结构异常时宁可停止登记，
+        # 也绝不能用一个空对象覆盖既有历史。
+        if not 登记路径.exists():
+            raise RuntimeError("修改登记不存在，拒绝重建空登记")
+        with open(登记路径, "r", encoding="utf-8") as f:
+            登记数据 = json.load(f)
+        if (
+            not isinstance(登记数据, dict)
+            or not isinstance(登记数据.get("修改历史"), list)
+            or not isinstance(登记数据.get("files_last_modified"), dict)
+            or not 登记数据.get("铁律")
+        ):
+            raise RuntimeError("修改登记结构不完整，拒绝覆盖历史")
 
         # 构建新记录
         新记录 = {
-            "id": len(登记数据.get("修改历史", [])) + 1,
+            "id": max(
+                (记录.get("id", 0) for 记录 in 登记数据["修改历史"] if isinstance(记录, dict)),
+                default=0,
+            ) + 1,
             "时间": datetime.now().strftime("%Y-%m-%dT%H:%M:%S+08:00"),
             "智能体": 采集智能体名称,
             "操作人": 采集操作人,
@@ -795,13 +803,9 @@ def 登记修改(新增数量):
         }
 
         # 更新历史
-        if "修改历史" not in 登记数据:
-            登记数据["修改历史"] = []
         登记数据["修改历史"].insert(0, 新记录)
 
         # 更新文件最后修改记录
-        if "files_last_modified" not in 登记数据:
-            登记数据["files_last_modified"] = {}
         登记数据["files_last_modified"]["文章数据库.json"] = {
             "最后修改者": 采集智能体名称,
             "操作人": 采集操作人,
@@ -940,6 +944,9 @@ def 采集金融资讯():
 
 def 主流程():
     """主执行流程"""
+    if not 允许写入:
+        print("[只读预演] 本地默认不联网、不写入；发布采集仅允许 GitHub Actions 云端运行")
+        return 0
     print("=" * 60)
     print("极光引擎 · 每日AI资讯自动采集")
     print(f"运行时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -1032,13 +1039,14 @@ def 主流程():
         # 补充内容字段
         生成内容摘要(合并后)
 
+        # 先排序、再做新批次+历史全库去重，最后截断，避免旧重复占满配额。
+        合并后.sort(key=lambda x: (x.get("日期", "2000-01-01"), str(x.get("id", ""))), reverse=True)
+        合并后 = 全库去重(合并后)
+
         # 限制数据库最大文章数（保留最新500篇）
         if len(合并后) > 500:
             print(f"  数据库超过500篇，截断保留最新500篇")
             合并后 = 合并后[:500]
-
-        # 按日期排序（最新在前）
-        合并后.sort(key=lambda x: x.get("日期", "2000-01-01"), reverse=True)
 
         保存数据库(合并后)
         print(f"  [OK] 数据库更新完成！新增 {len(所有新文章)} 篇，总计 {len(合并后)} 篇")
@@ -1046,7 +1054,14 @@ def 主流程():
         # 铁律：任何智能体修改文件必须登记
         登记修改(len(所有新文章))
     else:
-        print("  [--] 没有新文章，数据库保持不变")
+        # 即使本轮没有新增，也持续修复历史重复项和空摘要项。
+        清理后 = sorted(已有文章, key=lambda x: (x.get("日期", "2000-01-01"), str(x.get("id", ""))), reverse=True)
+        清理后 = 全库去重(清理后)[:500]
+        if 清理后 != 已有文章:
+            保存数据库(清理后)
+            print(f"  [清理] 没有新增；全库质量门槛清理后保留 {len(清理后)} 篇")
+        else:
+            print("  [--] 没有新文章，数据库保持不变")
 
     # 4. 输出新增文章标题
     if 所有新文章:
