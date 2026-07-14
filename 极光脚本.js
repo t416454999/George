@@ -246,6 +246,11 @@ function 应用筛选() {
     let 文章列表 = 状态.当前分类 === '全部' && 状态.首页精选文章.length
         ? [...状态.首页精选文章]
         : [...状态.文章列表];
+    if (状态.当前分类 === '全部' && 状态.首页精选文章.length > 0 && 文章列表.length < 50) {
+        const 已有IDs = new Set(文章列表.map(a => String(a.id)));
+        const 补充 = 状态.文章列表.filter(a => !已有IDs.has(String(a.id)));
+        文章列表 = 文章列表.concat(补充.slice(0, 50 - 文章列表.length));
+    }
     if (状态.当前分类 !== '全部') 文章列表 = 文章列表.filter(a => a.分类 === 状态.当前分类 || (状态.当前分类 === 'AI应用' && a.分类 === 'AI绘画'));
     if (状态.排序方式 === '最热') 文章列表.sort((a, b) => (b.热度 || 0) - (a.热度 || 0));
 
@@ -678,8 +683,30 @@ async function 加载金融热点() {
             const 列表标题 = document.createElement('div'); 列表标题.className = '列表区域标题'; 列表标题.textContent = '更多热点';
             列表容器.appendChild(列表标题);
             const 列表 = document.createElement('ul'); 列表.className = '资讯列表';
-            其余.forEach(a => 列表.appendChild(createListLink(a)));
+            const 限制数 = 8;
+            const allItems = 其余.map(a => createListLink(a));
+            const limited = allItems.slice(0, 限制数);
+            const rest = allItems.slice(限制数);
+            limited.forEach(el => 列表.appendChild(el));
             列表容器.appendChild(列表);
+            if (rest.length > 0) {
+                let 已展开 = false;
+                const 折叠按钮 = document.createElement('button');
+                折叠按钮.className = '加载更多按钮';
+                折叠按钮.style.marginTop = '12px';
+                折叠按钮.textContent = `展开全部（${rest.length} 条）`;
+                折叠按钮.onclick = () => {
+                    已展开 = !已展开;
+                    if (已展开) {
+                        rest.forEach(el => 列表.appendChild(el));
+                        折叠按钮.textContent = '收起';
+                    } else {
+                        rest.forEach(el => el.remove());
+                        折叠按钮.textContent = `展开全部（${rest.length} 条）`;
+                    }
+                };
+                列表容器.appendChild(折叠按钮);
+            }
         }
     }
 }
@@ -1125,6 +1152,9 @@ function 初始化分类折叠() {
         }
         按钮.textContent = 已展开 ? '收起 ▾' : '展开全部 ▸';
         按钮.setAttribute('aria-label', 已展开 ? '收起多余分类' : '展开更多分类');
+        if (已展开 && 标签列表.length > 0) {
+            标签列表[标签列表.length - 1].scrollIntoView({ behavior: 'smooth', inline: 'end', block: 'nearest' });
+        }
     };
     组.appendChild(按钮);
 }
