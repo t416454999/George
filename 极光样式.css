@@ -542,6 +542,20 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 }
 .专题图片框 img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform 0.45s var(--ease); }
 .专题卡片:hover .专题图片框 img { transform: scale(1.025); }
+.专题卡片 .卡片原标题 {
+    position: relative;
+    z-index: 1;
+    margin: -2px 0 9px;
+    color: var(--text-faint);
+    font-size: 12px;
+    line-height: 1.45;
+    font-style: italic;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.主推荐卡片 .卡片原标题 { color: rgba(255,255,255,0.57); }
 .主推荐卡片.有图片 { background: #171b18; }
 .主推荐卡片.有图片 .专题图片框 {
     position: absolute;
@@ -568,6 +582,21 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .主推荐卡片.分类主视觉-世界杯:not(.有图片) { background: radial-gradient(circle at 83% 18%, rgba(148,205,168,.52), transparent 28%), linear-gradient(145deg,#101b16,#294437); }
 .主推荐卡片.分类主视觉-人文艺术:not(.有图片) { background: radial-gradient(circle at 84% 16%, rgba(212,143,93,.48), transparent 30%), linear-gradient(145deg,#211713,#493329); }
 .主推荐卡片.分类主视觉-情感:not(.有图片) { background: radial-gradient(circle at 84% 16%, rgba(199,132,166,.48), transparent 30%), linear-gradient(145deg,#211720,#493143); }
+.主推荐卡片.分类主视觉-情感 {
+    min-height: 330px;
+}
+.主推荐卡片.分类主视觉-情感 .卡片标题 {
+    margin-top: 42px;
+    font-size: clamp(25px, 3.25vw, 38px);
+}
+.主推荐卡片.分类主视觉-情感 .卡片摘要 {
+    margin-top: 8px;
+    line-height: 1.55;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
 .主推荐卡片.分类主视觉-金融:not(.有图片) { background: radial-gradient(circle at 84% 16%, rgba(215,178,78,.43), transparent 30%), linear-gradient(145deg,#181912,#3d4027); }
 .主推荐卡片.分类主视觉-大模型:not(.有图片),
 .主推荐卡片.分类主视觉-AI应用:not(.有图片),
@@ -660,6 +689,19 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     transition: color 0.2s var(--ease);
+}
+.列表中文标题, .列表原标题 { display: block; }
+.列表原标题 {
+    margin-top: 2px;
+    color: var(--text-faint);
+    font-family: var(--font-sans);
+    font-size: 11.5px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.35;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .资讯列表项:hover .列表标题 { color: var(--aurora-purple); }
 .列表分类 {
@@ -767,6 +809,13 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     letter-spacing: -0.055em;
     color: var(--text);
     margin-bottom: 22px;
+}
+.详情原标题 {
+    margin: -12px 0 18px;
+    color: var(--text-faint);
+    font-size: clamp(14px, 2vw, 17px);
+    font-style: italic;
+    line-height: 1.5;
 }
 .详情元信息 {
     display: flex;
@@ -1048,6 +1097,21 @@ mark {
     .特征网格 { display: grid; grid-template-columns: 1fr !important; grid-template-rows: auto; }
     .主推荐卡片, .次推荐卡片 { grid-column: auto; grid-row: auto; }
     .主推荐卡片 { min-height: 390px; }
+    .主推荐卡片.分类主视觉-情感 {
+        min-height: 285px;
+        padding: 24px;
+    }
+    .主推荐卡片.分类主视觉-情感 .卡片标题 {
+        max-width: 100%;
+        margin-top: 28px;
+        font-size: clamp(23px, 7.6vw, 31px);
+        line-height: 1.18;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+    .主推荐卡片.分类主视觉-情感 .卡片摘要 { display: none; }
     .次推荐卡片 { min-height: 150px; }
     .资讯列表链接 { display: grid; grid-template-columns: minmax(0, 1fr) 18px; gap: 8px 12px; padding: 16px 0; }
     .列表元信息 { grid-column: 1; width: auto; max-width: 100%; }

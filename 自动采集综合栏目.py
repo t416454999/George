@@ -28,7 +28,9 @@ from PIL import Image, UnidentifiedImageError
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.7",
 }
 超时 = 30
+云端运行 = os.environ.get("GITHUB_ACTIONS") == "true" or os.environ.get("AURORA_CLOUD_RUNTIME") == "github-actions"
 图片缓存目录 = 根目录 / "assets" / "art"
+新闻图片缓存目录 = 根目录 / "assets" / "media"
 栏目封面 = {
     "国际形势": "assets/covers/international.svg",
     "世界杯": "assets/covers/world-cup.svg",
@@ -37,6 +39,9 @@ from PIL import Image, UnidentifiedImageError
 }
 深度求索分类调用 = {"国际形势": 0, "人文艺术": 0, "情感": 0, "世界杯": 0}
 深度求索默认配额 = {"国际形势": 4, "人文艺术": 4, "情感": 4, "世界杯": 0}
+深度求索标题分类调用 = {"国际形势": 0, "人文艺术": 0, "情感": 0, "世界杯": 0}
+深度求索标题默认配额 = {"国际形势": 8, "人文艺术": 14, "情感": 12, "世界杯": 0}
+深度求索已翻译标题 = set()
 
 
 def 现在字符串():
@@ -72,6 +77,8 @@ def 翻译成中文(文本):
     文本 = 清理文本(文本, 420)
     if not 文本 or re.search(r"[\u4e00-\u9fff]", 文本):
         return 文本
+    if not 云端运行:
+        return 文本
     try:
         响应 = requests.get(
             "https://translate.googleapis.com/translate_a/single",
@@ -83,6 +90,88 @@ def 翻译成中文(文本):
         return "".join(x[0] for x in 响应.json()[0] if x and x[0]).strip() or 文本
     except Exception:
         return 文本
+
+
+def _合格中文标题(标题):
+    标题 = 清理文本(标题, 80).strip("《》‘’“”\"'")
+    if not 标题 or "�" in 标题 or not re.search(r"[\u4e00-\u9fff]", 标题):
+        return ""
+    # 防止模型把解释、原文或多个备选标题一起塞进标题栏。
+    if len(标题) > 48 or "\n" in 标题 or any(x in 标题 for x in ("翻译如下", "中文标题：", "原标题：")):
+        return ""
+    return 标题
+
+
+def _保守艺术标题(原标题, 回退提示=""):
+    """无模型时不猜作品含义；只翻译明确的常见馆藏题名。"""
+    原标题 = 清理文本(原标题, 150)
+    小写 = 原标题.casefold().strip()
+    完整词典 = {
+        "untitled": "无题", "self-portrait": "自画像", "self portrait": "自画像",
+        "portrait of a woman": "女子肖像", "portrait of a man": "男子肖像",
+        "landscape": "风景", "still life": "静物", "the family": "家庭",
+        "mother and child": "母与子", "the lovers": "恋人", "love": "爱",
+        "solitude": "独处", "music": "音乐", "poetry": "诗歌",
+    }
+    if 小写 in 完整词典:
+        return 完整词典[小写]
+    # 仅在题名结构非常明确时做有限替换，避免机械翻译制造荒谬标题。
+    匹配 = re.fullmatch(r"portrait of (?:a |an |the )?([\w .'-]{1,36})", 小写)
+    if 匹配:
+        return "人物肖像"
+    return "馆藏作品"
+
+
+def 生成中文标题(原标题, 分类, 旧文章=None, 回退提示=""):
+    """标题翻译使用独立配额，永远保留原标题供页面以小字展示。"""
+    原标题 = 清理文本(原标题, 180)
+    if not 原标题 or re.search(r"[\u4e00-\u9fff]", 原标题):
+        return 原标题
+    密钥 = os.environ.get("DEEPSEEK_API_KEY", "").strip() if 云端运行 else ""
+    旧标题 = _合格中文标题((旧文章 or {}).get("标题", ""))
+    if 旧标题 and (旧文章 or {}).get("标题翻译方式") in {"DeepSeek", "人工校订"}:
+        return 旧标题
+    try:
+        配额 = json.loads(os.environ.get("DEEPSEEK_TITLE_QUOTAS", "{}"))
+    except json.JSONDecodeError:
+        配额 = {}
+    最大调用 = max(0, int(配额.get(分类, 深度求索标题默认配额.get(分类, 0))))
+    if 密钥 and 深度求索标题分类调用.get(分类, 0) < 最大调用:
+        提示 = (
+            "把下面的英文标题准确、简洁地译成自然中文。它是页面正标题；不要解释，不要补充原文没有的信息。"
+            "艺术品题名应像博物馆图录；论文题名应保持研究限定词。"
+            "只输出 JSON：{\"中文标题\":\"...\"}。\n"
+            f"分类：{分类}\n原标题：{原标题}"
+        )
+        try:
+            深度求索标题分类调用[分类] = 深度求索标题分类调用.get(分类, 0) + 1
+            响应 = requests.post(
+                os.environ.get("DEEPSEEK_API_URL", "https://api.deepseek.com/chat/completions"),
+                headers={"Authorization": f"Bearer {密钥}", "Content-Type": "application/json"},
+                json={
+                    "model": os.environ.get("DEEPSEEK_MODEL", "deepseek-chat"),
+                    "messages": [{"role": "user", "content": 提示}],
+                    "temperature": 0.1,
+                    "response_format": {"type": "json_object"},
+                },
+                timeout=35,
+            )
+            响应.raise_for_status()
+            内容 = _提取JSON对象(响应.json()["choices"][0]["message"]["content"])
+            标题 = _合格中文标题(内容.get("中文标题", ""))
+            if 标题:
+                深度求索已翻译标题.add((分类, 原标题))
+                return 标题
+        except Exception as e:
+            print(f"[提示] DeepSeek 标题翻译失败，使用保守标题：{e}")
+
+    if 旧标题:
+        return 旧标题
+
+    if 分类 == "人文艺术":
+        return _保守艺术标题(原标题, 回退提示)
+    # 非艺术题名仍可使用短文本翻译服务；返回结果须通过中文与乱码校验。
+    return _合格中文标题(翻译成中文(原标题)) or _合格中文标题(回退提示) or "外文资讯"
 
 
 def 旧文章索引(文件名):
@@ -150,7 +239,7 @@ def 生成杂志内容(文章, 素材="", 旧文章=None):
     ):
         return {k: 旧文章[k] for k in ("导语", "要点", "正文", "编辑方式")}
     回退 = _回退杂志内容(文章, 素材)
-    密钥 = os.environ.get("DEEPSEEK_API_KEY", "").strip()
+    密钥 = os.environ.get("DEEPSEEK_API_KEY", "").strip() if 云端运行 else ""
     分类 = 文章.get("分类", "")
     try:
         配额 = json.loads(os.environ.get("DEEPSEEK_CATEGORY_QUOTAS", "{}"))
@@ -201,16 +290,26 @@ def 补充杂志字段(文章, 素材="", 旧文章=None):
     return 文章
 
 
-def 下载馆藏图片(图片链接, 作品ID):
-    """缓存 The Met 小图：下载有硬上限，转成最长边 1200px 的轻量 WebP。"""
-    图片缓存目录.mkdir(parents=True, exist_ok=True)
-    已有 = 图片缓存目录 / f"met-{作品ID}.webp"
+def 下载并压缩图片(图片链接, 缓存目录, 文件前缀, 来源ID, 允许域名后缀):
+    """由云端任务缓存明确允许再发布的真实来源图，并限制格式、体积与域名。"""
+    图片链接 = 安全链接(图片链接)
+    主机 = (urlparse(图片链接).hostname or "").lower()
+    if not 图片链接 or not any(主机 == x or 主机.endswith("." + x) for x in 允许域名后缀):
+        return ""
+    缓存目录.mkdir(parents=True, exist_ok=True)
+    已有 = 缓存目录 / f"{文件前缀}-{来源ID}.webp"
     if 已有.is_file() and 1024 < 已有.stat().st_size <= 300 * 1024:
         return 已有.relative_to(根目录).as_posix()
-    临时 = 图片缓存目录 / f".met-{作品ID}.webp.tmp"
+    if not 云端运行:
+        # 本机只读取已存在的站点缓存；持续下载、校验和压缩只交给 GitHub Actions。
+        return ""
+    临时 = 缓存目录 / f".{文件前缀}-{来源ID}.webp.tmp"
     try:
         with requests.get(图片链接, headers=请求头, timeout=超时, stream=True) as 响应:
             响应.raise_for_status()
+            最终主机 = (urlparse(响应.url).hostname or "").lower()
+            if not any(最终主机 == x or 最终主机.endswith("." + x) for x in 允许域名后缀):
+                raise ValueError("图片重定向到了未授权域名")
             类型 = 响应.headers.get("Content-Type", "").split(";")[0].lower()
             if 类型 not in {"image/jpeg", "image/png", "image/webp"}:
                 raise ValueError(f"不支持的图片类型：{类型}")
@@ -244,8 +343,24 @@ def 下载馆藏图片(图片链接, 作品ID):
         return 已有.relative_to(根目录).as_posix()
     except (OSError, ValueError, requests.RequestException, UnidentifiedImageError) as e:
         临时.unlink(missing_ok=True)
-        print(f"[提示] 馆藏图片缓存失败 {作品ID}：{e}")
+        print(f"[提示] 真实图片缓存失败 {文件前缀}-{来源ID}：{e}")
         return ""
+
+
+def 下载馆藏图片(图片链接, 作品ID):
+    """The Met Open Access 公共领域作品图；仅在 GitHub Actions 中持续更新。"""
+    return 下载并压缩图片(
+        图片链接, 图片缓存目录, "met", 作品ID,
+        {"metmuseum.org", "images.metmuseum.org"},
+    )
+
+
+def 下载联合国RSS图片(图片链接, 文章ID):
+    """RSS enclosure 是联合国主动提供的配图；其他新闻图片不复制到本站。"""
+    return 下载并压缩图片(
+        图片链接, 新闻图片缓存目录, "un", 文章ID,
+        {"unitednations.entermediadb.net", "news.un.org"},
+    )
 
 
 def 清理馆藏缓存(保留路径):
@@ -254,6 +369,14 @@ def 清理馆藏缓存(保留路径):
     文件 = sorted(图片缓存目录.glob("met-*.webp"), key=lambda p: p.stat().st_mtime, reverse=True)
     for 路径 in 文件:
         if 路径.name not in 保留名称 and 文件.index(路径) >= 28:
+            路径.unlink(missing_ok=True)
+
+
+def 清理新闻图片缓存(保留路径):
+    保留名称 = {Path(x).name for x in 保留路径 if x}
+    文件 = sorted(新闻图片缓存目录.glob("un-*.webp"), key=lambda p: p.stat().st_mtime, reverse=True)
+    for 序号, 路径 in enumerate(文件):
+        if 路径.name not in 保留名称 and 序号 >= 56:
             路径.unlink(missing_ok=True)
 
 
@@ -306,12 +429,29 @@ def 合并去重(*文章组, 最大条数=30):
     return 结果[:最大条数]
 
 
+def 提取RSS配图(条目):
+    """只读取 RSS 明示的图片字段，不访问文章全文页面。"""
+    候选 = []
+    for 字段 in ("media_content", "media_thumbnail"):
+        for 项 in 条目.get(字段, []) or []:
+            if isinstance(项, dict):
+                候选.append(项.get("url") or 项.get("href"))
+    for 项 in 条目.get("enclosures", []) or []:
+        if isinstance(项, dict) and str(项.get("type", "")).startswith("image/"):
+            候选.append(项.get("href") or 项.get("url"))
+    for 候选链接 in 候选:
+        链接 = 安全链接(候选链接)
+        if 链接:
+            return 链接
+    return ""
+
+
 def 采集联合国中文新闻():
     地址 = "https://news.un.org/feed/subscribe/zh/news/all/rss.xml"
     响应 = requests.get(地址, headers=请求头, timeout=超时)
     响应.raise_for_status()
     feed = feedparser.parse(响应.content)
-    文章 = []
+    文章, 本轮图片 = [], []
     for 条目 in feed.entries[:24]:
         标题 = 清理文本(条目.get("title"), 150)
         链接 = 安全链接(条目.get("link"))
@@ -319,11 +459,20 @@ def 采集联合国中文新闻():
             continue
         摘要 = 清理文本(条目.get("summary") or 条目.get("description"), 220)
         日期 = 规范日期(条目.get("published") or 条目.get("updated"))
+        文章ID = 稳定ID(标题, 链接)
+        原始图片 = 提取RSS配图(条目)
+        本地图 = 下载联合国RSS图片(原始图片, 文章ID) if 原始图片 else ""
         文章.append({
-            "id": 稳定ID(标题, 链接), "标题": 标题, "摘要": 摘要,
+            "id": 文章ID, "标题": 标题, "摘要": 摘要,
             "来源": "联合国新闻", "分类": "国际形势", "日期": 日期,
             "链接": 链接, "标签": ["国际", "联合国"],
+            "图片": 本地图 or 栏目封面["国际形势"],
+            "封面": 本地图 or 栏目封面["国际形势"],
+            "原始图片": 原始图片,
         })
+        if 本地图:
+            本轮图片.append(本地图)
+    清理新闻图片缓存(本轮图片)
     return 文章
 
 
@@ -336,20 +485,27 @@ def 采集GDELT():
     响应 = requests.get("https://api.gdeltproject.org/api/v2/doc/doc", params=参数, headers=请求头, timeout=超时)
     响应.raise_for_status()
     文章 = []
+    旧索引 = 旧文章索引("国际形势.json")
     for 条目 in 响应.json().get("articles", []):
         原标题 = 清理文本(条目.get("title"), 160)
         链接 = 安全链接(条目.get("url"))
         if not 原标题 or not 链接:
             continue
-        标题 = 翻译成中文(原标题)
+        临时项 = {"id": 稳定ID(原标题, 链接), "链接": 链接}
+        旧项 = 匹配旧文章(旧索引, 临时项)
+        标题 = 生成中文标题(原标题, "国际形势", 旧项)
         域名 = 清理文本(条目.get("domain"), 80) or urlparse(链接).netloc
+        原始图片 = 安全链接(条目.get("socialimage"))
         文章.append({
-            "id": 稳定ID(原标题, 链接), "标题": 标题,
-            "原标题": 原标题 if 标题 != 原标题 else "",
+            "id": 临时项["id"], "标题": 标题,
+            "原标题": 原标题,
+            "标题翻译方式": "DeepSeek" if ("国际形势", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "短译/历史复用"),
             "摘要": f"全球新闻索引收录的 {域名} 最新报道，点击阅读原文。",
             "来源": 域名 or "GDELT", "分类": "国际形势",
             "日期": 规范日期(条目.get("seendate")), "链接": 链接,
-            "标签": ["国际", "全球媒体"],
+            "标签": ["国际", "全球媒体"], "原始图片": 原始图片,
+            # GDELT 只索引第三方图片，版权不明，不复制；由栏目封面安全回退。
+            "图片": 栏目封面["国际形势"], "封面": 栏目封面["国际形势"],
         })
     return 文章
 
@@ -533,25 +689,31 @@ def 采集人文艺术():
         if not 作品.get("isPublicDomain") or not 作品.get("primaryImageSmall"):
             continue
         原标题 = 清理文本(作品.get("title"), 150) or "未命名作品"
-        标题 = 翻译成中文(原标题)
         作者 = 清理文本(作品.get("artistDisplayName"), 100) or "佚名"
         年代 = 清理文本(作品.get("objectDate"), 80) or "年代不详"
         材质 = 清理文本(作品.get("medium"), 100)
         原图链接 = 安全链接(作品.get("primaryImageSmall"))
         本地图 = 下载馆藏图片(原图链接, 作品ID)
+        临时项 = {
+            "id": 稳定ID(作品ID, 原标题),
+            "链接": 安全链接(作品.get("objectURL")),
+        }
+        旧项 = 匹配旧文章(旧索引, 临时项)
+        标题 = 生成中文标题(原标题, "人文艺术", 旧项, f"馆藏作品｜{作者}")
         项 = {
-            "id": 稳定ID(作品ID, 原标题), "标题": 标题,
-            "原标题": 原标题 if 标题 != 原标题 else "",
+            "id": 临时项["id"], "标题": 标题,
+            "原标题": 原标题,
+            "标题翻译方式": "DeepSeek" if ("人文艺术", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "保守规则/历史复用"),
             "摘要": f"{作者} · {年代}" + (f" · {材质}" if 材质 else ""),
             "来源": "The Metropolitan Museum of Art", "分类": "人文艺术",
             "日期": datetime.now().strftime("%Y-%m-%d"),
-            "链接": 安全链接(作品.get("objectURL")),
+            "链接": 临时项["链接"],
             "图片": 本地图 or 栏目封面["人文艺术"],
             "原始图片": 原图链接,
             "封面": 本地图 or 栏目封面["人文艺术"],
             "版权": "Public Domain / Open Access", "标签": [主题[0], "公共领域"],
         }
-        补充杂志字段(项, f"作者：{作者}；年代：{年代}；材质：{材质}", 匹配旧文章(旧索引, 项))
+        补充杂志字段(项, f"作者：{作者}；年代：{年代}；材质：{材质}", 旧项)
         文章.append(项)
         if 本地图:
             本轮缓存.append(本地图)
@@ -606,7 +768,6 @@ def 采集情感():
             词 in 标题小写 for 词 in ("antibody", "virus", "viral", "adhesion", "fusion", "protein", "receptor", "membrane")
         ):
             continue
-        标题 = 翻译成中文(原标题)
         期刊 = 提取PubMed文本(记录, ".//Journal/Title") or "PubMed"
         年 = 提取PubMed文本(记录, ".//PubDate/Year")
         月 = 提取PubMed文本(记录, ".//PubDate/Month")
@@ -614,15 +775,24 @@ def 采集情感():
         关键词 = [清理文本("".join(k.itertext()), 40) for k in 记录.findall(".//Keyword")[:3]]
         摘要段 = [清理文本("".join(a.itertext()), 800) for a in 记录.findall(".//Abstract/AbstractText")]
         论文摘要 = 清理文本(" ".join(x for x in 摘要段 if x), 1600)
+        临时项 = {
+            "id": 稳定ID(pmid, 原标题),
+            "链接": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+        }
+        旧项 = 匹配旧文章(旧索引, 临时项)
+        标题 = 生成中文标题(原标题, "情感", 旧项, "关系与情绪研究")
         项 = {
-            "id": 稳定ID(pmid, 原标题), "标题": 标题,
-            "原标题": 原标题 if 标题 != 原标题 else "",
+            "id": 临时项["id"], "标题": 标题,
+            "原标题": 原标题,
+            "标题翻译方式": "DeepSeek" if ("情感", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "短译/历史复用"),
             "摘要": f"来自《{期刊}》的关系与情绪研究。仅作知识阅读，不构成医疗建议。",
             "来源": f"PubMed · {期刊}", "分类": "情感", "日期": 日期,
-            "链接": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+            "链接": 临时项["链接"],
             "标签": [x for x in 关键词 if x][:3] or ["情绪", "关系"],
+            # PubMed 元数据不提供论文主图，不抓取出版社页面；明确回退到栏目封面。
+            "图片": 栏目封面["情感"], "封面": 栏目封面["情感"],
         }
-        补充杂志字段(项, 论文摘要 or 原标题, 匹配旧文章(旧索引, 项))
+        补充杂志字段(项, 论文摘要 or 原标题, 旧项)
         文章.append(项)
         time.sleep(0.08)
     return 栏目数据(

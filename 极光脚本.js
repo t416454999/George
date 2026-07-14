@@ -231,6 +231,18 @@ function 安全外链(值) {
     } catch { return ''; }
 }
 
+function 获取文章图片(文章, 备用图片 = '') {
+    const 候选 = [文章 && 文章.图片, 文章 && 文章.原始图片, 文章 && 文章.原图, 文章 && 文章.封面, 备用图片]
+        .filter(Boolean);
+    const 真实图片 = 候选.find(值 => !/assets\/covers\//i.test(String(值)));
+    return 安全外链(真实图片 || 候选[0] || '');
+}
+
+function 获取原标题(文章) {
+    const 原标题 = String((文章 && 文章.原标题) || '').replace(/【[^】]+】/g, '').trim();
+    return 原标题 && 原标题 !== String((文章 && 文章.标题) || '').trim() ? 原标题 : '';
+}
+
 function 添加文本元素(父元素, 标签, 类名, 文本) {
     const 元素 = document.createElement(标签);
     if (类名) 元素.className = 类名;
@@ -324,7 +336,7 @@ async function 加载专题栏目(分类名) {
 
 function 应用卡片主视觉(卡片, 文章, 分类名, 备用图片, index) {
     if (index !== 0) return;
-    const 图片 = 安全外链(文章.封面 || 文章.图片 || 备用图片);
+    const 图片 = 获取文章图片(文章, 备用图片);
     卡片.classList.add('有主视觉', '分类主视觉-' + String(分类名 || '全部').replace(/[^\u4e00-\u9fa5A-Za-z0-9_-]/g, ''));
     if (!图片) return;
     卡片.classList.add('有图片');
@@ -351,7 +363,7 @@ function 创建专题卡片(文章, index, 分类名, 备用图片) {
     卡片.setAttribute('role', 'link');
     卡片.onclick = () => 打开文章详情(文章);
     卡片.onkeydown = e => { if (e.key === 'Enter') 卡片.click(); };
-    const 图片 = index === 0 ? '' : 安全外链(文章.封面 || 文章.图片);
+    const 图片 = index === 0 ? '' : 获取文章图片(文章);
     if (图片) {
         卡片.classList.add('有图片');
         const 图框 = document.createElement('div'); 图框.className = '专题图片框';
@@ -367,6 +379,8 @@ function 创建专题卡片(文章, index, 分类名, 备用图片) {
     添加文本元素(信息, 'span', '卡片分类', 文章.分类 || '');
     卡片.appendChild(信息);
     添加文本元素(卡片, 'div', '卡片标题', 文章.标题 || '无标题');
+    const 原标题 = 分类名 === '人文艺术' ? 获取原标题(文章) : '';
+    if (原标题) 添加文本元素(卡片, 'div', '卡片原标题', 原标题);
     添加文本元素(卡片, 'div', '卡片摘要', (文章.摘要 || '').substring(0, 180));
     if (文章.版权) 添加文本元素(卡片, 'div', '专题版权', 文章.版权);
     return 卡片;
@@ -382,7 +396,11 @@ function 创建专题列表项(文章) {
     添加文本元素(元信息, 'span', '列表分隔', '·');
     添加文本元素(元信息, 'span', '列表日期', 文章.日期 || '');
     链接.appendChild(元信息);
-    添加文本元素(链接, 'span', '列表标题', 文章.标题 || '');
+    const 标题组 = document.createElement('span'); 标题组.className = '列表标题';
+    添加文本元素(标题组, 'span', '列表中文标题', 文章.标题 || '');
+    const 原标题 = 文章.分类 === '人文艺术' ? 获取原标题(文章) : '';
+    if (原标题) 添加文本元素(标题组, 'span', '列表原标题', 原标题);
+    链接.appendChild(标题组);
     添加文本元素(链接, 'span', '列表分类', 文章.分类 || '');
     项.appendChild(链接);
     return 项;
@@ -840,12 +858,14 @@ function 显示文章详情() {
     const 要点 = Array.isArray(文章.要点) && 文章.要点.length
         ? `<section class="详情要点"><h2>阅读要点</h2><ul>${文章.要点.map(点 => `<li>${转义HTML(点)}</li>`).join('')}</ul></section>` : '';
     const 导语 = 文章.导语 ? `<p class="详情导语">${转义HTML(文章.导语)}</p>` : '';
-    const 封面 = 安全外链(文章.封面 || 文章.图片);
+    const 封面 = 获取文章图片(文章);
     const 封面HTML = 封面 ? `<figure class="详情封面"><img src="${转义HTML(封面)}" alt="${转义HTML(文章.标题 || '')}" decoding="async" fetchpriority="high"></figure>` : '';
     const 原文 = 安全外链(文章.原文链接 || 文章.链接);
     const 出处 = 文章.出处说明 || 文章.版权 || (文章.来源 ? '内容整理自 ' + 文章.来源 + '，版权归原作者及原机构所有。' : '');
     const 出处HTML = 出处 || 原文 ? `<aside class="详情出处"><strong>出处说明</strong><p>${转义HTML(出处)}</p>${原文 ? `<a href="${转义HTML(原文)}" target="_blank" rel="noopener" class="详情来源链接">查看原始出处</a>` : ''}</aside>` : '';
-    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(文章.标题||'')}</h1><div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语}${要点}<div class="详情正文">${段落}</div>${出处HTML}`;
+    const 原标题 = 获取原标题(文章);
+    const 原标题HTML = 原标题 ? `<p class="详情原标题" lang="en">${转义HTML(原标题)}</p>` : '';
+    c.innerHTML=`<button class="详情返回" onclick="切换页面('首页')">&larr; 返回</button>${封面HTML}<h1 class="详情标题">${转义HTML(文章.标题||'')}</h1>${原标题HTML}<div class="详情元信息"><span>来源：${转义HTML(文章.来源||'')}</span><span>${转义HTML(文章.日期||'')}</span><span>分类：${转义HTML(文章.分类||'')}</span>${文章.热度?'<span>热度 '+转义HTML(文章.热度)+'</span>':''}</div>${导语}${要点}<div class="详情正文">${段落}</div>${出处HTML}`;
     window.scrollTo({top:0,behavior:'smooth'});
 }
 

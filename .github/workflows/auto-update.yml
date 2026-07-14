@@ -1,6 +1,6 @@
 # ============================================================
 # 极光引擎 - GitHub Actions 每日自动部署配置
-# 功能：每天自动采集 AI 与综合栏目资讯 → 提交更新 → 自动触发 Pages 部署
+# 功能：长期采集、翻译和图片压缩全部在 GitHub 云端运行，不依赖个人电脑开机
 # ============================================================
 
 name: "Aurora Engine - Daily AI News Update"
@@ -19,6 +19,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: aurora-cloud-content-update
+  cancel-in-progress: false
 
 env:
   PYTHON_VERSION: '3.11'
@@ -44,12 +48,16 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r Python依赖清单.txt
+          python -m pip install -r Python依赖清单.txt
 
       - name: Run fetch script
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          # 标题翻译与杂志正文分别计数，正文不会耗尽人文标题配额。
+          DEEPSEEK_TITLE_QUOTAS: '{"国际形势":8,"人文艺术":14,"情感":12,"世界杯":0}'
+          DEEPSEEK_CATEGORY_QUOTAS: '{"国际形势":4,"人文艺术":4,"情感":4,"世界杯":0}'
+          AURORA_CLOUD_RUNTIME: github-actions
         run: |
           echo "================================================"
           echo " Aurora Engine - Daily AI News Fetch"
@@ -91,7 +99,7 @@ jobs:
         run: |
           git config user.name "Aurora Bot"
           git config user.email "aurora-bot@users.noreply.github.com"
-          git add 文章数据库.json 修改登记.json 国际形势.json 世界杯.json 人文艺术.json 情感.json assets/covers assets/art
+          git add 文章数据库.json 修改登记.json 国际形势.json 世界杯.json 人文艺术.json 情感.json assets
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
