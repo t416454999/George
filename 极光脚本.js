@@ -14,8 +14,8 @@ const 状态 = {
 
 // 跟随当前脚本的发布版本。版本只在发布时变化，避免每次访问都强制绕过浏览器缓存。
 const 数据资源版本 = (() => {
-    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714g'; }
-    catch { return '20260714g'; }
+    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714h'; }
+    catch { return '20260714h'; }
 })();
 
 const 专题栏目文件 = {
@@ -317,13 +317,9 @@ function 计算文章质量分(文章, 分类名) {
     let 分 = 0;
     // 1. 主编评分（最高权重）——已存在于首页精选的跨板块评分
     if (文章.编辑分 != null) 分 += Math.round(文章.编辑分 * 1.5);
-    // 2. 真实配图（非占位封面）
-    const 图片 = 获取文章图片(文章);
-    if (图片) {
-        const 封面图片 = 'assets/covers/' + String(分类名 || '').replace(/[^一-龥A-Za-z0-9_-]/g, '');
-        if (!图片.includes(封面图片)) 分 += 40;
-        else 分 += 5;
-    }
+    // 2. 真实配图（非占位封面）：直接检查文章原始图片字段
+    const 原始图片字段 = 文章 && (文章.图片 || 文章.原始图片 || 文章.封面 || '');
+    if (原始图片字段 && !/assets\/covers\//i.test(原始图片字段)) 分 += 40;
     // 3. 内容完整度
     if (文章.导语) 分 += 20;
     if (Array.isArray(文章.要点) && 文章.要点.length) 分 += 15;
