@@ -14,8 +14,8 @@ const 状态 = {
 
 // 跟随当前脚本的发布版本。版本只在发布时变化，避免每次访问都强制绕过浏览器缓存。
 const 数据资源版本 = (() => {
-    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714f'; }
-    catch { return '20260714f'; }
+    try { return new URL(document.currentScript.src).searchParams.get('v') || '20260714g'; }
+    catch { return '20260714g'; }
 })();
 
 const 专题栏目文件 = {
@@ -578,7 +578,7 @@ function 渲染容器(分类, 特征文章, 列表文章) {
             容器.appendChild(标题);
             const 网格 = document.createElement('div'); 网格.className = '特征网格';
             特征文章.forEach((文章, index) => {
-                const 卡片 = 创建特征卡片(文章);
+                const 卡片 = 创建特征卡片(文章, 分类, 文章.主视觉 || 文章.封面 || '', index);
                 if (index === 0) {
                     卡片.classList.add('主推荐卡片');
                     应用卡片主视觉(卡片, 文章, 分类, 文章.主视觉 || 文章.封面 || '', index);
@@ -658,12 +658,24 @@ function 创建一手行(文章, 列表) {
 
 function 渲染特征区(文章列表) { /* 已合并到渲染容器 */ }
 
-function 创建特征卡片(文章) {
+function 创建特征卡片(文章, 分类名 = '', 备用图片 = '', index = -1) {
     const 卡片 = document.createElement('article'); 卡片.className = '特征卡片';
     卡片.tabIndex = 0; 卡片.setAttribute('role', 'link');
     卡片.setAttribute('aria-label', '阅读：' + (文章.标题 || '无标题'));
     卡片.onclick = () => 打开文章详情(文章);
     卡片.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); 卡片.click(); } };
+    // 如果文章有真实配图，次卡片显示图片（主卡片由应用卡片主视觉处理）
+    if (index !== 0) {
+        const 候选图片 = 获取文章图片(文章);
+        if (候选图片 && !/assets\/covers\//i.test(候选图片)) {
+            卡片.classList.add('有图片');
+            const 图框 = document.createElement('div'); 图框.className = '专题图片框';
+            const img = document.createElement('img'); img.src = 候选图片; img.alt = 文章.标题 || '';
+            img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+            img.onerror = () => { 图框.remove(); 卡片.classList.remove('有图片'); };
+            图框.appendChild(img); 卡片.prepend(图框);
+        }
+    }
     const 元信息 = document.createElement('div'); 元信息.className = '卡片元信息';
     添加文本元素(元信息, 'span', '卡片来源', 文章.来源 || '');
     添加文本元素(元信息, 'span', '卡片日期', 文章.日期 || '');
@@ -734,6 +746,17 @@ async function 加载金融热点() {
                 <div class="卡片摘要">${转义HTML((a.摘要||'').substring(0, 100))}</div>
                 ${a.标签 ? '<div class="卡片标签栏">' + a.标签.slice(0,3).map(t => `<span class="卡片标签">${转义HTML(t)}</span>`).join('') + '</div>' : ''}`;
             if (index === 0) 应用卡片主视觉(卡片, a, '金融', 金融数据.主视觉 || 金融数据.封面 || '', index);
+            else {
+                const 金融图片 = 获取文章图片(a);
+                if (金融图片 && !/assets\/covers\//i.test(金融图片)) {
+                    卡片.classList.add('有图片');
+                    const 图框 = document.createElement('div'); 图框.className = '专题图片框';
+                    const img = document.createElement('img'); img.src = 金融图片; img.alt = a.标题 || '';
+                    img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+                    img.onerror = () => { 图框.remove(); 卡片.classList.remove('有图片'); };
+                    图框.appendChild(img); 卡片.prepend(图框);
+                }
+            }
             网格.appendChild(卡片);
         });
         容器.appendChild(网格);
