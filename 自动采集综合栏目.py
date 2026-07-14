@@ -37,10 +37,10 @@ from PIL import Image, UnidentifiedImageError
     "人文艺术": "assets/covers/humanities.svg",
     "情感": "assets/covers/emotion.svg",
 }
-深度求索分类调用 = {"国际形势": 0, "人文艺术": 0, "情感": 0, "世界杯": 0}
-深度求索默认配额 = {"国际形势": 4, "人文艺术": 4, "情感": 4, "世界杯": 0}
-深度求索标题分类调用 = {"国际形势": 0, "人文艺术": 0, "情感": 0, "世界杯": 0}
-深度求索标题默认配额 = {"国际形势": 8, "人文艺术": 14, "情感": 12, "世界杯": 0}
+深度求索分类调用 = {"国际形势": 0, "人文艺术": 0, "情感": 0, "世界杯": 0, "Rijksmuseum": 0, "Art Institute of Chicago": 0}
+深度求索默认配额 = {"国际形势": 4, "人文艺术": 4, "情感": 4, "世界杯": 0, "Rijksmuseum": 4, "Art Institute of Chicago": 4}
+深度求索标题分类调用 = {"国际形势": 0, "人文艺术": 0, "情感": 0, "世界杯": 0, "Rijksmuseum": 0, "Art Institute of Chicago": 0}
+深度求索标题默认配额 = {"国际形势": 8, "人文艺术": 14, "情感": 24, "世界杯": 0, "Rijksmuseum": 14, "Art Institute of Chicago": 14}
 深度求索已翻译标题 = set()
 
 
@@ -360,6 +360,22 @@ def 下载馆藏图片(图片链接, 作品ID):
     )
 
 
+def 下载Rijksmuseum图片(图片链接, 作品ID):
+    """Rijksmuseum 公共领域作品图。"""
+    return 下载并压缩图片(
+        图片链接, 图片缓存目录, "rijks", 作品ID,
+        {"rijksmuseum.org"},
+    )
+
+
+def 下载芝加哥图片(图片链接, 作品ID):
+    """Art Institute of Chicago CC0 作品图。"""
+    return 下载并压缩图片(
+        图片链接, 图片缓存目录, "aic", 作品ID,
+        {"artic.edu"},
+    )
+
+
 def 下载联合国RSS图片(图片链接, 文章ID):
     """RSS enclosure 是联合国主动提供的配图；其他新闻图片不复制到本站。"""
     return 下载并压缩图片(
@@ -371,7 +387,12 @@ def 下载联合国RSS图片(图片链接, 文章ID):
 def 清理馆藏缓存(保留路径):
     """仅清理本站专用缓存；保留本周与上周最多 28 张，防止仓库无限增长。"""
     保留名称 = {Path(x).name for x in 保留路径 if x}
-    文件 = sorted(图片缓存目录.glob("met-*.webp"), key=lambda p: p.stat().st_mtime, reverse=True)
+    文件 = sorted(
+        list(图片缓存目录.glob("met-*.webp"))
+        + list(图片缓存目录.glob("rijks-*.webp"))
+        + list(图片缓存目录.glob("aic-*.webp")),
+        key=lambda p: p.stat().st_mtime, reverse=True,
+    )
     for 路径 in 文件:
         if 路径.name not in 保留名称 and 文件.index(路径) >= 28:
             路径.unlink(missing_ok=True)
@@ -806,7 +827,7 @@ def 采集人文艺术():
     旧索引 = 旧文章索引("人文艺术.json")
     本轮缓存 = []
     for 作品ID in 候选ID:
-        if len(文章) >= 14:
+        if len(文章) >= 6:
             break
         try:
             响应 = requests.get(
@@ -849,13 +870,175 @@ def 采集人文艺术():
         if 本地图:
             本轮缓存.append(本地图)
         time.sleep(0.08)
-    if not 文章:
-        raise RuntimeError("The Met 没有返回可用的公共领域作品")
     清理馆藏缓存(本轮缓存)
+    # 从其他开放馆藏补充
+    已有链接 = {x.get("链接") for x in 文章}
+    try:
+        rijks文章 = 采集Rijksmuseum()
+        for 项 in rijks文章:
+            if len(文章) >= 14 or 项.get("链接") in 已有链接:
+                continue
+            已有链接.add(项.get("链接"))
+            文章.append(项)
+    except Exception as e:
+        print(f"[提示] Rijksmuseum 采集失败：{e}")
+    try:
+        chicago文章 = 采集芝加哥艺术()
+        for 项 in chicago文章:
+            if len(文章) >= 14 or 项.get("链接") in 已有链接:
+                continue
+            已有链接.add(项.get("链接"))
+            文章.append(项)
+    except Exception as e:
+        print(f"[提示] 芝加哥艺术博物馆采集失败：{e}")
+    if not 文章:
+        raise RuntimeError("没有获取到人文艺术数据")
     return 栏目数据(
-        "人文艺术", "The Metropolitan Museum of Art Open Access",
-        "每日从公共领域馆藏中选取艺术作品，图片可开放使用。", 文章,
+        "人文艺术", "The Metropolitan Museum of Art / Rijksmuseum / Art Institute of Chicago",
+        "每日从多个开放馆藏中选取艺术作品，图片可开放使用。", 文章,
     )
+
+
+def 采集Rijksmuseum():
+    """采集荷兰国立博物馆（Rijksmuseum）公共领域作品。"""
+    密钥 = os.environ.get("RUKSMUSEUM_API_KEY", "")
+    主题列表 = ["portrait", "landscape", "daily+life", "love", "family"]
+    随机 = random.Random(datetime.now().strftime("%G-W%V"))
+    主题 = 随机.sample(主题列表, 1)[0]
+    文章 = []
+    旧索引 = 旧文章索引("人文艺术.json")
+    本轮缓存 = []
+    try:
+        搜索响应 = requests.get(
+            "https://www.rijksmuseum.nl/api/en/collection",
+            params={
+                "key": 密钥, "ps": 20, "imgonly": "true",
+                "hasimage": "true", "toppieces": "true",
+                "culture": "en", "type": "painting", "q": 主题,
+            },
+            headers=请求头, timeout=超时,
+        )
+        搜索响应.raise_for_status()
+        数据 = 搜索响应.json()
+    except Exception as e:
+        print(f"[提示] Rijksmuseum 搜索失败：{e}")
+        return []
+    作品列表 = (数据.get("artObjects") or [])[:20]
+    for 作品 in 作品列表:
+        if len(文章) >= 7:
+            break
+        对象号 = 作品.get("objectNumber")
+        if not 对象号:
+            continue
+        try:
+            详情响应 = requests.get(
+                f"https://www.rijksmuseum.nl/api/en/collection/{对象号}",
+                params={"key": 密钥, "culture": "en"},
+                headers=请求头, timeout=超时,
+            )
+            详情响应.raise_for_status()
+            详情 = 详情响应.json().get("artObject", {})
+        except Exception as e:
+            print(f"[提示] Rijksmuseum 作品 {对象号} 详情获取失败：{e}")
+            continue
+        图片信息 = 详情.get("webImage") or {}
+        原图链接 = 安全链接(图片信息.get("url"))
+        if not 原图链接:
+            continue
+        原标题 = 清理文本(详情.get("title"), 150) or "未命名作品"
+        作者 = 清理文本(详情.get("principalMaker"), 100) or "佚名"
+        年代 = 清理文本(详情.get("dating", {}).get("presentingDate"), 80) or "年代不详"
+        本地图 = 下载Rijksmuseum图片(原图链接, 对象号)
+        临时项 = {
+            "id": 稳定ID("rijks", 对象号, 原标题),
+            "链接": f"https://www.rijksmuseum.nl/en/collection/{对象号}",
+        }
+        旧项 = 匹配旧文章(旧索引, 临时项)
+        标题 = 生成中文标题(原标题, "人文艺术", 旧项, f"馆藏作品｜{作者}")
+        项 = {
+            "id": 临时项["id"], "标题": 标题,
+            "原标题": 原标题,
+            "标题翻译方式": "DeepSeek" if ("人文艺术", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "保守规则/历史复用"),
+            "摘要": f"{作者} · {年代}",
+            "来源": "Rijksmuseum", "分类": "人文艺术",
+            "日期": datetime.now().strftime("%Y-%m-%d"),
+            "链接": 临时项["链接"],
+            "图片": 本地图 or 栏目封面["人文艺术"],
+            "原始图片": 原图链接,
+            "封面": 本地图 or 栏目封面["人文艺术"],
+            "版权": "Public Domain", "标签": ["公共领域", "荷兰国立博物馆"],
+        }
+        补充杂志字段(项, f"作者：{作者}；年代：{年代}", 旧项)
+        文章.append(项)
+        if 本地图:
+            本轮缓存.append(本地图)
+        time.sleep(0.1)
+    清理馆藏缓存(本轮缓存)
+    return 文章
+
+
+def 采集芝加哥艺术():
+    """采集芝加哥艺术博物馆（Art Institute of Chicago）CC0 作品。"""
+    主题列表 = ["landscape", "portrait", "still+life", "love", "music"]
+    随机 = random.Random(datetime.now().strftime("%G-W%V"))
+    主题 = 随机.sample(主题列表, 1)[0]
+    文章 = []
+    旧索引 = 旧文章索引("人文艺术.json")
+    本轮缓存 = []
+    try:
+        搜索响应 = requests.get(
+            "https://api.artic.edu/api/v1/artworks/search",
+            params={
+                "q": 主题, "limit": 20,
+                "fields": "id,title,artist_display,date_display,image_id,api_link,style_title,medium_display",
+            },
+            headers=请求头, timeout=超时,
+        )
+        搜索响应.raise_for_status()
+        数据 = 搜索响应.json()
+    except Exception as e:
+        print(f"[提示] 芝加哥艺术博物馆搜索失败：{e}")
+        return []
+    作品列表 = (数据.get("data") or [])[:20]
+    for 作品 in 作品列表:
+        if len(文章) >= 7:
+            break
+        图片ID = 作品.get("image_id")
+        作品ID = 作品.get("id")
+        if not 图片ID or not 作品ID:
+            continue
+        原标题 = 清理文本(作品.get("title"), 150) or "未命名作品"
+        作者 = 清理文本(作品.get("artist_display"), 100) or "佚名"
+        年代 = 清理文本(作品.get("date_display"), 80) or "年代不详"
+        材质 = 清理文本(作品.get("medium_display"), 100)
+        原图链接 = f"https://www.artic.edu/iiif/2/{图片ID}/full/843,/0/default.jpg"
+        本地图 = 下载芝加哥图片(原图链接, 作品ID)
+        临时项 = {
+            "id": 稳定ID("aic", 作品ID, 原标题),
+            "链接": f"https://www.artic.edu/artworks/{作品ID}",
+        }
+        旧项 = 匹配旧文章(旧索引, 临时项)
+        标题 = 生成中文标题(原标题, "人文艺术", 旧项, f"馆藏作品｜{作者}")
+        项 = {
+            "id": 临时项["id"], "标题": 标题,
+            "原标题": 原标题,
+            "标题翻译方式": "DeepSeek" if ("人文艺术", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "保守规则/历史复用"),
+            "摘要": f"{作者} · {年代}" + (f" · {材质}" if 材质 else ""),
+            "来源": "Art Institute of Chicago", "分类": "人文艺术",
+            "日期": datetime.now().strftime("%Y-%m-%d"),
+            "链接": 临时项["链接"],
+            "图片": 本地图 or 栏目封面["人文艺术"],
+            "原始图片": 原图链接,
+            "封面": 本地图 or 栏目封面["人文艺术"],
+            "版权": "CC0 / Public Domain", "标签": ["公共领域", "芝加哥艺术博物馆"],
+        }
+        补充杂志字段(项, f"作者：{作者}；年代：{年代}；材质：{材质}", 旧项)
+        文章.append(项)
+        if 本地图:
+            本轮缓存.append(本地图)
+        time.sleep(0.1)
+    清理馆藏缓存(本轮缓存)
+    return 文章
 
 
 def 提取PubMed文本(元素, 路径):
@@ -918,7 +1101,50 @@ def _解析PubMed日期(记录):
     return datetime.now().strftime("%Y-%m-%d")
 
 
+def 采集情感新闻():
+    """从 Google News RSS 采集情感、心理、人际关系相关新闻。"""
+    地址列表 = [
+        "https://news.google.com/rss/search?q=emotion+psychology+relationship&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%E6%83%85%E7%BB%AA+%E5%BF%83%E7%90%86+%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    ]
+    旧索引 = 旧文章索引("情感.json")
+    全部文章 = []
+    for 地址 in 地址列表:
+        try:
+            响应 = requests.get(地址, headers=请求头, timeout=超时)
+            响应.raise_for_status()
+            feed = feedparser.parse(响应.content)
+            for 条目 in feed.entries[:10]:
+                原标题 = 清理文本(条目.get("title"), 150)
+                链接 = 安全链接(条目.get("link"))
+                if not 原标题 or not 链接:
+                    continue
+                摘要 = 清理文本(条目.get("summary") or 条目.get("description"), 220)
+                日期 = 规范日期(条目.get("published") or 条目.get("updated"))
+                文章ID = 稳定ID(原标题, 链接)
+                临时项 = {"id": 文章ID, "链接": 链接}
+                旧项 = 匹配旧文章(旧索引, 临时项)
+                标题 = 生成中文标题(原标题, "情感", 旧项, "情感心理新闻")
+                全部文章.append({
+                    "id": 文章ID, "标题": 标题,
+                    "原标题": 原标题,
+                    "标题翻译方式": "DeepSeek" if ("情感", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "短译/历史复用"),
+                    "摘要": 摘要,
+                    "来源": "Google News · 情感心理", "分类": "情感",
+                    "日期": 日期, "链接": 链接,
+                    "标签": ["情感", "心理", "新闻"],
+                    "图片": 栏目封面["情感"], "封面": 栏目封面["情感"],
+                })
+            time.sleep(0.3)
+        except Exception as e:
+            print(f"[提示] 情感新闻 RSS 采集失败：{e}")
+            continue
+    全部文章.sort(key=lambda x: x.get("日期", ""), reverse=True)
+    return 全部文章[:15]
+
+
 def 采集情感():
+    """从 PubMed 和 Google News 采集情感、关系、心理相关文章。"""
     当前年 = datetime.now().year
     查询 = (
         '(("emotion regulation"[Title] OR loneliness[Title] OR attachment[Title] '
@@ -942,8 +1168,9 @@ def 采集情感():
     )
     详情.raise_for_status()
     根 = ET.fromstring(详情.content)
-    文章 = []
+
     旧索引 = 旧文章索引("情感.json")
+    pubmed文章 = []
     for 记录 in 根.findall(".//PubmedArticle"):
         pmid = 提取PubMed文本(记录, ".//PMID")
         原标题 = 提取PubMed文本(记录, ".//ArticleTitle")
@@ -965,7 +1192,7 @@ def 采集情感():
         }
         旧项 = 匹配旧文章(旧索引, 临时项)
         标题 = 生成中文标题(原标题, "情感", 旧项, "关系与情绪研究")
-        项 = {
+        pubmed文章.append({
             "id": 临时项["id"], "标题": 标题,
             "原标题": 原标题,
             "标题翻译方式": "DeepSeek" if ("情感", 原标题) in 深度求索已翻译标题 else ((旧项 or {}).get("标题翻译方式") or "短译/历史复用"),
@@ -975,12 +1202,21 @@ def 采集情感():
             "标签": [x for x in 关键词 if x][:3] or ["情绪", "关系"],
             # PubMed 元数据不提供论文主图，不抓取出版社页面；明确回退到栏目封面。
             "图片": 栏目封面["情感"], "封面": 栏目封面["情感"],
-        }
-        补充杂志字段(项, 论文摘要 or 原标题, 旧项)
-        文章.append(项)
+            "_论文素材": 论文摘要 or 原标题,
+        })
+        if len(pubmed文章) >= 12:
+            break
         time.sleep(0.08)
+
+    新闻文章 = 采集情感新闻()
+    文章 = 合并去重(新闻文章, pubmed文章, 最大条数=25)
+
+    for 项 in 文章:
+        素材 = 项.pop("_论文素材", None) or 项.get("摘要", "")
+        补充杂志字段(项, 素材, 匹配旧文章(旧索引, 项))
+
     return 栏目数据(
-        "情感", "PubMed / NCBI",
+        "情感", "PubMed / NCBI · Google News",
         "从关系、孤独、依恋与情绪研究中寻找可靠线索；不是医疗建议。", 文章,
     )
 

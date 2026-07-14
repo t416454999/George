@@ -99,12 +99,14 @@ jobs:
         run: |
           git config user.name "Aurora Bot"
           git config user.email "aurora-bot@users.noreply.github.com"
-          git add 文章数据库.json 修改登记.json 国际形势.json 世界杯.json 人文艺术.json 情感.json 首页精选.json assets
+          # 不跟踪 修改登记.json（该文件由人工Agent维护，bot加入会导致rebase冲突）
+          git add 文章数据库.json 国际形势.json 世界杯.json 人文艺术.json 情感.json 首页精选.json assets
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Auto update: $(date '+%Y-%m-%d') - Latest AI news"
-            git pull --rebase origin main
+            # 遇到冲突时自动使用远程版本（bot的数据总是最新的）
+            git pull --rebase -X theirs origin main
             git push
             echo "Changes committed and pushed - Pages will auto-deploy"
           fi
