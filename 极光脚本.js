@@ -37,6 +37,7 @@ async function 获取JSON(路径, 选项 = {}) {
 
 document.addEventListener('DOMContentLoaded', async () => {
     await 初始化数据();
+    更新首页日期();
     初始化路由();
     监听滚动();
     初始化分类折叠();
@@ -126,6 +127,18 @@ function 更新更新时间() {
     if (元素 && 状态.文章列表.length > 0) {
         元素.textContent = '更新于：' + (状态.文章列表[0].日期 || '未知');
     }
+}
+
+function 更新首页日期() {
+    const 日期元素 = document.getElementById('首页当前日期');
+    if (!日期元素) return;
+    const 当前时间 = new Date();
+    const 格式化日期 = new Intl.DateTimeFormat('zh-CN', {
+        month: 'long',
+        day: 'numeric',
+        weekday: 'short'
+    }).format(当前时间);
+    日期元素.textContent = 格式化日期;
 }
 
 // ============================================================

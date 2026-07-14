@@ -14,7 +14,11 @@
     <!-- 导航栏 -->
     <nav class="导航栏" id="导航栏">
         <div class="导航容器">
-<div class="导航菜单" id="导航菜单">
+<a href="#首页" class="网站标志" onclick="切换页面('首页');return false">
+                <span class="标志标记"></span>
+                极光引擎
+            </a>
+            <div class="导航菜单" id="导航菜单">
                 <a href="#首页" class="导航链接 活跃" onclick="切换页面('首页');return false" data-page="首页">首页</a>
                 <a href="#分类" class="导航链接" onclick="切换页面('分类');return false" data-page="分类">平台热点聚合</a>
                 <a href="#搜索" class="导航链接" onclick="切换页面('搜索');return false" data-page="搜索">搜索</a>
@@ -33,11 +37,15 @@
         <section id="首页视图" class="页面视图 活跃视图">
 
             <!-- 标题区 -->
-            <header class="标题区域">
-                <div class="标题主区">
-                    <div class="标题眉标">AI SIGNALS / DAILY OBSERVATION</div>
-                    <h1 class="主标题">极光引擎</h1>
-                    <p class="副标题">从一个想法，到一束极光。</p>
+            <header class="标题区域 首页信息头">
+                <div class="首页标题组">
+                    <p class="首页眉标">DAILY SIGNALS</p>
+                    <h1 class="首页栏目标题">今日观察</h1>
+                    <p class="首页更新信息">
+                        <span id="首页当前日期"></span>
+                        <span class="更新分隔">·</span>
+                        <span>持续更新</span>
+                    </p>
                 </div>
             </header>
 

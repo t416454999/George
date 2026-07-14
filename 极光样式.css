@@ -139,6 +139,25 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
         radial-gradient(ellipse at 85% 50%, rgba(131,105,200,0.05) 0%, transparent 60%),
         rgba(250,248,242,0.78);
 }
+.网站标志 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: auto;
+    font-family: var(--font-serif);
+    font-size: 15px;
+    color: var(--text);
+    text-decoration: none;
+    transition: opacity 0.2s var(--ease);
+}
+.网站标志:hover { opacity: 0.75; }
+.标志标记 {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--aurora-green), var(--aurora-purple));
+    flex-shrink: 0;
+}
 .导航菜单 { display: flex; gap: 4px; }
 .导航链接 {
     position: relative;
@@ -170,12 +189,52 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
 .活跃视图 { display: block; animation: 淡入 0.4s var(--ease) both; }
 @keyframes 淡入 { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ---------- 标题区 ---------- */
-.标题区域 {
+/* ---------- 标题区（首页信息头） ---------- */
+.首页信息头 {
+    padding: 44px 0 20px;
+}
+.首页信息头::before {
+    display: none;
+}
+.首页标题组 {
+    max-width: 680px;
+}
+.首页眉标 {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.24em;
+    color: var(--aurora-green);
+    margin-bottom: 14px;
+}
+.首页栏目标题 {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: clamp(38px, 5.5vw, 64px);
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+    color: var(--text);
+}
+.首页更新信息 {
+    margin-top: 16px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--text-faint);
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.更新分隔 {
+    color: var(--line);
+}
+
+/* ---------- 旧标题区（其他页面回退） ---------- */
+#首页视图 .标题区域 {
     position: relative;
     padding: 52px 0 36px;
 }
-.标题区域::before {
+#首页视图 .标题区域::before {
     content: "JIGUANG ENGINE";
     position: absolute;
     right: 0;
@@ -187,14 +246,14 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     pointer-events: none;
     user-select: none;
 }
-.标题眉标 {
+#首页视图 .标题眉标 {
     margin-bottom: 14px;
     font-family: var(--font-mono);
     font-size: 11px;
     letter-spacing: 0.2em;
     color: var(--aurora-green);
 }
-.主标题 {
+#首页视图 .主标题 {
     margin: 0;
     padding-bottom: 6px;
     font-family: var(--font-sans);
@@ -215,13 +274,18 @@ a { color: inherit; text-decoration: none; transition: color 0.2s var(--ease); }
     50% { background-position: 100% 50%; }
 }
 
-.副标题 {
+#首页视图 .副标题 {
     margin-top: 12px;
     font-family: var(--font-serif);
     font-size: clamp(18px, 2.2vw, 26px);
     line-height: 1.35;
     letter-spacing: -0.035em;
     color: var(--text-dim);
+}
+
+/* 首页信息头覆盖：阻止旧标题区的伪元素泄漏 */
+#首页视图 .首页信息头::before {
+    display: none;
 }
 
 /* ---------- 统计数字（共用，页脚中缩小） ---------- */
@@ -1124,10 +1188,14 @@ mark {
     .主内容 { padding: 0 18px 80px; }
     .导航栏 { padding: 8px 0 0; }
     .导航容器 { padding: 10px 12px; border-radius: 12px; justify-content: space-between; }
-    .标题区域 { padding: 34px 0 26px; }
-    .标题区域::before { display: none; }
-    .主标题 { font-size: clamp(36px, 11vw, 44px); line-height: 1.05; letter-spacing: -0.045em; font-weight: 800; }
-    .副标题 { margin-top: 10px; font-size: 18px; line-height: 1.4; }
+    .首页信息头 { padding: 28px 0 14px; }
+    .首页眉标 { font-size: 10px; margin-bottom: 10px; letter-spacing: 0.18em; }
+    .首页栏目标题 { font-size: clamp(28px, 8.5vw, 34px); }
+    .首页更新信息 { margin-top: 12px; font-size: 12px; }
+    #首页视图 .标题区域 { padding: 34px 0 26px; }
+    #首页视图 .标题区域::before { display: none; }
+    #首页视图 .主标题 { font-size: clamp(36px, 11vw, 44px); line-height: 1.05; letter-spacing: -0.045em; font-weight: 800; }
+    #首页视图 .副标题 { margin-top: 10px; font-size: 18px; line-height: 1.4; }
     .筛选栏 { flex-direction: column; align-items: flex-start; gap: 12px; top: 50px; }
     .分类标签组 { width: 100%; }
     .特征网格 { display: grid; grid-template-columns: 1fr !important; grid-template-rows: auto; }
