@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-15T10:06:01+08:00",
+  "updated": "2026-07-16T10:12:14+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "176.1k",
+      "星标": "176.2k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "141.8k",
+      "星标": "141.9k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "59.7k",
+      "星标": "59.8k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -60,99 +60,99 @@
   ],
   "trending": [
     {
-      "名称": "ai-job-search",
-      "repo": "MadsLorentzen/ai-job-search",
-      "说明": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "星标": 22696,
-      "本周新增": 13195,
-      "语言": "TypeScript"
-    },
-    {
       "名称": "DesktopCommanderMCP",
       "repo": "wonderwhy-er/DesktopCommanderMCP",
       "说明": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-      "星标": 8282,
-      "本周新增": 2009,
+      "星标": 8387,
+      "本周新增": 2055,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "stitch-skills",
+      "repo": "google-labs-code/stitch-skills",
+      "说明": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "星标": 7506,
+      "本周新增": 992,
       "语言": "TypeScript"
     },
     {
       "名称": "OfficeCLI",
       "repo": "iOfficeAI/OfficeCLI",
       "说明": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "星标": 17244,
-      "本周新增": 7129,
+      "星标": 18111,
+      "本周新增": 6374,
       "语言": "C#"
     },
     {
       "名称": "orca",
       "repo": "stablyai/orca",
       "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-      "星标": 19520,
-      "本周新增": 5724,
+      "星标": 20300,
+      "本周新增": 5777,
       "语言": "TypeScript"
     },
     {
-      "名称": "CubeSandbox",
-      "repo": "TencentCloud/CubeSandbox",
-      "说明": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-      "星标": 10233,
-      "本周新增": 1944,
-      "语言": "Rust"
+      "名称": "Vibe-Trading",
+      "repo": "HKUDS/Vibe-Trading",
+      "说明": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "星标": 24085,
+      "本周新增": 4802,
+      "语言": "Python"
     },
     {
-      "名称": "herdr",
-      "repo": "ogulcancelik/herdr",
-      "说明": "agent multiplexer that lives in your terminal.",
-      "星标": 16627,
-      "本周新增": 3115,
-      "语言": "Rust"
-    },
-    {
-      "名称": "OmniRoute",
-      "repo": "diegosouzapw/OmniRoute",
-      "说明": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-      "星标": 17509,
-      "本周新增": 4297,
-      "语言": "TypeScript"
+      "名称": "hallmark",
+      "repo": "Nutlope/hallmark",
+      "说明": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "星标": 9954,
+      "本周新增": 3551,
+      "语言": "CSS"
     },
     {
       "名称": "codex-plugin-cc",
       "repo": "openai/codex-plugin-cc",
       "说明": "Use Codex from Claude Code to review code or delegate tasks.",
-      "星标": 28714,
-      "本周新增": 2063,
+      "星标": 28902,
+      "本周新增": 1998,
       "语言": "JavaScript"
     },
     {
-      "名称": "claude-video",
-      "repo": "bradautomates/claude-video",
-      "说明": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-      "星标": 8582,
-      "本周新增": 3554,
-      "语言": "Python"
+      "名称": "OmniRoute",
+      "repo": "diegosouzapw/OmniRoute",
+      "说明": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "星标": 17910,
+      "本周新增": 4149,
+      "语言": "TypeScript"
     },
     {
-      "名称": "archify",
-      "repo": "tt-a1i/archify",
-      "说明": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
-      "星标": 4798,
-      "本周新增": 1519,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "meetily",
-      "repo": "Zackriya-Solutions/meetily",
-      "说明": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
-      "星标": 24798,
-      "本周新增": 4389,
+      "名称": "herdr",
+      "repo": "ogulcancelik/herdr",
+      "说明": "agent multiplexer that lives in your terminal.",
+      "星标": 17020,
+      "本周新增": 2636,
       "语言": "Rust"
+    },
+    {
+      "名称": "CubeSandbox",
+      "repo": "TencentCloud/CubeSandbox",
+      "说明": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "星标": 10347,
+      "本周新增": 1545,
+      "语言": "Rust"
+    },
+    {
+      "名称": "awesome-llm-apps",
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "说明": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "星标": 122338,
+      "本周新增": 4902,
+      "语言": "Python"
     },
     {
       "名称": "impeccable",
       "repo": "pbakaus/impeccable",
       "说明": "The design language that makes your AI harness better at design.",
-      "星标": 46864,
-      "本周新增": 2494,
+      "星标": 47190,
+      "本周新增": 2428,
       "语言": "JavaScript"
     }
   ]
