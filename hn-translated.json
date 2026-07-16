@@ -1,8 +1,32 @@
 {
-  "updated": "2026-07-15T23:38:45+08:00",
+  "updated": "2026-07-16T01:05:31+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "242a67c9",
+      "标题": "作业队列看似棘手",
+      "原文": "Job queues are deceptively tricky",
+      "摘要": "Job queues are deceptively tricky",
+      "来源": "Hacker News",
+      "日期": "2026-07-16",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://typesanitizer.com/blog/job-queues.html",
+      "标签": []
+    },
+    {
+      "id": "0a78678a",
+      "标题": "SQLite 字符串中的 Nul 字符",
+      "原文": "Nul Characters in Strings in SQLite",
+      "摘要": "Nul Characters in Strings in SQLite",
+      "来源": "Hacker News",
+      "日期": "2026-07-16",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://sqlite.org/nulinstr.html",
+      "标签": []
+    },
     {
       "id": "73e1c643",
       "标题": "显示 HN: E– – 一种介于英语和 Python 之间的语言",
@@ -577,30 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
-      "标签": []
-    },
-    {
-      "id": "e3b5b49b",
-      "标题": "显示 HN：no_std rust 和 Libc 中的 18KB ls 替代方案",
-      "原文": "Show HN: 18KB ls alternative in no_std rust and Libc",
-      "摘要": "Show HN: 18KB ls alternative in no_std rust and Libc",
-      "来源": "Hacker News",
-      "日期": "2026-07-15",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://crates.io/crates/fli-tool",
-      "标签": []
-    },
-    {
-      "id": "db18da6f",
-      "标题": "CVE-2026-59208：n8n 中的跨发行人账户接管",
-      "原文": "CVE-2026-59208: Cross-Issuer Account Takeover in n8n",
-      "摘要": "CVE-2026-59208: Cross-Issuer Account Takeover in n8n",
-      "来源": "Hacker News",
-      "日期": "2026-07-15",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.strix.ai/blog/n8n-cross-issuer-account-takeover",
       "标签": []
     }
   ]
