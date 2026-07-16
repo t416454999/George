@@ -1,8 +1,68 @@
 {
-  "updated": "2026-07-16T22:33:27+08:00",
+  "updated": "2026-07-16T23:30:28+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "4c7046f0",
+      "标题": "Show HN：ReasonGate - 阻止 LLM 提示注入的可解释门",
+      "原文": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection",
+      "摘要": "Show HN: ReasonGate- An explainable gate that blocks LLM prompt injection",
+      "来源": "Hacker News",
+      "日期": "2026-07-16",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/cgrtml/reasongate",
+      "标签": []
+    },
+    {
+      "id": "0cc1b689",
+      "标题": "OnePlus 停止在美国和欧洲的业务",
+      "原文": "OnePlus halts operations in USA and Europe",
+      "摘要": "OnePlus halts operations in USA and Europe",
+      "来源": "Hacker News",
+      "日期": "2026-07-16",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://community.oneplus.com/thread/2170715118587871237",
+      "标签": []
+    },
+    {
+      "id": "e93adf4d",
+      "标题": "Show HN: Clx – 通过 C++20 将 Lua 编译为本机可执行文件",
+      "原文": "Show HN: Clx – Compile Lua to Native Executables Through C++20",
+      "摘要": "Show HN: Clx – Compile Lua to Native Executables Through C++20",
+      "来源": "Hacker News",
+      "日期": "2026-07-16",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/samyeyo/clx",
+      "标签": []
+    },
+    {
+      "id": "d8bc5352",
+      "标题": "强化学习小书",
+      "原文": "The Little Book of Reinforcement Learning",
+      "摘要": "The Little Book of Reinforcement Learning",
+      "来源": "Hacker News",
+      "日期": "2026-07-16",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/alxndrTL/little-book-rl/",
+      "标签": []
+    },
+    {
+      "id": "b21d7ef5",
+      "标题": "我的汽车的 OTA 更新破坏了 Android Auto，这是对现代软件的控诉",
+      "原文": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
+      "摘要": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
+      "来源": "Hacker News",
+      "日期": "2026-07-16",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://imdanielkendall.com/the-great-software-regress-how-move-fast-and-break-things-broke-our-lives/",
+      "标签": []
+    },
     {
       "id": "9106db95",
       "标题": "Ring-Zero：将零 RL 扩展到万亿个参数以进行紧急推理",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://hilogame.cc/",
-      "标签": []
-    },
-    {
-      "id": "000d73bc",
-      "标题": "Show HN：AI Law Tracker – 一款针对美国、欧盟和全球 AI 法律经过审核的 API",
-      "原文": "Show HN: AI Law Tracker – one audited API for US, EU and global AI law",
-      "摘要": "Show HN: AI Law Tracker – one audited API for US, EU and global AI law",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://ai-law-tracker.com",
-      "标签": []
-    },
-    {
-      "id": "75c72745",
-      "标题": "如何花15年时间完善一款产品",
-      "原文": "How to spend 15 years perfecting a product",
-      "摘要": "How to spend 15 years perfecting a product",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://refactoring.guru/email/gbb-rollout2",
-      "标签": []
-    },
-    {
-      "id": "61a9f825",
-      "标题": "Goes-19气象卫星进入安全保持模式",
-      "原文": "Goes-19 weather satellite enters Safe Hold mode",
-      "摘要": "Goes-19 weather satellite enters Safe Hold mode",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.spaceweather.gov/news/goes-19-safe-hold",
-      "标签": []
-    },
-    {
-      "id": "fc8d35d8",
-      "标题": "Ente – 打开我们的书",
-      "原文": "Ente – Opening Our Books",
-      "摘要": "Ente – Opening Our Books",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://ente.com/open/",
-      "标签": []
-    },
-    {
-      "id": "7c27c0d2",
-      "标题": "让我们为 APL 构建一个简单的解释器 - 第 1 部分",
-      "原文": "Let's build a simple interpreter for APL – part 1",
-      "摘要": "Let's build a simple interpreter for APL – part 1",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://mathspp.com/blog/lsbasi-apl-part1",
       "标签": []
     }
   ]
