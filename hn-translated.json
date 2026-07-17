@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-17T04:16:49+08:00",
+  "updated": "2026-07-17T06:29:49+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "e9b2e003",
+      "标题": "UIUC人工智能助教",
+      "原文": "UIUC AI Teaching Assistant",
+      "摘要": "UIUC AI Teaching Assistant",
+      "来源": "Hacker News",
+      "日期": "2026-07-17",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
+      "标签": []
+    },
+    {
+      "id": "376a6d7b",
+      "标题": "我们的 Rust-to Zig 重写进展如何",
+      "原文": "How Our Rust-to-Zig Rewrite Is Going",
+      "摘要": "How Our Rust-to-Zig Rewrite Is Going",
+      "来源": "Hacker News",
+      "日期": "2026-07-17",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://rtfeldman.com/rust-to-zig",
+      "标签": []
+    },
+    {
+      "id": "c232144b",
+      "标题": "1984年的星链",
+      "原文": "Starlink from 1984",
+      "摘要": "Starlink from 1984",
+      "来源": "Hacker News",
+      "日期": "2026-07-17",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://nemanjatrifunovic.substack.com/p/starlink-from-1984",
+      "标签": []
+    },
+    {
+      "id": "d69d779b",
+      "标题": "脑电图显示大脑可以同时编码两个语音流",
+      "原文": "EEG shows brain can simultaneous encode two speech streams",
+      "摘要": "EEG shows brain can simultaneous encode two speech streams",
+      "来源": "Hacker News",
+      "日期": "2026-07-17",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876",
+      "标签": []
+    },
+    {
+      "id": "38e25ce9",
+      "标题": "Pebble 大型更新 – 2026 年 7 月",
+      "原文": "Pebble Mega Update – July 2026",
+      "摘要": "Pebble Mega Update – July 2026",
+      "来源": "Hacker News",
+      "日期": "2026-07-17",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://repebble.com/blog/pebble-mega-update-july-2026",
+      "标签": []
+    },
+    {
+      "id": "908e3d69",
+      "标题": "罗马混凝土是如何延续千年的？ 1,900 年历史的厕所提供线索",
+      "原文": "How Has Roman Concrete Lasted for Millennia? 1,900-Year-Old Latrine Offers Clues",
+      "摘要": "How Has Roman Concrete Lasted for Millennia? 1,900-Year-Old Latrine Offers Clues",
+      "来源": "Hacker News",
+      "日期": "2026-07-17",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/",
+      "标签": []
+    },
     {
       "id": "bde2eb02",
       "标题": "GrapheneOS 推荐给家庭暴力受害者",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://blog.lyc8503.net/en/post/llm-classifier/",
-      "标签": []
-    },
-    {
-      "id": "5058514f",
-      "标题": "诱饵字体",
-      "原文": "Decoy Font",
-      "摘要": "Decoy Font",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.mixfont.com/experiments/decoy-font",
-      "标签": []
-    },
-    {
-      "id": "12696605",
-      "标题": "“我们使用酸破坏微软超大规模数据中心建设”",
-      "原文": "'We used acid to sabotage Microsoft hyperscale data centre construction'",
-      "摘要": "'We used acid to sabotage Microsoft hyperscale data centre construction'",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://techwerkers.nl/en/posts/aanval-microsoft-ai-datacentrum/",
-      "标签": []
-    },
-    {
-      "id": "a5410862",
-      "标题": "微软漫画聊天现已开源",
-      "原文": "Microsoft Comic Chat is now open source",
-      "摘要": "Microsoft Comic Chat is now open source",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
-      "标签": []
-    },
-    {
-      "id": "2690ce1e",
-      "标题": "如何在具有 6GB VRAM 的旧 Linux 桌面上训练 Gen AI 底鼓模型",
-      "原文": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
-      "摘要": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
-      "标签": []
-    },
-    {
-      "id": "324333d6",
-      "标题": "意外匿名",
-      "原文": "Accidental Anonymity",
-      "摘要": "Accidental Anonymity",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://macwright.com/2026/06/24/accidental-anonymity",
-      "标签": []
-    },
-    {
-      "id": "bbfb8448",
-      "标题": "开发人员数据工具前景指南",
-      "原文": "Guide to data tools landscape for developers",
-      "摘要": "Guide to data tools landscape for developers",
-      "来源": "Hacker News",
-      "日期": "2026-07-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://sinja.io/blog/data-landscape-guide-for-developers",
       "标签": []
     }
   ]
