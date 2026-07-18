@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-17T10:01:18+08:00",
+  "updated": "2026-07-18T09:36:36+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "176.3k",
+      "星标": "176.4k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -60,100 +60,100 @@
   ],
   "trending": [
     {
-      "名称": "stitch-skills",
-      "repo": "google-labs-code/stitch-skills",
-      "说明": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "星标": 7577,
-      "本周新增": 1090,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "DesktopCommanderMCP",
-      "repo": "wonderwhy-er/DesktopCommanderMCP",
-      "说明": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-      "星标": 8423,
-      "本周新增": 1991,
-      "语言": "TypeScript"
-    },
-    {
       "名称": "hallmark",
       "repo": "Nutlope/hallmark",
       "说明": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "星标": 11522,
-      "本周新增": 6573,
+      "星标": 12433,
+      "本周新增": 8075,
       "语言": "CSS"
+    },
+    {
+      "名称": "stitch-skills",
+      "repo": "google-labs-code/stitch-skills",
+      "说明": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "星标": 7648,
+      "本周新增": 1076,
+      "语言": "TypeScript"
     },
     {
       "名称": "Vibe-Trading",
       "repo": "HKUDS/Vibe-Trading",
       "说明": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "星标": 24476,
-      "本周新增": 5407,
+      "星标": 24791,
+      "本周新增": 5616,
       "语言": "Python"
+    },
+    {
+      "名称": "DesktopCommanderMCP",
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "说明": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "星标": 8471,
+      "本周新增": 1657,
+      "语言": "TypeScript"
     },
     {
       "名称": "orca",
       "repo": "stablyai/orca",
       "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-      "星标": 20869,
-      "本周新增": 5736,
+      "星标": 21386,
+      "本周新增": 5409,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "ai-job-search",
-      "repo": "MadsLorentzen/ai-job-search",
-      "说明": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "星标": 23344,
-      "本周新增": 3558,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "OfficeCLI",
-      "repo": "iOfficeAI/OfficeCLI",
-      "说明": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "星标": 18635,
-      "本周新增": 5342,
-      "语言": "C#"
     },
     {
       "名称": "awesome-llm-apps",
       "repo": "Shubhamsaboo/awesome-llm-apps",
       "说明": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-      "星标": 123331,
-      "本周新增": 5589,
+      "星标": 123767,
+      "本周新增": 6252,
+      "语言": "Python"
+    },
+    {
+      "名称": "OfficeCLI",
+      "repo": "iOfficeAI/OfficeCLI",
+      "说明": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "星标": 19020,
+      "本周新增": 4611,
+      "语言": "C#"
+    },
+    {
+      "名称": "claude-code-templates",
+      "repo": "davila7/claude-code-templates",
+      "说明": "CLI tool for configuring and monitoring Claude Code",
+      "星标": 29692,
+      "本周新增": 1084,
       "语言": "Python"
     },
     {
       "名称": "codex-plugin-cc",
       "repo": "openai/codex-plugin-cc",
       "说明": "Use Codex from Claude Code to review code or delegate tasks.",
-      "星标": 29015,
-      "本周新增": 1908,
+      "星标": 29172,
+      "本周新增": 1801,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "OmniRoute",
-      "repo": "diegosouzapw/OmniRoute",
-      "说明": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-      "星标": 18194,
-      "本周新增": 3920,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "claude-code-templates",
-      "repo": "davila7/claude-code-templates",
-      "说明": "CLI tool for configuring and monitoring Claude Code",
-      "星标": 29634,
-      "本周新增": 1101,
-      "语言": "Python"
     },
     {
       "名称": "impeccable",
       "repo": "pbakaus/impeccable",
       "说明": "The design language that makes your AI harness better at design.",
-      "星标": 47466,
-      "本周新增": 2360,
+      "星标": 47752,
+      "本周新增": 2331,
       "语言": "JavaScript"
+    },
+    {
+      "名称": "cangjie-skill",
+      "repo": "kangarooking/cangjie-skill",
+      "说明": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
+      "星标": 3575,
+      "本周新增": 1158,
+      "语言": "Python"
+    },
+    {
+      "名称": "OmniRoute",
+      "repo": "diegosouzapw/OmniRoute",
+      "说明": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "星标": 18502,
+      "本周新增": 3605,
+      "语言": "TypeScript"
     }
   ]
 }
