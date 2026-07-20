@@ -1,8 +1,68 @@
 {
-  "updated": "2026-07-20T07:23:16+08:00",
+  "updated": "2026-07-20T10:22:31+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "9ab8db41",
+      "标题": "浏览器中的 1 位 LLM",
+      "原文": "1-Bit LLM in the Browser",
+      "摘要": "1-Bit LLM in the Browser",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+      "标签": []
+    },
+    {
+      "id": "68496445",
+      "标题": "电力公司什么时候可以征用您的土地用于数据中心基础设施？",
+      "原文": "When can a power company take your land for data center infrastructure?",
+      "摘要": "When can a power company take your land for data center infrastructure?",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://theconversation.com/when-can-a-power-company-take-your-land-for-data-center-infrastructure-284061",
+      "标签": []
+    },
+    {
+      "id": "08e43209",
+      "标题": "使用 unsafe 消除 Go 边界检查",
+      "原文": "Eliminating Go bounds checks with unsafe",
+      "摘要": "Eliminating Go bounds checks with unsafe",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://blog.andr2i.com/posts/2026-07-06-eliminating-go-bound-checks-with-unsafe",
+      "标签": []
+    },
+    {
+      "id": "59ef4f54",
+      "标题": "Claude Code 现在使用 Rust 编写的 Bun",
+      "原文": "Claude Code uses Bun written in Rust now",
+      "摘要": "Claude Code uses Bun written in Rust now",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "标签": []
+    },
+    {
+      "id": "1fd21820",
+      "标题": "漏洞利用经纪人为 WordPress RCE 支付 50 万美元。我找到了一个 GPT5.6 的，售价 25 美元",
+      "原文": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "摘要": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "标签": []
+    },
     {
       "id": "d9474c9b",
       "标题": "专有格式如何成为微软锁定的主要工具",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
-      "标签": []
-    },
-    {
-      "id": "100a5e73",
-      "标题": "我的家庭服务器的死亡与重生",
-      "原文": "The death and rebirth of my home server",
-      "摘要": "The death and rebirth of my home server",
-      "来源": "Hacker News",
-      "日期": "2026-07-19",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://sgt.hootr.club/blog/home-server-rebirth/",
-      "标签": []
-    },
-    {
-      "id": "d7b901fb",
-      "标题": "我从销售 2,500 台 MIDI 录音机中学到的东西：硬件并不难",
-      "原文": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
-      "摘要": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
-      "来源": "Hacker News",
-      "日期": "2026-07-19",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
-      "标签": []
-    },
-    {
-      "id": "72262bdc",
-      "标题": "Finn Jensen LA8YB 的强大大阵列",
-      "原文": "The Mighty Big Array of Finn Jensen LA8YB",
-      "摘要": "The Mighty Big Array of Finn Jensen LA8YB",
-      "来源": "Hacker News",
-      "日期": "2026-07-19",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://la0by.darc.de/LA8YB_EME_MBA.htm",
-      "标签": []
-    },
-    {
-      "id": "2c04946a",
-      "标题": "OpenAI 将 Codex 模型上下文大小从 372k 减少到 272k",
-      "原文": "OpenAI reduces Codex Model Context Size from 372k to 272k",
-      "摘要": "OpenAI reduces Codex Model Context Size from 372k to 272k",
-      "来源": "Hacker News",
-      "日期": "2026-07-19",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/openai/codex/pull/33972/files",
-      "标签": []
-    },
-    {
-      "id": "50806f55",
-      "标题": "半秒——一本关于 XZ 后门的书",
-      "原文": "Half a Second – a book about the XZ backdoor",
-      "摘要": "Half a Second – a book about the XZ backdoor",
-      "来源": "Hacker News",
-      "日期": "2026-07-19",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.half-second.com/",
       "标签": []
     }
   ]
