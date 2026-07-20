@@ -1,8 +1,68 @@
 {
-  "updated": "2026-07-20T20:00:04+08:00",
+  "updated": "2026-07-20T21:15:34+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "29e48a7f",
+      "标题": "您只需要前沿模型进行一次编辑",
+      "原文": "You only need the frontier model for one single edit",
+      "摘要": "You only need the frontier model for one single edit",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://stencil.so/blog/prewalk",
+      "标签": []
+    },
+    {
+      "id": "dc29624f",
+      "标题": "完美并非过度设计",
+      "原文": "Perfection is not over-engineering",
+      "摘要": "Perfection is not over-engineering",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://var0.xyz/posts/perfection-is-not-over-engineering.html",
+      "标签": []
+    },
+    {
+      "id": "31beddfc",
+      "标题": "85.3 GFlops：在单个 AMD Zen 3 核心上优化 FP32 矩阵乘法",
+      "原文": "85.3 GFlops: Optimizing FP32 Matrix Multiplication on a Single AMD Zen 3 Core",
+      "摘要": "85.3 GFlops: Optimizing FP32 Matrix Multiplication on a Single AMD Zen 3 Core",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/houslast3/85.30-GFLOPS-Single-Core-FP32-Matrix-Multiplication-on-AMD-Zen-3",
+      "标签": []
+    },
+    {
+      "id": "ecaf3f01",
+      "标题": "LED 拯救夜空的潜力",
+      "原文": "LEDs’ potential to save our night skies",
+      "摘要": "LEDs’ potential to save our night skies",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://spectrum.ieee.org/led-light-pollution",
+      "标签": []
+    },
+    {
+      "id": "2c553e3b",
+      "标题": "人类数学家正在被反例击败",
+      "原文": "Human mathematicians are being outcounterexampled",
+      "摘要": "Human mathematicians are being outcounterexampled",
+      "来源": "Hacker News",
+      "日期": "2026-07-20",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+      "标签": []
+    },
     {
       "id": "e8f730c2",
       "标题": "我停止“创建内容”",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://theconversation.com/when-can-a-power-company-take-your-land-for-data-center-infrastructure-284061",
-      "标签": []
-    },
-    {
-      "id": "08e43209",
-      "标题": "使用 unsafe 消除 Go 边界检查",
-      "原文": "Eliminating Go bounds checks with unsafe",
-      "摘要": "Eliminating Go bounds checks with unsafe",
-      "来源": "Hacker News",
-      "日期": "2026-07-20",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://blog.andr2i.com/posts/2026-07-06-eliminating-go-bound-checks-with-unsafe",
-      "标签": []
-    },
-    {
-      "id": "59ef4f54",
-      "标题": "Claude Code 现在使用 Rust 编写的 Bun",
-      "原文": "Claude Code uses Bun written in Rust now",
-      "摘要": "Claude Code uses Bun written in Rust now",
-      "来源": "Hacker News",
-      "日期": "2026-07-20",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "标签": []
-    },
-    {
-      "id": "1fd21820",
-      "标题": "漏洞利用经纪人为 WordPress RCE 支付 50 万美元。我找到了一个 GPT5.6 的，售价 25 美元",
-      "原文": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
-      "摘要": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
-      "来源": "Hacker News",
-      "日期": "2026-07-20",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
-      "标签": []
-    },
-    {
-      "id": "d9474c9b",
-      "标题": "专有格式如何成为微软锁定的主要工具",
-      "原文": "How proprietary formats have become Microsoft’s main tool for lock-in",
-      "摘要": "How proprietary formats have become Microsoft’s main tool for lock-in",
-      "来源": "Hacker News",
-      "日期": "2026-07-20",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/",
-      "标签": []
-    },
-    {
-      "id": "b3366876",
-      "标题": "埃及发现的密封坟墓，里面充满了绘画和铭文",
-      "原文": "Sealed tomb filled with paintings and inscriptions discovered in Egypt",
-      "摘要": "Sealed tomb filled with paintings and inscriptions discovered in Egypt",
-      "来源": "Hacker News",
-      "日期": "2026-07-20",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/",
       "标签": []
     }
   ]
