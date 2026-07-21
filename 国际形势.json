@@ -1,13 +1,67 @@
 {
-  "updated": "2026-07-22T00:27:42+08:00",
-  "as_of": "2026-07-22T00:27:42+08:00",
+  "updated": "2026-07-22T01:57:07+08:00",
+  "as_of": "2026-07-22T01:57:07+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 1363008570,
+      "标题": "联合国报告：全球饥饿连续三年下降，但2030年“零饥饿”目标仍面临严峻挑战",
+      "摘要": "联合国粮食及农业组织、国际农业发展基金、联合国儿童基金会、世界粮食计划署和世界卫生组织本周二联合发布《2026年世界粮食安全和营养状况》报告指出，2025年全球饥饿人口连续第三年下降，全球粮食安全形势持续改善。但报告警告，中东冲突、极端天气以及发展援助和人道主义资金削减，正威胁这一来之不易的进展，实现2030年消除饥饿目标仍任重道远",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142509",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1363008570.webp",
+      "封面": "assets/media/un-1363008570.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/UNHCR/Embargoed%202/28-09-2021-UNICEF-UN0410347-DRC.jpg/image560x340cropped.jpg",
+      "导语": "联合国粮食及农业组织、国际农业发展基金、联合国儿童基金会、世界粮食计划署和世界卫生组织本周二联合发布《2026年世界粮食安全和营养状况》报告指出，2025年全球饥饿人口连续第三年下降，全球粮食安全形势持续改善。但报告警告",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国粮食及农业组织、国际农业发展基金、联合国儿童基金会、世界粮食计划署和世界卫生组织本周二联合发布《2026年世界粮食安全和营养状况》报告指出，2025年全球饥饿人口连续第三年下降，全球粮食安全形势持续改善。但报告警告，中东冲突、极端天气以及发展援助和人道主义资金削减，正威胁这一来之不易的进展，实现2030年消除饥饿目标仍任重道远。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142509",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2547060051,
+      "标题": "刚果（金）：埃博拉疫情仍在蔓延，但世卫组织看到趋于稳定迹象",
+      "摘要": "在刚果民主共和国（刚果（金）），尽管病毒肆虐的东部地区局势依然动荡，世界卫生组织及其合作伙伴仍在争分夺秒地遏制迅速蔓延的埃博拉疫情。截至7月19日，刚果（金）政府已记录2423例确诊病例，其中包括967例死亡和469例治愈",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142508",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2547060051.webp",
+      "封面": "assets/media/un-2547060051.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/06/30-06-2026-UNFPA-DR-Congo-ebola-04.jpg/image560x340cropped.jpg",
+      "导语": "在刚果民主共和国（刚果（金）），尽管病毒肆虐的东部地区局势依然动荡，世界卫生组织及其合作伙伴仍在争分夺秒地遏制迅速蔓延的埃博拉疫情。截至7月19日，刚果（金）政府已记录2423例确诊病例，其中包括967例死亡和469例治",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "在刚果民主共和国（刚果（金）），尽管病毒肆虐的东部地区局势依然动荡，世界卫生组织及其合作伙伴仍在争分夺秒地遏制迅速蔓延的埃博拉疫情。截至7月19日，刚果（金）政府已记录2423例确诊病例，其中包括967例死亡和469例治愈。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142508",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 3554143016,
       "标题": "中东：美伊交火持续，平民继续成为受害者",
@@ -1074,66 +1128,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.inewsgr.com/351/gaza-dodeka-nekroi-apo-israilino-chtypima--xekliristike-examelis-oikogeneia.htm",
       "出处说明": "根据inewsgr.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1580693074,
-      "标题": "尽管停火，以色列的袭击还是消灭了加沙巴勒斯坦六口之家",
-      "原标题": "Israeli strike wipes out entire Palestinian family of 6 in Gaza despite ceasefire",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 middleeastmonitor.com 最新报道，点击阅读原文。",
-      "来源": "middleeastmonitor.com",
-      "分类": "国际形势",
-      "日期": "2026-07-21",
-      "链接": "https://www.middleeastmonitor.com/20260721-israeli-strike-wipes-out-entire-palestinian-family-of-6-in-gaza-despite-ceasefire/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.middleeastmonitor.com/wp-content/uploads/2026/07/AA-20260721-42027701-42027682-PALESTINIAN_MOTHER_AND_HER_4_CHILDREN_KILLED_AFTER_AN_ISRAELI_ATTACK_IN_GAZA-1.jpg",
-      "数据截至": "2026-07-21T16:27:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 middleeastmonitor.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 middleeastmonitor.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.middleeastmonitor.com/20260721-israeli-strike-wipes-out-entire-palestinian-family-of-6-in-gaza-despite-ceasefire/",
-      "出处说明": "根据middleeastmonitor.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4250238293,
-      "标题": "我们预计很快就会采取行动：特朗普本周可能对数十个国家征收新的10 %关税",
-      "原标题": "We expect some action soon : Trump may roll out fresh 10 % tariffs against dozens of countrie this week",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 moneycontrol.com 最新报道，点击阅读原文。",
-      "来源": "moneycontrol.com",
-      "分类": "国际形势",
-      "日期": "2026-07-21",
-      "链接": "https://www.moneycontrol.com/world/we-expect-some-action-soon-trump-may-roll-out-fresh-10-tariffs-against-dozens-of-countries-this-week-article-13979865.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://images.moneycontrol.com/static-mcnews/2026/07/20260721153009_Trump-NATO-1.jpg",
-      "数据截至": "2026-07-21T16:27:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 moneycontrol.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 moneycontrol.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.moneycontrol.com/world/we-expect-some-action-soon-trump-may-roll-out-fresh-10-tariffs-against-dozens-of-countries-this-week-article-13979865.html",
-      "出处说明": "根据moneycontrol.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
