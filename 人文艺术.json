@@ -4,8 +4,8 @@
   "category": "人文艺术",
   "source": "The Metropolitan Museum of Art / Rijksmuseum / Art Institute of Chicago",
   "description": "每日从多个开放馆藏中选取艺术作品，图片可开放使用。",
-  "status": "ok",
-  "message": "",
+  "status": "stale",
+  "message": "本轮更新失败，当前展示上次成功数据：('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
   "count": 13,
   "articles": [
     {

@@ -1,13 +1,148 @@
 {
-  "updated": "2026-07-22T09:03:31+08:00",
-  "as_of": "2026-07-22T09:03:31+08:00",
+  "updated": "2026-07-22T12:30:37+08:00",
+  "as_of": "2026-07-22T12:30:37+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 1926497495,
+      "标题": "关键矿产：推动清洁能源未来的隐形资源",
+      "摘要": "为何关键矿产突然成为全球政治的焦点？",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142514",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1926497495.webp",
+      "封面": "assets/media/un-1926497495.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/20-04-2026-UNDP-Philippines-solar.jpg/image560x340cropped.jpg",
+      "导语": "为何关键矿产突然成为全球政治的焦点？",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "为何关键矿产突然成为全球政治的焦点？。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142514",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1373182945,
+      "标题": "联合国道路安全会议闭幕，呼吁加快行动以挽救生命",
+      "摘要": "联合国大会周二结束了“改善全球道路安全”高级别会议，会议通过了一份新的政治宣言，为实现这一目标制定了全球路线图，并再次呼吁采取紧急行动，力争到2030年将道路交通死亡和重伤人数减半。美国是唯一对该宣言投反对票的国家，其理由是该宣言的范围超出了道路安全范畴，延伸至气候和环境政策领域",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142511",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1373182945.webp",
+      "封面": "assets/media/un-1373182945.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/01-07-2026-UNICEF-Kazakhstan-Road-Safety.jpg/image560x340cropped.jpg",
+      "导语": "联合国大会周二结束了“改善全球道路安全”高级别会议，会议通过了一份新的政治宣言，为实现这一目标制定了全球路线图，并再次呼吁采取紧急行动，力争到2030年将道路交通死亡和重伤人数减半。美国是唯一对该宣言投反对票的国家，其理",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国大会周二结束了“改善全球道路安全”高级别会议，会议通过了一份新的政治宣言，为实现这一目标制定了全球路线图，并再次呼吁采取紧急行动，力争到2030年将道路交通死亡和重伤人数减半。美国是唯一对该宣言投反对票的国家，其理由是该宣言的范围超出了道路安全范畴，延伸至气候和环境政策领域。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142511",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3073576799,
+      "标题": "联合国报告：东南亚跨国犯罪经济加速扩张，技术驱动新型犯罪威胁上升",
+      "摘要": "联合国毒品和犯罪问题办公室周二发布《相互关联的犯罪生态系统：2026年东南亚跨国有组织犯罪威胁评估》报告指出，东南亚犯罪生态系统已发生根本性重组。过去相对分散的犯罪集团正演变为由技术驱动、跨越多个非法市场的跨国犯罪经济体，其运作模式日益复杂，对区域治理、经济稳定和发展构成威胁",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142513",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3073576799.webp",
+      "封面": "assets/media/un-3073576799.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/19-05-2023-UN-News-Thailand-01.jpg/image560x340cropped.jpg",
+      "导语": "联合国毒品和犯罪问题办公室周二发布《相互关联的犯罪生态系统：2026年东南亚跨国有组织犯罪威胁评估》报告指出，东南亚犯罪生态系统已发生根本性重组。过去相对分散的犯罪集团正演变为由技术驱动、跨越多个非法市场的跨国犯罪经济体",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国毒品和犯罪问题办公室周二发布《相互关联的犯罪生态系统：2026年东南亚跨国有组织犯罪威胁评估》报告指出，东南亚犯罪生态系统已发生根本性重组。过去相对分散的犯罪集团正演变为由技术驱动、跨越多个非法市场的跨国犯罪经济体，其运作模式日益复杂，对区域治理、经济稳定和发展构成威胁。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142513",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1166614330,
+      "标题": "难民署：对毛里塔尼亚近海海难致144人死亡或失踪表达关切",
+      "摘要": "联合国难民署周二表示，对上周毛里塔尼亚近海发生海难导致144人死亡或失踪的报道深感悲痛和关切。该机构指出，这起事件再次凸显，从西非前往欧洲的大西洋航线仍是世界上最致命的混合迁移路线之一，并呼吁国际社会采取协同行动，解决迫使难民和移民踏上危险旅程的根本原因，同时扩大安全、合法的流动渠道",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142512",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1166614330.webp",
+      "封面": "assets/media/un-1166614330.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/26-07-2024-UNHCR-Mauritania-01.jpg/image560x340cropped.jpg",
+      "导语": "联合国难民署周二表示，对上周毛里塔尼亚近海发生海难导致144人死亡或失踪的报道深感悲痛和关切。该机构指出，这起事件再次凸显，从西非前往欧洲的大西洋航线仍是世界上最致命的混合迁移路线之一，并呼吁国际社会采取协同行动，解决迫",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国难民署周二表示，对上周毛里塔尼亚近海发生海难导致144人死亡或失踪的报道深感悲痛和关切。该机构指出，这起事件再次凸显，从西非前往欧洲的大西洋航线仍是世界上最致命的混合迁移路线之一，并呼吁国际社会采取协同行动，解决迫使难民和移民踏上危险旅程的根本原因，同时扩大安全、合法的流动渠道。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142512",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3157024024,
+      "标题": "安理会：叙利亚过渡进程取得进展 但治理、安全与人道局势仍面临挑战",
+      "摘要": "联合国秘书长叙利亚问题副特别代表科尔多内和联合国人道协调厅危机应对司司长沃索努周二向安理会通报叙利亚政治和人道局势时表示，叙利亚过渡进程近期取得多项制度性进展，为国家恢复带来机遇，但安全局势、经济困难、人道需求以及地区局势仍构成严峻挑战。他们强调，叙利亚过渡的成功将取决于建立包容、负责的治理体系，切实改善民众生活，并持续获得国际社会支持",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142510",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3157024024.webp",
+      "封面": "assets/media/un-3157024024.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/21-07-2026-UN-Photo-Claudio-Cordone.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长叙利亚问题副特别代表科尔多内和联合国人道协调厅危机应对司司长沃索努周二向安理会通报叙利亚政治和人道局势时表示，叙利亚过渡进程近期取得多项制度性进展，为国家恢复带来机遇，但安全局势、经济困难、人道需求以及地区局",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长叙利亚问题副特别代表科尔多内和联合国人道协调厅危机应对司司长沃索努周二向安理会通报叙利亚政治和人道局势时表示，叙利亚过渡进程近期取得多项制度性进展，为国家恢复带来机遇，但安全局势、经济困难、人道需求以及地区局势仍构成严峻挑战。他们强调，叙利亚过渡的成功将取决于建立包容、负责的治理体系，切实改善民众生活，并持续获得国际社会支持。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142510",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 1363008570,
       "标题": "联合国报告：全球饥饿连续三年下降，但2030年“零饥饿”目标仍面临严峻挑战",
@@ -984,156 +1119,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/07/21/openai-says-its-ai-technology-acted-on-its-own-in-an-unprecedented-hack-of-another-company",
       "出处说明": "根据winnipegfreepress.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 210076379,
-      "标题": "美国对伊朗的袭击模式引发了对地面行动准备工作的指控",
-      "原标题": "Pola Serangan AS ke Iran Picu Dugaan Persiapan Operasi Darat",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 liputan6.com 最新报道，点击阅读原文。",
-      "来源": "liputan6.com",
-      "分类": "国际形势",
-      "日期": "2026-07-22",
-      "链接": "https://www.liputan6.com/global/read/8251454/pola-serangan-as-ke-iran-picu-dugaan-persiapan-operasi-darat",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://cdn1-production-images-kly.akamaized.net/CjuZX5nQU7oF7x08EBkA8w_yUk8=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/9303537/original/011735700_1784640579-Untitled.jpg",
-      "数据截至": "2026-07-22T01:03:21+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 liputan6.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 liputan6.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.liputan6.com/global/read/8251454/pola-serangan-as-ke-iran-picu-dugaan-persiapan-operasi-darat",
-      "出处说明": "根据liputan6.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3807953015,
-      "标题": "超过这 4 个截止日期，红皮书将无法转让",
-      "原标题": "Quá hạn 4 mốc thời gian này có thể sẽ không được sang tên sổ đỏ",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 giadinh.suckhoedoisong.vn 最新报道，点击阅读原文。",
-      "来源": "giadinh.suckhoedoisong.vn",
-      "分类": "国际形势",
-      "日期": "2026-07-22",
-      "链接": "https://giadinh.suckhoedoisong.vn/qua-han-4-moc-thoi-gian-nay-co-the-se-khong-duoc-sang-ten-so-do-17226071700075989.htm",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://giadinh.mediacdn.vn/zoom/1200_630/296230595582509056/2026/7/16/sang-ten-so-do-17842213808641122947699-0-0-545-872-crop-17842214848231523681265.png",
-      "数据截至": "2026-07-22T01:03:21+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 giadinh.suckhoedoisong.vn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 giadinh.suckhoedoisong.vn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://giadinh.suckhoedoisong.vn/qua-han-4-moc-thoi-gian-nay-co-the-se-khong-duoc-sang-ten-so-do-17226071700075989.htm",
-      "出处说明": "根据giadinh.suckhoedoisong.vn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 893804022,
-      "标题": "B 根本没有机会。 C.正在把 U . S。酒类重新上架：Eby",
-      "原标题": "Not a chance in hell that B . C . is putting U . S . liquor back on shelves : Eby",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 vernonmorningstar.com 最新报道，点击阅读原文。",
-      "来源": "vernonmorningstar.com",
-      "分类": "国际形势",
-      "日期": "2026-07-22",
-      "链接": "https://vernonmorningstar.com/2026/07/21/not-a-chance-in-hell-that-b-c-is-putting-u-s-liquor-back-on-shelves-eby/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://vernonmorningstar.com/wp-content/uploads/sites/4/2026/07/B.C.-Premier-David-Eby-at-a-town-hall-at-the-Simon-Fraser-Universitys-Surrey-campus-on-March-14.jpg",
-      "数据截至": "2026-07-22T01:03:21+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 vernonmorningstar.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 vernonmorningstar.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://vernonmorningstar.com/2026/07/21/not-a-chance-in-hell-that-b-c-is-putting-u-s-liquor-back-on-shelves-eby/",
-      "出处说明": "根据vernonmorningstar.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 105627397,
-      "标题": "美伊再度发动袭击：一场大战即将来临",
-      "原标题": "Renewed US - Iran strikes : Is a major war looming",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 russiaherald.com 最新报道，点击阅读原文。",
-      "来源": "russiaherald.com",
-      "分类": "国际形势",
-      "日期": "2026-07-22",
-      "链接": "http://www.russiaherald.com/news/279201983/renewed-us-iran-strikes-is-a-major-war-looming",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/2b18f9b/e3d3d692-e4e1-439d-9592-fad9e21f89ba/0/N2I1NTEwZDctYTR-600x315.jpg",
-      "数据截至": "2026-07-22T01:03:21+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 russiaherald.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 russiaherald.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.russiaherald.com/news/279201983/renewed-us-iran-strikes-is-a-major-war-looming",
-      "出处说明": "根据russiaherald.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 82991549,
-      "标题": "部长们在会议前淡化赌博改革",
-      "原标题": "Ministers downplay gambling reform ahead of conference",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 dailyliberal.com.au 最新报道，点击阅读原文。",
-      "来源": "dailyliberal.com.au",
-      "分类": "国际形势",
-      "日期": "2026-07-22",
-      "链接": "https://www.dailyliberal.com.au/story/9315251/ministers-downplay-gambling-reform-ahead-of-conference/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.dailyliberal.com.au/images/transform/v1/crop/frm/silverstone-feed-data/c157cce4-7a25-4c5a-97d8-667f37579af7.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
-      "数据截至": "2026-07-22T01:03:21+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 dailyliberal.com.au 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 dailyliberal.com.au 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.dailyliberal.com.au/story/9315251/ministers-downplay-gambling-reform-ahead-of-conference/",
-      "出处说明": "根据dailyliberal.com.au公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
