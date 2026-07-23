@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-22T10:28:33+08:00",
+  "updated": "2026-07-23T10:27:35+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "176.6k",
+      "星标": "176.7k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "142.3k",
+      "星标": "142.4k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,96 +63,96 @@
       "名称": "hallmark",
       "repo": "Nutlope/hallmark",
       "说明": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "星标": 15265,
-      "本周新增": 8948,
+      "星标": 15931,
+      "本周新增": 8471,
       "语言": "CSS"
     },
     {
       "名称": "code-review-graph",
       "repo": "tirth8205/code-review-graph",
       "说明": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "星标": 25006,
-      "本周新增": 4791,
-      "语言": "Python"
-    },
-    {
-      "名称": "awesome-llm-apps",
-      "repo": "Shubhamsaboo/awesome-llm-apps",
-      "说明": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "星标": 126045,
-      "本周新增": 5385,
+      "星标": 25635,
+      "本周新增": 5639,
       "语言": "Python"
     },
     {
       "名称": "kimi-code",
       "repo": "MoonshotAI/kimi-code",
       "说明": "Kimi Code CLI — The Starting Point for Next-Gen Agents",
-      "星标": 4475,
-      "本周新增": 1352,
+      "星标": 4686,
+      "本周新增": 1400,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "kimi-cli",
-      "repo": "MoonshotAI/kimi-cli",
-      "说明": "Kimi Code CLI is your next CLI agent.",
-      "星标": 10573,
-      "本周新增": 1294,
-      "语言": "Python"
     },
     {
       "名称": "jcode",
       "repo": "1jehuang/jcode",
       "说明": "The most intelligent agent harness for code",
-      "星标": 10572,
-      "本周新增": 1769,
+      "星标": 10870,
+      "本周新增": 2293,
       "语言": "Rust"
     },
     {
-      "名称": "cangjie-skill",
-      "repo": "kangarooking/cangjie-skill",
-      "说明": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
-      "星标": 4362,
-      "本周新增": 1364,
+      "名称": "awesome-llm-apps",
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "说明": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "星标": 126647,
+      "本周新增": 4690,
       "语言": "Python"
     },
     {
-      "名称": "Vibe-Trading",
-      "repo": "HKUDS/Vibe-Trading",
-      "说明": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "星标": 26284,
-      "本周新增": 3679,
+      "名称": "ossie",
+      "repo": "apache/ossie",
+      "说明": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+      "星标": 1522,
+      "本周新增": 810,
       "语言": "Python"
     },
     {
-      "名称": "skills",
-      "repo": "mattpocock/skills",
-      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 181396,
-      "本周新增": 10651,
-      "语言": "Shell"
-    },
-    {
-      "名称": "OfficeCLI",
-      "repo": "iOfficeAI/OfficeCLI",
-      "说明": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "星标": 20868,
-      "本周新增": 4047,
-      "语言": "C#"
+      "名称": "kimi-cli",
+      "repo": "MoonshotAI/kimi-cli",
+      "说明": "Kimi Code CLI is your next CLI agent.",
+      "星标": 10662,
+      "本周新增": 1443,
+      "语言": "Python"
     },
     {
       "名称": "pi",
       "repo": "earendil-works/pi",
       "说明": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "星标": 75173,
-      "本周新增": 3569,
+      "星标": 75992,
+      "本周新增": 4060,
       "语言": "TypeScript"
     },
     {
-      "名称": "destructive_command_guard",
-      "repo": "Dicklesworthstone/destructive_command_guard",
-      "说明": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-      "星标": 5310,
-      "本周新增": 1167,
+      "名称": "worldmonitor",
+      "repo": "koala73/worldmonitor",
+      "说明": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "星标": 70368,
+      "本周新增": 5812,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "skills",
+      "repo": "mattpocock/skills",
+      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
+      "星标": 183529,
+      "本周新增": 10282,
+      "语言": "Shell"
+    },
+    {
+      "名称": "OmniRoute",
+      "repo": "diegosouzapw/OmniRoute",
+      "说明": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "星标": 26138,
+      "本周新增": 6989,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "openinterpreter",
+      "repo": "openinterpreter/openinterpreter",
+      "说明": "A coding agent for open models like Kimi K3",
+      "星标": 67190,
+      "本周新增": 2025,
       "语言": "Rust"
     }
   ]
