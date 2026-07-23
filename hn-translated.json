@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-23T06:18:54+08:00",
+  "updated": "2026-07-23T08:47:58+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "553bbae5",
+      "标题": "为什么 malloc 总是比我要求的多？",
+      "原文": "Why malloc always does more than I asked for?",
+      "摘要": "Why malloc always does more than I asked for?",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://ssenthilnathan3.github.io/blog/malloc/",
+      "标签": []
+    },
+    {
+      "id": "ab6514e4",
+      "标题": "Amiga 1000：领先时代十年",
+      "原文": "Amiga 1000: Ten years ahead of its time",
+      "摘要": "Amiga 1000: Ten years ahead of its time",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://dfarq.homeip.net/amiga-1000-ten-years-ahead-of-its-time/",
+      "标签": []
+    },
+    {
+      "id": "0f721eef",
+      "标题": "Show HN: Bento - 一个 HTML 文件中的整个 PowerPoint（编辑+查看+数据+协作）",
+      "原文": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "摘要": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://bento.page/slides/",
+      "标签": []
+    },
+    {
+      "id": "66f707ee",
+      "标题": "MCP 服务器中的 ANSI 转义注入：对人类隐藏，对 AI 可见",
+      "原文": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+      "摘要": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/",
+      "标签": []
+    },
+    {
+      "id": "9ee7235c",
+      "标题": "Cruller：Bun 的 Zig 运行时，Zig 0.16 上继续",
+      "原文": "Cruller: Bun's Zig Runtime, Continued on Zig 0.16",
+      "摘要": "Cruller: Bun's Zig Runtime, Continued on Zig 0.16",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734",
+      "标签": []
+    },
+    {
+      "id": "fcd5cf89",
+      "标题": "逃离 IntelliJ：Emacs 上的 Scala 和 Kotlin LSP Eglot",
+      "原文": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
+      "摘要": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://jointhefreeworld.org/blog/articles/emacs/emacs-eglot-scala-kotlin/index.html",
+      "标签": []
+    },
     {
       "id": "3daeb585",
       "标题": "本地 AI 可在攻击者之前发现 Mac 上的敏感文件",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://cruciblebench.ai/",
-      "标签": []
-    },
-    {
-      "id": "c68b5487",
-      "标题": "Perlin 噪声算法",
-      "原文": "Perlin's Noise Algorithm",
-      "摘要": "Perlin's Noise Algorithm",
-      "来源": "Hacker News",
-      "日期": "2026-07-22",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm/",
-      "标签": []
-    },
-    {
-      "id": "d504fde1",
-      "标题": "逃亡寻找伴侣的海狸迎来第一套装备",
-      "原文": "Beaver who escaped to find mate welcomes first kit",
-      "摘要": "Beaver who escaped to find mate welcomes first kit",
-      "来源": "Hacker News",
-      "日期": "2026-07-22",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.bbc.com/news/articles/c70gz4zpv97o",
-      "标签": []
-    },
-    {
-      "id": "b0647a66",
-      "标题": "OpenAI 存在",
-      "原文": "OpenAI Presence",
-      "摘要": "OpenAI Presence",
-      "来源": "Hacker News",
-      "日期": "2026-07-22",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://openai.com/index/introducing-openai-presence/",
-      "标签": []
-    },
-    {
-      "id": "54c3a926",
-      "标题": "关键矿产：通过替代和回收减少美国的进口依赖",
-      "原文": "Critical Minerals: Reducing U.S. Import Reliance with Substitution and Recycling",
-      "摘要": "Critical Minerals: Reducing U.S. Import Reliance with Substitution and Recycling",
-      "来源": "Hacker News",
-      "日期": "2026-07-22",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.gao.gov/products/gao-26-108687",
-      "标签": []
-    },
-    {
-      "id": "7d8fac54",
-      "标题": "空客全尺寸可折叠机翼扩展件",
-      "原文": "Airbus Full Scale Foldable Wing Extensions",
-      "摘要": "Airbus Full Scale Foldable Wing Extensions",
-      "来源": "Hacker News",
-      "日期": "2026-07-22",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow",
-      "标签": []
-    },
-    {
-      "id": "8d70f906",
-      "标题": "我与 Stoffel MPC 建立了一项私人基因组学研究",
-      "原文": "I Built a Private Genomics Study with Stoffel MPC",
-      "摘要": "I Built a Private Genomics Study with Stoffel MPC",
-      "来源": "Hacker News",
-      "日期": "2026-07-22",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://vishakh.blog/2026/07/21/i-built-a-private-genomics-study-with-stoffel-mpc/",
       "标签": []
     }
   ]
