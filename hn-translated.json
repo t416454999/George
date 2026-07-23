@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-23T17:44:53+08:00",
+  "updated": "2026-07-23T18:50:06+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "ac89c927",
+      "标题": "极客跑分7",
+      "原文": "Geekbench 7",
+      "摘要": "Geekbench 7",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.geekbench.com/blog/2026/07/geekbench-7/",
+      "标签": []
+    },
+    {
+      "id": "3fcd4420",
+      "标题": "反对开源人工智能的论据很糟糕",
+      "原文": "The arguments against open source AI are bad",
+      "摘要": "The arguments against open source AI are bad",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "标签": []
+    },
+    {
+      "id": "a54c5aef",
+      "标题": "Show HN：Palmier Pro – 专为 AI 打造的开源 macOS 视频编辑器",
+      "原文": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "摘要": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/palmier-io/palmier-pro",
+      "标签": []
+    },
+    {
+      "id": "57db7f1d",
+      "标题": "从评估到护栏：我们为 ACM FACCT 2026 带来了什么",
+      "原文": "From Evaluation to Guardrails: What We Brought to ACM FAccT 2026",
+      "摘要": "From Evaluation to Guardrails: What We Brought to ACM FAccT 2026",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/",
+      "标签": []
+    },
+    {
+      "id": "3a216eea",
+      "标题": "用于分离稀土元素的固态“原子通道”",
+      "原文": "A solid-state “atomic channel” for separating rare earth elements",
+      "摘要": "A solid-state “atomic channel” for separating rare earth elements",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
+      "标签": []
+    },
+    {
+      "id": "6941b0aa",
+      "标题": "基于 ATProto 构建",
+      "原文": "Building on ATProto",
+      "摘要": "Building on ATProto",
+      "来源": "Hacker News",
+      "日期": "2026-07-23",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://lukekanies.com/writing/building-on-atproto/",
+      "标签": []
+    },
     {
       "id": "863cde4c",
       "标题": "Show HN：Palmier Pro – 专为 AI 打造的开源 macOS 视频编辑器",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/",
-      "标签": []
-    },
-    {
-      "id": "9ee7235c",
-      "标题": "Cruller：Bun 的 Zig 运行时，Zig 0.16 上继续",
-      "原文": "Cruller: Bun's Zig Runtime, Continued on Zig 0.16",
-      "摘要": "Cruller: Bun's Zig Runtime, Continued on Zig 0.16",
-      "来源": "Hacker News",
-      "日期": "2026-07-23",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734",
-      "标签": []
-    },
-    {
-      "id": "fcd5cf89",
-      "标题": "逃离 IntelliJ：Emacs 上的 Scala 和 Kotlin LSP Eglot",
-      "原文": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
-      "摘要": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
-      "来源": "Hacker News",
-      "日期": "2026-07-23",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://jointhefreeworld.org/blog/articles/emacs/emacs-eglot-scala-kotlin/index.html",
-      "标签": []
-    },
-    {
-      "id": "3daeb585",
-      "标题": "本地 AI 可在攻击者之前发现 Mac 上的敏感文件",
-      "原文": "Local AI that finds sensitive files on your Mac before attackers do",
-      "摘要": "Local AI that finds sensitive files on your Mac before attackers do",
-      "来源": "Hacker News",
-      "日期": "2026-07-23",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.vaultsort.com/guardian",
-      "标签": []
-    },
-    {
-      "id": "e645c7d4",
-      "标题": "这家初创公司的 Postgres 生存指南",
-      "原文": "The startup's Postgres survival guide",
-      "摘要": "The startup's Postgres survival guide",
-      "来源": "Hacker News",
-      "日期": "2026-07-23",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://hatchet.run/blog/postgres-survival-guide",
-      "标签": []
-    },
-    {
-      "id": "98dc8808",
-      "标题": "在 Vim 中制作 ASCII 艺术",
-      "原文": "Making ASCII Art in Vim",
-      "摘要": "Making ASCII Art in Vim",
-      "来源": "Hacker News",
-      "日期": "2026-07-23",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://alexyang.dev/vim-ascii-art/",
-      "标签": []
-    },
-    {
-      "id": "250eaa29",
-      "标题": "人工智能实验室是鹈鹕最大化吗？",
-      "原文": "Are AI labs pelicanmaxxing?",
-      "摘要": "Are AI labs pelicanmaxxing?",
-      "来源": "Hacker News",
-      "日期": "2026-07-23",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://dylancastillo.co/posts/pelicanmaxxing.html",
       "标签": []
     }
   ]
