@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-24T18:44:42+08:00",
+  "updated": "2026-07-24T20:03:04+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "0bfa59dd",
+      "标题": "每天越来越难集中注意力",
+      "原文": "It's getting harder to focus every day",
+      "摘要": "It's getting harder to focus every day",
+      "来源": "Hacker News",
+      "日期": "2026-07-24",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://glyphack.com/attention/",
+      "标签": []
+    },
+    {
+      "id": "cfebef83",
+      "标题": "Flux 3 X Mimic：下一代视频动作模型",
+      "原文": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+      "摘要": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+      "来源": "Hacker News",
+      "日期": "2026-07-24",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://bfl.ai/blog/flux-3-mimic",
+      "标签": []
+    },
+    {
+      "id": "aaa4120a",
+      "标题": "小型、真实、原创的网络",
+      "原文": "The small, real, original web",
+      "摘要": "The small, real, original web",
+      "来源": "Hacker News",
+      "日期": "2026-07-24",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://spacetimetech.wordpress.com/2026/07/19/the-small-real-original-web/",
+      "标签": []
+    },
+    {
+      "id": "4924b158",
+      "标题": "Marimo 现在在 PyCharm 中运行",
+      "原文": "Marimo Now Runs in PyCharm",
+      "摘要": "Marimo Now Runs in PyCharm",
+      "来源": "Hacker News",
+      "日期": "2026-07-24",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://marimo.io/blog/pycharm",
+      "标签": []
+    },
+    {
+      "id": "a6550f62",
+      "标题": "我通过 hacking 进入了 YC（创业学校）",
+      "原文": "I got into YC (Startup School) by hacking it",
+      "摘要": "I got into YC (Startup School) by hacking it",
+      "来源": "Hacker News",
+      "日期": "2026-07-24",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html",
+      "标签": []
+    },
+    {
+      "id": "24e2ebaf",
+      "标题": "Postgres LISTEN/NOTIFY 实际上可以扩展",
+      "原文": "Postgres LISTEN/NOTIFY actually scales",
+      "摘要": "Postgres LISTEN/NOTIFY actually scales",
+      "来源": "Hacker News",
+      "日期": "2026-07-24",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+      "标签": []
+    },
     {
       "id": "0fe00df0",
       "标题": "使用 Rust 表达式插件扩展 Polars",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://chipsandcheese.com/p/amds-instinct-mi455x-aiming-for-the",
-      "标签": []
-    },
-    {
-      "id": "6113754c",
-      "标题": "Tangleflow：将 GitHub Actions 工作流程转换为缠结工作流程并返回",
-      "原文": "Tangleflow: Converts GitHub Actions workflows to tangled workflows and back",
-      "摘要": "Tangleflow: Converts GitHub Actions workflows to tangled workflows and back",
-      "来源": "Hacker News",
-      "日期": "2026-07-24",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/43081j/tangleflow",
-      "标签": []
-    },
-    {
-      "id": "52297f4e",
-      "标题": "IBM PC，第 1 部分：到来",
-      "原文": "The IBM PC, Part 1: Arrival",
-      "摘要": "The IBM PC, Part 1: Arrival",
-      "来源": "Hacker News",
-      "日期": "2026-07-24",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://technicshistory.com/2026/07/24/the-ibm-pc-part-1-arrival/",
-      "标签": []
-    },
-    {
-      "id": "3f713fd8",
-      "标题": "Buz – 使用现代 Zig 的 Bun 分支，具有低于 1 秒的增量构建",
-      "原文": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
-      "摘要": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
-      "来源": "Hacker News",
-      "日期": "2026-07-24",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891",
-      "标签": []
-    },
-    {
-      "id": "ae7e2de5",
-      "标题": "现代 MUD 的案例",
-      "原文": "The case for MUDs in modern times",
-      "摘要": "The case for MUDs in modern times",
-      "来源": "Hacker News",
-      "日期": "2026-07-24",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.andrewzigler.com/feed/the-case-for-muds-in-modern-times",
-      "标签": []
-    },
-    {
-      "id": "997662b9",
-      "标题": "学习 OpenGL，用于学习现代 OpenGL 的丰富教程资源",
-      "原文": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
-      "摘要": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
-      "来源": "Hacker News",
-      "日期": "2026-07-24",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://learnopengl.com/",
-      "标签": []
-    },
-    {
-      "id": "ab6f54f2",
-      "标题": "计算化学，本地？我对 SSH 的咆哮",
-      "原文": "Computational chemistry, Locally? My rant on SSH",
-      "摘要": "Computational chemistry, Locally? My rant on SSH",
-      "来源": "Hacker News",
-      "日期": "2026-07-24",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://chillphysicsenjoyer.substack.com/p/computational-chemistry-locally",
       "标签": []
     }
   ]
