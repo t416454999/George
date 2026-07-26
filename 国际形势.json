@@ -1,13 +1,67 @@
 {
-  "updated": "2026-07-27T03:15:50+08:00",
-  "as_of": "2026-07-27T03:15:50+08:00",
+  "updated": "2026-07-27T04:32:34+08:00",
+  "as_of": "2026-07-27T04:32:34+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2398036359,
+      "标题": "叙利亚重获新生的希望取决于重建信任、重振生活和恢复生计",
+      "摘要": "叙利亚这个长期被誉为“文明交汇点”的国家，再次站在了十字路口",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-26",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142542",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2398036359.webp",
+      "封面": "assets/media/un-2398036359.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/26-07-2026-SG-Damascus.JPG/image560x340cropped.jpg",
+      "导语": "叙利亚这个长期被誉为“文明交汇点”的国家，再次站在了十字路口",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "叙利亚这个长期被誉为“文明交汇点”的国家，再次站在了十字路口。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142542",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3706621373,
+      "标题": "【前方视野】解码绿氢：能源转型的“最后一块拼图” ——专访水电水利规划设计总院副院长张益国",
+      "摘要": "从“看不见的能源”到改变未来生活的绿色力量，绿氢正在成为全球能源转型的重要方向。它既能将风电、光伏等可再生能源产生的富余电力储存起来，也能为钢铁、化工、交通等难以实现电气化的领域提供低碳解决方案。那么，绿氢究竟是什么？它距离普通人的生活还有多远？在这场全球能源变革中，中国又具备哪些优势？本期《前方视野》专访水电水利规划设计总院副院长张益国，一起探寻绿氢如何补上能源转型的关键一环，开启未来能源新图景",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142521",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3706621373.webp",
+      "封面": "assets/media/un-3706621373.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/11-07-2025-Green-Hydrogen-Brazil.jpg/image560x340cropped.jpg",
+      "导语": "从“看不见的能源”到改变未来生活的绿色力量，绿氢正在成为全球能源转型的重要方向。它既能将风电、光伏等可再生能源产生的富余电力储存起来，也能为钢铁、化工、交通等难以实现电气化的领域提供低碳解决方案。那么，绿氢究竟是什么？它",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "从“看不见的能源”到改变未来生活的绿色力量，绿氢正在成为全球能源转型的重要方向。它既能将风电、光伏等可再生能源产生的富余电力储存起来，也能为钢铁、化工、交通等难以实现电气化的领域提供低碳解决方案。那么，绿氢究竟是什么？它距离普通人的生活还有多远？在这场全球能源变革中，中国又具备哪些优势？本期《前方视野》专访水电水利规划设计总院副院长张益国，一起探寻绿氢如何补上能源转型的关键一环，开启未来能源新图景。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142521",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 1271653425,
       "标题": "秘书长在阿萨德政权倒台后首次访问叙利亚，称赞该国迎来“充满希望的时刻”",
@@ -1074,66 +1128,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.tarunmitra.in/state/uttarakhand/abvps-mashal-yatra-in-dehradun-pays-tribute-to-brave-martyrs/article-154800",
       "出处说明": "根据tarunmitra.in公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2045747075,
-      "标题": "教皇利奥十四世呼吁中东和平与外交",
-      "原标题": "Papa Leão XIV pede paz e diplomacia no Oriente Médio",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 gazetadopovo.com.br 最新报道，点击阅读原文。",
-      "来源": "gazetadopovo.com.br",
-      "分类": "国际形势",
-      "日期": "2026-07-26",
-      "链接": "https://www.gazetadopovo.com.br/mundo/quem-e-o-papa-leao-xiv-e-por-que-ele-pediu-o-fim-dos-ataques-no-oriente-medio/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://media.gazetadopovo.com.br/2026/07/26140757/Papa-Leao-XIV-2-2.jpg",
-      "数据截至": "2026-07-26T19:15:39+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 gazetadopovo.com.br 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 gazetadopovo.com.br 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.gazetadopovo.com.br/mundo/quem-e-o-papa-leao-xiv-e-por-que-ele-pediu-o-fim-dos-ataques-no-oriente-medio/",
-      "出处说明": "根据gazetadopovo.com.br公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3625554223,
-      "标题": "阿联酋航空英国队无缘 SailGP 朴茨茅斯决赛",
-      "原标题": "Team Emirates GBR miss SailGP Portsmouth final",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 hillingdontimes.co.uk 最新报道，点击阅读原文。",
-      "来源": "hillingdontimes.co.uk",
-      "分类": "国际形势",
-      "日期": "2026-07-26",
-      "链接": "https://www.hillingdontimes.co.uk/news/26410873.team-emirates-gbr-miss-sailgp-portsmouth-final/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.hillingdontimes.co.uk/resources/images/21235830.jpg?type=og-image",
-      "数据截至": "2026-07-26T19:15:39+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 hillingdontimes.co.uk 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 hillingdontimes.co.uk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.hillingdontimes.co.uk/news/26410873.team-emirates-gbr-miss-sailgp-portsmouth-final/",
-      "出处说明": "根据hillingdontimes.co.uk公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
