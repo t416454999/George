@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-27T16:04:38+08:00",
+  "generated": "2026-07-27T19:54:55+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3706621373,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 7,
+  "count": 9,
   "articles": [
     {
       "id": 3706621373,
@@ -32,7 +32,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 84,
       "评分分项": {
         "可信度": 25,
@@ -49,7 +49,45 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-07-27T16:04:38+08:00"
+      "选入时间": "2026-07-27T19:54:55+08:00"
+    },
+    {
+      "id": 2390488689,
+      "标题": "【原生·一手】人工智能如何扩展人们的工作范围",
+      "摘要": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "内容": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-07-27",
+      "热度": 67,
+      "链接": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "原标题": "【原生·一手】How AI is expanding what people do at work",
+      "中文提炼": "",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/51KOQJ7hZMnLcRbLNaOE0f/114791b3b8b669c3a504f3159e8e30de/SEO_Card__6_.png?w=1600&amp;h=900&amp;fit=fill",
+      "候选栏目": "AI",
+      "编辑分": 86,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-07-27T19:54:55+08:00"
     },
     {
       "id": 3593540435,
@@ -97,7 +135,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-07-27T16:04:38+08:00"
+      "选入时间": "2026-07-27T19:54:55+08:00"
     },
     {
       "id": 751467258,
@@ -130,31 +168,75 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-07-27T16:04:38+08:00"
+      "选入时间": "2026-07-27T19:54:55+08:00"
     },
     {
-      "id": 3694083791,
-      "标题": "【原生·模型】DC-Leap：通过草案引导的连续跳跃解码实现 dLLM 的免训练加速",
-      "摘要": "arXiv:2607.20467v1 Announce Type: new Abstract: While parallel decoding is central to the efficiency of Diffusion Large Language Models (dLLMs), current strategies are often",
-      "内容": "arXiv:2607.20467v1 Announce Type: new Abstract: While parallel decoding is central to the efficiency of Diffusion Large Language Models (dLLMs), current strategies are often",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-07-24",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2607.20467",
+      "id": 577822360,
+      "标题": "2026年，为什么资本更青睐“会赚钱”的AI应用？",
+      "摘要": "今年 WAIC 前夕，月之暗面发布了 Kimi K3，发布即破圈。但资本市场的注意力，更多地落在了另一件事上。 过去半年，这家明星大模型公司估值翻了 6 倍，目标 300 亿美元，同步推进赴港 IPO。而在 2025 年底的跨年夜全员信中，创始人杨植麟写下了一句话：2026 年聚焦 Agent，不以绝对用户数量为目标。",
+      "内容": "今年 WAIC 前夕，月之暗面发布了 Kimi K3，发布即破圈。但资本市场的注意力，更多地落在了另一件事上。 过去半年，这家明星大模型公司估值翻了 6 倍，目标 300 亿美元，同步推进赴港 IPO。而在 2025 年底的跨年夜全员信中，创始人杨植麟写下了一句话：2026 年聚焦 Agent，不以绝对用户数量为目标。",
+      "来源": "36氪",
+      "分类": "AI应用",
+      "日期": "2026-07-27",
+      "热度": 56,
+      "链接": "https://36kr.com/p/3913706151400583?f=rss",
       "标签": [
-        "原生资讯",
-        "arXiv AI"
+        "大模型"
       ],
-      "原标题": "【原生·模型】DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 73,
+      "编辑分": 76,
+      "评分分项": {
+        "可信度": 17,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 10,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 3,
+        "扣分": 0
+      },
+      "来源级别": "B",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-07-27T19:54:55+08:00"
+    },
+    {
+      "id": 4283726279,
+      "标题": "无题",
+      "原标题": "Untitled",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Richard M. Loving American, born Austria 1924-2021 · 1959 · Enamel and copper on wood",
+      "来源": "Art Institute of Chicago",
+      "分类": "人文艺术",
+      "日期": "2026-07-27",
+      "链接": "https://www.artic.edu/artworks/117256",
+      "图片": "assets/covers/humanities.svg",
+      "原始图片": "https://www.artic.edu/iiif/2/a4db604f-3c38-e566-ecfe-1c894fc9e4b8/full/843,/0/default.jpg",
+      "封面": "assets/covers/humanities.svg",
+      "版权": "CC0 / Public Domain",
+      "标签": [
+        "公共领域",
+        "芝加哥艺术博物馆"
+      ],
+      "导语": "从馆藏资料出发，认识《无题》及其创作背景",
+      "要点": [
+        "Richard M. Loving American, born Austria 1924-2021",
+        "1959",
+        "Enamel and copper on wood"
+      ],
+      "正文": "《无题》现由Art Institute of Chicago收录。作者：Richard M. Loving American, born Austria 1924-2021；年代：1959；材质：Enamel and copper on wood。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.artic.edu/artworks/117256",
+      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 74,
       "评分分项": {
         "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
+        "时效": 8,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -163,82 +245,46 @@
       },
       "来源级别": "A",
       "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-07-27T16:04:38+08:00"
+      "选入时间": "2026-07-27T19:54:55+08:00"
     },
     {
-      "id": 2381850858,
-      "标题": "【原生·模型】ClickGuard：通过信息量测量和大型语言模型检测和破坏标题诱饵新闻",
-      "摘要": "arXiv:2607.20463v1 Announce Type: new Abstract: This paper presents an AI-driven browser extension that identifies clickbait to help users avoid misleading Internet articles.",
-      "内容": "arXiv:2607.20463v1 Announce Type: new Abstract: This paper presents an AI-driven browser extension that identifies clickbait to help users avoid misleading Internet articles.",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-07-24",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2607.20463",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "原标题": "【原生·模型】ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-07-27T16:04:38+08:00"
-    },
-    {
-      "id": 1994312269,
-      "标题": "欧洲森林火灾四年增57% 世卫组织呼吁加强健康防护应对气候风险",
-      "摘要": "世界卫生组织欧洲区域办事处表示，最新数据显示，今年以来欧洲部分地区森林火灾数量大幅增加。世卫组织欧洲区域主任克鲁格警告，野火不仅造成生命和财产损失，还对公众健康和卫生系统带来严重影响。他呼吁各国加强预警和卫生应对，为气候变化导致更加频繁和猛烈的野火做好准备",
+      "id": 2757556006,
+      "标题": "从锂到镍：联合国如何帮助各国充分利用关键矿产",
+      "摘要": "全球向清洁能源的转型正推动着对锂、镍、钴和铜等关键矿产的巨大需求",
       "来源": "联合国新闻",
       "分类": "国际形势",
-      "日期": "2026-07-24",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142533",
+      "日期": "2026-07-22",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142516",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-1994312269.webp",
-      "封面": "assets/media/un-1994312269.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/31-07-2023_Unsplash_wildfire.jpg/image560x340cropped.jpg",
-      "导语": "世界卫生组织欧洲区域办事处表示，最新数据显示，今年以来欧洲部分地区森林火灾数量大幅增加。世卫组织欧洲区域主任克鲁格警告，野火不仅造成生命和财产损失，还对公众健康和卫生系统带来严重影响。他呼吁各国加强预警和卫生应对，为气候",
+      "图片": "assets/media/un-2757556006.webp",
+      "封面": "assets/media/un-2757556006.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/21-07-2026-UN-Kazakhstan-02.JPG/image560x340cropped.jpg",
+      "导语": "全球向清洁能源的转型正推动着对锂、镍、钴和铜等关键矿产的巨大需求",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "世界卫生组织欧洲区域办事处表示，最新数据显示，今年以来欧洲部分地区森林火灾数量大幅增加。世卫组织欧洲区域主任克鲁格警告，野火不仅造成生命和财产损失，还对公众健康和卫生系统带来严重影响。他呼吁各国加强预警和卫生应对，为气候变化导致更加频繁和猛烈的野火做好准备。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球向清洁能源的转型正推动着对锂、镍、钴和铜等关键矿产的巨大需求。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142533",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142516",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 73,
+      "栏目状态": "partial",
+      "编辑分": 74,
       "评分分项": {
         "可信度": 25,
         "时效": 2,
-        "公共价值": 11,
+        "公共价值": 16,
         "一手可追溯": 15,
-        "完整度": 10,
+        "完整度": 6,
         "真实图片": 5,
         "编辑价值": 5,
         "扣分": 0
@@ -248,7 +294,53 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-07-27T16:04:38+08:00"
+      "选入时间": "2026-07-27T19:54:55+08:00"
+    },
+    {
+      "id": 1926497495,
+      "标题": "关键矿产：推动清洁能源未来的隐形资源",
+      "摘要": "为何关键矿产突然成为全球政治的焦点？",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142514",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1926497495.webp",
+      "封面": "assets/media/un-1926497495.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/20-04-2026-UNDP-Philippines-solar.jpg/image560x340cropped.jpg",
+      "导语": "为何关键矿产突然成为全球政治的焦点？",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "为何关键矿产突然成为全球政治的焦点？。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142514",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 74,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 6,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-07-27T19:54:55+08:00"
     },
     {
       "id": 3278245669,
@@ -296,14 +388,18 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-07-27T16:04:38+08:00"
+      "选入时间": "2026-07-27T19:54:55+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-07-27T16:04:38+08:00",
+    "as_of": "2026-07-27T19:54:55+08:00",
     "candidate_count": 602,
-    "rejected_count": 419,
+    "rejected_count": 418,
     "rejected": [
+      {
+        "id": 97365842,
+        "reason": "off_topic"
+      },
       {
         "id": 709863218,
         "reason": "off_topic"
@@ -337,6 +433,14 @@
         "reason": "off_topic"
       },
       {
+        "id": 4052561543,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4027793119,
+        "reason": "off_topic"
+      },
+      {
         "id": 3981646829,
         "reason": "off_topic"
       },
@@ -349,6 +453,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 3863798297,
+        "reason": "off_topic"
+      },
+      {
         "id": 3822463591,
         "reason": "off_topic"
       },
@@ -357,7 +465,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 3757038079,
+        "reason": "off_topic"
+      },
+      {
         "id": 3744938817,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3622757847,
         "reason": "off_topic"
       },
       {
@@ -401,6 +517,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 2916476809,
+        "reason": "off_topic"
+      },
+      {
         "id": 2782998609,
         "reason": "off_topic"
       },
@@ -425,7 +545,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 1724680322,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1718248123,
+        "reason": "off_topic"
+      },
+      {
         "id": 1696471583,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1643032817,
         "reason": "off_topic"
       },
       {
@@ -449,6 +581,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 1209558754,
+        "reason": "off_topic"
+      },
+      {
         "id": 1108337469,
         "reason": "off_topic"
       },
@@ -457,7 +593,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 1084263311,
+        "reason": "off_topic"
+      },
+      {
         "id": 1046466486,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1025069967,
         "reason": "off_topic"
       },
       {
@@ -1638,62 +1782,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 1531253569,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1515032166,
-        "reason": "off_topic"
-      },
-      {
-        "id": 151111952,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1510723569,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1502395271,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1500781833,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1478344558,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1436708080,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1425614118,
-        "reason": "off_topic"
-      },
-      {
-        "id": 127892424,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1251985502,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1198940910,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1181286314,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1180604704,
-        "reason": "off_topic"
-      },
-      {
         "id": 469943749,
         "reason": "score_below_50",
         "score": 39
@@ -1774,12 +1862,27 @@
         "score": 39
       },
       {
-        "id": 1637245144,
+        "id": 3475563530,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 2984812388,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 3567014096,
+        "id": 4081272532,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 4250836011,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 622897434,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1789,27 +1892,32 @@
         "score": 38
       },
       {
-        "id": 4250836011,
+        "id": 2237572164,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 1741019036,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 367239953,
+        "id": 2545201119,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 580252533,
+        "id": 4278687016,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2313429867,
+        "id": 1421689706,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1594411507,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2859120463,
         "reason": "score_below_50",
         "score": 34
       },
@@ -1819,27 +1927,17 @@
         "score": 39
       },
       {
-        "id": 1312681105,
+        "id": 103150905,
         "reason": "score_below_50",
         "score": 34
       },
       {
-        "id": 1665098748,
+        "id": 2313429867,
         "reason": "score_below_50",
         "score": 34
-      },
-      {
-        "id": 2837973774,
-        "reason": "score_below_50",
-        "score": 32
       },
       {
         "id": 1626013099,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 821379590,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1849,19 +1947,9 @@
         "score": 32
       },
       {
-        "id": 4114250904,
+        "id": 821379590,
         "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 3254794641,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 1982875615,
-        "reason": "score_below_50",
-        "score": 28
+        "score": 32
       },
       {
         "id": 1697018953,
@@ -1869,12 +1957,17 @@
         "score": 33
       },
       {
-        "id": 1741847809,
+        "id": 2501894584,
         "reason": "score_below_50",
         "score": 28
       },
       {
-        "id": 2501894584,
+        "id": 1982875615,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 1123289330,
         "reason": "score_below_50",
         "score": 28
       },
@@ -1884,19 +1977,14 @@
         "score": 26
       },
       {
-        "id": 1465662204,
+        "id": 4166597360,
         "reason": "score_below_50",
-        "score": 22
+        "score": 26
       },
       {
         "id": 3107044682,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 858205546,
-        "reason": "score_below_50",
-        "score": 16
       },
       {
         "id": 3803538517,
@@ -1929,14 +2017,14 @@
         "score": 30
       },
       {
+        "id": 475584641,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
         "id": 2082870529,
         "reason": "score_below_50",
         "score": 35
-      },
-      {
-        "id": 3452154756,
-        "reason": "score_below_50",
-        "score": 30
       },
       {
         "id": 3278864918,
