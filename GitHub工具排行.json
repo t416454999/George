@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-25T09:51:54+08:00",
+  "updated": "2026-07-27T11:28:03+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "176.8k",
+      "星标": "177.0k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "142.6k",
+      "星标": "142.7k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -60,100 +60,100 @@
   ],
   "trending": [
     {
-      "名称": "ai-agent-book",
-      "repo": "bojieli/ai-agent-book",
-      "说明": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "星标": 19457,
-      "本周新增": 17401,
+      "名称": "i-have-adhd",
+      "repo": "ayghri/i-have-adhd",
+      "说明": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "星标": 10988,
+      "本周新增": 6991,
       "语言": "Python"
     },
     {
       "名称": "worldmonitor",
       "repo": "koala73/worldmonitor",
       "说明": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "星标": 73735,
-      "本周新增": 10936,
+      "星标": 75102,
+      "本周新增": 12615,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "ai-agent-book",
+      "repo": "bojieli/ai-agent-book",
+      "说明": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "星标": 22176,
+      "本周新增": 15909,
+      "语言": "Python"
+    },
+    {
+      "名称": "pi-web",
+      "repo": "agegr/pi-web",
+      "说明": "Web UI for the pi coding agent",
+      "星标": 2968,
+      "本周新增": 1551,
       "语言": "TypeScript"
     },
     {
       "名称": "code-review-graph",
       "repo": "tirth8205/code-review-graph",
       "说明": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "星标": 26306,
-      "本周新增": 6565,
+      "星标": 26805,
+      "本周新增": 6006,
       "语言": "Python"
-    },
-    {
-      "名称": "kimi-code",
-      "repo": "MoonshotAI/kimi-code",
-      "说明": "Kimi Code CLI — The Starting Point for Next-Gen Agents",
-      "星标": 4991,
-      "本周新增": 1589,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "jcode",
-      "repo": "1jehuang/jcode",
-      "说明": "The most intelligent agent harness for code",
-      "星标": 11303,
-      "本周新增": 2773,
-      "语言": "Rust"
     },
     {
       "名称": "OmniRoute",
       "repo": "diegosouzapw/OmniRoute",
       "说明": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-      "星标": 29385,
-      "本周新增": 9965,
+      "星标": 31614,
+      "本周新增": 10912,
       "语言": "TypeScript"
     },
     {
-      "名称": "pi-web",
-      "repo": "agegr/pi-web",
-      "说明": "Web UI for the pi coding agent",
-      "星标": 2670,
-      "本周新增": 1316,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "kimi-cli",
-      "repo": "MoonshotAI/kimi-cli",
-      "说明": "Kimi Code CLI is your next CLI agent.",
-      "星标": 10809,
-      "本周新增": 1570,
-      "语言": "Python"
+      "名称": "skills",
+      "repo": "mattpocock/skills",
+      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
+      "星标": 190701,
+      "本周新增": 12238,
+      "语言": "Shell"
     },
     {
       "名称": "pi",
       "repo": "earendil-works/pi",
       "说明": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "星标": 77285,
-      "本周新增": 4880,
+      "星标": 78715,
+      "本周新增": 5389,
       "语言": "TypeScript"
     },
     {
       "名称": "ai-engineering-from-scratch",
       "repo": "rohitg00/ai-engineering-from-scratch",
       "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 43297,
-      "本周新增": 4399,
+      "星标": 44033,
+      "本周新增": 4317,
       "语言": "Python"
     },
     {
-      "名称": "Bonsai-demo",
-      "repo": "PrismML-Eng/Bonsai-demo",
-      "说明": "Bonsai Demo",
-      "星标": 2038,
-      "本周新增": 364,
-      "语言": "Shell"
+      "名称": "kimi-code",
+      "repo": "MoonshotAI/kimi-code",
+      "说明": "Kimi Code CLI — The Starting Point for Next-Gen Agents",
+      "星标": 5285,
+      "本周新增": 1380,
+      "语言": "TypeScript"
     },
     {
-      "名称": "ossie",
-      "repo": "apache/ossie",
-      "说明": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
-      "星标": 1624,
-      "本周新增": 471,
-      "语言": "Python"
+      "名称": "text-to-cad",
+      "repo": "earthtojake/text-to-cad",
+      "说明": "A collection of agent skills for CAD, robotics and hardware design",
+      "星标": 10723,
+      "本周新增": 2169,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "Instatic",
+      "repo": "CoreBunch/Instatic",
+      "说明": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "星标": 6018,
+      "本周新增": 1893,
+      "语言": "TypeScript"
     }
   ]
 }
