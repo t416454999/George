@@ -1,13 +1,121 @@
 {
-  "updated": "2026-07-29T05:41:55+08:00",
-  "as_of": "2026-07-29T05:41:55+08:00",
+  "updated": "2026-07-29T07:03:19+08:00",
+  "as_of": "2026-07-29T07:03:19+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2787562946,
+      "标题": "【前方视野】黄金与阿拉伯胶——苏丹战争的重要资金来源",
+      "摘要": "在生活中，人们在正常情况下不会去购买偷抢而来的物品，因为大家都知道这不合法，同时会助长犯罪。但有时，人们会在不知情的情况下，购买到这样的产品。您或许有所不知，在一些软饮料、糖果、化妆品或药品中，可能含有来自苏丹战争冲突区的阿拉伯胶，而从战区走私而来的大量黄金也流入了国际市场",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142556",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2787562946.webp",
+      "封面": "assets/media/un-2787562946.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2013/11/18090/image560x340cropped.jpg",
+      "导语": "在生活中，人们在正常情况下不会去购买偷抢而来的物品，因为大家都知道这不合法，同时会助长犯罪。但有时，人们会在不知情的情况下，购买到这样的产品。您或许有所不知，在一些软饮料、糖果、化妆品或药品中，可能含有来自苏丹战争冲突区",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "在生活中，人们在正常情况下不会去购买偷抢而来的物品，因为大家都知道这不合法，同时会助长犯罪。但有时，人们会在不知情的情况下，购买到这样的产品。您或许有所不知，在一些软饮料、糖果、化妆品或药品中，可能含有来自苏丹战争冲突区的阿拉伯胶，而从战区走私而来的大量黄金也流入了国际市场。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142556",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1365903389,
+      "标题": "联合国称：气候灾害加剧 威胁生命安全并重创各国经济",
+      "摘要": "《联合国气候变化框架公约》执行秘书斯蒂尔周二发表声明表示，全球各地由气候变化驱动的灾害正在加剧，威胁生命安全并重创各国经济。他警告说，“气候警报正从四面八方传来，响彻云霄”",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142555",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1365903389.webp",
+      "封面": "assets/media/un-1365903389.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/UNHCR/Embargoed%202/06-11-2022_Unsplash_Portugal.jpg/image560x340cropped.jpg",
+      "导语": "《联合国气候变化框架公约》执行秘书斯蒂尔周二发表声明表示，全球各地由气候变化驱动的灾害正在加剧，威胁生命安全并重创各国经济。他警告说，“气候警报正从四面八方传来，响彻云霄”",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "《联合国气候变化框架公约》执行秘书斯蒂尔周二发表声明表示，全球各地由气候变化驱动的灾害正在加剧，威胁生命安全并重创各国经济。他警告说，“气候警报正从四面八方传来，响彻云霄”。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142555",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1192269003,
+      "标题": "国际移民组织：人口贩运受害者被迫参与网络诈骗 呼吁加强保护与跨境合作",
+      "摘要": "在7月30日“世界打击贩运人口行为日”到来前夕，国际移民组织发出警告称，全球已有数十万人被犯罪网络贩运，并被强迫参与价值数十亿美元的网络诈骗活动。今年“世界打击贩运人口行为日”的主题为“被骗局困住”",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142554",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1192269003.webp",
+      "封面": "assets/media/un-1192269003.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/20-06-2024-UNODC-Philippines-3-LG.jpg/image560x340cropped.jpg",
+      "导语": "在7月30日“世界打击贩运人口行为日”到来前夕，国际移民组织发出警告称，全球已有数十万人被犯罪网络贩运，并被强迫参与价值数十亿美元的网络诈骗活动。今年“世界打击贩运人口行为日”的主题为“被骗局困住”",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "在7月30日“世界打击贩运人口行为日”到来前夕，国际移民组织发出警告称，全球已有数十万人被犯罪网络贩运，并被强迫参与价值数十亿美元的网络诈骗活动。今年“世界打击贩运人口行为日”的主题为“被骗局困住”。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142554",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2537623423,
+      "标题": "《难民公约》通过75周年 联合国发起全球团结倡议呼吁支持难民保护",
+      "摘要": "在《1951年关于难民地位的公约》（《难民公约》）通过75周年之际，联合国难民署周二与来自全球各界的75位人士共同发起“承诺”倡议，重申对难民及其寻求安全权利的支持，并呼吁建立支持难民保护的全球联盟。联合国秘书长古特雷斯当天也发表声明，呼吁各会员国重申对《难民公约》文字与精神的承诺",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142553",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2537623423.webp",
+      "封面": "assets/media/un-2537623423.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2014/02/18589/image560x340cropped.jpg",
+      "导语": "在《1951年关于难民地位的公约》（《难民公约》）通过75周年之际，联合国难民署周二与来自全球各界的75位人士共同发起“承诺”倡议，重申对难民及其寻求安全权利的支持，并呼吁建立支持难民保护的全球联盟。联合国秘书长古特雷斯",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "在《1951年关于难民地位的公约》（《难民公约》）通过75周年之际，联合国难民署周二与来自全球各界的75位人士共同发起“承诺”倡议，重申对难民及其寻求安全权利的支持，并呼吁建立支持难民保护的全球联盟。联合国秘书长古特雷斯当天也发表声明，呼吁各会员国重申对《难民公约》文字与精神的承诺。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142553",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 1161080221,
       "标题": "中东局势持续紧张 安理会听取加沙、西岸及地区局势通报",
@@ -22,7 +130,7 @@
       ],
       "图片": "assets/media/un-1161080221.webp",
       "封面": "assets/media/un-1161080221.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/01-07-2026-UN-Photo-SC-wideview.jpg/image560x340cropped.jpg",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/28-07-2026-UN-Photo-SC-wideview.jpg/image560x340cropped.jpg",
       "导语": "联合国中东和平进程副特别协调员阿拉克巴罗夫周二向安理会表示，约旦河西岸局势过去几天迅速恶化，加剧了巴勒斯坦被占领土整体紧张局势。如果不立即采取措施扭转局面，局势进一步升级的风险将持续增加。他强调，必须全面执行安理会第28",
       "要点": [
         "发生了什么",
@@ -1014,126 +1122,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.mundorama.net/p/russia-da-solidariedade-a-condescendencia",
       "出处说明": "根据mundorama.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1968568023,
-      "标题": "西比哈与阿拉奇通话，乌克兰呼吁伊朗保持克制",
-      "原标题": "Сибиха разговарао са Аракчијем , Украјина позвала Иран на уздржаност",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 politika.rs 最新报道，点击阅读原文。",
-      "来源": "politika.rs",
-      "分类": "国际形势",
-      "日期": "2026-07-28",
-      "链接": "https://www.politika.rs/scc/clanak/774541/sibiha-razgovarao-sa-arakcijem-ukrajina-pozvala-iran-na-uzdrzanost",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.politika.rs/thumbs/upload/Article/Image/2026_07/757z468_Abas-Aragci--Foto---EPA---CEERWAN-AZEEZ-.jpg",
-      "数据截至": "2026-07-28T21:41:39+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 politika.rs 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 politika.rs 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.politika.rs/scc/clanak/774541/sibiha-razgovarao-sa-arakcijem-ukrajina-pozvala-iran-na-uzdrzanost",
-      "出处说明": "根据politika.rs公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4041296135,
-      "标题": "佛罗里达州现在警告儿童和青少年不要服用抑郁症和焦虑症药物",
-      "原标题": "Florida now warns against depression and anxiety meds for children , teens",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 orlandoweekly.com 最新报道，点击阅读原文。",
-      "来源": "orlandoweekly.com",
-      "分类": "国际形势",
-      "日期": "2026-07-28",
-      "链接": "https://www.orlandoweekly.com/news/florida-news/florida-now-warns-against-depression-and-anxiety-meds-for-children-teens/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.orlandoweekly.com/wp-content/uploads/2026/07/Screenshot-2026-07-28-at-1.39.17-PM.jpg",
-      "数据截至": "2026-07-28T21:41:39+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 orlandoweekly.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 orlandoweekly.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.orlandoweekly.com/news/florida-news/florida-now-warns-against-depression-and-anxiety-meds-for-children-teens/",
-      "出处说明": "根据orlandoweekly.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1488009688,
-      "标题": "乌克兰警告伊朗不要在战争中向俄罗斯提供任何支持",
-      "原标题": "Ucrania advierte a Irán de que se abstenga de brindar cualquier apoyo a Rusia en la guerra",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 diariosigloxxi.com 最新报道，点击阅读原文。",
-      "来源": "diariosigloxxi.com",
-      "分类": "国际形势",
-      "日期": "2026-07-28",
-      "链接": "https://www.diariosigloxxi.com/texto-ep/mostrar/20260728205053/ucrania-advierte-iran-abstenga-brindar-cualquier-apoyo-rusia-guerra",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.diariosigloxxi.com/images/20537",
-      "数据截至": "2026-07-28T21:41:39+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 diariosigloxxi.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 diariosigloxxi.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.diariosigloxxi.com/texto-ep/mostrar/20260728205053/ucrania-advierte-iran-abstenga-brindar-cualquier-apoyo-rusia-guerra",
-      "出处说明": "根据diariosigloxxi.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4085267627,
-      "标题": "里海袭击事件发生后，乌克兰向伊朗保证。西比哈在与阿拉克奇通电话后表示，我们希望防止事态升级",
-      "原标题": "Ukrajina upokojuje Irán po útoku v Kaspickom mori . Chceme zabrániť eskalácii , vyhlásil Sybiha po telefonáte s Arákčím",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 ta3.com 最新报道，点击阅读原文。",
-      "来源": "ta3.com",
-      "分类": "国际形势",
-      "日期": "2026-07-28",
-      "链接": "https://www.ta3.com/clanok/1063103/ukrajina-upokojuje-iran-po-utoku-v-kaspickom-mori-chceme-zabranit-eskalacii-vyhlasil-sybiha-po-telefonate-s-arakcim",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-07-28T21:41:39+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 ta3.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 ta3.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.ta3.com/clanok/1063103/ukrajina-upokojuje-iran-po-utoku-v-kaspickom-mori-chceme-zabranit-eskalacii-vyhlasil-sybiha-po-telefonate-s-arakcim",
-      "出处说明": "根据ta3.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
