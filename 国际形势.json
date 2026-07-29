@@ -1,13 +1,40 @@
 {
-  "updated": "2026-07-30T00:25:43+08:00",
-  "as_of": "2026-07-30T00:25:43+08:00",
+  "updated": "2026-07-30T01:51:31+08:00",
+  "as_of": "2026-07-30T01:51:31+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 4272659806,
+      "标题": "【子午播报】2026年7月29日",
+      "摘要": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国80周年倡议，一场关乎未来的改革；AI正以前所未有的速度改变世界，如何确保AI成为造福人类的力量；子午聚焦：拯救印度濒危老虎",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-07-29",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142548",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4272659806.webp",
+      "封面": "assets/media/un-4272659806.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/15-07-2024_un_meridian.png/image560x340cropped.jpg",
+      "导语": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国80周年倡议，一场关乎未来的改革；AI正以前所未有的速度改变世界，如何确保AI成为造福人类的力量；子午聚焦：拯救印度濒危老虎",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国80周年倡议，一场关乎未来的改革；AI正以前所未有的速度改变世界，如何确保AI成为造福人类的力量；子午聚焦：拯救印度濒危老虎。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142548",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2787562946,
       "标题": "【前方视野】黄金与阿拉伯胶——苏丹战争的重要资金来源",
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://newschannel9.com/news/nation-world/us-saudi-arabia-strike-back-after-iran-islamic-revolutionary-guard-corps-launches-ballistic-missiles-surprise-attack-on-middle-east-military-bases-escalating-war-centeral-command-jordan-interception-iraq",
       "出处说明": "根据newschannel9.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2521653290,
-      "标题": "中东新一轮空袭导致油价上涨近 7%",
-      "原标题": "Цены на нефть выросли почти на 7 % на фоне возобновления авиаударов на Ближнем Востоке",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 unn.ua 最新报道，点击阅读原文。",
-      "来源": "unn.ua",
-      "分类": "国际形势",
-      "日期": "2026-07-29",
-      "链接": "https://unn.ua/ru/news/tseni-na-neft-virosli-pochti-na-7percent-na-fone-vozobnovleniya-aviaudarov-na-blizhnem-vostoke",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://unn.ua/img/2025/07/18/1752815915-1473-large.webp",
-      "数据截至": "2026-07-29T16:25:23+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 unn.ua 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 unn.ua 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://unn.ua/ru/news/tseni-na-neft-virosli-pochti-na-7percent-na-fone-vozobnovleniya-aviaudarov-na-blizhnem-vostoke",
-      "出处说明": "根据unn.ua公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
