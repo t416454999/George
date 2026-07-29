@@ -1,8 +1,68 @@
 {
-  "updated": "2026-07-29T21:13:19+08:00",
+  "updated": "2026-07-29T22:13:03+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "733f02c8",
+      "标题": "使用 Git add -p 暂存补丁",
+      "原文": "Staging patches with Git add -p",
+      "摘要": "Staging patches with Git add -p",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.simonholywell.com/post/git-add-p/",
+      "标签": []
+    },
+    {
+      "id": "846765bd",
+      "标题": "克劳德：所有模型的错误率均升高",
+      "原文": "Claude: Elevated errors across all models",
+      "摘要": "Claude: Elevated errors across all models",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "标签": []
+    },
+    {
+      "id": "3b0af410",
+      "标题": "将愚蠢的空调变聪明（不会损失我的保证金）",
+      "原文": "Turning a dumb AC unit smart (without losing my security deposit)",
+      "摘要": "Turning a dumb AC unit smart (without losing my security deposit)",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://prilik.com/blog/post/automating-ac-nyc/",
+      "标签": []
+    },
+    {
+      "id": "945fb09e",
+      "标题": "前沿实验室特工入侵剖析：2026 年 7 月事件的时间表",
+      "原文": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
+      "摘要": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "标签": []
+    },
+    {
+      "id": "8daefa0f",
+      "标题": "人工智能的顶级初创公司几乎没有发表他们的研究成果",
+      "原文": "AI's top startups are barely publishing their research",
+      "摘要": "AI's top startups are barely publishing their research",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "标签": []
+    },
     {
       "id": "8e4cbb4b",
       "标题": "西奥猜想解决了 35 年前的数学难题，发现了一个无人预测的术语",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "标签": []
-    },
-    {
-      "id": "7d0bf59b",
-      "标题": "GPU 上贝塞尔曲线评估的纹理查找方法 (JCGT)",
-      "原文": "A Texture Lookup Approach to Bézier Curve Evaluation on the GPU (JCGT)",
-      "摘要": "A Texture Lookup Approach to Bézier Curve Evaluation on the GPU (JCGT)",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://jcgt.org/published/0015/02/01/",
-      "标签": []
-    },
-    {
-      "id": "876b746d",
-      "标题": "文档传播的 AI 蠕虫可以通过 Copilot for Word 自我传播",
-      "原文": "Document-borne AI worms can self-propagate through Copilot for Word",
-      "摘要": "Document-borne AI worms can self-propagate through Copilot for Word",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
-      "标签": []
-    },
-    {
-      "id": "91bd5146",
-      "标题": "KO阅读器",
-      "原文": "KOReader",
-      "摘要": "KOReader",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://koreader.rocks/",
-      "标签": []
-    },
-    {
-      "id": "8c3cfd86",
-      "标题": "CSV 不仅仅是 CSV",
-      "原文": "CSV Is Never Just CSV",
-      "摘要": "CSV Is Never Just CSV",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://immaschinenraum.blog/en/funpark/never-just-csv/",
-      "标签": []
-    },
-    {
-      "id": "b89251df",
-      "标题": "古罗马版谷歌地图：到达海滩需要多长时间",
-      "原文": "Ancient Rome's version of Google Maps: how long to reach the beach",
-      "摘要": "Ancient Rome's version of Google Maps: how long to reach the beach",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.euronews.com/culture/2026/07/02/ancient-romes-version-of-google-maps-how-long-to-reach-the-beach",
       "标签": []
     }
   ]
