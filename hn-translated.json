@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-29T16:43:47+08:00",
+  "updated": "2026-07-29T17:55:58+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "843716d1",
+      "标题": "关于 Anthropic 新密码分析结果的一些想法",
+      "原文": "Some thoughts about Anthropic's new cryptanalysis results",
+      "摘要": "Some thoughts about Anthropic's new cryptanalysis results",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+      "标签": []
+    },
+    {
+      "id": "0bebeff3",
+      "标题": "ESP 书《Rust》",
+      "原文": "The Rust on ESP Book",
+      "摘要": "The Rust on ESP Book",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://docs.espressif.com/projects/rust/book/",
+      "标签": []
+    },
+    {
+      "id": "a5743a4b",
+      "标题": "人工智能。公司正在招聘数千名电工和木匠",
+      "原文": "A.I. companies are recruiting electricians and carpenters by the thousands",
+      "摘要": "A.I. companies are recruiting electricians and carpenters by the thousands",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html",
+      "标签": []
+    },
+    {
+      "id": "0487b919",
+      "标题": "PgDog (YC P25) 正在招聘",
+      "原文": "PgDog (YC P25) Is Hiring",
+      "摘要": "PgDog (YC P25) Is Hiring",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
+      "标签": []
+    },
+    {
+      "id": "48f75d08",
+      "标题": "Keychron 宣布首款游戏鼠标开源固件",
+      "原文": "Keychron announces first open-source firmware for gaming mice",
+      "摘要": "Keychron announces first open-source firmware for gaming mice",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+      "标签": []
+    },
+    {
+      "id": "ecb08365",
+      "标题": "超逻辑",
+      "原文": "Superlogical",
+      "摘要": "Superlogical",
+      "来源": "Hacker News",
+      "日期": "2026-07-29",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.superlogical.com/",
+      "标签": []
+    },
     {
       "id": "4442cd0a",
       "标题": "Show HN：Qwen Scribe – Apple Silicon 的本地转录和听写",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.datagubbe.se/scenegui/",
-      "标签": []
-    },
-    {
-      "id": "053738fd",
-      "标题": "适用于越狱 Kindle 的更多 Tailscale 技巧",
-      "原文": "More Tailscale tricks for your jailbroken Kindle",
-      "摘要": "More Tailscale tricks for your jailbroken Kindle",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
-      "标签": []
-    },
-    {
-      "id": "8d5eac3d",
-      "标题": "OpenShell Kubernetes 操作员",
-      "原文": "OpenShell Kubernetes Operator",
-      "摘要": "OpenShell Kubernetes Operator",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/lensapp/openshell-k8s-operator",
-      "标签": []
-    },
-    {
-      "id": "37ea29db",
-      "标题": "通过 WebGPU 在浏览器中显示 HN: Manim（3Blue1Brown 的动画引擎）",
-      "原文": "Show HN: Manim (3Blue1Brown's animation engine) in the browser via WebGPU",
-      "摘要": "Show HN: Manim (3Blue1Brown's animation engine) in the browser via WebGPU",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://studio.academa.ai/",
-      "标签": []
-    },
-    {
-      "id": "53fe94a8",
-      "标题": "套接字接口万岁",
-      "原文": "Hooray for the Sockets Interface",
-      "摘要": "Hooray for the Sockets Interface",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/",
-      "标签": []
-    },
-    {
-      "id": "538f4f3c",
-      "标题": "超越希腊和罗马",
-      "原文": "Beyond Greece and Rome",
-      "摘要": "Beyond Greece and Rome",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://aeon.co/essays/uncovering-a-global-ancient-history-beyond-greece-and-rome",
-      "标签": []
-    },
-    {
-      "id": "2c6797d8",
-      "标题": "真相不是方向：Tarski 对 LLM 探测器的攻击",
-      "原文": "Truth is not a direction: a Tarski attack on LLM probes",
-      "摘要": "Truth is not a direction: a Tarski attack on LLM probes",
-      "来源": "Hacker News",
-      "日期": "2026-07-29",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://abeljansma.nl/2026/07/10/truth-is-not-a-direction.html",
       "标签": []
     }
   ]
