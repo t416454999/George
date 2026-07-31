@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-30T10:27:45+08:00",
+  "updated": "2026-07-31T10:42:27+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "177.3k",
+      "星标": "177.4k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "143.0k",
+      "星标": "143.1k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -60,100 +60,92 @@
   ],
   "trending": [
     {
+      "名称": "ego-lite",
+      "repo": "citrolabs/ego-lite",
+      "说明": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "星标": 6811,
+      "本周新增": 5037,
+      "语言": "JavaScript"
+    },
+    {
       "名称": "worldmonitor",
       "repo": "koala73/worldmonitor",
       "说明": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "星标": 76727,
-      "本周新增": 8681,
+      "星标": 77226,
+      "本周新增": 6150,
       "语言": "TypeScript"
     },
     {
       "名称": "i-have-adhd",
       "repo": "ayghri/i-have-adhd",
-      "说明": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
-      "星标": 13839,
-      "本周新增": 5544,
+      "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "星标": 14482,
+      "本周新增": 4978,
       "语言": "Python"
-    },
-    {
-      "名称": "ego-lite",
-      "repo": "citrolabs/ego-lite",
-      "说明": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "星标": 6237,
-      "本周新增": 4863,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "ai-agent-book",
-      "repo": "bojieli/ai-agent-book",
-      "说明": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "星标": 26985,
-      "本周新增": 8998,
-      "语言": "Python"
-    },
-    {
-      "名称": "OmniRoute",
-      "repo": "diegosouzapw/OmniRoute",
-      "说明": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-      "星标": 34544,
-      "本周新增": 9420,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "skills",
-      "repo": "mattpocock/skills",
-      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 195431,
-      "本周新增": 12680,
-      "语言": "Shell"
-    },
-    {
-      "名称": "adhd",
-      "repo": "UditAkhourii/adhd",
-      "说明": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
-      "星标": 2788,
-      "本周新增": 996,
-      "语言": "TypeScript"
     },
     {
       "名称": "open-code-review",
       "repo": "alibaba/open-code-review",
       "说明": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 16345,
-      "本周新增": 4875,
+      "星标": 16833,
+      "本周新增": 5322,
       "语言": "Go"
+    },
+    {
+      "名称": "skills",
+      "repo": "mattpocock/skills",
+      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
+      "星标": 197135,
+      "本周新增": 12147,
+      "语言": "Shell"
+    },
+    {
+      "名称": "OmniRoute",
+      "repo": "diegosouzapw/OmniRoute",
+      "说明": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "星标": 35574,
+      "本周新增": 8464,
+      "语言": "TypeScript"
     },
     {
       "名称": "Instatic",
       "repo": "CoreBunch/Instatic",
       "说明": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-      "星标": 6668,
-      "本周新增": 2892,
+      "星标": 6870,
+      "本周新增": 2872,
       "语言": "TypeScript"
     },
     {
-      "名称": "pi-web",
-      "repo": "agegr/pi-web",
-      "说明": "Web UI for the pi coding agent",
-      "星标": 3289,
-      "本周新增": 1260,
+      "名称": "adhd",
+      "repo": "UditAkhourii/adhd",
+      "说明": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
+      "星标": 2944,
+      "本周新增": 791,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "book-to-skill",
+      "repo": "virgiliojr94/book-to-skill",
+      "说明": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "星标": 14009,
+      "本周新增": 4135,
+      "语言": "Python"
     },
     {
       "名称": "pi",
       "repo": "earendil-works/pi",
       "说明": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "星标": 80716,
-      "本周新增": 4979,
+      "星标": 81244,
+      "本周新增": 4799,
       "语言": "TypeScript"
     },
     {
-      "名称": "ai-engineering-from-scratch",
-      "repo": "rohitg00/ai-engineering-from-scratch",
-      "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 45040,
-      "本周新增": 2965,
-      "语言": "Python"
+      "名称": "airi",
+      "repo": "moeru-ai/airi",
+      "说明": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "星标": 46065,
+      "本周新增": 2815,
+      "语言": "TypeScript"
     }
   ]
 }
