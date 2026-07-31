@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-31T17:56:53+08:00",
+  "updated": "2026-07-31T19:18:29+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "5624f254",
+      "标题": "遣散费",
+      "原文": "Severance",
+      "摘要": "Severance",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://lcamtuf.substack.com/p/severance",
+      "标签": []
+    },
+    {
+      "id": "c457233c",
+      "标题": "Orca-Bench：语言模型代理为 Oncall 做好了准备吗？",
+      "原文": "Orca-Bench: How Ready Are Language Model Agents for Oncall?",
+      "摘要": "Orca-Bench: How Ready Are Language Model Agents for Oncall?",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://arxiv.org/abs/2607.28545",
+      "标签": []
+    },
+    {
+      "id": "6ef45fb4",
+      "标题": "每个人都在构建 LLM 路由器，我们弃用了我们的路由器",
+      "原文": "Everyone is building LLM routers, we deprecated ours",
+      "摘要": "Everyone is building LLM routers, we deprecated ours",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
+      "标签": []
+    },
+    {
+      "id": "e3851420",
+      "标题": "亚足联与欧足联和中北美及加勒比地区足联团结一致，保护国际足联世界杯",
+      "原文": "AFC Stands in Solidarity with UEFA and Concacaf to Protect the FIFA World Cup",
+      "摘要": "AFC Stands in Solidarity with UEFA and Concacaf to Protect the FIFA World Cup",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.the-afc.com/en/more/afc_news.html/news/afc-stands-in-solidarity-with-uefa-and-concacaf-to-protect-the-fifa-world-cup",
+      "标签": []
+    },
+    {
+      "id": "f74ee86c",
+      "标题": "Termixer（TUI DJ 混音器）",
+      "原文": "Termixer (TUI DJ Mixer)",
+      "摘要": "Termixer (TUI DJ Mixer)",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/l00sed/termixer",
+      "标签": []
+    },
+    {
+      "id": "cb39cf22",
+      "标题": "Tailscale 并没有阻止 Hugging Face 的入侵",
+      "原文": "Tailscale didn't stop the Hugging Face intrusion",
+      "摘要": "Tailscale didn't stop the Hugging Face intrusion",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://tailscale.com/blog/hugging-face-intrusion",
+      "标签": []
+    },
     {
       "id": "f7bf2fb2",
       "标题": "使用 29 GB RAM 以 0.50 tok/s 运行 Kimi K3",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "标签": []
-    },
-    {
-      "id": "459b5126",
-      "标题": "Show HN：人工智能代理的 GUI 应该是什么样子？",
-      "原文": "Show HN: What should the GUI for AI agents look like?",
-      "摘要": "Show HN: What should the GUI for AI agents look like?",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://marbleos.com/demo",
-      "标签": []
-    },
-    {
-      "id": "aa1f861f",
-      "标题": "USB 记忆棒诞生的地方 (2013)",
-      "原文": "Where USB Memory Sticks are Born (2013)",
-      "摘要": "Where USB Memory Sticks are Born (2013)",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.bunniestudios.com/blog/2013/where-usb-memory-sticks-are-born/",
-      "标签": []
-    },
-    {
-      "id": "57708729",
-      "标题": "DeepSeek-V4-Flash 更新",
-      "原文": "DeepSeek-V4-Flash Update",
-      "摘要": "DeepSeek-V4-Flash Update",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://api-docs.deepseek.com/updates/",
-      "标签": []
-    },
-    {
-      "id": "5cdaf9d6",
-      "标题": "JEP 401：值对象（预览版）合并到 OpenJDK master",
-      "原文": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
-      "摘要": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/openjdk/jdk/pull/31120",
-      "标签": []
-    },
-    {
-      "id": "2ea21ee3",
-      "标题": "您无法随身携带的会议",
-      "原文": "The session you cannot take with you",
-      "摘要": "The session you cannot take with you",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://earendil.com/posts/session-portability/",
-      "标签": []
-    },
-    {
-      "id": "be37d5df",
-      "标题": "速度的宗教",
-      "原文": "The Religion of Speed",
-      "摘要": "The Religion of Speed",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://graybeard.ing/the-religion-of-speed/",
       "标签": []
     }
   ]
