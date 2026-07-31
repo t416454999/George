@@ -1,8 +1,80 @@
 {
-  "updated": "2026-07-31T20:37:58+08:00",
+  "updated": "2026-07-31T21:43:16+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "b91a51c6",
+      "标题": "DeepSeek V4 Flash 0731 情报、性能和价格分析",
+      "原文": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+      "摘要": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://artificialanalysis.ai/models/deepseek-v4-flash",
+      "标签": []
+    },
+    {
+      "id": "51762c63",
+      "标题": "让我们制作最糟糕的 Htmx",
+      "原文": "Let's make the worst Htmx",
+      "摘要": "Let's make the worst Htmx",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://zserge.com/posts/worst-htmx-ever/",
+      "标签": []
+    },
+    {
+      "id": "4eadd560",
+      "标题": "渐进式 Web 组件",
+      "原文": "Progressive Web Components",
+      "摘要": "Progressive Web Components",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://arielsalminen.com/2026/progressive-web-components/",
+      "标签": []
+    },
+    {
+      "id": "a0ebf711",
+      "标题": "揭秘 DRAM 读取干扰：RowHammer 和 RowPress 现象",
+      "原文": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
+      "摘要": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://arxiv.org/abs/2607.28233",
+      "标签": []
+    },
+    {
+      "id": "773cfae7",
+      "标题": "Loops (YC W22) 正在招聘一名产品教育者",
+      "原文": "Loops (YC W22) Is Hiring a Product Educator",
+      "摘要": "Loops (YC W22) Is Hiring a Product Educator",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
+      "标签": []
+    },
+    {
+      "id": "2592ec86",
+      "标题": "二十五年前是密码学，今天是模型权重",
+      "原文": "Twenty-five years ago it was cryptography, today it's model weights",
+      "摘要": "Twenty-five years ago it was cryptography, today it's model weights",
+      "来源": "Hacker News",
+      "日期": "2026-07-31",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://weeraman.com/because-we-can/",
+      "标签": []
+    },
     {
       "id": "fa776e19",
       "标题": "一种简单的列表聚类算法",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://tasklet.ai/careers/customer-success-engineer",
-      "标签": []
-    },
-    {
-      "id": "f32af268",
-      "标题": "Stacked PR 现已发布在 GitHub 上",
-      "原文": "Stacked PRs are now live on GitHub",
-      "摘要": "Stacked PRs are now live on GitHub",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
-      "标签": []
-    },
-    {
-      "id": "85097697",
-      "标题": "物理学家解开了介子之谜。现在，旧的结果不再成立",
-      "原文": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
-      "摘要": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
-      "标签": []
-    },
-    {
-      "id": "a68511d4",
-      "标题": "使用 Go/WASM 模拟浏览器中的 TCP 丢失和拥塞",
-      "原文": "Simulating TCP loss and congestion in browser using Go/WASM",
-      "摘要": "Simulating TCP loss and congestion in browser using Go/WASM",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://ccsim.fly.dev",
-      "标签": []
-    },
-    {
-      "id": "72b9ab2a",
-      "标题": "混淆（第二部分）：Diamond IO",
-      "原文": "Obfuscation (Part II): Diamond IO",
-      "摘要": "Obfuscation (Part II): Diamond IO",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://vitalik.eth.limo/general/2026/07/28/obfuscation_part_ii_diamond_io.html",
-      "标签": []
-    },
-    {
-      "id": "eb60ef34",
-      "标题": "Show HN：Guile Scheme 中的 udev 实现",
-      "原文": "Show HN: A udev implementation in Guile Scheme",
-      "摘要": "Show HN: A udev implementation in Guile Scheme",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://codeberg.org/goodev/goodev",
-      "标签": []
-    },
-    {
-      "id": "161f82ac",
-      "标题": "多瑙河创纪录的低水位迫使匈牙利唯一的核电站关闭",
-      "原文": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
-      "摘要": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
-      "来源": "Hacker News",
-      "日期": "2026-07-31",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.bbc.com/news/articles/cn0nqv05g0do",
       "标签": []
     }
   ]
