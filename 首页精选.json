@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-01T22:48:50+08:00",
+  "generated": "2026-08-02T00:04:40+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 920543357,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 9,
+  "count": 8,
   "articles": [
     {
       "id": 920543357,
@@ -33,10 +33,10 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
       "栏目状态": "ok",
-      "编辑分": 90,
+      "编辑分": 84,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
+        "时效": 8,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
+      "选入时间": "2026-08-02T00:04:40+08:00"
     },
     {
       "id": 3245195998,
@@ -70,43 +70,6 @@
       "中文提炼": "",
       "图片": "https://images.ctfassets.net/kftzwdyauwt9/5RUlCTeEvzWYd2DDpdcNgh/f38e144bf6f5911074b1939c1528ed2b/Frame__4_.png?w=1600&amp;h=900&amp;fit=fill",
       "候选栏目": "AI",
-      "编辑分": 86,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 20,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
-    },
-    {
-      "id": 3020086547,
-      "标题": "【原生·模型】CaM-Wolf：用于社交演绎游戏的因果感知多模式代理",
-      "摘要": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social",
-      "内容": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-07-31",
-      "热度": 58,
-      "链接": "https://arxiv.org/abs/2607.26393",
-      "标签": [
-        "原生资讯",
-        "arXiv AI",
-        "AI Agent"
-      ],
-      "原标题": "【原生·模型】CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
       "编辑分": 80,
       "评分分项": {
         "可信度": 25,
@@ -123,7 +86,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
+      "选入时间": "2026-08-02T00:04:40+08:00"
     },
     {
       "id": 3593540435,
@@ -133,7 +96,7 @@
       "摘要": "Jusepe de Ribera (called Lo Spagnoletto) · 1648 · Oil on canvas",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-08-01",
+      "日期": "2026-08-02",
       "链接": "https://www.metmuseum.org/art/collection/search/437455",
       "图片": "assets/art/met-437455.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/ep/web-large/DT16.jpg",
@@ -171,7 +134,80 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
+      "选入时间": "2026-08-02T00:04:40+08:00"
+    },
+    {
+      "id": 3020086547,
+      "标题": "【原生·模型】CaM-Wolf：用于社交演绎游戏的因果感知多模式代理",
+      "摘要": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social",
+      "内容": "arXiv:2607.26393v1 Announce Type: new Abstract: Social deduction games (SDGs) such as Werewolf have become challenging testbeds for AI agents. These games require complex social",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-07-31",
+      "热度": 58,
+      "链接": "https://arxiv.org/abs/2607.26393",
+      "标签": [
+        "原生资讯",
+        "arXiv AI",
+        "AI Agent"
+      ],
+      "原标题": "【原生·模型】CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 74,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-02T00:04:40+08:00"
+    },
+    {
+      "id": 2961677111,
+      "标题": "【原生·模型】探究推理性能的起源：RL 与 SFT 微调模型中解决数学问题的表征质量",
+      "摘要": "arXiv:2607.26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised",
+      "内容": "arXiv:2607.26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-07-31",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2607.26119",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "原标题": "【原生·模型】Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 74,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-02T00:04:40+08:00"
     },
     {
       "id": 3616602011,
@@ -201,10 +237,10 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
       "栏目状态": "ok",
-      "编辑分": 79,
+      "编辑分": 73,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
+        "时效": 2,
         "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
@@ -217,78 +253,41 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
+      "选入时间": "2026-08-02T00:04:40+08:00"
     },
     {
-      "id": 3347207214,
-      "标题": "【原生·一手】Gemini Robotics ER 2：通过视频理解、任务编排和多机器人协作为机器人技术提供动力",
-      "摘要": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot",
-      "内容": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot",
-      "来源": "Google DeepMind 官方",
-      "分类": "原生资讯",
-      "日期": "2026-07-30",
-      "热度": 58,
-      "链接": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "标签": [
-        "原生资讯",
-        "Google DeepMind 官方",
-        "Gemini"
-      ],
-      "原标题": "【原生·一手】Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "中文提炼": "",
-      "图片": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-robotics-2__blog__cover.width-1300.png",
-      "候选栏目": "AI",
-      "编辑分": 79,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
-    },
-    {
-      "id": 4272659806,
-      "标题": "【子午播报】2026年7月29日",
-      "摘要": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国80周年倡议，一场关乎未来的改革；AI正以前所未有的速度改变世界，如何确保AI成为造福人类的力量；子午聚焦：拯救印度濒危老虎",
+      "id": 2787562946,
+      "标题": "【前方视野】黄金与阿拉伯胶——苏丹战争的重要资金来源",
+      "摘要": "在生活中，人们在正常情况下不会去购买偷抢而来的物品，因为大家都知道这不合法，同时会助长犯罪。但有时，人们会在不知情的情况下，购买到这样的产品。您或许有所不知，在一些软饮料、糖果、化妆品或药品中，可能含有来自苏丹战争冲突区的阿拉伯胶，而从战区走私而来的大量黄金也流入了国际市场",
       "来源": "联合国新闻",
       "分类": "国际形势",
-      "日期": "2026-07-29",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142548",
+      "日期": "2026-07-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142556",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-4272659806.webp",
-      "封面": "assets/media/un-4272659806.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/15-07-2024_un_meridian.png/image560x340cropped.jpg",
-      "导语": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国80周年倡议，一场关乎未来的改革；AI正以前所未有的速度改变世界，如何确保AI成为造福人类的力量；子午聚焦：拯救印度濒危老虎",
+      "图片": "assets/media/un-2787562946.webp",
+      "封面": "assets/media/un-2787562946.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2013/11/18090/image560x340cropped.jpg",
+      "导语": "在生活中，人们在正常情况下不会去购买偷抢而来的物品，因为大家都知道这不合法，同时会助长犯罪。但有时，人们会在不知情的情况下，购买到这样的产品。您或许有所不知，在一些软饮料、糖果、化妆品或药品中，可能含有来自苏丹战争冲突区",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国80周年倡议，一场关乎未来的改革；AI正以前所未有的速度改变世界，如何确保AI成为造福人类的力量；子午聚焦：拯救印度濒危老虎。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "在生活中，人们在正常情况下不会去购买偷抢而来的物品，因为大家都知道这不合法，同时会助长犯罪。但有时，人们会在不知情的情况下，购买到这样的产品。您或许有所不知，在一些软饮料、糖果、化妆品或药品中，可能含有来自苏丹战争冲突区的阿拉伯胶，而从战区走私而来的大量黄金也流入了国际市场。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142548",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142556",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
       "栏目状态": "ok",
-      "编辑分": 78,
+      "编辑分": 73,
       "评分分项": {
         "可信度": 25,
         "时效": 2,
-        "公共价值": 16,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 5,
@@ -300,55 +299,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
-    },
-    {
-      "id": 4283726279,
-      "标题": "无题",
-      "原标题": "Untitled",
-      "标题翻译方式": "保守规则/历史复用",
-      "摘要": "Richard M. Loving American, born Austria 1924-2021 · 1959 · Enamel and copper on wood",
-      "来源": "Art Institute of Chicago",
-      "分类": "人文艺术",
-      "日期": "2026-08-01",
-      "链接": "https://www.artic.edu/artworks/117256",
-      "图片": "assets/covers/humanities.svg",
-      "原始图片": "https://www.artic.edu/iiif/2/a4db604f-3c38-e566-ecfe-1c894fc9e4b8/full/843,/0/default.jpg",
-      "封面": "assets/covers/humanities.svg",
-      "版权": "CC0 / Public Domain",
-      "标签": [
-        "公共领域",
-        "芝加哥艺术博物馆"
-      ],
-      "导语": "从馆藏资料出发，认识《无题》及其创作背景",
-      "要点": [
-        "Richard M. Loving American, born Austria 1924-2021",
-        "1959",
-        "Enamel and copper on wood"
-      ],
-      "正文": "《无题》现由Art Institute of Chicago收录。作者：Richard M. Loving American, born Austria 1924-2021；年代：1959；材质：Enamel and copper on wood。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.artic.edu/artworks/117256",
-      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
-      "候选栏目": "人文艺术",
-      "栏目状态": "ok",
-      "编辑分": 74,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "公共领域馆藏，图像与出处完整",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
+      "选入时间": "2026-08-02T00:04:40+08:00"
     },
     {
       "id": 3278245669,
@@ -396,13 +347,13 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-01T22:48:50+08:00"
+      "选入时间": "2026-08-02T00:04:40+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-08-01T22:48:50+08:00",
+    "as_of": "2026-08-02T00:04:40+08:00",
     "candidate_count": 602,
-    "rejected_count": 431,
+    "rejected_count": 438,
     "rejected": [
       {
         "id": 2875160448,
@@ -562,6 +513,10 @@
       },
       {
         "id": 3218677572,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3102134967,
         "reason": "off_topic"
       },
       {
@@ -1149,6 +1104,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 929532702,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 90333575,
         "reason": "off_topic"
       },
@@ -1179,6 +1139,11 @@
       {
         "id": 721171429,
         "reason": "off_topic"
+      },
+      {
+        "id": 705587078,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 639720357,
@@ -1251,6 +1216,11 @@
       {
         "id": 4035860937,
         "reason": "off_topic"
+      },
+      {
+        "id": 4019625462,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 4017510340,
@@ -1333,6 +1303,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 3112437949,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 3088025920,
         "reason": "off_topic"
       },
@@ -1363,6 +1338,11 @@
       {
         "id": 2876453747,
         "reason": "off_topic"
+      },
+      {
+        "id": 2858950490,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 2832362457,
@@ -1405,6 +1385,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 2444890322,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 2431600437,
         "reason": "off_topic"
       },
@@ -1431,6 +1416,11 @@
       {
         "id": 2305460056,
         "reason": "off_topic"
+      },
+      {
+        "id": 2288228349,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 22880948,
@@ -1539,6 +1529,11 @@
       {
         "id": 114617243,
         "reason": "off_topic"
+      },
+      {
+        "id": 11200056,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 1090750880,
@@ -1821,188 +1816,179 @@
         "reason": "off_topic"
       },
       {
-        "id": 2305756635,
-        "reason": "off_topic"
+        "id": 2311170963,
+        "reason": "score_below_50",
+        "score": 33
       },
       {
-        "id": 3883627865,
+        "id": 185479045,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 753029944,
+        "id": 3569236502,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 2861152087,
+        "id": 119945969,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 4222162020,
+        "id": 1435143330,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 2256344212,
+        "id": 4249221495,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 3324013741,
+        "id": 1554410170,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 1320143766,
+        "id": 508281043,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 2685367734,
+        "id": 755952028,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 747214196,
+        "id": 2250775190,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 2383323643,
+        "id": 1215810839,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 3900610050,
+        "id": 81737045,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 3825712438,
+        "id": 3180704895,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 2535050982,
+        "id": 176008255,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 4257783083,
+        "id": 883905597,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 1363335552,
+        "id": 3421899970,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 203581111,
+        "id": 3662363168,
         "reason": "score_below_50",
-        "score": 39
+        "score": 32
       },
       {
-        "id": 3175387043,
+        "id": 1880034472,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 1715070868,
+        "id": 486074771,
         "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2428701447,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1778505848,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3973366445,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 33331762,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2257474185,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2426152738,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3335316551,
-        "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 1656508546,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 911962457,
+        "id": 3648524323,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 4915165,
+        "id": 1715070868,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 2614448020,
+        "id": 3520137566,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 487502439,
+        "id": 2428701447,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
+      },
+      {
+        "id": 3973366445,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3175387043,
+        "reason": "score_below_50",
+        "score": 32
       },
       {
         "id": 1624908968,
         "reason": "score_below_50",
-        "score": 34
+        "score": 28
       },
       {
         "id": 1294589537,
         "reason": "score_below_50",
-        "score": 37
+        "score": 31
+      },
+      {
+        "id": 1313687588,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 642286326,
+        "reason": "score_below_50",
+        "score": 26
       },
       {
         "id": 1811225176,
         "reason": "score_below_50",
-        "score": 37
+        "score": 31
+      },
+      {
+        "id": 1776799551,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 2510608204,
         "reason": "score_below_50",
-        "score": 22
+        "score": 16
       },
       {
         "id": 2383035645,
         "reason": "score_below_50",
-        "score": 27
+        "score": 21
       },
       {
-        "id": 2947265262,
+        "id": 4019308769,
         "reason": "score_below_50",
-        "score": 22
+        "score": 16
       },
       {
         "id": 2470484058,
@@ -2026,6 +2012,11 @@
       },
       {
         "id": 4246817602,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 3336040900,
         "reason": "score_below_50",
         "score": 16
       },
@@ -2090,7 +2081,7 @@
         "score": 24
       },
       {
-        "id": 4256832620,
+        "id": 2508586344,
         "reason": "score_below_50",
         "score": 24
       },
@@ -2178,10 +2169,6 @@
       },
       {
         "id": 135700346,
-        "reason": "near_duplicate"
-      },
-      {
-        "id": 705587078,
         "reason": "near_duplicate"
       }
     ]
