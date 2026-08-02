@@ -1,8 +1,68 @@
 {
-  "updated": "2026-08-02T04:32:09+08:00",
+  "updated": "2026-08-02T07:10:17+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "f998eef3",
+      "标题": "我们不小心为 Jax 构建了一个 LLVM 编译器",
+      "原文": "We accidentally built an LLVM compiler for Jax",
+      "摘要": "We accidentally built an LLVM compiler for Jax",
+      "来源": "Hacker News",
+      "日期": "2026-08-02",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://iza.ac/posts/2026/07/accidental-llvm-compiler-for-jax/",
+      "标签": []
+    },
+    {
+      "id": "a1588217",
+      "标题": "Atom 在某些方面比 RSS 更好",
+      "原文": "Atom is better than RSS, in ways that matter",
+      "摘要": "Atom is better than RSS, in ways that matter",
+      "来源": "Hacker News",
+      "日期": "2026-08-02",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://chrismorgan.info/atom%3Erss",
+      "标签": []
+    },
+    {
+      "id": "1990f819",
+      "标题": "Elena，用于构建渐进式 Web 组件的库",
+      "原文": "Elena, a library for building Progressive Web Components",
+      "摘要": "Elena, a library for building Progressive Web Components",
+      "来源": "Hacker News",
+      "日期": "2026-08-02",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://elenajs.com/",
+      "标签": []
+    },
+    {
+      "id": "627867d5",
+      "标题": "Linux 桌面市场份额在北美已突破 10%",
+      "原文": "Linux desktop market share has hit over 10% in North America",
+      "摘要": "Linux desktop market share has hit over 10% in North America",
+      "来源": "Hacker News",
+      "日期": "2026-08-02",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
+      "标签": []
+    },
+    {
+      "id": "6057b37e",
+      "标题": "在 MI355X 上运行 Kimi K3 的性价比比 B300 更好",
+      "原文": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+      "摘要": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+      "来源": "Hacker News",
+      "日期": "2026-08-02",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+      "标签": []
+    },
     {
       "id": "58cb3b5b",
       "标题": "64 位汇编的艺术",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
-      "标签": []
-    },
-    {
-      "id": "160b8f13",
-      "标题": "NetBSD 11.0 发布",
-      "原文": "NetBSD 11.0 Released",
-      "摘要": "NetBSD 11.0 Released",
-      "来源": "Hacker News",
-      "日期": "2026-08-01",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
-      "标签": []
-    },
-    {
-      "id": "dae56be1",
-      "标题": "后中心油箱增加了大约 20,000 升，续航里程增加了 1,000 海里",
-      "原文": "Rear center fuel tank adds roughly 20k liters and extends range by 1k NM",
-      "摘要": "Rear center fuel tank adds roughly 20k liters and extends range by 1k NM",
-      "来源": "Hacker News",
-      "日期": "2026-08-01",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.airbus.com/en/newsroom/press-releases/2026-06-worlds-longest-range-aircraft-the-airbus-a350-1000ulr-takes-to-the-skies",
-      "标签": []
-    },
-    {
-      "id": "3dba3ca1",
-      "标题": "RSS 爱好者名录",
-      "原文": "A directory of people who love RSS",
-      "摘要": "A directory of people who love RSS",
-      "来源": "Hacker News",
-      "日期": "2026-08-01",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://andrewshell.org/2026/07/i-%e2%99%a5-rss/",
-      "标签": []
-    },
-    {
-      "id": "a3ab6c85",
-      "标题": "问 HN：对于计算机科学专业的大学新生有什么建议吗？",
-      "原文": "Ask HN: Any tips for a college freshman enrolled in computer science?",
-      "摘要": "Ask HN: Any tips for a college freshman enrolled in computer science?",
-      "来源": "Hacker News",
-      "日期": "2026-08-01",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://news.ycombinator.com/item?id=49135174",
-      "标签": []
-    },
-    {
-      "id": "23837d4b",
-      "标题": "寄存器剥夺：强制寄存器稀缺下的溢出和运行时间",
-      "原文": "Register deprivation: spills and runtime under forced register scarcity",
-      "摘要": "Register deprivation: spills and runtime under forced register scarcity",
-      "来源": "Hacker News",
-      "日期": "2026-08-01",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://rjp.io/blog/2026-07-19-register-deprivation",
       "标签": []
     }
   ]
