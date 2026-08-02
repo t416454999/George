@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T10:02:00+08:00",
+  "updated": "2026-08-02T10:00:23+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "143.1k",
+      "星标": "143.2k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "25.9k",
+      "星标": "26.0k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "60.1k",
+      "星标": "60.2k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -45,7 +45,7 @@
       "名称": "Stable Diffusion",
       "repo": "CompVis/stable-diffusion",
       "说明": "开源文生图模型，支持文本到图像生成，生态最丰富的图像生成框架。",
-      "星标": "73.2k",
+      "星标": "73.3k",
       "本周变化": "─",
       "语言": "Jupyter Notebook"
     },
@@ -63,96 +63,88 @@
       "名称": "ego-lite",
       "repo": "citrolabs/ego-lite",
       "说明": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "星标": 7180,
-      "本周新增": 4741,
+      "星标": 7506,
+      "本周新增": 4090,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "open-code-review",
-      "repo": "alibaba/open-code-review",
-      "说明": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 17217,
-      "本周新增": 4746,
-      "语言": "Go"
     },
     {
       "名称": "i-have-adhd",
       "repo": "ayghri/i-have-adhd",
       "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "星标": 14934,
-      "本周新增": 5133,
+      "星标": 15414,
+      "本周新增": 5232,
       "语言": "Python"
     },
     {
-      "名称": "ai-agent-book",
-      "repo": "bojieli/ai-agent-book",
-      "说明": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "星标": 28823,
-      "本周新增": 9454,
-      "语言": "Python"
+      "名称": "open-code-review",
+      "repo": "alibaba/open-code-review",
+      "说明": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "星标": 17674,
+      "本周新增": 4708,
+      "语言": "Go"
     },
     {
       "名称": "book-to-skill",
       "repo": "virgiliojr94/book-to-skill",
       "说明": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "星标": 14498,
-      "本周新增": 4603,
+      "星标": 15061,
+      "本周新增": 5105,
       "语言": "Python"
-    },
-    {
-      "名称": "skills",
-      "repo": "mattpocock/skills",
-      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 198285,
-      "本周新增": 11622,
-      "语言": "Shell"
-    },
-    {
-      "名称": "worldmonitor",
-      "repo": "koala73/worldmonitor",
-      "说明": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "星标": 77592,
-      "本周新增": 4657,
-      "语言": "TypeScript"
     },
     {
       "名称": "airi",
       "repo": "moeru-ai/airi",
       "说明": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "星标": 46296,
-      "本周新增": 3125,
+      "星标": 46460,
+      "本周新增": 3335,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "AI-For-Beginners",
+      "repo": "microsoft/AI-For-Beginners",
+      "说明": "12 Weeks, 24 Lessons, AI for All!",
+      "星标": 58230,
+      "本周新增": 3246,
+      "语言": "Jupyter Notebook"
     },
     {
       "名称": "OmniRoute",
       "repo": "diegosouzapw/OmniRoute",
       "说明": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-      "星标": 36479,
-      "本周新增": 7701,
+      "星标": 37356,
+      "本周新增": 7259,
       "语言": "TypeScript"
     },
     {
       "名称": "Instatic",
       "repo": "CoreBunch/Instatic",
       "说明": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-      "星标": 7034,
-      "本周新增": 2866,
+      "星标": 7199,
+      "本周新增": 2517,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "VibeVoice",
+      "repo": "microsoft/VibeVoice",
+      "说明": "Open-Source Frontier Voice AI",
+      "星标": 51847,
+      "本周新增": 1317,
+      "语言": "Python"
     },
     {
       "名称": "text-to-cad",
       "repo": "earthtojake/text-to-cad",
       "说明": "A library of agent skills for CAD, CAE and CAM",
-      "星标": 12305,
-      "本周新增": 1901,
+      "星标": 12439,
+      "本周新增": 2009,
       "语言": "JavaScript"
     },
     {
-      "名称": "pi",
-      "repo": "earendil-works/pi",
-      "说明": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "星标": 81703,
-      "本周新增": 4571,
+      "名称": "openwork",
+      "repo": "different-ai/openwork",
+      "说明": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "星标": 20049,
+      "本周新增": 2720,
       "语言": "TypeScript"
     }
   ]
