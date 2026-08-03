@@ -1,8 +1,80 @@
 {
-  "updated": "2026-08-03T18:17:31+08:00",
+  "updated": "2026-08-03T20:01:13+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "91a59cb0",
+      "标题": "使用任务运行器执行常见编码任务",
+      "原文": "Use Task Runners for Common Coding Tasks",
+      "摘要": "Use Task Runners for Common Coding Tasks",
+      "来源": "Hacker News",
+      "日期": "2026-08-03",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://hamvocke.com/blog/task-runners/",
+      "标签": []
+    },
+    {
+      "id": "9c7d09dd",
+      "标题": "200 毫秒",
+      "原文": "200 Milliseconds",
+      "摘要": "200 Milliseconds",
+      "来源": "Hacker News",
+      "日期": "2026-08-03",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://200ms.thenodebook.com",
+      "标签": []
+    },
+    {
+      "id": "e58aa0d5",
+      "标题": "凯利准则模拟器",
+      "原文": "Kelly Criterion Simulator",
+      "摘要": "Kelly Criterion Simulator",
+      "来源": "Hacker News",
+      "日期": "2026-08-03",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://kellysimulator.com/",
+      "标签": []
+    },
+    {
+      "id": "c2457efb",
+      "标题": "可计费使用 API：Cloudflare 的编程成本可见性",
+      "原文": "The Billable Usage API: programmatic cost visibility for Cloudflare",
+      "摘要": "The Billable Usage API: programmatic cost visibility for Cloudflare",
+      "来源": "Hacker News",
+      "日期": "2026-08-03",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://blog.cloudflare.com/billable-usage-api/",
+      "标签": []
+    },
+    {
+      "id": "a49f46c2",
+      "标题": "波托马克河空中碰撞",
+      "原文": "The Potomac River Midair Collision",
+      "摘要": "The Potomac River Midair Collision",
+      "来源": "Hacker News",
+      "日期": "2026-08-03",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://admiralcloudberg.medium.com/reaping-the-whirlwind-inside-the-potomac-river-midair-collision-0475416f2b0f",
+      "标签": []
+    },
+    {
+      "id": "2003ae7b",
+      "标题": "更小、更快、更安全：大规模运行 Kimi 和 GLM",
+      "原文": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "摘要": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "来源": "Hacker News",
+      "日期": "2026-08-03",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "标签": []
+    },
     {
       "id": "3edbbf01",
       "标题": "INT8 ConvRot 说明（不再需要 FP8）",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://arxiv.org/abs/2607.28271",
-      "标签": []
-    },
-    {
-      "id": "fc4cf315",
-      "标题": "Rust 项目目标：固定类型和有保证的析构函数",
-      "原文": "Rust project goals: Immobile types and guaranteed destructors",
-      "摘要": "Rust project goals: Immobile types and guaranteed destructors",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
-      "标签": []
-    },
-    {
-      "id": "a8e953f6",
-      "标题": "比许多德国人更德国",
-      "原文": "More German than many Germans",
-      "摘要": "More German than many Germans",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://mertbulan.com/more-german-than-many-germans/",
-      "标签": []
-    },
-    {
-      "id": "5b3a3b03",
-      "标题": "不要成为肉类代理",
-      "原文": "Don't be a meat proxy",
-      "摘要": "Don't be a meat proxy",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://gruhn.me/blog/2026-08-03/",
-      "标签": []
-    },
-    {
-      "id": "7e46bbfb",
-      "标题": "OpenAI 的超级 PAC 正在资助人工智能生成的新闻网站攻击行业批评者",
-      "原文": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "摘要": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "标签": []
-    },
-    {
-      "id": "9782c346",
-      "标题": "Show HN：Mu – 代理工具",
-      "原文": "Show HN: Mu – Tools for Agents",
-      "摘要": "Show HN: Mu – Tools for Agents",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/micro/mu",
-      "标签": []
-    },
-    {
-      "id": "6c9077e0",
-      "标题": "心智计算理论 (2015)",
-      "原文": "The Computational Theory of Mind (2015)",
-      "摘要": "The Computational Theory of Mind (2015)",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://plato.stanford.edu/entries/computational-mind/",
       "标签": []
     }
   ]
