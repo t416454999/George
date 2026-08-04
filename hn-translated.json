@@ -1,8 +1,68 @@
 {
-  "updated": "2026-08-04T00:59:18+08:00",
+  "updated": "2026-08-04T04:15:48+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "318ca52f",
+      "标题": "Pandoc 二十年",
+      "原文": "Twenty Years of Pandoc",
+      "摘要": "Twenty Years of Pandoc",
+      "来源": "Hacker News",
+      "日期": "2026-08-04",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://pandoc.org/twenty-years-of-pandoc.html",
+      "标签": []
+    },
+    {
+      "id": "a3ed202d",
+      "标题": "小雨会来 (1950) [pdf]",
+      "原文": "There Will Come Soft Rains (1950) [pdf]",
+      "摘要": "There Will Come Soft Rains (1950) [pdf]",
+      "来源": "Hacker News",
+      "日期": "2026-08-04",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "标签": []
+    },
+    {
+      "id": "c90728b3",
+      "标题": "那次我微软面试没通过",
+      "原文": "That time when I failed the Microsoft interview",
+      "摘要": "That time when I failed the Microsoft interview",
+      "来源": "Hacker News",
+      "日期": "2026-08-04",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://ochagavia.nl/blog/that-time-when-i-failed-the-microsoft-interview/",
+      "标签": []
+    },
+    {
+      "id": "80fdeb65",
+      "标题": "Show HN：在 Mac 上运行 4.3 GB RAM 中的 80B Qwen，在 iPhone 上运行 35B",
+      "原文": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "摘要": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "来源": "Hacker News",
+      "日期": "2026-08-04",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/leonickson1/Swiftlet",
+      "标签": []
+    },
+    {
+      "id": "d4ed7f51",
+      "标题": "亚马逊文明估计 3% 的森林面积中有 300 万人",
+      "原文": "Amazonian civilization had estimated 3M people in 3% of forest area",
+      "摘要": "Amazonian civilization had estimated 3M people in 3% of forest area",
+      "来源": "Hacker News",
+      "日期": "2026-08-04",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
+      "标签": []
+    },
     {
       "id": "ddb0361d",
       "标题": "他们忘记了上次发生的事情：破解 Windows 365 链接 [视频]",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.wired.com/story/ice-dna-collection-fbi-codis/",
-      "标签": []
-    },
-    {
-      "id": "47c167b7",
-      "标题": "SPF 记录语法：机制、限定符、修饰符和宏",
-      "原文": "SPF Record Syntax: Mechanisms, Qualifiers, Modifiers, and Macros",
-      "摘要": "SPF Record Syntax: Mechanisms, Qualifiers, Modifiers, and Macros",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://dmarcguard.io/blog/spf-record-syntax/",
-      "标签": []
-    },
-    {
-      "id": "42eb96f9",
-      "标题": "废弃的鱼露威胁加拿大小镇",
-      "原文": "The Abandoned Fish Sauce Terrorizing a Small Canadian Town",
-      "摘要": "The Abandoned Fish Sauce Terrorizing a Small Canadian Town",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://defector.com/abandoned-fish-sauce-canada-interview",
-      "标签": []
-    },
-    {
-      "id": "02245977",
-      "标题": "使用单个 4GB GPU 进行 AirLLM 70B 推理",
-      "原文": "AirLLM 70B inference with single 4GB GPU",
-      "摘要": "AirLLM 70B inference with single 4GB GPU",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/lyogavin/airllm",
-      "标签": []
-    },
-    {
-      "id": "5afa8089",
-      "标题": "ComfyUI 中的 MiniMax H3 Day-0 支持：开放权重、原生音频和 2K 视频",
-      "原文": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
-      "摘要": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
-      "标签": []
-    },
-    {
-      "id": "b8794ff4",
-      "标题": "针对幻觉 SQLite 漏洞发布了关键 CVE",
-      "原文": "Critical CVE issued for hallucinated SQLite vulnerability",
-      "摘要": "Critical CVE issued for hallucinated SQLite vulnerability",
-      "来源": "Hacker News",
-      "日期": "2026-08-03",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
       "标签": []
     }
   ]
