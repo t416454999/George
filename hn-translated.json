@@ -1,8 +1,68 @@
 {
-  "updated": "2026-08-06T00:57:23+08:00",
+  "updated": "2026-08-06T04:09:09+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "1b853c56",
+      "标题": "Branchless Rust：通过删除 If 使过滤器速度提高 4 倍",
+      "原文": "Branchless Rust: Making a Filter 4x Faster by Removing an If",
+      "摘要": "Branchless Rust: Making a Filter 4x Faster by Removing an If",
+      "来源": "Hacker News",
+      "日期": "2026-08-06",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.greyblake.com/blog/branchless-rust/",
+      "标签": []
+    },
+    {
+      "id": "e6807c0f",
+      "标题": "法学硕士不会破坏对称加密",
+      "原文": "LLMs won't break symmetric crypto",
+      "摘要": "LLMs won't break symmetric crypto",
+      "来源": "Hacker News",
+      "日期": "2026-08-06",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+      "标签": []
+    },
+    {
+      "id": "c29acf37",
+      "标题": "鸟儿喜欢飞翔吗？加拉 (E Roseicapilla) 飞行后的影响分析",
+      "原文": "Do birds enjoy flying? Analysis of affect after flight in galah (E roseicapilla)",
+      "摘要": "Do birds enjoy flying? Analysis of affect after flight in galah (E roseicapilla)",
+      "来源": "Hacker News",
+      "日期": "2026-08-06",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://brill.com/view/journals/beh/aop/article-10.1163-1568539X-bja10370/article-10.1163-1568539X-bja10370.xml",
+      "标签": []
+    },
+    {
+      "id": "3d9b2f35",
+      "标题": "各国政府正在对人工智能热潮做出危险的赌注",
+      "原文": "Governments are making a dangerous bet on the AI boom",
+      "摘要": "Governments are making a dangerous bet on the AI boom",
+      "来源": "Hacker News",
+      "日期": "2026-08-06",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+      "标签": []
+    },
+    {
+      "id": "270c8c5a",
+      "标题": "纳什维尔使用征用权封锁动物园附近的数据中心",
+      "原文": "Nashville uses eminent domain to block data center near zoo",
+      "摘要": "Nashville uses eminent domain to block data center near zoo",
+      "来源": "Hacker News",
+      "日期": "2026-08-06",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+      "标签": []
+    },
     {
       "id": "1e750db9",
       "标题": "职位：法学硕士不能跳",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
-      "标签": []
-    },
-    {
-      "id": "e0437f96",
-      "标题": "Cloudflare OS – 开源 AI 生产力环境",
-      "原文": "Cloudflare OS – an open-source AI productivity environment",
-      "摘要": "Cloudflare OS – an open-source AI productivity environment",
-      "来源": "Hacker News",
-      "日期": "2026-08-05",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/cloudflare/cloudflare-os",
-      "标签": []
-    },
-    {
-      "id": "4373adef",
-      "标题": "Google 的 HTTP/2 编解码器降低了 Envoy 的速度",
-      "原文": "Google's HTTP/2 codec slows Envoy",
-      "摘要": "Google's HTTP/2 codec slows Envoy",
-      "来源": "Hacker News",
-      "日期": "2026-08-05",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://apoxy.dev/blog/oghttp2-vs-nghttp2",
-      "标签": []
-    },
-    {
-      "id": "61dc18f8",
-      "标题": "广岛原子弹爆炸锻造的多元合金的发现",
-      "原文": "Discovery of a multicomponent alloy forged by the Hiroshima atomic blast",
-      "摘要": "Discovery of a multicomponent alloy forged by the Hiroshima atomic blast",
-      "来源": "Hacker News",
-      "日期": "2026-08-05",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.science.org/doi/10.1126/sciadv.aeg8299",
-      "标签": []
-    },
-    {
-      "id": "ea4b7ef4",
-      "标题": "TSON – 具有不可变、哈希固定模式的 JSON 超集",
-      "原文": "TSON – A JSON superset with immutable, hash-pinned schemas",
-      "摘要": "TSON – A JSON superset with immutable, hash-pinned schemas",
-      "来源": "Hacker News",
-      "日期": "2026-08-05",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://tson.io/",
-      "标签": []
-    },
-    {
-      "id": "216411b9",
-      "标题": "Cloudflare操作系统",
-      "原文": "Cloudflare OS",
-      "摘要": "Cloudflare OS",
-      "来源": "Hacker News",
-      "日期": "2026-08-05",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://os.cloudflare.app/",
       "标签": []
     }
   ]
