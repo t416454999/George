@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-06T08:09:50+08:00",
-  "as_of": "2026-08-06T08:09:50+08:00",
+  "updated": "2026-08-06T11:52:35+08:00",
+  "as_of": "2026-08-06T11:52:35+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
@@ -8,6 +8,33 @@
   "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 362230949,
+      "标题": "困在霍尔木兹海峡的船只面临另一种威胁",
+      "摘要": "国际海事组织警告称，在美伊冲突期间滞留在霍尔木兹海峡的船只可能会成为“生态定时炸弹”，一旦航运恢复，将增加入侵物种向新海洋环境扩散的风险",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-05",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142588",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-362230949.webp",
+      "封面": "assets/media/un-362230949.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/03-01-2024_Unsplash_tanker.jpg/image560x340cropped.jpg",
+      "导语": "国际海事组织警告称，在美伊冲突期间滞留在霍尔木兹海峡的船只可能会成为“生态定时炸弹”，一旦航运恢复，将增加入侵物种向新海洋环境扩散的风险",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "国际海事组织警告称，在美伊冲突期间滞留在霍尔木兹海峡的船只可能会成为“生态定时炸弹”，一旦航运恢复，将增加入侵物种向新海洋环境扩散的风险。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142588",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 3295406922,
       "标题": "人权高专结束访问约旦 呼吁加强司法保障并继续支持难民",
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.bostonherald.com/2026/08/05/mexico-cartel-us-rewards/",
       "出处说明": "根据bostonherald.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 69436098,
-      "标题": "孟加拉国前总理谢赫·哈西娜：2024 年 7 月不是一场和平的学生运动",
-      "原标题": "July 2024 was not a peaceful student movement : Former Bangladesh PM Sheikh Hasina",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 nepalnational.com 最新报道，点击阅读原文。",
-      "来源": "nepalnational.com",
-      "分类": "国际形势",
-      "日期": "2026-08-05",
-      "链接": "http://www.nepalnational.com/news/279223933/july-2024-was-not-a-peaceful-student-movement-former-bangladesh-pm-sheikh-hasina",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/41d1927/1ecd9576-6f25-41ce-a14b-ecf54a96706d/0/ANI-20260805134021-600x315.jpg",
-      "数据截至": "2026-08-05T23:02:07+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 nepalnational.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 nepalnational.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.nepalnational.com/news/279223933/july-2024-was-not-a-peaceful-student-movement-former-bangladesh-pm-sheikh-hasina",
-      "出处说明": "根据nepalnational.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
