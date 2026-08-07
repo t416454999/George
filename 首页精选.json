@@ -1,10 +1,47 @@
 {
-  "generated": "2026-08-06T22:56:36+08:00",
+  "generated": "2026-08-07T08:26:49+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 707599728,
+  "headline_id": 2759373279,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 9,
+  "count": 10,
   "articles": [
+    {
+      "id": 2759373279,
+      "标题": "【原生·一手】与美国心理学会合作研究青少年心理健康和人工智能",
+      "摘要": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental",
+      "内容": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-08-06",
+      "热度": 59,
+      "链接": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "OpenAI"
+      ],
+      "原标题": "【原生·一手】Working with the American Psychological Association on youth mental health and AI",
+      "中文提炼": "",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&amp;h=900&amp;fit=fill",
+      "候选栏目": "AI",
+      "编辑分": 85,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-07T08:26:49+08:00"
+    },
     {
       "id": 707599728,
       "标题": "伊朗处决和死刑判决数量急剧上升",
@@ -32,11 +69,11 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 90,
+      "栏目状态": "partial",
+      "编辑分": 84,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
+        "时效": 8,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,7 +86,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
+      "选入时间": "2026-08-07T08:26:49+08:00"
     },
     {
       "id": 3702897671,
@@ -69,10 +106,10 @@
       "中文提炼": "",
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 86,
+      "编辑分": 80,
       "评分分项": {
         "可信度": 25,
-        "时效": 20,
+        "时效": 14,
         "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
@@ -85,7 +122,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
+      "选入时间": "2026-08-07T08:26:49+08:00"
     },
     {
       "id": 763161844,
@@ -95,7 +132,7 @@
       "摘要": "Sa'di · late 15th century · Ink, opaque watercolor, silver, and gold on paper",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-08-06",
+      "日期": "2026-08-07",
       "链接": "https://www.metmuseum.org/art/collection/search/446171",
       "图片": "assets/art/met-446171.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/is/web-large/sf11-84-4v.jpg",
@@ -133,78 +170,184 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
+      "选入时间": "2026-08-07T08:26:49+08:00"
     },
     {
-      "id": 922677169,
-      "标题": "Meta的AI模型在测试期间入侵了另一家公司",
-      "摘要": "Meta当地时间周三表示，其一款AI模型在网络安全测试期间入侵了另一家公司，此前其测试合作伙伴因操作失误导致该模型意外获得了互联网访问权限。",
-      "内容": "Meta当地时间周三表示，其一款AI模型在网络安全测试期间入侵了另一家公司，此前其测试合作伙伴因操作失误导致该模型意外获得了互联网访问权限。",
-      "来源": "新浪科技",
-      "分类": "行业动态",
-      "日期": "2026-08-06",
-      "热度": 57,
-      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimiqxp4707336.shtml",
+      "id": 247367159,
+      "标题": "诗歌",
+      "原标题": "Poetry",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Francesco Bartolozzi · May 18, 1793 · Etching and engraving",
+      "来源": "The Metropolitan Museum of Art",
+      "分类": "人文艺术",
+      "日期": "2026-08-07",
+      "链接": "https://www.metmuseum.org/art/collection/search/377250",
+      "图片": "assets/art/met-377250.webp",
+      "原始图片": "https://images.metmuseum.org/CRDImages/dp/web-large/DP891453.jpg",
+      "封面": "assets/art/met-377250.webp",
+      "版权": "Public Domain / Open Access",
       "标签": [
+        "family",
+        "公共领域"
+      ],
+      "导语": "从馆藏资料出发，认识《诗歌》及其创作背景",
+      "要点": [
+        "Francesco Bartolozzi",
+        "May 18, 1793",
+        "Etching and engraving"
+      ],
+      "正文": "《诗歌》现由The Metropolitan Museum of Art收录。作者：Francesco Bartolozzi；年代：May 18, 1793；材质：Etching and engraving。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.metmuseum.org/art/collection/search/377250",
+      "出处说明": "根据The Metropolitan Museum of Art公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 79,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "公共领域馆藏，图像与出处完整",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-07T08:26:49+08:00"
+    },
+    {
+      "id": 362230949,
+      "标题": "困在霍尔木兹海峡的船只面临另一种威胁",
+      "摘要": "国际海事组织警告称，在美伊冲突期间滞留在霍尔木兹海峡的船只可能会成为“生态定时炸弹”，一旦航运恢复，将增加入侵物种向新海洋环境扩散的风险",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-05",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142588",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-362230949.webp",
+      "封面": "assets/media/un-362230949.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/03-01-2024_Unsplash_tanker.jpg/image560x340cropped.jpg",
+      "导语": "国际海事组织警告称，在美伊冲突期间滞留在霍尔木兹海峡的船只可能会成为“生态定时炸弹”，一旦航运恢复，将增加入侵物种向新海洋环境扩散的风险",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "国际海事组织警告称，在美伊冲突期间滞留在霍尔木兹海峡的船只可能会成为“生态定时炸弹”，一旦航运恢复，将增加入侵物种向新海洋环境扩散的风险。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142588",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 79,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-07T08:26:49+08:00"
+    },
+    {
+      "id": 2854240393,
+      "标题": "【原生·模型】超越 Hivemind：通过元角色锚定和顺序温度缩放逃避法学硕士同质性",
+      "摘要": "arXiv:2608.02618v1 Announce Type: new Abstract: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a",
+      "内容": "arXiv:2608.02618v1 Announce Type: new Abstract: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-08-05",
+      "热度": 57,
+      "链接": "https://arxiv.org/abs/2608.02618",
+      "标签": [
+        "原生资讯",
+        "arXiv AI",
         "Meta"
       ],
-      "图片": {
-        "u": "http://n.sinaimg.cn/finance/c30320b4/20210712/wx_poster_finance1.png",
-        "w": 100,
-        "h": 100,
-        "t": ""
-      },
+      "原标题": "【原生·模型】Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 76,
+      "编辑分": 79,
       "评分分项": {
-        "可信度": 17,
-        "时效": 20,
+        "可信度": 25,
+        "时效": 8,
         "公共价值": 16,
-        "一手可追溯": 10,
+        "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
-        "编辑价值": 3,
+        "编辑价值": 5,
         "扣分": 0
       },
-      "来源级别": "B",
+      "来源级别": "A",
       "扣分项": [],
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
+      "选入时间": "2026-08-07T08:26:49+08:00"
     },
     {
-      "id": 763366192,
-      "标题": "黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时具身智能数据建设",
-      "摘要": "8月6日，黎曼动力宣布与光轮智能、诺亦腾机器人（Noitom Robotics）达成战略合作。围绕 Riemann-1.0 具身世界动作模型与 Matrix-Game 3.5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设。",
-      "内容": "8月6日，黎曼动力宣布与光轮智能、诺亦腾机器人（Noitom Robotics）达成战略合作。围绕 Riemann-1.0 具身世界动作模型与 Matrix-Game 3.5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设。",
-      "来源": "雷锋网",
-      "分类": "AI应用",
-      "日期": "2026-08-06",
-      "热度": 57,
-      "链接": "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html",
+      "id": 607753569,
+      "标题": "国际贸易中心：霍尔木兹海峡航运中断冲击关键产品供应",
+      "摘要": "世界贸易组织和联合国的联合机构——国际贸易中心在最新一期《全球贸易状况月度简报》中表示，霍尔木兹海峡航运中断已对全球能源、化肥和工业投入品供应造成冲击。尽管部分进口市场已开始通过增加替代供应来源调整采购，但目前仍不足以完全弥补来自依赖霍尔木兹海峡经济体的供应减少",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-04",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142581",
       "标签": [
-        "具身智能"
+        "国际",
+        "联合国"
       ],
-      "图片": "https://static.leiphone.com/uploads/new/banner/6a3a22b4dadf8.jpeg",
-      "候选栏目": "AI",
-      "编辑分": 76,
+      "图片": "assets/media/un-607753569.webp",
+      "封面": "assets/media/un-607753569.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/30-10-2019-MSC19019377.jpg/image560x340cropped.jpg",
+      "导语": "世界贸易组织和联合国的联合机构——国际贸易中心在最新一期《全球贸易状况月度简报》中表示，霍尔木兹海峡航运中断已对全球能源、化肥和工业投入品供应造成冲击。尽管部分进口市场已开始通过增加替代供应来源调整采购，但目前仍不足以完",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界贸易组织和联合国的联合机构——国际贸易中心在最新一期《全球贸易状况月度简报》中表示，霍尔木兹海峡航运中断已对全球能源、化肥和工业投入品供应造成冲击。尽管部分进口市场已开始通过增加替代供应来源调整采购，但目前仍不足以完全弥补来自依赖霍尔木兹海峡经济体的供应减少。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142581",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 78,
       "评分分项": {
-        "可信度": 17,
-        "时效": 20,
+        "可信度": 25,
+        "时效": 2,
         "公共价值": 16,
-        "一手可追溯": 10,
+        "一手可追溯": 15,
         "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 3,
+        "真实图片": 5,
+        "编辑价值": 5,
         "扣分": 0
       },
-      "来源级别": "B",
+      "来源级别": "A",
       "扣分项": [],
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
+      "选入时间": "2026-08-07T08:26:49+08:00"
     },
     {
       "id": 4283726279,
@@ -214,7 +357,7 @@
       "摘要": "Richard M. Loving American, born Austria 1924-2021 · 1959 · Enamel and copper on wood",
       "来源": "Art Institute of Chicago",
       "分类": "人文艺术",
-      "日期": "2026-08-06",
+      "日期": "2026-08-07",
       "链接": "https://www.artic.edu/artworks/117256",
       "图片": "assets/covers/humanities.svg",
       "原始图片": "https://www.artic.edu/iiif/2/a4db604f-3c38-e566-ecfe-1c894fc9e4b8/full/843,/0/default.jpg",
@@ -252,99 +395,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
-    },
-    {
-      "id": 3680768188,
-      "标题": "野火烟雾构成隐性健康威胁",
-      "摘要": "世界卫生组织警告说，人们通常只关注野火造成的破坏，但野火产生的烟雾却可能对远超火灾区域范围以外的人群构成严重健康威胁",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-07-31",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142571",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3680768188.webp",
-      "封面": "assets/media/un-3680768188.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/31-07-2026_Adobe_France.jpg/image560x340cropped.jpg",
-      "导语": "世界卫生组织警告说，人们通常只关注野火造成的破坏，但野火产生的烟雾却可能对远超火灾区域范围以外的人群构成严重健康威胁",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "世界卫生组织警告说，人们通常只关注野火造成的破坏，但野火产生的烟雾却可能对远超火灾区域范围以外的人群构成严重健康威胁。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142571",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
-    },
-    {
-      "id": 3616602011,
-      "标题": "袭击愈演愈烈：俄罗斯致命空袭对乌克兰多座城市造成破坏",
-      "摘要": "周四，随着人们对核电站附近军事活动的担忧加剧，在俄罗斯一夜之间发动的一波致命导弹和无人机袭击后，救援人员和应急响应人员火速赶往乌克兰各地展开救援",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-07-30",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/07/1142564",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3616602011.webp",
-      "封面": "assets/media/un-3616602011.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/21-07-2026-UNICEF-Ukraine-05.jpg/image560x340cropped.jpg",
-      "导语": "周四，随着人们对核电站附近军事活动的担忧加剧，在俄罗斯一夜之间发动的一波致命导弹和无人机袭击后，救援人员和应急响应人员火速赶往乌克兰各地展开救援",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "周四，随着人们对核电站附近军事活动的担忧加剧，在俄罗斯一夜之间发动的一波致命导弹和无人机袭击后，救援人员和应急响应人员火速赶往乌克兰各地展开救援。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/07/1142564",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
+      "选入时间": "2026-08-07T08:26:49+08:00"
     },
     {
       "id": 3278245669,
@@ -392,14 +443,50 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-06T22:56:36+08:00"
+      "选入时间": "2026-08-07T08:26:49+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-08-06T22:56:36+08:00",
+    "as_of": "2026-08-07T08:26:49+08:00",
     "candidate_count": 602,
-    "rejected_count": 427,
+    "rejected_count": 432,
     "rejected": [
+      {
+        "id": 3870172454,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3578096765,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2550843119,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2214667994,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1696731791,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1332880571,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1291407249,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1097186984,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1076387410,
+        "reason": "off_topic"
+      },
       {
         "id": 96038049,
         "reason": "off_topic"
@@ -725,6 +812,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 1601068074,
+        "reason": "off_topic"
+      },
+      {
         "id": 1555077740,
         "reason": "off_topic"
       },
@@ -742,6 +833,10 @@
       },
       {
         "id": 1422095454,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1405055445,
         "reason": "off_topic"
       },
       {
@@ -1193,8 +1288,18 @@
         "reason": "off_topic"
       },
       {
+        "id": 657741578,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 651282387,
         "reason": "off_topic"
+      },
+      {
+        "id": 640879627,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 4105625092,
@@ -1337,6 +1442,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 2690193106,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 263524311,
         "reason": "off_topic"
       },
@@ -1467,6 +1577,11 @@
       {
         "id": 1732011676,
         "reason": "off_topic"
+      },
+      {
+        "id": 1713260780,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 1703909214,
@@ -1774,188 +1889,97 @@
         "reason": "off_topic"
       },
       {
-        "id": 2247175821,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2190790334,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2148977692,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2073550706,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1826778294,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1660888446,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1643004548,
-        "reason": "off_topic"
-      },
-      {
-        "id": 15408152,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1504063854,
-        "reason": "off_topic"
-      },
-      {
         "id": 2702928335,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3323731991,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 796090756,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 4101629084,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3921576216,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1309220908,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3735409330,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3583209217,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1177489661,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1150329740,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 34501489,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3908212384,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3515165831,
         "reason": "score_below_50",
-        "score": 43
+        "score": 37
       },
       {
         "id": 1495780235,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 12352415,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2085432955,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 1281179346,
+        "id": 1230463851,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 614741014,
+        "id": 4039992942,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2565505254,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 922844066,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1052830568,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 15908359,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3541899415,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 841043308,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 471851174,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2490286758,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2648053133,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3642255523,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 455751606,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1778345337,
+        "id": 2251782766,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1965,34 +1989,74 @@
         "score": 34
       },
       {
-        "id": 1616222343,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 1671383808,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 3384257515,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 2206703816,
+        "id": 1281179346,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 576777419,
+        "id": 455751606,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 651045774,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 228235336,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 614741014,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3541899415,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 602179164,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 4134774275,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 1616222343,
         "reason": "score_below_50",
         "score": 28
       },
       {
-        "id": 3701664509,
+        "id": 1671383808,
         "reason": "score_below_50",
-        "score": 16
+        "score": 28
+      },
+      {
+        "id": 2206703816,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 225254970,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 576777419,
+        "reason": "score_below_50",
+        "score": 22
+      },
+      {
+        "id": 1306935288,
+        "reason": "score_below_50",
+        "score": 22
       },
       {
         "id": 3623555359,
@@ -2000,12 +2064,17 @@
         "score": 16
       },
       {
+        "id": 3602680216,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
         "id": 2470484058,
         "reason": "score_below_50",
         "score": 16
       },
       {
-        "id": 3296083135,
+        "id": 3191373081,
         "reason": "score_below_50",
         "score": 16
       },
@@ -2015,22 +2084,27 @@
         "score": 16
       },
       {
+        "id": 4037261167,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 3336040900,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 4293709894,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
         "id": 2970742308,
         "reason": "score_below_50",
         "score": 30
       },
       {
         "id": 3803538517,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 1573098363,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
-        "id": 2128531694,
         "reason": "score_below_50",
         "score": 26
       },
@@ -2086,6 +2160,11 @@
       },
       {
         "id": 468590270,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 789709312,
         "reason": "score_below_50",
         "score": 24
       },
@@ -2159,10 +2238,6 @@
       },
       {
         "id": 135700346,
-        "reason": "near_duplicate"
-      },
-      {
-        "id": 2081597076,
         "reason": "near_duplicate"
       }
     ]
