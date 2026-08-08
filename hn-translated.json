@@ -1,8 +1,68 @@
 {
-  "updated": "2026-08-08T18:12:55+08:00",
+  "updated": "2026-08-08T18:57:42+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "0ff1ee98",
+      "标题": "Python 字符串文字有点有趣",
+      "原文": "Python string literals are kinda funny",
+      "摘要": "Python string literals are kinda funny",
+      "来源": "Hacker News",
+      "日期": "2026-08-08",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://sebsite.pw/w/20260806-pystrings.html",
+      "标签": []
+    },
+    {
+      "id": "37fb49c1",
+      "标题": "TinySol，一款 DOS 小型纸牌游戏",
+      "原文": "TinySol, a tiny solitaire game for DOS",
+      "摘要": "TinySol, a tiny solitaire game for DOS",
+      "来源": "Hacker News",
+      "日期": "2026-08-08",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://classicbits.net/coding-and-software/my-software/monosol/",
+      "标签": []
+    },
+    {
+      "id": "fa0947f6",
+      "标题": "工作显示器",
+      "原文": "Monitors for Work",
+      "摘要": "Monitors for Work",
+      "来源": "Hacker News",
+      "日期": "2026-08-08",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://etbe.coker.com.au/2026/08/05/monitors-for-work/",
+      "标签": []
+    },
+    {
+      "id": "494ac905",
+      "标题": "英特尔最终能否在每瓦性能上击败 ARM？",
+      "原文": "Can Intel finally beat ARM on performance per Watt?",
+      "摘要": "Can Intel finally beat ARM on performance per Watt?",
+      "来源": "Hacker News",
+      "日期": "2026-08-08",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/",
+      "标签": []
+    },
+    {
+      "id": "26982350",
+      "标题": "丹麦要求学生进行书面作业答辩以打击人工智能作弊",
+      "原文": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
+      "摘要": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
+      "来源": "Hacker News",
+      "日期": "2026-08-08",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+      "标签": []
+    },
     {
       "id": "f8a9f23c",
       "标题": "“代码从来都不是困难的部分”是对所有程序员的侮辱",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.sciencealert.com/radical-study-suggests-life-on-earth-arose-from-non-living-matter-twice",
-      "标签": []
-    },
-    {
-      "id": "958d28a4",
-      "标题": "从一粒种子到一千片叶子——默克尔的认证树",
-      "原文": "From One Seed to a Thousand Leaves – Merkle's Authentication Tree",
-      "摘要": "From One Seed to a Thousand Leaves – Merkle's Authentication Tree",
-      "来源": "Hacker News",
-      "日期": "2026-08-08",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://0xkrt26.github.io/math_behind_security/2026/08/03/merkle-tree.html",
-      "标签": []
-    },
-    {
-      "id": "2277c14f",
-      "标题": "按下按钮即可玩游戏：Rip-O-Bot (1989)",
-      "原文": "Games at the press of a button: The Rip-O-Bot (1989)",
-      "摘要": "Games at the press of a button: The Rip-O-Bot (1989)",
-      "来源": "Hacker News",
-      "日期": "2026-08-08",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://blog.gingerbeardman.com/2026/08/02/games-at-the-press-of-a-button-the-rip-o-bot/",
-      "标签": []
-    },
-    {
-      "id": "64667487",
-      "标题": "罗马尼亚钻井工人闯入封闭 550 万年的洞穴",
-      "原文": "Workers Drilling in Romania Broke into a Cave Sealed for 5.5M Years",
-      "摘要": "Workers Drilling in Romania Broke into a Cave Sealed for 5.5M Years",
-      "来源": "Hacker News",
-      "日期": "2026-08-08",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://travelandtannins.com/workers-drilling-in-romania-broke-into-a-cave-sealed-for-5-5-million-years-and-found-an-entire-living-world-that-has-never-seen-the-sun/",
-      "标签": []
-    },
-    {
-      "id": "d1c33f60",
-      "标题": "使 Postgres 的分析速度提高 300 倍：批处理、运算符融合和 SIMD",
-      "原文": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
-      "摘要": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
-      "来源": "Hacker News",
-      "日期": "2026-08-08",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
-      "标签": []
-    },
-    {
-      "id": "da069d6e",
-      "标题": "作为 Windows 用户，这是一种超现实的安装程序方式",
-      "原文": "As a Windows user, it's a surreal way to install a program",
-      "摘要": "As a Windows user, it's a surreal way to install a program",
-      "来源": "Hacker News",
-      "日期": "2026-08-08",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://unsung.aresluna.org/as-a-windows-user-its-a-very-surreal-way-to-install-a-program/",
       "标签": []
     }
   ]
