@@ -1,13 +1,738 @@
 {
-  "updated": "2026-08-08T21:00:00+08:00",
-  "as_of": "2026-08-08T21:00:00+08:00",
+  "updated": "2026-08-08T21:52:43+08:00",
+  "as_of": "2026-08-08T21:52:43+08:00",
   "category": "世界杯",
   "source": "openfootball/worldcup.json",
   "description": "2026 世界杯赛程与赛果；开放数据，无需密钥。",
   "status": "ok",
   "message": "当前使用公共领域开放数据；配置 FOOTBALL_DATA_TOKEN 后将自动切换到 football-data.org。",
-  "count": 1,
+  "count": 26,
   "articles": [
+    {
+      "id": 2282630492,
+      "标题": "阿根廷足协主席表示，梅西将决定何时退役",
+      "原标题": "Messi will decide when he retires, says Argentina FA chief - Al Jazeera",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "Messi will decide when he retires, says Argentina FA chief Al Jazeera",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHpoYU52YUlNMlFCeW5pMHM4QTRSZ3JlNlQ2VFdhS01OWW91aVNqUWxsMmtVWXdoa3B4NFBhNTYzNWJmZ05XNV9KTVVVVmdfR0RmbENrTW5KQktzZXR0RDR0UklQQ1lhbEhza1RrV0J6X3dQQ1JMQkZDQndRVHhsZEVYck9SaUItMjhfNDJIY0hVWjlidFZ3M1pBZHB1QkdrdkZJd2ltZ1hFdXRjVXJ3M0dWb9IBuAFBVV95cUxPeVY1MDNqUTVPNGFnS2djb1RKZmtsX1hHY2h5MUdsUkRWaDRkVHZ0cV9rcXphNWgxbV9LdXhmRGZ3dURtdFhCYzlnMm5oNDJMTVZ5U1NoQUowT012Qk1NZ2VOX3BSTmNHS3VFVi1OQUQ0aTluckdQai1lWkM4X3g0UlM5b0lHVVJLaEJkbE1FWUlZbV9MclZuejhibUtGM0xpZVd3amNUVElIQ1RTSE94dWh5Q2w0cjJJ?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "Messi will decide when he retires, says Argentina FA chief Al Jazeera",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "Messi will decide when he retires, says Argentina FA chief Al Jazeera。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHpoYU52YUlNMlFCeW5pMHM4QTRSZ3JlNlQ2VFdhS01OWW91aVNqUWxsMmtVWXdoa3B4NFBhNTYzNWJmZ05XNV9KTVVVVmdfR0RmbENrTW5KQktzZXR0RDR0UklQQ1lhbEhza1RrV0J6X3dQQ1JMQkZDQndRVHhsZEVYck9SaUItMjhfNDJIY0hVWjlidFZ3M1pBZHB1QkdrdkZJd2ltZ1hFdXRjVXJ3M0dWb9IBuAFBVV95cUxPeVY1MDNqUTVPNGFnS2djb1RKZmtsX1hHY2h5MUdsUkRWaDRkVHZ0cV9rcXphNWgxbV9LdXhmRGZ3dURtdFhCYzlnMm5oNDJMTVZ5U1NoQUowT012Qk1NZ2VOX3BSTmNHS3VFVi1OQUQ0aTluckdQai1lWkM4X3g0UlM5b0lHVVJLaEJkbE1FWUlZbV9MclZuejhibUtGM0xpZVd3amNUVElIQ1RTSE94dWh5Q2w0cjJJ?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3773611136,
+      "标题": "2026 年世界杯：梅西暗杀威胁曝光 - 罗纳尔多也受到骚扰 - GiveMeSport",
+      "原标题": "2026 World Cup: Lionel Messi Assassination Threat Revealed - Ronaldo Also Harassed - GiveMeSport",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "2026 World Cup: Lionel Messi Assassination Threat Revealed - Ronaldo Also Harassed GiveMeSport",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVVhrM0NLcWZGemNqYWpoZW82MC12OVJxRmVleExwZDJEWWt6aFRPNWVmRzFjdDFpaG9rQVRnZmdncG1UeW1oSnphb2NBLWJpdTdpeEVBaGpmMEhuYll0MDRjdkhTOHJlMnNTd1hoUTR3QU9YZHFnYm9PSUZlanNhTXJFV2ZvSmIyVzZBRmk1Zm9UWG1oRzY4TmZYZnMxSXM?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "2026 World Cup: Lionel Messi Assassination Threat Revealed - Ronaldo Also Harassed GiveMeSport",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "2026 World Cup: Lionel Messi Assassination Threat Revealed - Ronaldo Also Harassed GiveMeSport。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVVhrM0NLcWZGemNqYWpoZW82MC12OVJxRmVleExwZDJEWWt6aFRPNWVmRzFjdDFpaG9rQVRnZmdncG1UeW1oSnphb2NBLWJpdTdpeEVBaGpmMEhuYll0MDRjdkhTOHJlMnNTd1hoUTR3QU9YZHFnYm9PSUZlanNhTXJFV2ZvSmIyVzZBRmk1Zm9UWG1oRzY4TmZYZnMxSXM?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2440433522,
+      "标题": "因凡蒂诺的世界杯惨败震惊了足坛，但国际足联的危机却根深蒂固——《卫报",
+      "原标题": "Infantino’s World Cup sell-off debacle has rocked football but Fifa’s crisis has deep and rotten roots - The Guardian",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "Infantino’s World Cup sell-off debacle has rocked football but Fifa’s crisis has deep and rotten roots The Guardian",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEg1amVTbVFqN3RMakl5aHlwVEZzZ3JfYlVGWHV4MFgyVldKZUhHeUZndGdyREVHZ200UndSMkZ2eWRSRmhrWUwyYjlmelU1RjcxZTBDb29jZmdHdUV2Ynp2NlRjb2NEOU9HaFZncjBveFQwNGxzZVBMRXdBcjUwd0hiVzhaTVVnUzVRdXc3cnBMb2MxXzg3MTJ0N3dUMGdIUTRkMWZ6WQ?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "Infantino’s World Cup sell-off debacle has rocked football but Fifa’s crisis has deep and rotten roots The Gua",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "Infantino’s World Cup sell-off debacle has rocked football but Fifa’s crisis has deep and rotten roots The Guardian。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEg1amVTbVFqN3RMakl5aHlwVEZzZ3JfYlVGWHV4MFgyVldKZUhHeUZndGdyREVHZ200UndSMkZ2eWRSRmhrWUwyYjlmelU1RjcxZTBDb29jZmdHdUV2Ynp2NlRjb2NEOU9HaFZncjBveFQwNGxzZVBMRXdBcjUwd0hiVzhaTVVnUzVRdXc3cnBMb2MxXzg3MTJ0N3dUMGdIUTRkMWZ6WQ?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1911406511,
+      "标题": "警方报告揭露：世界杯期间男子想要以残忍的方式谋杀梅西 Goal.com",
+      "原标题": "Police report reveals: man wanted to murder Lionel Messi in a brutal manner during the World Cup - Goal.com",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "Police report reveals: man wanted to murder Lionel Messi in a brutal manner during the World Cup Goal.com",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYTdEdkVNc0Jpb2dhNWwzcmRJZU9odWdSei10akNDYkZocTE2TGlzWDB5SWNkaF9fMWhPMUFPMk9NN1BqdzhZbklnNFZxZ0hQMUJJTTFqMTBSTmV5azlNaDlSQUY1RlB5b242amJvck41TGNRYVpmc0t0WUNKZk9IYUVmZ1lhTzRHUkFUMnhVRkZObENEaUtOQTVRQm9SMkRpNmZqUUJTWWFPZUZSejBkd2pESmY0NnpMOW1RQnJfOFJpdG5TSm14T3RWTG5Tc0k3ZzhxZFdkM2VOT2JV?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "Police report reveals: man wanted to murder Lionel Messi in a brutal manner during the World Cup Goal.com",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "Police report reveals: man wanted to murder Lionel Messi in a brutal manner during the World Cup Goal.com。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOYTdEdkVNc0Jpb2dhNWwzcmRJZU9odWdSei10akNDYkZocTE2TGlzWDB5SWNkaF9fMWhPMUFPMk9NN1BqdzhZbklnNFZxZ0hQMUJJTTFqMTBSTmV5azlNaDlSQUY1RlB5b242amJvck41TGNRYVpmc0t0WUNKZk9IYUVmZ1lhTzRHUkFUMnhVRkZObENEaUtOQTVRQm9SMkRpNmZqUUJTWWFPZUZSejBkd2pESmY0NnpMOW1RQnJfOFJpdG5TSm14T3RWTG5Tc0k3ZzhxZFdkM2VOT2JV?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 127220681,
+      "标题": "世界杯新闻",
+      "原标题": "Lionel Messi Terror Plot: Report Reveals Plan To 'Blow Him Up' During FIFA World Cup 2026 - NDTV Sports",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "Lionel Messi Terror Plot: Report Reveals Plan To 'Blow Him Up' During FIFA World Cup 2026 NDTV Sports",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcERuQ3QtMVZkY005cjR1OVY2TFExelFvU29kSjBOcG5oczFTS1hPQUhGRE9ramotN042YlhGMjdoOUg5LWExaW56N1l0LVIyLW1iMnk3N2hVT1JRRmFwN0paVGtpb0hCY2I1WWNMTEozV2tsMGlJQmIxU2ZEdVduRmVCWHBJcmMzeHdacWNUeXc5MVZjQnhEczBkTTVvdVdQTmhMYm1vdlhXWFZRTEVaTjBubC1zS0xzZGRTOE9NNA?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "Lionel Messi Terror Plot: Report Reveals Plan To 'Blow Him Up' During FIFA World Cup 2026 NDTV Sports",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "Lionel Messi Terror Plot: Report Reveals Plan To 'Blow Him Up' During FIFA World Cup 2026 NDTV Sports。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcERuQ3QtMVZkY005cjR1OVY2TFExelFvU29kSjBOcG5oczFTS1hPQUhGRE9ramotN042YlhGMjdoOUg5LWExaW56N1l0LVIyLW1iMnk3N2hVT1JRRmFwN0paVGtpb0hCY2I1WWNMTEozV2tsMGlJQmIxU2ZEdVduRmVCWHBJcmMzeHdacWNUeXc5MVZjQnhEczBkTTVvdVdQTmhMYm1vdlhXWFZRTEVaTjBubC1zS0xzZGRTOE9NNA?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1303995991,
+      "标题": "你必须解雇他”：国际足联主席涉嫌事件暴露出足球内战的新转折 - 福克斯体育",
+      "原标题": "‘You have to fire him’: FIFA boss’ alleged affair exposed in fresh twist to football’s civil war - Fox Sports",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "‘You have to fire him’: FIFA boss’ alleged affair exposed in fresh twist to football’s civil war Fox Sports",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxQbHE1dV9JVzJoeGMza3p6SWRMdWR5Sm1WTWpCOWFBUVAwNlJKbW01NkdLdHk3NGttblVJSmIzbWtWVFdSb0dtUzRkaFBKRkZCcHRiSHF4MnRCejhqdzAxNnBqWFZodGRSLUN6NmtzYnphMXAwQVdFZjdyM3NIQmNuLTlSdFd1eXFmVFV6VG1LRzBwMGhMMEpJWVZuM3Z4R0hNcWdkVWFNaE1ydk1fbm1uWFIxVFlRSEt5TXNvWW9TNEFEcW9YcXlZbXo4czdrZHk3M0F4Q2xFeWdIV0hmZXNIZlc0dE9JN2FSZDBqc3dJdHc3MFhVSDNLUmstVHdkMDNKNk1QbTVXeVhldmFHb2tZZjdRekZ0UTdNTm93SXZRcHljZjhKZlRCWlZLcnRmZjJFQU0wdkFFYUxUYzRYbGVuX2hsT1Z6Mk51ZXlmM3dhS0RoR0JvN0EzNGRYQlU4QUprcy1xYWRIYl9HWTRLRFN5M0xCNkhEUHJ5OWVkdNIB_AJBVV95cUxQbHE1dV9JVzJoeGMza3p6SWRMdWR5Sm1WTWpCOWFBUVAwNlJKbW01NkdLdHk3NGttblVJSmIzbWtWVFdSb0dtUzRkaFBKRkZCcHRiSHF4MnRCejhqdzAxNnBqWFZodGRSLUN6NmtzYnphMXAwQVdFZjdyM3NIQmNuLTlSdFd1eXFmVFV6VG1LRzBwMGhMMEpJWVZuM3Z4R0hNcWdkVWFNaE1ydk1fbm1uWFIxVFlRSEt5TXNvWW9TNEFEcW9YcXlZbXo4czdrZHk3M0F4Q2xFeWdIV0hmZXNIZlc0dE9JN2FSZDBqc3dJdHc3MFhVSDNLUmstVHdkMDNKNk1QbTVXeVhldmFHb2tZZjdRekZ0UTdNTm93SXZRcHljZjhKZlRCWlZLcnRmZjJFQU0wdkFFYUxUYzRYbGVuX2hsT1Z6Mk51ZXlmM3dhS0RoR0JvN0EzNGRYQlU4QUprcy1xYWRIYl9HWTRLRFN5M0xCNkhEUHJ5OWVkdA?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "‘You have to fire him’: FIFA boss’ alleged affair exposed in fresh twist to football’s civil war Fox Sports",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "‘You have to fire him’: FIFA boss’ alleged affair exposed in fresh twist to football’s civil war Fox Sports。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxQbHE1dV9JVzJoeGMza3p6SWRMdWR5Sm1WTWpCOWFBUVAwNlJKbW01NkdLdHk3NGttblVJSmIzbWtWVFdSb0dtUzRkaFBKRkZCcHRiSHF4MnRCejhqdzAxNnBqWFZodGRSLUN6NmtzYnphMXAwQVdFZjdyM3NIQmNuLTlSdFd1eXFmVFV6VG1LRzBwMGhMMEpJWVZuM3Z4R0hNcWdkVWFNaE1ydk1fbm1uWFIxVFlRSEt5TXNvWW9TNEFEcW9YcXlZbXo4czdrZHk3M0F4Q2xFeWdIV0hmZXNIZlc0dE9JN2FSZDBqc3dJdHc3MFhVSDNLUmstVHdkMDNKNk1QbTVXeVhldmFHb2tZZjdRekZ0UTdNTm93SXZRcHljZjhKZlRCWlZLcnRmZjJFQU0wdkFFYUxUYzRYbGVuX2hsT1Z6Mk51ZXlmM3dhS0RoR0JvN0EzNGRYQlU4QUprcy1xYWRIYl9HWTRLRFN5M0xCNkhEUHJ5OWVkdNIB_AJBVV95cUxQbHE1dV9JVzJoeGMza3p6SWRMdWR5Sm1WTWpCOWFBUVAwNlJKbW01NkdLdHk3NGttblVJSmIzbWtWVFdSb0dtUzRkaFBKRkZCcHRiSHF4MnRCejhqdzAxNnBqWFZodGRSLUN6NmtzYnphMXAwQVdFZjdyM3NIQmNuLTlSdFd1eXFmVFV6VG1LRzBwMGhMMEpJWVZuM3Z4R0hNcWdkVWFNaE1ydk1fbm1uWFIxVFlRSEt5TXNvWW9TNEFEcW9YcXlZbXo4czdrZHk3M0F4Q2xFeWdIV0hmZXNIZlc0dE9JN2FSZDBqc3dJdHc3MFhVSDNLUmstVHdkMDNKNk1QbTVXeVhldmFHb2tZZjdRekZ0UTdNTm93SXZRcHljZjhKZlRCWlZLcnRmZjJFQU0wdkFFYUxUYzRYbGVuX2hsT1Z6Mk51ZXlmM3dhS0RoR0JvN0EzNGRYQlU4QUprcy1xYWRIYl9HWTRLRFN5M0xCNkhEUHJ5OWVkdA?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2037622616,
+      "标题": "世界杯新闻",
+      "原标题": "D-Fend’s EnforceAir provided FIFA World Cup 2026 counter-drone security - Unmanned airspace",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "D-Fend’s EnforceAir provided FIFA World Cup 2026 counter-drone security Unmanned airspace",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjVpZEZZU3oxd2Vxd29oOEZoSUN2YXQ3NW13NEUxZUNMOVNSVm96ZlVVYnJiZUVNc3ZwYnhOX1NFM3hzNFR5QWJXeTZYb21TZXpiOVlvZzh6ZE5EU1JVdmcwY09ZN0JDc0xXc2lESWNhVjNNTkVNZkk4bUpXRDBvR2p3XzZ1QUlRc0t6TEg2LWJUdF90NUxxVU9PY2U1dWpwQVBXcG1QWE9hb2syMk5ldWtTdG5xazl0enpYUFZvNTZFQnJaMHU0ZGVzVHBULWx5NHgxNg?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "D-Fend’s EnforceAir provided FIFA World Cup 2026 counter-drone security Unmanned airspace",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "D-Fend’s EnforceAir provided FIFA World Cup 2026 counter-drone security Unmanned airspace。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTjVpZEZZU3oxd2Vxd29oOEZoSUN2YXQ3NW13NEUxZUNMOVNSVm96ZlVVYnJiZUVNc3ZwYnhOX1NFM3hzNFR5QWJXeTZYb21TZXpiOVlvZzh6ZE5EU1JVdmcwY09ZN0JDc0xXc2lESWNhVjNNTkVNZkk4bUpXRDBvR2p3XzZ1QUlRc0t6TEg2LWJUdF90NUxxVU9PY2U1dWpwQVBXcG1QWE9hb2syMk5ldWtTdG5xazl0enpYUFZvNTZFQnJaMHU0ZGVzVHBULWx5NHgxNg?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1620710603,
+      "标题": "新闻 - 华盛顿国家民事支持队警卫队是 2026 年世界杯安全的核心 - DVIDS",
+      "原标题": "News - Washington National civil support team Guard at the heart of World Cup 2026 security - DVIDS",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "News - Washington National civil support team Guard at the heart of World Cup 2026 security DVIDS",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWmJMOG40SUtISmpZSXB1ZWllRnJVMkRpamxGR0lOWElDamVFbU00ZFEydFVvZ3RBTE1OZHQ1NmI0cTN4T3lESnNTUWg5TUtnLTNUczFXSHppSDRhMVFYTWhYbzBXenVQMVRQM0NlbENfNUR4RVB0Rmw0S2ZfRmtxWnhZd3dLUE1QUW02aHhvOGZEcWtqQ2NlYUI4UVJudlZpUTZqRjNoRmktNVhJcjRaOQ?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "News - Washington National civil support team Guard at the heart of World Cup 2026 security DVIDS",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "News - Washington National civil support team Guard at the heart of World Cup 2026 security DVIDS。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWmJMOG40SUtISmpZSXB1ZWllRnJVMkRpamxGR0lOWElDamVFbU00ZFEydFVvZ3RBTE1OZHQ1NmI0cTN4T3lESnNTUWg5TUtnLTNUczFXSHppSDRhMVFYTWhYbzBXenVQMVRQM0NlbENfNUR4RVB0Rmw0S2ZfRmtxWnhZd3dLUE1QUW02aHhvOGZEcWtqQ2NlYUI4UVJudlZpUTZqRjNoRmktNVhJcjRaOQ?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3302786521,
+      "标题": "世界杯新闻",
+      "原标题": "Head Coach Stuart Sharp Names 15-Player U.S. Men's Cerebral Palsy National Team Roster for Penultimate Camp in Colombia Ahead of 2026 International Fe",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "Head Coach Stuart Sharp Names 15-Player U.S. Men's Cerebral Palsy National Team Roster for Penultimate Camp in Colombia Ahead of 2026 International Federation of Cerebral Palsy Football World Cup US Soccer",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTlhOSU1uUXc5WHdCTXE3UFVybVp2MGdnNmNyTk1VV3FvRzltMl94V1VsOGdlNi1ocV9sUjVpZ2dMU24wdmFGcG1Nd3c4YkRTWjZrWDktOUp2V2FsbDZlVU1NR1NzSG5faWFKajYxeVIwYU9fZGEzN2RsV0NQanhzUG5kVURVeHgxV0l1SjVITVg4dVgxaTA3QUR5enpzbHRqX2pHRVdPRHdzQ1dqRDZobUVsVTZHb3J0RUkxcWQtbXdBNTRIOEpV?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "Head Coach Stuart Sharp Names 15-Player U.S. Men's Cerebral Palsy National Team Roster for Penultimate Camp in",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "Head Coach Stuart Sharp Names 15-Player U.S. Men's Cerebral Palsy National Team Roster for Penultimate Camp in Colombia Ahead of 2026 International Federation of Cerebral Palsy Football World Cup US Soccer。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTlhOSU1uUXc5WHdCTXE3UFVybVp2MGdnNmNyTk1VV3FvRzltMl94V1VsOGdlNi1ocV9sUjVpZ2dMU24wdmFGcG1Nd3c4YkRTWjZrWDktOUp2V2FsbDZlVU1NR1NzSG5faWFKajYxeVIwYU9fZGEzN2RsV0NQanhzUG5kVURVeHgxV0l1SjVITVg4dVgxaTA3QUR5enpzbHRqX2pHRVdPRHdzQ1dqRDZobUVsVTZHb3J0RUkxcWQtbXdBNTRIOEpV?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3565801426,
+      "标题": "国际足联主席在精彩的世界杯后赞扬保罗·库巴西：“非凡” - 雅虎体育",
+      "原标题": "FIFA president showers praise on Pau Cubarsi after spectacular World Cup: ‘Extraordinary’ - Yahoo Sports",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "FIFA president showers praise on Pau Cubarsi after spectacular World Cup: ‘Extraordinary’ Yahoo Sports",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdEs2TU9kMjNmMnVJendjcE9YYWJuZ2tkQlFoVDVXZWhPVnIwR0hROVpQVWNwdTZvSFVMTDBreWxZa3ZBQ0FwNTc5Q1Awa1dKTjZtUlZvWnVCUTRBQTN6SGdRQlZTck5NU3YxQXhDMURVOWNyclV0Tkdxd2JuQS1ieVZCbkJydTh3YWc?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "FIFA president showers praise on Pau Cubarsi after spectacular World Cup: ‘Extraordinary’ Yahoo Sports",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "FIFA president showers praise on Pau Cubarsi after spectacular World Cup: ‘Extraordinary’ Yahoo Sports。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdEs2TU9kMjNmMnVJendjcE9YYWJuZ2tkQlFoVDVXZWhPVnIwR0hROVpQVWNwdTZvSFVMTDBreWxZa3ZBQ0FwNTc5Q1Awa1dKTjZtUlZvWnVCUTRBQTN6SGdRQlZTck5NU3YxQXhDMURVOWNyclV0Tkdxd2JuQS1ieVZCbkJydTh3YWc?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1666816448,
+      "标题": "2026世界杯的意外0：0与传统坚持 - 搜狐网",
+      "原标题": "2026世界杯的意外0：0与传统坚持 - 搜狐网",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "2026世界杯的意外0：0与传统坚持 搜狐网",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV0RCekFMZ2t3YXM4QnRIUzZoSk5nSlVyYkhaNVQyRzF3eWlINHpXZWRPb1I0S2hZNGVONXhPSmZOQWV5Nm8yaUpic1I1djJBZDZxMlVRUnVUZmFFSV9Wc05QbC1lTUFqQlJ4VjhXMXd0V0NNSjBwN1pKSnM2NDdveE5kSldxZ1FpWV9Qbw?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "2026世界杯的意外0：0与传统坚持 搜狐网",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "2026世界杯的意外0：0与传统坚持 搜狐网。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV0RCekFMZ2t3YXM4QnRIUzZoSk5nSlVyYkhaNVQyRzF3eWlINHpXZWRPb1I0S2hZNGVONXhPSmZOQWV5Nm8yaUpic1I1djJBZDZxMlVRUnVUZmFFSV9Wc05QbC1lTUFqQlJ4VjhXMXd0V0NNSjBwN1pKSnM2NDdveE5kSldxZ1FpWV9Qbw?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 551022316,
+      "标题": "稽山鉴水间，思辨正青春 | 2026华语辩论世界杯小学初中组圆满闭幕 - news.tom.com",
+      "原标题": "稽山鉴水间，思辨正青春 | 2026华语辩论世界杯小学初中组圆满闭幕 - news.tom.com",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "稽山鉴水间，思辨正青春 | 2026华语辩论世界杯小学初中组圆满闭幕 news.tom.com",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xcHg4QTBCMWktZERycEhja0RESmdJc3FtY1Y0QV9QWTNGMjVMLUgzTTZUV2RVN00tSXZDMXg2cndyMWpPdV9MT2FvRUVxeWxlSEtfcmFB?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "稽山鉴水间，思辨正青春 | 2026华语辩论世界杯小学初中组圆满闭幕 news.tom.com",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "稽山鉴水间，思辨正青春 | 2026华语辩论世界杯小学初中组圆满闭幕 news.tom.com。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xcHg4QTBCMWktZERycEhja0RESmdJc3FtY1Y0QV9QWTNGMjVMLUgzTTZUV2RVN00tSXZDMXg2cndyMWpPdV9MT2FvRUVxeWxlSEtfcmFB?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3105014309,
+      "标题": "罗梅罗2026年世界杯个人集锦🇦🇷🌟📸 新赛季他会加盟马竞、国米还是巴萨呢 - sina.cn",
+      "原标题": "罗梅罗2026年世界杯个人集锦🇦🇷🌟📸 新赛季他会加盟马竞、国米还是巴萨呢 - sina.cn",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "罗梅罗2026年世界杯个人集锦🇦🇷🌟📸 新赛季他会加盟马竞、国米还是巴萨呢 sina.cn",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-08",
+      "链接": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42Z0NpRmJ0d2hpM2wxN2ZJaDFFVGxjTWg0VWpiMG9hRDAzV3Zab2RCQjVzZC1MM05vYTd0UENzN21kVWVLY1hNWU85ZUh4Z05XVXh6LWkxdUt6MEhVdm9vN3Vn?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "罗梅罗2026年世界杯个人集锦🇦🇷🌟📸 新赛季他会加盟马竞、国米还是巴萨呢 sina.cn",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "罗梅罗2026年世界杯个人集锦🇦🇷🌟📸 新赛季他会加盟马竞、国米还是巴萨呢 sina.cn。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42Z0NpRmJ0d2hpM2wxN2ZJaDFFVGxjTWg0VWpiMG9hRDAzV3Zab2RCQjVzZC1MM05vYTd0UENzN21kVWVLY1hNWU85ZUh4Z05XVXh6LWkxdUt6MEhVdm9vN3Vn?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2230891848,
+      "标题": "世界杯新闻",
+      "原标题": "How a 'Fifa world cup 2026' WhatsApp group exposed NEET leak | India News - Hindustan Times",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "How a 'Fifa world cup 2026' WhatsApp group exposed NEET leak | India News Hindustan Times",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-07",
+      "链接": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVExHZjB4OWRsRlVra0RjbGNlNk5iNDV0SlBOS1pNeDZlMlFfSVplSzVnRDJ6WktybWdQRUtVcHdGMEtNR2FPUVoxVkp2N21Idlp5R1FDUmcxNm5DQlNiUUhVR3lycXhDZEREeVZxU1AtVWtXem1DZU92VFNvWHZCVnRQRGxIS1dSWFVNYTdlRUgtYjRNS3JLVHU0WWtOTEN2X3NKeUhtUk8zUm9jTG1LcVZaVjZaeGRTRUw5QzJUUElmbmJvQ2fSAcsBQVVfeXFMT3RtVE1VOEQ2R0ZnYXpUTVJsV2N0WFZ4M1l6R0h2SnlIQmlYVU9QSDNHLXpoSF9EbFZBRWJXQnJwWGstMlRMUy1qem1Kejc3aEhPN2VFX2FfOV9SVUZDVkZwbjlZOWdQSzJyR3ZTUUNLRWlQOGU2WlJRTUNueldFd2ZEVDQ2MWR3X2FkWEF3dDNydktDeUdsWkdUR0VQb1pzVVVaZUFTMGM1ekdoZU1HTkE0YlpYZHlmeU9mU09hSmNORm5ZbFpTdHA1TjQ?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "How a 'Fifa world cup 2026' WhatsApp group exposed NEET leak | India News Hindustan Times",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "How a 'Fifa world cup 2026' WhatsApp group exposed NEET leak | India News Hindustan Times。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVExHZjB4OWRsRlVra0RjbGNlNk5iNDV0SlBOS1pNeDZlMlFfSVplSzVnRDJ6WktybWdQRUtVcHdGMEtNR2FPUVoxVkp2N21Idlp5R1FDUmcxNm5DQlNiUUhVR3lycXhDZEREeVZxU1AtVWtXem1DZU92VFNvWHZCVnRQRGxIS1dSWFVNYTdlRUgtYjRNS3JLVHU0WWtOTEN2X3NKeUhtUk8zUm9jTG1LcVZaVjZaeGRTRUw5QzJUUElmbmJvQ2fSAcsBQVVfeXFMT3RtVE1VOEQ2R0ZnYXpUTVJsV2N0WFZ4M1l6R0h2SnlIQmlYVU9QSDNHLXpoSF9EbFZBRWJXQnJwWGstMlRMUy1qem1Kejc3aEhPN2VFX2FfOV9SVUZDVkZwbjlZOWdQSzJyR3ZTUUNLRWlQOGU2WlJRTUNueldFd2ZEVDQ2MWR3X2FkWEF3dDNydktDeUdsWkdUR0VQb1pzVVVaZUFTMGM1ekdoZU1HTkE0YlpYZHlmeU9mU09hSmNORm5ZbFpTdHA1TjQ?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 4134774275,
+      "标题": "球：2026 年世界杯决赛比分 - 美国银行研究所",
+      "原标题": "On the ball: World Cup 2026 final score - Bank of America Institute",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "On the ball: World Cup 2026 final score Bank of America Institute",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-06",
+      "链接": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0dhUmdUZ0h2aVRoVC1xQlRfRnhkdFl0NjAyWVAxZXNsSlFEWGFsZ1FSWUMxSHFXOEt1aXhwdWpvd0pxZVNhUnY2aVlOZlJraGdQWVJ0Rld4Um55WU9RdFljdnNtOWxVSUJRakxYN2pLX0ZsR3dRanYzaUVNU2JJbkRjcENnNERsSEtZWTVYS0I?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "On the ball: World Cup 2026 final score Bank of America Institute",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "On the ball: World Cup 2026 final score Bank of America Institute。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0dhUmdUZ0h2aVRoVC1xQlRfRnhkdFl0NjAyWVAxZXNsSlFEWGFsZ1FSWUMxSHFXOEt1aXhwdWpvd0pxZVNhUnY2aVlOZlJraGdQWVJ0Rld4Um55WU9RdFljdnNtOWxVSUJRakxYN2pLX0ZsR3dRanYzaUVNU2JJbkRjcENnNERsSEtZWTVYS0I?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1281179346,
+      "标题": "2026 年美国男篮女子国家队名单公布 - 美国男篮",
+      "原标题": "2026 USA Basketball Women’s National Team Announced - USA Basketball",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "2026 USA Basketball Women’s National Team Announced USA Basketball",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-06",
+      "链接": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZmpPZHdDcUI5V3ZiR04xSTlVMnk4Y2JDcHc5VHcxOEZjS1FOVXBzcXp6cy1WUDUteTBSS3ZuYnR4VDJpTFd6MWFoWGQ5T1oyVV9BeW9JU2ZPR2RqTkprTzdnMFEwZjFCaW4ydGtOWGxVcnBvWmM3YkNTWDdWbW1PWVRUazQ4bEZLN1gwUA?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "2026 USA Basketball Women’s National Team Announced USA Basketball",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "2026 USA Basketball Women’s National Team Announced USA Basketball。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZmpPZHdDcUI5V3ZiR04xSTlVMnk4Y2JDcHc5VHcxOEZjS1FOVXBzcXp6cy1WUDUteTBSS3ZuYnR4VDJpTFd6MWFoWGQ5T1oyVV9BeW9JU2ZPR2RqTkprTzdnMFEwZjFCaW4ydGtOWGxVcnBvWmM3YkNTWDdWbW1PWVRUazQ4bEZLN1gwUA?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3421125035,
+      "标题": "【观察】2026世界杯视域下，广电赋能本土城超的路径启示 - www.1121tvday.com",
+      "原标题": "【观察】2026世界杯视域下，广电赋能本土城超的路径启示 - www.1121tvday.com",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "【观察】2026世界杯视域下，广电赋能本土城超的路径启示 www.1121tvday.com",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-06",
+      "链接": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9IRmV2NllLTGlOTE9aU1N1LWtwYXBwQVhCRVZ4a3F6NW9KZnctc1dwOU1zOXlIRlZFMnJaZG0yWXNBbzJSN0g3UHc1VQ?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "【观察】2026世界杯视域下，广电赋能本土城超的路径启示 www.1121tvday.com",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "【观察】2026世界杯视域下，广电赋能本土城超的路径启示 www.1121tvday.com。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9IRmV2NllLTGlOTE9aU1N1LWtwYXBwQVhCRVZ4a3F6NW9KZnctc1dwOU1zOXlIRlZFMnJaZG0yWXNBbzJSN0g3UHc1VQ?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3341416788,
+      "标题": "2026 年世界杯：据报道美国主办城市向国际足联寻求协会承诺的数百万美元 - 雅虎体育",
+      "原标题": "World Cup 2026: U.S. host cities reportedly chasing FIFA for millions promised by association - Yahoo Sports",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "World Cup 2026: U.S. host cities reportedly chasing FIFA for millions promised by association Yahoo Sports",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-05",
+      "链接": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeWczRjFxSTRScEZDQk5zbmQ4TXRwR2hWUjl4WFJWMlVBUC1vRVZfOGVHR2o2eEVKOXBpWThHUkQ1NEtCWDZ5Z0dqUEdnbUNxM1l4UkpUc0NnMzduLVpUOFJlR3RzQTBUQWxOZGlteWlHdUUwZ0Q5ZTZuVjRueFloQlQ1ZW83czZIYmRxampFdWFfZGJ4RVhyLWJPLWxmenI2TThVaWVvN1B5ODZ2Skw5blZmOURpVWxUUzJWNjYzSjAtZ2hXQjVxRmxGc1BMT1JsSFpjWUttZDAyckRERnc?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "World Cup 2026: U.S. host cities reportedly chasing FIFA for millions promised by association Yahoo Sports",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "World Cup 2026: U.S. host cities reportedly chasing FIFA for millions promised by association Yahoo Sports。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeWczRjFxSTRScEZDQk5zbmQ4TXRwR2hWUjl4WFJWMlVBUC1vRVZfOGVHR2o2eEVKOXBpWThHUkQ1NEtCWDZ5Z0dqUEdnbUNxM1l4UkpUc0NnMzduLVpUOFJlR3RzQTBUQWxOZGlteWlHdUUwZ0Q5ZTZuVjRueFloQlQ1ZW83czZIYmRxampFdWFfZGJ4RVhyLWJPLWxmenI2TThVaWVvN1B5ODZ2Skw5blZmOURpVWxUUzJWNjYzSjAtZ2hXQjVxRmxGc1BMT1JsSFpjWUttZDAyckRERnc?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2206703816,
+      "标题": "喜欢世界杯吗？这是 2026-27 年欧洲足球指南 - ESPN",
+      "原标题": "Loved the World Cup? Here's your guide to European soccer, 2026-27 - ESPN",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "Loved the World Cup? Here's your guide to European soccer, 2026-27 ESPN",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-08-05",
+      "链接": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONGtJQkN6TUFaaTM1cTg2ekdwT1RUNjlNNWV4YS00Y0M4WjRjeHI5Wm9YSGhvWlUzT2I5VUNHazJXdWJTOFpIaUpsaUg2bG5jYm11ZkZ6bXFhb3I1YmRtVFZyVHZ0dUJaSlAwRHBIY1lLUG5PYUdmTDc4YmtCWlJOaHk4ZWVOV2l5UEpmRm5kQVlqLU1GQ0k0ekY3LVJQeHo3YmdpbUJOV1F0bWt5ZEZGcWlQUmQ3cndzY3ExdldlajUwVWpMbjNuaVVSOGRIWnF5QWw0dFRNbUZTZlRqcWo4?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "Loved the World Cup? Here's your guide to European soccer, 2026-27 ESPN",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "Loved the World Cup? Here's your guide to European soccer, 2026-27 ESPN。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONGtJQkN6TUFaaTM1cTg2ekdwT1RUNjlNNWV4YS00Y0M4WjRjeHI5Wm9YSGhvWlUzT2I5VUNHazJXdWJTOFpIaUpsaUg2bG5jYm11ZkZ6bXFhb3I1YmRtVFZyVHZ0dUJaSlAwRHBIY1lLUG5PYUdmTDc4YmtCWlJOaHk4ZWVOV2l5UEpmRm5kQVlqLU1GQ0k0ekY3LVJQeHo3YmdpbUJOV1F0bWt5ZEZGcWlQUmQ3cndzY3ExdldlajUwVWpMbjNuaVVSOGRIWnF5QWw0dFRNbUZTZlRqcWo4?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2470484058,
+      "标题": "国际足联公布2026世界杯球迷票选最佳阵容 - 新华网",
+      "原标题": "国际足联公布2026世界杯球迷票选最佳阵容 - 新华网",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "国际足联公布2026世界杯球迷票选最佳阵容 新华网",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-07-23",
+      "链接": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQW1uREhQN2ozQVRZakNWSFotbHZTeXpZeXZUa0FUcDFEbUd0d2JRak5pWTZkdW4tOWR4Um4yZHV4V2dPazRnYXdjZkFRQmcyZENmUGFONWVpSjhTa1JUMEFhdFBKcXFNQWQ2b1lGOWRqVXE3TGdHZHBnNmNoOWdpcQ?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "国际足联公布2026世界杯球迷票选最佳阵容 新华网",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "国际足联公布2026世界杯球迷票选最佳阵容 新华网。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQW1uREhQN2ozQVRZakNWSFotbHZTeXpZeXZUa0FUcDFEbUd0d2JRak5pWTZkdW4tOWR4Um4yZHV4V2dPazRnYXdjZkFRQmcyZENmUGFONWVpSjhTa1JUMEFhdFBKcXFNQWQ2b1lGOWRqVXE3TGdHZHBnNmNoOWdpcQ?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3296083135,
+      "标题": "2026世界杯落幕：世界足球格局有何新变化 - 光明网",
+      "原标题": "2026世界杯落幕：世界足球格局有何新变化 - 光明网",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "2026世界杯落幕：世界足球格局有何新变化 光明网",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-07-21",
+      "链接": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xREthY3RTdDJ4clE5eTlqdHRyZkgxci13TlBvTi1HZHRVS2N6b1laQW1pWnRUZmFaYTZudGxpRFdLTDlvRmdicWZoNDNoMmhnaUJISEUwQ3B0dXFsaW5tMw?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "2026世界杯落幕：世界足球格局有何新变化 光明网",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "2026世界杯落幕：世界足球格局有何新变化 光明网。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xREthY3RTdDJ4clE5eTlqdHRyZkgxci13TlBvTi1HZHRVS2N6b1laQW1pWnRUZmFaYTZudGxpRFdLTDlvRmdicWZoNDNoMmhnaUJISEUwQ3B0dXFsaW5tMw?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 91393018,
+      "标题": "西班牙击败阿根廷获得2026年国际足联世界杯冠军 - 美国之音",
+      "原标题": "西班牙击败阿根廷获得2026年国际足联世界杯冠军 - 美国之音",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "西班牙击败阿根廷获得2026年国际足联世界杯冠军 美国之音",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-07-20",
+      "链接": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWWm5UeDNuT2ctSDNFMjhlZmVCdEd6V3ROOXV2YzVjZzUzVzJ3RlV5a0FXVGM3ejA5UjhxR1RubG1pVnpxdnZkV2lzQy1vaXJyNFdPWk1mUnROel9Xcl9YSW9idTM1dWJjS1RwRXNZREFIUm1KN0HSAXhBVV95cUxOd3dIZFhMYWdlcHhSTzd2THlZT3lVTzRWS1pPYTVCVDFXWlFpaDBDMmZDTmREREtRa2Z4YjRZSXhNMkJicGdwV1hmN2p5QmdRYWdEZ1RUWmk5ejJBNFNYSnpGdi02TUUzNFduZFpNaGtmckticzRVR2k?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "西班牙击败阿根廷获得2026年国际足联世界杯冠军 美国之音",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "西班牙击败阿根廷获得2026年国际足联世界杯冠军 美国之音。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWWm5UeDNuT2ctSDNFMjhlZmVCdEd6V3ROOXV2YzVjZzUzVzJ3RlV5a0FXVGM3ejA5UjhxR1RubG1pVnpxdnZkV2lzQy1vaXJyNFdPWk1mUnROel9Xcl9YSW9idTM1dWJjS1RwRXNZREFIUm1KN0HSAXhBVV95cUxOd3dIZFhMYWdlcHhSTzd2THlZT3lVTzRWS1pPYTVCVDFXWlFpaDBDMmZDTmREREtRa2Z4YjRZSXhNMkJicGdwV1hmN2p5QmdRYWdEZ1RUWmk5ejJBNFNYSnpGdi02TUUzNFduZFpNaGtmckticzRVR2k?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 4037261167,
+      "标题": "要闻解说 - 2026世界杯落幕：替补球员成西班牙制胜关键、外界质疑阿根廷““输球又输人”、梅西终究未能超越贝利 - RFI",
+      "原标题": "要闻解说 - 2026世界杯落幕：替补球员成西班牙制胜关键、外界质疑阿根廷““输球又输人”、梅西终究未能超越贝利 - RFI",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "要闻解说 - 2026世界杯落幕：替补球员成西班牙制胜关键、外界质疑阿根廷““输球又输人”、梅西终究未能超越贝利 RFI",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-07-20",
+      "链接": "https://news.google.com/rss/articles/CBMihwVBVV95cUxOSE5jWm5SUHh0NmxXOTEyZjlrY09tazNVd2Z6akFtMHhyX00yZDUyVTNFUUlrMzFtTnRmdmJyQW05R2dlaEtVVXM5Y2Q2aXU2RzZXVlMzWEFkdVBvOVVic204NGhGN1poLUtuLVEyZFQzZnY1T0xrX2dhaFpONk9yUlp4YVhyTzlDZm1TQzhRcS1TSHJIak9IS3JvQzhSSWV0enl3QnBQWmNRUnVSM1BYU3c4UzdicjZ3djBobS12Nm9XUDhkOTlzX1JZa3BfVkhOV1EwSlJROVhvUF9iMi1xazB3YklLT25wZm55TmF3NWRvaWZLQXFhV19VcjkxVEVNd1BlNmRUdFdHakdiTTFyd1FrRWFGNl9tczJxMzBBTUpRSzF5SlBxWi1zaVZ6THhKSDVBYzQ1QUV6UXdaN3VZVS1qOEdBU1VtTWVwdlBhbktHend6UmNjZ2xOZnV1RjVDQVEwckdnaThWUE1pUGpSN29tU0R5YVZQYTZ5S01wZmFoZHN4Y3VJSXh3TjNweVJSXy05TGFYUHRWT3M4NDhsMzNZY3ZELUZFSjZwWW1MWF9uMm9NLUtVTWxPZzA5ZnlTcGRTWGZNclhpYVZTeEpPTWZNazFHaC04ZWloVU9WT3NveV9uZEc1T0Z1NWU1bzYzRE1lcTlYTDY2YnR4MWZaRDgydWpJc1JGeE1JWWgtNW9jM0xmcVhielpHTExEM3VvRHNPV19sMWJVLWpYckJxX21wUDNuc0pCMk1YUTN0cl9qNEZ2d3VsdnpkQ3E4TmlCZjZxT1ZDQkdTOFBka3djY1YtUmZYLXJPamw3UGh4S1g1LUhvc1VNY1pZNjA0OHZZdFRNYUhpWQ?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "要闻解说 - 2026世界杯落幕：替补球员成西班牙制胜关键、外界质疑阿根廷““输球又输人”、梅西终究未能超越贝利 RFI",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "要闻解说 - 2026世界杯落幕：替补球员成西班牙制胜关键、外界质疑阿根廷““输球又输人”、梅西终究未能超越贝利 RFI。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMihwVBVV95cUxOSE5jWm5SUHh0NmxXOTEyZjlrY09tazNVd2Z6akFtMHhyX00yZDUyVTNFUUlrMzFtTnRmdmJyQW05R2dlaEtVVXM5Y2Q2aXU2RzZXVlMzWEFkdVBvOVVic204NGhGN1poLUtuLVEyZFQzZnY1T0xrX2dhaFpONk9yUlp4YVhyTzlDZm1TQzhRcS1TSHJIak9IS3JvQzhSSWV0enl3QnBQWmNRUnVSM1BYU3c4UzdicjZ3djBobS12Nm9XUDhkOTlzX1JZa3BfVkhOV1EwSlJROVhvUF9iMi1xazB3YklLT25wZm55TmF3NWRvaWZLQXFhV19VcjkxVEVNd1BlNmRUdFdHakdiTTFyd1FrRWFGNl9tczJxMzBBTUpRSzF5SlBxWi1zaVZ6THhKSDVBYzQ1QUV6UXdaN3VZVS1qOEdBU1VtTWVwdlBhbktHend6UmNjZ2xOZnV1RjVDQVEwckdnaThWUE1pUGpSN29tU0R5YVZQYTZ5S01wZmFoZHN4Y3VJSXh3TjNweVJSXy05TGFYUHRWT3M4NDhsMzNZY3ZELUZFSjZwWW1MWF9uMm9NLUtVTWxPZzA5ZnlTcGRTWGZNclhpYVZTeEpPTWZNazFHaC04ZWloVU9WT3NveV9uZEc1T0Z1NWU1bzYzRE1lcTlYTDY2YnR4MWZaRDgydWpJc1JGeE1JWWgtNW9jM0xmcVhielpHTExEM3VvRHNPV19sMWJVLWpYckJxX21wUDNuc0pCMk1YUTN0cl9qNEZ2d3VsdnpkQ3E4TmlCZjZxT1ZDQkdTOFBka3djY1YtUmZYLXJPamw3UGh4S1g1LUhvc1VNY1pZNjA0OHZZdFRNYUhpWQ?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 619245987,
+      "标题": "2026年世界杯：更多比赛，更多争议——曲终人散时该如何评价？ - BBC",
+      "原标题": "2026年世界杯：更多比赛，更多争议——曲终人散时该如何评价？ - BBC",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "2026年世界杯：更多比赛，更多争议——曲终人散时该如何评价？ BBC",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-07-20",
+      "链接": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NbXBvY2JVdzF6R2V2Qkx0OFl3eDRfWmhxZEI0MGtSWWFjcFhmSG9haWcyX2llY0VROXRrMDQ1aXU2eUE2NUlOb25kX0swSmVHcFFRRmpIZVp0LXl6RmtQR0VWT0hFUdIBa0FVX3lxTE4tTzByNDIwVlo2OUNieFd5QXJCQk9LS0h5VkphN1RLeS0wRFpGVTBkX3pkZGtYNTl3RlBHdk9Bd1pZS1prZ1lQNi0xMkMzZHREQUQ1aVZvRW0wRlk4T3h0QWJhY241TDRtLTBz?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "2026年世界杯：更多比赛，更多争议——曲终人散时该如何评价？ BBC",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "2026年世界杯：更多比赛，更多争议——曲终人散时该如何评价？ BBC。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NbXBvY2JVdzF6R2V2Qkx0OFl3eDRfWmhxZEI0MGtSWWFjcFhmSG9haWcyX2llY0VROXRrMDQ1aXU2eUE2NUlOb25kX0swSmVHcFFRRmpIZVp0LXl6RmtQR0VWT0hFUdIBa0FVX3lxTE4tTzByNDIwVlo2OUNieFd5QXJCQk9LS0h5VkphN1RLeS0wRFpGVTBkX3pkZGtYNTl3RlBHdk9Bd1pZS1prZ1lQNi0xMkMzZHREQUQ1aVZvRW0wRlk4T3h0QWJhY241TDRtLTBz?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3697844093,
+      "标题": "[世界杯]2026美加墨世界杯决赛 西班牙VS阿根廷 - 央视体育",
+      "原标题": "[世界杯]2026美加墨世界杯决赛 西班牙VS阿根廷 - 央视体育",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "[世界杯]2026美加墨世界杯决赛 西班牙VS阿根廷 央视体育",
+      "来源": "Google News · World Cup 2026",
+      "分类": "世界杯",
+      "日期": "2026-07-20",
+      "链接": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OU2J3dTU5dW52ZlJlZDdjcVBqZmVEY2NZTTVVdzU5VWwxUnJVVWctRXBKYzE5WGpTam5tTHFacEhQYWwxckRqMFNTazBudGxXRGF0X0pOcldpRmVZY0xKeUhPdXhlVjJGb3J3QlZqTjBJelpGdUFsemoyQQ?oc=5",
+      "标签": [
+        "世界杯",
+        "足球",
+        "新闻"
+      ],
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "导语": "[世界杯]2026美加墨世界杯决赛 西班牙VS阿根廷 央视体育",
+      "要点": [
+        "发生了什么",
+        "涉及哪些球队或人物",
+        "后续值得关注什么"
+      ],
+      "正文": "[世界杯]2026美加墨世界杯决赛 西班牙VS阿根廷 央视体育。本短稿依据公开新闻标题与摘要整理，帮助了解2026世界杯动态；完整报道请查阅原文",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OU2J3dTU5dW52ZlJlZDdjcVBqZmVEY2NZTTVVdzU5VWwxUnJVVWctRXBKYzE5WGpTam5tTHFacEhQYWwxckRqMFNTazBudGxXRGF0X0pOcldpRmVZY0xKeUhPdXhlVjJGb3J3QlZqTjBJelpGdUFsemoyQQ?oc=5",
+      "出处说明": "根据Google News · World Cup 2026公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 3278245669,
       "标题": "西班牙 1 : 0 阿根廷",
