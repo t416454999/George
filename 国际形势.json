@@ -1,13 +1,121 @@
 {
-  "updated": "2026-08-08T07:36:25+08:00",
-  "as_of": "2026-08-08T07:36:25+08:00",
+  "updated": "2026-08-08T09:44:00+08:00",
+  "as_of": "2026-08-08T09:44:00+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 1951824367,
+      "标题": "国际刑事法院缔约国大会主席团对乍得和委内瑞拉退出《罗马规约》表示遗憾",
+      "摘要": "针对乍得和委内瑞拉两国政府为退出《罗马规约》所采取的举措，《罗马规约》缔约国大会主席团发表声明，对这一事态发展表示关切，并呼吁两国继续作为《罗马规约》缔约国履行承诺",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-07",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142599",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1951824367.webp",
+      "封面": "assets/media/un-1951824367.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/21-11-2024_ICC_Hague1.jpg/image560x340cropped.jpg",
+      "导语": "针对乍得和委内瑞拉两国政府为退出《罗马规约》所采取的举措，《罗马规约》缔约国大会主席团发表声明，对这一事态发展表示关切，并呼吁两国继续作为《罗马规约》缔约国履行承诺",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "针对乍得和委内瑞拉两国政府为退出《罗马规约》所采取的举措，《罗马规约》缔约国大会主席团发表声明，对这一事态发展表示关切，并呼吁两国继续作为《罗马规约》缔约国履行承诺。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142599",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1296222071,
+      "标题": "世卫组织技术委员会同意在刚果（金）对传统埃博拉疫苗实施临床试验",
+      "摘要": "世界卫生组织本迪布焦埃博拉病毒病疫情应对候选疫苗优先排序技术咨询小组周五发布新报告，建议优先将目前唯一获批的针对扎伊尔型病毒的埃博拉疫苗“埃尔维博”（Ervebo）纳入刚果民主共和国（刚果（金））当前疫情背景下开展的随机临床试验，以评估其针对本迪布焦型病毒病的有效性",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-07",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142598",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1296222071.webp",
+      "封面": "assets/media/un-1296222071.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/06/19-06-2026-WHO-DR-Congo-ebola-01.jpg/image560x340cropped.jpg",
+      "导语": "世界卫生组织本迪布焦埃博拉病毒病疫情应对候选疫苗优先排序技术咨询小组周五发布新报告，建议优先将目前唯一获批的针对扎伊尔型病毒的埃博拉疫苗“埃尔维博”（Ervebo）纳入刚果民主共和国（刚果（金））当前疫情背景下开展的随机",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界卫生组织本迪布焦埃博拉病毒病疫情应对候选疫苗优先排序技术咨询小组周五发布新报告，建议优先将目前唯一获批的针对扎伊尔型病毒的埃博拉疫苗“埃尔维博”（Ervebo）纳入刚果民主共和国（刚果（金））当前疫情背景下开展的随机临床试验，以评估其针对本迪布焦型病毒病的有效性。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142598",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 215951780,
+      "标题": "【前方视野】委内瑞拉双强震：联合国紧急驰援",
+      "摘要": "今年6月24日，百年不遇的连环强震，让委内瑞拉中北部沦为重灾区，成千上万个家庭瞬间流离失所。在这一危难时刻，联合国各机构紧急响应、协同作战，将粮食、药品与临时庇护材料源源不断运往灾区最前线",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-07",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142595",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-215951780.webp",
+      "封面": "assets/media/un-215951780.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/27-07-26_Venezuela-Humanitarian_Aid3.jpg/image560x340cropped.jpg",
+      "导语": "今年6月24日，百年不遇的连环强震，让委内瑞拉中北部沦为重灾区，成千上万个家庭瞬间流离失所。在这一危难时刻，联合国各机构紧急响应、协同作战，将粮食、药品与临时庇护材料源源不断运往灾区最前线",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "今年6月24日，百年不遇的连环强震，让委内瑞拉中北部沦为重灾区，成千上万个家庭瞬间流离失所。在这一危难时刻，联合国各机构紧急响应、协同作战，将粮食、药品与临时庇护材料源源不断运往灾区最前线。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142595",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 749791092,
+      "标题": "天气、能源及地缘政治因素推动国际食品价格指数7月小幅上涨",
+      "摘要": "粮农组织周五发布的最新数据显示，受近期热浪、能源价格波动及地缘政治因素影响，谷物、植物油和糖的国际报价上涨，推动2026年7月全球食品大宗商品价格基准指标小幅回升",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-07",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142596",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-749791092.webp",
+      "封面": "assets/media/un-749791092.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/07-08-2026-FAO-Chile.jpg/image560x340cropped.jpg",
+      "导语": "粮农组织周五发布的最新数据显示，受近期热浪、能源价格波动及地缘政治因素影响，谷物、植物油和糖的国际报价上涨，推动2026年7月全球食品大宗商品价格基准指标小幅回升",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "粮农组织周五发布的最新数据显示，受近期热浪、能源价格波动及地缘政治因素影响，谷物、植物油和糖的国际报价上涨，推动2026年7月全球食品大宗商品价格基准指标小幅回升。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142596",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2253653943,
       "标题": "【子午播报】2026年8月7日",
@@ -1014,126 +1122,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.summitdaily.com/news/bear-cub-killed-by-another-bear-in-summit-cove/",
       "出处说明": "根据summitdaily.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1787523331,
-      "标题": "参议院通过制裁俄罗斯法案新闻电台 1360 KKTX",
-      "原标题": "Senate Passes Bill On Russia Sanctions | NewsRadio 1360 KKTX",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 1360kktx.iheart.com 最新报道，点击阅读原文。",
-      "来源": "1360kktx.iheart.com",
-      "分类": "国际形势",
-      "日期": "2026-08-07",
-      "链接": "https://1360kktx.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://i.iheart.com/v3/re/assets.getty/6a763e6d1003898ad1166625?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "数据截至": "2026-08-07T23:36:14+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 1360kktx.iheart.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 1360kktx.iheart.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://1360kktx.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "出处说明": "根据1360kktx.iheart.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1526374987,
-      "标题": "普京避开无人机飞行的俄罗斯联邦地区——大众媒体",
-      "原标题": "Путін уникає регіонів РФ , куди долітають дрони - ЗМІ",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 news.bigmir.net 最新报道，点击阅读原文。",
-      "来源": "news.bigmir.net",
-      "分类": "国际形势",
-      "日期": "2026-08-07",
-      "链接": "https://news.bigmir.net/ua/world/10406834-putin-unikaje-regioniv-rf-kudi-dolitayut-droni-zmi",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://news.bigmir.net/i/10/40/68/34/10406834/49d25a09cac1ca684926123d5f562730-resize_crop_1Xquality_100Xallow_enlarge_0Xw_1200Xh_630.jpg",
-      "数据截至": "2026-08-07T23:36:14+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 news.bigmir.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 news.bigmir.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.bigmir.net/ua/world/10406834-putin-unikaje-regioniv-rf-kudi-dolitayut-droni-zmi",
-      "出处说明": "根据news.bigmir.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3506075590,
-      "标题": "俄罗斯弹道导弹加深了乌克兰的漏洞",
-      "原标题": "Tên lửa đạn đạo Nga khoét sâu lỗ hổng Ukraine",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 vov.vn 最新报道，点击阅读原文。",
-      "来源": "vov.vn",
-      "分类": "国际形势",
-      "日期": "2026-08-07",
-      "链接": "http://vov.vn/the-gioi/quan-sat/ten-lua-dan-dao-nga-khoet-sau-lo-hong-phong-khong-ukraine-post1322225.vov",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://media.vov.vn/sites/default/files/styles/og_image/public/2026-06/Nga%20tap%20kich%20Kiev%2C%20Nga%20tap%20kich%20Ukraine%2C%20khoi%20lua%20Ukraine%2C%20khoi%20lua%20Kiev%2C%20oanh%20tac%20Ukraine%202-6-2026%20-reu.jpg?v=1786143706",
-      "数据截至": "2026-08-07T23:36:14+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 vov.vn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 vov.vn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://vov.vn/the-gioi/quan-sat/ten-lua-dan-dao-nga-khoet-sau-lo-hong-phong-khong-ukraine-post1322225.vov",
-      "出处说明": "根据vov.vn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2659600027,
-      "标题": "以色列国家电视台：美国正在向以色列施压，要求其在加沙停火两周",
-      "原标题": "İsrail devlet televizyonu : ABD , Gazzede iki haftalık ateşkes için İsraile baskı yapıyor",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 evrensel.net 最新报道，点击阅读原文。",
-      "来源": "evrensel.net",
-      "分类": "国际形势",
-      "日期": "2026-08-07",
-      "链接": "https://www.evrensel.net/haber/5995557/israil-devlet-televizyonu-abd-gazzede-iki-haftalik-ateskes-icin-israile-baski-yapiyor",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.evrensel.net/images/1280/upload/dosya/356464.jpg",
-      "数据截至": "2026-08-07T23:36:14+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 evrensel.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 evrensel.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.evrensel.net/haber/5995557/israil-devlet-televizyonu-abd-gazzede-iki-haftalik-ateskes-icin-israile-baski-yapiyor",
-      "出处说明": "根据evrensel.net公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
