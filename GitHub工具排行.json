@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T09:02:41+08:00",
+  "updated": "2026-08-08T08:45:42+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "143.6k",
+      "星标": "143.7k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,81 +63,97 @@
       "名称": "reverse-skill",
       "repo": "zhaoxuya520/reverse-skill",
       "说明": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "星标": 20182,
-      "本周新增": 10091,
+      "星标": 20769,
+      "本周新增": 10400,
       "语言": "PowerShell"
     },
     {
       "名称": "AI-For-Beginners",
       "repo": "microsoft/AI-For-Beginners",
       "说明": "12 Weeks, 24 Lessons, AI for All!",
-      "星标": 62919,
-      "本周新增": 9164,
+      "星标": 63335,
+      "本周新增": 8224,
       "语言": "Jupyter Notebook"
     },
     {
       "名称": "TencentDB-Agent-Memory",
       "repo": "TencentCloud/TencentDB-Agent-Memory",
       "说明": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "星标": 16999,
-      "本周新增": 6444,
+      "星标": 17774,
+      "本周新增": 7501,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "kaneo",
+      "repo": "usekaneo/kaneo",
+      "说明": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "星标": 7654,
+      "本周新增": 2925,
       "语言": "TypeScript"
     },
     {
       "名称": "airllm",
       "repo": "lyogavin/airllm",
       "说明": "AirLLM 70B inference with single 4GB GPU",
-      "星标": 29744,
-      "本周新增": 5222,
+      "星标": 29997,
+      "本周新增": 5521,
       "语言": "Jupyter Notebook"
-    },
-    {
-      "名称": "book-to-skill",
-      "repo": "virgiliojr94/book-to-skill",
-      "说明": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "星标": 17880,
-      "本周新增": 3903,
-      "语言": "Python"
     },
     {
       "名称": "DeepSeek-Reasonix",
       "repo": "esengine/DeepSeek-Reasonix",
       "说明": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "星标": 32721,
-      "本周新增": 4203,
+      "星标": 32976,
+      "本周新增": 4739,
       "语言": "Go"
+    },
+    {
+      "名称": "book-to-skill",
+      "repo": "virgiliojr94/book-to-skill",
+      "说明": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "星标": 18516,
+      "本周新增": 3957,
+      "语言": "Python"
     },
     {
       "名称": "openwork",
       "repo": "different-ai/openwork",
       "说明": "The open-source alternative to Claude Cowork (powered by opencode)",
-      "星标": 21357,
-      "本周新增": 2939,
+      "星标": 21511,
+      "本周新增": 2367,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "i-have-adhd",
-      "repo": "ayghri/i-have-adhd",
-      "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "星标": 17916,
-      "本周新增": 3628,
-      "语言": "Python"
     },
     {
       "名称": "ds4",
       "repo": "antirez/ds4",
       "说明": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-      "星标": 20845,
-      "本周新增": 1319,
+      "星标": 20915,
+      "本周新增": 1341,
       "语言": "C"
+    },
+    {
+      "名称": "swarm-forge",
+      "repo": "unclebob/swarm-forge",
+      "说明": "A simple tool for coordinating several AI agents.",
+      "星标": 1903,
+      "本周新增": 273,
+      "语言": "Clojure"
     },
     {
       "名称": "embabel-agent",
       "repo": "embabel/embabel-agent",
       "说明": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
-      "星标": 4001,
-      "本周新增": 154,
+      "星标": 4020,
+      "本周新增": 176,
       "语言": "Kotlin"
+    },
+    {
+      "名称": "i-have-adhd",
+      "repo": "ayghri/i-have-adhd",
+      "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "星标": 18274,
+      "本周新增": 3497,
+      "语言": "Python"
     }
   ]
 }
