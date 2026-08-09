@@ -1,8 +1,68 @@
 {
-  "updated": "2026-08-09T15:45:36+08:00",
+  "updated": "2026-08-09T16:12:51+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "d930446e",
+      "标题": "Shopify 用 MySQL 取代了 Redis 来进行库存预订，并且可以扩展",
+      "原文": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+      "摘要": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+      "来源": "Hacker News",
+      "日期": "2026-08-09",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://shopify.engineering/scaling-inventory-reservations",
+      "标签": []
+    },
+    {
+      "id": "e8e9dc01",
+      "标题": "汤姆·斯坦顿的超音速投石机仅靠重力就突破了音障",
+      "原文": "Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone",
+      "摘要": "Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone",
+      "来源": "Hacker News",
+      "日期": "2026-08-09",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
+      "标签": []
+    },
+    {
+      "id": "8e0eada2",
+      "标题": "改进 A* 寻路的启发式方法",
+      "原文": "Improving Heuristics for A* Pathfinding",
+      "摘要": "Improving Heuristics for A* Pathfinding",
+      "来源": "Hacker News",
+      "日期": "2026-08-09",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.redblobgames.com/pathfinding/heuristics/differential.html",
+      "标签": []
+    },
+    {
+      "id": "84941602",
+      "标题": "出租车司机很少死于阿尔茨海默氏症",
+      "原文": "Taxi drivers rarely die of Alzheimer's",
+      "摘要": "Taxi drivers rarely die of Alzheimer's",
+      "来源": "Hacker News",
+      "日期": "2026-08-09",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
+      "标签": []
+    },
+    {
+      "id": "c17c1200",
+      "标题": "技术很糟糕：你必须用钱包投票，否则什么都不会改变",
+      "原文": "Tech sucks: You have to vote with your wallet, or nothing will change",
+      "摘要": "Tech sucks: You have to vote with your wallet, or nothing will change",
+      "来源": "Hacker News",
+      "日期": "2026-08-09",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://82mhz.net/posts/2026/08/tech-sucks-you-have-to-vote-with-your-wallet-or-nothing-will-change/",
+      "标签": []
+    },
     {
       "id": "10c7780d",
       "标题": "硅谷误读科幻小说并破坏民主",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.bbc.com/news/articles/c4gyrzn8p94o",
-      "标签": []
-    },
-    {
-      "id": "0e3baf63",
-      "标题": "当功能标志有意义和没有意义时",
-      "原文": "When Feature Flags Do and Don't Make Sense",
-      "摘要": "When Feature Flags Do and Don't Make Sense",
-      "来源": "Hacker News",
-      "日期": "2026-08-09",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://software.rajivprab.com/2019/12/19/when-feature-flags-do-and-dont-make-sense/",
-      "标签": []
-    },
-    {
-      "id": "3648644c",
-      "标题": "抖动的 QR 码",
-      "原文": "Dithered QR Codes",
-      "摘要": "Dithered QR Codes",
-      "来源": "Hacker News",
-      "日期": "2026-08-09",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.andrewt.net/dithered-qr-codes/wtf/",
-      "标签": []
-    },
-    {
-      "id": "bbf92a4a",
-      "标题": "“Hyper Light Drifter”的声音和音乐[视频]",
-      "原文": "The Sound and Music of 'Hyper Light Drifter' [video]",
-      "摘要": "The Sound and Music of 'Hyper Light Drifter' [video]",
-      "来源": "Hacker News",
-      "日期": "2026-08-09",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://gdcvault.com/play/1024135/The-Sound-and-Music-of",
-      "标签": []
-    },
-    {
-      "id": "83833def",
-      "标题": "_待售 DNS 记录",
-      "原文": "_for-sale DNS records",
-      "摘要": "_for-sale DNS records",
-      "来源": "Hacker News",
-      "日期": "2026-08-09",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://specification.website/spec/foundations/for-sale-dns/",
-      "标签": []
-    },
-    {
-      "id": "8e330b37",
-      "标题": "Os8088：适用于 IBM XT、286、386 的强大的类 Mac 操作系统",
-      "原文": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
-      "摘要": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
-      "来源": "Hacker News",
-      "日期": "2026-08-09",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://os8088.com/",
       "标签": []
     }
   ]
