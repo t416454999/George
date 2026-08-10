@@ -1,8 +1,20 @@
 {
-  "updated": "2026-08-10T08:41:59+08:00",
+  "updated": "2026-08-10T10:01:15+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "e07d30f4",
+      "标题": "Rust 中的尾调用解释器 – Jimmy Ostler",
+      "原文": "Tail-Call Interpreters in Rust – Jimmy Ostler",
+      "摘要": "Tail-Call Interpreters in Rust – Jimmy Ostler",
+      "来源": "Hacker News",
+      "日期": "2026-08-10",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://lordgoati.us/blog/tail-call/",
+      "标签": []
+    },
     {
       "id": "1418eb97",
       "标题": "基于别名的借用检查器公式 (2018)",
@@ -589,18 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
-      "标签": []
-    },
-    {
-      "id": "3c2962ee",
-      "标题": "删除 Microsoft GDID 的所有实例并防止创建新实例",
-      "原文": "Deletes all instances of Microsoft's GDID and prevents minting of new ones",
-      "摘要": "Deletes all instances of Microsoft's GDID and prevents minting of new ones",
-      "来源": "Hacker News",
-      "日期": "2026-08-09",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/yegors/deGDID",
       "标签": []
     }
   ]
