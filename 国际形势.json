@@ -1,13 +1,40 @@
 {
-  "updated": "2026-08-11T00:02:08+08:00",
-  "as_of": "2026-08-11T00:02:08+08:00",
+  "updated": "2026-08-11T01:05:16+08:00",
+  "as_of": "2026-08-11T01:05:16+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 3663440698,
+      "标题": "从废弃油桶到世界舞台：钢鼓见证文化传承与创新",
+      "摘要": "一个废弃的油桶，能变成什么？在特立尼达和多巴哥，人们给出的答案是：一件能够奏响动人旋律的乐器。 20世纪初，当地民众将废弃油桶改造成钢鼓，创造出20世纪唯一诞生的原声乐器。如今，钢鼓的旋律早已传遍世界，不仅成为加勒比文化的重要象征，也延续着源自西非打击乐的音乐传统。 2023年，联合国大会通过决议，决定将每年的8月11日定为“世界钢鼓日”，旨在提升国际社会对钢鼓文化价值的认识，推动这一诞生于特立尼达和多巴哥、被誉为20世纪唯一新发明原声",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-10",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142590",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3663440698.webp",
+      "封面": "assets/media/un-3663440698.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/11-08-2025-Unsplash-steel-pan.jpg/image560x340cropped.jpg",
+      "导语": "一个废弃的油桶，能变成什么？在特立尼达和多巴哥，人们给出的答案是：一件能够奏响动人旋律的乐器。 20世纪初，当地民众将废弃油桶改造成钢鼓，创造出20世纪唯一诞生的原声乐器。如今，钢鼓的旋律早已传遍世界，不仅成为加勒比文化",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "一个废弃的油桶，能变成什么？在特立尼达和多巴哥，人们给出的答案是：一件能够奏响动人旋律的乐器。 20世纪初，当地民众将废弃油桶改造成钢鼓，创造出20世纪唯一诞生的原声乐器。如今，钢鼓的旋律早已传遍世界，不仅成为加勒比文化的重要象征，也延续着源自西非打击乐的音乐传统。 2023年，联合国大会通过决议，决定将每年的8月11日定为“世界钢鼓日”，旨在提升国际社会对钢鼓文化价值的认识，推动这一诞生于特立尼达和多巴哥、被誉为20世纪唯一新发明原声。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142590",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 3437208291,
       "标题": "身处气候危机中的巴西土著青年：“被看见、被听到”就是“抵抗力”",
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.thurrockgazette.co.uk/news/national/26450462.irans-president-says-supreme-leader-urges-unity-amid-us-sanctions/",
       "出处说明": "根据thurrockgazette.co.uk公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1880449579,
-      "标题": "最新动态：进步人士挑战威斯康星州和明尼苏达州民主党初选的建制派",
-      "原标题": "The Latest : Progressives challenge establishment in Democratic primaries in Wisconsin and Minnesota",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 leadertelegram.com 最新报道，点击阅读原文。",
-      "来源": "leadertelegram.com",
-      "分类": "国际形势",
-      "日期": "2026-08-10",
-      "链接": "http://www.leadertelegram.com/news/nation-world/the-latest-progressives-challenge-establishment-in-democratic-primaries-in-wisconsin-and-minnesota/article_135c88e3-c47f-587a-9c96-b76ff9a5fd11.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://bloximages.chicago2.vip.townnews.com/leadertelegram.com/content/tncms/assets/v3/editorial/3/2b/32bbb03e-16c0-59fb-9d1d-d418435547dd/6a79c19a79a28.image.jpg?crop=1763%2C926%2C0%2C124",
-      "数据截至": "2026-08-10T16:01:59+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 leadertelegram.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 leadertelegram.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.leadertelegram.com/news/nation-world/the-latest-progressives-challenge-establishment-in-democratic-primaries-in-wisconsin-and-minnesota/article_135c88e3-c47f-587a-9c96-b76ff9a5fd11.html",
-      "出处说明": "根据leadertelegram.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
