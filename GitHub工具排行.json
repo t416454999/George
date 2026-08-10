@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-09T08:46:59+08:00",
+  "updated": "2026-08-10T09:25:45+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "178.1k",
+      "星标": "178.2k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "143.8k",
+      "星标": "143.9k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,96 +63,96 @@
       "名称": "reverse-skill",
       "repo": "zhaoxuya520/reverse-skill",
       "说明": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "星标": 21943,
-      "本周新增": 9635,
+      "星标": 22994,
+      "本周新增": 9784,
       "语言": "PowerShell"
     },
     {
       "名称": "TencentDB-Agent-Memory",
       "repo": "TencentCloud/TencentDB-Agent-Memory",
       "说明": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "星标": 18443,
-      "本周新增": 8046,
+      "星标": 19098,
+      "本周新增": 8003,
       "语言": "TypeScript"
     },
     {
       "名称": "airllm",
       "repo": "lyogavin/airllm",
       "说明": "AirLLM 70B inference with single 4GB GPU",
-      "星标": 30231,
-      "本周新增": 5711,
-      "语言": "Jupyter Notebook"
-    },
-    {
-      "名称": "AI-For-Beginners",
-      "repo": "microsoft/AI-For-Beginners",
-      "说明": "12 Weeks, 24 Lessons, AI for All!",
-      "星标": 63760,
-      "本周新增": 7469,
+      "星标": 30458,
+      "本周新增": 5129,
       "语言": "Jupyter Notebook"
     },
     {
       "名称": "DeepSeek-Reasonix",
       "repo": "esengine/DeepSeek-Reasonix",
       "说明": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "星标": 33278,
-      "本周新增": 4704,
+      "星标": 33596,
+      "本周新增": 4709,
       "语言": "Go"
+    },
+    {
+      "名称": "AI-For-Beginners",
+      "repo": "microsoft/AI-For-Beginners",
+      "说明": "12 Weeks, 24 Lessons, AI for All!",
+      "星标": 64272,
+      "本周新增": 5514,
+      "语言": "Jupyter Notebook"
     },
     {
       "名称": "kaneo",
       "repo": "usekaneo/kaneo",
       "说明": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
-      "星标": 7795,
-      "本周新增": 2259,
+      "星标": 7975,
+      "本周新增": 1952,
       "语言": "TypeScript"
     },
     {
       "名称": "book-to-skill",
       "repo": "virgiliojr94/book-to-skill",
       "说明": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "星标": 19096,
-      "本周新增": 4071,
+      "星标": 19681,
+      "本周新增": 4121,
       "语言": "Python"
-    },
-    {
-      "名称": "openwork",
-      "repo": "different-ai/openwork",
-      "说明": "The open-source alternative to Claude Cowork (powered by opencode)",
-      "星标": 21652,
-      "本周新增": 1834,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "swarm-forge",
-      "repo": "unclebob/swarm-forge",
-      "说明": "A simple tool for coordinating several AI agents.",
-      "星标": 2000,
-      "本周新增": 504,
-      "语言": "Clojure"
     },
     {
       "名称": "skills",
       "repo": "google/skills",
       "说明": "Agent Skills for Google products and technologies",
-      "星标": 16911,
-      "本周新增": 1143,
+      "星标": 17466,
+      "本周新增": 1626,
       "语言": "Python"
     },
     {
-      "名称": "ds4",
-      "repo": "antirez/ds4",
-      "说明": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-      "星标": 21006,
-      "本周新增": 1254,
-      "语言": "C"
+      "名称": "swarm-forge",
+      "repo": "unclebob/swarm-forge",
+      "说明": "A simple tool for coordinating several AI agents.",
+      "星标": 2084,
+      "本周新增": 562,
+      "语言": "Clojure"
     },
     {
       "名称": "ComfyUI",
       "repo": "Comfy-Org/ComfyUI",
       "说明": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "星标": 125034,
-      "本周新增": 1778,
+      "星标": 125917,
+      "本周新增": 2018,
+      "语言": "Python"
+    },
+    {
+      "名称": "code-graph-rag",
+      "repo": "vitali87/code-graph-rag",
+      "说明": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "星标": 3289,
+      "本周新增": 236,
+      "语言": "Python"
+    },
+    {
+      "名称": "agents",
+      "repo": "livekit/agents",
+      "说明": "A framework for building realtime voice AI agents 🤖🎙️📹",
+      "星标": 12872,
+      "本周新增": 1138,
       "语言": "Python"
     }
   ]
