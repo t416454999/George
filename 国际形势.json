@@ -1,16 +1,43 @@
 {
-  "updated": "2026-08-11T23:00:10+08:00",
-  "as_of": "2026-08-11T23:00:10+08:00",
+  "updated": "2026-08-12T00:07:47+08:00",
+  "as_of": "2026-08-12T00:07:47+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
     {
-      "id": 136981755,
-      "标题": "哥伦比亚再次发生强烈地震，联合国提供援助",
+      "id": 667184657,
+      "标题": "安理会：联合国官员警告约旦河西岸局势恶化 呼吁采取紧急行动",
+      "摘要": "联合国中东和平进程副特别协调员阿拉克巴罗夫周二向安理会通报中东局势时表示，尽管加沙地带脆弱停火和地区紧张局势受到国际社会关注，被占领的约旦河西岸（包括东耶路撒冷）已处于崩溃边缘",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142612",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-667184657.webp",
+      "封面": "assets/media/un-667184657.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-04-2026-UN-Photo-SC-wideview.jpg/image560x340cropped.jpg",
+      "导语": "联合国中东和平进程副特别协调员阿拉克巴罗夫周二向安理会通报中东局势时表示，尽管加沙地带脆弱停火和地区紧张局势受到国际社会关注，被占领的约旦河西岸（包括东耶路撒冷）已处于崩溃边缘",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国中东和平进程副特别协调员阿拉克巴罗夫周二向安理会通报中东局势时表示，尽管加沙地带脆弱停火和地区紧张局势受到国际社会关注，被占领的约旦河西岸（包括东耶路撒冷）已处于崩溃边缘。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142612",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2443873932,
+      "标题": "哥伦比亚发生强烈地震，联合国提供援助",
       "摘要": "联合国系统正与哥伦比亚当局保持联系，应急团队正努力抵达受灾社区，但农村地区通信不畅，给评估灾情全貌带来了困难",
       "来源": "联合国新闻",
       "分类": "国际形势",
@@ -20,8 +47,8 @@
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-136981755.webp",
-      "封面": "assets/media/un-136981755.webp",
+      "图片": "assets/media/un-2443873932.webp",
+      "封面": "assets/media/un-2443873932.webp",
       "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/10-08-2026-Colombia-earthquake-01.jpg/image560x340cropped.jpg",
       "导语": "联合国系统正与哥伦比亚当局保持联系，应急团队正努力抵达受灾社区，但农村地区通信不畅，给评估灾情全貌带来了困难",
       "要点": [
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://ria.ru/20260811/svo-2110266485.html",
       "出处说明": "根据ria.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1222468992,
-      "标题": "最新消息：特朗普重新转向制裁伊朗，作为结束战争失败的其他战略",
-      "原标题": "The Latest : Trump pivots back to sanctions for Iran as other strategies to end his war fizzle",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 stardem.com 最新报道，点击阅读原文。",
-      "来源": "stardem.com",
-      "分类": "国际形势",
-      "日期": "2026-08-11",
-      "链接": "http://www.stardem.com/ap/nation/the-latest-trump-pivots-back-to-sanctions-for-iran-as-other-strategies-to-end-his/article_0be8a189-355a-5ce9-8ec6-5d2b1f4f7dc5.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://bloximages.chicago2.vip.townnews.com/stardem.com/content/tncms/assets/v3/editorial/5/4c/54c2490f-2e43-5e8c-b60d-eb9486c263f1/6a7abe9fb6acd.image.jpg?crop=1763%2C926%2C0%2C124",
-      "数据截至": "2026-08-11T15:00:04+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 stardem.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 stardem.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.stardem.com/ap/nation/the-latest-trump-pivots-back-to-sanctions-for-iran-as-other-strategies-to-end-his/article_0be8a189-355a-5ce9-8ec6-5d2b1f4f7dc5.html",
-      "出处说明": "根据stardem.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
