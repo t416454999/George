@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T00:07:58+08:00",
+  "generated": "2026-08-12T01:30:35+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 667184657,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -32,7 +32,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
     },
     {
       "id": 822519839,
@@ -85,7 +85,45 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
+    },
+    {
+      "id": 138008339,
+      "标题": "【原生·模型】在 ChatGPT 中测试广告",
+      "摘要": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "内容": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-08-11",
+      "热度": 67,
+      "链接": "https://openai.com/index/testing-ads-in-chatgpt",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "原标题": "【原生·模型】Testing ads in ChatGPT",
+      "中文提炼": "",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/21TdmlEzFwgoo7ZER7SNCV/001b3d542fd4d025a2dcd1a5ab9417fe/OAI_AdsTest_Blog_OpenGraph_1200x630.png?w=1600&amp;h=900&amp;fit=fill",
+      "候选栏目": "AI",
+      "编辑分": 80,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-12T01:30:35+08:00"
     },
     {
       "id": 3984532106,
@@ -133,26 +171,25 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
     },
     {
-      "id": 31391130,
-      "标题": "【原生·模型】ChatGPT Business 即将推出高级席位",
-      "摘要": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding",
-      "内容": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding",
-      "来源": "OpenAI 官方",
+      "id": 4263211749,
+      "标题": "【原生·模型】超越路由权重：通过贡献对比对专家混合奖励模型进行忠实的响应水平解释",
+      "摘要": "arXiv:2608.06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging.",
+      "内容": "arXiv:2608.06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging.",
+      "来源": "arXiv AI",
       "分类": "原生资讯",
       "日期": "2026-08-10",
-      "热度": 58,
-      "链接": "https://openai.com/index/premium-seats-chatgpt-business",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2608.06400",
       "标签": [
         "原生资讯",
-        "OpenAI 官方",
-        "ChatGPT"
+        "arXiv AI"
       ],
-      "原标题": "【原生·模型】Premium seats are coming to ChatGPT Business",
+      "原标题": "【原生·模型】Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
       "中文提炼": "",
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/1qTt5Tfbx2Uxm4KkaAlsvL/620bc01bbd5cd6346cb5ca32d9ca4715/premium-seats-seo-16x9.png?w=1600&amp;h=900&amp;fit=fill",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
       "编辑分": 79,
       "评分分项": {
@@ -170,78 +207,41 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
     },
     {
-      "id": 2212262643,
-      "标题": "【原生·模型】维珍航空通过 ChatGPT Work 提升客户旅程",
-      "摘要": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer",
-      "内容": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
+      "id": 3749548366,
+      "标题": "乌克兰人道主义援助仓库遭袭",
+      "摘要": "俄罗斯对乌克兰持续进行的大规模入侵，使平民屡遭致命袭击，人道主义工作者和关键设施也成为袭击目标并遭到破坏",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
       "日期": "2026-08-10",
-      "热度": 58,
-      "链接": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142606",
       "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "ChatGPT"
+        "国际",
+        "联合国"
       ],
-      "原标题": "【原生·模型】Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "中文提炼": "",
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/2D8DFH38WMdgasAYYA59oq/8ac7e51eea7443331de30805b82c9b24/oai_VirginAtlantic_SEO.png?w=1600&amp;h=900&amp;fit=fill",
-      "候选栏目": "AI",
+      "图片": "assets/media/un-3749548366.webp",
+      "封面": "assets/media/un-3749548366.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/10-08-2026-WHO-Ukraine-01.jpg/image560x340cropped.jpg",
+      "导语": "俄罗斯对乌克兰持续进行的大规模入侵，使平民屡遭致命袭击，人道主义工作者和关键设施也成为袭击目标并遭到破坏",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "俄罗斯对乌克兰持续进行的大规模入侵，使平民屡遭致命袭击，人道主义工作者和关键设施也成为袭击目标并遭到破坏。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142606",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "ok",
       "编辑分": 79,
       "评分分项": {
         "可信度": 25,
         "时效": 8,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
-    },
-    {
-      "id": 853393037,
-      "标题": "【世界进行时】2026年8月7日",
-      "摘要": "本期要点：儿基会：加沙停火300天，至少300名儿童遇难；乌克兰平民伤亡持续增加，联合国谴责俄罗斯新一轮袭击；“生物污损”—— 困在霍尔木兹海峡的船只面临的另一种威胁；广岛原子弹爆炸81周年，古特雷斯呼吁各国共同降低核风险；粮食署：“厄尔尼诺”现象或致数千万人陷入急性饥饿；非洲首当其冲承受着生物多样性丧失的后果；世行报告：人工智能可为发展中经济体提供新机遇，同时带来新的风险",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-08-07",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142603",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-853393037.webp",
-      "封面": "assets/media/un-853393037.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/24-00009ag_UNWeekly_YouTube_thumbnail_1280x720px_C.jpg/image560x340cropped.jpg",
-      "导语": "本期要点：儿基会：加沙停火300天，至少300名儿童遇难；乌克兰平民伤亡持续增加，联合国谴责俄罗斯新一轮袭击；“生物污损”—— 困在霍尔木兹海峡的船只面临的另一种威胁；广岛原子弹爆炸81周年，古特雷斯呼吁各国共同降低核风",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "本期要点：儿基会：加沙停火300天，至少300名儿童遇难；乌克兰平民伤亡持续增加，联合国谴责俄罗斯新一轮袭击；“生物污损”—— 困在霍尔木兹海峡的船只面临的另一种威胁；广岛原子弹爆炸81周年，古特雷斯呼吁各国共同降低核风险；粮食署：“厄尔尼诺”现象或致数千万人陷入急性饥饿；非洲首当其冲承受着生物多样性丧失的后果；世行报告：人工智能可为发展中经济体提供新机遇，同时带来新的风险。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142603",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "partial",
-      "编辑分": 78,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 5,
@@ -253,41 +253,41 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
     },
     {
-      "id": 749791092,
-      "标题": "天气、能源及地缘政治因素推动国际食品价格指数7月小幅上涨",
-      "摘要": "粮农组织周五发布的最新数据显示，受近期热浪、能源价格波动及地缘政治因素影响，谷物、植物油和糖的国际报价上涨，推动2026年7月全球食品大宗商品价格基准指标小幅回升",
+      "id": 3407526566,
+      "标题": "刚果（金）：埃博拉病毒在患者尚未就医前便已夺走他们的生命",
+      "摘要": "在刚果民主共和国（刚果（金））暴发的埃博拉疫情中，已有超过1900人死亡——其中大多数人甚至未能抵达治疗中心。60%至70%的死亡病例发生在远离医疗服务社区的地区，这一缺口现已成为世界卫生组织应对工作的核心",
       "来源": "联合国新闻",
       "分类": "国际形势",
-      "日期": "2026-08-07",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142596",
+      "日期": "2026-08-10",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142609",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-749791092.webp",
-      "封面": "assets/media/un-749791092.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/07-08-2026-FAO-Chile.jpg/image560x340cropped.jpg",
-      "导语": "粮农组织周五发布的最新数据显示，受近期热浪、能源价格波动及地缘政治因素影响，谷物、植物油和糖的国际报价上涨，推动2026年7月全球食品大宗商品价格基准指标小幅回升",
+      "图片": "assets/media/un-3407526566.webp",
+      "封面": "assets/media/un-3407526566.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-UNICEF-DR-Congo-ebola.jpg/image560x340cropped.jpg",
+      "导语": "在刚果民主共和国（刚果（金））暴发的埃博拉疫情中，已有超过1900人死亡——其中大多数人甚至未能抵达治疗中心。60%至70%的死亡病例发生在远离医疗服务社区的地区，这一缺口现已成为世界卫生组织应对工作的核心",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "粮农组织周五发布的最新数据显示，受近期热浪、能源价格波动及地缘政治因素影响，谷物、植物油和糖的国际报价上涨，推动2026年7月全球食品大宗商品价格基准指标小幅回升。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "在刚果民主共和国（刚果（金））暴发的埃博拉疫情中，已有超过1900人死亡——其中大多数人甚至未能抵达治疗中心。60%至70%的死亡病例发生在远离医疗服务社区的地区，这一缺口现已成为世界卫生组织应对工作的核心。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142596",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142609",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
-      "编辑分": 78,
+      "栏目状态": "ok",
+      "编辑分": 79,
       "评分分项": {
         "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
+        "时效": 8,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 5,
@@ -299,7 +299,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
     },
     {
       "id": 1694100346,
@@ -347,7 +347,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
     },
     {
       "id": 4283726279,
@@ -395,7 +395,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
     },
     {
       "id": 3278245669,
@@ -443,16 +443,52 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-12T00:07:58+08:00"
+      "选入时间": "2026-08-12T01:30:35+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-08-12T00:07:58+08:00",
+    "as_of": "2026-08-12T01:30:35+08:00",
     "candidate_count": 603,
-    "rejected_count": 452,
+    "rejected_count": 453,
     "rejected": [
       {
+        "id": 605091589,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4118758638,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3058436794,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2729991396,
+        "reason": "off_topic"
+      },
+      {
+        "id": 256458379,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2433453831,
+        "reason": "off_topic"
+      },
+      {
         "id": 2200058635,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1763492321,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1552158031,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1434832628,
         "reason": "off_topic"
       },
       {
@@ -1931,128 +1967,97 @@
         "reason": "off_topic"
       },
       {
-        "id": 4124822646,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4092129411,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4037177128,
-        "reason": "off_topic"
-      },
-      {
-        "id": 397555734,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3963509316,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3922536537,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3914547053,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3813458530,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3757075328,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2659029534,
+        "id": 2875550049,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 853638186,
+        "id": 2071967466,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3019936068,
+        "id": 830556394,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3506419748,
+        "id": 2958709052,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 2693591821,
+        "id": 3600042904,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 2249986917,
+        "id": 3635002013,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 2860481691,
+        "id": 2144784129,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 4176096134,
+        "id": 4044736827,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 487691998,
+        "id": 2508648066,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3686828145,
+        "id": 3337692446,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 964833943,
+        "id": 3336579,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3532162169,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 4190829323,
+        "id": 616085183,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 499191961,
+        "id": 831922533,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 4250169990,
+        "id": 527750304,
         "reason": "score_below_50",
         "score": 33
+      },
+      {
+        "id": 1321091230,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3003358490,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1575882181,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1227715845,
+        "reason": "score_below_50",
+        "score": 32
       },
       {
         "id": 3785638585,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 410758032,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2449814100,
         "reason": "score_below_50",
         "score": 32
       },
@@ -2062,18 +2067,23 @@
         "score": 37
       },
       {
+        "id": 2040366204,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 3553284823,
         "reason": "score_below_50",
         "score": 37
       },
       {
-        "id": 3432682453,
-        "reason": "sensational_title"
-      },
-      {
-        "id": 882984960,
+        "id": 2449814100,
         "reason": "score_below_50",
         "score": 32
+      },
+      {
+        "id": 3432682453,
+        "reason": "sensational_title"
       },
       {
         "id": 103555640,
@@ -2081,7 +2091,7 @@
         "score": 32
       },
       {
-        "id": 968771195,
+        "id": 2771084293,
         "reason": "score_below_50",
         "score": 32
       },
@@ -2091,14 +2101,9 @@
         "score": 32
       },
       {
-        "id": 4189382889,
+        "id": 4077712151,
         "reason": "score_below_50",
         "score": 37
-      },
-      {
-        "id": 460398471,
-        "reason": "score_below_50",
-        "score": 32
       },
       {
         "id": 2488645258,
@@ -2116,7 +2121,7 @@
         "score": 28
       },
       {
-        "id": 3273456628,
+        "id": 3681045458,
         "reason": "score_below_50",
         "score": 28
       },
@@ -2156,7 +2161,7 @@
         "score": 16
       },
       {
-        "id": 1529511889,
+        "id": 619245987,
         "reason": "score_below_50",
         "score": 16
       },
@@ -2171,7 +2176,7 @@
         "score": 26
       },
       {
-        "id": 423826758,
+        "id": 757341660,
         "reason": "score_below_50",
         "score": 26
       },
