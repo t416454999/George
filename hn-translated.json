@@ -1,8 +1,56 @@
 {
-  "updated": "2026-08-11T19:20:17+08:00",
+  "updated": "2026-08-11T20:06:35+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "b272534b",
+      "标题": "Apple Silicon 和 macOS VM：使用 llama.cpp 加快 LLM 推理速度",
+      "原文": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+      "摘要": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+      "来源": "Hacker News",
+      "日期": "2026-08-11",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "标签": []
+    },
+    {
+      "id": "4889a985",
+      "标题": "一项关于运行商店的机器人的新研究发现它很友好，但不太聪明",
+      "原文": "A new study of a bot running a store finds it is friendly but not very smart",
+      "摘要": "A new study of a bot running a store finds it is friendly but not very smart",
+      "来源": "Hacker News",
+      "日期": "2026-08-11",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.nytimes.com/2026/08/04/us/ai-boss-san-francisco-andon-market.html",
+      "标签": []
+    },
+    {
+      "id": "bf353358",
+      "标题": "整个 PyTorch 都在一页上",
+      "原文": "The whole of PyTorch on one page",
+      "摘要": "The whole of PyTorch on one page",
+      "来源": "Hacker News",
+      "日期": "2026-08-11",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://tensor.khalilli.ai/blog/part-0-the-map/",
+      "标签": []
+    },
+    {
+      "id": "89d0b422",
+      "标题": "Nvidia Nemotron 3.5 闪电和 NeMo Switchyard",
+      "原文": "Nvidia Nemotron 3.5 lightning and NeMo Switchyard",
+      "摘要": "Nvidia Nemotron 3.5 lightning and NeMo Switchyard",
+      "来源": "Hacker News",
+      "日期": "2026-08-11",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "标签": []
+    },
     {
       "id": "4bc9f009",
       "标题": "H3-metal – Apple Silicon 的原生 MiniMax-H3 推理",
@@ -553,54 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://pythonspeed.com/articles/faster-float-math-rust/",
-      "标签": []
-    },
-    {
-      "id": "70ee6a3d",
-      "标题": "英国的匿名战争已经蔓延至美国",
-      "原文": "The UK's war on anonymity has come to America",
-      "摘要": "The UK's war on anonymity has come to America",
-      "来源": "Hacker News",
-      "日期": "2026-08-11",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.effort.news/uk-lobby",
-      "标签": []
-    },
-    {
-      "id": "44112185",
-      "标题": "法国将禁止未经请求的电话营销电话",
-      "原文": "France to ban unsolicited telemarketing calls",
-      "摘要": "France to ban unsolicited telemarketing calls",
-      "来源": "Hacker News",
-      "日期": "2026-08-11",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
-      "标签": []
-    },
-    {
-      "id": "99679200",
-      "标题": "为了拯救 C，我们必须拯救 ABI",
-      "原文": "To Save C, We Must Save ABI",
-      "摘要": "To Save C, We Must Save ABI",
-      "来源": "Hacker News",
-      "日期": "2026-08-11",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://thephd.dev/to-save-c-we-must-save-abi-fixing-c-function-abi",
-      "标签": []
-    },
-    {
-      "id": "116af3e3",
-      "标题": "随着人工智能吞噬网络，互联网的集体记忆正在消失",
-      "原文": "As AI eats the web, the internet’s collective memory is disappearing",
-      "摘要": "As AI eats the web, the internet’s collective memory is disappearing",
-      "来源": "Hacker News",
-      "日期": "2026-08-11",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://thewalrus.ca/google-search-is-dying/",
       "标签": []
     }
   ]
