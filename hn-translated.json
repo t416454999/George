@@ -1,8 +1,80 @@
 {
-  "updated": "2026-08-12T14:40:24+08:00",
+  "updated": "2026-08-12T15:36:00+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "3f6ff6f1",
+      "标题": "Qwen/Qwen3.8-2.4T-A95B",
+      "原文": "Qwen/Qwen3.8-2.4T-A95B",
+      "摘要": "Qwen/Qwen3.8-2.4T-A95B",
+      "来源": "Hacker News",
+      "日期": "2026-08-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+      "标签": []
+    },
+    {
+      "id": "d62146fe",
+      "标题": "uBlock Origin 放弃阻止 Facebook 上广告的斗争",
+      "原文": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "摘要": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "来源": "Hacker News",
+      "日期": "2026-08-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+      "标签": []
+    },
+    {
+      "id": "fe07b81b",
+      "标题": "通过中点 Hessian 求解 $2^{0.6039n}$ 时间内的最短向量问题",
+      "原文": "Solving the Shortest Vector Problem in $2^{0.6039n}$ Time via Mid-Point Hessian",
+      "摘要": "Solving the Shortest Vector Problem in $2^{0.6039n}$ Time via Mid-Point Hessian",
+      "来源": "Hacker News",
+      "日期": "2026-08-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://arxiv.org/abs/2608.02478",
+      "标签": []
+    },
+    {
+      "id": "ba896e88",
+      "标题": "GiveCampus (YC S15) 正在招聘工程经理",
+      "原文": "GiveCampus (YC S15) Is Hiring Engineering Managers",
+      "摘要": "GiveCampus (YC S15) Is Hiring Engineering Managers",
+      "来源": "Hacker News",
+      "日期": "2026-08-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://job-boards.greenhouse.io/givecampus/jobs/4112793009",
+      "标签": []
+    },
+    {
+      "id": "7f506bca",
+      "标题": "Tailscale 追踪数据库损坏至 16y/o SQLite WAL 重置错误",
+      "原文": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "摘要": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "来源": "Hacker News",
+      "日期": "2026-08-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "标签": []
+    },
+    {
+      "id": "02c53c29",
+      "标题": "车牌阅读器搜查应需要搜查令",
+      "原文": "License Plate Reader Searches Should Require a Warrant",
+      "摘要": "License Plate Reader Searches Should Require a Warrant",
+      "来源": "Hacker News",
+      "日期": "2026-08-12",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+      "标签": []
+    },
     {
       "id": "e1fbd835",
       "标题": "有人正在运行大规模漏洞扫描，欺骗像 ClaudeBot 这样的人工智能机器人",
@@ -529,78 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://github.com/rimironenko/rag-staleness-check",
-      "标签": []
-    },
-    {
-      "id": "68830cc1",
-      "标题": "来自地球深处的中微子提供了地幔的新图片",
-      "原文": "Neutrinos from Deep Inside Earth Provide a New Picture of the Mantle",
-      "摘要": "Neutrinos from Deep Inside Earth Provide a New Picture of the Mantle",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
-      "标签": []
-    },
-    {
-      "id": "3e214332",
-      "标题": "“每一毫米都很重要”：在悉尼港下挖掘隧道的野兽内部",
-      "原文": "'Every millimetre counts': Inside the beast tunnelling under Sydney Harbour",
-      "摘要": "'Every millimetre counts': Inside the beast tunnelling under Sydney Harbour",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.smh.com.au/national/nsw/every-millimetre-counts-inside-the-beast-tunnelling-under-sydney-harbour-20260804-p60la1.html",
-      "标签": []
-    },
-    {
-      "id": "f19975e8",
-      "标题": "公司提供“100% 人工编写，绝不人工智能” 医学研究是 100% 人工智能",
-      "原文": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-      "摘要": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-      "标签": []
-    },
-    {
-      "id": "0c6b9294",
-      "标题": "新贝德福德警官被指控使用 Flock 摄像头追踪前伴侣",
-      "原文": "New Bedford police officer accused of using Flock cameras to track ex-partner",
-      "摘要": "New Bedford police officer accused of using Flock cameras to track ex-partner",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://newbedfordlight.org/new-bedford-police-officer-accused-of-using-flock-cameras-to-track-and-follow-ex-romantic-partner/",
-      "标签": []
-    },
-    {
-      "id": "cc48d338",
-      "标题": "人就是循环",
-      "原文": "The Human Is the Loop",
-      "摘要": "The Human Is the Loop",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
-      "标签": []
-    },
-    {
-      "id": "d190d57a",
-      "标题": "曼哈顿最勤奋的字体 (2025)",
-      "原文": "The hardest working font in Manhattan (2025)",
-      "摘要": "The hardest working font in Manhattan (2025)",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://aresluna.org/the-hardest-working-font-in-manhattan/",
       "标签": []
     }
   ]
