@@ -1,8 +1,68 @@
 {
-  "updated": "2026-08-13T04:27:56+08:00",
+  "updated": "2026-08-13T05:56:00+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "e1fbd835",
+      "标题": "有人正在运行大规模漏洞扫描，欺骗像 ClaudeBot 这样的人工智能机器人",
+      "原文": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "摘要": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "来源": "Hacker News",
+      "日期": "2026-08-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://knownagents.com/insights",
+      "标签": []
+    },
+    {
+      "id": "16d28154",
+      "标题": "从橡胶靴到美洲杯：MicroProse Soccer 彻底改变了足球运动",
+      "原文": "From rubber boots to Copa: When MicroProse Soccer revolutionized football",
+      "摘要": "From rubber boots to Copa: When MicroProse Soccer revolutionized football",
+      "来源": "Hacker News",
+      "日期": "2026-08-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://spillhistorie.no/2026/08/08/fra-gummistovler-til-copa-da-microprose-soccer-revolusjonerte-fotballen/",
+      "标签": []
+    },
+    {
+      "id": "eab92b16",
+      "标题": "“小人物”幻觉背后的蘑菇被发现",
+      "原文": "Mushroom behind 'tiny people' hallucinations identified",
+      "摘要": "Mushroom behind 'tiny people' hallucinations identified",
+      "来源": "Hacker News",
+      "日期": "2026-08-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://phys.org/news/2026-08-qa-mushroom-tiny-people-hallucinations.html",
+      "标签": []
+    },
+    {
+      "id": "7db1c927",
+      "标题": "美国真的可能让委内瑞拉恢复民主",
+      "原文": "America really might restore democracy to Venezuela",
+      "摘要": "America really might restore democracy to Venezuela",
+      "来源": "Hacker News",
+      "日期": "2026-08-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://economist.com/leaders/2026/08/12/america-really-might-restore-democracy-to-venezuela",
+      "标签": []
+    },
+    {
+      "id": "1697a129",
+      "标题": "Antiqua-Fraktur 争端",
+      "原文": "Antiqua–Fraktur dispute",
+      "摘要": "Antiqua–Fraktur dispute",
+      "来源": "Hacker News",
+      "日期": "2026-08-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://en.wikipedia.org/wiki/Antiqua%E2%80%93Fraktur_dispute",
+      "标签": []
+    },
     {
       "id": "3b2d04a5",
       "标题": "城市环境中放射源定位的概率估计",
@@ -541,66 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "标签": []
-    },
-    {
-      "id": "d62146fe",
-      "标题": "uBlock Origin 放弃阻止 Facebook 上广告的斗争",
-      "原文": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
-      "摘要": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
-      "标签": []
-    },
-    {
-      "id": "fe07b81b",
-      "标题": "通过中点 Hessian 求解 $2^{0.6039n}$ 时间内的最短向量问题",
-      "原文": "Solving the Shortest Vector Problem in $2^{0.6039n}$ Time via Mid-Point Hessian",
-      "摘要": "Solving the Shortest Vector Problem in $2^{0.6039n}$ Time via Mid-Point Hessian",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://arxiv.org/abs/2608.02478",
-      "标签": []
-    },
-    {
-      "id": "ba896e88",
-      "标题": "GiveCampus (YC S15) 正在招聘工程经理",
-      "原文": "GiveCampus (YC S15) Is Hiring Engineering Managers",
-      "摘要": "GiveCampus (YC S15) Is Hiring Engineering Managers",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://job-boards.greenhouse.io/givecampus/jobs/4112793009",
-      "标签": []
-    },
-    {
-      "id": "7f506bca",
-      "标题": "Tailscale 追踪数据库损坏至 16y/o SQLite WAL 重置错误",
-      "原文": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "摘要": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-      "标签": []
-    },
-    {
-      "id": "02c53c29",
-      "标题": "车牌阅读器搜查应需要搜查令",
-      "原文": "License Plate Reader Searches Should Require a Warrant",
-      "摘要": "License Plate Reader Searches Should Require a Warrant",
-      "来源": "Hacker News",
-      "日期": "2026-08-12",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
       "标签": []
     }
   ]
