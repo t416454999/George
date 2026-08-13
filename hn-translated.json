@@ -1,8 +1,44 @@
 {
-  "updated": "2026-08-13T18:31:32+08:00",
+  "updated": "2026-08-13T19:38:48+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "f385de23",
+      "标题": "基米K3是什么？ 2026 年完整开发者指南",
+      "原文": "What Is Kimi K3? A Complete Developer Guide for 2026",
+      "摘要": "What Is Kimi K3? A Complete Developer Guide for 2026",
+      "来源": "Hacker News",
+      "日期": "2026-08-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.firecrawl.dev/blog/kimi-k3",
+      "标签": []
+    },
+    {
+      "id": "064258bd",
+      "标题": "理解是新的瓶颈",
+      "原文": "Understanding is the new bottleneck",
+      "摘要": "Understanding is the new bottleneck",
+      "来源": "Hacker News",
+      "日期": "2026-08-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+      "标签": []
+    },
+    {
+      "id": "71c5f41b",
+      "标题": "单个日志行 systemd-journald 磁盘写入量为 49KB+ (ext4) / 110KB+ (btrfs)",
+      "原文": "Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes",
+      "摘要": "Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes",
+      "来源": "Hacker News",
+      "日期": "2026-08-13",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://github.com/systemd/systemd/issues/40262",
+      "标签": []
+    },
     {
       "id": "6895fc3c",
       "标题": "GoAccess – 开源实时日志分析器和交互式查看器",
@@ -565,42 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://penpot.app/blog/the-three-stroke-problem/",
-      "标签": []
-    },
-    {
-      "id": "73242f93",
-      "标题": "Qwen3.8-2.4T",
-      "原文": "Qwen3.8-2.4T",
-      "摘要": "Qwen3.8-2.4T",
-      "来源": "Hacker News",
-      "日期": "2026-08-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-      "标签": []
-    },
-    {
-      "id": "04dc95d5",
-      "标题": "自然数集的格子很丰富",
-      "原文": "The lattice of sets of natural numbers is rich",
-      "摘要": "The lattice of sets of natural numbers is rich",
-      "来源": "Hacker News",
-      "日期": "2026-08-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://jdh.hamkins.org/the-lattice-of-sets-of-natural-numbers-is-rich/",
-      "标签": []
-    },
-    {
-      "id": "ffd69f22",
-      "标题": "追踪 16 年之久的 WAL 重置 SQLite 错误",
-      "原文": "Tracking down the 16-year-old WAL-reset SQLite bug",
-      "摘要": "Tracking down the 16-year-old WAL-reset SQLite bug",
-      "来源": "Hacker News",
-      "日期": "2026-08-13",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://tailscale.com/blog/sqlite-wal-reset-bug",
       "标签": []
     }
   ]
