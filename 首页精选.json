@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-14T00:01:32+08:00",
+  "generated": "2026-08-14T01:07:16+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 1455115408,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 8,
+  "count": 10,
   "articles": [
     {
       "id": 1455115408,
@@ -39,7 +39,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T00:01:32+08:00"
+      "选入时间": "2026-08-14T01:07:16+08:00"
     },
     {
       "id": 4037177937,
@@ -85,7 +85,38 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T00:01:32+08:00"
+      "选入时间": "2026-08-14T01:07:16+08:00"
+    },
+    {
+      "id": 4187981746,
+      "标题": "What 50 open source projects taught us about security in the AI era",
+      "摘要": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance,",
+      "内容": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance,",
+      "来源": "GitHub 官方博客",
+      "分类": "AI应用",
+      "日期": "2026-08-13",
+      "热度": 50,
+      "链接": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "标签": [],
+      "图片": "https://github.blog/wp-content/uploads/2026/02/header.jpg",
+      "候选栏目": "AI",
+      "编辑分": 80,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-14T01:07:16+08:00"
     },
     {
       "id": 3984532106,
@@ -133,62 +164,215 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T00:01:32+08:00"
+      "选入时间": "2026-08-14T01:07:16+08:00"
     },
     {
-      "id": 994481728,
-      "标题": "【原生·一手】将手语人工智能交到用户手中",
-      "摘要": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "内容": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "来源": "Google DeepMind 官方",
-      "分类": "原生资讯",
-      "日期": "2026-08-12",
-      "热度": 50,
-      "链接": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "标签": [
-        "原生资讯",
-        "Google DeepMind 官方"
-      ],
-      "图片": "https://lh3.googleusercontent.com/8RcynTx1ujudyw8Fs05Pv8WJahe2FQ3z1Y7gNHm-xvOTJLdMp9hNDsIIoQbJsnav6evNLgY1iT9B9ercsyIn0U1N51pzScvSfe6IHk2SjDJx-MaVzQ=w528-h297-n-nu-rw-lo",
-      "原标题": "【原生·一手】Putting sign language AI into users’ hands",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 74,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T00:01:32+08:00"
-    },
-    {
-      "id": 921593020,
-      "标题": "【原生·模型】迈向可持续人工智能：深度学习模型碳足迹的全面回顾与比较分析",
-      "摘要": "arXiv:2608.09998v1 Announce Type: new Abstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human",
-      "内容": "arXiv:2608.09998v1 Announce Type: new Abstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human",
+      "id": 1837068531,
+      "标题": "【原生·研究】自动化和扩展人工智能代理的行为科学研究",
+      "摘要": "arXiv:2608.10030v1 Announce Type: new Abstract: As AI agents are increasingly deployed in complex environments, understanding their behaviors becomes critical. Yet behavioral",
+      "内容": "arXiv:2608.10030v1 Announce Type: new Abstract: As AI agents are increasingly deployed in complex environments, understanding their behaviors becomes critical. Yet behavioral",
       "来源": "arXiv AI",
       "分类": "原生资讯",
       "日期": "2026-08-12",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2608.09998",
+      "热度": 58,
+      "链接": "https://arxiv.org/abs/2608.10030",
       "标签": [
         "原生资讯",
-        "arXiv AI"
+        "arXiv AI",
+        "AI Agent"
       ],
-      "原标题": "【原生·模型】Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
+      "原标题": "【原生·研究】Automating and Scaling Behavioral Scientific Research on AI Agents",
       "中文提炼": "",
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
+      "编辑分": 79,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-14T01:07:16+08:00"
+    },
+    {
+      "id": 914613849,
+      "标题": "应对哥伦比亚7.4级地震 联合国表示随时准备提供支持",
+      "摘要": "联合国秘书长古特雷斯周二通过发言人发表声明，对哥伦比亚发生7.4级地震、目前造成至少160多人遇难、多人受伤的报道深感悲痛",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142613",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-914613849.webp",
+      "封面": "assets/media/un-914613849.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/11-08-2026-Colombia-earthquake-03.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长古特雷斯周二通过发言人发表声明，对哥伦比亚发生7.4级地震、目前造成至少160多人遇难、多人受伤的报道深感悲痛",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长古特雷斯周二通过发言人发表声明，对哥伦比亚发生7.4级地震、目前造成至少160多人遇难、多人受伤的报道深感悲痛。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142613",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "ok",
+      "编辑分": 78,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-14T01:07:16+08:00"
+    },
+    {
+      "id": 843993113,
+      "标题": "【专题报道】“孔雀外交”：五位蓝白“新使者”亮相日内瓦",
+      "摘要": "除了广为人知的“熊猫外交”，联合国日内瓦办事处刚刚体验了“孔雀外交”，迎来了几位别具一格的“外交使者”——五只孔雀。8月7日，这五只来自印度的孔雀正式亮相，为联合国日内瓦园区增添了一抹亮丽色彩，也延续了一项已有几十年历史的“孔雀传统”",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142610",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-843993113.webp",
+      "封面": "assets/media/un-843993113.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/07-08-2026-UN-Photo-peacocks-01.jpg/image560x340cropped.jpg",
+      "导语": "除了广为人知的“熊猫外交”，联合国日内瓦办事处刚刚体验了“孔雀外交”，迎来了几位别具一格的“外交使者”——五只孔雀。8月7日，这五只来自印度的孔雀正式亮相，为联合国日内瓦园区增添了一抹亮丽色彩，也延续了一项已有几十年历史",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "除了广为人知的“熊猫外交”，联合国日内瓦办事处刚刚体验了“孔雀外交”，迎来了几位别具一格的“外交使者”——五只孔雀。8月7日，这五只来自印度的孔雀正式亮相，为联合国日内瓦园区增添了一抹亮丽色彩，也延续了一项已有几十年历史的“孔雀传统”。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142610",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "ok",
+      "编辑分": 78,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-14T01:07:16+08:00"
+    },
+    {
+      "id": 1694100346,
+      "标题": "人物肖像",
+      "原标题": "Portrait of the Artist",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "John Vanderlyn · 1800 · Oil on canvas",
+      "来源": "The Metropolitan Museum of Art",
+      "分类": "人文艺术",
+      "日期": "2026-08-14",
+      "链接": "https://www.metmuseum.org/art/collection/search/13053",
+      "图片": "assets/art/met-13053.webp",
+      "原始图片": "https://images.metmuseum.org/CRDImages/ad/web-large/ap18.118.jpg",
+      "封面": "assets/art/met-13053.webp",
+      "版权": "Public Domain / Open Access",
+      "标签": [
+        "family",
+        "公共领域"
+      ],
+      "导语": "从馆藏资料出发，认识《人物肖像》及其创作背景",
+      "要点": [
+        "John Vanderlyn",
+        "1800",
+        "Oil on canvas"
+      ],
+      "正文": "《人物肖像》现由The Metropolitan Museum of Art收录。作者：John Vanderlyn；年代：1800；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.metmuseum.org/art/collection/search/13053",
+      "出处说明": "根据The Metropolitan Museum of Art公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 75,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 6,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "公共领域馆藏，图像与出处完整",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-14T01:07:16+08:00"
+    },
+    {
+      "id": 4283726279,
+      "标题": "无题",
+      "原标题": "Untitled",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Richard M. Loving American, born Austria 1924-2021 · 1959 · Enamel and copper on wood",
+      "来源": "Art Institute of Chicago",
+      "分类": "人文艺术",
+      "日期": "2026-08-14",
+      "链接": "https://www.artic.edu/artworks/117256",
+      "图片": "assets/covers/humanities.svg",
+      "原始图片": "https://www.artic.edu/iiif/2/a4db604f-3c38-e566-ecfe-1c894fc9e4b8/full/843,/0/default.jpg",
+      "封面": "assets/covers/humanities.svg",
+      "版权": "CC0 / Public Domain",
+      "标签": [
+        "公共领域",
+        "芝加哥艺术博物馆"
+      ],
+      "导语": "从馆藏资料出发，认识《无题》及其创作背景",
+      "要点": [
+        "Richard M. Loving American, born Austria 1924-2021",
+        "1959",
+        "Enamel and copper on wood"
+      ],
+      "正文": "《无题》现由Art Institute of Chicago收录。作者：Richard M. Loving American, born Austria 1924-2021；年代：1959；材质：Enamel and copper on wood。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.artic.edu/artworks/117256",
+      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
       "编辑分": 74,
       "评分分项": {
         "可信度": 25,
@@ -202,102 +386,10 @@
       },
       "来源级别": "A",
       "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T00:01:32+08:00"
-    },
-    {
-      "id": 3749548366,
-      "标题": "乌克兰人道主义援助仓库遭袭",
-      "摘要": "俄罗斯对乌克兰持续进行的大规模入侵，使平民屡遭致命袭击，人道主义工作者和关键设施也成为袭击目标并遭到破坏",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-08-10",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142606",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3749548366.webp",
-      "封面": "assets/media/un-3749548366.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/10-08-2026-WHO-Ukraine-01.jpg/image560x340cropped.jpg",
-      "导语": "俄罗斯对乌克兰持续进行的大规模入侵，使平民屡遭致命袭击，人道主义工作者和关键设施也成为袭击目标并遭到破坏",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "俄罗斯对乌克兰持续进行的大规模入侵，使平民屡遭致命袭击，人道主义工作者和关键设施也成为袭击目标并遭到破坏。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142606",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T00:01:32+08:00"
-    },
-    {
-      "id": 3407526566,
-      "标题": "刚果（金）：埃博拉病毒在患者尚未就医前便已夺走他们的生命",
-      "摘要": "在刚果民主共和国（刚果（金））暴发的埃博拉疫情中，已有超过1900人死亡——其中大多数人甚至未能抵达治疗中心。60%至70%的死亡病例发生在远离医疗服务社区的地区，这一缺口现已成为世界卫生组织应对工作的核心",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-08-10",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142609",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3407526566.webp",
-      "封面": "assets/media/un-3407526566.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/01-06-2026-UNICEF-DR-Congo-ebola.jpg/image560x340cropped.jpg",
-      "导语": "在刚果民主共和国（刚果（金））暴发的埃博拉疫情中，已有超过1900人死亡——其中大多数人甚至未能抵达治疗中心。60%至70%的死亡病例发生在远离医疗服务社区的地区，这一缺口现已成为世界卫生组织应对工作的核心",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "在刚果民主共和国（刚果（金））暴发的埃博拉疫情中，已有超过1900人死亡——其中大多数人甚至未能抵达治疗中心。60%至70%的死亡病例发生在远离医疗服务社区的地区，这一缺口现已成为世界卫生组织应对工作的核心。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142609",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T00:01:32+08:00"
+      "选入时间": "2026-08-14T01:07:16+08:00"
     },
     {
       "id": 3278245669,
@@ -345,14 +437,42 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T00:01:32+08:00"
+      "选入时间": "2026-08-14T01:07:16+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-08-14T00:01:32+08:00",
+    "as_of": "2026-08-14T01:07:16+08:00",
     "candidate_count": 604,
-    "rejected_count": 458,
+    "rejected_count": 455,
     "rejected": [
+      {
+        "id": 507721538,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4292434117,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3547283088,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3439729337,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1552927481,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1472826816,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1454838173,
+        "reason": "off_topic"
+      },
       {
         "id": 952380181,
         "reason": "off_topic"
@@ -411,6 +531,10 @@
       },
       {
         "id": 575679906,
+        "reason": "off_topic"
+      },
+      {
+        "id": 498501593,
         "reason": "off_topic"
       },
       {
@@ -1833,126 +1957,82 @@
         "reason": "off_topic"
       },
       {
-        "id": 2795787369,
-        "reason": "off_topic"
-      },
-      {
-        "id": 277891474,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2753427405,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2733481499,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2688346633,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2632828571,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2591501989,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2549791312,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2505644603,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2500501725,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2499213016,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1024894154,
+        "id": 3703614109,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 2363692797,
+        "id": 4026863027,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3695246596,
+        "id": 600962730,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 1717742810,
+        "id": 3707582799,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 1661686518,
+        "id": 4210635069,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 988928552,
+        "id": 2740358247,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3275360170,
+        "id": 782760088,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 2825328338,
+        "id": 520304651,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 619304108,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 3174347509,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 3734249391,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 3429014551,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 1682274560,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 2731721627,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 2244261100,
+        "id": 1956303383,
         "reason": "score_below_50",
         "score": 37
       },
       {
-        "id": 2031259362,
+        "id": 3046983078,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 439528832,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1348793762,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2024973401,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1172583308,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2419597686,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2548029606,
         "reason": "score_below_50",
         "score": 33
       },
@@ -1962,12 +2042,22 @@
         "score": 32
       },
       {
+        "id": 3356465765,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1142994877,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 1138201521,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 1159511541,
+        "id": 12202079,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1977,12 +2067,7 @@
         "score": 32
       },
       {
-        "id": 3503183801,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 12202079,
+        "id": 1159511541,
         "reason": "score_below_50",
         "score": 32
       },
@@ -2002,7 +2087,7 @@
         "score": 28
       },
       {
-        "id": 1257196739,
+        "id": 2455722235,
         "reason": "score_below_50",
         "score": 26
       },
@@ -2032,9 +2117,19 @@
         "score": 20
       },
       {
-        "id": 407658250,
+        "id": 2470484058,
         "reason": "score_below_50",
         "score": 16
+      },
+      {
+        "id": 1382102629,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 1523727019,
+        "reason": "score_below_50",
+        "score": 25
       },
       {
         "id": 3038495832,
@@ -2057,7 +2152,7 @@
         "score": 16
       },
       {
-        "id": 3985878930,
+        "id": 3336040900,
         "reason": "score_below_50",
         "score": 16
       },
@@ -2067,27 +2162,7 @@
         "score": 20
       },
       {
-        "id": 249846040,
-        "reason": "score_below_50",
-        "score": 21
-      },
-      {
-        "id": 1382102629,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 318190491,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 757341660,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 4293709894,
+        "id": 423826758,
         "reason": "score_below_50",
         "score": 26
       },
@@ -2102,7 +2177,7 @@
         "score": 26
       },
       {
-        "id": 2833132584,
+        "id": 3892170956,
         "reason": "score_below_50",
         "score": 30
       },
@@ -2127,7 +2202,7 @@
         "score": 30
       },
       {
-        "id": 55879416,
+        "id": 3278864918,
         "reason": "score_below_50",
         "score": 26
       },
@@ -2137,7 +2212,7 @@
         "score": 30
       },
       {
-        "id": 2381940723,
+        "id": 2266033708,
         "reason": "score_below_50",
         "score": 30
       },
@@ -2147,7 +2222,7 @@
         "score": 30
       },
       {
-        "id": 1508516597,
+        "id": 468590270,
         "reason": "score_below_50",
         "score": 24
       },
@@ -2155,6 +2230,11 @@
         "id": 789709312,
         "reason": "score_below_50",
         "score": 24
+      },
+      {
+        "id": 863553105,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 1832866913,
