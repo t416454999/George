@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T23:55:16+08:00",
+  "generated": "2026-08-15T00:56:32+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3770612757,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -32,11 +32,11 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 96,
+      "栏目状态": "partial",
+      "编辑分": 90,
       "评分分项": {
         "可信度": 25,
-        "时效": 20,
+        "时效": 14,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
+      "选入时间": "2026-08-15T00:56:32+08:00"
     },
     {
       "id": 504622356,
@@ -70,10 +70,10 @@
       "中文提炼": "",
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 91,
+      "编辑分": 85,
       "评分分项": {
         "可信度": 25,
-        "时效": 20,
+        "时效": 14,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -86,20 +86,20 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
+      "选入时间": "2026-08-15T00:56:32+08:00"
     },
     {
-      "id": 4187981746,
-      "标题": "What 50 open source projects taught us about security in the AI era",
-      "摘要": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance,",
-      "内容": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance,",
+      "id": 2701622072,
+      "标题": "How to bring your software delivery workflow into GitHub with agent apps",
+      "摘要": "See how four GitHub Agent Apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. The post How to bring your software delivery",
+      "内容": "See how four GitHub Agent Apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. The post How to bring your software delivery",
       "来源": "GitHub 官方博客",
       "分类": "AI应用",
-      "日期": "2026-08-13",
+      "日期": "2026-08-14",
       "热度": 50,
-      "链接": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "链接": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
       "标签": [],
-      "图片": "https://github.blog/wp-content/uploads/2026/02/header.jpg",
+      "图片": "https://github.blog/wp-content/uploads/2026/01/generic-copilot-logo-github.png?fit=1920%2C1080",
       "候选栏目": "AI",
       "编辑分": 80,
       "评分分项": {
@@ -117,7 +117,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
+      "选入时间": "2026-08-15T00:56:32+08:00"
     },
     {
       "id": 3984532106,
@@ -127,7 +127,7 @@
       "摘要": "German Painter · ca. 1573–82 · Oil and gold on oak",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-08-14",
+      "日期": "2026-08-15",
       "链接": "https://www.metmuseum.org/art/collection/search/437466",
       "图片": "assets/art/met-437466.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/ep/web-large/DT302497.jpg",
@@ -165,130 +165,135 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
+      "选入时间": "2026-08-15T00:56:32+08:00"
     },
     {
-      "id": 914613849,
-      "标题": "应对哥伦比亚7.4级地震 联合国表示随时准备提供支持",
-      "摘要": "联合国秘书长古特雷斯周二通过发言人发表声明，对哥伦比亚发生7.4级地震、目前造成至少160多人遇难、多人受伤的报道深感悲痛",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-08-11",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142613",
+      "id": 1455115408,
+      "标题": "【原生·模型】AutoWorldModel-Bench：以国家为中心的自动化世界模型研究基准",
+      "摘要": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and",
+      "内容": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-08-13",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2608.11216",
       "标签": [
-        "国际",
-        "联合国"
+        "原生资讯",
+        "arXiv AI"
       ],
-      "图片": "assets/media/un-914613849.webp",
-      "封面": "assets/media/un-914613849.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/11-08-2026-Colombia-earthquake-03.jpg/image560x340cropped.jpg",
-      "导语": "联合国秘书长古特雷斯周二通过发言人发表声明，对哥伦比亚发生7.4级地震、目前造成至少160多人遇难、多人受伤的报道深感悲痛",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国秘书长古特雷斯周二通过发言人发表声明，对哥伦比亚发生7.4级地震、目前造成至少160多人遇难、多人受伤的报道深感悲痛。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142613",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 78,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
-    },
-    {
-      "id": 843993113,
-      "标题": "【专题报道】“孔雀外交”：五位蓝白“新使者”亮相日内瓦",
-      "摘要": "除了广为人知的“熊猫外交”，联合国日内瓦办事处刚刚体验了“孔雀外交”，迎来了几位别具一格的“外交使者”——五只孔雀。8月7日，这五只来自印度的孔雀正式亮相，为联合国日内瓦园区增添了一抹亮丽色彩，也延续了一项已有几十年历史的“孔雀传统”",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-08-11",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142610",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-843993113.webp",
-      "封面": "assets/media/un-843993113.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/07-08-2026-UN-Photo-peacocks-01.jpg/image560x340cropped.jpg",
-      "导语": "除了广为人知的“熊猫外交”，联合国日内瓦办事处刚刚体验了“孔雀外交”，迎来了几位别具一格的“外交使者”——五只孔雀。8月7日，这五只来自印度的孔雀正式亮相，为联合国日内瓦园区增添了一抹亮丽色彩，也延续了一项已有几十年历史",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "除了广为人知的“熊猫外交”，联合国日内瓦办事处刚刚体验了“孔雀外交”，迎来了几位别具一格的“外交使者”——五只孔雀。8月7日，这五只来自印度的孔雀正式亮相，为联合国日内瓦园区增添了一抹亮丽色彩，也延续了一项已有几十年历史的“孔雀传统”。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142610",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 78,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
-    },
-    {
-      "id": 936172152,
-      "标题": "全球最知名电动汽车先驱马斯克，如今大力转向化石能源",
-      "摘要": "SpaceX 计划在得州建设天然气电厂，为新建芯片工厂供电；田纳西州、密西西比州园区已投入燃气轮机供电xAI 坐落于田纳西州孟菲斯的 AI 训练超级计算机 “巨像”（Colossus）...",
-      "内容": "SpaceX 计划在得州建设天然气电厂，为新建芯片工厂供电；田纳西州、密西西比州园区已投入燃气轮机供电xAI 坐落于田纳西州孟菲斯的 AI 训练超级计算机 “巨像”（Colossus）...",
-      "来源": "新浪科技",
-      "分类": "行业动态",
-      "日期": "2026-08-14",
-      "热度": 57,
-      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-inineywi9828348.shtml",
-      "标签": [],
-      "图片": "https://n.sinaimg.cn/finance/transform/116/w550h366/20260814/3daf-aed3d3532ec3f058fe77da7db20bd89d.png",
+      "原标题": "【原生·模型】AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 76,
+      "编辑分": 79,
       "评分分项": {
-        "可信度": 17,
-        "时效": 20,
+        "可信度": 25,
+        "时效": 8,
         "公共价值": 16,
-        "一手可追溯": 10,
+        "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
-        "编辑价值": 3,
+        "编辑价值": 5,
         "扣分": 0
       },
-      "来源级别": "B",
+      "来源级别": "A",
       "扣分项": [],
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
+      "选入时间": "2026-08-15T00:56:32+08:00"
+    },
+    {
+      "id": 4037177937,
+      "标题": "【专题报道】“乒乓外交”续写友谊新篇——访联合国乒乓球俱乐部主席黄武耀及其队友",
+      "摘要": "午休时分，纽约联合国总部大厦位于地下二层的乒乓球俱乐部活动室里，清脆的击球声不绝于耳。来自不同国家的工作人员和外交官在紧张繁忙工作之余，以球会友，享受着运动带来的快乐。 成立于20世纪50年代的联合国乒乓球俱乐部，最初只是为工作人员提供休闲健身的兴趣社团。经过数十年发展，它逐渐成为联合国内部一个独特的跨文化交流平台。不同国籍、不同岗位、不同文化背景的人们，因为对乒乓球的热爱而相聚在一起，通过每天的锻炼和一次次比赛建立起深深的友谊。 《联",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-12",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142605",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4037177937.webp",
+      "封面": "assets/media/un-4037177937.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/10-08-2026-UN-Pingpong-club1.jpg/image560x340cropped.jpg",
+      "导语": "午休时分，纽约联合国总部大厦位于地下二层的乒乓球俱乐部活动室里，清脆的击球声不绝于耳。来自不同国家的工作人员和外交官在紧张繁忙工作之余，以球会友，享受着运动带来的快乐。 成立于20世纪50年代的联合国乒乓球俱乐部，最初只",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "午休时分，纽约联合国总部大厦位于地下二层的乒乓球俱乐部活动室里，清脆的击球声不绝于耳。来自不同国家的工作人员和外交官在紧张繁忙工作之余，以球会友，享受着运动带来的快乐。 成立于20世纪50年代的联合国乒乓球俱乐部，最初只是为工作人员提供休闲健身的兴趣社团。经过数十年发展，它逐渐成为联合国内部一个独特的跨文化交流平台。不同国籍、不同岗位、不同文化背景的人们，因为对乒乓球的热爱而相聚在一起，通过每天的锻炼和一次次比赛建立起深深的友谊。 《联。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142605",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 78,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-15T00:56:32+08:00"
+    },
+    {
+      "id": 3548444421,
+      "标题": "世卫组织总干事对特朗普政府关于疫苗的行政命令表示担忧",
+      "摘要": "针对白宫关于全面调整推荐免疫接种时间表的新指令，世界卫生组织总干事周三重申了儿童疫苗的安全性",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-12",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142622",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3548444421.webp",
+      "封面": "assets/media/un-3548444421.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/14-07-2025-UNICEF-Ukraine-polio.jpg/image560x340cropped.jpg",
+      "导语": "针对白宫关于全面调整推荐免疫接种时间表的新指令，世界卫生组织总干事周三重申了儿童疫苗的安全性",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "针对白宫关于全面调整推荐免疫接种时间表的新指令，世界卫生组织总干事周三重申了儿童疫苗的安全性。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142622",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 78,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-15T00:56:32+08:00"
     },
     {
       "id": 1694100346,
@@ -298,7 +303,7 @@
       "摘要": "John Vanderlyn · 1800 · Oil on canvas",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-08-14",
+      "日期": "2026-08-15",
       "链接": "https://www.metmuseum.org/art/collection/search/13053",
       "图片": "assets/art/met-13053.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/ad/web-large/ap18.118.jpg",
@@ -336,7 +341,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
+      "选入时间": "2026-08-15T00:56:32+08:00"
     },
     {
       "id": 4283726279,
@@ -346,7 +351,7 @@
       "摘要": "Richard M. Loving American, born Austria 1924-2021 · 1959 · Enamel and copper on wood",
       "来源": "Art Institute of Chicago",
       "分类": "人文艺术",
-      "日期": "2026-08-14",
+      "日期": "2026-08-15",
       "链接": "https://www.artic.edu/artworks/117256",
       "图片": "assets/covers/humanities.svg",
       "原始图片": "https://www.artic.edu/iiif/2/a4db604f-3c38-e566-ecfe-1c894fc9e4b8/full/843,/0/default.jpg",
@@ -384,7 +389,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
+      "选入时间": "2026-08-15T00:56:32+08:00"
     },
     {
       "id": 3278245669,
@@ -432,14 +437,46 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-14T23:55:16+08:00"
+      "选入时间": "2026-08-15T00:56:32+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-08-14T23:55:16+08:00",
+    "as_of": "2026-08-15T00:56:32+08:00",
     "candidate_count": 604,
     "rejected_count": 450,
     "rejected": [
+      {
+        "id": 965770535,
+        "reason": "off_topic"
+      },
+      {
+        "id": 889719071,
+        "reason": "off_topic"
+      },
+      {
+        "id": 837059511,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4271830163,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3521989186,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3290230750,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2907735817,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2228158441,
+        "reason": "off_topic"
+      },
       {
         "id": 964510245,
         "reason": "off_topic"
@@ -742,6 +779,10 @@
       },
       {
         "id": 2154185217,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2146233530,
         "reason": "off_topic"
       },
       {
@@ -1841,6 +1882,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 2532803595,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 2523919917,
         "reason": "off_topic"
       },
@@ -1889,194 +1935,149 @@
         "reason": "off_topic"
       },
       {
-        "id": 2200058635,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2162236654,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2160070125,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2143364166,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2136490403,
-        "reason": "off_topic"
-      },
-      {
-        "id": 212159567,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2104889447,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2093307812,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2085089769,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2081414860,
-        "reason": "off_topic"
-      },
-      {
         "id": 422394223,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3191809632,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2937134524,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3229066715,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 453528059,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 4055314767,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3626175184,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3383670677,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2337834421,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1244576114,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3595314351,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3720920083,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1113037238,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1525092539,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1359449597,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2405602073,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 300726532,
+        "id": 905936621,
         "reason": "score_below_50",
         "score": 38
       },
       {
         "id": 3812502727,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 986507913,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 1047201120,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 2740168097,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 719908011,
+        "id": 300726532,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 2488645258,
         "reason": "score_below_50",
-        "score": 34
+        "score": 28
       },
       {
         "id": 3882709242,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2952603833,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3407467482,
         "reason": "score_below_50",
-        "score": 34
+        "score": 28
       },
       {
         "id": 3300141833,
         "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1142994877,
-        "reason": "score_below_50",
-        "score": 32
+        "score": 26
       },
       {
         "id": 3244879288,
         "reason": "score_below_50",
-        "score": 31
+        "score": 25
       },
       {
         "id": 1488206026,
         "reason": "score_below_50",
-        "score": 22
+        "score": 16
       },
       {
         "id": 1335378505,
@@ -2094,7 +2095,12 @@
         "score": 16
       },
       {
-        "id": 214200969,
+        "id": 1382102629,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 1496137449,
         "reason": "score_below_50",
         "score": 20
       },
@@ -2124,14 +2130,14 @@
         "score": 16
       },
       {
-        "id": 832797903,
+        "id": 339726575,
         "reason": "score_below_50",
         "score": 20
       },
       {
-        "id": 249846040,
+        "id": 3839399482,
         "reason": "score_below_50",
-        "score": 21
+        "score": 25
       },
       {
         "id": 2112389959,
@@ -2174,7 +2180,7 @@
         "score": 30
       },
       {
-        "id": 2624698564,
+        "id": 3970385109,
         "reason": "score_below_50",
         "score": 31
       },
@@ -2194,7 +2200,7 @@
         "score": 30
       },
       {
-        "id": 2266033708,
+        "id": 2381940723,
         "reason": "score_below_50",
         "score": 30
       },
