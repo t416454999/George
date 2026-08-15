@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T09:10:28+08:00",
+  "updated": "2026-08-15T08:32:42+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -37,7 +37,7 @@
       "名称": "DeepSeek-V3",
       "repo": "deepseek-ai/DeepSeek-V3",
       "说明": "深度求索开源大语言模型，MoE 架构 671B 参数，性能对标 GPT-4。",
-      "星标": "104.2k",
+      "星标": "104.3k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,96 +63,80 @@
       "名称": "prime-agent",
       "repo": "PrimeIntellect-ai/prime-agent",
       "说明": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "星标": 15703,
-      "本周新增": 12476,
+      "星标": 16058,
+      "本周新增": 10739,
       "语言": "TypeScript"
     },
     {
       "名称": "semantica",
       "repo": "semantica-agi/semantica",
       "说明": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "星标": 7139,
-      "本周新增": 4073,
+      "星标": 7674,
+      "本周新增": 5135,
       "语言": "Python"
     },
     {
       "名称": "skills",
       "repo": "google/skills",
       "说明": "Agent Skills for Google products and technologies",
-      "星标": 18124,
-      "本周新增": 2359,
+      "星标": 18241,
+      "本周新增": 2186,
       "语言": "Python"
-    },
-    {
-      "名称": "computer",
-      "repo": "cloudflare/computer",
-      "说明": "Give your agent a computer 👾",
-      "星标": 8041,
-      "本周新增": 3599,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "TencentDB-Agent-Memory",
-      "repo": "TencentCloud/TencentDB-Agent-Memory",
-      "说明": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "星标": 21494,
-      "本周新增": 5388,
-      "语言": "TypeScript"
     },
     {
       "名称": "code-graph-rag",
       "repo": "vitali87/code-graph-rag",
       "说明": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-      "星标": 4250,
-      "本周新增": 1628,
+      "星标": 4314,
+      "本周新增": 1718,
       "语言": "Python"
     },
     {
-      "名称": "loopx",
-      "repo": "huangruiteng/loopx",
-      "说明": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
-      "星标": 4647,
-      "本周新增": 1967,
+      "名称": "holehe",
+      "repo": "megadose/holehe",
+      "说明": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "星标": 12939,
+      "本周新增": 671,
       "语言": "Python"
+    },
+    {
+      "名称": "Switchyard",
+      "repo": "NVIDIA-NeMo/Switchyard",
+      "说明": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "星标": 1502,
+      "本周新增": 1195,
+      "语言": "Rust"
+    },
+    {
+      "名称": "computer",
+      "repo": "cloudflare/computer",
+      "说明": "Give your agent a computer 👾",
+      "星标": 8167,
+      "本周新增": 2856,
+      "语言": "TypeScript"
     },
     {
       "名称": "agent-skills",
       "repo": "addyosmani/agent-skills",
       "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 87108,
-      "本周新增": 4562,
+      "星标": 87347,
+      "本周新增": 3845,
       "语言": "JavaScript"
     },
     {
-      "名称": "DeepSeek-Reasonix",
-      "repo": "esengine/DeepSeek-Reasonix",
-      "说明": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "星标": 34556,
-      "本周新增": 2419,
-      "语言": "Go"
+      "名称": "TencentDB-Agent-Memory",
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "说明": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "星标": 21802,
+      "本周新增": 4423,
+      "语言": "TypeScript"
     },
     {
-      "名称": "reverse-skill",
-      "repo": "zhaoxuya520/reverse-skill",
-      "说明": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "星标": 25097,
-      "本周新增": 5270,
-      "语言": "PowerShell"
-    },
-    {
-      "名称": "book-to-skill",
-      "repo": "virgiliojr94/book-to-skill",
-      "说明": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "星标": 21380,
-      "本周新增": 3789,
-      "语言": "Python"
-    },
-    {
-      "名称": "ComfyUI",
-      "repo": "Comfy-Org/ComfyUI",
-      "说明": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "星标": 127482,
-      "本周新增": 3122,
+      "名称": "loopx",
+      "repo": "huangruiteng/loopx",
+      "说明": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "星标": 4745,
+      "本周新增": 1455,
       "语言": "Python"
     }
   ]
