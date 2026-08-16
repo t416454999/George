@@ -1,13 +1,121 @@
 {
-  "updated": "2026-08-15T16:31:48+08:00",
-  "as_of": "2026-08-15T16:31:48+08:00",
+  "updated": "2026-08-16T17:01:53+08:00",
+  "as_of": "2026-08-16T17:01:53+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2220441490,
+      "标题": "【专题报道┃前方视野】阿富汗：营养不良危机正在失控",
+      "摘要": "现在，在阿富汗，一个装满淡茶的奶瓶，可能就是一个婴儿一天的饮料。自然灾害的频发、地缘局势的动荡，加上全球援助资金的剧烈缩减，正将这个国家数以百万计的儿童推向饥饿的深渊。阿富汗的营养不良危机正在走向失控",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-15",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142639",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2220441490.webp",
+      "封面": "assets/media/un-2220441490.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/15-05-2026-IOM-Afghanistan-02.jpg/image560x340cropped.jpg",
+      "导语": "现在，在阿富汗，一个装满淡茶的奶瓶，可能就是一个婴儿一天的饮料。自然灾害的频发、地缘局势的动荡，加上全球援助资金的剧烈缩减，正将这个国家数以百万计的儿童推向饥饿的深渊。阿富汗的营养不良危机正在走向失控",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "现在，在阿富汗，一个装满淡茶的奶瓶，可能就是一个婴儿一天的饮料。自然灾害的频发、地缘局势的动荡，加上全球援助资金的剧烈缩减，正将这个国家数以百万计的儿童推向饥饿的深渊。阿富汗的营养不良危机正在走向失控。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142639",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 53333978,
+      "标题": "【世界进行时】2026年8月14日",
+      "摘要": "本期要点：联合国紧急划拨 500 万美元支持哥伦比亚应对地震灾情；红海船只遭致命袭击，加剧全球供应链不确定性；乌克兰：平民伤亡人数创新高；中东地区冰毒走私活动日益猖獗；世卫组织对特朗普政府关于疫苗的行政命令表示担忧；国际劳工组织：全球青年失业率上升 年轻人获得体面工作的道路愈发艰难；欧洲非法入境人数下降，移民路线却变得更加危险",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-14",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142637",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-53333978.webp",
+      "封面": "assets/media/un-53333978.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/24-00009ag_UNWeekly_YouTube_thumbnail_1280x720px_C.jpg/image560x340cropped.jpg",
+      "导语": "本期要点：联合国紧急划拨 500 万美元支持哥伦比亚应对地震灾情；红海船只遭致命袭击，加剧全球供应链不确定性；乌克兰：平民伤亡人数创新高；中东地区冰毒走私活动日益猖獗；世卫组织对特朗普政府关于疫苗的行政命令表示担忧；国际",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "本期要点：联合国紧急划拨 500 万美元支持哥伦比亚应对地震灾情；红海船只遭致命袭击，加剧全球供应链不确定性；乌克兰：平民伤亡人数创新高；中东地区冰毒走私活动日益猖獗；世卫组织对特朗普政府关于疫苗的行政命令表示担忧；国际劳工组织：全球青年失业率上升 年轻人获得体面工作的道路愈发艰难；欧洲非法入境人数下降，移民路线却变得更加危险。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142637",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3576238407,
+      "标题": "联合国追加3050万美元应急资金应对刚果民主共和国埃博拉疫情",
+      "摘要": "联合国副秘书长兼人道主义事务和紧急救济协调员弗莱彻周五表示，埃博拉病毒正在刚果民主共和国加速传播，联合国将进一步扩大疫情应对行动",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-14",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142636",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3576238407.webp",
+      "封面": "assets/media/un-3576238407.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/21-07-2026-UNOCHA-DR-Congo-ebola.jpg/image560x340cropped.jpg",
+      "导语": "联合国副秘书长兼人道主义事务和紧急救济协调员弗莱彻周五表示，埃博拉病毒正在刚果民主共和国加速传播，联合国将进一步扩大疫情应对行动",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国副秘书长兼人道主义事务和紧急救济协调员弗莱彻周五表示，埃博拉病毒正在刚果民主共和国加速传播，联合国将进一步扩大疫情应对行动。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142636",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 387066941,
+      "标题": "儿基会：自2021年以来阿富汗超过260万名女童无缘中等教育",
+      "摘要": "联合国儿童基金会周五表示，自事实上的当局掌权以来的五年间，阿富汗已有超过260万名女童被剥夺了接受中等教育的机会。阿富汗仍是世界上唯一一个女童和妇女实际上无法接受中等及高等教育的国家",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-14",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142635",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-387066941.webp",
+      "封面": "assets/media/un-387066941.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/14-03-2025-UNICEF-Afghanistan-03.jpg/image560x340cropped.jpg",
+      "导语": "联合国儿童基金会周五表示，自事实上的当局掌权以来的五年间，阿富汗已有超过260万名女童被剥夺了接受中等教育的机会。阿富汗仍是世界上唯一一个女童和妇女实际上无法接受中等及高等教育的国家",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国儿童基金会周五表示，自事实上的当局掌权以来的五年间，阿富汗已有超过260万名女童被剥夺了接受中等教育的机会。阿富汗仍是世界上唯一一个女童和妇女实际上无法接受中等及高等教育的国家。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142635",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 481435166,
       "标题": "世卫组织：过去八年全球发生超过1万起医疗卫生领域袭击事件",
@@ -1014,126 +1122,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003259400&PAGE_CD=N0002&CMPT_CD=M0117",
       "出处说明": "根据ohmynews.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3464486966,
-      "标题": "自由不仅是礼物，也是责任：拉胡尔·甘地向公民表达独立日祝福",
-      "原标题": "Freedom not merely gift , but also responsibility : Rahul Gandhi extends Independence Day wishes to citizens",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。",
-      "来源": "calcuttanews.net",
-      "分类": "国际形势",
-      "日期": "2026-08-15",
-      "链接": "http://www.calcuttanews.net/news/279243247/freedom-not-merely-gift-but-also-responsibility-rahul-gandhi-extends-independence-day-wishes-to-citizens",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/99e649e/55828cf2-42ac-45cb-a4df-353d767e004b/0/ANI-20260815043040-600x315.jpg",
-      "数据截至": "2026-08-15T08:31:38+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.calcuttanews.net/news/279243247/freedom-not-merely-gift-but-also-responsibility-rahul-gandhi-extends-independence-day-wishes-to-citizens",
-      "出处说明": "根据calcuttanews.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3376349100,
-      "标题": "特朗普宣称拥有霍尔木兹海峡，伊朗强烈反击",
-      "原标题": "Trump erhebt Anspruch auf Straße von Hormus – Iran kontert scharf",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 merkur.de 最新报道，点击阅读原文。",
-      "来源": "merkur.de",
-      "分类": "国际形势",
-      "日期": "2026-08-15",
-      "链接": "http://www.merkur.de/politik/trump-erhebt-anspruch-auf-strasse-von-hormus-iran-kontert-scharf-zr-94444857.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-08-15T08:31:38+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 merkur.de 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 merkur.de 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.merkur.de/politik/trump-erhebt-anspruch-auf-strasse-von-hormus-iran-kontert-scharf-zr-94444857.html",
-      "出处说明": "根据merkur.de公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3557256447,
-      "标题": "以色列空袭黎巴嫩南部七人死亡",
-      "原标题": "Israeli strike kills seven people in southern Lebanon",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 queanbeyanage.com.au 最新报道，点击阅读原文。",
-      "来源": "queanbeyanage.com.au",
-      "分类": "国际形势",
-      "日期": "2026-08-15",
-      "链接": "https://www.queanbeyanage.com.au/story/9330892/israeli-strike-kills-seven-people-in-southern-lebanon/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.queanbeyanage.com.au/images/transform/v1/crop/frm/silverstone-feed-data/429c2bee-9a8d-47ab-baa3-1ce7973101ed.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
-      "数据截至": "2026-08-15T08:31:38+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 queanbeyanage.com.au 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 queanbeyanage.com.au 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.queanbeyanage.com.au/story/9330892/israeli-strike-kills-seven-people-in-southern-lebanon/",
-      "出处说明": "根据queanbeyanage.com.au公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3316306359,
-      "标题": "哥伦比亚请求美国提供军事帮助打击贩毒集团",
-      "原标题": "Kolumbien bittet united states um Militärhilfe gegen Drogenkartelle",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 az-online.de 最新报道，点击阅读原文。",
-      "来源": "az-online.de",
-      "分类": "国际形势",
-      "日期": "2026-08-15",
-      "链接": "https://www.az-online.de/politik/kolumbien-bittet-usa-um-militaerhilfe-gegen-drogenkartelle-zr-94444834.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-08-15T08:31:38+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 az-online.de 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 az-online.de 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.az-online.de/politik/kolumbien-bittet-usa-um-militaerhilfe-gegen-drogenkartelle-zr-94444834.html",
-      "出处说明": "根据az-online.de公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
