@@ -1,8 +1,32 @@
 {
-  "updated": "2026-08-17T11:32:10+08:00",
+  "updated": "2026-08-17T11:53:46+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "08662331",
+      "标题": "Go 如何使用sync.noCopy 检测结构副本",
+      "原文": "How Go detects struct copies with sync.noCopy",
+      "摘要": "How Go detects struct copies with sync.noCopy",
+      "来源": "Hacker News",
+      "日期": "2026-08-17",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://func25.dev/posts/go-sync-nocopy/",
+      "标签": []
+    },
+    {
+      "id": "d98f68fa",
+      "标题": "自托管电子邮件继续急剧下降",
+      "原文": "Self hosted email continues to steeply decline",
+      "摘要": "Self hosted email continues to steeply decline",
+      "来源": "Hacker News",
+      "日期": "2026-08-17",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
+      "标签": []
+    },
     {
       "id": "298ffa76",
       "标题": "Show HN：Desktopcolors.com – 经典操作系统纯色背景的博物馆",
@@ -577,30 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://news.ycombinator.com/item?id=49324078",
-      "标签": []
-    },
-    {
-      "id": "a7789ff2",
-      "标题": "Anthropic IPO 估值取决于 2028 年 190-200B 美元的收入预测",
-      "原文": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
-      "摘要": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
-      "来源": "Hacker News",
-      "日期": "2026-08-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
-      "标签": []
-    },
-    {
-      "id": "68a4131e",
-      "标题": "Nvidia 大幅减少了其可能担保的 OpenAI 基础设施融资金额",
-      "原文": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
-      "摘要": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
-      "来源": "Hacker News",
-      "日期": "2026-08-16",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
       "标签": []
     }
   ]
