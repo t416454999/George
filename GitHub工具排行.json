@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-15T08:32:42+08:00",
+  "updated": "2026-08-17T08:46:55+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "178.5k",
+      "星标": "178.7k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "144.2k",
+      "星标": "144.4k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "60.4k",
+      "星标": "60.5k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -60,83 +60,99 @@
   ],
   "trending": [
     {
-      "名称": "prime-agent",
-      "repo": "PrimeIntellect-ai/prime-agent",
-      "说明": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "星标": 16058,
-      "本周新增": 10739,
-      "语言": "TypeScript"
+      "名称": "diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "说明": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "星标": 20000,
+      "本周新增": 15600,
+      "语言": "HTML"
     },
     {
       "名称": "semantica",
       "repo": "semantica-agi/semantica",
       "说明": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "星标": 7674,
-      "本周新增": 5135,
+      "星标": 8345,
+      "本周新增": 5284,
       "语言": "Python"
     },
     {
-      "名称": "skills",
-      "repo": "google/skills",
-      "说明": "Agent Skills for Google products and technologies",
-      "星标": 18241,
-      "本周新增": 2186,
-      "语言": "Python"
-    },
-    {
-      "名称": "code-graph-rag",
-      "repo": "vitali87/code-graph-rag",
-      "说明": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-      "星标": 4314,
-      "本周新增": 1718,
-      "语言": "Python"
-    },
-    {
-      "名称": "holehe",
-      "repo": "megadose/holehe",
-      "说明": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-      "星标": 12939,
-      "本周新增": 671,
-      "语言": "Python"
+      "名称": "prime-agent",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "说明": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "星标": 16714,
+      "本周新增": 6435,
+      "语言": "TypeScript"
     },
     {
       "名称": "Switchyard",
       "repo": "NVIDIA-NeMo/Switchyard",
       "说明": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
-      "星标": 1502,
-      "本周新增": 1195,
+      "星标": 1736,
+      "本周新增": 1435,
       "语言": "Rust"
     },
     {
-      "名称": "computer",
-      "repo": "cloudflare/computer",
-      "说明": "Give your agent a computer 👾",
-      "星标": 8167,
-      "本周新增": 2856,
-      "语言": "TypeScript"
+      "名称": "holehe",
+      "repo": "megadose/holehe",
+      "说明": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "星标": 13340,
+      "本周新增": 1287,
+      "语言": "Python"
+    },
+    {
+      "名称": "macro",
+      "repo": "macro-inc/macro",
+      "说明": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "星标": 3461,
+      "本周新增": 2588,
+      "语言": "Rust"
+    },
+    {
+      "名称": "code-graph-rag",
+      "repo": "vitali87/code-graph-rag",
+      "说明": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "星标": 4459,
+      "本周新增": 1686,
+      "语言": "Python"
+    },
+    {
+      "名称": "ToolJet",
+      "repo": "ToolJet/ToolJet",
+      "说明": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "星标": 40299,
+      "本周新增": 1518,
+      "语言": "JavaScript"
     },
     {
       "名称": "agent-skills",
       "repo": "addyosmani/agent-skills",
       "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 87347,
-      "本周新增": 3845,
+      "星标": 87882,
+      "本周新增": 2882,
       "语言": "JavaScript"
+    },
+    {
+      "名称": "unsloth",
+      "repo": "unslothai/unsloth",
+      "说明": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "星标": 72918,
+      "本周新增": 2645,
+      "语言": "Python"
     },
     {
       "名称": "TencentDB-Agent-Memory",
       "repo": "TencentCloud/TencentDB-Agent-Memory",
       "说明": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "星标": 21802,
-      "本周新增": 4423,
+      "星标": 22435,
+      "本周新增": 3637,
       "语言": "TypeScript"
     },
     {
-      "名称": "loopx",
-      "repo": "huangruiteng/loopx",
-      "说明": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
-      "星标": 4745,
-      "本周新增": 1455,
+      "名称": "LTX-2",
+      "repo": "Lightricks/LTX-2",
+      "说明": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "星标": 9075,
+      "本周新增": 497,
       "语言": "Python"
     }
   ]
