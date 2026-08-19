@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T08:40:33+08:00",
+  "updated": "2026-08-19T08:40:37+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -63,88 +63,80 @@
       "名称": "diagram-design",
       "repo": "cathrynlavery/diagram-design",
       "说明": "27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "星标": 21128,
-      "本周新增": 16260,
+      "星标": 22378,
+      "本周新增": 15812,
       "语言": "HTML"
     },
     {
       "名称": "semantica",
       "repo": "semantica-agi/semantica",
       "说明": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "星标": 8758,
-      "本周新增": 4746,
+      "星标": 9245,
+      "本周新增": 4304,
       "语言": "Python"
     },
     {
       "名称": "holehe",
       "repo": "megadose/holehe",
       "说明": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-      "星标": 13500,
-      "本周新增": 1416,
+      "星标": 13651,
+      "本周新增": 1568,
       "语言": "Python"
-    },
-    {
-      "名称": "prime-agent",
-      "repo": "PrimeIntellect-ai/prime-agent",
-      "说明": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "星标": 17023,
-      "本周新增": 4328,
-      "语言": "TypeScript"
     },
     {
       "名称": "macro",
       "repo": "macro-inc/macro",
       "说明": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "星标": 3605,
-      "本周新增": 2724,
+      "星标": 3714,
+      "本周新增": 2627,
       "语言": "Rust"
-    },
-    {
-      "名称": "code-graph-rag",
-      "repo": "vitali87/code-graph-rag",
-      "说明": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-      "星标": 4574,
-      "本周新增": 1135,
-      "语言": "Python"
     },
     {
       "名称": "unsloth",
       "repo": "unslothai/unsloth",
       "说明": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "星标": 73377,
-      "本周新增": 3329,
+      "星标": 73690,
+      "本周新增": 3636,
       "语言": "Python"
-    },
-    {
-      "名称": "agent-skills",
-      "repo": "addyosmani/agent-skills",
-      "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 88157,
-      "本周新增": 2575,
-      "语言": "JavaScript"
     },
     {
       "名称": "modly",
       "repo": "lightningpixel/modly",
       "说明": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
-      "星标": 6488,
-      "本周新增": 1338,
+      "星标": 6771,
+      "本周新增": 1600,
       "语言": "TypeScript"
     },
     {
-      "名称": "TencentDB-Agent-Memory",
-      "repo": "TencentCloud/TencentDB-Agent-Memory",
-      "说明": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "星标": 22778,
-      "本周新增": 3389,
+      "名称": "llmfit",
+      "repo": "AlexsJones/llmfit",
+      "说明": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "星标": 32814,
+      "本周新增": 1316,
+      "语言": "Rust"
+    },
+    {
+      "名称": "prime-agent",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "说明": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "星标": 17273,
+      "本周新增": 3475,
       "语言": "TypeScript"
     },
     {
-      "名称": "skills",
-      "repo": "anthropics/skills",
-      "说明": "Public repository for Agent Skills",
-      "星标": 170139,
-      "本周新增": 2714,
+      "名称": "LTX-2",
+      "repo": "Lightricks/LTX-2",
+      "说明": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "星标": 9152,
+      "本周新增": 556,
+      "语言": "Python"
+    },
+    {
+      "名称": "code-graph-rag",
+      "repo": "vitali87/code-graph-rag",
+      "说明": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "星标": 4652,
+      "本周新增": 910,
       "语言": "Python"
     }
   ]
