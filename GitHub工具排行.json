@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-19T08:40:37+08:00",
+  "updated": "2026-08-20T08:41:42+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "178.9k",
+      "星标": "179.0k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "144.5k",
+      "星标": "144.6k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -37,7 +37,7 @@
       "名称": "DeepSeek-V3",
       "repo": "deepseek-ai/DeepSeek-V3",
       "说明": "深度求索开源大语言模型，MoE 架构 671B 参数，性能对标 GPT-4。",
-      "星标": "104.3k",
+      "星标": "104.4k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -62,82 +62,90 @@
     {
       "名称": "diagram-design",
       "repo": "cathrynlavery/diagram-design",
-      "说明": "27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "星标": 22378,
-      "本周新增": 15812,
+      "说明": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "星标": 23783,
+      "本周新增": 14397,
       "语言": "HTML"
     },
     {
       "名称": "semantica",
       "repo": "semantica-agi/semantica",
       "说明": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "星标": 9245,
-      "本周新增": 4304,
+      "星标": 9675,
+      "本周新增": 4005,
       "语言": "Python"
     },
     {
       "名称": "holehe",
       "repo": "megadose/holehe",
       "说明": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-      "星标": 13651,
-      "本周新增": 1568,
+      "星标": 13773,
+      "本周新增": 1704,
+      "语言": "Python"
+    },
+    {
+      "名称": "OpenViking",
+      "repo": "volcengine/OpenViking",
+      "说明": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "星标": 30633,
+      "本周新增": 1659,
       "语言": "Python"
     },
     {
       "名称": "macro",
       "repo": "macro-inc/macro",
       "说明": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-      "星标": 3714,
-      "本周新增": 2627,
+      "星标": 3815,
+      "本周新增": 2557,
       "语言": "Rust"
     },
     {
       "名称": "unsloth",
       "repo": "unslothai/unsloth",
       "说明": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "星标": 73690,
-      "本周新增": 3636,
+      "星标": 73972,
+      "本周新增": 3338,
+      "语言": "Python"
+    },
+    {
+      "名称": "MoneyPrinterTurbo",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "说明": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "星标": 111972,
+      "本周新增": 7380,
       "语言": "Python"
     },
     {
       "名称": "modly",
       "repo": "lightningpixel/modly",
       "说明": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
-      "星标": 6771,
-      "本周新增": 1600,
+      "星标": 6960,
+      "本周新增": 1797,
       "语言": "TypeScript"
     },
     {
       "名称": "llmfit",
       "repo": "AlexsJones/llmfit",
       "说明": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "星标": 32814,
-      "本周新增": 1316,
+      "星标": 33148,
+      "本周新增": 1545,
       "语言": "Rust"
     },
     {
-      "名称": "prime-agent",
-      "repo": "PrimeIntellect-ai/prime-agent",
-      "说明": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "星标": 17273,
-      "本周新增": 3475,
+      "名称": "omlx",
+      "repo": "jundot/omlx",
+      "说明": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "星标": 19952,
+      "本周新增": 1102,
+      "语言": "Python"
+    },
+    {
+      "名称": "freebuff",
+      "repo": "CodebuffAI/freebuff",
+      "说明": "The free coding agent",
+      "星标": 10162,
+      "本周新增": 1037,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "LTX-2",
-      "repo": "Lightricks/LTX-2",
-      "说明": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
-      "星标": 9152,
-      "本周新增": 556,
-      "语言": "Python"
-    },
-    {
-      "名称": "code-graph-rag",
-      "repo": "vitali87/code-graph-rag",
-      "说明": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-      "星标": 4652,
-      "本周新增": 910,
-      "语言": "Python"
     }
   ]
 }
