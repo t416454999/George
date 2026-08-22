@@ -1,8 +1,44 @@
 {
-  "updated": "2026-08-22T06:33:51+08:00",
+  "updated": "2026-08-22T07:12:08+08:00",
   "source": "极光引擎 · HN翻译",
   "count": 50,
   "articles": [
+    {
+      "id": "36241b5a",
+      "标题": "回顾对 Cloudflare Workers 的远程 Spectre 攻击",
+      "原文": "A revisit of remote Spectre attacks on Cloudflare Workers",
+      "摘要": "A revisit of remote Spectre attacks on Cloudflare Workers",
+      "来源": "Hacker News",
+      "日期": "2026-08-22",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+      "标签": []
+    },
+    {
+      "id": "8a326e7a",
+      "标题": "OTel 进展不顺利",
+      "原文": "OTel isn’t going well",
+      "摘要": "OTel isn’t going well",
+      "来源": "Hacker News",
+      "日期": "2026-08-22",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "标签": []
+    },
+    {
+      "id": "4449014b",
+      "标题": "Zig 的 io.threaded 很简洁",
+      "原文": "Zig’s io.threaded is neat",
+      "摘要": "Zig’s io.threaded is neat",
+      "来源": "Hacker News",
+      "日期": "2026-08-22",
+      "热度": 65,
+      "分类": "科技商业",
+      "链接": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+      "标签": []
+    },
     {
       "id": "0df5468b",
       "标题": "优化网格优化器以在几分钟内处理数十亿个三角形（2025）",
@@ -565,42 +601,6 @@
       "热度": 65,
       "分类": "科技商业",
       "链接": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-      "标签": []
-    },
-    {
-      "id": "58d0cba6",
-      "标题": "DeepSeek-v4-flash-vision-exp",
-      "原文": "DeepSeek-v4-flash-vision-exp",
-      "摘要": "DeepSeek-v4-flash-vision-exp",
-      "来源": "Hacker News",
-      "日期": "2026-08-21",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://api-docs.deepseek.com/guides/vision/",
-      "标签": []
-    },
-    {
-      "id": "32290dd8",
-      "标题": "世邦魏理仕报告：纽约写字楼市场是科技工作者最多的家园",
-      "原文": "New York’s office market is home to the most tech workers: CBRE report",
-      "摘要": "New York’s office market is home to the most tech workers: CBRE report",
-      "来源": "Hacker News",
-      "日期": "2026-08-21",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://www.cnbc.com/2026/08/21/new-york-san-francisco-tech-talent-cbre.html",
-      "标签": []
-    },
-    {
-      "id": "f9dca78a",
-      "标题": "Decayfmt – 一种文件格式，每次打开时都会稍微损坏自身",
-      "原文": "Decayfmt – a file format that corrupts itself a little every time you open it",
-      "摘要": "Decayfmt – a file format that corrupts itself a little every time you open it",
-      "来源": "Hacker News",
-      "日期": "2026-08-21",
-      "热度": 65,
-      "分类": "科技商业",
-      "链接": "https://github.com/aravpanwar/decayfmt",
       "标签": []
     }
   ]
