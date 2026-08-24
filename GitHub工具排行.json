@@ -1,135 +1,71 @@
 {
-  "updated": "2026-08-23T08:34:03+08:00",
+  "updated": "2026-08-24T08:51:25+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "179.2k",
+      "星标": "0",
       "本周变化": "─",
-      "语言": "Go"
+      "语言": ""
     },
     {
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "144.8k",
+      "星标": "0",
       "本周变化": "─",
-      "语言": "Python"
+      "语言": ""
     },
     {
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "26.4k",
+      "星标": "0",
       "本周变化": "─",
-      "语言": "TypeScript"
+      "语言": ""
     },
     {
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "60.6k",
+      "星标": "0",
       "本周变化": "─",
-      "语言": "Python"
+      "语言": ""
     },
     {
       "名称": "DeepSeek-V3",
       "repo": "deepseek-ai/DeepSeek-V3",
       "说明": "深度求索开源大语言模型，MoE 架构 671B 参数，性能对标 GPT-4。",
-      "星标": "104.4k",
+      "星标": "0",
       "本周变化": "─",
-      "语言": "Python"
+      "语言": ""
     },
     {
       "名称": "Stable Diffusion",
       "repo": "CompVis/stable-diffusion",
       "说明": "开源文生图模型，支持文本到图像生成，生态最丰富的图像生成框架。",
-      "星标": "73.3k",
+      "星标": "0",
       "本周变化": "─",
-      "语言": "Jupyter Notebook"
+      "语言": ""
     },
     {
       "名称": "Cursor",
       "repo": "getcursor/cursor",
       "说明": "AI 原生代码编辑器，深度集成 Claude 和 GPT 模型，支持自然语言编程和多文件重构。",
-      "星标": "33.2k",
+      "星标": "0",
       "本周变化": "─",
       "语言": ""
     }
   ],
   "trending": [
     {
-      "名称": "OpenViking",
-      "repo": "volcengine/OpenViking",
-      "说明": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-      "星标": 32219,
-      "本周新增": 3447,
-      "语言": "Python"
-    },
-    {
-      "名称": "MoneyPrinterTurbo",
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "说明": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "星标": 114882,
-      "本周新增": 10953,
-      "语言": "Python"
-    },
-    {
-      "名称": "diagram-design",
-      "repo": "cathrynlavery/diagram-design",
-      "说明": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "星标": 25599,
-      "本周新增": 7368,
-      "语言": "HTML"
-    },
-    {
-      "名称": "ai-memory",
-      "repo": "akitaonrails/ai-memory",
-      "说明": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "星标": 4147,
-      "本周新增": 2575,
-      "语言": "Rust"
-    },
-    {
       "名称": "omlx",
       "repo": "jundot/omlx",
       "说明": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-      "星标": 20378,
-      "本周新增": 1597,
+      "星标": 20487,
+      "本周新增": 1671,
       "语言": "Python"
-    },
-    {
-      "名称": "semantica",
-      "repo": "semantica-agi/semantica",
-      "说明": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-      "星标": 10341,
-      "本周新增": 2450,
-      "语言": "Python"
-    },
-    {
-      "名称": "llmfit",
-      "repo": "AlexsJones/llmfit",
-      "说明": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "星标": 33629,
-      "本周新增": 1949,
-      "语言": "Rust"
-    },
-    {
-      "名称": "Switchyard",
-      "repo": "NVIDIA-NeMo/Switchyard",
-      "说明": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
-      "星标": 2262,
-      "本周新增": 635,
-      "语言": "Rust"
-    },
-    {
-      "名称": "nodeterm",
-      "repo": "eneskirca/nodeterm",
-      "说明": "Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.",
-      "星标": 1072,
-      "本周新增": 424,
-      "语言": "TypeScript"
     }
   ]
 }
