@@ -1,13 +1,67 @@
 {
-  "updated": "2026-08-27T00:20:32+08:00",
-  "as_of": "2026-08-27T00:20:32+08:00",
+  "updated": "2026-08-27T02:18:09+08:00",
+  "as_of": "2026-08-27T02:18:09+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
   "status": "partial",
-  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f4551d18490>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
+  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f1c98501d50>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
   "count": 40,
   "articles": [
+    {
+      "id": 2733533763,
+      "标题": "粮农组织呼吁利用科学技术弥合数字鸿沟、城乡差距和性别差距",
+      "摘要": "粮农组织总干事屈冬玉周二在第11届亚太经合组织粮食安全部长级会议上表示，亚太地区必须将科学、技术和人工智能置于农业食品系统转型工作的核心位置，同时确保创新有助于弥合而非扩大数字鸿沟、农村鸿沟和性别鸿沟",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-26",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142691",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2733533763.webp",
+      "封面": "assets/media/un-2733533763.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/06-07-2026_FAO_Cropsuit_App_Farmers.jpg/image560x340cropped.jpg",
+      "导语": "粮农组织总干事屈冬玉周二在第11届亚太经合组织粮食安全部长级会议上表示，亚太地区必须将科学、技术和人工智能置于农业食品系统转型工作的核心位置，同时确保创新有助于弥合而非扩大数字鸿沟、农村鸿沟和性别鸿沟",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "粮农组织总干事屈冬玉周二在第11届亚太经合组织粮食安全部长级会议上表示，亚太地区必须将科学、技术和人工智能置于农业食品系统转型工作的核心位置，同时确保创新有助于弥合而非扩大数字鸿沟、农村鸿沟和性别鸿沟。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142691",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 4237055330,
+      "标题": "联合国：加沙停火依然脆弱，必须推进解除武装、恢复治理和重建",
+      "摘要": "联合国中东和平进程代理特别协调员阿拉克巴罗夫周三向安理会通报中东局势时表示，尽管关于执行安理会第2803号决议和《结束加沙冲突综合计划》的谈判仍在继续，但加沙停火依然脆弱，以色列对加沙的袭击仍在持续，约旦河西岸局势也在迅速恶化",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-26",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142690",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4237055330.webp",
+      "封面": "assets/media/un-4237055330.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/24-03-2026-UN-Photo-SC-wideview.jpg/image560x340cropped.jpg",
+      "导语": "联合国中东和平进程代理特别协调员阿拉克巴罗夫周三向安理会通报中东局势时表示，尽管关于执行安理会第2803号决议和《结束加沙冲突综合计划》的谈判仍在继续，但加沙停火依然脆弱，以色列对加沙的袭击仍在持续，约旦河西岸局势也在迅",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国中东和平进程代理特别协调员阿拉克巴罗夫周三向安理会通报中东局势时表示，尽管关于执行安理会第2803号决议和《结束加沙冲突综合计划》的谈判仍在继续，但加沙停火依然脆弱，以色列对加沙的袭击仍在持续，约旦河西岸局势也在迅速恶化。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142690",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 1115194456,
       "标题": "联合国：缅甸罗兴亚人及其他群体持续遭受严重人权侵犯",
@@ -1062,66 +1116,6 @@
       "编辑方式": "规则整理",
       "原文链接": "http://news.cyol.com/gb/news/articles/2026-08/26/content_99dW6gFa3x.html",
       "出处说明": "根据news.cyol.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1782199580,
-      "标题": "外文资讯",
-      "原标题": "Iran warns of military ship ban in Hormuz under potential deal with Oman and other Middle East news",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 cecildaily.com 最新报道，点击阅读原文。",
-      "来源": "cecildaily.com",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "http://www.cecildaily.com/ap/world/iran-warns-of-military-ship-ban-in-hormuz-under-potential-deal-with-oman-and-other/article_754af7c6-5f0f-516a-9a86-2fada0099abc.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/c/01/c01e44c3-53e8-54ba-869b-7088669d183d/6a8ecf180e3af.image.jpg?crop=1763%2C926%2C0%2C124",
-      "数据截至": "2026-08-26T13:57:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 cecildaily.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 cecildaily.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.cecildaily.com/ap/world/iran-warns-of-military-ship-ban-in-hormuz-under-potential-deal-with-oman-and-other/article_754af7c6-5f0f-516a-9a86-2fada0099abc.html",
-      "出处说明": "根据cecildaily.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1479556150,
-      "标题": "外文资讯",
-      "原标题": "King Dappa Pepple Makes Case For Bonny Kingdom",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 nationalnetworkonline.com 最新报道，点击阅读原文。",
-      "来源": "nationalnetworkonline.com",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "https://nationalnetworkonline.com/2026/08/26/king-dappa-pepple-makes-case-for-bonny-kingdom/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-08-26T13:57:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 nationalnetworkonline.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 nationalnetworkonline.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://nationalnetworkonline.com/2026/08/26/king-dappa-pepple-makes-case-for-bonny-kingdom/",
-      "出处说明": "根据nationalnetworkonline.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
