@@ -1,13 +1,121 @@
 {
-  "updated": "2026-08-26T22:46:51+08:00",
-  "as_of": "2026-08-26T22:46:51+08:00",
+  "updated": "2026-08-27T00:20:32+08:00",
+  "as_of": "2026-08-27T00:20:32+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
   "status": "partial",
-  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f7ac2a635d0>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
+  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f4551d18490>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
   "count": 40,
   "articles": [
+    {
+      "id": 1115194456,
+      "标题": "联合国：缅甸罗兴亚人及其他群体持续遭受严重人权侵犯",
+      "摘要": "在缅甸罗兴亚人大规模逃离该国寻求庇护9周年之际，联合国秘书长古特雷斯呼吁全球重新关注罗兴亚人的困境并采取行动。与此同时，联合国人权事务高级专员办公室发布的最新报告指出，缅甸人权状况，特别是少数民族群体的人权状况，已跌至新低",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142688",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1115194456.webp",
+      "封面": "assets/media/un-1115194456.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/21-05-2026-WFP-Myanmar-01.jpg/image560x340cropped.jpg",
+      "导语": "在缅甸罗兴亚人大规模逃离该国寻求庇护9周年之际，联合国秘书长古特雷斯呼吁全球重新关注罗兴亚人的困境并采取行动。与此同时，联合国人权事务高级专员办公室发布的最新报告指出，缅甸人权状况，特别是少数民族群体的人权状况，已跌至新",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "在缅甸罗兴亚人大规模逃离该国寻求庇护9周年之际，联合国秘书长古特雷斯呼吁全球重新关注罗兴亚人的困境并采取行动。与此同时，联合国人权事务高级专员办公室发布的最新报告指出，缅甸人权状况，特别是少数民族群体的人权状况，已跌至新低。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142688",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1978705130,
+      "标题": "古特雷斯谴责海地黑帮袭击事件",
+      "摘要": "联合国秘书长古特雷斯周二通过发言人发表声明，谴责最近发生在海地太子港郊区肯斯科夫市镇的黑帮袭击事件。据报道，8月23日夜间发生的袭击造成至少47人死亡，其中包括22名据称在寻求庇护的教堂院内遭处决的人员",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142689",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1978705130.webp",
+      "封面": "assets/media/un-1978705130.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/01-10-2025-UNOCHA-Haiti-07.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长古特雷斯周二通过发言人发表声明，谴责最近发生在海地太子港郊区肯斯科夫市镇的黑帮袭击事件。据报道，8月23日夜间发生的袭击造成至少47人死亡，其中包括22名据称在寻求庇护的教堂院内遭处决的人员",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长古特雷斯周二通过发言人发表声明，谴责最近发生在海地太子港郊区肯斯科夫市镇的黑帮袭击事件。据报道，8月23日夜间发生的袭击造成至少47人死亡，其中包括22名据称在寻求庇护的教堂院内遭处决的人员。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142689",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3883904529,
+      "标题": "古特雷斯谴责以色列当局未经授权进入近东救济工程处设施",
+      "摘要": "联合国秘书长发言人杜加里克周二发表声明说，古特雷斯最强烈谴责以色列当局包括安全部队当天非法进入并滞留在被占领的东耶路撒冷的联合国近东救济工程处卡兰迪亚培训中心，并在场所内进行未经授权的施工。当时，近东救济工程处工作人员正在该中心内",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142687",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3883904529.webp",
+      "封面": "assets/media/un-3883904529.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/29-10-2025-UNNews-Gaza-Education-Board.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长发言人杜加里克周二发表声明说，古特雷斯最强烈谴责以色列当局包括安全部队当天非法进入并滞留在被占领的东耶路撒冷的联合国近东救济工程处卡兰迪亚培训中心，并在场所内进行未经授权的施工。当时，近东救济工程处工作人员正",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长发言人杜加里克周二发表声明说，古特雷斯最强烈谴责以色列当局包括安全部队当天非法进入并滞留在被占领的东耶路撒冷的联合国近东救济工程处卡兰迪亚培训中心，并在场所内进行未经授权的施工。当时，近东救济工程处工作人员正在该中心内。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142687",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2441722145,
+      "标题": "【世界交汇点】对话刘克凡——在联合国做新闻的26年",
+      "摘要": "今年是联合国电台成立80周年。从磁带装进“外交公文包”寄送世界各地，到六种语言实时上网直播，联合国的声音是如何一路走到今天的？今天，联合国全球传播部新闻媒体司副司长刘克凡做客《世界交汇点》，和我们聊聊他在联合国的26年生涯，以及在这样的媒体巨变中，联合国应该怎么做新闻、做什么样的新闻",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142686",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2441722145.webp",
+      "封面": "assets/media/un-2441722145.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Graphics%20Library/2026/08/25-08-2026_meetingpoint.jpg/image560x340cropped.jpg",
+      "导语": "今年是联合国电台成立80周年。从磁带装进“外交公文包”寄送世界各地，到六种语言实时上网直播，联合国的声音是如何一路走到今天的？今天，联合国全球传播部新闻媒体司副司长刘克凡做客《世界交汇点》，和我们聊聊他在联合国的26年生",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "今年是联合国电台成立80周年。从磁带装进“外交公文包”寄送世界各地，到六种语言实时上网直播，联合国的声音是如何一路走到今天的？今天，联合国全球传播部新闻媒体司副司长刘克凡做客《世界交汇点》，和我们聊聊他在联合国的26年生涯，以及在这样的媒体巨变中，联合国应该怎么做新闻、做什么样的新闻。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142686",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 3918277814,
       "标题": "古特雷斯：必须打破武装冲突与粮食不安全之间的恶性循环",
@@ -1014,126 +1122,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://nationalnetworkonline.com/2026/08/26/king-dappa-pepple-makes-case-for-bonny-kingdom/",
       "出处说明": "根据nationalnetworkonline.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3370219827,
-      "标题": "外文资讯",
-      "原标题": "Սի Ծինփինը Բիշքեկում կմասնակցի Շանհայի համագործակցության կազմակերպության գագաթնաժողովին",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 1in.am 最新报道，点击阅读原文。",
-      "来源": "1in.am",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "https://www.1in.am/3751909.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.1in.am/assets/uploads/2026/08/6000-1346-540x360.jpg",
-      "数据截至": "2026-08-26T13:57:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 1in.am 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 1in.am 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.1in.am/3751909.html",
-      "出处说明": "根据1in.am公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 235023565,
-      "标题": "外文资讯",
-      "原标题": "Bloomberg : Η Ρωσία κλιμακώνει τις υβριδικές επιθέσεις στην Ευρώπη",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 capital.gr 最新报道，点击阅读原文。",
-      "来源": "capital.gr",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "https://www.capital.gr/diethni/4012454/bloomberg-i-rosia-klimakonei-tis-ubridikes-epitheseis-stin-europi-xoris-sunektiko-sxedio-apantisis-i-ee/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.capital.gr/Content/ImagesDatabase/fb/1000x523/crop/both/c5/c5462c94639a4535be7c897cbc3d5ae0.jpg",
-      "数据截至": "2026-08-26T13:57:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 capital.gr 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 capital.gr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.capital.gr/diethni/4012454/bloomberg-i-rosia-klimakonei-tis-ubridikes-epitheseis-stin-europi-xoris-sunektiko-sxedio-apantisis-i-ee/",
-      "出处说明": "根据capital.gr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1740918869,
-      "标题": "外文资讯",
-      "原标题": "Trump : Warnung an Putin ? Moskau - Besuch des CIA - Chefs wirft Fragen auf",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 harzkurier.de 最新报道，点击阅读原文。",
-      "来源": "harzkurier.de",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "https://www.harzkurier.de/politik/article412968325/acht-stunden-in-moskau-hat-trump-putin-durch-den-cia-chef-warnen-lassen.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://img.sparknews.funkemedien.de/412968955/412968955_1787746828_v16_9_1600.jpeg",
-      "数据截至": "2026-08-26T13:57:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 harzkurier.de 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 harzkurier.de 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.harzkurier.de/politik/article412968325/acht-stunden-in-moskau-hat-trump-putin-durch-den-cia-chef-warnen-lassen.html",
-      "出处说明": "根据harzkurier.de公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1949264828,
-      "标题": "外文资讯",
-      "原标题": "تفاصيل تنسيق الدبلومات الفنية 2026 نظام 3 سنوات .. المواعيد الكليات المتاحة وخطوات التسجيل",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 dostor.org 最新报道，点击阅读原文。",
-      "来源": "dostor.org",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "https://www.dostor.org/5680963",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-08-26T13:57:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 dostor.org 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 dostor.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.dostor.org/5680963",
-      "出处说明": "根据dostor.org公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
