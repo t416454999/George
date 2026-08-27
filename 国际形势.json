@@ -1,13 +1,67 @@
 {
-  "updated": "2026-08-27T08:32:32+08:00",
-  "as_of": "2026-08-27T08:32:32+08:00",
+  "updated": "2026-08-27T18:29:00+08:00",
+  "as_of": "2026-08-27T18:29:00+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
   "status": "partial",
-  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f2689eb6810>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
+  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7fdc846dfa10>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
   "count": 40,
   "articles": [
+    {
+      "id": 584732943,
+      "标题": "古特雷斯：联合国维和行动必须适应新的现实",
+      "摘要": "联合国秘书长古特雷斯周三在联合国大会关于联合国维和行动审查的讲话中表示，联合国维和行动是维护国际和平与安全不可或缺的工具，但面对不断变化的冲突形势，必须适应新的现实",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-26",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142695",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-584732943.webp",
+      "封面": "assets/media/un-584732943.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/24-08-2026-UNMISS-patrol.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长古特雷斯周三在联合国大会关于联合国维和行动审查的讲话中表示，联合国维和行动是维护国际和平与安全不可或缺的工具，但面对不断变化的冲突形势，必须适应新的现实",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长古特雷斯周三在联合国大会关于联合国维和行动审查的讲话中表示，联合国维和行动是维护国际和平与安全不可或缺的工具，但面对不断变化的冲突形势，必须适应新的现实。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142695",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 808564194,
+      "标题": "儿基会就巴基斯坦医院火灾导致14名新生儿死亡表示悲痛",
+      "摘要": "联合国儿童基金会驻巴基斯坦代表艾恩赛德周三发表声明，对当天伊斯兰堡巴基斯坦医学科学研究所医院发生火灾、造成至少14名新生儿不幸遇难深感悲痛",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-26",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142694",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-808564194.webp",
+      "封面": "assets/media/un-808564194.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/06-02-2026-UN_Photo-Pakistan-Islamabad.jpeg/image560x340cropped.jpg",
+      "导语": "联合国儿童基金会驻巴基斯坦代表艾恩赛德周三发表声明，对当天伊斯兰堡巴基斯坦医学科学研究所医院发生火灾、造成至少14名新生儿不幸遇难深感悲痛",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国儿童基金会驻巴基斯坦代表艾恩赛德周三发表声明，对当天伊斯兰堡巴基斯坦医学科学研究所医院发生火灾、造成至少14名新生儿不幸遇难深感悲痛。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142694",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2426592417,
       "标题": "非洲的新宏伟目标：更多卫生工作者，更强大的卫生体系",
@@ -1070,66 +1124,6 @@
       "正文": "全球新闻索引收录的 mk.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
       "原文链接": "https://www.mk.ru/politics/2026/08/26/v-mid-irana-zhestko-vyskazalis-o-sankciyakh-ssha-protiv-respubliki.html",
-      "出处说明": "根据mk.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1069479959,
-      "标题": "外文资讯",
-      "原标题": "Chris Conley Show Links | WSAU News / Talk 550 AM · 99 . 9 FM",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 wsau.com 最新报道，点击阅读原文。",
-      "来源": "wsau.com",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "https://wsau.com/2026/08/26/chris-conleys-substack/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/2272/files/2026/07/20240514-065650copy.jpg",
-      "数据截至": "2026-08-26T20:37:46+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 wsau.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 wsau.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://wsau.com/2026/08/26/chris-conleys-substack/",
-      "出处说明": "根据wsau.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3933989018,
-      "标题": "外文资讯",
-      "原标题": "Одна из стран ЕС приняла решение сократить военные расходы",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 mk.ru 最新报道，点击阅读原文。",
-      "来源": "mk.ru",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "https://www.mk.ru/politics/2026/08/26/odna-iz-stran-es-prinyala-reshenie-sokratit-voennye-raskhody.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://static.mk.ru/upload/entities/2026/08/26/22/articles/facebookPicture/94/3e/1c/e0/9b68ddb4b7951eac8afb7845b2a06e78.jpg",
-      "数据截至": "2026-08-26T20:37:46+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 mk.ru 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 mk.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.mk.ru/politics/2026/08/26/odna-iz-stran-es-prinyala-reshenie-sokratit-voennye-raskhody.html",
       "出处说明": "根据mk.ru公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
