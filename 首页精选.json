@@ -1,10 +1,46 @@
 {
-  "generated": "2026-08-27T18:29:17+08:00",
+  "generated": "2026-08-28T04:44:38+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 808564194,
+  "headline_id": 765226503,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 10,
   "articles": [
+    {
+      "id": 765226503,
+      "标题": "【原生·一手】试行全球首次双盲人工智能评估",
+      "摘要": "Piloting the world's first double-blind AI evaluations",
+      "内容": "Piloting the world's first double-blind AI evaluations",
+      "来源": "Google DeepMind 官方",
+      "分类": "原生资讯",
+      "日期": "2026-08-27",
+      "热度": 50,
+      "链接": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "标签": [
+        "原生资讯",
+        "Google DeepMind 官方"
+      ],
+      "图片": "https://lh3.googleusercontent.com/fHN8sOK3p7BTKR4s-3lpYYnq5IEadmVKnqssJO4OmfL6remdC7E8voV-IEue8NPviKWUR7WtCtNTfsKZpld6y2jjwVhNAiqYL9-9EQzj5OURGXCCuug=w528-h297-n-nu-rw-lo",
+      "原标题": "【原生·一手】Piloting the world's first double-blind AI evaluations",
+      "中文提炼": "",
+      "候选栏目": "AI",
+      "编辑分": 85,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-28T04:44:38+08:00"
+    },
     {
       "id": 808564194,
       "标题": "儿基会就巴基斯坦医院火灾导致14名新生儿死亡表示悲痛",
@@ -33,10 +69,10 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
       "栏目状态": "partial",
-      "编辑分": 90,
+      "编辑分": 84,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
+        "时效": 8,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,24 +85,26 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
+      "选入时间": "2026-08-28T04:44:38+08:00"
     },
     {
-      "id": 568897019,
-      "标题": "【原生·一手】How loveholidays is making everyone a builder with Codex",
-      "摘要": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products",
-      "内容": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products",
+      "id": 2308107405,
+      "标题": "【原生·一手】扩大 OpenAI 在巴西的影响力",
+      "摘要": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the",
+      "内容": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
-      "日期": "2026-08-26",
+      "日期": "2026-08-27",
       "热度": 59,
-      "链接": "https://openai.com/index/loveholidays",
+      "链接": "https://openai.com/index/expanding-our-presence-in-brazil",
       "标签": [
         "原生资讯",
         "OpenAI 官方",
         "OpenAI"
       ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/6ZqGa10JytlgICOk7fAw59/793cf94c3be496cc73aa0451a05aad78/loveholidays-seo-image-v4.png?w=1600&amp;h=900&amp;fit=fill",
+      "原标题": "【原生·一手】Expanding OpenAI’s presence in Brazil",
+      "中文提炼": "",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/aTwwaL7kNgJy1xpWi5g9W/1146e375c7b1d69653ce659acfd9c409/expanding-openai-presence-in-brazil-seo.png?w=1600&amp;h=900&amp;fit=fill",
       "候选栏目": "AI",
       "编辑分": 80,
       "评分分项": {
@@ -84,42 +122,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
-    },
-    {
-      "id": 440850126,
-      "标题": "【原生·模型】RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "摘要": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the",
-      "内容": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-08-26",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2608.23568",
-      "标签": [
-        "原生资讯",
-        "arXiv AI",
-        "RAG"
-      ],
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 80,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
+      "选入时间": "2026-08-28T04:44:38+08:00"
     },
     {
       "id": 79192310,
@@ -129,7 +132,7 @@
       "摘要": "Shaikh Hamdullah ibn Mustafa Dede · ca. 1500 · Main support: ink, watercolor, and gold on paper Margins: ink, watercolor, and gold on marbled paper",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-08-27",
+      "日期": "2026-08-28",
       "链接": "https://www.metmuseum.org/art/collection/search/453166",
       "图片": "assets/art/met-453166.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/is/web-large/DP231728.jpg",
@@ -167,7 +170,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
+      "选入时间": "2026-08-28T04:44:38+08:00"
     },
     {
       "id": 3256124777,
@@ -177,7 +180,7 @@
       "摘要": "Francesco Bartolozzi · May 18, 1793 · Etching and engraving",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-08-27",
+      "日期": "2026-08-28",
       "链接": "https://www.metmuseum.org/art/collection/search/377251",
       "图片": "assets/art/met-377251.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/dp/web-large/DP891456.jpg",
@@ -215,7 +218,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
+      "选入时间": "2026-08-28T04:44:38+08:00"
     },
     {
       "id": 2520925635,
@@ -225,7 +228,7 @@
       "摘要": "Rembrandt (Rembrandt van Rijn) · 1660 · Oil on canvas",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-08-27",
+      "日期": "2026-08-28",
       "链接": "https://www.metmuseum.org/art/collection/search/437397",
       "图片": "assets/art/met-437397.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16323-001.jpg",
@@ -263,32 +266,69 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
+      "选入时间": "2026-08-28T04:44:38+08:00"
     },
     {
-      "id": 2480523217,
-      "标题": "【专题报道】地中海的另一场“奥德赛”：生态宝藏何以走出危机",
-      "摘要": "距荷马史诗《奥德赛》诞生已逾2500年。如今，英国导演克里斯托弗·诺兰执导的电影《奥德赛》再次将这段跨越千年的传奇旅程搬上大银幕。从神话中的惊涛骇浪，到今天真实世界里的生态危机，这片海域依然在经历一场漫长而艰难的“奥德赛”——只是这一次，主角不再是奥德修斯，而是地中海本身",
+      "id": 568897019,
+      "标题": "【原生·一手】loveholidays 如何通过 Codex 让每个人都成为建设者",
+      "摘要": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products",
+      "内容": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-08-26",
+      "热度": 59,
+      "链接": "https://openai.com/index/loveholidays",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "OpenAI"
+      ],
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/6ZqGa10JytlgICOk7fAw59/793cf94c3be496cc73aa0451a05aad78/loveholidays-seo-image-v4.png?w=1600&amp;h=900&amp;fit=fill",
+      "原标题": "【原生·一手】How loveholidays is making everyone a builder with Codex",
+      "中文提炼": "",
+      "候选栏目": "AI",
+      "编辑分": 79,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-28T04:44:38+08:00"
+    },
+    {
+      "id": 2426592417,
+      "标题": "非洲的新宏伟目标：更多卫生工作者，更强大的卫生体系",
+      "摘要": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划",
       "来源": "联合国新闻",
       "分类": "国际形势",
-      "日期": "2026-08-25",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142647",
+      "日期": "2026-08-26",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142693",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-2480523217.webp",
-      "封面": "assets/media/un-2480523217.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/05-08-2026-Adobe-Stock-Temple-Apollo.jpg/image560x340cropped.jpg",
-      "导语": "距荷马史诗《奥德赛》诞生已逾2500年。如今，英国导演克里斯托弗·诺兰执导的电影《奥德赛》再次将这段跨越千年的传奇旅程搬上大银幕。从神话中的惊涛骇浪，到今天真实世界里的生态危机，这片海域依然在经历一场漫长而艰难的“奥德赛",
+      "图片": "assets/media/un-2426592417.webp",
+      "封面": "assets/media/un-2426592417.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/22-05-2026-UNFPA-Cent-African-Rep-02.jpg/image560x340cropped.jpg",
+      "导语": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "距荷马史诗《奥德赛》诞生已逾2500年。如今，英国导演克里斯托弗·诺兰执导的电影《奥德赛》再次将这段跨越千年的传奇旅程搬上大银幕。从神话中的惊涛骇浪，到今天真实世界里的生态危机，这片海域依然在经历一场漫长而艰难的“奥德赛”——只是这一次，主角不再是奥德修斯，而是地中海本身。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142647",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142693",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
@@ -309,32 +349,32 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
+      "选入时间": "2026-08-28T04:44:38+08:00"
     },
     {
-      "id": 604832502,
-      "标题": "联合国谴责南苏丹伏击事件，两名维和人员遇害",
-      "摘要": "联合国秘书长发言人周一表示，古特雷斯秘书长以最强烈措辞谴责南苏丹琼莱州发生的针对联合国南苏丹特派团巡逻队的伏击事件。两名埃塞俄比亚维和人员在袭击中遇难，另有七人受伤",
+      "id": 3918277814,
+      "标题": "古特雷斯：必须打破武装冲突与粮食不安全之间的恶性循环",
+      "摘要": "联合国秘书长古特雷斯周二在安理会关于“冲突与粮食安全”的公开辩论中表示，武装冲突、暴力与饥饿之间的联系不容否认，必须加强落实安理会第2417号决议，打破冲突与粮食不安全之间的恶性循环",
       "来源": "联合国新闻",
       "分类": "国际形势",
-      "日期": "2026-08-24",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142682",
+      "日期": "2026-08-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142685",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-604832502.webp",
-      "封面": "assets/media/un-604832502.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/24-08-2026-UNMISS-patrol.jpg/image560x340cropped.jpg",
-      "导语": "联合国秘书长发言人周一表示，古特雷斯秘书长以最强烈措辞谴责南苏丹琼莱州发生的针对联合国南苏丹特派团巡逻队的伏击事件。两名埃塞俄比亚维和人员在袭击中遇难，另有七人受伤",
+      "图片": "assets/media/un-3918277814.webp",
+      "封面": "assets/media/un-3918277814.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/25-08-2026-UN-Photo-SC-wideview.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长古特雷斯周二在安理会关于“冲突与粮食安全”的公开辩论中表示，武装冲突、暴力与饥饿之间的联系不容否认，必须加强落实安理会第2417号决议，打破冲突与粮食不安全之间的恶性循环",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "联合国秘书长发言人周一表示，古特雷斯秘书长以最强烈措辞谴责南苏丹琼莱州发生的针对联合国南苏丹特派团巡逻队的伏击事件。两名埃塞俄比亚维和人员在袭击中遇难，另有七人受伤。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "联合国秘书长古特雷斯周二在安理会关于“冲突与粮食安全”的公开辩论中表示，武装冲突、暴力与饥饿之间的联系不容否认，必须加强落实安理会第2417号决议，打破冲突与粮食不安全之间的恶性循环。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142682",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142685",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
@@ -355,40 +395,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
-    },
-    {
-      "id": 98682874,
-      "标题": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
-      "摘要": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。",
-      "内容": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。",
-      "来源": "量子位",
-      "分类": "AI应用",
-      "日期": "2026-08-27",
-      "热度": 56,
-      "链接": "https://www.qbitai.com/2026/08/480001.html",
-      "标签": [
-        "Qwen"
-      ],
-      "图片": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png",
-      "候选栏目": "AI",
-      "编辑分": 76,
-      "评分分项": {
-        "可信度": 17,
-        "时效": 20,
-        "公共价值": 16,
-        "一手可追溯": 10,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 3,
-        "扣分": 0
-      },
-      "来源级别": "B",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
+      "选入时间": "2026-08-28T04:44:38+08:00"
     },
     {
       "id": 3278245669,
@@ -436,14 +443,46 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-27T18:29:17+08:00"
+      "选入时间": "2026-08-28T04:44:38+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-08-27T18:29:17+08:00",
+    "as_of": "2026-08-28T04:44:38+08:00",
     "candidate_count": 604,
-    "rejected_count": 455,
+    "rejected_count": 452,
     "rejected": [
+      {
+        "id": 951191151,
+        "reason": "off_topic"
+      },
+      {
+        "id": 890610175,
+        "reason": "off_topic"
+      },
+      {
+        "id": 702806180,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4228216583,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2925078300,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2264602923,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1847635994,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1696520504,
+        "reason": "off_topic"
+      },
       {
         "id": 962615543,
         "reason": "off_topic"
@@ -481,11 +520,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 4201579789,
+        "reason": "off_topic"
+      },
+      {
         "id": 4143736134,
         "reason": "off_topic"
       },
       {
         "id": 3877690656,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3685169648,
         "reason": "off_topic"
       },
       {
@@ -497,6 +544,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 3542659234,
+        "reason": "sensational_title"
+      },
+      {
         "id": 3507928333,
         "reason": "off_topic"
       },
@@ -506,6 +557,10 @@
       },
       {
         "id": 3380988861,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3349711353,
         "reason": "off_topic"
       },
       {
@@ -557,6 +612,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 1909531840,
+        "reason": "off_topic"
+      },
+      {
         "id": 18513513,
         "reason": "off_topic"
       },
@@ -566,6 +625,10 @@
       },
       {
         "id": 1388630391,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1386861946,
         "reason": "off_topic"
       },
       {
@@ -1285,10 +1348,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 12333912,
-        "reason": "off_topic"
-      },
-      {
         "id": 1193306787,
         "reason": "off_topic"
       },
@@ -1359,6 +1418,11 @@
       {
         "id": 723560815,
         "reason": "off_topic"
+      },
+      {
+        "id": 688481864,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 647633885,
@@ -1681,6 +1745,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 3251047780,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 3231632793,
         "reason": "off_topic"
       },
@@ -1805,6 +1874,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 2431104102,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 2386814723,
         "reason": "off_topic"
       },
@@ -1865,6 +1939,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 2031343793,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 2031045696,
         "reason": "off_topic"
       },
@@ -1889,278 +1968,197 @@
         "reason": "off_topic"
       },
       {
-        "id": 1905321487,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1895506392,
-        "reason": "off_topic"
-      },
-      {
-        "id": 181964479,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1812830779,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1781787605,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1770811810,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1693947470,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1686011447,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1656476774,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1648158961,
-        "reason": "off_topic"
-      },
-      {
-        "id": 164472162,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1643239614,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1631230641,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1628291727,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1608415345,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1597059452,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1595681203,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1585875798,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1575605751,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1564798492,
-        "reason": "off_topic"
-      },
-      {
         "id": 3506263732,
         "reason": "rumor_or_unverified"
       },
       {
         "id": 855011701,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 2834453208,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 2359248950,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 2191529912,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 2258256751,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 465226767,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 1303906034,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 2798369329,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 3487830836,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 932490337,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 2073494022,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 699533104,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
         "id": 3990794921,
         "reason": "score_below_50",
-        "score": 33
+        "score": 27
       },
       {
-        "id": 3878893854,
+        "id": 3409073903,
+        "reason": "sensational_title"
+      },
+      {
+        "id": 3044852903,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 925763009,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1555700680,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 824755002,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 917203833,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2404422468,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3577269640,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 4201087960,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1812122499,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2081172051,
+        "id": 3329172815,
         "reason": "score_below_50",
         "score": 34
       },
       {
-        "id": 2429716012,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2571995657,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 4123191345,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 1276995699,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 842034161,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 865667162,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 1559865538,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 320978943,
+        "id": 247878580,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 3129679027,
+        "id": 436508598,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 1850947590,
+        "id": 1555700680,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 4114870615,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 78875846,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3878893854,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1812122499,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 4201087960,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2594176453,
         "reason": "score_below_50",
         "score": 28
       },
       {
-        "id": 3265779553,
+        "id": 984600535,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 2081172051,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 2429716012,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2571995657,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 4123191345,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1276995699,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 865667162,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 3129679027,
         "reason": "score_below_50",
         "score": 26
       },
       {
-        "id": 244619424,
+        "id": 1850947590,
         "reason": "score_below_50",
         "score": 22
       },
       {
-        "id": 4134974969,
-        "reason": "score_below_50",
-        "score": 31
-      },
-      {
-        "id": 1776799551,
+        "id": 891264799,
         "reason": "score_below_50",
         "score": 20
+      },
+      {
+        "id": 244619424,
+        "reason": "score_below_50",
+        "score": 16
       },
       {
         "id": 2470484058,
         "reason": "score_below_50",
         "score": 16
+      },
+      {
+        "id": 1382102629,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 2233152643,
@@ -2198,7 +2196,7 @@
         "score": 30
       },
       {
-        "id": 2833132584,
+        "id": 3892170956,
         "reason": "score_below_50",
         "score": 30
       },
@@ -2213,19 +2211,19 @@
         "score": 30
       },
       {
-        "id": 2266033708,
+        "id": 3224438454,
         "reason": "score_below_50",
         "score": 30
+      },
+      {
+        "id": 2266033708,
+        "reason": "score_below_50",
+        "score": 24
       },
       {
         "id": 2232509654,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 3775485832,
-        "reason": "score_below_50",
-        "score": 24
       },
       {
         "id": 468590270,
