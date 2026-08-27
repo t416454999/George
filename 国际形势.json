@@ -1,13 +1,40 @@
 {
-  "updated": "2026-08-27T04:37:55+08:00",
-  "as_of": "2026-08-27T04:37:55+08:00",
+  "updated": "2026-08-27T08:32:32+08:00",
+  "as_of": "2026-08-27T08:32:32+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f2689eb6810>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
   "count": 40,
   "articles": [
+    {
+      "id": 2426592417,
+      "标题": "非洲的新宏伟目标：更多卫生工作者，更强大的卫生体系",
+      "摘要": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-26",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142693",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2426592417.webp",
+      "封面": "assets/media/un-2426592417.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/22-05-2026-UNFPA-Cent-African-Rep-02.jpg/image560x340cropped.jpg",
+      "导语": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142693",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 1567452811,
       "标题": "古特雷斯对尼泊尔和中国严重洪灾造成的人员伤亡和破坏深感悲痛",
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.mk.ru/politics/2026/08/26/odna-iz-stran-es-prinyala-reshenie-sokratit-voennye-raskhody.html",
       "出处说明": "根据mk.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4210439033,
-      "标题": "外文资讯",
-      "原标题": "Azerbaijan is balancing Israeli arms , Iranian drones and Turkish oil",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。",
-      "来源": "jpost.com",
-      "分类": "国际形势",
-      "日期": "2026-08-26",
-      "链接": "https://www.jpost.com/international/article-906695",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/703652",
-      "数据截至": "2026-08-26T20:37:46+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.jpost.com/international/article-906695",
-      "出处说明": "根据jpost.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
