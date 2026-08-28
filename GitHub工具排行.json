@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-27T18:57:27+08:00",
+  "updated": "2026-08-28T20:00:41+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "179.6k",
+      "星标": "179.7k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "145.1k",
+      "星标": "145.2k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "26.4k",
+      "星标": "26.5k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -45,7 +45,7 @@
       "名称": "Stable Diffusion",
       "repo": "CompVis/stable-diffusion",
       "说明": "开源文生图模型，支持文本到图像生成，生态最丰富的图像生成框架。",
-      "星标": "73.3k",
+      "星标": "73.4k",
       "本周变化": "─",
       "语言": "Jupyter Notebook"
     },
@@ -63,96 +63,96 @@
       "名称": "claude-plugins-community",
       "repo": "anthropics/claude-plugins-community",
       "说明": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-      "星标": 2388,
-      "本周新增": 1759,
+      "星标": 2540,
+      "本周新增": 2069,
       "语言": "Python"
     },
     {
       "名称": "awesome-gpt-image-2",
       "repo": "freestylefly/awesome-gpt-image-2",
       "说明": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-      "星标": 22893,
-      "本周新增": 9477,
+      "星标": 24164,
+      "本周新增": 11300,
       "语言": "JavaScript"
     },
     {
       "名称": "codex",
       "repo": "openai/codex",
       "说明": "Lightweight coding agent that runs in your terminal",
-      "星标": 119166,
-      "本周新增": 12120,
+      "星标": 119537,
+      "本周新增": 12358,
       "语言": "Rust"
+    },
+    {
+      "名称": "archify",
+      "repo": "tt-a1i/archify",
+      "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "星标": 26885,
+      "本周新增": 8530,
+      "语言": "JavaScript"
     },
     {
       "名称": "maka",
       "repo": "apache/maka",
       "说明": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-      "星标": 3745,
-      "本周新增": 2217,
+      "星标": 3884,
+      "本周新增": 1978,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "MoneyPrinterTurbo",
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "说明": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "星标": 117291,
-      "本周新增": 7232,
-      "语言": "Python"
     },
     {
       "名称": "freellmapi",
       "repo": "tashfeenahmed/freellmapi",
       "说明": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "星标": 20996,
-      "本周新增": 1700,
+      "星标": 21530,
+      "本周新增": 2014,
       "语言": "TypeScript"
     },
     {
-      "名称": "OpenViking",
-      "repo": "volcengine/OpenViking",
-      "说明": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-      "星标": 33844,
-      "本周新增": 3691,
-      "语言": "Python"
-    },
-    {
-      "名称": "munder-difflin",
-      "repo": "chaitanyagiri/munder-difflin",
-      "说明": "local multi-agent harness",
-      "星标": 5017,
-      "本周新增": 2192,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "career-ops",
-      "repo": "santifer/career-ops",
-      "说明": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-      "星标": 68840,
-      "本周新增": 3061,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "posthog",
-      "repo": "PostHog/posthog",
-      "说明": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "星标": 39327,
-      "本周新增": 1485,
+      "名称": "ai-job-search",
+      "repo": "MadsLorentzen/ai-job-search",
+      "说明": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "星标": 37623,
+      "本周新增": 4706,
       "语言": "Python"
     },
     {
       "名称": "openhuman",
       "repo": "tinyhumansai/openhuman",
       "说明": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
-      "星标": 38514,
-      "本周新增": 1818,
+      "星标": 38706,
+      "本周新增": 2178,
       "语言": "Rust"
     },
     {
-      "名称": "free-claude-code",
-      "repo": "Alishahryar1/free-claude-code",
-      "说明": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
-      "星标": 50805,
-      "本周新增": 4235,
+      "名称": "claude-plugins-official",
+      "repo": "anthropics/claude-plugins-official",
+      "说明": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "星标": 34977,
+      "本周新增": 928,
+      "语言": "Python"
+    },
+    {
+      "名称": "awesome-agent-skills",
+      "repo": "VoltAgent/awesome-agent-skills",
+      "说明": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "星标": 33030,
+      "本周新增": 2324,
+      "语言": ""
+    },
+    {
+      "名称": "posthog",
+      "repo": "PostHog/posthog",
+      "说明": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "星标": 39414,
+      "本周新增": 1511,
+      "语言": "Python"
+    },
+    {
+      "名称": "ai-engineering-from-scratch",
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "说明": "Learn it. Build it. Ship it for others.",
+      "星标": 50571,
+      "本周新增": 2853,
       "语言": "Python"
     }
   ]
