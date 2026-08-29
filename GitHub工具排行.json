@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T20:00:41+08:00",
+  "updated": "2026-08-29T13:42:22+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -63,96 +63,96 @@
       "名称": "claude-plugins-community",
       "repo": "anthropics/claude-plugins-community",
       "说明": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-      "星标": 2540,
-      "本周新增": 2069,
+      "星标": 2671,
+      "本周新增": 2207,
       "语言": "Python"
     },
     {
       "名称": "awesome-gpt-image-2",
       "repo": "freestylefly/awesome-gpt-image-2",
       "说明": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-      "星标": 24164,
-      "本周新增": 11300,
+      "星标": 24788,
+      "本周新增": 12877,
       "语言": "JavaScript"
     },
     {
       "名称": "codex",
       "repo": "openai/codex",
       "说明": "Lightweight coding agent that runs in your terminal",
-      "星标": 119537,
-      "本周新增": 12358,
+      "星标": 119728,
+      "本周新增": 9109,
       "语言": "Rust"
     },
     {
       "名称": "archify",
       "repo": "tt-a1i/archify",
       "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 26885,
-      "本周新增": 8530,
+      "星标": 29569,
+      "本周新增": 11099,
       "语言": "JavaScript"
     },
     {
       "名称": "maka",
       "repo": "apache/maka",
       "说明": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-      "星标": 3884,
-      "本周新增": 1978,
+      "星标": 3981,
+      "本周新增": 1918,
       "语言": "TypeScript"
     },
     {
       "名称": "freellmapi",
       "repo": "tashfeenahmed/freellmapi",
       "说明": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "星标": 21530,
-      "本周新增": 2014,
+      "星标": 21969,
+      "本周新增": 2162,
       "语言": "TypeScript"
     },
     {
       "名称": "ai-job-search",
       "repo": "MadsLorentzen/ai-job-search",
       "说明": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "星标": 37623,
-      "本周新增": 4706,
+      "星标": 37927,
+      "本周新增": 4828,
       "语言": "Python"
     },
     {
       "名称": "openhuman",
       "repo": "tinyhumansai/openhuman",
       "说明": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
-      "星标": 38706,
-      "本周新增": 2178,
+      "星标": 38795,
+      "本周新增": 2353,
       "语言": "Rust"
     },
     {
       "名称": "claude-plugins-official",
       "repo": "anthropics/claude-plugins-official",
       "说明": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "星标": 34977,
-      "本周新增": 928,
+      "星标": 35223,
+      "本周新增": 1281,
       "语言": "Python"
     },
     {
       "名称": "awesome-agent-skills",
       "repo": "VoltAgent/awesome-agent-skills",
       "说明": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-      "星标": 33030,
-      "本周新增": 2324,
+      "星标": 33175,
+      "本周新增": 2372,
       "语言": ""
     },
     {
       "名称": "posthog",
       "repo": "PostHog/posthog",
       "说明": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "星标": 39414,
-      "本周新增": 1511,
+      "星标": 39452,
+      "本周新增": 1270,
       "语言": "Python"
     },
     {
       "名称": "ai-engineering-from-scratch",
       "repo": "rohitg00/ai-engineering-from-scratch",
       "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 50571,
-      "本周新增": 2853,
+      "星标": 50817,
+      "本周新增": 3263,
       "语言": "Python"
     }
   ]
