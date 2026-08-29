@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-29T21:59:19+08:00",
+  "generated": "2026-08-30T01:39:20+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 2898670149,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 10,
+  "count": 8,
   "articles": [
     {
       "id": 2898670149,
@@ -32,11 +32,11 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 90,
+      "栏目状态": "partial",
+      "编辑分": 84,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
+        "时效": 8,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,80 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
-    },
-    {
-      "id": 3459776295,
-      "标题": "【原生·模型】用于解释 ICU 死亡率预测的独立法学硕士和预先指定的代理管道：eICU 演示数据集的可行性研究",
-      "摘要": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical",
-      "内容": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-08-28",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2608.26109",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "原标题": "【原生·模型】Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 85,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
-    },
-    {
-      "id": 2648153449,
-      "标题": "【原生·一手】支持泰国下一代人工智能初创公司",
-      "摘要": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted",
-      "内容": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-08-28",
-      "热度": 59,
-      "链接": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "OpenAI"
-      ],
-      "原标题": "【原生·一手】Supporting Thailand’s next generation of AI startups",
-      "中文提炼": "",
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/2tIyHZ57iQlK3I0xifz9H9/7a9e9bee80e0e7d926a79d111e453342/supporting-thailand-next-generation-ai-startups--seo-v002.png?w=1600&amp;h=900&amp;fit=fill",
-      "候选栏目": "AI",
-      "编辑分": 80,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
+      "选入时间": "2026-08-30T01:39:20+08:00"
     },
     {
       "id": 79192310,
@@ -132,7 +59,7 @@
       "摘要": "Shaikh Hamdullah ibn Mustafa Dede · ca. 1500 · Main support: ink, watercolor, and gold on paper Margins: ink, watercolor, and gold on marbled paper",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-08-29",
+      "日期": "2026-08-30",
       "链接": "https://www.metmuseum.org/art/collection/search/453166",
       "图片": "assets/art/met-453166.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/is/web-large/DP231728.jpg",
@@ -170,121 +97,25 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
+      "选入时间": "2026-08-30T01:39:20+08:00"
     },
     {
-      "id": 3256124777,
-      "标题": "诗歌",
-      "原标题": "Poetry",
-      "标题翻译方式": "保守规则/历史复用",
-      "摘要": "Francesco Bartolozzi · May 18, 1793 · Etching and engraving",
-      "来源": "The Metropolitan Museum of Art",
-      "分类": "人文艺术",
-      "日期": "2026-08-29",
-      "链接": "https://www.metmuseum.org/art/collection/search/377251",
-      "图片": "assets/art/met-377251.webp",
-      "原始图片": "https://images.metmuseum.org/CRDImages/dp/web-large/DP891456.jpg",
-      "封面": "assets/art/met-377251.webp",
-      "版权": "Public Domain / Open Access",
-      "标签": [
-        "portrait",
-        "公共领域"
-      ],
-      "导语": "从馆藏资料出发，认识《诗歌》及其创作背景",
-      "要点": [
-        "Francesco Bartolozzi",
-        "May 18, 1793",
-        "Etching and engraving"
-      ],
-      "正文": "《诗歌》现由The Metropolitan Museum of Art收录。作者：Francesco Bartolozzi；年代：May 18, 1793；材质：Etching and engraving。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.metmuseum.org/art/collection/search/377251",
-      "出处说明": "根据The Metropolitan Museum of Art公开元数据/摘要整理，非原文转载。",
-      "候选栏目": "人文艺术",
-      "栏目状态": "ok",
-      "编辑分": 79,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "公共领域馆藏，图像与出处完整",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
-    },
-    {
-      "id": 2520925635,
-      "标题": "自画像",
-      "原标题": "Self-Portrait",
-      "标题翻译方式": "保守规则/历史复用",
-      "摘要": "Rembrandt (Rembrandt van Rijn) · 1660 · Oil on canvas",
-      "来源": "The Metropolitan Museum of Art",
-      "分类": "人文艺术",
-      "日期": "2026-08-29",
-      "链接": "https://www.metmuseum.org/art/collection/search/437397",
-      "图片": "assets/art/met-437397.webp",
-      "原始图片": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16323-001.jpg",
-      "封面": "assets/art/met-437397.webp",
-      "版权": "Public Domain / Open Access",
-      "标签": [
-        "portrait",
-        "公共领域"
-      ],
-      "导语": "从馆藏资料出发，认识《自画像》及其创作背景",
-      "要点": [
-        "Rembrandt (Rembrandt van Rijn)",
-        "1660",
-        "Oil on canvas"
-      ],
-      "正文": "《自画像》现由The Metropolitan Museum of Art收录。作者：Rembrandt (Rembrandt van Rijn)；年代：1660；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.metmuseum.org/art/collection/search/437397",
-      "出处说明": "根据The Metropolitan Museum of Art公开元数据/摘要整理，非原文转载。",
-      "候选栏目": "人文艺术",
-      "栏目状态": "ok",
-      "编辑分": 79,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "公共领域馆藏，图像与出处完整",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
-    },
-    {
-      "id": 765226503,
-      "标题": "【原生·一手】试行全球首次双盲人工智能评估",
-      "摘要": "Piloting the world's first double-blind AI evaluations",
-      "内容": "Piloting the world's first double-blind AI evaluations",
-      "来源": "Google DeepMind 官方",
+      "id": 3459776295,
+      "标题": "【原生·模型】用于解释 ICU 死亡率预测的独立法学硕士和预先指定的代理管道：eICU 演示数据集的可行性研究",
+      "摘要": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical",
+      "内容": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical",
+      "来源": "arXiv AI",
       "分类": "原生资讯",
-      "日期": "2026-08-27",
+      "日期": "2026-08-28",
       "热度": 50,
-      "链接": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "链接": "https://arxiv.org/abs/2608.26109",
       "标签": [
         "原生资讯",
-        "Google DeepMind 官方"
+        "arXiv AI"
       ],
-      "图片": "https://lh3.googleusercontent.com/fHN8sOK3p7BTKR4s-3lpYYnq5IEadmVKnqssJO4OmfL6remdC7E8voV-IEue8NPviKWUR7WtCtNTfsKZpld6y2jjwVhNAiqYL9-9EQzj5OURGXCCuug=w528-h297-n-nu-rw-lo",
-      "原标题": "【原生·一手】Piloting the world's first double-blind AI evaluations",
+      "原标题": "【原生·模型】Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
       "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
       "编辑分": 79,
       "评分分项": {
@@ -302,7 +133,80 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
+      "选入时间": "2026-08-30T01:39:20+08:00"
+    },
+    {
+      "id": 2648153449,
+      "标题": "【原生·一手】支持泰国下一代人工智能初创公司",
+      "摘要": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted",
+      "内容": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-08-28",
+      "热度": 59,
+      "链接": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "OpenAI"
+      ],
+      "原标题": "【原生·一手】Supporting Thailand’s next generation of AI startups",
+      "中文提炼": "",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/2tIyHZ57iQlK3I0xifz9H9/7a9e9bee80e0e7d926a79d111e453342/supporting-thailand-next-generation-ai-startups--seo-v002.png?w=1600&amp;h=900&amp;fit=fill",
+      "候选栏目": "AI",
+      "编辑分": 74,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-30T01:39:20+08:00"
+    },
+    {
+      "id": 2614790447,
+      "标题": "【原生·模型】电池预测和健康管理的大型模型：回顾和未来路线图",
+      "摘要": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of",
+      "内容": "arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-08-28",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2608.26111",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "原标题": "【原生·模型】Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 74,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-08-30T01:39:20+08:00"
     },
     {
       "id": 3853572785,
@@ -331,11 +235,11 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 79,
+      "栏目状态": "partial",
+      "编辑分": 73,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
+        "时效": 2,
         "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
@@ -348,41 +252,41 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
+      "选入时间": "2026-08-30T01:39:20+08:00"
     },
     {
-      "id": 808564194,
-      "标题": "儿基会就巴基斯坦医院火灾导致14名新生儿死亡表示悲痛",
-      "摘要": "联合国儿童基金会驻巴基斯坦代表艾恩赛德周三发表声明，对当天伊斯兰堡巴基斯坦医学科学研究所医院发生火灾、造成至少14名新生儿不幸遇难深感悲痛",
+      "id": 2426592417,
+      "标题": "非洲的新宏伟目标：更多卫生工作者，更强大的卫生体系",
+      "摘要": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划",
       "来源": "联合国新闻",
       "分类": "国际形势",
       "日期": "2026-08-26",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142694",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142693",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-808564194.webp",
-      "封面": "assets/media/un-808564194.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/06-02-2026-UN_Photo-Pakistan-Islamabad.jpeg/image560x340cropped.jpg",
-      "导语": "联合国儿童基金会驻巴基斯坦代表艾恩赛德周三发表声明，对当天伊斯兰堡巴基斯坦医学科学研究所医院发生火灾、造成至少14名新生儿不幸遇难深感悲痛",
+      "图片": "assets/media/un-2426592417.webp",
+      "封面": "assets/media/un-2426592417.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/22-05-2026-UNFPA-Cent-African-Rep-02.jpg/image560x340cropped.jpg",
+      "导语": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "联合国儿童基金会驻巴基斯坦代表艾恩赛德周三发表声明，对当天伊斯兰堡巴基斯坦医学科学研究所医院发生火灾、造成至少14名新生儿不幸遇难深感悲痛。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "面对到2035年预计将出现超过600万名卫生专业人员短缺的局面，非洲各国正加紧努力以加强其卫生力量，周三在埃塞俄比亚亚的斯亚贝巴举行的卫生部长会议上，各国宣布了一项为期十年的新计划。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142694",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142693",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 78,
+      "栏目状态": "partial",
+      "编辑分": 73,
       "评分分项": {
         "可信度": 25,
         "时效": 2,
-        "公共价值": 16,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 5,
@@ -394,7 +298,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
+      "选入时间": "2026-08-30T01:39:20+08:00"
     },
     {
       "id": 3278245669,
@@ -442,14 +346,18 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-08-29T21:59:19+08:00"
+      "选入时间": "2026-08-30T01:39:20+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-08-29T21:59:19+08:00",
+    "as_of": "2026-08-30T01:39:20+08:00",
     "candidate_count": 604,
-    "rejected_count": 446,
+    "rejected_count": 447,
     "rejected": [
+      {
+        "id": 4201830459,
+        "reason": "off_topic"
+      },
       {
         "id": 960283889,
         "reason": "off_topic"
@@ -460,6 +368,10 @@
       },
       {
         "id": 790474669,
+        "reason": "off_topic"
+      },
+      {
+        "id": 729815900,
         "reason": "off_topic"
       },
       {
@@ -484,6 +396,10 @@
       },
       {
         "id": 515658607,
+        "reason": "off_topic"
+      },
+      {
+        "id": 496919651,
         "reason": "off_topic"
       },
       {
@@ -1926,211 +1842,193 @@
         "reason": "off_topic"
       },
       {
-        "id": 3639163621,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3571458385,
-        "reason": "off_topic"
-      },
-      {
         "id": 1622851891,
         "reason": "sensational_title"
       },
       {
         "id": 785381612,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 95178375,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1022163232,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1091154394,
         "reason": "score_below_50",
-        "score": 43
+        "score": 37
       },
       {
         "id": 3425047151,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3116217239,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1291061714,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1088301068,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1087578991,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2418414288,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3837875491,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 87004599,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2629580500,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2172287353,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3419171324,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1557456750,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 2213611954,
+        "id": 2459146385,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3482692667,
         "reason": "score_below_50",
         "score": 38
       },
       {
         "id": 3686767178,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 2229784831,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 190804671,
+        "id": 745057186,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 4279943785,
+        "id": 3640794891,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 1549007841,
+        "id": 2300642836,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 3613414574,
+        "id": 468142601,
         "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 76242297,
-        "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 930679771,
         "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2541378451,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1272659467,
-        "reason": "score_below_50",
-        "score": 34
+        "score": 32
       },
       {
         "id": 1063282808,
         "reason": "score_below_50",
-        "score": 43
+        "score": 37
+      },
+      {
+        "id": 2541378451,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1272659467,
+        "reason": "score_below_50",
+        "score": 28
       },
       {
         "id": 1812953327,
         "reason": "score_below_50",
-        "score": 32
+        "score": 26
       },
       {
         "id": 2682242929,
         "reason": "score_below_50",
-        "score": 32
+        "score": 26
       },
       {
         "id": 559085071,
         "reason": "score_below_50",
-        "score": 28
+        "score": 22
       },
       {
         "id": 1942187953,
         "reason": "score_below_50",
-        "score": 28
+        "score": 22
       },
       {
         "id": 191415061,
         "reason": "score_below_50",
-        "score": 28
+        "score": 22
       },
       {
         "id": 3984714687,
         "reason": "score_below_50",
-        "score": 28
+        "score": 22
       },
       {
         "id": 1705103843,
         "reason": "score_below_50",
-        "score": 37
+        "score": 31
       },
       {
         "id": 3685278464,
         "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 1228432588,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 3562058421,
-        "reason": "score_below_50",
-        "score": 26
+        "score": 22
       },
       {
         "id": 667140877,
         "reason": "score_below_50",
-        "score": 31
+        "score": 25
       },
       {
         "id": 3129679027,
@@ -2139,6 +2037,16 @@
       },
       {
         "id": 3785544063,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 2470484058,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 3038495832,
         "reason": "score_below_50",
         "score": 20
       },
@@ -2153,11 +2061,6 @@
         "score": 26
       },
       {
-        "id": 866668196,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
         "id": 7149929,
         "reason": "score_below_50",
         "score": 30
@@ -2168,12 +2071,17 @@
         "score": 30
       },
       {
+        "id": 1165752461,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
         "id": 475584641,
         "reason": "score_below_50",
         "score": 30
       },
       {
-        "id": 2833132584,
+        "id": 3892170956,
         "reason": "score_below_50",
         "score": 30
       },
@@ -2198,14 +2106,14 @@
         "score": 26
       },
       {
-        "id": 3224438454,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
         "id": 2266033708,
         "reason": "score_below_50",
         "score": 24
+      },
+      {
+        "id": 2232509654,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 468590270,
