@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-30T15:18:59+08:00",
-  "as_of": "2026-08-30T15:18:59+08:00",
+  "updated": "2026-08-30T21:10:40+08:00",
+  "as_of": "2026-08-30T21:10:40+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
   "status": "partial",
-  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7fbc8c47c790>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
+  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7fd5288b3ed0>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
   "count": 40,
   "articles": [
     {
