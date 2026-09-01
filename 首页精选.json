@@ -1,10 +1,78 @@
 {
-  "generated": "2026-09-01T08:45:29+08:00",
+  "generated": "2026-09-01T14:06:20+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 3504537994,
+  "headline_id": 2555148425,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 9,
+  "count": 10,
   "articles": [
+    {
+      "id": 2555148425,
+      "标题": "【原生·研究】Paper Pilot: A Human-in-the-Loop Expert System for Evidence-Traceable Scientific Manuscript Generation in Applied Sciences",
+      "摘要": "arXiv:2608.28596v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly embedded in scientific workflows for literature analysis, drafting, and review.",
+      "内容": "arXiv:2608.28596v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly embedded in scientific workflows for literature analysis, drafting, and review.",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-09-01",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2608.28596",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-01T14:06:20+08:00"
+    },
+    {
+      "id": 3275397852,
+      "标题": "【原生·安全】OpenAI supports California’s bill to advance youth AI safety",
+      "摘要": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and",
+      "内容": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-08-31",
+      "热度": 59,
+      "链接": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "OpenAI"
+      ],
+      "候选栏目": "AI",
+      "编辑分": 85,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-01T14:06:20+08:00"
+    },
     {
       "id": 3504537994,
       "标题": "【专题报道 | 前方视野】《武器贸易条约》履约状况持续下滑",
@@ -32,7 +100,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 84,
       "评分分项": {
         "可信度": 25,
@@ -49,44 +117,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
-    },
-    {
-      "id": 4294421930,
-      "标题": "【原生·一手】扩大人工智能应用范围的里程碑",
-      "摘要": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable",
-      "内容": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-08-31",
-      "热度": 58,
-      "链接": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "ChatGPT"
-      ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/2jLC4QaqjiApUiHrbfSUY8/9608a468da57d55c2cf88dddb7bd0b8d/expanding-access-to-ai--seo-purple-v001.png?w=1600&amp;h=900&amp;fit=fill",
-      "原标题": "【原生·一手】A milestone in expanding access to AI",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 80,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
+      "选入时间": "2026-09-01T14:06:20+08:00"
     },
     {
       "id": 4011378430,
@@ -134,58 +165,162 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
+      "选入时间": "2026-09-01T14:06:20+08:00"
     },
     {
-      "id": 3600820431,
-      "标题": "Anthropic与英伟达支持的Lambda达成350亿美元的算力合作协议",
-      "摘要": "据一位知情人士透露，Anthropic PBC已与英伟达支持的云服务提供商Lambda达成一项350 亿美元的算力协议。 这位因讨论内容非公开而要求匿名的人士称...",
-      "内容": "据一位知情人士透露，Anthropic PBC已与英伟达支持的云服务提供商Lambda达成一项350 亿美元的算力协议。 这位因讨论内容非公开而要求匿名的人士称...",
-      "来源": "新浪科技",
-      "分类": "行业动态",
+      "id": 1748435252,
+      "标题": "自画像",
+      "原标题": "Self Portrait",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Unknown Artist · ca. 1800–1805 · Watercolor on ivory",
+      "来源": "The Metropolitan Museum of Art",
+      "分类": "人文艺术",
       "日期": "2026-09-01",
-      "热度": 50,
-      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmvz6820116.shtml",
+      "链接": "https://www.metmuseum.org/art/collection/search/21209",
+      "图片": "assets/art/met-21209.webp",
+      "原始图片": "https://images.metmuseum.org/CRDImages/ad/web-large/DP701353.jpg",
+      "封面": "assets/art/met-21209.webp",
+      "版权": "Public Domain / Open Access",
       "标签": [
-        "Anthropic"
+        "solitude",
+        "公共领域"
       ],
-      "图片": {
-        "u": "http://n.sinaimg.cn/finance/c30320b4/20210712/wx_poster_finance1.png",
-        "w": 100,
-        "h": 100,
-        "t": ""
-      },
-      "候选栏目": "AI",
-      "编辑分": 76,
+      "导语": "从馆藏资料出发，认识《自画像》及其创作背景",
+      "要点": [
+        "Unknown Artist",
+        "ca. 1800–1805",
+        "Watercolor on ivory"
+      ],
+      "正文": "《自画像》现由The Metropolitan Museum of Art收录。作者：Unknown Artist；年代：ca. 1800–1805；材质：Watercolor on ivory。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.metmuseum.org/art/collection/search/21209",
+      "出处说明": "根据The Metropolitan Museum of Art公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 79,
       "评分分项": {
-        "可信度": 17,
-        "时效": 20,
-        "公共价值": 16,
-        "一手可追溯": 10,
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
         "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 3,
+        "真实图片": 5,
+        "编辑价值": 5,
         "扣分": 0
       },
-      "来源级别": "B",
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "公共领域馆藏，图像与出处完整",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-01T14:06:20+08:00"
+    },
+    {
+      "id": 2681962311,
+      "标题": "【子午播报】2026年8月29日",
+      "摘要": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国全力以赴驰援中尼灾区；77年前的今天：苏联打破美国核垄断地位；《欢迎来龙餐馆》导演文牧野做客《联合国会客厅》，聊聊战争与儿童保护",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-29",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142711",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2681962311.webp",
+      "封面": "assets/media/un-2681962311.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/15-07-2024_un_meridian.png/image560x340cropped.jpg",
+      "导语": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国全力以赴驰援中尼灾区；77年前的今天：苏联打破美国核垄断地位；《欢迎来龙餐馆》导演文牧野做客《联合国会客厅》，聊聊战争与儿童保护",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，联合国全力以赴驰援中尼灾区；77年前的今天：苏联打破美国核垄断地位；《欢迎来龙餐馆》导演文牧野做客《联合国会客厅》，聊聊战争与儿童保护。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142711",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "ok",
+      "编辑分": 78,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
       "扣分项": [],
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
+      "选入时间": "2026-09-01T14:06:20+08:00"
     },
     {
-      "id": 1548914660,
-      "标题": "9月1日美股成交额前20：特斯拉涨超5% 在中国香港和澳门推出简配低价Model3车型",
-      "摘要": "周一美股成交额第1名闪迪收涨5.50%，成交352.06亿美元。 SK海力士正评估在日本建设半导体工厂，以完善全球产能布局，满足AI带动的存储芯片需求。",
-      "内容": "周一美股成交额第1名闪迪收涨5.50%，成交352.06亿美元。 SK海力士正评估在日本建设半导体工厂，以完善全球产能布局，满足AI带动的存储芯片需求。",
-      "来源": "新浪科技",
-      "分类": "行业动态",
+      "id": 3367795830,
+      "标题": "【世界进行时】2026年8月28日",
+      "摘要": "本期要点：古特雷斯对尼泊尔和中国严重洪灾造成的人员伤亡和破坏深感悲痛；刚果（金）本轮埃博拉疫情为有记录以来蔓延速度最快的疫情；乌干达宣布本迪布焦型埃博拉疫情结束；霍尔木兹海峡通行受阻六个月，国际海事组织关注海员处境；古特雷斯就波黑塞族前军事领导人姆拉迪奇去世发表声明；2025年24万名儿童和青少年新感染艾滋病毒；联合国谴责南苏丹伏击事件，两名维和人员遇害",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142709",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3367795830.webp",
+      "封面": "assets/media/un-3367795830.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/24-00009ag_UNWeekly_YouTube_thumbnail_1280x720px_C.jpg/image560x340cropped.jpg",
+      "导语": "本期要点：古特雷斯对尼泊尔和中国严重洪灾造成的人员伤亡和破坏深感悲痛；刚果（金）本轮埃博拉疫情为有记录以来蔓延速度最快的疫情；乌干达宣布本迪布焦型埃博拉疫情结束；霍尔木兹海峡通行受阻六个月，国际海事组织关注海员处境；古特",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "本期要点：古特雷斯对尼泊尔和中国严重洪灾造成的人员伤亡和破坏深感悲痛；刚果（金）本轮埃博拉疫情为有记录以来蔓延速度最快的疫情；乌干达宣布本迪布焦型埃博拉疫情结束；霍尔木兹海峡通行受阻六个月，国际海事组织关注海员处境；古特雷斯就波黑塞族前军事领导人姆拉迪奇去世发表声明；2025年24万名儿童和青少年新感染艾滋病毒；联合国谴责南苏丹伏击事件，两名维和人员遇害。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142709",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "ok",
+      "编辑分": 78,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-01T14:06:20+08:00"
+    },
+    {
+      "id": 3981549435,
+      "标题": "卖B70显卡，只是英特尔本地AIGC生意的开始",
+      "摘要": "一张显卡，开始被越来越多创作者当成生产资料重新算账。 过去，要把AI视频真正搬到本地，首先卡在模型。效果更好的视频模型大多通过云端服务提供，能够下载到本地的开源模型，距离稳定生产往往还有一段距离。 但今年夏天发生了变化。在MiniMax开放新一代视频模型H3权重的同一天，英特尔宣布锐炫Pro B70完成H3的Day 0适配。",
+      "内容": "一张显卡，开始被越来越多创作者当成生产资料重新算账。 过去，要把AI视频真正搬到本地，首先卡在模型。效果更好的视频模型大多通过云端服务提供，能够下载到本地的开源模型，距离稳定生产往往还有一段距离。 但今年夏天发生了变化。在MiniMax开放新一代视频模型H3权重的同一天，英特尔宣布锐炫Pro B70完成H3的Day 0适配。",
+      "来源": "雷锋网",
+      "分类": "开源工具",
       "日期": "2026-09-01",
       "热度": 57,
-      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhfqf8481378.shtml",
-      "标签": [],
-      "图片": "https://n.sinaimg.cn/tech/transform/48/w550h1898/20260901/2413-d7d4b636cc0226b4a1ae221eac1aeb04.jpg",
+      "链接": "https://www.leiphone.com/category/chips/KkkOnq0B7sxuvkyo.html",
+      "标签": [
+        "开源"
+      ],
+      "图片": "https://static.leiphone.com/uploads/new/banner/6a3a22b4dadf8.jpeg",
       "候选栏目": "AI",
       "编辑分": 76,
       "评分分项": {
@@ -203,7 +338,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
+      "选入时间": "2026-09-01T14:06:20+08:00"
     },
     {
       "id": 2481768970,
@@ -251,99 +386,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
-    },
-    {
-      "id": 3180867348,
-      "标题": "世卫组织：乌克兰医疗体系持续承受战争冲击",
-      "摘要": "世界卫生组织驻乌克兰代表哈比希特周五表示，近期乌克兰遭遇的警报和袭击数量创下自2022年2月俄罗斯入侵以来的最高纪录。上周克里维里赫发生两次袭击，造成140人受伤，其中包括23名儿童，另有16人遇难",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-08-28",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142708",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3180867348.webp",
-      "封面": "assets/media/un-3180867348.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/14-10-2025_Ukraine%20WHO.jpeg/image560x340cropped.jpg",
-      "导语": "世界卫生组织驻乌克兰代表哈比希特周五表示，近期乌克兰遭遇的警报和袭击数量创下自2022年2月俄罗斯入侵以来的最高纪录。上周克里维里赫发生两次袭击，造成140人受伤，其中包括23名儿童，另有16人遇难",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "世界卫生组织驻乌克兰代表哈比希特周五表示，近期乌克兰遭遇的警报和袭击数量创下自2022年2月俄罗斯入侵以来的最高纪录。上周克里维里赫发生两次袭击，造成140人受伤，其中包括23名儿童，另有16人遇难。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142708",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "partial",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
-    },
-    {
-      "id": 2363673813,
-      "标题": "霍尔木兹海峡通行受阻六个月 国际海事组织关注海员处境",
-      "摘要": "在伊朗冲突导致霍尔木兹海峡受阻整整六个月之际，国际海事组织呼吁采取切实可行的解决方案并加强合作，以恢复航行自由；与此同时，该机构对深陷困境的海员的处境深表担忧",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-08-28",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142703",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2363673813.webp",
-      "封面": "assets/media/un-2363673813.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/31-03-2026-IMO-seafarers-02.jpg/image560x340cropped.jpg",
-      "导语": "在伊朗冲突导致霍尔木兹海峡受阻整整六个月之际，国际海事组织呼吁采取切实可行的解决方案并加强合作，以恢复航行自由；与此同时，该机构对深陷困境的海员的处境深表担忧",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "在伊朗冲突导致霍尔木兹海峡受阻整整六个月之际，国际海事组织呼吁采取切实可行的解决方案并加强合作，以恢复航行自由；与此同时，该机构对深陷困境的海员的处境深表担忧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142703",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "partial",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
+      "选入时间": "2026-09-01T14:06:20+08:00"
     },
     {
       "id": 3278245669,
@@ -391,14 +434,18 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-01T08:45:29+08:00"
+      "选入时间": "2026-09-01T14:06:20+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-09-01T08:45:29+08:00",
+    "as_of": "2026-09-01T14:06:20+08:00",
     "candidate_count": 604,
-    "rejected_count": 452,
+    "rejected_count": 444,
     "rejected": [
+      {
+        "id": 988102813,
+        "reason": "off_topic"
+      },
       {
         "id": 962889063,
         "reason": "off_topic"
@@ -436,7 +483,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 3940776334,
+        "reason": "off_topic"
+      },
+      {
         "id": 378626996,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3643978635,
         "reason": "off_topic"
       },
       {
@@ -444,7 +499,35 @@
         "reason": "off_topic"
       },
       {
+        "id": 3274761128,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3248039531,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2958163767,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2671726555,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2620568070,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2489885387,
+        "reason": "off_topic"
+      },
+      {
         "id": 2273485139,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2181338629,
         "reason": "off_topic"
       },
       {
@@ -456,7 +539,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 2082809620,
+        "reason": "off_topic"
+      },
+      {
         "id": 1850509245,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1849782164,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1662273805,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1560376478,
         "reason": "off_topic"
       },
       {
@@ -1821,212 +1920,128 @@
         "reason": "off_topic"
       },
       {
-        "id": 2358872215,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2351673918,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2308197166,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2260223329,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2256048225,
-        "reason": "off_topic"
-      },
-      {
-        "id": 222966896,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2221016839,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2199545186,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2172415396,
-        "reason": "off_topic"
-      },
-      {
-        "id": 216580936,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2165808508,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2105688395,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 2068777045,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2047450981,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2011211231,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1998720681,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1980545288,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1949547603,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1948042611,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1935511814,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1927353875,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1914395951,
-        "reason": "off_topic"
-      },
-      {
         "id": 1622851891,
         "reason": "sensational_title"
       },
       {
-        "id": 2448678852,
+        "id": 1717121185,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 4243435100,
+        "id": 1894279632,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2466960748,
+        "id": 1497644894,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1154059698,
+        "id": 1167804880,
         "reason": "score_below_50",
-        "score": 33
+        "score": 43
       },
       {
-        "id": 277356144,
+        "id": 676664729,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3489110346,
+        "id": 871158066,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2768763753,
+        "id": 1629151287,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1504667295,
+        "id": 3244785983,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1308792247,
+        "id": 1513221533,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1662660062,
+        "id": 2926760664,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2437182589,
+        "id": 2089140813,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1345096718,
+        "id": 3672325408,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 402221537,
+        "id": 2322548007,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3721942327,
+        "id": 3269094293,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3528776301,
+        "id": 2333644348,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3223601309,
+        "id": 3943337839,
         "reason": "score_below_50",
-        "score": 37
+        "score": 39
       },
       {
-        "id": 2513061802,
+        "id": 3988329618,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 3850511294,
+        "id": 2456930780,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 3534265352,
+        "id": 2093179844,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2042339752,
+        "id": 2637355502,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 1220609983,
+        "id": 280459126,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 1535851111,
+        "id": 3197815876,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 3701008821,
+        "id": 3477947404,
         "reason": "score_below_50",
         "score": 38
+      },
+      {
+        "id": 2050013674,
+        "reason": "score_below_50",
+        "score": 34
       },
       {
         "id": 475933119,
@@ -2034,7 +2049,7 @@
         "score": 34
       },
       {
-        "id": 2714155763,
+        "id": 1126216290,
         "reason": "score_below_50",
         "score": 34
       },
@@ -2049,22 +2064,17 @@
         "score": 32
       },
       {
+        "id": 421919390,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1938981003,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 538652908,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3563213145,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 292480897,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1083213879,
         "reason": "score_below_50",
         "score": 32
       },
@@ -2074,7 +2084,12 @@
         "score": 32
       },
       {
-        "id": 3178753973,
+        "id": 1083213879,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3563213145,
         "reason": "score_below_50",
         "score": 32
       },
@@ -2104,11 +2119,6 @@
         "score": 25
       },
       {
-        "id": 3654858287,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 559085071,
         "reason": "score_below_50",
         "score": 16
@@ -2117,6 +2127,11 @@
         "id": 191415061,
         "reason": "score_below_50",
         "score": 16
+      },
+      {
+        "id": 3024831176,
+        "reason": "score_below_50",
+        "score": 30
       },
       {
         "id": 410874977,
@@ -2129,27 +2144,17 @@
         "score": 26
       },
       {
-        "id": 866668196,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
         "id": 7149929,
         "reason": "score_below_50",
         "score": 30
       },
       {
-        "id": 2970742308,
+        "id": 2069430289,
         "reason": "score_below_50",
         "score": 30
       },
       {
-        "id": 475584641,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
-        "id": 3892170956,
+        "id": 2833132584,
         "reason": "score_below_50",
         "score": 30
       },
@@ -2184,12 +2189,17 @@
         "score": 20
       },
       {
-        "id": 1819086133,
+        "id": 3775485832,
         "reason": "score_below_50",
         "score": 24
       },
       {
         "id": 468590270,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 789709312,
         "reason": "score_below_50",
         "score": 24
       },
