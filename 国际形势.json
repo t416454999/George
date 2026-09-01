@@ -1,13 +1,121 @@
 {
-  "updated": "2026-09-01T19:57:06+08:00",
-  "as_of": "2026-09-01T19:57:06+08:00",
+  "updated": "2026-09-02T00:13:21+08:00",
+  "as_of": "2026-09-02T00:13:21+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=30)",
   "count": 40,
   "articles": [
+    {
+      "id": 3968226969,
+      "标题": "尼泊尔洪灾：死亡人数持续攀升，妇女和女童处境令人担忧",
+      "摘要": "随着尼泊尔洪灾救援工作的持续进行，人道主义工作者正重点关注近期致命的山洪暴发对妇女和女童的影响，以及她们获得医疗保健的机会",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-01",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142722",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3968226969.webp",
+      "封面": "assets/media/un-3968226969.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/31-08-2026-WFP-Nepal.jpg/image560x340cropped.jpg",
+      "导语": "随着尼泊尔洪灾救援工作的持续进行，人道主义工作者正重点关注近期致命的山洪暴发对妇女和女童的影响，以及她们获得医疗保健的机会",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "随着尼泊尔洪灾救援工作的持续进行，人道主义工作者正重点关注近期致命的山洪暴发对妇女和女童的影响，以及她们获得医疗保健的机会。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142722",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1727406856,
+      "标题": "尽管全球烟草产量下降，非洲产量仍在增加",
+      "摘要": "世界卫生组织最新分析显示，2012年至2024年间，全球烟草产量下降近19%，而非洲产量增长近9%。同期，非洲香烟进口支出翻了一番多，从8.33亿美元增至17.7亿美元。这表明，非洲国家在生产和出口更多烟草的同时，也在花费更多资金进口成品香烟",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-31",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142719",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1727406856.webp",
+      "封面": "assets/media/un-1727406856.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/12-03-2024-ILO-Daniel-Berruezo-01.jpg/image560x340cropped.jpg",
+      "导语": "世界卫生组织最新分析显示，2012年至2024年间，全球烟草产量下降近19%，而非洲产量增长近9%。同期，非洲香烟进口支出翻了一番多，从8.33亿美元增至17.7亿美元。这表明，非洲国家在生产和出口更多烟草的同时，也在花",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界卫生组织最新分析显示，2012年至2024年间，全球烟草产量下降近19%，而非洲产量增长近9%。同期，非洲香烟进口支出翻了一番多，从8.33亿美元增至17.7亿美元。这表明，非洲国家在生产和出口更多烟草的同时，也在花费更多资金进口成品香烟。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142719",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1560623733,
+      "标题": "超越贫困：扩大东亚及太平洋地区中产阶级面临更大挑战",
+      "摘要": "世界银行周一发布署名博客文章指出，东亚及太平洋地区过去几十年实现了显著经济转型，数亿人摆脱贫困，约三分之一人口如今属于中产阶级。但在地区其他地方，中产阶级增长势头已经放缓，许多摆脱贫困的人正努力在中产阶级中站稳脚跟。文章认为，培育一个规模更大、经济上更稳健的中产阶级是一项独特且更为艰巨的挑战",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-31",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142718",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1560623733.webp",
+      "封面": "assets/media/un-1560623733.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2019/04/17-04-2019-OECD-report-cover.jpg/image560x340cropped.jpg",
+      "导语": "世界银行周一发布署名博客文章指出，东亚及太平洋地区过去几十年实现了显著经济转型，数亿人摆脱贫困，约三分之一人口如今属于中产阶级。但在地区其他地方，中产阶级增长势头已经放缓，许多摆脱贫困的人正努力在中产阶级中站稳脚跟。文章",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界银行周一发布署名博客文章指出，东亚及太平洋地区过去几十年实现了显著经济转型，数亿人摆脱贫困，约三分之一人口如今属于中产阶级。但在地区其他地方，中产阶级增长势头已经放缓，许多摆脱贫困的人正努力在中产阶级中站稳脚跟。文章认为，培育一个规模更大、经济上更稳健的中产阶级是一项独特且更为艰巨的挑战。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142718",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1212918052,
+      "标题": "尼泊尔洪灾死亡人数超过900人，救援需求持续增加",
+      "摘要": "联合国秘书长发言人杜加里克周一表示，尼泊尔灾难性洪灾的确认死亡人数已激增至903人，仍有4200多人失踪。目前，救援人员和人道主义工作者正努力克服高速公路受阻的困难，力图抵达受灾最严重的地区",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-08-31",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/08/1142717",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1212918052.webp",
+      "封面": "assets/media/un-1212918052.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/28-08-2026-UNICEF-Nepal-floods-02.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长发言人杜加里克周一表示，尼泊尔灾难性洪灾的确认死亡人数已激增至903人，仍有4200多人失踪。目前，救援人员和人道主义工作者正努力克服高速公路受阻的困难，力图抵达受灾最严重的地区",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长发言人杜加里克周一表示，尼泊尔灾难性洪灾的确认死亡人数已激增至903人，仍有4200多人失踪。目前，救援人员和人道主义工作者正努力克服高速公路受阻的困难，力图抵达受灾最严重的地区。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/08/1142717",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 160317279,
       "标题": "风险加剧：海平面上升对人类意味着什么",
@@ -1014,126 +1122,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://observador.pt/2026/09/01/teerao-promete-regressar-aos-compromissos-se-estados-unidos-restabelecerem-acordo/",
       "出处说明": "根据observador.pt公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1410869215,
-      "标题": "外文资讯",
-      "原标题": "ISESS Desak Kemendagri Cabut Izin Ormas Terlibat Ricuh usai Warga Tewas : Tak Berwenang Amankan Demo",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 tribunnews.com 最新报道，点击阅读原文。",
-      "来源": "tribunnews.com",
-      "分类": "国际形势",
-      "日期": "2026-09-01",
-      "链接": "https://www.tribunnews.com/nasional/7876323/isess-desak-kemendagri-cabut-izin-ormas-terlibat-ricuh-usai-warga-tewas-tak-berwenang-amankan-demo",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://asset.tribunnews.com/TBwEciba3cLj06x096soaZ3WJSw=/1200x675/filters:upscale():quality(30):format(webp):focal(0.5x0.5:0.5x0.5)/tribunnews/foto/bank/originals/Jenazah-Bambang-Setiyawan-warga-korban-kericuhan-usai-demo-DPR-di-rumah-Pejompongan.jpg",
-      "数据截至": "2026-09-01T11:56:57+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 tribunnews.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 tribunnews.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.tribunnews.com/nasional/7876323/isess-desak-kemendagri-cabut-izin-ormas-terlibat-ricuh-usai-warga-tewas-tak-berwenang-amankan-demo",
-      "出处说明": "根据tribunnews.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4104763393,
-      "标题": "外文资讯",
-      "原标题": "Kenya very vulnerable to cyber threats , study finds",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 the-star.co.ke 最新报道，点击阅读原文。",
-      "来源": "the-star.co.ke",
-      "分类": "国际形势",
-      "日期": "2026-09-01",
-      "链接": "https://www.the-star.co.ke/news/2026-09-01-kenya-very-vulnerable-to-cyber-threats-study-finds",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://cdn.radioafrica.digital/image/2026/09/5730855a-d97b-46fa-8500-6201b7f4a540.webp",
-      "数据截至": "2026-09-01T11:56:57+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 the-star.co.ke 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 the-star.co.ke 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.the-star.co.ke/news/2026-09-01-kenya-very-vulnerable-to-cyber-threats-study-finds",
-      "出处说明": "根据the-star.co.ke公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 911079312,
-      "标题": "a - We特展秀文化外交旅途 方序中曝角色頭頂巧思 | 文化",
-      "原标题": "a - We特展秀文化外交旅途 方序中曝角色頭頂巧思 | 文化",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文。",
-      "来源": "cna.com.tw",
-      "分类": "国际形势",
-      "日期": "2026-09-01",
-      "链接": "https://www.cna.com.tw:443/news/acul/202609010288.aspx",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20260901/1152x768_wmky_0_C20260901000127.jpg",
-      "数据截至": "2026-09-01T11:56:57+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.cna.com.tw:443/news/acul/202609010288.aspx",
-      "出处说明": "根据cna.com.tw公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 213696573,
-      "标题": "外文资讯",
-      "原标题": "Lukashenko : SCO could act as catalyst for UN renewal",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 sb.by 最新报道，点击阅读原文。",
-      "来源": "sb.by",
-      "分类": "国际形势",
-      "日期": "2026-09-01",
-      "链接": "https://www.sb.by/en/lukashenko-sco-could-act-as-catalyst-for-un-renewal.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-09-01T11:56:57+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 sb.by 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 sb.by 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.sb.by/en/lukashenko-sco-could-act-as-catalyst-for-un-renewal.html",
-      "出处说明": "根据sb.by公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
