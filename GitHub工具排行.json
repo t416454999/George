@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-01T13:15:41+08:00",
+  "updated": "2026-09-02T12:38:25+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "179.9k",
+      "星标": "180.0k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "145.4k",
+      "星标": "145.5k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "60.7k",
+      "星标": "60.8k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,89 +63,97 @@
       "名称": "archify",
       "repo": "tt-a1i/archify",
       "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 40999,
-      "本周新增": 22095,
+      "星标": 43150,
+      "本周新增": 25469,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "claude-plugins-community",
-      "repo": "anthropics/claude-plugins-community",
-      "说明": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-      "星标": 3120,
-      "本周新增": 1846,
-      "语言": "Python"
     },
     {
       "名称": "OpenMAIC",
       "repo": "THU-MAIC/OpenMAIC",
       "说明": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-      "星标": 28900,
-      "本周新增": 5014,
+      "星标": 30246,
+      "本周新增": 8014,
       "语言": "TypeScript"
     },
     {
       "名称": "awesome-gpt-image-2",
       "repo": "freestylefly/awesome-gpt-image-2",
       "说明": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-      "星标": 26824,
-      "本周新增": 11711,
+      "星标": 27256,
+      "本周新增": 10669,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "freellmapi",
-      "repo": "tashfeenahmed/freellmapi",
-      "说明": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "星标": 23496,
-      "本周新增": 3640,
-      "语言": "TypeScript"
     },
     {
       "名称": "scientific-agent-skills",
       "repo": "K-Dense-AI/scientific-agent-skills",
       "说明": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "星标": 41283,
-      "本周新增": 6248,
+      "星标": 41984,
+      "本周新增": 6962,
       "语言": "Python"
+    },
+    {
+      "名称": "minimind",
+      "repo": "jingyaogong/minimind",
+      "说明": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "星标": 57612,
+      "本周新增": 1949,
+      "语言": "Python"
+    },
+    {
+      "名称": "claude-plugins-community",
+      "repo": "anthropics/claude-plugins-community",
+      "说明": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "星标": 3233,
+      "本周新增": 1634,
+      "语言": "Python"
+    },
+    {
+      "名称": "freellmapi",
+      "repo": "tashfeenahmed/freellmapi",
+      "说明": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "星标": 23776,
+      "本周新增": 3452,
+      "语言": "TypeScript"
     },
     {
       "名称": "ai-engineering-from-scratch",
       "repo": "rohitg00/ai-engineering-from-scratch",
       "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 51744,
-      "本周新增": 3735,
+      "星标": 51980,
+      "本周新增": 3427,
       "语言": "Python"
     },
     {
       "名称": "screenshot-to-code",
       "repo": "abi/screenshot-to-code",
       "说明": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "星标": 76844,
-      "本周新增": 2264,
+      "星标": 77113,
+      "本周新增": 2485,
+      "语言": "Python"
+    },
+    {
+      "名称": "OpenMontage",
+      "repo": "calesthio/OpenMontage",
+      "说明": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "星标": 55521,
+      "本周新增": 5232,
       "语言": "Python"
     },
     {
       "名称": "ai-job-search",
       "repo": "MadsLorentzen/ai-job-search",
       "说明": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "星标": 39488,
-      "本周新增": 5463,
+      "星标": 40089,
+      "本周新增": 4841,
       "语言": "Python"
     },
     {
-      "名称": "maka",
-      "repo": "apache/maka",
-      "说明": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-      "星标": 4382,
-      "本周新增": 1697,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "claude-mem",
-      "repo": "thedotmack/claude-mem",
-      "说明": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "星标": 92822,
-      "本周新增": 1183,
-      "语言": "JavaScript"
+      "名称": "timesfm",
+      "repo": "google-research/timesfm",
+      "说明": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "星标": 28983,
+      "本周新增": 681,
+      "语言": "Python"
     }
   ]
 }
