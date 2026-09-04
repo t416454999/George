@@ -1,13 +1,67 @@
 {
-  "updated": "2026-09-04T09:13:58+08:00",
-  "as_of": "2026-09-04T09:13:58+08:00",
+  "updated": "2026-09-04T14:21:53+08:00",
+  "as_of": "2026-09-04T14:21:53+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 915223954,
+      "标题": "【子午播报】2026年9月4日",
+      "摘要": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，中国全额缴清2026年联合国会费；古特雷斯强调，为1.5℃而战就是为全人类而战；子午聚焦：欢迎加入珊瑚护卫队",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-04",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142739",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-915223954.webp",
+      "封面": "assets/media/un-915223954.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/15-07-2024_un_meridian.png/image560x340cropped.jpg",
+      "导语": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，中国全额缴清2026年联合国会费；古特雷斯强调，为1.5℃而战就是为全人类而战；子午聚焦：欢迎加入珊瑚护卫队",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，中国全额缴清2026年联合国会费；古特雷斯强调，为1.5℃而战就是为全人类而战；子午聚焦：欢迎加入珊瑚护卫队。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142739",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 900939091,
+      "标题": "联大支持在“联合国80周年倡议”改革框架下设立新的联合国培训机构",
+      "摘要": "联合国大会已批准将两个联合国学习和培训机构合并，从而成立一个旨在加强对会员国及联合国系统本身支持的新机构",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-03",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142740",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-900939091.webp",
+      "封面": "assets/media/un-900939091.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/11-05-2026_UN%20Secretariat.jpg/image560x340cropped.jpg",
+      "导语": "联合国大会已批准将两个联合国学习和培训机构合并，从而成立一个旨在加强对会员国及联合国系统本身支持的新机构",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国大会已批准将两个联合国学习和培训机构合并，从而成立一个旨在加强对会员国及联合国系统本身支持的新机构。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142740",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2914538131,
       "标题": "苏丹：外部支持网络助长冲突并加剧平民伤亡",
@@ -1074,66 +1128,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.thurrockgazette.co.uk/news/national/26520959.argentinas-president-make-falklands-statement-amid-reports-oil-sanctions/",
       "出处说明": "根据thurrockgazette.co.uk公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2169419864,
-      "标题": "外文资讯",
-      "原标题": "Названо число не побоявшихся остаться в России компаний США",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 lenta.ru 最新报道，点击阅读原文。",
-      "来源": "lenta.ru",
-      "分类": "国际形势",
-      "日期": "2026-09-04",
-      "链接": "https://lenta.ru/news/2026/09/04/nazvano-chislo-ne-poboyavshihsya-ostatsya-v-rossii-kompaniy-ssha/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-09-04T01:13:51+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 lenta.ru 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 lenta.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://lenta.ru/news/2026/09/04/nazvano-chislo-ne-poboyavshihsya-ostatsya-v-rossii-kompaniy-ssha/",
-      "出处说明": "根据lenta.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2273343205,
-      "标题": "外文资讯",
-      "原标题": "Німеччина звинуватила Росію в інциденті з дроном у Лейпцигу · h . ua",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 h.ua 最新报道，点击阅读原文。",
-      "来源": "h.ua",
-      "分类": "国际形势",
-      "日期": "2026-09-04",
-      "链接": "https://h.ua/2026/09/02/nimmechchina-zvinuvatyla-rosiyu-u-dronovomu-incydenti-v-leypcygu",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-09-04T01:13:51+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 h.ua 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 h.ua 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://h.ua/2026/09/02/nimmechchina-zvinuvatyla-rosiyu-u-dronovomu-incydenti-v-leypcygu",
-      "出处说明": "根据h.ua公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
