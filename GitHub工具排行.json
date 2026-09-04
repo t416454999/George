@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-03T12:41:17+08:00",
+  "updated": "2026-09-04T12:35:25+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "180.0k",
+      "星标": "180.1k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -63,97 +63,89 @@
       "名称": "archify",
       "repo": "tt-a1i/archify",
       "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 44996,
-      "本周新增": 26626,
+      "星标": 47124,
+      "本周新增": 24227,
       "语言": "JavaScript"
     },
     {
       "名称": "OpenMAIC",
       "repo": "THU-MAIC/OpenMAIC",
       "说明": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-      "星标": 30885,
-      "本周新增": 9426,
+      "星标": 31312,
+      "本周新增": 10023,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "go-modern-guidelines",
-      "repo": "JetBrains/go-modern-guidelines",
-      "说明": "Help AI coding agents write modern Go",
-      "星标": 3075,
-      "本周新增": 1403,
-      "语言": "Go"
     },
     {
       "名称": "openclaude",
       "repo": "Gitlawb/openclaude",
       "说明": "runs anywhere. uses anything",
-      "星标": 32203,
-      "本周新增": 1035,
+      "星标": 32497,
+      "本周新增": 1389,
       "语言": "TypeScript"
     },
     {
-      "名称": "scientific-agent-skills",
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "说明": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "星标": 42284,
-      "本周新增": 7558,
+      "名称": "timesfm",
+      "repo": "google-research/timesfm",
+      "说明": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "星标": 30890,
+      "本周新增": 2324,
       "语言": "Python"
     },
     {
       "名称": "minimind",
       "repo": "jingyaogong/minimind",
       "说明": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-      "星标": 58118,
-      "本周新增": 2669,
+      "星标": 58422,
+      "本周新增": 3122,
       "语言": "Python"
     },
     {
-      "名称": "timesfm",
-      "repo": "google-research/timesfm",
-      "说明": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "星标": 30557,
-      "本周新增": 787,
+      "名称": "scientific-agent-skills",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "说明": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "星标": 42531,
+      "本周新增": 7370,
       "语言": "Python"
-    },
-    {
-      "名称": "awesome-gpt-image-2",
-      "repo": "freestylefly/awesome-gpt-image-2",
-      "说明": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-      "星标": 27648,
-      "本周新增": 7006,
-      "语言": "JavaScript"
     },
     {
       "名称": "screenshot-to-code",
       "repo": "abi/screenshot-to-code",
       "说明": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "星标": 77295,
-      "本周新增": 2634,
+      "星标": 77574,
+      "本周新增": 2412,
       "语言": "Python"
     },
     {
-      "名称": "freellmapi",
-      "repo": "tashfeenahmed/freellmapi",
-      "说明": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "星标": 24023,
-      "本周新增": 3366,
+      "名称": "chrome-devtools-mcp",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "说明": "Chrome DevTools for coding agents",
+      "星标": 50884,
+      "本周新增": 1058,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "ai-engineering-from-scratch",
-      "repo": "rohitg00/ai-engineering-from-scratch",
-      "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 52190,
-      "本周新增": 2843,
-      "语言": "Python"
     },
     {
       "名称": "ipatool",
       "repo": "majd/ipatool",
       "说明": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
-      "星标": 10776,
-      "本周新增": 836,
+      "星标": 10835,
+      "本周新增": 847,
       "语言": "Go"
+    },
+    {
+      "名称": "Soup",
+      "repo": "MakazhanAlpamys/Soup",
+      "说明": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "星标": 5206,
+      "本周新增": 1812,
+      "语言": "Python"
+    },
+    {
+      "名称": "openwhispr",
+      "repo": "OpenWhispr/openwhispr",
+      "说明": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "星标": 6587,
+      "本周新增": 642,
+      "语言": "JavaScript"
     }
   ]
 }
