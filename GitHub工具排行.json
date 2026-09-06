@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-05T11:43:25+08:00",
+  "updated": "2026-09-06T12:01:22+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "180.2k",
+      "星标": "180.3k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "145.7k",
+      "星标": "145.8k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,97 +63,25 @@
       "名称": "archify",
       "repo": "tt-a1i/archify",
       "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 48761,
-      "本周新增": 21896,
+      "星标": 50140,
+      "本周新增": 19480,
       "语言": "JavaScript"
     },
     {
       "名称": "OpenMAIC",
       "repo": "THU-MAIC/OpenMAIC",
       "说明": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-      "星标": 31710,
-      "本周新增": 10274,
+      "星标": 32201,
+      "本周新增": 10109,
       "语言": "TypeScript"
     },
     {
       "名称": "openclaude",
       "repo": "Gitlawb/openclaude",
       "说明": "runs anywhere. uses anything",
-      "星标": 32649,
-      "本周新增": 1679,
+      "星标": 32766,
+      "本周新增": 1839,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "timesfm",
-      "repo": "google-research/timesfm",
-      "说明": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "星标": 31200,
-      "本周新增": 2653,
-      "语言": "Python"
-    },
-    {
-      "名称": "minimind",
-      "repo": "jingyaogong/minimind",
-      "说明": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-      "星标": 58665,
-      "本周新增": 3390,
-      "语言": "Python"
-    },
-    {
-      "名称": "tailcat",
-      "repo": "tailscale/tailcat",
-      "说明": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "星标": 6293,
-      "本周新增": 3762,
-      "语言": "Go"
-    },
-    {
-      "名称": "scientific-agent-skills",
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "说明": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "星标": 42796,
-      "本周新增": 6898,
-      "语言": "Python"
-    },
-    {
-      "名称": "magnitude",
-      "repo": "magnitudedev/magnitude",
-      "说明": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-      "星标": 2814,
-      "本周新增": 740,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "ipatool",
-      "repo": "majd/ipatool",
-      "说明": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
-      "星标": 10895,
-      "本周新增": 903,
-      "语言": "Go"
-    },
-    {
-      "名称": "ECC",
-      "repo": "affaan-m/ECC",
-      "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 249029,
-      "本周新增": 4815,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "chrome-devtools-mcp",
-      "repo": "ChromeDevTools/chrome-devtools-mcp",
-      "说明": "Chrome DevTools for coding agents",
-      "星标": 50987,
-      "本周新增": 1067,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "screenshot-to-code",
-      "repo": "abi/screenshot-to-code",
-      "说明": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "星标": 77794,
-      "本周新增": 2372,
-      "语言": "Python"
     }
   ]
 }
