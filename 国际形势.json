@@ -1,13 +1,40 @@
 {
-  "updated": "2026-09-07T05:07:52+08:00",
-  "as_of": "2026-09-07T05:07:52+08:00",
+  "updated": "2026-09-07T07:01:57+08:00",
+  "as_of": "2026-09-07T07:01:57+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 4011552287,
+      "标题": "【专题报道 | 前方视野】海平面上升已成“系统性威胁”：人类该如何应对？",
+      "摘要": "海平面上升已不再是对遥远未来的预测，而是一场正在发生的系统性危机——它不仅直接威胁沿海基础设施与居民生存，更深刻冲击着全球粮食安全、国家主权与国际法体系。面对本世纪内不可避免的海平面上升趋势与巨大的适应资金缺口，人类急需在加速减排的同时，从法理保障与资金落实上寻找突破口",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-06",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142750",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4011552287.webp",
+      "封面": "assets/media/un-4011552287.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/27-08-2026-UNDP-Maldives-01.jpg/image560x340cropped.jpg",
+      "导语": "海平面上升已不再是对遥远未来的预测，而是一场正在发生的系统性危机——它不仅直接威胁沿海基础设施与居民生存，更深刻冲击着全球粮食安全、国家主权与国际法体系。面对本世纪内不可避免的海平面上升趋势与巨大的适应资金缺口，人类急需",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "海平面上升已不再是对遥远未来的预测，而是一场正在发生的系统性危机——它不仅直接威胁沿海基础设施与居民生存，更深刻冲击着全球粮食安全、国家主权与国际法体系。面对本世纪内不可避免的海平面上升趋势与巨大的适应资金缺口，人类急需在加速减排的同时，从法理保障与资金落实上寻找突破口。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142750",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2885854507,
       "标题": "【世界进行时】2026年9月4日",
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://musavat.com/news/uitkoff-moskvadan-kiyeve-boyuk-xeberle-geldi-avropa-ucluyu-tecili-toplandi_1286955.html",
       "出处说明": "根据musavat.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3825078047,
-      "标题": "外文资讯",
-      "原标题": "УКРАЈИНСКА КРИЗА - Зеленски : Могућ наставак преговора са Русијом , кључна питања могу да реше лидери",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 rtv.rs 最新报道，点击阅读原文。",
-      "来源": "rtv.rs",
-      "分类": "国际形势",
-      "日期": "2026-09-06",
-      "链接": "https://www.rtv.rs/sr_ci/svet/ukrajinska-kriza-zelenski-moguc-nastavak-pregovora-sa-rusijom-kljucna-pitanja-mogu-da-rese-lideri_1741203.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://static.rtv.rs/slike/2026/09/06/vitkof-kusner-ukrajina-.jpg",
-      "数据截至": "2026-09-06T21:07:44+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 rtv.rs 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 rtv.rs 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.rtv.rs/sr_ci/svet/ukrajinska-kriza-zelenski-moguc-nastavak-pregovora-sa-rusijom-kljucna-pitanja-mogu-da-rese-lideri_1741203.html",
-      "出处说明": "根据rtv.rs公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
