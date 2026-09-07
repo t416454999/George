@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-06T12:01:22+08:00",
+  "updated": "2026-09-07T14:04:58+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "180.3k",
+      "星标": "180.4k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "145.8k",
+      "星标": "145.9k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "60.8k",
+      "星标": "60.9k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -60,28 +60,100 @@
   ],
   "trending": [
     {
+      "名称": "magnitude",
+      "repo": "magnitudedev/magnitude",
+      "说明": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "星标": 3941,
+      "本周新增": 1961,
+      "语言": "TypeScript"
+    },
+    {
       "名称": "archify",
       "repo": "tt-a1i/archify",
       "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 50140,
-      "本周新增": 19480,
+      "星标": 52027,
+      "本周新增": 17190,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "OpenMAIC",
-      "repo": "THU-MAIC/OpenMAIC",
-      "说明": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-      "星标": 32201,
-      "本周新增": 10109,
-      "语言": "TypeScript"
     },
     {
       "名称": "openclaude",
       "repo": "Gitlawb/openclaude",
       "说明": "runs anywhere. uses anything",
-      "星标": 32766,
-      "本周新增": 1839,
+      "星标": 32893,
+      "本周新增": 1944,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "OpenMAIC",
+      "repo": "THU-MAIC/OpenMAIC",
+      "说明": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "星标": 32858,
+      "本周新增": 9193,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "timesfm",
+      "repo": "google-research/timesfm",
+      "说明": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "星标": 31773,
+      "本周新增": 3203,
+      "语言": "Python"
+    },
+    {
+      "名称": "minimind",
+      "repo": "jingyaogong/minimind",
+      "说明": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "星标": 59375,
+      "本周新增": 3816,
+      "语言": "Python"
+    },
+    {
+      "名称": "microduck_rl",
+      "repo": "pollen-robotics/microduck_rl",
+      "说明": "RL training environments for Microduck (mjlab)",
+      "星标": 1880,
+      "本周新增": 1122,
+      "语言": "Python"
+    },
+    {
+      "名称": "ECC",
+      "repo": "affaan-m/ECC",
+      "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "星标": 252380,
+      "本周新增": 6394,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "ponytail",
+      "repo": "DietrichGebert/ponytail",
+      "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "星标": 130499,
+      "本周新增": 12186,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "geo-seo-claude",
+      "repo": "zubair-trabzada/geo-seo-claude",
+      "说明": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If you want learn how to sell this to real businesses, check out the skool community",
+      "星标": 10342,
+      "本周新增": 434,
+      "语言": "Python"
+    },
+    {
+      "名称": "feynman",
+      "repo": "advaitpaliwal/feynman",
+      "说明": "The open source AI research agent.",
+      "星标": 8911,
+      "本周新增": 262,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "academic-research-skills",
+      "repo": "Imbad0202/academic-research-skills",
+      "说明": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "星标": 46744,
+      "本周新增": 2334,
+      "语言": "Python"
     }
   ]
 }
