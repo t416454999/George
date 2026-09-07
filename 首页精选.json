@@ -1,10 +1,45 @@
 {
-  "generated": "2026-09-07T08:53:44+08:00",
+  "generated": "2026-09-07T13:47:30+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 4011552287,
+  "headline_id": 650643672,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 8,
+  "count": 10,
   "articles": [
+    {
+      "id": 650643672,
+      "标题": "【原生·研究】Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
+      "摘要": "arXiv:2609.04298v1 Announce Type: new Abstract: Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and",
+      "内容": "arXiv:2609.04298v1 Announce Type: new Abstract: Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-09-07",
+      "热度": 57,
+      "链接": "https://arxiv.org/abs/2609.04298",
+      "标签": [
+        "原生资讯",
+        "arXiv AI",
+        "Meta"
+      ],
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-07T13:47:30+08:00"
+    },
     {
       "id": 4011552287,
       "标题": "【专题报道 | 前方视野】海平面上升已成“系统性威胁”：人类该如何应对？",
@@ -49,7 +84,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-07T08:53:44+08:00"
+      "选入时间": "2026-09-07T13:47:30+08:00"
     },
     {
       "id": 2726730459,
@@ -84,7 +119,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-07T08:53:44+08:00"
+      "选入时间": "2026-09-07T13:47:30+08:00"
     },
     {
       "id": 3652265838,
@@ -132,75 +167,41 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-07T08:53:44+08:00"
+      "选入时间": "2026-09-07T13:47:30+08:00"
     },
     {
-      "id": 3558179744,
-      "标题": "【原生·研究】Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
-      "摘要": "arXiv:2609.03416v1 Announce Type: new Abstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the",
-      "内容": "arXiv:2609.03416v1 Announce Type: new Abstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
+      "id": 915223954,
+      "标题": "【子午播报】2026年9月4日",
+      "摘要": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，中国全额缴清2026年联合国会费；古特雷斯强调，为1.5℃而战就是为全人类而战；子午聚焦：欢迎加入珊瑚护卫队",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
       "日期": "2026-09-04",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2609.03416",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-07T08:53:44+08:00"
-    },
-    {
-      "id": 538231470,
-      "标题": "人工智能网络对亚太地区数字基础设施提出新要求",
-      "摘要": "人工智能正在重塑亚太地区数字格局，并融入网络、基础设施和日常应用，但速度、可靠性和计算能力方面长期存在的差距，可能导致一些国家“掉队”",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-02",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142730",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142739",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-538231470.webp",
-      "封面": "assets/media/un-538231470.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Graphics%20Library/19-02-2026-Unsplash-artificial-intel-05.jpg/image560x340cropped.jpg",
-      "导语": "人工智能正在重塑亚太地区数字格局，并融入网络、基础设施和日常应用，但速度、可靠性和计算能力方面长期存在的差距，可能导致一些国家“掉队”",
+      "图片": "assets/media/un-915223954.webp",
+      "封面": "assets/media/un-915223954.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/15-07-2024_un_meridian.png/image560x340cropped.jpg",
+      "导语": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，中国全额缴清2026年联合国会费；古特雷斯强调，为1.5℃而战就是为全人类而战；子午聚焦：欢迎加入珊瑚护卫队",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "人工智能正在重塑亚太地区数字格局，并融入网络、基础设施和日常应用，但速度、可靠性和计算能力方面长期存在的差距，可能导致一些国家“掉队”。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "纽约时间零点，北京时间12点，欢迎收看《联合国子午播报》。本期节目您将看到，中国全额缴清2026年联合国会费；古特雷斯强调，为1.5℃而战就是为全人类而战；子午聚焦：欢迎加入珊瑚护卫队。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142730",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142739",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
       "栏目状态": "ok",
-      "编辑分": 73,
+      "编辑分": 78,
       "评分分项": {
         "可信度": 25,
         "时效": 2,
-        "公共价值": 11,
+        "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 5,
@@ -212,41 +213,41 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-07T08:53:44+08:00"
+      "选入时间": "2026-09-07T13:47:30+08:00"
     },
     {
-      "id": 364446562,
-      "标题": "世界粮食计划署谴责苏丹食品援助卡车遭空袭",
-      "摘要": "世界粮食计划署周二强烈谴责日前发生在苏丹南科尔多凡州的一起空袭事件。此次袭击摧毁了超过50吨的食品。这些物资原本足以向5800人提供为期一个月的救命援助",
+      "id": 688117613,
+      "标题": "粮农组织：食品价格指数8月上涨",
+      "摘要": "联合国粮食及农业组织周五发布最新数据显示，2026年8月，粮农组织食品价格指数较7月上涨1.9%，较上年同期上涨2.5%。高温及其他天气相关风险引发市场对供应前景的担忧",
       "来源": "联合国新闻",
       "分类": "国际形势",
-      "日期": "2026-09-02",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142731",
+      "日期": "2026-09-04",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142743",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-364446562.webp",
-      "封面": "assets/media/un-364446562.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/01-07-2026-WHO-Sudan.jpg/image560x340cropped.jpg",
-      "导语": "世界粮食计划署周二强烈谴责日前发生在苏丹南科尔多凡州的一起空袭事件。此次袭击摧毁了超过50吨的食品。这些物资原本足以向5800人提供为期一个月的救命援助",
+      "图片": "assets/media/un-688117613.webp",
+      "封面": "assets/media/un-688117613.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2017/07/27571/image560x340cropped.jpg",
+      "导语": "联合国粮食及农业组织周五发布最新数据显示，2026年8月，粮农组织食品价格指数较7月上涨1.9%，较上年同期上涨2.5%。高温及其他天气相关风险引发市场对供应前景的担忧",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "世界粮食计划署周二强烈谴责日前发生在苏丹南科尔多凡州的一起空袭事件。此次袭击摧毁了超过50吨的食品。这些物资原本足以向5800人提供为期一个月的救命援助。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "联合国粮食及农业组织周五发布最新数据显示，2026年8月，粮农组织食品价格指数较7月上涨1.9%，较上年同期上涨2.5%。高温及其他天气相关风险引发市场对供应前景的担忧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142731",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142743",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
       "栏目状态": "ok",
-      "编辑分": 73,
+      "编辑分": 78,
       "评分分项": {
         "可信度": 25,
         "时效": 2,
-        "公共价值": 11,
+        "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 5,
@@ -258,30 +259,74 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-07T08:53:44+08:00"
+      "选入时间": "2026-09-07T13:47:30+08:00"
     },
     {
-      "id": 3082836407,
-      "标题": "【原生·安全】OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
-      "摘要": "arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple",
-      "内容": "arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-09-02",
-      "热度": 58,
-      "链接": "https://arxiv.org/abs/2609.00015",
-      "标签": [
-        "原生资讯",
-        "arXiv AI",
-        "AI Agent"
-      ],
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "id": 2974439405,
+      "标题": "芯思杰400Gbps PIN PD支撑全球AI算力光互联向3.2T光收发模块迭代",
+      "摘要": "深圳，2026 年 9 月 6 日（今日消息）—— 第 27 届中国国际光电博览会（CIOE）将于下周（9 月 9-11 日）在深圳国际会展中心拉开帷幕。全球领先的光电探测器芯片企业芯思杰（PHOGRAIN）将亮相 11 号馆 11B33 展位，现场将正式发布400Gbps背照式PIN型光电探测器（PIN PD）芯片。",
+      "内容": "深圳，2026 年 9 月 6 日（今日消息）—— 第 27 届中国国际光电博览会（CIOE）将于下周（9 月 9-11 日）在深圳国际会展中心拉开帷幕。全球领先的光电探测器芯片企业芯思杰（PHOGRAIN）将亮相 11 号馆 11B33 展位，现场将正式发布400Gbps背照式PIN型光电探测器（PIN PD）芯片。",
+      "来源": "雷锋网",
+      "分类": "行业动态",
+      "日期": "2026-09-07",
+      "热度": 63,
+      "链接": "https://www.leiphone.com/category/industrynews/uTYlVwazKU12Bj95.html",
+      "标签": [],
+      "图片": "https://static.leiphone.com/uploads/new/banner/6a3a22b4dadf8.jpeg",
       "候选栏目": "AI",
-      "编辑分": 73,
+      "编辑分": 76,
+      "评分分项": {
+        "可信度": 17,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 10,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 3,
+        "扣分": 0
+      },
+      "来源级别": "B",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-07T13:47:30+08:00"
+    },
+    {
+      "id": 503493723,
+      "标题": "自画像",
+      "原标题": "Self-Portrait",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Walter Shirlaw (American, 1838–1909) · 1878 · Oil on canvas",
+      "来源": "Art Institute of Chicago",
+      "分类": "人文艺术",
+      "日期": "2026-09-07",
+      "链接": "https://www.artic.edu/artworks/11",
+      "图片": "assets/covers/humanities.svg",
+      "原始图片": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+      "封面": "assets/covers/humanities.svg",
+      "版权": "CC0 / Public Domain",
+      "标签": [
+        "公共领域",
+        "芝加哥艺术博物馆"
+      ],
+      "导语": "从馆藏资料出发，认识《自画像》及其创作背景",
+      "要点": [
+        "Walter Shirlaw (American, 1838–1909)",
+        "1878",
+        "Oil on canvas"
+      ],
+      "正文": "《自画像》现由Art Institute of Chicago收录。作者：Walter Shirlaw (American, 1838–1909)；年代：1878；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.artic.edu/artworks/11",
+      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 74,
       "评分分项": {
         "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
+        "时效": 8,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -290,10 +335,58 @@
       },
       "来源级别": "A",
       "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-07T08:53:44+08:00"
+      "选入时间": "2026-09-07T13:47:30+08:00"
+    },
+    {
+      "id": 2481768970,
+      "标题": "人物肖像",
+      "原标题": "Portrait of an Artist",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Follower of Frans Hals (Dutch, 1582–1666) · 1644 · Oil on canvas",
+      "来源": "Art Institute of Chicago",
+      "分类": "人文艺术",
+      "日期": "2026-09-07",
+      "链接": "https://www.artic.edu/artworks/862",
+      "图片": "assets/covers/humanities.svg",
+      "原始图片": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
+      "封面": "assets/covers/humanities.svg",
+      "版权": "CC0 / Public Domain",
+      "标签": [
+        "公共领域",
+        "芝加哥艺术博物馆"
+      ],
+      "导语": "从馆藏资料出发，认识《人物肖像》及其创作背景",
+      "要点": [
+        "Follower of Frans Hals (Dutch, 1582–1666)",
+        "1644",
+        "Oil on canvas"
+      ],
+      "正文": "《人物肖像》现由Art Institute of Chicago收录。作者：Follower of Frans Hals (Dutch, 1582–1666)；年代：1644；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.artic.edu/artworks/862",
+      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 74,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "公共领域馆藏，图像与出处完整",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-07T13:47:30+08:00"
     },
     {
       "id": 3278245669,
@@ -341,14 +434,18 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-07T08:53:44+08:00"
+      "选入时间": "2026-09-07T13:47:30+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-09-07T08:53:44+08:00",
+    "as_of": "2026-09-07T13:47:30+08:00",
     "candidate_count": 604,
-    "rejected_count": 424,
+    "rejected_count": 419,
     "rejected": [
+      {
+        "id": 968283812,
+        "reason": "off_topic"
+      },
       {
         "id": 634955474,
         "reason": "off_topic"
@@ -394,6 +491,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 3405944418,
+        "reason": "off_topic"
+      },
+      {
         "id": 340410214,
         "reason": "off_topic"
       },
@@ -414,11 +515,31 @@
         "reason": "off_topic"
       },
       {
+        "id": 2872139844,
+        "reason": "off_topic"
+      },
+      {
         "id": 2865043428,
         "reason": "off_topic"
       },
       {
+        "id": 2734914261,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2576138486,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2573928318,
+        "reason": "off_topic"
+      },
+      {
         "id": 2496683608,
+        "reason": "off_topic"
+      },
+      {
+        "id": 215181769,
         "reason": "off_topic"
       },
       {
@@ -430,11 +551,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 1953030971,
+        "reason": "off_topic"
+      },
+      {
         "id": 1541989390,
         "reason": "off_topic"
       },
       {
+        "id": 1292336423,
+        "reason": "off_topic"
+      },
+      {
         "id": 1225161636,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1174660351,
         "reason": "off_topic"
       },
       {
@@ -1691,152 +1824,87 @@
         "reason": "off_topic"
       },
       {
-        "id": 962889063,
-        "reason": "off_topic"
-      },
-      {
-        "id": 872127884,
-        "reason": "off_topic"
-      },
-      {
-        "id": 857728872,
-        "reason": "off_topic"
-      },
-      {
-        "id": 844712773,
-        "reason": "off_topic"
-      },
-      {
-        "id": 810964412,
-        "reason": "off_topic"
-      },
-      {
-        "id": 706325832,
-        "reason": "off_topic"
-      },
-      {
-        "id": 619965476,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4240451004,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4223646344,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4171288258,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4146350550,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4093272797,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4068337303,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4064580792,
-        "reason": "off_topic"
-      },
-      {
-        "id": 403740145,
-        "reason": "off_topic"
-      },
-      {
-        "id": 889683123,
+        "id": 1200165893,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 389876218,
+        "id": 1337512076,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 1878441917,
+        "id": 356036419,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 3604264461,
+        "id": 3025416037,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 1687075284,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 2064272454,
+        "id": 3706537336,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 2590071120,
+        "id": 554731525,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 1238488013,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 1495470047,
+        "id": 2455032971,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 291418314,
+        "id": 228184355,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 4058787185,
+        "id": 983488202,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 539039037,
+        "id": 2372104952,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 4287296859,
+        "id": 2743752240,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 4024986053,
+        "id": 795094313,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 3379066972,
+        "id": 3585282527,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 155818743,
+        "id": 2160564720,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 1136338846,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 661715079,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 4280382819,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2912704196,
+        "id": 377514204,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1846,27 +1914,27 @@
         "score": 38
       },
       {
-        "id": 1297290348,
+        "id": 4280382819,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 536125457,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2688560321,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3513507917,
         "reason": "score_below_50",
         "score": 38
       },
       {
         "id": 3706640678,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2427410121,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2521352256,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 949610548,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1881,14 +1949,29 @@
         "score": 38
       },
       {
-        "id": 3511825259,
+        "id": 2941959145,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 4115318045,
         "reason": "score_below_50",
         "score": 34
       },
       {
-        "id": 3918985680,
+        "id": 3697188789,
         "reason": "score_below_50",
-        "score": 34
+        "score": 38
+      },
+      {
+        "id": 49423624,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1014964893,
+        "reason": "score_below_50",
+        "score": 32
       },
       {
         "id": 3968054955,
@@ -1896,64 +1979,54 @@
         "score": 32
       },
       {
-        "id": 2721025278,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 139288114,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 171648226,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2479483144,
+        "id": 4034087588,
         "reason": "score_below_50",
         "score": 28
       },
       {
-        "id": 882028322,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 1419678896,
+        "id": 3245514245,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 3870456602,
+        "id": 973473632,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 1387664337,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 2333068782,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 2055802240,
+        "id": 1915847523,
         "reason": "score_below_50",
         "score": 28
       },
       {
-        "id": 887543615,
+        "id": 2876413013,
         "reason": "score_below_50",
-        "score": 28
+        "score": 26
       },
       {
-        "id": 2556344302,
+        "id": 2824366038,
         "reason": "score_below_50",
-        "score": 32
+        "score": 22
       },
       {
-        "id": 1095989976,
+        "id": 3813688667,
         "reason": "score_below_50",
-        "score": 28
+        "score": 26
       },
       {
-        "id": 3483666202,
+        "id": 2190901048,
         "reason": "score_below_50",
-        "score": 28
+        "score": 20
       },
       {
         "id": 2121752831,
@@ -1961,7 +2034,12 @@
         "score": 31
       },
       {
-        "id": 1223207548,
+        "id": 4025401789,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 3645078974,
         "reason": "score_below_50",
         "score": 26
       },
@@ -2001,7 +2079,7 @@
         "score": 26
       },
       {
-        "id": 3278864918,
+        "id": 55879416,
         "reason": "score_below_50",
         "score": 26
       },
@@ -2021,12 +2099,7 @@
         "score": 20
       },
       {
-        "id": 499524943,
-        "reason": "score_below_50",
-        "score": 24
-      },
-      {
-        "id": 3775485832,
+        "id": 4218871996,
         "reason": "score_below_50",
         "score": 24
       },
