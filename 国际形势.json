@@ -1,13 +1,148 @@
 {
-  "updated": "2026-09-09T03:33:38+08:00",
-  "as_of": "2026-09-09T03:33:38+08:00",
+  "updated": "2026-09-09T06:02:39+08:00",
+  "as_of": "2026-09-09T06:02:39+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 3321013243,
+      "标题": "世卫组织警告：吸烟会损害生育能力",
+      "摘要": "世界卫生组织在周二发布的一份新报告中警告称，吸烟极有可能增加备孕难度，并强调吸烟女性的不孕风险比非吸烟者高出40%",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142758",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3321013243.webp",
+      "封面": "assets/media/un-3321013243.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/14-12-2023_Unsplash_e-cigarette-01.jpg/image560x340cropped.jpg",
+      "导语": "世界卫生组织在周二发布的一份新报告中警告称，吸烟极有可能增加备孕难度，并强调吸烟女性的不孕风险比非吸烟者高出40%",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界卫生组织在周二发布的一份新报告中警告称，吸烟极有可能增加备孕难度，并强调吸烟女性的不孕风险比非吸烟者高出40%。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142758",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 960759275,
+      "标题": "叙利亚：问责、包容和防止重演是过渡关键",
+      "摘要": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142757",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-960759275.webp",
+      "封面": "assets/media/un-960759275.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/25-07-2025-Sidnaya-Prison-Syria.JPG/image560x340cropped.jpg",
+      "导语": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142757",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3862573635,
+      "标题": "霍尔木兹海峡中断或加剧中小企业遭受排斥风险",
+      "摘要": "联合国贸易和发展会议发布的一份报告指出，贸易中断会影响所有企业，但影响程度往往不尽相同。霍尔木兹海峡的中断也不例外。大企业能够将风险分散到不同的供应商、市场和融资渠道，而中小企业通常无法做到这一点",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142756",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3862573635.webp",
+      "封面": "assets/media/un-3862573635.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/18-03-2021-ship-NOLA2.jpg/image560x340cropped.jpg",
+      "导语": "联合国贸易和发展会议发布的一份报告指出，贸易中断会影响所有企业，但影响程度往往不尽相同。霍尔木兹海峡的中断也不例外。大企业能够将风险分散到不同的供应商、市场和融资渠道，而中小企业通常无法做到这一点",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国贸易和发展会议发布的一份报告指出，贸易中断会影响所有企业，但影响程度往往不尽相同。霍尔木兹海峡的中断也不例外。大企业能够将风险分散到不同的供应商、市场和融资渠道，而中小企业通常无法做到这一点。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142756",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2433732155,
+      "标题": "【专题报道】千年岛国，一米之危——专访联合国马尔代夫驻地协调员张皓",
+      "摘要": "从空中俯瞰马尔代夫，翡翠般的岛礁散落在深蓝色印度洋上，是无数旅行者心驰神往的天堂。但对联合国马尔代夫驻地协调员张皓而言，舷窗外还有另一重景象——那些美丽的小岛，大多仅高出海平面几十厘米。“你一下飞机就能看见海滩，也能看见海水就在脚下。”一年半前初抵此地时，他第一次切身感受到，气候变化并非遥远的概念，它“就在脚下”",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142713",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2433732155.webp",
+      "封面": "assets/media/un-2433732155.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/26-08-2026-Maldives-RC-HaoZhang1.jpeg/image560x340cropped.jpg",
+      "导语": "从空中俯瞰马尔代夫，翡翠般的岛礁散落在深蓝色印度洋上，是无数旅行者心驰神往的天堂。但对联合国马尔代夫驻地协调员张皓而言，舷窗外还有另一重景象——那些美丽的小岛，大多仅高出海平面几十厘米。“你一下飞机就能看见海滩，也能看见",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "从空中俯瞰马尔代夫，翡翠般的岛礁散落在深蓝色印度洋上，是无数旅行者心驰神往的天堂。但对联合国马尔代夫驻地协调员张皓而言，舷窗外还有另一重景象——那些美丽的小岛，大多仅高出海平面几十厘米。“你一下飞机就能看见海滩，也能看见海水就在脚下。”一年半前初抵此地时，他第一次切身感受到，气候变化并非遥远的概念，它“就在脚下”。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142713",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2497174393,
+      "标题": "加沙每四个家庭中就有一个由女性担任户主",
+      "摘要": "联合国妇女署周二发布的一份最新数据简报显示，加沙地带近四分之一的家庭由女性担任户主，估计约有8万6290户家庭。这一比例是2023年10月前的两倍，当时为九分之一",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142753",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2497174393.webp",
+      "封面": "assets/media/un-2497174393.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/13-08-2026-WFP-Gaza-02.jpg/image560x340cropped.jpg",
+      "导语": "联合国妇女署周二发布的一份最新数据简报显示，加沙地带近四分之一的家庭由女性担任户主，估计约有8万6290户家庭。这一比例是2023年10月前的两倍，当时为九分之一",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国妇女署周二发布的一份最新数据简报显示，加沙地带近四分之一的家庭由女性担任户主，估计约有8万6290户家庭。这一比例是2023年10月前的两倍，当时为九分之一。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142753",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2818240878,
       "标题": "古特雷斯呼吁塔利班撤销对阿富汗妇女的禁令",
@@ -984,156 +1119,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.pleinevie.fr/vie-quotidienne/jardin/haie-mitoyenne-la-taille-de-septembre-peut-vous-couter-150-000-e-a-cause-dun-seul-nid-de-merle-223124.html",
       "出处说明": "根据pleinevie.fr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2046213014,
-      "标题": "外文资讯",
-      "原标题": "Евросоюз и Канада объединяются для противодействия влиянию США и Китая :: Новости дня / ВЗГЛЯД",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 vz.ru 最新报道，点击阅读原文。",
-      "来源": "vz.ru",
-      "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "https://vz.ru/news/2026/9/8/1449856.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://img.vz.ru/upimg/soc/soc_1449856.png",
-      "数据截至": "2026-09-08T19:33:30+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 vz.ru 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 vz.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://vz.ru/news/2026/9/8/1449856.html",
-      "出处说明": "根据vz.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 359729216,
-      "标题": "外文资讯",
-      "原标题": "Αντίποινα από το Ισραήλ : Κλείνει το βρετανικό προξενείο στην Ιερουσαλήμ μετά τις δηλώσεις για « εθνοκάθαρση » στη Δυτική Όχθη",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 epikaira.gr 最新报道，点击阅读原文。",
-      "来源": "epikaira.gr",
-      "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "https://www.epikaira.gr/antipoina-apo-to-israil-kleinei-to-vretaniko-proxeneio-stin-ierousalim-meta-tis-diloseis-gia-ethnokatharsi-sti-dytiki-ochthi/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.epikaira.gr/wp-content/uploads/2026/09/AP26251334936930.webp",
-      "数据截至": "2026-09-08T19:33:30+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 epikaira.gr 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 epikaira.gr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.epikaira.gr/antipoina-apo-to-israil-kleinei-to-vretaniko-proxeneio-stin-ierousalim-meta-tis-diloseis-gia-ethnokatharsi-sti-dytiki-ochthi/",
-      "出处说明": "根据epikaira.gr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2839143554,
-      "标题": "外文资讯",
-      "原标题": "Madhya Pradesh CM meets Sharjah Chamber of Commerce Chairman at AIM Congress - 2026 in UAE",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 indiagazette.com 最新报道，点击阅读原文。",
-      "来源": "indiagazette.com",
-      "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "http://www.indiagazette.com/news/279294514/madhya-pradesh-cm-meets-sharjah-chamber-of-commerce-chairman-at-aim-congress-2026-in-uae",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/c0268fa/446c140f-9bd9-4296-b054-c098bfbbb8d0/0/ANI-20260908122336-600x315.jpg",
-      "数据截至": "2026-09-08T19:33:30+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 indiagazette.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 indiagazette.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.indiagazette.com/news/279294514/madhya-pradesh-cm-meets-sharjah-chamber-of-commerce-chairman-at-aim-congress-2026-in-uae",
-      "出处说明": "根据indiagazette.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1539343954,
-      "标题": "外文资讯",
-      "原标题": "Rubio dit voir la main de lIran derrière lattaque houthie de lArabie saoudite",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 lalibre.be 最新报道，点击阅读原文。",
-      "来源": "lalibre.be",
-      "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "https://www.lalibre.be/international/moyen-orient/2026/09/08/rubio-dit-voir-la-main-de-liran-derriere-lattaque-houthie-de-larabie-saoudite-T2FX6C6ZYNGJPLSVCKJZFMPSO4/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.lalibre.be/resizer/v2/67YBACLKL5CRPHBBUM7JYXM3TA.jpg?auth=934f0ae5ab56c2802af9a63b6e02e80750b78ab114872857aa961ae18e53e57e&quality=85&focal=2808%2C1872",
-      "数据截至": "2026-09-08T19:33:30+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 lalibre.be 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 lalibre.be 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.lalibre.be/international/moyen-orient/2026/09/08/rubio-dit-voir-la-main-de-liran-derriere-lattaque-houthie-de-larabie-saoudite-T2FX6C6ZYNGJPLSVCKJZFMPSO4/",
-      "出处说明": "根据lalibre.be公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3384277494,
-      "标题": "外文资讯",
-      "原标题": "Google cambia Search in Europa per adeguarsi al Digital Markets Act",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 repubblica.it 最新报道，点击阅读原文。",
-      "来源": "repubblica.it",
-      "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "https://www.repubblica.it/tecnologia/2026/09/08/news/google_search_europa_digital_markets_act-425572737/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.repstatic.it/content/contenthub/img/2026/09/08/174627651-11445553-0dc4-446d-83d2-51cc60d3d56f.jpg",
-      "数据截至": "2026-09-08T19:33:30+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 repubblica.it 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 repubblica.it 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.repubblica.it/tecnologia/2026/09/08/news/google_search_europa_digital_markets_act-425572737/",
-      "出处说明": "根据repubblica.it公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
