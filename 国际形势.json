@@ -1,121 +1,13 @@
 {
-  "updated": "2026-09-10T05:06:42+08:00",
-  "as_of": "2026-09-10T05:06:42+08:00",
+  "updated": "2026-09-10T07:28:35+08:00",
+  "as_of": "2026-09-10T07:28:35+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
-    {
-      "id": 1050826780,
-      "标题": "随着全球范围冲突加剧，古特雷斯敦促各国领导人投资于和平",
-      "摘要": "周三，联合国秘书长古特雷斯呼吁世界各国领导人投资于和平，因为暴力、分裂和冲突正在加剧全球范围内的苦难",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-09",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142762",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-1050826780.webp",
-      "封面": "assets/media/un-1050826780.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/09-PeaceBell-SG-3.jpg/image560x340cropped.jpg",
-      "导语": "周三，联合国秘书长古特雷斯呼吁世界各国领导人投资于和平，因为暴力、分裂和冲突正在加剧全球范围内的苦难",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "周三，联合国秘书长古特雷斯呼吁世界各国领导人投资于和平，因为暴力、分裂和冲突正在加剧全球范围内的苦难。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142762",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3088035123,
-      "标题": "奈拜提耶局势升级之际，联合国秘书长要求以色列从黎巴嫩撤军",
-      "摘要": "随着奈拜提耶及其周边地区战事加剧，联合国秘书长古特雷斯谴责了黎巴嫩南部不断增加的平民伤亡，并呼吁以色列将其部队从黎巴嫩境内撤出",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142761",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3088035123.webp",
-      "封面": "assets/media/un-3088035123.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-UNHCR-Lebanon-02.jpg/image560x340cropped.jpg",
-      "导语": "随着奈拜提耶及其周边地区战事加剧，联合国秘书长古特雷斯谴责了黎巴嫩南部不断增加的平民伤亡，并呼吁以色列将其部队从黎巴嫩境内撤出",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "随着奈拜提耶及其周边地区战事加剧，联合国秘书长古特雷斯谴责了黎巴嫩南部不断增加的平民伤亡，并呼吁以色列将其部队从黎巴嫩境内撤出。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142761",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1256714398,
-      "标题": "人工智能数据中心对全球电力系统构成日益加剧的威胁",
-      "摘要": "联合国欧洲经济委员会警告称，数据密集型技术（尤其是人工智能数据中心）的使用增速已超过电力基础设施的承载能力，这引发了人们对全球能源系统未来可靠性和韧性的担忧",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142760",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-1256714398.webp",
-      "封面": "assets/media/un-1256714398.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/08-09-2026_Adobe_Data_Centre_01.jpg/image560x340cropped.jpg",
-      "导语": "联合国欧洲经济委员会警告称，数据密集型技术（尤其是人工智能数据中心）的使用增速已超过电力基础设施的承载能力，这引发了人们对全球能源系统未来可靠性和韧性的担忧",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国欧洲经济委员会警告称，数据密集型技术（尤其是人工智能数据中心）的使用增速已超过电力基础设施的承载能力，这引发了人们对全球能源系统未来可靠性和韧性的担忧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142760",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3590928691,
-      "标题": "联大主席敲槌宣布新一届会议开幕，努力重建全球信任",
-      "摘要": "周二，联合国大会在联合国总部敲槌宣布第81届会议开幕。新任主席、孟加拉国前外长拉赫曼承诺，在战争、人道主义危机和气候变化日益加剧的当下，将努力重建公众对该机构的信任",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142759",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3590928691.webp",
-      "封面": "assets/media/un-3590928691.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/08-09-2026_UNP_GA81_Opening.jpg/image560x340cropped.jpg",
-      "导语": "周二，联合国大会在联合国总部敲槌宣布第81届会议开幕。新任主席、孟加拉国前外长拉赫曼承诺，在战争、人道主义危机和气候变化日益加剧的当下，将努力重建公众对该机构的信任",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "周二，联合国大会在联合国总部敲槌宣布第81届会议开幕。新任主席、孟加拉国前外长拉赫曼承诺，在战争、人道主义危机和气候变化日益加剧的当下，将努力重建公众对该机构的信任。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142759",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
     {
       "id": 3321013243,
       "标题": "世卫组织警告：吸烟会损害生育能力",
@@ -657,6 +549,222 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
+      "id": 1848288197,
+      "标题": "货币基金组织：亚洲的下一个增长故事",
+      "摘要": "国际货币基金组织周三发布博客文章指出，亚洲拥有全球一半以上的人口，贡献了全球经济增长、贸易和创新的很大一部分。如今，推动亚洲崛起的驱动力正在发生转变，贸易日趋碎片化，能源安全令人担忧，人口老龄化加剧，生产率增长愈发难以维持。政策制定者面临的问题是如何抓住新机遇，重振亚洲的经济增长",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-02",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142734",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1848288197.webp",
+      "封面": "assets/media/un-1848288197.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/30-06-2022-roadsafety-bangkok.jpg/image560x340cropped.jpg",
+      "导语": "国际货币基金组织周三发布博客文章指出，亚洲拥有全球一半以上的人口，贡献了全球经济增长、贸易和创新的很大一部分。如今，推动亚洲崛起的驱动力正在发生转变，贸易日趋碎片化，能源安全令人担忧，人口老龄化加剧，生产率增长愈发难以维",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "国际货币基金组织周三发布博客文章指出，亚洲拥有全球一半以上的人口，贡献了全球经济增长、贸易和创新的很大一部分。如今，推动亚洲崛起的驱动力正在发生转变，贸易日趋碎片化，能源安全令人担忧，人口老龄化加剧，生产率增长愈发难以维持。政策制定者面临的问题是如何抓住新机遇，重振亚洲的经济增长。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142734",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 739263420,
+      "标题": "古特雷斯对美伊再次交火深表关切",
+      "摘要": "联合国秘书长发言人周三在每日新闻简报会上表示，古特雷斯秘书长对9月1日晚美国与伊朗之间再次发生交火深表关切，并对有关平民伤亡的报道深感震惊，其中包括据称袭击伊朗一场婚礼的空袭事件",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-02",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142733",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-739263420.webp",
+      "封面": "assets/media/un-739263420.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/13-07-2026_AdobeStock_Oman-01.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长发言人周三在每日新闻简报会上表示，古特雷斯秘书长对9月1日晚美国与伊朗之间再次发生交火深表关切，并对有关平民伤亡的报道深感震惊，其中包括据称袭击伊朗一场婚礼的空袭事件",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长发言人周三在每日新闻简报会上表示，古特雷斯秘书长对9月1日晚美国与伊朗之间再次发生交火深表关切，并对有关平民伤亡的报道深感震惊，其中包括据称袭击伊朗一场婚礼的空袭事件。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142733",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 444770363,
+      "标题": "旨在改善猴痘疫苗可及性的全球倡议正式启动",
+      "摘要": "由国际疫苗供应协调小组负责协调的旨在建立猴痘疫苗储备的全球倡议正式宣告启动。该倡议将建立长期机制，确保各国在应对猴痘疫情时能够获得疫苗",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-02",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142732",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-444770363.webp",
+      "封面": "assets/media/un-444770363.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/18-08-2022_WHO_monkeypox-01.jpg/image560x340cropped.jpg",
+      "导语": "由国际疫苗供应协调小组负责协调的旨在建立猴痘疫苗储备的全球倡议正式宣告启动。该倡议将建立长期机制，确保各国在应对猴痘疫情时能够获得疫苗",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "由国际疫苗供应协调小组负责协调的旨在建立猴痘疫苗储备的全球倡议正式宣告启动。该倡议将建立长期机制，确保各国在应对猴痘疫情时能够获得疫苗。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142732",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 364446562,
+      "标题": "世界粮食计划署谴责苏丹食品援助卡车遭空袭",
+      "摘要": "世界粮食计划署周二强烈谴责日前发生在苏丹南科尔多凡州的一起空袭事件。此次袭击摧毁了超过50吨的食品。这些物资原本足以向5800人提供为期一个月的救命援助",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-02",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142731",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-364446562.webp",
+      "封面": "assets/media/un-364446562.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/01-07-2026-WHO-Sudan.jpg/image560x340cropped.jpg",
+      "导语": "世界粮食计划署周二强烈谴责日前发生在苏丹南科尔多凡州的一起空袭事件。此次袭击摧毁了超过50吨的食品。这些物资原本足以向5800人提供为期一个月的救命援助",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界粮食计划署周二强烈谴责日前发生在苏丹南科尔多凡州的一起空袭事件。此次袭击摧毁了超过50吨的食品。这些物资原本足以向5800人提供为期一个月的救命援助。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142731",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1050826780,
+      "标题": "随着全球范围冲突加剧，古特雷斯敦促各国领导人投资于和平",
+      "摘要": "周三，联合国秘书长古特雷斯呼吁世界各国领导人投资于和平，因为暴力、分裂和冲突正在加剧全球范围内的苦难",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-09",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142762",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1050826780.webp",
+      "封面": "assets/media/un-1050826780.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/09-PeaceBell-SG-3.jpg/image560x340cropped.jpg",
+      "导语": "周三，联合国秘书长古特雷斯呼吁世界各国领导人投资于和平，因为暴力、分裂和冲突正在加剧全球范围内的苦难",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "周三，联合国秘书长古特雷斯呼吁世界各国领导人投资于和平，因为暴力、分裂和冲突正在加剧全球范围内的苦难。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142762",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3088035123,
+      "标题": "奈拜提耶局势升级之际，联合国秘书长要求以色列从黎巴嫩撤军",
+      "摘要": "随着奈拜提耶及其周边地区战事加剧，联合国秘书长古特雷斯谴责了黎巴嫩南部不断增加的平民伤亡，并呼吁以色列将其部队从黎巴嫩境内撤出",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142761",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3088035123.webp",
+      "封面": "assets/media/un-3088035123.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-UNHCR-Lebanon-02.jpg/image560x340cropped.jpg",
+      "导语": "随着奈拜提耶及其周边地区战事加剧，联合国秘书长古特雷斯谴责了黎巴嫩南部不断增加的平民伤亡，并呼吁以色列将其部队从黎巴嫩境内撤出",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "随着奈拜提耶及其周边地区战事加剧，联合国秘书长古特雷斯谴责了黎巴嫩南部不断增加的平民伤亡，并呼吁以色列将其部队从黎巴嫩境内撤出。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142761",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1256714398,
+      "标题": "人工智能数据中心对全球电力系统构成日益加剧的威胁",
+      "摘要": "联合国欧洲经济委员会警告称，数据密集型技术（尤其是人工智能数据中心）的使用增速已超过电力基础设施的承载能力，这引发了人们对全球能源系统未来可靠性和韧性的担忧",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142760",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1256714398.webp",
+      "封面": "assets/media/un-1256714398.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/08-09-2026_Adobe_Data_Centre_01.jpg/image560x340cropped.jpg",
+      "导语": "联合国欧洲经济委员会警告称，数据密集型技术（尤其是人工智能数据中心）的使用增速已超过电力基础设施的承载能力，这引发了人们对全球能源系统未来可靠性和韧性的担忧",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国欧洲经济委员会警告称，数据密集型技术（尤其是人工智能数据中心）的使用增速已超过电力基础设施的承载能力，这引发了人们对全球能源系统未来可靠性和韧性的担忧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142760",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3590928691,
+      "标题": "联大主席敲槌宣布新一届会议开幕，努力重建全球信任",
+      "摘要": "周二，联合国大会在联合国总部敲槌宣布第81届会议开幕。新任主席、孟加拉国前外长拉赫曼承诺，在战争、人道主义危机和气候变化日益加剧的当下，将努力重建公众对该机构的信任",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142759",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3590928691.webp",
+      "封面": "assets/media/un-3590928691.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/08-09-2026_UNP_GA81_Opening.jpg/image560x340cropped.jpg",
+      "导语": "周二，联合国大会在联合国总部敲槌宣布第81届会议开幕。新任主席、孟加拉国前外长拉赫曼承诺，在战争、人道主义危机和气候变化日益加剧的当下，将努力重建公众对该机构的信任",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "周二，联合国大会在联合国总部敲槌宣布第81届会议开幕。新任主席、孟加拉国前外长拉赫曼承诺，在战争、人道主义危机和气候变化日益加剧的当下，将努力重建公众对该机构的信任。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142759",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
       "id": 4122307345,
       "标题": "外文资讯",
       "原标题": "Sanciona JMAS a 4 operadores por descargas en lugares no autorizados",
@@ -1014,126 +1122,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.alanba.com.kw/1375717/",
       "出处说明": "根据alanba.com.kw公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2534714349,
-      "标题": "外文资讯",
-      "原标题": "In Pics | Global Services , Shared Prosperity : 2026 CIFTIS opened in Beijing",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 shanghaisun.com 最新报道，点击阅读原文。",
-      "来源": "shanghaisun.com",
-      "分类": "国际形势",
-      "日期": "2026-09-09",
-      "链接": "http://www.shanghaisun.com/news/279296402/in-pics-global-services-shared-prosperity-2026-ciftis-opened-in-beijing",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/d9fb441/d4871a6f-4b42-4931-8ff0-0763f59aeda9/0/XxjpbeE000615-20260909-CBMFN0A001-600x315.jpg",
-      "数据截至": "2026-09-09T21:06:34+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 shanghaisun.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 shanghaisun.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.shanghaisun.com/news/279296402/in-pics-global-services-shared-prosperity-2026-ciftis-opened-in-beijing",
-      "出处说明": "根据shanghaisun.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2920753524,
-      "标题": "外文资讯",
-      "原标题": "Două companii ungare , inclusiv Bayer Construct , cer protecție în insolvență sub controlul statului Ungariei",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 business24.ro 最新报道，点击阅读原文。",
-      "来源": "business24.ro",
-      "分类": "国际形势",
-      "日期": "2026-09-09",
-      "链接": "https://business24.ro/insolventa/bayer-construct-insolventa-control-stat-ungaria-1666772",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://bizwiz.ro/img/b24_fara_imagine_240.jpg",
-      "数据截至": "2026-09-09T21:06:34+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 business24.ro 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 business24.ro 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://business24.ro/insolventa/bayer-construct-insolventa-control-stat-ungaria-1666772",
-      "出处说明": "根据business24.ro公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 210239751,
-      "标题": "外文资讯",
-      "原标题": "ArcStone US Corp .: Rubellite Energy Corp . To Attend the ArcStone - Kingswood Growth Summit 2026 in Toronto",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 finanznachrichten.de 最新报道，点击阅读原文。",
-      "来源": "finanznachrichten.de",
-      "分类": "国际形势",
-      "日期": "2026-09-09",
-      "链接": "https://www.finanznachrichten.de/nachrichten-2026-09/69537739-arcstone-us-corp-rubellite-energy-corp-to-attend-the-arcstone-kingswood-growth-summit-2026-in-toronto-296.htm",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.finanznachrichten.de/chart-rubellite-energy-corp-aktie-intraklein-frankfurt.png",
-      "数据截至": "2026-09-09T21:06:34+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 finanznachrichten.de 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 finanznachrichten.de 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.finanznachrichten.de/nachrichten-2026-09/69537739-arcstone-us-corp-rubellite-energy-corp-to-attend-the-arcstone-kingswood-growth-summit-2026-in-toronto-296.htm",
-      "出处说明": "根据finanznachrichten.de公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3694934690,
-      "标题": "外文资讯",
-      "原标题": "Inflatable slide deploys on Qatari - gifted Air Force One ahead of Trump Dallas trip",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 kxel.com 最新报道，点击阅读原文。",
-      "来源": "kxel.com",
-      "分类": "国际形势",
-      "日期": "2026-09-09",
-      "链接": "https://kxel.com/2026/09/09/inflatable-slide-deploys-on-qatari-gifted-air-force-one-ahead-of-trumps-dallas-trip/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://s3.amazonaws.com/syndication.abcaudio.com/files/2026-09-09/Getty_AirForceOne_090926.jpg",
-      "数据截至": "2026-09-09T21:06:34+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 kxel.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 kxel.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://kxel.com/2026/09/09/inflatable-slide-deploys-on-qatari-gifted-air-force-one-ahead-of-trumps-dallas-trip/",
-      "出处说明": "根据kxel.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
