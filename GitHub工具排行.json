@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-10T12:46:52+08:00",
+  "updated": "2026-09-11T12:41:29+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "180.6k",
+      "星标": "180.7k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -60,100 +60,100 @@
   ],
   "trending": [
     {
-      "名称": "ECC",
-      "repo": "affaan-m/ECC",
-      "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 255572,
-      "本周新增": 9146,
-      "语言": "JavaScript"
-    },
-    {
       "名称": "i-have-adhd",
       "repo": "ayghri/i-have-adhd",
       "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "星标": 36695,
-      "本周新增": 6581,
+      "星标": 40063,
+      "本周新增": 10215,
       "语言": "Python"
+    },
+    {
+      "名称": "ECC",
+      "repo": "affaan-m/ECC",
+      "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "星标": 256213,
+      "本周新增": 9257,
+      "语言": "JavaScript"
     },
     {
       "名称": "ponytail",
       "repo": "DietrichGebert/ponytail",
       "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "星标": 134227,
-      "本周新增": 12431,
+      "星标": 135412,
+      "本周新增": 11638,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "plugins",
+      "repo": "openai/plugins",
+      "说明": "OpenAI Plugins",
+      "星标": 6420,
+      "本周新增": 1018,
       "语言": "JavaScript"
     },
     {
       "名称": "archify",
       "repo": "tt-a1i/archify",
       "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 56852,
-      "本周新增": 12541,
+      "星标": 58085,
+      "本周新增": 11958,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "skills",
-      "repo": "mattpocock/skills",
-      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 258401,
-      "本周新增": 13143,
-      "语言": "Shell"
-    },
-    {
-      "名称": "plugins",
-      "repo": "openai/plugins",
-      "说明": "OpenAI Plugins",
-      "星标": 6347,
-      "本周新增": 753,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "humanizer",
-      "repo": "blader/humanizer",
-      "说明": "Agent skill that removes signs of AI-generated writing from text",
-      "星标": 46257,
-      "本周新增": 5925,
-      "语言": "Python"
     },
     {
       "名称": "context-mode",
       "repo": "mksglu/context-mode",
       "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 21889,
-      "本周新增": 1331,
+      "星标": 22099,
+      "本周新增": 1619,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "skills",
+      "repo": "mattpocock/skills",
+      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
+      "星标": 259396,
+      "本周新增": 12356,
+      "语言": "Shell"
+    },
+    {
+      "名称": "humanizer",
+      "repo": "blader/humanizer",
+      "说明": "Agent skill that removes signs of AI-generated writing from text",
+      "星标": 46745,
+      "本周新增": 5224,
+      "语言": "Python"
     },
     {
       "名称": "skills",
       "repo": "openai/skills",
       "说明": "Skills Catalog for Codex",
-      "星标": 26824,
-      "本周新增": 1423,
+      "星标": 26893,
+      "本周新增": 1490,
       "语言": "Python"
     },
     {
       "名称": "hyperframes",
       "repo": "heygen-com/hyperframes",
       "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 48594,
-      "本周新增": 4643,
+      "星标": 48921,
+      "本周新增": 4896,
       "语言": "TypeScript"
     },
     {
-      "名称": "chrome-devtools-mcp",
-      "repo": "ChromeDevTools/chrome-devtools-mcp",
-      "说明": "Chrome DevTools for coding agents",
-      "星标": 51541,
-      "本周新增": 962,
-      "语言": "TypeScript"
+      "名称": "diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "说明": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "星标": 38264,
+      "本周新增": 7329,
+      "语言": "HTML"
     },
     {
-      "名称": "hermes-agent",
-      "repo": "NousResearch/hermes-agent",
-      "说明": "The agent that grows with you",
-      "星标": 244070,
-      "本周新增": 4114,
-      "语言": "Python"
+      "名称": "marketingskills",
+      "repo": "coreyhaines31/marketingskills",
+      "说明": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "星标": 49539,
+      "本周新增": 2711,
+      "语言": "JavaScript"
     }
   ]
 }
