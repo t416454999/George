@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13T02:38:24+08:00",
+  "generated": "2026-09-13T05:18:32+08:00",
   "policy_version": "editorial-v1.0",
   "sections": {
     "国际形势": [
@@ -463,7 +463,7 @@
     "AI": [
       {
         "id": 760628525,
-        "标题": "【原生·一手】Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+        "标题": "【原生·一手】完成任务还不够：在不断积累的挑战下评估智能体的韧性和体贴的参与",
         "编辑分": 80,
         "评分分项": {
           "可信度": 25,
@@ -481,8 +481,8 @@
         "来源": "arXiv AI"
       },
       {
-        "id": 3594020005,
-        "标题": "【原生·开发者】When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+        "id": 2595532546,
+        "标题": "【原生·一手】用于组合和可解释认知推理的多阶段规则链框架",
         "编辑分": 80,
         "评分分项": {
           "可信度": 25,
@@ -501,7 +501,7 @@
       },
       {
         "id": 1441860559,
-        "标题": "【原生·模型】Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
+        "标题": "【原生·模型】了解扩散模型微调中的 LoRA Rank 权衡",
         "编辑分": 80,
         "评分分项": {
           "可信度": 25,
@@ -520,7 +520,7 @@
       },
       {
         "id": 1429876498,
-        "标题": "【原生·模型】Towards a Deterministic Math Solver for Clinical Language Models",
+        "标题": "【原生·模型】面向临床语言模型的确定性数学求解器",
         "编辑分": 80,
         "评分分项": {
           "可信度": 25,
@@ -539,7 +539,7 @@
       },
       {
         "id": 1356899735,
-        "标题": "【原生·一手】Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
+        "标题": "【原生·一手】没有教学大纲的学习：与任务无关的环境预处理",
         "编辑分": 80,
         "评分分项": {
           "可信度": 25,
@@ -557,13 +557,13 @@
         "来源": "arXiv AI"
       },
       {
-        "id": 502369693,
-        "标题": "【原生·开发者】Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
-        "编辑分": 74,
+        "id": 2425867369,
+        "标题": "【原生·模型】Valerant：通过动作条件世界模型探索自动导航游戏地图生成器",
+        "编辑分": 79,
         "评分分项": {
           "可信度": 25,
           "时效": 8,
-          "公共价值": 11,
+          "公共价值": 16,
           "一手可追溯": 15,
           "完整度": 10,
           "真实图片": 0,
@@ -576,8 +576,27 @@
         "来源": "arXiv AI"
       },
       {
-        "id": 3813735685,
-        "标题": "【原生·一手】An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+        "id": 2400409243,
+        "标题": "Altman表示OpenAI今年不会IPO 需要推进安全相关工作",
+        "编辑分": 76,
+        "评分分项": {
+          "可信度": 17,
+          "时效": 20,
+          "公共价值": 16,
+          "一手可追溯": 10,
+          "完整度": 10,
+          "真实图片": 0,
+          "编辑价值": 3,
+          "扣分": 0
+        },
+        "来源级别": "B",
+        "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+        "日期": "2026-09-13",
+        "来源": "新浪科技"
+      },
+      {
+        "id": 502369693,
+        "标题": "【原生·开发者】代理人知道他们何时成功吗？从内部表示校准代理信心",
         "编辑分": 74,
         "评分分项": {
           "可信度": 25,
@@ -596,7 +615,7 @@
       },
       {
         "id": 3427296426,
-        "标题": "【原生·模型】Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+        "标题": "【原生·模型】快速扩展在线存储以服务超过 10 亿 ChatGPT 用户",
         "编辑分": 74,
         "评分分项": {
           "可信度": 25,
@@ -615,7 +634,7 @@
       },
       {
         "id": 3160072127,
-        "标题": "【原生·模型】XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+        "标题": "【原生·模型】XAI-Arena：法学硕士可以评估 XAI 解释的质量吗？",
         "编辑分": 74,
         "评分分项": {
           "可信度": 25,
@@ -634,26 +653,7 @@
       },
       {
         "id": 2435318813,
-        "标题": "【原生·开发者】Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
-        "编辑分": 74,
-        "评分分项": {
-          "可信度": 25,
-          "时效": 8,
-          "公共价值": 11,
-          "一手可追溯": 15,
-          "完整度": 10,
-          "真实图片": 0,
-          "编辑价值": 5,
-          "扣分": 0
-        },
-        "来源级别": "A",
-        "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-        "日期": "2026-09-11",
-        "来源": "arXiv AI"
-      },
-      {
-        "id": 2425867369,
-        "标题": "【原生·模型】Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+        "标题": "【原生·开发者】子代理与代理技能：执行长期代理任务的可重用知识",
         "编辑分": 74,
         "评分分项": {
           "可信度": 25,
@@ -672,7 +672,7 @@
       },
       {
         "id": 1954795110,
-        "标题": "【原生·一手】OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+        "标题": "【原生·一手】OpenDiscoveryTrace：用于评估 AI 科学家工作流程的流程跟踪",
         "编辑分": 74,
         "评分分项": {
           "可信度": 25,
@@ -691,7 +691,7 @@
       },
       {
         "id": 1227031265,
-        "标题": "【原生·一手】Adaptive Entangled Game Modules in Artificial General Intelligence",
+        "标题": "【原生·一手】通用人工智能中的自适应纠缠游戏模块",
         "编辑分": 74,
         "评分分项": {
           "可信度": 25,
@@ -710,7 +710,7 @@
       },
       {
         "id": 1147096833,
-        "标题": "【原生·模型】Cognition helps Devin test its own work with GPT‑6 Astra",
+        "标题": "【原生·模型】Cognition 帮助 Devin 使用 GPT-6 Astra 测试自己的工作",
         "编辑分": 74,
         "评分分项": {
           "可信度": 25,
@@ -729,7 +729,7 @@
       },
       {
         "id": 1076442199,
-        "标题": "【原生·开发者】The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+        "标题": "【原生·开发者】该菜单是执行优先级：在线代理的状态路径工具菜单",
         "编辑分": 74,
         "评分分项": {
           "可信度": 25,
@@ -748,7 +748,26 @@
       },
       {
         "id": 3937217014,
-        "标题": "【原生·发布】Introducing ChatGPT for Financial Services",
+        "标题": "【原生·发布】推出适用于金融服务的 ChatGPT",
+        "编辑分": 73,
+        "评分分项": {
+          "可信度": 25,
+          "时效": 2,
+          "公共价值": 16,
+          "一手可追溯": 15,
+          "完整度": 10,
+          "真实图片": 0,
+          "编辑价值": 5,
+          "扣分": 0
+        },
+        "来源级别": "A",
+        "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+        "日期": "2026-09-10",
+        "来源": "OpenAI 官方"
+      },
+      {
+        "id": 2154141604,
+        "标题": "【原生·模型】研究人员如何使用 Codex 和 ChatGPT 寻找新的抗菌分子",
         "编辑分": 73,
         "评分分项": {
           "可信度": 25,
@@ -767,7 +786,7 @@
       },
       {
         "id": 1234059710,
-        "标题": "【原生·发布】Introducing the Agents API",
+        "标题": "【原生·发布】代理 API 简介",
         "编辑分": 73,
         "评分分项": {
           "可信度": 25,
@@ -786,7 +805,7 @@
       },
       {
         "id": 696136593,
-        "标题": "【原生·安全】The AI policy window is open. We need to act.",
+        "标题": "【原生·安全】人工智能政策窗口已打开。我们需要采取行动。",
         "编辑分": 73,
         "评分分项": {
           "可信度": 25,
@@ -805,7 +824,7 @@
       },
       {
         "id": 2874647511,
-        "标题": "【原生·研究】Funding grants for new research into AI and teen development",
+        "标题": "【原生·研究】为人工智能和青少年发展的新研究提供资助",
         "编辑分": 73,
         "评分分项": {
           "可信度": 25,
@@ -824,7 +843,7 @@
       },
       {
         "id": 1051870735,
-        "标题": "【原生·发布】Introducing ChatGPT Images 2.5",
+        "标题": "【原生·发布】ChatGPT 图像 2.5 简介",
         "编辑分": 73,
         "评分分项": {
           "可信度": 25,
@@ -1109,7 +1128,7 @@
       },
       {
         "id": 3872543845,
-        "标题": "【原生·模型】ARC-Bench: Closed-Loop Replanning Masks Broken Action Ranking in Frozen JEPA World Models",
+        "标题": "【原生·模型】ARC-Bench：闭环重新规划掩盖了 Frozen JEPA 世界模型中的损坏动作排名",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1128,7 +1147,7 @@
       },
       {
         "id": 3625064105,
-        "标题": "【原生·开发者】AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
+        "标题": "【原生·开发者】AutoFyn 技术报告：长视野智能体的非参数专家迭代",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1147,7 +1166,7 @@
       },
       {
         "id": 3553520239,
-        "标题": "【原生·模型】Compiling VGDL into Causal Models",
+        "标题": "【原生·模型】将 VGDL 编译为因果模型",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1166,7 +1185,7 @@
       },
       {
         "id": 3497846665,
-        "标题": "【原生·一手】Damage-Aware Bandit Pruning for Vision and Language Transformers",
+        "标题": "【原生·一手】视觉和语言转换器的损伤感知强盗修剪",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1185,7 +1204,7 @@
       },
       {
         "id": 3124173696,
-        "标题": "【原生·模型】SciLitBench: Benchmark and Design Principles for LLM-Powered Systematic Literature Reviews",
+        "标题": "【原生·模型】SciLitBench：法学硕士支持的系统文献综述的基准和设计原则",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1204,26 +1223,7 @@
       },
       {
         "id": 2782194514,
-        "标题": "【原生·一手】Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-        "编辑分": 68,
-        "评分分项": {
-          "可信度": 25,
-          "时效": 2,
-          "公共价值": 11,
-          "一手可追溯": 15,
-          "完整度": 10,
-          "真实图片": 0,
-          "编辑价值": 5,
-          "扣分": 0
-        },
-        "来源级别": "A",
-        "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-        "日期": "2026-09-10",
-        "来源": "OpenAI 官方"
-      },
-      {
-        "id": 2154141604,
-        "标题": "【原生·模型】How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+        "标题": "【原生·一手】扩大联邦、州、地方和部落政府的人工智能访问和网络防御",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1242,7 +1242,7 @@
       },
       {
         "id": 1893244544,
-        "标题": "【原生·一手】Now everyone can put data to work",
+        "标题": "【原生·一手】现在每个人都可以将数据运用到工作中",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1261,7 +1261,7 @@
       },
       {
         "id": 1804186744,
-        "标题": "【原生·模型】Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+        "标题": "【原生·模型】超越正确与错误：评估大型语言模型中的二阶社会推理",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1280,7 +1280,7 @@
       },
       {
         "id": 1582706244,
-        "标题": "【原生·模型】Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "标题": "【原生·模型】使用 API 中的 GPT‑Live‑1 构建更自然的语音体验",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1299,7 +1299,7 @@
       },
       {
         "id": 1244077284,
-        "标题": "【原生·模型】When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+        "标题": "【原生·模型】记忆什么时候有用？对使用工具的 LLM 代理的长期记忆进行成本感知评估",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1318,7 +1318,7 @@
       },
       {
         "id": 963153793,
-        "标题": "【原生·模型】GPT-6 Astra: The next generation in intelligence for work",
+        "标题": "【原生·模型】GPT-6 Astra：下一代工作智能",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1337,7 +1337,7 @@
       },
       {
         "id": 1808969444,
-        "标题": "【原生·一手】Paul Christiano joins OpenAI Foundation Board",
+        "标题": "【原生·一手】Paul Christiano 加入 OpenAI 基金会董事会",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1356,7 +1356,7 @@
       },
       {
         "id": 3655066186,
-        "标题": "【原生·一手】The Work Now Within Reach",
+        "标题": "【原生·一手】现在的工作触手可及",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1375,7 +1375,7 @@
       },
       {
         "id": 343967835,
-        "标题": "【原生·一手】OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+        "标题": "【原生·一手】OpenAI 将支持新闻业的举措从课堂扩展到新闻编辑室",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1394,7 +1394,7 @@
       },
       {
         "id": 2108293571,
-        "标题": "【原生·模型】How GPT-5.6 Sol helps run quantum computing experiments",
+        "标题": "【原生·模型】GPT-5.6 Sol 如何帮助运行量子计算实验",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1413,7 +1413,7 @@
       },
       {
         "id": 1547946981,
-        "标题": "【原生·一手】On the Navier–Stokes Millennium Prize Problem",
+        "标题": "【原生·一手】论纳维-斯托克斯千年奖问题",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,
@@ -1433,25 +1433,6 @@
       {
         "id": 968557454,
         "标题": "【原生·模型】Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
-        "编辑分": 68,
-        "评分分项": {
-          "可信度": 25,
-          "时效": 2,
-          "公共价值": 11,
-          "一手可追溯": 15,
-          "完整度": 10,
-          "真实图片": 0,
-          "编辑价值": 5,
-          "扣分": 0
-        },
-        "来源级别": "A",
-        "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-        "日期": "2026-09-07",
-        "来源": "arXiv AI"
-      },
-      {
-        "id": 4005324831,
-        "标题": "【原生·一手】Iris: Climbing to the Search Frontier",
         "编辑分": 68,
         "评分分项": {
           "可信度": 25,

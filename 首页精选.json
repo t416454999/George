@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-13T02:38:24+08:00",
+  "generated": "2026-09-13T05:18:32+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3567100431,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 7,
+  "count": 9,
   "articles": [
     {
       "id": 3567100431,
@@ -49,11 +49,11 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T02:38:24+08:00"
+      "选入时间": "2026-09-13T05:18:32+08:00"
     },
     {
       "id": 760628525,
-      "标题": "【原生·一手】Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+      "标题": "【原生·一手】完成任务还不够：在不断积累的挑战下评估智能体的韧性和体贴的参与",
       "摘要": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated",
       "内容": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated",
       "来源": "arXiv AI",
@@ -67,6 +67,8 @@
         "AI Agent"
       ],
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "原标题": "【原生·一手】Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+      "中文提炼": "",
       "候选栏目": "AI",
       "编辑分": 80,
       "评分分项": {
@@ -84,7 +86,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T02:38:24+08:00"
+      "选入时间": "2026-09-13T05:18:32+08:00"
     },
     {
       "id": 3652265838,
@@ -132,27 +134,76 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T02:38:24+08:00"
+      "选入时间": "2026-09-13T05:18:32+08:00"
     },
     {
-      "id": 3427296426,
-      "标题": "【原生·模型】Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "摘要": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per",
-      "内容": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-09-11",
-      "热度": 67,
-      "链接": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "id": 2400409243,
+      "标题": "Altman表示OpenAI今年不会IPO 需要推进安全相关工作",
+      "摘要": "OpenAI不会在2026年上市，Sam Altman在接受采访时表示，原因是需要开展与安全相关的工作。 在周六刊发的采访中，Altman表示，由于围绕人工智能的安全担忧...",
+      "内容": "OpenAI不会在2026年上市，Sam Altman在接受采访时表示，原因是需要开展与安全相关的工作。 在周六刊发的采访中，Altman表示，由于围绕人工智能的安全担忧...",
+      "来源": "新浪科技",
+      "分类": "行业动态",
+      "日期": "2026-09-13",
+      "热度": 66,
+      "链接": "https://finance.sina.com.cn/7x24/2026-09-13/doc-inirrhuq4879609.shtml",
       "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "ChatGPT",
-        "OpenAI",
-        "RAG"
+        "OpenAI"
       ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/5D3TSOEPUfq7vsrX6Vsp0Q/3ac45b90943bcbcdd0eac9b80e0f679a/SEO.png?w=1600&amp;h=900&amp;fit=fill",
+      "图片": {
+        "u": "http://n.sinaimg.cn/finance/c30320b4/20210712/wx_poster_finance1.png",
+        "w": 100,
+        "h": 100,
+        "t": ""
+      },
       "候选栏目": "AI",
+      "编辑分": 76,
+      "评分分项": {
+        "可信度": 17,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 10,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 3,
+        "扣分": 0
+      },
+      "来源级别": "B",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-13T05:18:32+08:00"
+    },
+    {
+      "id": 503493723,
+      "标题": "自画像",
+      "原标题": "Self-Portrait",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Walter Shirlaw (American, 1838–1909) · 1878 · Oil on canvas",
+      "来源": "Art Institute of Chicago",
+      "分类": "人文艺术",
+      "日期": "2026-09-13",
+      "链接": "https://www.artic.edu/artworks/11",
+      "图片": "assets/covers/humanities.svg",
+      "原始图片": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+      "封面": "assets/covers/humanities.svg",
+      "版权": "CC0 / Public Domain",
+      "标签": [
+        "公共领域",
+        "芝加哥艺术博物馆"
+      ],
+      "导语": "从馆藏资料出发，认识《自画像》及其创作背景",
+      "要点": [
+        "Walter Shirlaw (American, 1838–1909)",
+        "1878",
+        "Oil on canvas"
+      ],
+      "正文": "《自画像》现由Art Institute of Chicago收录。作者：Walter Shirlaw (American, 1838–1909)；年代：1878；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.artic.edu/artworks/11",
+      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
       "编辑分": 74,
       "评分分项": {
         "可信度": 25,
@@ -166,26 +217,76 @@
       },
       "来源级别": "A",
       "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T02:38:24+08:00"
+      "选入时间": "2026-09-13T05:18:32+08:00"
     },
     {
-      "id": 3160072127,
-      "标题": "【原生·模型】XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
-      "摘要": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches",
-      "内容": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches",
+      "id": 2481768970,
+      "标题": "人物肖像",
+      "原标题": "Portrait of an Artist",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Follower of Frans Hals (Dutch, 1582–1666) · 1644 · Oil on canvas",
+      "来源": "Art Institute of Chicago",
+      "分类": "人文艺术",
+      "日期": "2026-09-13",
+      "链接": "https://www.artic.edu/artworks/862",
+      "图片": "assets/covers/humanities.svg",
+      "原始图片": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
+      "封面": "assets/covers/humanities.svg",
+      "版权": "CC0 / Public Domain",
+      "标签": [
+        "公共领域",
+        "芝加哥艺术博物馆"
+      ],
+      "导语": "从馆藏资料出发，认识《人物肖像》及其创作背景",
+      "要点": [
+        "Follower of Frans Hals (Dutch, 1582–1666)",
+        "1644",
+        "Oil on canvas"
+      ],
+      "正文": "《人物肖像》现由Art Institute of Chicago收录。作者：Follower of Frans Hals (Dutch, 1582–1666)；年代：1644；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.artic.edu/artworks/862",
+      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 74,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "公共领域馆藏，图像与出处完整",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-13T05:18:32+08:00"
+    },
+    {
+      "id": 502369693,
+      "标题": "【原生·开发者】代理人知道他们何时成功吗？从内部表示校准代理信心",
+      "摘要": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with",
+      "内容": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with",
       "来源": "arXiv AI",
       "分类": "原生资讯",
       "日期": "2026-09-11",
       "热度": 50,
-      "链接": "https://arxiv.org/abs/2609.09428",
+      "链接": "https://arxiv.org/abs/2609.09448",
       "标签": [
         "原生资讯",
         "arXiv AI"
       ],
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "原标题": "【原生·开发者】Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "中文提炼": "",
       "候选栏目": "AI",
       "编辑分": 74,
       "评分分项": {
@@ -203,7 +304,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T02:38:24+08:00"
+      "选入时间": "2026-09-13T05:18:32+08:00"
     },
     {
       "id": 960759275,
@@ -249,7 +350,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T02:38:24+08:00"
+      "选入时间": "2026-09-13T05:18:32+08:00"
     },
     {
       "id": 3278245669,
@@ -297,13 +398,13 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T02:38:24+08:00"
+      "选入时间": "2026-09-13T05:18:32+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-09-13T02:38:24+08:00",
+    "as_of": "2026-09-13T05:18:32+08:00",
     "candidate_count": 604,
-    "rejected_count": 409,
+    "rejected_count": 410,
     "rejected": [
       {
         "id": 2427027153,
@@ -311,6 +412,10 @@
       },
       {
         "id": 47900424,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3393806404,
         "reason": "off_topic"
       },
       {
@@ -402,6 +507,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 3594020005,
+        "reason": "off_topic"
+      },
+      {
         "id": 3574503621,
         "reason": "off_topic"
       },
@@ -483,10 +592,6 @@
       },
       {
         "id": 2613910584,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2595532546,
         "reason": "off_topic"
       },
       {
@@ -639,6 +744,10 @@
       },
       {
         "id": 3814286107,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3813735685,
         "reason": "off_topic"
       },
       {
@@ -1637,10 +1746,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 3971537244,
-        "reason": "off_topic"
-      },
-      {
         "id": 2886928644,
         "reason": "score_below_50",
         "score": 33
@@ -1721,9 +1826,23 @@
         "score": 33
       },
       {
-        "id": 3930071134,
+        "id": 3209206108,
         "reason": "score_below_50",
         "score": 38
+      },
+      {
+        "id": 3688132287,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 827292605,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 4067806090,
+        "reason": "unresolved_placeholder"
       },
       {
         "id": 3294557067,
@@ -1731,42 +1850,32 @@
         "score": 38
       },
       {
-        "id": 664274256,
+        "id": 956138021,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3930071134,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 4160843538,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2537873604,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2552166707,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 4198568889,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 232051486,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1710013128,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 776292807,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1534568621,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2488645258,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 3873452598,
+        "id": 1633766555,
         "reason": "score_below_50",
         "score": 33
       },
@@ -1776,9 +1885,9 @@
         "score": 32
       },
       {
-        "id": 3849232591,
+        "id": 1813479180,
         "reason": "score_below_50",
-        "score": 32
+        "score": 28
       },
       {
         "id": 784622450,
@@ -1786,7 +1895,7 @@
         "score": 28
       },
       {
-        "id": 1769619720,
+        "id": 144247313,
         "reason": "score_below_50",
         "score": 28
       },
@@ -1796,59 +1905,49 @@
         "score": 26
       },
       {
-        "id": 4267419095,
+        "id": 1040714546,
         "reason": "score_below_50",
         "score": 26
       },
       {
-        "id": 2429972214,
+        "id": 2562300230,
         "reason": "score_below_50",
-        "score": 26
+        "score": 22
       },
       {
-        "id": 390083150,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 2736038908,
+        "id": 252688622,
         "reason": "score_below_50",
         "score": 31
       },
       {
-        "id": 3649953631,
+        "id": 3681105290,
         "reason": "score_below_50",
         "score": 26
       },
       {
-        "id": 3496211949,
+        "id": 3532070712,
         "reason": "score_below_50",
-        "score": 26
+        "score": 22
       },
       {
-        "id": 192508724,
+        "id": 2223036476,
         "reason": "score_below_50",
-        "score": 26
+        "score": 22
       },
       {
-        "id": 1862163699,
+        "id": 1266555372,
+        "reason": "score_below_50",
+        "score": 22
+      },
+      {
+        "id": 3280743184,
         "reason": "score_below_50",
         "score": 20
       },
       {
-        "id": 892856737,
+        "id": 2312115083,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 839715603,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 2982133828,
-        "reason": "score_below_50",
-        "score": 31
       },
       {
         "id": 2970742308,
@@ -1886,12 +1985,12 @@
         "score": 30
       },
       {
-        "id": 2266033708,
+        "id": 2381940723,
         "reason": "score_below_50",
         "score": 24
       },
       {
-        "id": 499524943,
+        "id": 4218871996,
         "reason": "score_below_50",
         "score": 24
       },
@@ -1901,7 +2000,7 @@
         "score": 24
       },
       {
-        "id": 468590270,
+        "id": 1508516597,
         "reason": "score_below_50",
         "score": 24
       },
@@ -1917,6 +2016,11 @@
       },
       {
         "id": 2717424115,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 2271116506,
         "reason": "score_below_50",
         "score": 20
       },
