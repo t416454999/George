@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-12T21:03:01+08:00",
+  "generated": "2026-09-13T00:28:37+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3567100431,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 10,
+  "count": 7,
   "articles": [
     {
       "id": 3567100431,
@@ -32,11 +32,11 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 90,
+      "栏目状态": "partial",
+      "编辑分": 84,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
+        "时效": 8,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
+      "选入时间": "2026-09-13T00:28:37+08:00"
     },
     {
       "id": 760628525,
@@ -68,43 +68,6 @@
       ],
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 86,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 20,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
-    },
-    {
-      "id": 3427296426,
-      "标题": "【原生·模型】Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "摘要": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per",
-      "内容": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-09-11",
-      "热度": 67,
-      "链接": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "ChatGPT",
-        "OpenAI",
-        "RAG"
-      ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/5D3TSOEPUfq7vsrX6Vsp0Q/3ac45b90943bcbcdd0eac9b80e0f679a/SEO.png?w=1600&amp;h=900&amp;fit=fill",
-      "候选栏目": "AI",
       "编辑分": 80,
       "评分分项": {
         "可信度": 25,
@@ -121,7 +84,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
+      "选入时间": "2026-09-13T00:28:37+08:00"
     },
     {
       "id": 3652265838,
@@ -131,7 +94,7 @@
       "摘要": "Jean Honoré Fragonard · early 1770s · Oil on canvas",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-09-12",
+      "日期": "2026-09-13",
       "链接": "https://www.metmuseum.org/art/collection/search/436322",
       "图片": "assets/art/met-436322.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1014-001.jpg",
@@ -169,165 +132,27 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
+      "选入时间": "2026-09-13T00:28:37+08:00"
     },
     {
-      "id": 3937217014,
-      "标题": "【原生·发布】Introducing ChatGPT for Financial Services",
-      "摘要": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "内容": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "id": 3427296426,
+      "标题": "【原生·模型】Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "摘要": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per",
+      "内容": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
-      "日期": "2026-09-10",
-      "热度": 64,
-      "链接": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "日期": "2026-09-11",
+      "热度": 67,
+      "链接": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "标签": [
         "原生资讯",
         "OpenAI 官方",
-        "ChatGPT"
+        "ChatGPT",
+        "OpenAI",
+        "RAG"
       ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/2Tj0j0dTcedAZ2PMSbTg4j/f1155b4361dcd8f4c85c12833233ebba/OAI_Finances_4_16x9-_SEO.png?w=1600&amp;h=900&amp;fit=fill",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/5D3TSOEPUfq7vsrX6Vsp0Q/3ac45b90943bcbcdd0eac9b80e0f679a/SEO.png?w=1600&amp;h=900&amp;fit=fill",
       "候选栏目": "AI",
-      "编辑分": 79,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
-    },
-    {
-      "id": 3882359143,
-      "标题": "保护教育免受袭击是全世界的责任",
-      "摘要": "9月9日是“保护教育免受袭击国际日”。联合国教科文组织值此对全球针对学校的袭击事件持续增加表示严重关切。2025年，全球共记录到1680起针对学校的袭击事件，较上年增长33%。全球约有2.58亿儿童和青少年因各类危机而中断学业，其中9300万人完全无法上学",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-09",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142763",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3882359143.webp",
-      "封面": "assets/media/un-3882359143.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/21-08-2026-UNICEF-Sudan-03.jpg/image560x340cropped.jpg",
-      "导语": "9月9日是“保护教育免受袭击国际日”。联合国教科文组织值此对全球针对学校的袭击事件持续增加表示严重关切。2025年，全球共记录到1680起针对学校的袭击事件，较上年增长33%。全球约有2.58亿儿童和青少年因各类危机而中",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "9月9日是“保护教育免受袭击国际日”。联合国教科文组织值此对全球针对学校的袭击事件持续增加表示严重关切。2025年，全球共记录到1680起针对学校的袭击事件，较上年增长33%。全球约有2.58亿儿童和青少年因各类危机而中断学业，其中9300万人完全无法上学。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142763",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 78,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
-    },
-    {
-      "id": 2330134430,
-      "标题": "阿富汗民众面临“令人窒息的沉默”，人权高专呼吁加大施压力度",
-      "摘要": "联合国人权事务高级专员蒂尔克周三谴责阿富汗实施的一系列压迫性限制措施，特别是针对女童和妇女的措施，并呼吁重新加大力度，敦促该国事实上的当局履行国际法义务",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-09",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142764",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2330134430.webp",
-      "封面": "assets/media/un-2330134430.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/15-10-2025-UNICEF-Afghanistan-03.jpg/image560x340cropped.jpg",
-      "导语": "联合国人权事务高级专员蒂尔克周三谴责阿富汗实施的一系列压迫性限制措施，特别是针对女童和妇女的措施，并呼吁重新加大力度，敦促该国事实上的当局履行国际法义务",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国人权事务高级专员蒂尔克周三谴责阿富汗实施的一系列压迫性限制措施，特别是针对女童和妇女的措施，并呼吁重新加大力度，敦促该国事实上的当局履行国际法义务。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142764",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 78,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
-    },
-    {
-      "id": 503493723,
-      "标题": "自画像",
-      "原标题": "Self-Portrait",
-      "标题翻译方式": "保守规则/历史复用",
-      "摘要": "Walter Shirlaw (American, 1838–1909) · 1878 · Oil on canvas",
-      "来源": "Art Institute of Chicago",
-      "分类": "人文艺术",
-      "日期": "2026-09-12",
-      "链接": "https://www.artic.edu/artworks/11",
-      "图片": "assets/covers/humanities.svg",
-      "原始图片": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
-      "封面": "assets/covers/humanities.svg",
-      "版权": "CC0 / Public Domain",
-      "标签": [
-        "公共领域",
-        "芝加哥艺术博物馆"
-      ],
-      "导语": "从馆藏资料出发，认识《自画像》及其创作背景",
-      "要点": [
-        "Walter Shirlaw (American, 1838–1909)",
-        "1878",
-        "Oil on canvas"
-      ],
-      "正文": "《自画像》现由Art Institute of Chicago收录。作者：Walter Shirlaw (American, 1838–1909)；年代：1878；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.artic.edu/artworks/11",
-      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
-      "候选栏目": "人文艺术",
-      "栏目状态": "ok",
       "编辑分": 74,
       "评分分项": {
         "可信度": 25,
@@ -341,41 +166,27 @@
       },
       "来源级别": "A",
       "扣分项": [],
-      "入选理由": "公共领域馆藏，图像与出处完整",
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
+      "选入时间": "2026-09-13T00:28:37+08:00"
     },
     {
-      "id": 2481768970,
-      "标题": "人物肖像",
-      "原标题": "Portrait of an Artist",
-      "标题翻译方式": "保守规则/历史复用",
-      "摘要": "Follower of Frans Hals (Dutch, 1582–1666) · 1644 · Oil on canvas",
-      "来源": "Art Institute of Chicago",
-      "分类": "人文艺术",
-      "日期": "2026-09-12",
-      "链接": "https://www.artic.edu/artworks/862",
-      "图片": "assets/covers/humanities.svg",
-      "原始图片": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
-      "封面": "assets/covers/humanities.svg",
-      "版权": "CC0 / Public Domain",
+      "id": 3160072127,
+      "标题": "【原生·模型】XAI-Arena: Can LLMs Assess the Quality of XAI Explanations?",
+      "摘要": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches",
+      "内容": "arXiv:2609.09428v1 Announce Type: new Abstract: Evaluating the quality of explanations produced by explainable AI (XAI) methods remains challenging because existing approaches",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-09-11",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2609.09428",
       "标签": [
-        "公共领域",
-        "芝加哥艺术博物馆"
+        "原生资讯",
+        "arXiv AI"
       ],
-      "导语": "从馆藏资料出发，认识《人物肖像》及其创作背景",
-      "要点": [
-        "Follower of Frans Hals (Dutch, 1582–1666)",
-        "1644",
-        "Oil on canvas"
-      ],
-      "正文": "《人物肖像》现由Art Institute of Chicago收录。作者：Follower of Frans Hals (Dutch, 1582–1666)；年代：1644；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.artic.edu/artworks/862",
-      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
-      "候选栏目": "人文艺术",
-      "栏目状态": "ok",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
       "编辑分": 74,
       "评分分项": {
         "可信度": 25,
@@ -389,10 +200,56 @@
       },
       "来源级别": "A",
       "扣分项": [],
-      "入选理由": "公共领域馆藏，图像与出处完整",
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
+      "选入时间": "2026-09-13T00:28:37+08:00"
+    },
+    {
+      "id": 960759275,
+      "标题": "叙利亚：问责、包容和防止重演是过渡关键",
+      "摘要": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142757",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-960759275.webp",
+      "封面": "assets/media/un-960759275.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/25-07-2025-Sidnaya-Prison-Syria.JPG/image560x340cropped.jpg",
+      "导语": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142757",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 73,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-13T00:28:37+08:00"
     },
     {
       "id": 3278245669,
@@ -440,17 +297,21 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-12T21:03:01+08:00"
+      "选入时间": "2026-09-13T00:28:37+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-09-12T21:03:01+08:00",
+    "as_of": "2026-09-13T00:28:37+08:00",
     "candidate_count": 604,
-    "rejected_count": 411,
+    "rejected_count": 410,
     "rejected": [
       {
         "id": 2427027153,
         "reason": "invalid_or_future_date"
+      },
+      {
+        "id": 1628792157,
+        "reason": "off_topic"
       },
       {
         "id": 897686436,
@@ -470,6 +331,10 @@
       },
       {
         "id": 691195991,
+        "reason": "off_topic"
+      },
+      {
+        "id": 625434827,
         "reason": "off_topic"
       },
       {
@@ -494,6 +359,10 @@
       },
       {
         "id": 4173912294,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4171196604,
         "reason": "off_topic"
       },
       {
@@ -561,11 +430,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 3151989505,
+        "reason": "off_topic"
+      },
+      {
         "id": 3131565561,
         "reason": "off_topic"
       },
       {
         "id": 3047187900,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3012455651,
         "reason": "off_topic"
       },
       {
@@ -618,6 +495,10 @@
       },
       {
         "id": 2375364101,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2263089939,
         "reason": "off_topic"
       },
       {
@@ -1075,6 +956,11 @@
       {
         "id": 290983467,
         "reason": "off_topic"
+      },
+      {
+        "id": 283503253,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 2831267819,
@@ -1759,241 +1645,209 @@
         "reason": "off_topic"
       },
       {
-        "id": 3759208838,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3730545909,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3730502427,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3563212920,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3498898000,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3458320204,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3405944418,
-        "reason": "off_topic"
-      },
-      {
-        "id": 340410214,
-        "reason": "off_topic"
-      },
-      {
         "id": 2886928644,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2689674142,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1658670103,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2273733623,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 4242874168,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 766918892,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2094530081,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1040709146,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2824790142,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3386520886,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3002806171,
         "reason": "score_below_50",
-        "score": 43
+        "score": 37
       },
       {
         "id": 698053321,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1346929911,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3083199441,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 4039912935,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 4114255098,
         "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 232051486,
-        "reason": "score_below_50",
-        "score": 38
+        "score": 33
       },
       {
         "id": 3930071134,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 2300947826,
+        "id": 2116283113,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 664274256,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
+      },
+      {
+        "id": 232051486,
+        "reason": "score_below_50",
+        "score": 32
       },
       {
         "id": 4174734537,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
-        "id": 3383227676,
+        "id": 776292807,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
+      },
+      {
+        "id": 571541089,
+        "reason": "score_below_50",
+        "score": 32
       },
       {
         "id": 2488645258,
         "reason": "score_below_50",
-        "score": 34
+        "score": 28
       },
       {
         "id": 3936174270,
         "reason": "score_below_50",
-        "score": 38
+        "score": 32
       },
       {
         "id": 784622450,
         "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 4267419095,
-        "reason": "score_below_50",
-        "score": 32
+        "score": 28
       },
       {
         "id": 2633277805,
         "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3225602810,
-        "reason": "score_below_50",
-        "score": 32
+        "score": 26
       },
       {
         "id": 1040714546,
         "reason": "score_below_50",
-        "score": 32
+        "score": 26
       },
       {
-        "id": 2678385639,
+        "id": 4267419095,
         "reason": "score_below_50",
-        "score": 32
+        "score": 26
       },
       {
-        "id": 252688622,
+        "id": 1285694158,
         "reason": "score_below_50",
-        "score": 37
+        "score": 26
       },
       {
         "id": 2562300230,
         "reason": "score_below_50",
-        "score": 28
+        "score": 22
+      },
+      {
+        "id": 252688622,
+        "reason": "score_below_50",
+        "score": 31
       },
       {
         "id": 3681105290,
         "reason": "score_below_50",
-        "score": 32
+        "score": 26
       },
       {
         "id": 3532070712,
         "reason": "score_below_50",
-        "score": 28
+        "score": 22
       },
       {
         "id": 1764422539,
         "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 2018013789,
-        "reason": "score_below_50",
-        "score": 26
+        "score": 22
       },
       {
         "id": 1862163699,
         "reason": "score_below_50",
-        "score": 26
+        "score": 20
       },
       {
         "id": 2167208385,
         "reason": "score_below_50",
-        "score": 26
+        "score": 20
       },
       {
         "id": 3280743184,
         "reason": "score_below_50",
-        "score": 26
+        "score": 20
       },
       {
         "id": 1451704840,
         "reason": "score_below_50",
-        "score": 22
+        "score": 16
       },
       {
         "id": 1495982632,
         "reason": "score_below_50",
         "score": 16
+      },
+      {
+        "id": 2312115083,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 866668196,
@@ -2041,7 +1895,7 @@
         "score": 24
       },
       {
-        "id": 499524943,
+        "id": 4218871996,
         "reason": "score_below_50",
         "score": 24
       },
@@ -2135,7 +1989,7 @@
         "reason": "near_duplicate"
       },
       {
-        "id": 563655091,
+        "id": 2390722904,
         "reason": "near_duplicate"
       },
       {
