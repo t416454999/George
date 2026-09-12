@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T12:41:29+08:00",
+  "updated": "2026-09-12T12:01:38+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "146.1k",
+      "星标": "146.2k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,97 +63,97 @@
       "名称": "i-have-adhd",
       "repo": "ayghri/i-have-adhd",
       "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "星标": 40063,
-      "本周新增": 10215,
+      "星标": 42906,
+      "本周新增": 13164,
       "语言": "Python"
     },
     {
       "名称": "ECC",
       "repo": "affaan-m/ECC",
       "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 256213,
-      "本周新增": 9257,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "ponytail",
-      "repo": "DietrichGebert/ponytail",
-      "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "星标": 135412,
-      "本周新增": 11638,
+      "星标": 256791,
+      "本周新增": 8714,
       "语言": "JavaScript"
     },
     {
       "名称": "plugins",
       "repo": "openai/plugins",
       "说明": "OpenAI Plugins",
-      "星标": 6420,
-      "本周新增": 1018,
+      "星标": 6492,
+      "本周新增": 1063,
       "语言": "JavaScript"
     },
     {
-      "名称": "archify",
-      "repo": "tt-a1i/archify",
-      "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 58085,
-      "本周新增": 11958,
+      "名称": "ponytail",
+      "repo": "DietrichGebert/ponytail",
+      "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "星标": 136218,
+      "本周新增": 11054,
       "语言": "JavaScript"
     },
     {
       "名称": "context-mode",
       "repo": "mksglu/context-mode",
       "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 22099,
-      "本周新增": 1619,
+      "星标": 22269,
+      "本周新增": 1810,
       "语言": "TypeScript"
     },
     {
-      "名称": "skills",
-      "repo": "mattpocock/skills",
-      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 259396,
-      "本周新增": 12356,
-      "语言": "Shell"
-    },
-    {
-      "名称": "humanizer",
-      "repo": "blader/humanizer",
-      "说明": "Agent skill that removes signs of AI-generated writing from text",
-      "星标": 46745,
-      "本周新增": 5224,
-      "语言": "Python"
+      "名称": "archify",
+      "repo": "tt-a1i/archify",
+      "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "星标": 59091,
+      "本周新增": 11006,
+      "语言": "JavaScript"
     },
     {
       "名称": "skills",
       "repo": "openai/skills",
       "说明": "Skills Catalog for Codex",
-      "星标": 26893,
-      "本周新增": 1490,
+      "星标": 26966,
+      "本周新增": 1532,
       "语言": "Python"
     },
     {
       "名称": "hyperframes",
       "repo": "heygen-com/hyperframes",
       "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 48921,
-      "本周新增": 4896,
+      "星标": 49103,
+      "本周新增": 5100,
       "语言": "TypeScript"
     },
     {
       "名称": "diagram-design",
       "repo": "cathrynlavery/diagram-design",
       "说明": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "星标": 38264,
-      "本周新增": 7329,
+      "星标": 38666,
+      "本周新增": 7776,
       "语言": "HTML"
     },
     {
-      "名称": "marketingskills",
-      "repo": "coreyhaines31/marketingskills",
-      "说明": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "星标": 49539,
-      "本周新增": 2711,
-      "语言": "JavaScript"
+      "名称": "humanizer",
+      "repo": "blader/humanizer",
+      "说明": "Agent skill that removes signs of AI-generated writing from text",
+      "星标": 47125,
+      "本周新增": 4649,
+      "语言": "Python"
+    },
+    {
+      "名称": "chrome-devtools-mcp",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "说明": "Chrome DevTools for coding agents",
+      "星标": 51723,
+      "本周新增": 804,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "skills",
+      "repo": "mattpocock/skills",
+      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
+      "星标": 260152,
+      "本周新增": 10571,
+      "语言": "Shell"
     }
   ]
 }
