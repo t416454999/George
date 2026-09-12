@@ -1,13 +1,148 @@
 {
-  "updated": "2026-09-12T08:30:56+08:00",
-  "as_of": "2026-09-12T08:30:56+08:00",
+  "updated": "2026-09-12T12:58:12+08:00",
+  "as_of": "2026-09-12T12:58:12+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 242769996,
+      "标题": "【世界进行时】2026年9月11日",
+      "摘要": "本期要点：联大主席敲槌宣布新一届会议开幕，努力重建全球信任；黎巴嫩南部局势升级，联合国秘书长要求以色列撤军；联合国也门特使：也门重陷大规模冲突风险已演变为现实；“9·11”事件25周年：联合国重申反恐与维护人权共同责任；人工智能数据中心对全球电力系统构成日益加剧的威胁；世卫组织警告：吸烟会损害生育能力",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142779",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-242769996.webp",
+      "封面": "assets/media/un-242769996.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics%20Library/24-00009ag_UNWeekly_YouTube_thumbnail_1280x720px_C.jpg/image560x340cropped.jpg",
+      "导语": "本期要点：联大主席敲槌宣布新一届会议开幕，努力重建全球信任；黎巴嫩南部局势升级，联合国秘书长要求以色列撤军；联合国也门特使：也门重陷大规模冲突风险已演变为现实；“9·11”事件25周年：联合国重申反恐与维护人权共同责任",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "本期要点：联大主席敲槌宣布新一届会议开幕，努力重建全球信任；黎巴嫩南部局势升级，联合国秘书长要求以色列撤军；联合国也门特使：也门重陷大规模冲突风险已演变为现实；“9·11”事件25周年：联合国重申反恐与维护人权共同责任；人工智能数据中心对全球电力系统构成日益加剧的威胁；世卫组织警告：吸烟会损害生育能力。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142779",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 4133463128,
+      "标题": "首支青年难民奥运代表队将参加2026年青奥会",
+      "摘要": "难民署周五发表声明，欢迎首支青年难民奥运代表队参加赛前集训，备战下个月在塞内加尔举行的2026年青年奥运会",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142777",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4133463128.webp",
+      "封面": "assets/media/un-4133463128.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/23-04-2026-UNFPA-Uganda-FGM-03.jpg/image560x340cropped.jpg",
+      "导语": "难民署周五发表声明，欢迎首支青年难民奥运代表队参加赛前集训，备战下个月在塞内加尔举行的2026年青年奥运会",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "难民署周五发表声明，欢迎首支青年难民奥运代表队参加赛前集训，备战下个月在塞内加尔举行的2026年青年奥运会。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142777",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3567100431,
+      "标题": "安理会：重振反恐斗争，应对不断演变的恐怖主义威胁",
+      "摘要": "安理会周五举行关于恐怖主义行为对国际和平与安全构成威胁的通报会，主题为“‘9·11’事件25周年：重振安理会反恐斗争”。纳塔利娅·盖尔曼和联合国反恐办公室代理主管艾哈布·奥迈什在会上发言，强调国际合作、预防努力、能力建设以及尊重国际法和人权对于应对不断演变的恐怖主义威胁至关重要",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142776",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3567100431.webp",
+      "封面": "assets/media/un-3567100431.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/29-12-2025_UN-Photo_SC_CTED.jpg/image560x340cropped.jpg",
+      "导语": "安理会周五举行关于恐怖主义行为对国际和平与安全构成威胁的通报会，主题为“‘9·11’事件25周年：重振安理会反恐斗争”。纳塔利娅·盖尔曼和联合国反恐办公室代理主管艾哈布·奥迈什在会上发言，强调国际合作、预防努力、能力建设",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "安理会周五举行关于恐怖主义行为对国际和平与安全构成威胁的通报会，主题为“‘9·11’事件25周年：重振安理会反恐斗争”。纳塔利娅·盖尔曼和联合国反恐办公室代理主管艾哈布·奥迈什在会上发言，强调国际合作、预防努力、能力建设以及尊重国际法和人权对于应对不断演变的恐怖主义威胁至关重要。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142776",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3896420189,
+      "标题": "地球迎来有记录以来最热的8月",
+      "摘要": "根据欧盟“哥白尼”气候服务局、美国国家海洋和大气管理局以及美国国家航空航天局的月度报告，地球刚刚经历了有记录以来最热的8月。北半球经历了有史以来最热的夏季，而南半球则经历了接近纪录的高温冬季",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142775",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3896420189.webp",
+      "封面": "assets/media/un-3896420189.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/19-08-2026-Adobe-Stock-heatwave.jpg/image560x340cropped.jpg",
+      "导语": "根据欧盟“哥白尼”气候服务局、美国国家海洋和大气管理局以及美国国家航空航天局的月度报告，地球刚刚经历了有记录以来最热的8月。北半球经历了有史以来最热的夏季，而南半球则经历了接近纪录的高温冬季",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "根据欧盟“哥白尼”气候服务局、美国国家海洋和大气管理局以及美国国家航空航天局的月度报告，地球刚刚经历了有记录以来最热的8月。北半球经历了有史以来最热的夏季，而南半球则经历了接近纪录的高温冬季。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142775",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1657639675,
+      "标题": "安理会反恐执行局趋势报告：恐怖主义宣传日益成为行动基础设施",
+      "摘要": "安理会反恐委员会执行局发布题为《超越信息传播：恐怖主义宣传作为行动基础设施》的最新趋势报告。报告分析了恐怖组织如何日益将宣传不仅作为沟通工具，还作为招募、激进化、融资、行动规划及治理活动不可或缺的组成部分",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142774",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1657639675.webp",
+      "封面": "assets/media/un-1657639675.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/10-02-2025_UNICEF_technology.jpg/image560x340cropped.jpg",
+      "导语": "安理会反恐委员会执行局发布题为《超越信息传播：恐怖主义宣传作为行动基础设施》的最新趋势报告。报告分析了恐怖组织如何日益将宣传不仅作为沟通工具，还作为招募、激进化、融资、行动规划及治理活动不可或缺的组成部分",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "安理会反恐委员会执行局发布题为《超越信息传播：恐怖主义宣传作为行动基础设施》的最新趋势报告。报告分析了恐怖组织如何日益将宣传不仅作为沟通工具，还作为招募、激进化、融资、行动规划及治理活动不可或缺的组成部分。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142774",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 4071564845,
       "标题": "乌克兰：针对切尔诺贝利的无人机袭击是“在拿数百万人的安全冒险”",
@@ -984,156 +1119,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.aex.ru/news/2026/9/11/299465/",
       "出处说明": "根据aex.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4114690830,
-      "标题": "外文资讯",
-      "原标题": "Директор ЦРУ на переговорах по войне . Ставка США",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 korrespondent.net 最新报道，点击阅读原文。",
-      "来源": "korrespondent.net",
-      "分类": "国际形势",
-      "日期": "2026-09-11",
-      "链接": "https://korrespondent.net/world/4911101-dyrektor-tsru-na-perehovorakh-po-voine-stavka-ssha",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://kor.ill.in.ua/m/1260x900/4560364.jpg",
-      "数据截至": "2026-09-12T00:30:50+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 korrespondent.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 korrespondent.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://korrespondent.net/world/4911101-dyrektor-tsru-na-perehovorakh-po-voine-stavka-ssha",
-      "出处说明": "根据korrespondent.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4189260230,
-      "标题": "外文资讯",
-      "原标题": "Послы ЕС снова провалили продление санкций против РФ",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 korrespondent.net 最新报道，点击阅读原文。",
-      "来源": "korrespondent.net",
-      "分类": "国际形势",
-      "日期": "2026-09-11",
-      "链接": "https://korrespondent.net/world/4911103-posly-es-snova-provalyly-prodlenye-sanktsyi-protyv-rf",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://kor.ill.in.ua/m/1260x900/4560375.jpg",
-      "数据截至": "2026-09-12T00:30:50+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 korrespondent.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 korrespondent.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://korrespondent.net/world/4911103-posly-es-snova-provalyly-prodlenye-sanktsyi-protyv-rf",
-      "出处说明": "根据korrespondent.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4197008058,
-      "标题": "中方警告勿随意扩大苏丹制裁范围 - 新华网",
-      "原标题": "中方警告勿随意扩大苏丹制裁范围 - 新华网",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 xinhuanet.com 最新报道，点击阅读原文。",
-      "来源": "xinhuanet.com",
-      "分类": "国际形势",
-      "日期": "2026-09-11",
-      "链接": "http://www.xinhuanet.com/20260912/0526e2b8be794e488d589cdd4c85fa4e/c.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-09-12T00:30:50+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 xinhuanet.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 xinhuanet.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.xinhuanet.com/20260912/0526e2b8be794e488d589cdd4c85fa4e/c.html",
-      "出处说明": "根据xinhuanet.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 910275827,
-      "标题": "外文资讯",
-      "原标题": "LExpression : Nationale - La rupture après les avertissements",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 lexpressiondz.com 最新报道，点击阅读原文。",
-      "来源": "lexpressiondz.com",
-      "分类": "国际形势",
-      "日期": "2026-09-11",
-      "链接": "https://www.lexpressiondz.com/nationale/la-rupture-apres-les-avertissements-409364",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.lexpressiondz.com/storage/images/article/187ec0ebdf5d3abcd8b9b2003200971c.jpg",
-      "数据截至": "2026-09-12T00:30:50+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 lexpressiondz.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 lexpressiondz.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.lexpressiondz.com/nationale/la-rupture-apres-les-avertissements-409364",
-      "出处说明": "根据lexpressiondz.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 533592763,
-      "标题": "外文资讯",
-      "原标题": "Opportunity for India to reassert its global leadership : South Asia analyst Michael Kugelman on BRICS 2026",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 beijingbulletin.com 最新报道，点击阅读原文。",
-      "来源": "beijingbulletin.com",
-      "分类": "国际形势",
-      "日期": "2026-09-11",
-      "链接": "http://www.beijingbulletin.com/news/279302038/opportunity-for-india-to-reassert-its-global-leadership-south-asia-analyst-michael-kugelman-on-brics-2026",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/d249e65/3064fd4f-7a06-43bb-92e9-d3e5e9294862/0/ANI-20260911222703-600x315.jpg",
-      "数据截至": "2026-09-12T00:30:50+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 beijingbulletin.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 beijingbulletin.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.beijingbulletin.com/news/279302038/opportunity-for-india-to-reassert-its-global-leadership-south-asia-analyst-michael-kugelman-on-brics-2026",
-      "出处说明": "根据beijingbulletin.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
