@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-14T05:36:23+08:00",
+  "generated": "2026-09-14T07:56:41+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 2445927312,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 8,
+  "count": 9,
   "articles": [
     {
       "id": 2445927312,
@@ -32,7 +32,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-14T05:36:23+08:00"
+      "选入时间": "2026-09-14T07:56:41+08:00"
     },
     {
       "id": 2427027153,
@@ -85,7 +85,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-14T05:36:23+08:00"
+      "选入时间": "2026-09-14T07:56:41+08:00"
     },
     {
       "id": 857816323,
@@ -133,7 +133,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-14T05:36:23+08:00"
+      "选入时间": "2026-09-14T07:56:41+08:00"
     },
     {
       "id": 4258257746,
@@ -171,7 +171,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-14T05:36:23+08:00"
+      "选入时间": "2026-09-14T07:56:41+08:00"
     },
     {
       "id": 2740648476,
@@ -219,7 +219,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-14T05:36:23+08:00"
+      "选入时间": "2026-09-14T07:56:41+08:00"
     },
     {
       "id": 760628525,
@@ -256,7 +256,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-14T05:36:23+08:00"
+      "选入时间": "2026-09-14T07:56:41+08:00"
     },
     {
       "id": 4133463128,
@@ -285,7 +285,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 73,
       "评分分项": {
         "可信度": 25,
@@ -302,7 +302,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-14T05:36:23+08:00"
+      "选入时间": "2026-09-14T07:56:41+08:00"
     },
     {
       "id": 3896420189,
@@ -331,7 +331,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 73,
       "评分分项": {
         "可信度": 25,
@@ -348,20 +348,100 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-14T05:36:23+08:00"
+      "选入时间": "2026-09-14T07:56:41+08:00"
+    },
+    {
+      "id": 3278245669,
+      "标题": "西班牙 1 : 0 阿根廷",
+      "摘要": "决赛 · 加时赛 · 北京时间 07月20日 03:00 · New York/New Jersey (East Rutherford) · 已结束",
+      "来源": "openfootball/worldcup.json",
+      "分类": "世界杯",
+      "日期": "2026-07-20",
+      "链接": "https://github.com/openfootball/worldcup.json/tree/master/2026",
+      "图片": "assets/covers/world-cup.svg",
+      "封面": "assets/covers/world-cup.svg",
+      "标签": [
+        "决赛",
+        "已结束"
+      ],
+      "比赛阶段": "决赛",
+      "比赛状态": "已结束",
+      "开球时间": "2026-07-20T03:00+08:00",
+      "导语": "决赛 · 加时赛 · 北京时间 07月20日 03:00 · New York/New Jersey (East Rutherford) · 已结束",
+      "要点": [
+        "决赛",
+        "加时赛",
+        "北京时间 07月20日 03:00"
+      ],
+      "正文": "西班牙 1 : 0 阿根廷。决赛 · 加时赛 · 北京时间 07月20日 03:00 · New York/New Jersey (East Rutherford) · 已结束 本页提供便于国内访问的赛程速览；临场调整、最终比分与判罚请以赛事官方信息为准",
+      "编辑方式": "规则整理",
+      "原文链接": "https://github.com/openfootball/worldcup.json/tree/master/2026",
+      "出处说明": "根据openfootball/worldcup.json公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "世界杯",
+      "栏目状态": "ok",
+      "编辑分": 60,
+      "评分分项": {
+        "可信度": 17,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 10,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "B",
+      "扣分项": [],
+      "入选理由": "球队已确认且处于重要比赛时间窗口",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-14T07:56:41+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-09-14T05:36:23+08:00",
+    "as_of": "2026-09-14T07:56:41+08:00",
     "candidate_count": 604,
     "rejected_count": 412,
     "rejected": [
+      {
+        "id": 891500917,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4276819919,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3989140547,
+        "reason": "off_topic"
+      },
       {
         "id": 3980694668,
         "reason": "off_topic"
       },
       {
+        "id": 3375101231,
+        "reason": "off_topic"
+      },
+      {
         "id": 2889693907,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2870828458,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2834306732,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2540873584,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2077007053,
         "reason": "off_topic"
       },
       {
@@ -1671,34 +1751,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 3390977206,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3380971742,
-        "reason": "off_topic"
-      },
-      {
-        "id": 332862229,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3262371227,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3241610439,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3191824687,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2927591781,
-        "reason": "off_topic"
-      },
-      {
         "id": 929958324,
         "reason": "score_below_50",
         "score": 33
@@ -1779,108 +1831,134 @@
         "score": 33
       },
       {
-        "id": 2440953584,
-        "reason": "stale_section"
+        "id": 600519515,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 4110302787,
-        "reason": "stale_section"
+        "id": 3637917405,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 4259094790,
-        "reason": "stale_section"
+        "id": 2122100009,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 3226504265,
-        "reason": "stale_section"
+        "id": 1742203039,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 470140404,
-        "reason": "stale_section"
+        "id": 1836288905,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 2440665575,
-        "reason": "stale_section"
+        "id": 2380940639,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 2124278001,
-        "reason": "stale_section"
+        "id": 3364706735,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 546205860,
-        "reason": "stale_section"
+        "id": 594533746,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 188963724,
-        "reason": "stale_section"
+        "id": 50768947,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 2192713120,
-        "reason": "stale_section"
-      },
-      {
-        "id": 3930071134,
-        "reason": "stale_section"
-      },
-      {
-        "id": 791842572,
-        "reason": "stale_section"
-      },
-      {
-        "id": 2488645258,
-        "reason": "stale_section"
-      },
-      {
-        "id": 485183561,
-        "reason": "stale_section"
-      },
-      {
-        "id": 1633766555,
-        "reason": "stale_section"
-      },
-      {
-        "id": 1813479180,
-        "reason": "stale_section"
-      },
-      {
-        "id": 2633277805,
-        "reason": "stale_section"
+        "id": 1393927407,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
         "id": 1016182039,
-        "reason": "stale_section"
+        "reason": "score_below_50",
+        "score": 38
       },
       {
-        "id": 2125975496,
-        "reason": "stale_section"
+        "id": 2735228194,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 943442314,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2440665575,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 485183561,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 1633766555,
+        "reason": "score_below_50",
+        "score": 27
+      },
+      {
+        "id": 1813479180,
+        "reason": "score_below_50",
+        "score": 22
       },
       {
         "id": 2562300230,
-        "reason": "stale_section"
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 2125975496,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 3681105290,
-        "reason": "stale_section"
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 252688622,
-        "reason": "stale_section"
+        "reason": "score_below_50",
+        "score": 25
       },
       {
         "id": 2223036476,
-        "reason": "stale_section"
+        "reason": "score_below_50",
+        "score": 16
       },
       {
         "id": 3532070712,
-        "reason": "stale_section"
+        "reason": "score_below_50",
+        "score": 16
       },
       {
         "id": 1266555372,
-        "reason": "stale_section"
+        "reason": "score_below_50",
+        "score": 16
       },
       {
-        "id": 3278245669,
-        "reason": "stale_section"
+        "id": 853265194,
+        "reason": "score_below_50",
+        "score": 26
       },
       {
         "id": 4134539266,
@@ -1898,7 +1976,7 @@
         "score": 30
       },
       {
-        "id": 2833132584,
+        "id": 3892170956,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1949,11 +2027,6 @@
       },
       {
         "id": 2717424115,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 2271116506,
         "reason": "score_below_50",
         "score": 20
       },
