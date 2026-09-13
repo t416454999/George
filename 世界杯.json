@@ -4,8 +4,8 @@
   "category": "世界杯",
   "source": "openfootball/worldcup.json",
   "description": "2026 世界杯赛程与赛果；开放数据，无需密钥。",
-  "status": "ok",
-  "message": "当前使用公共领域开放数据；配置 FOOTBALL_DATA_TOKEN 后将自动切换到 football-data.org。",
+  "status": "stale",
+  "message": "本轮更新失败，当前展示上次成功数据：('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
   "count": 26,
   "articles": [
     {
