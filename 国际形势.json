@@ -1,13 +1,40 @@
 {
-  "updated": "2026-09-13T09:20:50+08:00",
-  "as_of": "2026-09-13T09:20:50+08:00",
+  "updated": "2026-09-13T14:37:35+08:00",
+  "as_of": "2026-09-13T14:37:35+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "partial",
-  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
+  "status": "ok",
+  "message": "",
   "count": 40,
   "articles": [
+    {
+      "id": 3772585458,
+      "标题": "也门战事升级，流离失所危机每小时都在恶化",
+      "摘要": "国际移民组织周六警告称，也门的流离失所危机正以每小时为单位迅速恶化。据国际移民组织流离失所追踪矩阵团队及其合作伙伴统计，自7月份以来，已有至少7.6万人逃离家园",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-12",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142780",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3772585458.webp",
+      "封面": "assets/media/un-3772585458.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/13-08-2026-UNHCR-Yemen.jpg/image560x340cropped.jpg",
+      "导语": "国际移民组织周六警告称，也门的流离失所危机正以每小时为单位迅速恶化。据国际移民组织流离失所追踪矩阵团队及其合作伙伴统计，自7月份以来，已有至少7.6万人逃离家园",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "国际移民组织周六警告称，也门的流离失所危机正以每小时为单位迅速恶化。据国际移民组织流离失所追踪矩阵团队及其合作伙伴统计，自7月份以来，已有至少7.6万人逃离家园。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142780",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 242769996,
       "标题": "【世界进行时】2026年9月11日",
@@ -630,510 +657,483 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 2818240878,
-      "标题": "古特雷斯呼吁塔利班撤销对阿富汗妇女的禁令",
-      "摘要": "古特雷斯秘书长周日通过发言人发表声明，对塔利班继续对阿富汗妇女和女童实施歧视性政策深表关切",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-06",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142751",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2818240878.webp",
-      "封面": "assets/media/un-2818240878.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/03-07-2023_UNICEF_female-students_UN0679814.jpg/image560x340cropped.jpg",
-      "导语": "古特雷斯秘书长周日通过发言人发表声明，对塔利班继续对阿富汗妇女和女童实施歧视性政策深表关切",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "古特雷斯秘书长周日通过发言人发表声明，对塔利班继续对阿富汗妇女和女童实施歧视性政策深表关切。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142751",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1199321442,
-      "标题": "外文资讯",
-      "原标题": "النائب أيمن محسب : تكامل التشكيل الحالي لبريكس يستطيع إحداث توازن عالمي",
+      "id": 848022102,
+      "标题": "印度人民党领导人赞扬金砖国家新德里宣言，强调和平与全球南方议程",
+      "原标题": "BJP leaders hail BRICS New Delhi Declaration , highlight peace and Global South agenda",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 shorouknews.com 最新报道，点击阅读原文。",
-      "来源": "shorouknews.com",
+      "摘要": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文。",
+      "来源": "aninews.in",
       "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "https://www.shorouknews.com/news/view.aspx?cdate=13092026&id=5cc6696c-7dc6-4f6b-afe2-96c9e662e0f5",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.shorouknews.com/uploadedimages/Sections/Egypt/original/202308050254545454.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 shorouknews.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 shorouknews.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.shorouknews.com/news/view.aspx?cdate=13092026&id=5cc6696c-7dc6-4f6b-afe2-96c9e662e0f5",
-      "出处说明": "根据shorouknews.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2524669018,
-      "标题": "外文资讯",
-      "原标题": "It high time : UN backs PM Modi UNSC reform push , credits India BRICS Presidency",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。",
-      "来源": "calcuttanews.net",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.calcuttanews.net/news/279303409/it-high-time-un-backs-pm-modi-unsc-reform-push-credits-india-brics-presidency",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/f3e8767/59b3456f-1700-4541-9a2b-60f60fa89864/0/ANI-20260912152807-600x315.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.calcuttanews.net/news/279303409/it-high-time-un-backs-pm-modi-unsc-reform-push-credits-india-brics-presidency",
-      "出处说明": "根据calcuttanews.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4150080935,
-      "标题": "外文资讯",
-      "原标题": "BRICS Declaration backs India UNSC aspirations , condemns J - K terror attack ; voices concern over unilateral tariffs",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 venezuelastar.com 最新报道，点击阅读原文。",
-      "来源": "venezuelastar.com",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.venezuelastar.com/news/279303162/brics-declaration-backs-india-unsc-aspirations-condemns-j-k-terror-attack-voices-concern-over-unilateral-tariffs",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/5869f6d/845d61b8-31a5-4678-8a06-ecd22c80fb55/0/ANI-20260912112852-600x315.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 venezuelastar.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 venezuelastar.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.venezuelastar.com/news/279303162/brics-declaration-backs-india-unsc-aspirations-condemns-j-k-terror-attack-voices-concern-over-unilateral-tariffs",
-      "出处说明": "根据venezuelastar.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1349069356,
-      "标题": "外文资讯",
-      "原标题": "BRICS Summit 2026 : Malaysian PM showcases love for Bollywood with Kishore Kumar song",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。",
-      "来源": "calcuttanews.net",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.calcuttanews.net/news/279303500/brics-summit-2026-malaysian-pm-showcases-love-for-bollywood-with-kishore-kumar-song",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/ad48845/622aecb7-6368-4043-a85a-2efc69d185c0/0/ANI-20260912194346-600x315.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.calcuttanews.net/news/279303500/brics-summit-2026-malaysian-pm-showcases-love-for-bollywood-with-kishore-kumar-song",
-      "出处说明": "根据calcuttanews.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2108146574,
-      "标题": "外文资讯",
-      "原标题": "BRICS leaders pose for family photo after adoption of New Delhi Declaration 2026 , join tree plantation",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 venezuelastar.com 最新报道，点击阅读原文。",
-      "来源": "venezuelastar.com",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.venezuelastar.com/news/279303176/brics-leaders-pose-for-family-photo-after-adoption-of-new-delhi-declaration-2026-join-tree-plantation",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/5310b7d/ccc215bb-fa5e-4bb5-b3d5-7d4e471d5346/0/ANI-20260912114958-600x315.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 venezuelastar.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 venezuelastar.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.venezuelastar.com/news/279303176/brics-leaders-pose-for-family-photo-after-adoption-of-new-delhi-declaration-2026-join-tree-plantation",
-      "出处说明": "根据venezuelastar.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1863481459,
-      "标题": "外文资讯",
-      "原标题": "Си Цзинпин призова БРИКС да бъде миротворец в Близкия изток",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 news.bg 最新报道，点击阅读原文。",
-      "来源": "news.bg",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "https://news.bg/int-politics/si-tszinpin-prizova-briks-da-bade-mirotvorets-v-blizkiya-iztok.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://webnews.bg/uploads/images/82/8282/778282/768x432.jpg?_=1789247480",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 news.bg 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 news.bg 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.bg/int-politics/si-tszinpin-prizova-briks-da-bade-mirotvorets-v-blizkiya-iztok.html",
-      "出处说明": "根据news.bg公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 488199136,
-      "标题": "外文资讯",
-      "原标题": "BRICS New Delhi Declaration affirms India growing global leadership : Amit Shah",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。",
-      "来源": "calcuttanews.net",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.calcuttanews.net/news/279303496/brics-new-delhi-declaration-affirms-india-growing-global-leadership-amit-shah",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/3e98a1b/5b7c4d25-157f-4388-b6ab-458e5ea329da/0/ANI-20260912183942-600x315.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.calcuttanews.net/news/279303496/brics-new-delhi-declaration-affirms-india-growing-global-leadership-amit-shah",
-      "出处说明": "根据calcuttanews.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2177458706,
-      "标题": "外文资讯",
-      "原标题": "భద్రతలో స్వాట్ , ఎన్‌ఎస్‌జీ",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 eenadu.net 最新报道，点击阅读原文。",
-      "来源": "eenadu.net",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "https://www.eenadu.net/telugu-news/districts/delhi-news/664/126165269",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://assets.eenadu.net/featureimages/680X310/126165269-680X310.webp",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 eenadu.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 eenadu.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.eenadu.net/telugu-news/districts/delhi-news/664/126165269",
-      "出处说明": "根据eenadu.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2280419949,
-      "标题": "外文资讯",
-      "原标题": "BRICS երկրները կաջակցեն բազմակողմ առևտրային համակարգին . Սի Ծինփին",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 1in.am 最新报道，点击阅读原文。",
-      "来源": "1in.am",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "https://www.1in.am/3757885.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.1in.am/assets/uploads/2026/09/6000-562-540x360.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 1in.am 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 1in.am 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.1in.am/3757885.html",
-      "出处说明": "根据1in.am公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2716627353,
-      "标题": "外文资讯",
-      "原标题": "Brazil , India have potential to build deeper strategic , economic ties : Foreign Minister Mauro Vieira",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 southeastasiapost.com 最新报道，点击阅读原文。",
-      "来源": "southeastasiapost.com",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.southeastasiapost.com/news/279303213/brazil-india-have-potential-to-build-deeper-strategic-economic-ties-foreign-minister-mauro-vieira",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/3788db5/0e695032-f32c-4afb-bb21-54002dfd8ba6/0/ANI-20260912122310-600x315.jpeg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 southeastasiapost.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 southeastasiapost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.southeastasiapost.com/news/279303213/brazil-india-have-potential-to-build-deeper-strategic-economic-ties-foreign-minister-mauro-vieira",
-      "出处说明": "根据southeastasiapost.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2704832091,
-      "标题": "外文资讯",
-      "原标题": "BRICS - NDB Knowledge Portal inaugurated as RBI Governor calls for stronger collective capacity",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 texasguardian.com 最新报道，点击阅读原文。",
-      "来源": "texasguardian.com",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.texasguardian.com/news/279303238/brics-ndb-knowledge-portal-inaugurated-as-rbi-governor-calls-for-stronger-collective-capacity",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/618a4bd/fa7004db-9be9-4c33-a88e-a829e84a2860/0/ANI-20260912132445-600x315.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 texasguardian.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 texasguardian.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.texasguardian.com/news/279303238/brics-ndb-knowledge-portal-inaugurated-as-rbi-governor-calls-for-stronger-collective-capacity",
-      "出处说明": "根据texasguardian.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1291150876,
-      "标题": "外文资讯",
-      "原标题": "Bosna i Hercegovina upisala pobjedu u galaktičkoj Ligi nacija : Amerikancima smo se revanširali u svemiru",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 klix.ba 最新报道，点击阅读原文。",
-      "来源": "klix.ba",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "https://www.klix.ba/scitech/gaming/bosna-i-hercegovina-upisala-pobjedu-u-galaktickoj-ligi-nacija-amerikancima-smo-se-revansirali-u-svemiru/260912084",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://static.klix.ba/media/images/vijesti/og_260912084.jpg?v=1",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 klix.ba 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 klix.ba 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.klix.ba/scitech/gaming/bosna-i-hercegovina-upisala-pobjedu-u-galaktickoj-ligi-nacija-amerikancima-smo-se-revansirali-u-svemiru/260912084",
-      "出处说明": "根据klix.ba公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 634407273,
-      "标题": "外文资讯",
-      "原标题": "It high time : UN backs PM Modi UNSC reform push , credits India BRICS Presidency",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 newyorktelegraph.com 最新报道，点击阅读原文。",
-      "来源": "newyorktelegraph.com",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.newyorktelegraph.com/news/279303409/it-high-time-un-backs-pm-modi-unsc-reform-push-credits-india-brics-presidency",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/f3e8767/59b3456f-1700-4541-9a2b-60f60fa89864/0/ANI-20260912152807-600x315.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 newyorktelegraph.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 newyorktelegraph.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.newyorktelegraph.com/news/279303409/it-high-time-un-backs-pm-modi-unsc-reform-push-credits-india-brics-presidency",
-      "出处说明": "根据newyorktelegraph.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1413862280,
-      "标题": "外文资讯",
-      "原标题": "Berlin zmienia kurs wobec Chin , gdy Azja Południowa przechodzi rewolucję",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 rp.pl 最新报道，点击阅读原文。",
-      "来源": "rp.pl",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "https://www.rp.pl/swiat/art45128061-chiny-przesuwaja-granice-azji-poludniowej-a-niemcy-dopiero-lapia-oddech",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://i.gremicdn.pl/image/free/7bb9f6a1cf996bb2ff72c33f4fc9cd54/podcast-rzecz-o-geopolityce-chiny-przesuwaja-granice-azji-poludniowej-a-niemcy-dopiero-lapia-oddech?t=crop:1743:1081:nowe:89:0,resize:fill:2000:1250&ctx=preview",
-      "数据截至": "2026-09-12T23:11:56+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 rp.pl 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 rp.pl 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.rp.pl/swiat/art45128061-chiny-przesuwaja-granice-azji-poludniowej-a-niemcy-dopiero-lapia-oddech",
-      "出处说明": "根据rp.pl公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2930712030,
-      "标题": "外文资讯",
-      "原标题": "Trump visit to Ireland for the Irish Open tees off with diplomatic controversy",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 ualrpublicradio.org 最新报道，点击阅读原文。",
-      "来源": "ualrpublicradio.org",
-      "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "https://www.ualrpublicradio.org/2026-09-12/trumps-visit-to-ireland-for-the-irish-open-tees-off-with-diplomatic-controversy",
+      "日期": "2026-09-13",
+      "链接": "https://aninews.in/news/national/general-news/bjp-leaders-hail-brics-new-delhi-declaration-highlight-peace-and-global-south-agenda20260913092207/",
       "标签": [
         "国际",
         "全球媒体"
       ],
       "原始图片": "",
-      "数据截至": "2026-09-12T23:11:56+00:00",
+      "数据截至": "2026-09-13T06:37:16+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 ualrpublicradio.org 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 ualrpublicradio.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://www.ualrpublicradio.org/2026-09-12/trumps-visit-to-ireland-for-the-irish-open-tees-off-with-diplomatic-controversy",
-      "出处说明": "根据ualrpublicradio.org公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://aninews.in/news/national/general-news/bjp-leaders-hail-brics-new-delhi-declaration-highlight-peace-and-global-south-agenda20260913092207/",
+      "出处说明": "根据aninews.in公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 4056931193,
-      "标题": "外文资讯",
-      "原标题": "UNSC reform can no longer be delayed : UN backs PM Modi UNSC reform push , credits India BRICS Presidency",
+      "id": 2553207796,
+      "标题": "我看到撒切尔大幅削减国民医疗服务体系——这是我对约翰·斯温尼的警告",
+      "原标题": "I watched Thatcher slash the NHS – here my warning for John Swinney",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。",
-      "来源": "calcuttanews.net",
+      "摘要": "全球新闻索引收录的 thenational.scot 最新报道，点击阅读原文。",
+      "来源": "thenational.scot",
       "分类": "国际形势",
-      "日期": "2026-09-12",
-      "链接": "http://www.calcuttanews.net/news/279303408/unsc-reform-can-no-longer-be-delayed-un-backs-pm-modi-unsc-reform-push-credits-india-brics-presidency",
+      "日期": "2026-09-13",
+      "链接": "https://www.thenational.scot/politics/26545005.watched-thatcher-slash-nhs---warning-john-swinney/",
       "标签": [
         "国际",
         "全球媒体"
       ],
-      "原始图片": "https://image.chitra.live/api/v1/wps/b0ba4ac/8edee0cc-ba61-4155-81ba-8dae43de79ee/0/ANI-20260912152807-600x315.jpg",
-      "数据截至": "2026-09-12T23:11:56+00:00",
+      "原始图片": "https://www.thenational.scot/resources/images/13202298.jpg?type=og-image",
+      "数据截至": "2026-09-13T06:37:16+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 thenational.scot 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 calcuttanews.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 thenational.scot 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "http://www.calcuttanews.net/news/279303408/unsc-reform-can-no-longer-be-delayed-un-backs-pm-modi-unsc-reform-push-credits-india-brics-presidency",
-      "出处说明": "根据calcuttanews.net公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://www.thenational.scot/politics/26545005.watched-thatcher-slash-nhs---warning-john-swinney/",
+      "出处说明": "根据thenational.scot公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 565223805,
+      "标题": "梦幻般的外交胜利：印度人民党普拉图·沙赫迪奥赞扬金砖国家对帕哈加姆恐怖袭击的谴责",
+      "原标题": "Fantastic diplomatic win : BJP Pratul Shahdeo hails BRICS condemnation of Pahalgam terror attack",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文。",
+      "来源": "aninews.in",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://aninews.in/news/national/politics/8220fantastic-diplomatic-win8221-bjp8217s-pratul-shahdeo-hails-brics-condemnation-of-pahalgam-terror-attack20260913111801/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://aninews.in/news/national/politics/8220fantastic-diplomatic-win8221-bjp8217s-pratul-shahdeo-hails-brics-condemnation-of-pahalgam-terror-attack20260913111801/",
+      "出处说明": "根据aninews.in公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1768245730,
+      "标题": "泽连斯基欲会见普京 克里姆林宫意外回覆：邀请仍然开放",
+      "原标题": "Zelenski želi susret sa Putinom , iz Kremlja stigao neočekivan odgovor : Poziv ostaje otvoren",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 alo.rs 最新报道，点击阅读原文。",
+      "来源": "alo.rs",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://www.alo.rs/vesti/ukrajina/16946320/zelenski-zeli-susret-sa-putinom-iz-kremlja-stigao-neocekivan-odgovor-poziv-ostaje-otvoren.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.alo.rs/upload/thumb/2026/9/13/7/21/799/15257059/shutterstock_2132199479.webp",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 alo.rs 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 alo.rs 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.alo.rs/vesti/ukrajina/16946320/zelenski-zeli-susret-sa-putinom-iz-kremlja-stigao-neocekivan-odgovor-poziv-ostaje-otvoren.html",
+      "出处说明": "根据alo.rs公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3517640483,
+      "标题": "假刑警穿背心 、 戴手銬逛大街 遭識破瞎掰 「 調查局 、 外交人員 」 - 社會",
+      "原标题": "假刑警穿背心 、 戴手銬逛大街 遭識破瞎掰 「 調查局 、 外交人員 」 - 社會",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 news.ltn.com.tw 最新报道，点击阅读原文。",
+      "来源": "news.ltn.com.tw",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://news.ltn.com.tw/news/society/breakingnews/5572423",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://img.ltn.com.tw/Upload/news/600/2026/09/13/5572423_1_1.jpg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 news.ltn.com.tw 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 news.ltn.com.tw 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.ltn.com.tw/news/society/breakingnews/5572423",
+      "出处说明": "根据news.ltn.com.tw公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 4027989993,
+      "标题": "外文资讯",
+      "原标题": "Direction is correct : Google DeepMind co - founder Demis Hassabis backs Anthropic boss Dario Amodei calls for AI slowdown",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 australiannews.net 最新报道，点击阅读原文。",
+      "来源": "australiannews.net",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "http://www.australiannews.net/news/279303630/direction-is-correct-google-deepmind-co-founder-demis-hassabis-backs-anthropic-boss-dario-amodei-calls-for-ai-slowdown",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://image.chitra.live/api/v1/wps/c5a94e4/f176e38a-1878-44f5-ba1a-fc5300962aac/0/ANI-20260913002132-600x315.jpg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 australiannews.net 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 australiannews.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "http://www.australiannews.net/news/279303630/direction-is-correct-google-deepmind-co-founder-demis-hassabis-backs-anthropic-boss-dario-amodei-calls-for-ai-slowdown",
+      "出处说明": "根据australiannews.net公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3016967740,
+      "标题": "强有力的例子：帕哈加姆受害者亲属欢呼金砖国家新德里宣言对恐怖主义的零容忍立场",
+      "原标题": "Powerful example : Pahalgam victim kin hails BRICS New Delhi Declaration zero - tolerance stance on terrorism",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 australiannews.net 最新报道，点击阅读原文。",
+      "来源": "australiannews.net",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "http://www.australiannews.net/news/279304014/powerful-example-pahalgam-victims-kin-hails-brics-new-delhi-declaration-zero-tolerance-stance-on-terrorism",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://image.chitra.live/api/v1/wps/b8285fc/f327fc43-ff95-4c80-a6d4-977a638cd6c8/0/ANI-20260913033414-600x315.jpg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 australiannews.net 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 australiannews.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "http://www.australiannews.net/news/279304014/powerful-example-pahalgam-victims-kin-hails-brics-new-delhi-declaration-zero-tolerance-stance-on-terrorism",
+      "出处说明": "根据australiannews.net公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3304974429,
+      "标题": "伊朗和阿曼就霍尔木兹海峡新进出航线达成一致：报告",
+      "原标题": "Iran , Oman agree on new entry , exit routes for Strait of Hormuz : Report",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文。",
+      "来源": "aninews.in",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://aninews.in/news/world/middle-east/iran-oman-agree-on-new-entry-exit-routes-for-strait-of-hormuz-report20260913093354/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 aninews.in 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://aninews.in/news/world/middle-east/iran-oman-agree-on-new-entry-exit-routes-for-strait-of-hormuz-report20260913093354/",
+      "出处说明": "根据aninews.in公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2776268712,
+      "标题": "金砖国家提议设立基金支持创业创新",
+      "原标题": "БРИКС предложил создать фонд для поддержки стартапов и инноваций",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 vesti.ru 最新报道，点击阅读原文。",
+      "来源": "vesti.ru",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://www.vesti.ru/ns/briks-predlozhil-sozdat-fond-dlya-podderzhki-startapov-i-innovacij",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://cdn.vesti.ru/photobank/prod/medium/153/086/55.jpg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 vesti.ru 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 vesti.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.vesti.ru/ns/briks-predlozhil-sozdat-fond-dlya-podderzhki-startapov-i-innovacij",
+      "出处说明": "根据vesti.ru公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 4244768284,
+      "标题": "外文资讯",
+      "原标题": "Trump : If Iran had nukes , it would have blown up Israel , Middle East and parts of Europe - Israel & Jewish News",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 jns.org 最新报道，点击阅读原文。",
+      "来源": "jns.org",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://www.jns.org/news/world/trump-if-iran-had-nukes-it-would-have-blown-up-israel-middle-east-and-parts-of-europe",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://k2-prod-jns-prod.s3.us-east-1.amazonaws.com/brightspot/81/e7/241e1bb44961b0223edb8479e36d/holve1cw8aadi4s.jpeg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 jns.org 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 jns.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.jns.org/news/world/trump-if-iran-had-nukes-it-would-have-blown-up-israel-middle-east-and-parts-of-europe",
+      "出处说明": "根据jns.org公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3424827196,
+      "标题": "Nebojša Kotlajić：金砖国家寻求世界机构改革。普京：多极世界面临阻力",
+      "原标题": "Небојша Котлајић : БРИКС тражи реформу светских институција . Владимир Путин : Мултиполарни свет наилази на отпор",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 nspm.rs 最新报道，点击阅读原文。",
+      "来源": "nspm.rs",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://www.nspm.rs/hronika/nebojsa-kotlajic-briks-trazi-reformu-svetskih-institucija.-vladimir-putin-multipolarni-svet-nailazi-na-otpor.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 nspm.rs 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 nspm.rs 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.nspm.rs/hronika/nebojsa-kotlajic-briks-trazi-reformu-svetskih-institucija.-vladimir-putin-multipolarni-svet-nailazi-na-otpor.html",
+      "出处说明": "根据nspm.rs公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1889304595,
+      "标题": "摩拉维亚-西里西亚新闻 - 主页 - 金砖国家团结一致。西方面临更强大的对手",
+      "原标题": "Moravskoslezské novinky - Domácí - BRICS našel jednotu . Západ dostává silnějšího soupeře",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 moravskoslezskenovinky.cz 最新报道，点击阅读原文。",
+      "来源": "moravskoslezskenovinky.cz",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://www.moravskoslezskenovinky.cz/zpravy/byznys/brics-nasel-jednotu-zapad-dostava-silnejsiho-soupere/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.moravskoslezskenovinky.cz/repository/zpravy/3976d050-aeca-11f1-ace1-525400759392.jpg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 moravskoslezskenovinky.cz 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 moravskoslezskenovinky.cz 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.moravskoslezskenovinky.cz/zpravy/byznys/brics-nasel-jednotu-zapad-dostava-silnejsiho-soupere/",
+      "出处说明": "根据moravskoslezskenovinky.cz公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 471099281,
+      "标题": "你想要跳棋还是走？”：联合国不敢派专家通过莫斯科调查乌克兰武装部队的罪行",
+      "原标题": "« Вам шашечки или ехать ?»: ООН боится направить экспертов для расследования преступлений ВСУ через Москву",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 news.mail.ru 最新报道，点击阅读原文。",
+      "来源": "news.mail.ru",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://news.mail.ru/politics/72339501/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://resizer.mail.ru/p/bd3ea42d-f0ac-5767-b2f5-aaef11c0d6c0/AQAG64YXITc-FXuYXvRH5Grz4aRSbG_iKka4KaGpjS5QNxTsjvn2RFof_aqzXqLjFy66d5OaoB-iGdokZk47tx-YsHs.jpg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 news.mail.ru 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 news.mail.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.mail.ru/politics/72339501/",
+      "出处说明": "根据news.mail.ru公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 993783002,
+      "标题": "莫迪在德里接待普京和习近平，特朗普的阴影笼罩着金砖四国",
+      "原标题": "Trump shadow looms large over Brics as Modi hosts Putin and Xi in Delhi",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 businessghana.com 最新报道，点击阅读原文。",
+      "来源": "businessghana.com",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "http://www.businessghana.com/site/news/politics/355996/Trump-shadow-looms-large-over-Brics-as-Modi-hosts-Putin-and-Xi-in-Delhi",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "http://www.businessghana.com/cms/img/news/2026-09-11-1459430004.jpg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 businessghana.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 businessghana.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "http://www.businessghana.com/site/news/politics/355996/Trump-shadow-looms-large-over-Brics-as-Modi-hosts-Putin-and-Xi-in-Delhi",
+      "出处说明": "根据businessghana.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3961816754,
+      "标题": "泽连斯基：我已准备好在G20峰会上与普京会面",
+      "原标题": "Zelenskiy : G20 Zirvesinde Putin ile görüşmeye hazırım",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 haberler.com 最新报道，点击阅读原文。",
+      "来源": "haberler.com",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://www.haberler.com/dunya/zelenskiy-g20-zirvesi-nde-putin-ile-gorusmeye-20232428-haberi/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://foto.haberler.com/haber/2026/09/13/zelenskiy-g20-zirvesi-nde-putin-ile-gorusmeye-20232428_amp.jpg",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 haberler.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 haberler.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.haberler.com/dunya/zelenskiy-g20-zirvesi-nde-putin-ile-gorusmeye-20232428-haberi/",
+      "出处说明": "根据haberler.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2585397447,
+      "标题": "世界领导人齐聚金砖国家峰会之际，德里警方发布公共咨询，敦促使用公共交通",
+      "原标题": "Delhi Police issues public advisory , urges use of public transport as world leaders gather for BRICS Summit",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 news.webindia123.com 最新报道，点击阅读原文。",
+      "来源": "news.webindia123.com",
+      "分类": "国际形势",
+      "日期": "2026-09-13",
+      "链接": "https://news.webindia123.com/news/Articles/India/20260913/4498059.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-09-13T06:37:16+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 news.webindia123.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 news.webindia123.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.webindia123.com/news/Articles/India/20260913/4498059.html",
+      "出处说明": "根据news.webindia123.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
