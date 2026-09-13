@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-13T20:37:11+08:00",
+  "generated": "2026-09-14T00:53:43+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3567100431,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 9,
+  "count": 8,
   "articles": [
     {
       "id": 3567100431,
@@ -32,11 +32,11 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 84,
+      "栏目状态": "partial",
+      "编辑分": 78,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
+        "时效": 2,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,7 +49,91 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
+      "选入时间": "2026-09-14T00:53:43+08:00"
+    },
+    {
+      "id": 2427027153,
+      "标题": "【原生·模型】Perplexity 信任 GPT-6 Astra 的端到端系统",
+      "摘要": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier",
+      "内容": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-09-14",
+      "热度": 58,
+      "链接": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方"
+      ],
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/2ONJEXhA8M9IGON14JgHTc/4450550ce2d8b38c7fe2e7825839c92a/og.png?w=1600&amp;h=900&amp;fit=fill",
+      "原标题": "【原生·模型】Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "中文提炼": "",
+      "候选栏目": "AI",
+      "编辑分": 86,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-14T00:53:43+08:00"
+    },
+    {
+      "id": 857816323,
+      "标题": "诗歌",
+      "原标题": "Poetry",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Francesco Bartolozzi · February 15, 1783 · Stipple engraving and etching; printed in red ink; third state of three",
+      "来源": "The Metropolitan Museum of Art",
+      "分类": "人文艺术",
+      "日期": "2026-09-14",
+      "链接": "https://www.metmuseum.org/art/collection/search/390233",
+      "图片": "assets/art/met-390233.webp",
+      "原始图片": "https://images.metmuseum.org/CRDImages/dp/web-large/DP880438.jpg",
+      "封面": "assets/art/met-390233.webp",
+      "版权": "Public Domain / Open Access",
+      "标签": [
+        "poetry",
+        "公共领域"
+      ],
+      "导语": "从馆藏资料出发，认识《诗歌》及其创作背景",
+      "要点": [
+        "Francesco Bartolozzi",
+        "February 15, 1783",
+        "Stipple engraving and etching; printed in red ink; third state of three"
+      ],
+      "正文": "《诗歌》现由The Metropolitan Museum of Art收录。作者：Francesco Bartolozzi；年代：February 15, 1783；材质：Stipple engraving and etching; printed in red ink; third state of three。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.metmuseum.org/art/collection/search/390233",
+      "出处说明": "根据The Metropolitan Museum of Art公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 79,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "公共领域馆藏，图像与出处完整",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-14T00:53:43+08:00"
     },
     {
       "id": 760628525,
@@ -70,173 +154,6 @@
       "原标题": "【原生·一手】Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
       "中文提炼": "",
       "候选栏目": "AI",
-      "编辑分": 80,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
-    },
-    {
-      "id": 3652265838,
-      "标题": "馆藏作品",
-      "原标题": "The Love Letter",
-      "标题翻译方式": "保守规则/历史复用",
-      "摘要": "Jean Honoré Fragonard · early 1770s · Oil on canvas",
-      "来源": "The Metropolitan Museum of Art",
-      "分类": "人文艺术",
-      "日期": "2026-09-13",
-      "链接": "https://www.metmuseum.org/art/collection/search/436322",
-      "图片": "assets/art/met-436322.webp",
-      "原始图片": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1014-001.jpg",
-      "封面": "assets/art/met-436322.webp",
-      "版权": "Public Domain / Open Access",
-      "标签": [
-        "solitude",
-        "公共领域"
-      ],
-      "导语": "从馆藏资料出发，认识《馆藏作品》及其创作背景",
-      "要点": [
-        "Jean Honoré Fragonard",
-        "early 1770s",
-        "Oil on canvas"
-      ],
-      "正文": "《馆藏作品》现由The Metropolitan Museum of Art收录。作者：Jean Honoré Fragonard；年代：early 1770s；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.metmuseum.org/art/collection/search/436322",
-      "出处说明": "根据The Metropolitan Museum of Art公开元数据/摘要整理，非原文转载。",
-      "候选栏目": "人文艺术",
-      "栏目状态": "ok",
-      "编辑分": 79,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "公共领域馆藏，图像与出处完整",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
-    },
-    {
-      "id": 883825291,
-      "标题": "OpenAI首席执行官：今年不会上市 不能冒哪怕10%杀死所有人的风险",
-      "摘要": "OpenAI首席执行官Sam Altman在接受采访时表示，这家人工智能公司专注于解决围绕AI技术的安全担忧，今年不会上市。 Altman表示，今年进行首次公开募股“时机不合适”...",
-      "内容": "OpenAI首席执行官Sam Altman在接受采访时表示，这家人工智能公司专注于解决围绕AI技术的安全担忧，今年不会上市。 Altman表示，今年进行首次公开募股“时机不合适”...",
-      "来源": "新浪科技",
-      "分类": "行业动态",
-      "日期": "2026-09-13",
-      "热度": 66,
-      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirrpai0779205.shtml",
-      "标签": [
-        "OpenAI"
-      ],
-      "图片": {
-        "u": "http://n.sinaimg.cn/finance/c30320b4/20210712/wx_poster_finance1.png",
-        "w": 100,
-        "h": 100,
-        "t": ""
-      },
-      "候选栏目": "AI",
-      "编辑分": 76,
-      "评分分项": {
-        "可信度": 17,
-        "时效": 20,
-        "公共价值": 16,
-        "一手可追溯": 10,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 3,
-        "扣分": 0
-      },
-      "来源级别": "B",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
-    },
-    {
-      "id": 696872999,
-      "标题": "奥尔特曼排除OpenAI年内IPO，称AI安全工作尚未完成",
-      "摘要": "OpenAI首席执行官萨姆·奥特曼明确表示，公司不会在2026年启动首次公开募股。面对人工智能安全和对齐方面的工作，现阶段上市并不合适；OpenAI将在公司和外部环境准备充分后...",
-      "内容": "OpenAI首席执行官萨姆·奥特曼明确表示，公司不会在2026年启动首次公开募股。面对人工智能安全和对齐方面的工作，现阶段上市并不合适；OpenAI将在公司和外部环境准备充分后...",
-      "来源": "新浪科技",
-      "分类": "行业动态",
-      "日期": "2026-09-13",
-      "热度": 66,
-      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirskfx0414920.shtml",
-      "标签": [
-        "OpenAI"
-      ],
-      "图片": "https://n.sinaimg.cn/tech/transform/53/w550h303/20260913/e808-14ad3e3e30097c86c7e1c3a89294ef37.jpg",
-      "候选栏目": "AI",
-      "编辑分": 76,
-      "评分分项": {
-        "可信度": 17,
-        "时效": 20,
-        "公共价值": 16,
-        "一手可追溯": 10,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 3,
-        "扣分": 0
-      },
-      "来源级别": "B",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
-    },
-    {
-      "id": 503493723,
-      "标题": "自画像",
-      "原标题": "Self-Portrait",
-      "标题翻译方式": "保守规则/历史复用",
-      "摘要": "Walter Shirlaw (American, 1838–1909) · 1878 · Oil on canvas",
-      "来源": "Art Institute of Chicago",
-      "分类": "人文艺术",
-      "日期": "2026-09-13",
-      "链接": "https://www.artic.edu/artworks/11",
-      "图片": "assets/covers/humanities.svg",
-      "原始图片": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
-      "封面": "assets/covers/humanities.svg",
-      "版权": "CC0 / Public Domain",
-      "标签": [
-        "公共领域",
-        "芝加哥艺术博物馆"
-      ],
-      "导语": "从馆藏资料出发，认识《自画像》及其创作背景",
-      "要点": [
-        "Walter Shirlaw (American, 1838–1909)",
-        "1878",
-        "Oil on canvas"
-      ],
-      "正文": "《自画像》现由Art Institute of Chicago收录。作者：Walter Shirlaw (American, 1838–1909)；年代：1878；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.artic.edu/artworks/11",
-      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
-      "候选栏目": "人文艺术",
-      "栏目状态": "ok",
       "编辑分": 74,
       "评分分项": {
         "可信度": 25,
@@ -250,41 +167,29 @@
       },
       "来源级别": "A",
       "扣分项": [],
-      "入选理由": "公共领域馆藏，图像与出处完整",
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
+      "选入时间": "2026-09-14T00:53:43+08:00"
     },
     {
-      "id": 2481768970,
-      "标题": "人物肖像",
-      "原标题": "Portrait of an Artist",
-      "标题翻译方式": "保守规则/历史复用",
-      "摘要": "Follower of Frans Hals (Dutch, 1582–1666) · 1644 · Oil on canvas",
-      "来源": "Art Institute of Chicago",
-      "分类": "人文艺术",
-      "日期": "2026-09-13",
-      "链接": "https://www.artic.edu/artworks/862",
-      "图片": "assets/covers/humanities.svg",
-      "原始图片": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
-      "封面": "assets/covers/humanities.svg",
-      "版权": "CC0 / Public Domain",
+      "id": 2595532546,
+      "标题": "【原生·一手】用于组合和可解释认知推理的多阶段规则链框架",
+      "摘要": "arXiv:2609.10654v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply abstract rules from",
+      "内容": "arXiv:2609.10654v1 Announce Type: new Abstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply abstract rules from",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-09-12",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2609.10654",
       "标签": [
-        "公共领域",
-        "芝加哥艺术博物馆"
+        "原生资讯",
+        "arXiv AI"
       ],
-      "导语": "从馆藏资料出发，认识《人物肖像》及其创作背景",
-      "要点": [
-        "Follower of Frans Hals (Dutch, 1582–1666)",
-        "1644",
-        "Oil on canvas"
-      ],
-      "正文": "《人物肖像》现由Art Institute of Chicago收录。作者：Follower of Frans Hals (Dutch, 1582–1666)；年代：1644；材质：Oil on canvas。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.artic.edu/artworks/862",
-      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
-      "候选栏目": "人文艺术",
-      "栏目状态": "ok",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "原标题": "【原生·一手】A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
+      "中文提炼": "",
+      "候选栏目": "AI",
       "编辑分": 74,
       "评分分项": {
         "可信度": 25,
@@ -298,39 +203,39 @@
       },
       "来源级别": "A",
       "扣分项": [],
-      "入选理由": "公共领域馆藏，图像与出处完整",
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
+      "选入时间": "2026-09-14T00:53:43+08:00"
     },
     {
-      "id": 960759275,
-      "标题": "叙利亚：问责、包容和防止重演是过渡关键",
-      "摘要": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战",
+      "id": 4133463128,
+      "标题": "首支青年难民奥运代表队将参加2026年青奥会",
+      "摘要": "难民署周五发表声明，欢迎首支青年难民奥运代表队参加赛前集训，备战下个月在塞内加尔举行的2026年青年奥运会",
       "来源": "联合国新闻",
       "分类": "国际形势",
-      "日期": "2026-09-08",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142757",
+      "日期": "2026-09-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142777",
       "标签": [
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-960759275.webp",
-      "封面": "assets/media/un-960759275.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/25-07-2025-Sidnaya-Prison-Syria.JPG/image560x340cropped.jpg",
-      "导语": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战",
+      "图片": "assets/media/un-4133463128.webp",
+      "封面": "assets/media/un-4133463128.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/23-04-2026-UNFPA-Uganda-FGM-03.jpg/image560x340cropped.jpg",
+      "导语": "难民署周五发表声明，欢迎首支青年难民奥运代表队参加赛前集训，备战下个月在塞内加尔举行的2026年青年奥运会",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "叙利亚问题独立国际调查委员会周二表示，全面问责、包容以及防止暴力重演是叙利亚实现成功且可持续过渡的关键。委员会赞扬叙利亚政府及其人民取得的进展，同时指出，建立尊重人权的机构并处理过去暴行的遗留问题仍面临挑战。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "难民署周五发表声明，欢迎首支青年难民奥运代表队参加赛前集训，备战下个月在塞内加尔举行的2026年青年奥运会。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142757",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142777",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 73,
       "评分分项": {
         "可信度": 25,
@@ -347,7 +252,53 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
+      "选入时间": "2026-09-14T00:53:43+08:00"
+    },
+    {
+      "id": 3896420189,
+      "标题": "地球迎来有记录以来最热的8月",
+      "摘要": "根据欧盟“哥白尼”气候服务局、美国国家海洋和大气管理局以及美国国家航空航天局的月度报告，地球刚刚经历了有记录以来最热的8月。北半球经历了有史以来最热的夏季，而南半球则经历了接近纪录的高温冬季",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142775",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3896420189.webp",
+      "封面": "assets/media/un-3896420189.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/19-08-2026-Adobe-Stock-heatwave.jpg/image560x340cropped.jpg",
+      "导语": "根据欧盟“哥白尼”气候服务局、美国国家海洋和大气管理局以及美国国家航空航天局的月度报告，地球刚刚经历了有记录以来最热的8月。北半球经历了有史以来最热的夏季，而南半球则经历了接近纪录的高温冬季",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "根据欧盟“哥白尼”气候服务局、美国国家海洋和大气管理局以及美国国家航空航天局的月度报告，地球刚刚经历了有记录以来最热的8月。北半球经历了有史以来最热的夏季，而南半球则经历了接近纪录的高温冬季。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142775",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 73,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-14T00:53:43+08:00"
     },
     {
       "id": 3278245669,
@@ -395,24 +346,24 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-13T20:37:11+08:00"
+      "选入时间": "2026-09-14T00:53:43+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-09-13T20:37:11+08:00",
+    "as_of": "2026-09-14T00:53:43+08:00",
     "candidate_count": 604,
-    "rejected_count": 410,
+    "rejected_count": 412,
     "rejected": [
-      {
-        "id": 2427027153,
-        "reason": "invalid_or_future_date"
-      },
       {
         "id": 961786603,
         "reason": "off_topic"
       },
       {
         "id": 904912964,
+        "reason": "off_topic"
+      },
+      {
+        "id": 8713082,
         "reason": "off_topic"
       },
       {
@@ -446,6 +397,10 @@
       {
         "id": 4147235595,
         "reason": "off_topic"
+      },
+      {
+        "id": 4034567878,
+        "reason": "rumor_or_unverified"
       },
       {
         "id": 3943812888,
@@ -496,12 +451,28 @@
         "reason": "off_topic"
       },
       {
+        "id": 2899630547,
+        "reason": "off_topic"
+      },
+      {
         "id": 2746691464,
         "reason": "off_topic"
       },
       {
         "id": 2650299949,
         "reason": "off_topic"
+      },
+      {
+        "id": 2396174677,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2384281995,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2368776403,
+        "reason": "rumor_or_unverified"
       },
       {
         "id": 2266161144,
@@ -513,6 +484,10 @@
       },
       {
         "id": 2263871287,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2033714393,
         "reason": "off_topic"
       },
       {
@@ -533,6 +508,10 @@
       },
       {
         "id": 1565011380,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1563802400,
         "reason": "off_topic"
       },
       {
@@ -1012,6 +991,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 1656590693,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 1609350911,
         "reason": "off_topic"
       },
@@ -1028,12 +1012,22 @@
         "reason": "off_topic"
       },
       {
+        "id": 1360383668,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 1349604654,
         "reason": "off_topic"
       },
       {
         "id": 1313601455,
         "reason": "off_topic"
+      },
+      {
+        "id": 1296089746,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 1262569835,
@@ -1707,246 +1701,209 @@
         "reason": "off_topic"
       },
       {
-        "id": 2772196562,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2749747984,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2658765343,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2653592282,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2628197833,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2525381984,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2476011200,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2445116344,
-        "reason": "off_topic"
-      },
-      {
         "id": 929958324,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 252292579,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 771465557,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 3169841060,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 1356684721,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 1432056849,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 3595991939,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2086420042,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2920569075,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 3879724208,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2508610705,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 508336848,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 3097995130,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2138773213,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 1419980291,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 1296739184,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 4259094790,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 244434169,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 225956653,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3209206108,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 3294557067,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2440665575,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 188963724,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 3920265589,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 2192713120,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 1151839804,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 791842572,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3930071134,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3688132287,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 2488645258,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 3873452598,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3849232591,
+        "id": 252292579,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 771465557,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3169841060,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1356684721,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 1432056849,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3595991939,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2086420042,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2920569075,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3879724208,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2508610705,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 508336848,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3097995130,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2138773213,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 1419980291,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1296739184,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1071168103,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 4267419095,
+        "id": 244434169,
         "reason": "score_below_50",
-        "score": 31
+        "score": 32
       },
       {
-        "id": 390083150,
+        "id": 470140404,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 4259094790,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3888070228,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3209206108,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 3688132287,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 2440665575,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 827292605,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 209676554,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2124278001,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 2509410186,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 664274256,
         "reason": "score_below_50",
         "score": 26
+      },
+      {
+        "id": 3873452598,
+        "reason": "score_below_50",
+        "score": 27
+      },
+      {
+        "id": 3849232591,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 2633277805,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 1040714546,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 2125975496,
         "reason": "score_below_50",
-        "score": 26
+        "score": 20
       },
       {
-        "id": 3649953631,
+        "id": 390083150,
         "reason": "score_below_50",
-        "score": 26
+        "score": 20
       },
       {
         "id": 2736038908,
         "reason": "score_below_50",
-        "score": 31
+        "score": 25
+      },
+      {
+        "id": 3649953631,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 192508724,
         "reason": "score_below_50",
-        "score": 26
+        "score": 20
       },
       {
         "id": 3496211949,
         "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 4037214580,
-        "reason": "score_below_50",
-        "score": 22
+        "score": 20
       },
       {
         "id": 3586885415,
         "reason": "score_below_50",
-        "score": 22
-      },
-      {
-        "id": 1456570529,
-        "reason": "score_below_50",
-        "score": 30
+        "score": 16
       },
       {
         "id": 4134539266,
@@ -1954,9 +1911,9 @@
         "score": 30
       },
       {
-        "id": 1939264229,
+        "id": 2121752831,
         "reason": "score_below_50",
-        "score": 35
+        "score": 31
       },
       {
         "id": 2970742308,
@@ -1974,7 +1931,7 @@
         "score": 30
       },
       {
-        "id": 1904413987,
+        "id": 21484413,
         "reason": "score_below_50",
         "score": 26
       },
@@ -1989,7 +1946,7 @@
         "score": 24
       },
       {
-        "id": 4218871996,
+        "id": 499524943,
         "reason": "score_below_50",
         "score": 24
       },
@@ -2015,6 +1972,11 @@
       },
       {
         "id": 2717424115,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 2271116506,
         "reason": "score_below_50",
         "score": 20
       },
@@ -2059,43 +2021,43 @@
         "reason": "invalid_or_future_date"
       },
       {
-        "id": 2167167749,
+        "id": 4258118360,
         "reason": "near_duplicate"
       },
       {
-        "id": 2116465028,
+        "id": 3450478315,
         "reason": "near_duplicate"
       },
       {
-        "id": 479252638,
+        "id": 314571016,
         "reason": "near_duplicate"
       },
       {
-        "id": 4175508906,
+        "id": 1660652093,
         "reason": "near_duplicate"
       },
       {
-        "id": 230962810,
+        "id": 93040280,
         "reason": "near_duplicate"
       },
       {
-        "id": 82174419,
+        "id": 3869148996,
         "reason": "near_duplicate"
       },
       {
-        "id": 563655091,
+        "id": 336602722,
         "reason": "near_duplicate"
       },
       {
-        "id": 190450898,
+        "id": 2337125392,
         "reason": "near_duplicate"
       },
       {
-        "id": 1237916102,
+        "id": 1864487220,
         "reason": "near_duplicate"
       },
       {
-        "id": 1223936236,
+        "id": 1403610270,
         "reason": "near_duplicate"
       },
       {
