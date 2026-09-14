@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-13T13:11:09+08:00",
+  "updated": "2026-09-14T14:50:39+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "180.8k",
+      "星标": "180.9k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "146.2k",
+      "星标": "146.3k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,97 +63,97 @@
       "名称": "i-have-adhd",
       "repo": "ayghri/i-have-adhd",
       "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "星标": 43849,
-      "本周新增": 15924,
+      "星标": 45118,
+      "本周新增": 16740,
       "语言": "Python"
     },
     {
       "名称": "ECC",
       "repo": "affaan-m/ECC",
       "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 257440,
-      "本周新增": 8086,
+      "星标": 258149,
+      "本周新增": 7264,
       "语言": "JavaScript"
     },
     {
       "名称": "plugins",
       "repo": "openai/plugins",
       "说明": "OpenAI Plugins",
-      "星标": 6577,
-      "本周新增": 1120,
+      "星标": 6679,
+      "本周新增": 1181,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "ponytail",
+      "repo": "DietrichGebert/ponytail",
+      "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "星标": 138054,
+      "本周新增": 8444,
       "语言": "JavaScript"
     },
     {
       "名称": "context-mode",
       "repo": "mksglu/context-mode",
       "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 22516,
-      "本周新增": 1936,
+      "星标": 22787,
+      "本周新增": 2102,
       "语言": "TypeScript"
     },
     {
-      "名称": "ponytail",
-      "repo": "DietrichGebert/ponytail",
-      "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "星标": 136977,
-      "本周新增": 9272,
-      "语言": "JavaScript"
+      "名称": "hyperframes",
+      "repo": "heygen-com/hyperframes",
+      "说明": "Write HTML. Render video. Built for agents.",
+      "星标": 49897,
+      "本周新增": 5146,
+      "语言": "TypeScript"
     },
     {
       "名称": "archify",
       "repo": "tt-a1i/archify",
       "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 60227,
-      "本周新增": 10442,
+      "星标": 61798,
+      "本周新增": 10132,
       "语言": "JavaScript"
     },
     {
       "名称": "skills",
       "repo": "openai/skills",
       "说明": "Skills Catalog for Codex",
-      "星标": 27055,
-      "本周新增": 1579,
+      "星标": 27154,
+      "本周新增": 1622,
       "语言": "Python"
-    },
-    {
-      "名称": "hyperframes",
-      "repo": "heygen-com/hyperframes",
-      "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 49343,
-      "本周新增": 5124,
-      "语言": "TypeScript"
     },
     {
       "名称": "superpowers",
       "repo": "obra/superpowers",
       "说明": "An agentic skills framework & software development methodology that works.",
-      "星标": 286018,
-      "本周新增": 3938,
+      "星标": 286532,
+      "本周新增": 4068,
       "语言": "Shell"
     },
     {
-      "名称": "marketingskills",
-      "repo": "coreyhaines31/marketingskills",
-      "说明": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "星标": 49898,
-      "本周新增": 2822,
-      "语言": "JavaScript"
+      "名称": "humanizer",
+      "repo": "blader/humanizer",
+      "说明": "Agent skill that removes signs of AI-generated writing from text",
+      "星标": 47989,
+      "本周新增": 3673,
+      "语言": "Python"
     },
     {
-      "名称": "chrome-devtools-mcp",
-      "repo": "ChromeDevTools/chrome-devtools-mcp",
-      "说明": "Chrome DevTools for coding agents",
-      "星标": 51798,
-      "本周新增": 783,
+      "名称": "worktrunk",
+      "repo": "max-sixty/worktrunk",
+      "说明": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "星标": 7621,
+      "本周新增": 588,
+      "语言": "Rust"
+    },
+    {
+      "名称": "OpenMAIC",
+      "repo": "THU-MAIC/OpenMAIC",
+      "说明": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "星标": 36728,
+      "本周新增": 4202,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "diagram-design",
-      "repo": "cathrynlavery/diagram-design",
-      "说明": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "星标": 39044,
-      "本周新增": 7409,
-      "语言": "HTML"
     }
   ]
 }
