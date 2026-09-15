@@ -1,158 +1,509 @@
 {
-  "updated": "2026-09-15T00:50:43+08:00",
+  "updated": "2026-09-15T05:36:12+08:00",
   "source": "极光引擎 · 平台热点聚合",
   "description": "各平台实时热点榜单聚合（仅公开标题+链接，不缓存全文）",
-  "count": 20,
+  "count": 70,
   "platforms": {
     "微博热搜": [],
     "知乎热榜": [],
     "B站热门": [
       {
         "rank": 1,
-        "title": "985本硕毕业后，30岁小伙重读本科，成功入住宿舍，跟大家介绍我的新家",
-        "heat": "58.4万",
-        "raw_heat": 584180,
-        "link": "https://www.bilibili.com/video/BV1dTYC6AEYQ"
-      },
-      {
-        "rank": 2,
-        "title": "亲证",
-        "heat": "66.3万",
-        "raw_heat": 663397,
-        "link": "https://www.bilibili.com/video/BV1zoY66wE6J"
-      },
-      {
-        "rank": 3,
-        "title": "全网首发！二周年彩蛋解密完成！每个鸟窝都是入口！难度大大降低！这些东西速买！要爆！",
-        "heat": "49.5万",
-        "raw_heat": 494651,
-        "link": "https://www.bilibili.com/video/BV1wge56aEhC"
-      },
-      {
-        "rank": 4,
-        "title": "全网首发！感谢大家参与！二周年彩蛋我们解出来啦！大战场篇完事！三角洲真的太阴了！",
-        "heat": "48.8万",
-        "raw_heat": 487969,
-        "link": "https://www.bilibili.com/video/BV1NuYy6DEtZ"
-      },
-      {
-        "rank": 5,
-        "title": "你说你要一锅端？",
-        "heat": "81.6万",
-        "raw_heat": 815566,
-        "link": "https://www.bilibili.com/video/BV1F9Y66NEVP"
-      },
-      {
-        "rank": 6,
-        "title": "重返渴望现场｜百事可乐音乐盛典完整回放正式上线！",
-        "heat": "297.8万",
-        "raw_heat": 2978061,
-        "link": "https://www.bilibili.com/video/BV1uKY26hETJ"
-      },
-      {
-        "rank": 7,
-        "title": "最成功的“魔改”，恰恰背叛了原著？160年了，爱丽丝为什么总在被改写？【万字拉片】《爱丽丝梦游仙境》P1",
-        "heat": "40.7万",
-        "raw_heat": 406944,
-        "link": "https://www.bilibili.com/video/BV1zmYi6QEZQ"
-      },
-      {
-        "rank": 8,
-        "title": "锵锵锵",
-        "heat": "69.7万",
-        "raw_heat": 697284,
-        "link": "https://www.bilibili.com/video/BV1tsY16bEwp"
-      },
-      {
-        "rank": 9,
-        "title": "自民党琉球狂胜 民众对日美的反抗要落幕了吗？",
-        "heat": "33.0万",
-        "raw_heat": 329866,
-        "link": "https://www.bilibili.com/video/BV11mYy69Erq"
-      },
-      {
-        "rank": 10,
-        "title": "花了 4.61 亿 token，我把整个 N 网汉化了",
-        "heat": "21.3万",
-        "raw_heat": 212948,
-        "link": "https://www.bilibili.com/video/BV1LcYr68EpR"
-      },
-      {
-        "rank": 11,
-        "title": "《地狱之家》改编自粉丝真实经历",
-        "heat": "112.4万",
-        "raw_heat": 1124468,
-        "link": "https://www.bilibili.com/video/BV1MUYv6AEJS"
-      },
-      {
-        "rank": 12,
-        "title": "《你以为的支教只教课时，但实际上...》",
-        "heat": "95.2万",
-        "raw_heat": 952486,
-        "link": "https://www.bilibili.com/video/BV1z7Y96KEU4"
-      },
-      {
-        "rank": 13,
-        "title": "女子散步时被蝙蝠撞到脸，连夜打狂犬病疫苗，医生：直接接触蝙蝠 无论有无伤口，即判定为狂犬病III级暴露，一旦发病死亡率是100%",
-        "heat": "176.1万",
-        "raw_heat": 1761087,
-        "link": "https://www.bilibili.com/video/BV1EuYi6UEH4"
-      },
-      {
-        "rank": 14,
-        "title": "驯化西瓜：一颗苦涩有毒的野瓜，如何成为世界顶流",
-        "heat": "59.8万",
-        "raw_heat": 597915,
-        "link": "https://www.bilibili.com/video/BV11CYk6UEB4"
-      },
-      {
-        "rank": 15,
-        "title": "猫师傅进城第一天，没钱住店却遇见了一群好人",
-        "heat": "56.7万",
-        "raw_heat": 566987,
-        "link": "https://www.bilibili.com/video/BV1rPYS6bEhY"
-      },
-      {
-        "rank": 16,
-        "title": "《魔兽争霸3》，听说魔兽出了新英雄，来检测一下它的实力如何",
-        "heat": "31.2万",
-        "raw_heat": 312190,
-        "link": "https://www.bilibili.com/video/BV1qNY16GETE"
-      },
-      {
-        "rank": 17,
         "title": "和五月天阿信见了他",
-        "heat": "66.4万",
-        "raw_heat": 664307,
+        "heat": "97.0万",
+        "raw_heat": 969766,
         "link": "https://www.bilibili.com/video/BV17PYC6KEXu"
       },
       {
-        "rank": 18,
+        "rank": 2,
+        "title": "驯化西瓜：一颗苦涩有毒的野瓜，如何成为世界顶流",
+        "heat": "90.3万",
+        "raw_heat": 902898,
+        "link": "https://www.bilibili.com/video/BV11CYk6UEB4"
+      },
+      {
+        "rank": 3,
+        "title": "985本硕毕业后，30岁小伙重读本科，成功入住宿舍，跟大家介绍我的新家",
+        "heat": "104.0万",
+        "raw_heat": 1040251,
+        "link": "https://www.bilibili.com/video/BV1dTYC6AEYQ"
+      },
+      {
+        "rank": 4,
         "title": "我来接受中国朋友们的挑战啦！",
-        "heat": "40.9万",
-        "raw_heat": 408552,
+        "heat": "62.0万",
+        "raw_heat": 619539,
         "link": "https://www.bilibili.com/video/BV1qdY76eE46"
       },
       {
+        "rank": 5,
+        "title": "《你以为的支教只教课时，但实际上...》",
+        "heat": "115.3万",
+        "raw_heat": 1153211,
+        "link": "https://www.bilibili.com/video/BV1z7Y96KEU4"
+      },
+      {
+        "rank": 6,
+        "title": "锵锵锵",
+        "heat": "91.5万",
+        "raw_heat": 914869,
+        "link": "https://www.bilibili.com/video/BV1tsY16bEwp"
+      },
+      {
+        "rank": 7,
+        "title": "全网首发！感谢大家参与！二周年彩蛋我们解出来啦！大战场篇完事！三角洲真的太阴了！",
+        "heat": "65.6万",
+        "raw_heat": 656436,
+        "link": "https://www.bilibili.com/video/BV1NuYy6DEtZ"
+      },
+      {
+        "rank": 8,
+        "title": "全网首发！二周年彩蛋解密完成！每个鸟窝都是入口！难度大大降低！这些东西速买！要爆！",
+        "heat": "73.4万",
+        "raw_heat": 733958,
+        "link": "https://www.bilibili.com/video/BV1wge56aEhC"
+      },
+      {
+        "rank": 9,
+        "title": "超爽新模式 | 『异变轮战』即将全球上线！",
+        "heat": "91.0万",
+        "raw_heat": 909981,
+        "link": "https://www.bilibili.com/video/BV14tY164ENu"
+      },
+      {
+        "rank": 10,
+        "title": "峰哥亡命越南，河内一天逛吃vlog",
+        "heat": "72.1万",
+        "raw_heat": 720785,
+        "link": "https://www.bilibili.com/video/BV1h3Yr6QEoY"
+      },
+      {
+        "rank": 11,
+        "title": "自主品牌集体造“9系”，国产旗舰到底在卷什么？【阿Test正经比比】",
+        "heat": "58.8万",
+        "raw_heat": 588269,
+        "link": "https://www.bilibili.com/video/BV1inYQ6xEzD"
+      },
+      {
+        "rank": 12,
+        "title": "什么是洲同学？洲同学就是洲同学！",
+        "heat": "174.5万",
+        "raw_heat": 1744933,
+        "link": "https://www.bilibili.com/video/BV1EWYY6rEEZ"
+      },
+      {
+        "rank": 13,
+        "title": "青钢影绝活哥复盘BLG第四局：最窒息的一集 感觉bin哥已经无欲无求了",
+        "heat": "47.1万",
+        "raw_heat": 470912,
+        "link": "https://www.bilibili.com/video/BV14sY16bEyA"
+      },
+      {
+        "rank": 14,
+        "title": "重返渴望现场｜百事可乐音乐盛典完整回放正式上线！",
+        "heat": "329.4万",
+        "raw_heat": 3294224,
+        "link": "https://www.bilibili.com/video/BV1uKY26hETJ"
+      },
+      {
+        "rank": 15,
+        "title": "新三国up锐评楚汉传奇18：我真是枉为我项梁啊！",
+        "heat": "13.2万",
+        "raw_heat": 131708,
+        "link": "https://www.bilibili.com/video/BV1V1eV6UEMR"
+      },
+      {
+        "rank": 16,
+        "title": "自民党琉球狂胜 民众对日美的反抗要落幕了吗？",
+        "heat": "47.0万",
+        "raw_heat": 469521,
+        "link": "https://www.bilibili.com/video/BV11mYy69Erq"
+      },
+      {
+        "rank": 17,
+        "title": "最成功的“魔改”，恰恰背叛了原著？160年了，爱丽丝为什么总在被改写？【万字拉片】《爱丽丝梦游仙境》P1",
+        "heat": "57.2万",
+        "raw_heat": 571732,
+        "link": "https://www.bilibili.com/video/BV1zmYi6QEZQ"
+      },
+      {
+        "rank": 18,
+        "title": "我终于当上真正的村庄村长了！【千年村庄】",
+        "heat": "19.3万",
+        "raw_heat": 192841,
+        "link": "https://www.bilibili.com/video/BV1naeV6tEht"
+      },
+      {
         "rank": 19,
-        "title": "【萌黄一槽】夺走你的心！角都[晓·北]全技能爆料",
-        "heat": "84.9万",
-        "raw_heat": 849044,
-        "link": "https://www.bilibili.com/video/BV1seY16pEh9"
+        "title": "亲证",
+        "heat": "90.5万",
+        "raw_heat": 905318,
+        "link": "https://www.bilibili.com/video/BV1zoY66wE6J"
       },
       {
         "rank": 20,
-        "title": "Re：从零开始的异世界学园生活·序",
-        "heat": "125.8万",
-        "raw_heat": 1258319,
-        "link": "https://www.bilibili.com/video/BV1PeYe69EWk"
+        "title": "挑战用24小时跑完世界最长地铁线",
+        "heat": "30.5万",
+        "raw_heat": 305023,
+        "link": "https://www.bilibili.com/video/BV15QYC6AEz9"
       }
     ],
     "百度热搜": [],
     "抖音热榜": [],
     "头条热榜": [],
     "小红书热榜": [],
-    "快手热榜": [],
+    "快手热榜": [
+      {
+        "rank": 1,
+        "title": "金砖国家勇做这4方面的先锋力量",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 2,
+        "title": "上5休1上5休3上3休7上3休1",
+        "heat": "1123.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 3,
+        "title": "女婴月子中心死亡家属发声",
+        "heat": "1122.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 4,
+        "title": "我国县域消费加速扩容提质",
+        "heat": "1122.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 5,
+        "title": "姆巴佩登贝莱闹翻",
+        "heat": "1122.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 6,
+        "title": "日本演员中村友理离世",
+        "heat": "1081万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 7,
+        "title": "一线城市房价涨了",
+        "heat": "1059.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 8,
+        "title": "许晴公开56岁体重",
+        "heat": "1024.5万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 9,
+        "title": "警察假扮成母女来酒店查案",
+        "heat": "1007.1万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 10,
+        "title": "心动9第七期就成了两对",
+        "heat": "998.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 11,
+        "title": "黄仁勋参加活动接到特朗普电话",
+        "heat": "989.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 12,
+        "title": "平谷区网络优秀作品展播",
+        "heat": "988.3万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 13,
+        "title": "网红暴躁的小张姥姥去世",
+        "heat": "987.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 14,
+        "title": "特朗普嘲黄仁勋不会开免提",
+        "heat": "987.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 15,
+        "title": "没有一个河北人能逃过捡栗子",
+        "heat": "986.8万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 16,
+        "title": "迁西板栗和青龙板栗到底哪个好",
+        "heat": "979万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 17,
+        "title": "父亲撞死人让儿子顶包全家掩真相",
+        "heat": "976.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 18,
+        "title": "这项超级工程藏着中国治水密码",
+        "heat": "974.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 19,
+        "title": "日本首相高市将改组内阁",
+        "heat": "972.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 20,
+        "title": "林依晨是预言家来的吧",
+        "heat": "970.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 21,
+        "title": "俄打击乌军前线无人机点",
+        "heat": "968.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 22,
+        "title": "白象方便面被曝吃出活虫",
+        "heat": "965.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 23,
+        "title": "网红恶搞杨坤被判赔31.5万",
+        "heat": "960.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 24,
+        "title": "重案六组石景山惨案太窒息",
+        "heat": "958.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 25,
+        "title": "我国人口达14.05亿",
+        "heat": "956.5万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 26,
+        "title": "延边公安打掉5个涉黑恶团伙",
+        "heat": "954万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 27,
+        "title": "哈萨克斯坦女警跳舞被开除",
+        "heat": "951.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 28,
+        "title": "9月上旬37种产品涨价",
+        "heat": "949.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 29,
+        "title": "著名针灸专家陈汉平逝世",
+        "heat": "946.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 30,
+        "title": "中秋国庆临近牛肉价格持续上涨",
+        "heat": "944.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 31,
+        "title": "俄乌同意互不攻击能源目标",
+        "heat": "942.1万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 32,
+        "title": "双胞胎冲浪致脊柱爆裂",
+        "heat": "939.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 33,
+        "title": "日潮牌联名辱华动漫致歉",
+        "heat": "937.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 34,
+        "title": "王一博新代言品牌方报警",
+        "heat": "934.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 35,
+        "title": "女子趁算命大爷睡着偷钱",
+        "heat": "931.8万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 36,
+        "title": "奥地利拒签伊朗核负责人",
+        "heat": "929.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 37,
+        "title": "胡塞武装拍摄政府军弃械",
+        "heat": "926.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 38,
+        "title": "赵雷6岁儿子现身演唱会",
+        "heat": "924.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 39,
+        "title": "AI生成微短剧纳入监管",
+        "heat": "921.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 40,
+        "title": "金龟子刘纯燕悼念敬一丹",
+        "heat": "919.8万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 41,
+        "title": "苹果iOS27正式版发布",
+        "heat": "917.3万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 42,
+        "title": "小伙熬夜打游戏致脑出血",
+        "heat": "914.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 43,
+        "title": "泽连斯基提议互不打击基建",
+        "heat": "912.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 44,
+        "title": "台风杜鹃要来了",
+        "heat": "909.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 45,
+        "title": "徐静已任上海市委组织部副部长",
+        "heat": "906.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 46,
+        "title": "“台独”政客窜访意大利被打脸",
+        "heat": "903.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 47,
+        "title": "日本亚运住宿被批史上最差",
+        "heat": "901.1万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 48,
+        "title": "海南万宁出现龙卷风",
+        "heat": "898.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 49,
+        "title": "沈家女人 宁为玉碎不为瓦全",
+        "heat": "896.5万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 50,
+        "title": "卫龙回应魔芋粉二氧化硫超标",
+        "heat": "895.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      }
+    ],
     "微信热点": []
   }
 }
