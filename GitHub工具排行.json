@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-15T13:17:32+08:00",
+  "updated": "2026-09-16T13:15:04+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "181.0k",
+      "星标": "181.1k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -63,97 +63,97 @@
       "名称": "i-have-adhd",
       "repo": "ayghri/i-have-adhd",
       "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "星标": 45932,
-      "本周新增": 17658,
+      "星标": 46659,
+      "本周新增": 17880,
       "语言": "Python"
     },
     {
-      "名称": "plugins",
-      "repo": "openai/plugins",
-      "说明": "OpenAI Plugins",
-      "星标": 6750,
-      "本周新增": 1233,
-      "语言": "JavaScript"
+      "名称": "open-code-review",
+      "repo": "alibaba/open-code-review",
+      "说明": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "星标": 30501,
+      "本周新增": 5169,
+      "语言": "Go"
     },
     {
       "名称": "ECC",
       "repo": "affaan-m/ECC",
       "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 258805,
-      "本周新增": 6085,
+      "星标": 259764,
+      "本周新增": 5398,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "plugins",
+      "repo": "openai/plugins",
+      "说明": "OpenAI Plugins",
+      "星标": 6824,
+      "本周新增": 1206,
       "语言": "JavaScript"
     },
     {
       "名称": "context-mode",
       "repo": "mksglu/context-mode",
       "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 22995,
-      "本周新增": 2241,
+      "星标": 23181,
+      "本周新增": 1832,
       "语言": "TypeScript"
     },
     {
-      "名称": "open-code-review",
-      "repo": "alibaba/open-code-review",
-      "说明": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 27323,
-      "本周新增": 2709,
+      "名称": "WeKnora",
+      "repo": "Tencent/WeKnora",
+      "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "星标": 24892,
+      "本周新增": 1892,
       "语言": "Go"
-    },
-    {
-      "名称": "ponytail",
-      "repo": "DietrichGebert/ponytail",
-      "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "星标": 139029,
-      "本周新增": 7722,
-      "语言": "JavaScript"
     },
     {
       "名称": "superpowers",
       "repo": "obra/superpowers",
       "说明": "An agentic skills framework & software development methodology that works.",
-      "星标": 286966,
-      "本周新增": 4124,
+      "星标": 287460,
+      "本周新增": 4170,
       "语言": "Shell"
+    },
+    {
+      "名称": "ponytail",
+      "repo": "DietrichGebert/ponytail",
+      "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "星标": 139964,
+      "本周新增": 7499,
+      "语言": "JavaScript"
     },
     {
       "名称": "worktrunk",
       "repo": "max-sixty/worktrunk",
       "说明": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "星标": 7738,
-      "本周新增": 761,
+      "星标": 7888,
+      "本周新增": 871,
       "语言": "Rust"
-    },
-    {
-      "名称": "hyperframes",
-      "repo": "heygen-com/hyperframes",
-      "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 50272,
-      "本周新增": 5052,
-      "语言": "TypeScript"
     },
     {
       "名称": "humanizer",
       "repo": "blader/humanizer",
       "说明": "Agent skill that removes signs of AI-generated writing from text",
-      "星标": 48380,
-      "本周新增": 3201,
+      "星标": 48974,
+      "本周新增": 3248,
       "语言": "Python"
     },
     {
-      "名称": "skills",
-      "repo": "openai/skills",
-      "说明": "Skills Catalog for Codex",
-      "星标": 27247,
-      "本周新增": 1350,
-      "语言": "Python"
+      "名称": "firstmate",
+      "repo": "kunchenguid/firstmate",
+      "说明": "Talk to one agent. Ship with a crew.",
+      "星标": 6124,
+      "本周新增": 1056,
+      "语言": "Shell"
     },
     {
-      "名称": "archify",
-      "repo": "tt-a1i/archify",
-      "说明": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "星标": 63063,
-      "本周新增": 9868,
-      "语言": "JavaScript"
+      "名称": "no-ai-slop",
+      "repo": "petergyang/no-ai-slop",
+      "说明": "Removes 20+ patterns of AI slop from any piece of writing.",
+      "星标": 10025,
+      "本周新增": 2160,
+      "语言": "Python"
     }
   ]
 }
