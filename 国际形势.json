@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-17T17:18:17+08:00",
-  "as_of": "2026-09-17T17:18:17+08:00",
+  "updated": "2026-09-17T22:26:16+08:00",
+  "as_of": "2026-09-17T22:26:16+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
@@ -8,6 +8,33 @@
   "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 1824208048,
+      "标题": "【专题报道】重建信任：孟加拉国前外长拉赫曼“执掌”新一届联大",
+      "摘要": "纽约当地时间9月8日上午，联合国总部联大会堂响起新一届联大开幕的敲槌声。孟加拉国前外长哈利鲁尔·拉赫曼正式接任联合国大会第81届会议主席，开始为期一年的任期",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-16",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142773",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1824208048.webp",
+      "封面": "assets/media/un-1824208048.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/02-06-2026-UN-Photo-Khalilur-Rahman.jpg/image560x340cropped.jpg",
+      "导语": "纽约当地时间9月8日上午，联合国总部联大会堂响起新一届联大开幕的敲槌声。孟加拉国前外长哈利鲁尔·拉赫曼正式接任联合国大会第81届会议主席，开始为期一年的任期",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "纽约当地时间9月8日上午，联合国总部联大会堂响起新一届联大开幕的敲槌声。孟加拉国前外长哈利鲁尔·拉赫曼正式接任联合国大会第81届会议主席，开始为期一年的任期。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142773",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 306320864,
       "标题": "【专题报道 | 前方视野】曼德海峡局势升级：也门冲突外溢风险对全球航运构成挑战",
@@ -1059,36 +1086,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142760",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 929958324,
-      "标题": "金砖国家将共同愿景转化为双赢合作：莫迪总理",
-      "原标题": "BRICS Turns Shared Vision Into Win - Win Collaboration : PM Modi",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 thenorthlines.com 最新报道，点击阅读原文。",
-      "来源": "thenorthlines.com",
-      "分类": "国际形势",
-      "日期": "2026-09-13",
-      "链接": "https://thenorthlines.com/brics-turns-shared-vision-into-win-win-collaboration-pm-modi/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://thenorthlines.com/wp-content/uploads/2026/09/Modi-2.png",
-      "数据截至": "2026-09-15T07:20:12+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 thenorthlines.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 thenorthlines.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://thenorthlines.com/brics-turns-shared-vision-into-win-win-collaboration-pm-modi/",
-      "出处说明": "根据thenorthlines.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
