@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T13:11:18+08:00",
+  "updated": "2026-09-18T12:48:09+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "146.5k",
+      "星标": "146.6k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "26.9k",
+      "星标": "26.8k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -62,49 +62,57 @@
     {
       "名称": "open-code-review",
       "repo": "alibaba/open-code-review",
-      "说明": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 33712,
-      "本周新增": 8594,
+      "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "星标": 36182,
+      "本周新增": 11489,
       "语言": "Go"
     },
     {
       "名称": "i-have-adhd",
       "repo": "ayghri/i-have-adhd",
       "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "星标": 47237,
-      "本周新增": 13737,
+      "星标": 47793,
+      "本周新增": 10800,
       "语言": "Python"
     },
     {
       "名称": "ECC",
       "repo": "affaan-m/ECC",
       "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 260873,
-      "本周新增": 5292,
+      "星标": 261578,
+      "本周新增": 5607,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "context-mode",
-      "repo": "mksglu/context-mode",
-      "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 23331,
-      "本周新增": 1612,
-      "语言": "TypeScript"
     },
     {
       "名称": "WeKnora",
       "repo": "Tencent/WeKnora",
       "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "星标": 25996,
-      "本周新增": 3034,
+      "星标": 26785,
+      "本周新增": 3982,
       "语言": "Go"
     },
     {
-      "名称": "plugins",
-      "repo": "openai/plugins",
-      "说明": "OpenAI Plugins",
-      "星标": 6890,
-      "本周新增": 771,
+      "名称": "claude-code",
+      "repo": "anthropics/claude-code",
+      "说明": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "星标": 146076,
+      "本周新增": 1294,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "context-mode",
+      "repo": "mksglu/context-mode",
+      "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "星标": 23471,
+      "本周新增": 1482,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "agent-skills",
+      "repo": "addyosmani/agent-skills",
+      "说明": "Production-grade engineering skills for AI coding agents.",
+      "星标": 96161,
+      "本周新增": 2560,
       "语言": "JavaScript"
     },
     {
@@ -112,48 +120,40 @@
       "repo": "max-sixty/worktrunk",
       "说明": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "星标": 7976,
-      "本周新增": 998,
+      "本周新增": 1060,
       "语言": "Rust"
-    },
-    {
-      "名称": "agent-skills",
-      "repo": "addyosmani/agent-skills",
-      "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 95829,
-      "本周新增": 2119,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "claude-code",
-      "repo": "anthropics/claude-code",
-      "说明": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "星标": 145786,
-      "本周新增": 938,
-      "语言": "TypeScript"
     },
     {
       "名称": "knowledge-work-plugins",
       "repo": "anthropics/knowledge-work-plugins",
       "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "星标": 24438,
-      "本周新增": 274,
+      "星标": 24717,
+      "本周新增": 488,
       "语言": "Python"
     },
     {
-      "名称": "superpowers",
-      "repo": "obra/superpowers",
-      "说明": "An agentic skills framework & software development methodology that works.",
-      "星标": 287917,
-      "本周新增": 4023,
-      "语言": "Shell"
+      "名称": "plugins",
+      "repo": "openai/plugins",
+      "说明": "OpenAI Plugins",
+      "星标": 6948,
+      "本周新增": 564,
+      "语言": "JavaScript"
     },
     {
       "名称": "humanizer",
       "repo": "blader/humanizer",
       "说明": "Agent skill that removes signs of AI-generated writing from text",
-      "星标": 49428,
-      "本周新增": 3266,
+      "星标": 49794,
+      "本周新增": 3235,
       "语言": "Python"
+    },
+    {
+      "名称": "firstmate",
+      "repo": "kunchenguid/firstmate",
+      "说明": "Talk to one agent. Ship with a crew.",
+      "星标": 6470,
+      "本周新增": 890,
+      "语言": "Shell"
     }
   ]
 }
