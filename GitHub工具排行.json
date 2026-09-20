@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T12:21:16+08:00",
+  "updated": "2026-09-20T12:56:27+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "26.8k",
+      "星标": "26.9k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -63,81 +63,97 @@
       "名称": "open-code-review",
       "repo": "alibaba/open-code-review",
       "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 37184,
-      "本周新增": 14144,
+      "星标": 38138,
+      "本周新增": 15028,
       "语言": "Go"
     },
     {
       "名称": "claude-code",
       "repo": "anthropics/claude-code",
       "说明": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "星标": 146525,
-      "本周新增": 1620,
+      "星标": 146916,
+      "本周新增": 1999,
       "语言": "TypeScript"
     },
     {
       "名称": "ECC",
       "repo": "affaan-m/ECC",
       "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 262518,
-      "本周新增": 5877,
+      "星标": 263290,
+      "本周新增": 6265,
       "语言": "JavaScript"
     },
     {
       "名称": "WeKnora",
       "repo": "Tencent/WeKnora",
       "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "星标": 27220,
-      "本周新增": 4703,
+      "星标": 27830,
+      "本周新增": 4867,
       "语言": "Go"
     },
     {
       "名称": "agent-skills",
       "repo": "addyosmani/agent-skills",
       "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 96683,
-      "本周新增": 3051,
+      "星标": 97416,
+      "本周新增": 3445,
       "语言": "JavaScript"
     },
     {
       "名称": "knowledge-work-plugins",
       "repo": "anthropics/knowledge-work-plugins",
       "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "星标": 24984,
-      "本周新增": 776,
-      "语言": "Python"
-    },
-    {
-      "名称": "i-have-adhd",
-      "repo": "ayghri/i-have-adhd",
-      "说明": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "星标": 48418,
-      "本周新增": 7869,
+      "星标": 25246,
+      "本周新增": 1034,
       "语言": "Python"
     },
     {
       "名称": "context-mode",
       "repo": "mksglu/context-mode",
       "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 23605,
-      "本周新增": 1398,
+      "星标": 23741,
+      "本周新增": 1359,
       "语言": "TypeScript"
     },
     {
       "名称": "worktrunk",
       "repo": "max-sixty/worktrunk",
       "说明": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "星标": 8070,
-      "本周新增": 1104,
+      "星标": 8158,
+      "本周新增": 1141,
       "语言": "Rust"
     },
     {
       "名称": "humanizer",
       "repo": "blader/humanizer",
       "说明": "Agent skill that removes signs of AI-generated writing from text",
-      "星标": 50087,
-      "本周新增": 3118,
+      "星标": 50476,
+      "本周新增": 3024,
       "语言": "Python"
+    },
+    {
+      "名称": "orca",
+      "repo": "stablyai/orca",
+      "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "星标": 73178,
+      "本周新增": 5404,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "Agent-Reach",
+      "repo": "Panniantong/Agent-Reach",
+      "说明": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "星标": 83678,
+      "本周新增": 3914,
+      "语言": "Python"
+    },
+    {
+      "名称": "hyperframes",
+      "repo": "heygen-com/hyperframes",
+      "说明": "Write HTML. Render video. Built for agents.",
+      "星标": 51815,
+      "本周新增": 2498,
+      "语言": "TypeScript"
     }
   ]
 }
