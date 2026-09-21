@@ -1,13 +1,94 @@
 {
-  "updated": "2026-09-22T02:32:25+08:00",
-  "as_of": "2026-09-22T02:32:25+08:00",
+  "updated": "2026-09-22T06:30:37+08:00",
+  "as_of": "2026-09-22T06:30:37+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 128190063,
+      "标题": "我们并非无能为力：联合国秘书长敦促世界各国领导人为和平投入更多资源",
+      "摘要": "在这个冲突、暴力和分裂日益加剧、给数百万民众带来巨大苦难的世界中，联合国秘书长周一呼吁世界各国领导人和公民为和平投入更多资源",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142832",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-128190063.webp",
+      "封面": "assets/media/un-128190063.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/09-PeaceBell-SG-3.jpg/image560x340cropped.jpg",
+      "导语": "在这个冲突、暴力和分裂日益加剧、给数百万民众带来巨大苦难的世界中，联合国秘书长周一呼吁世界各国领导人和公民为和平投入更多资源",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "在这个冲突、暴力和分裂日益加剧、给数百万民众带来巨大苦难的世界中，联合国秘书长周一呼吁世界各国领导人和公民为和平投入更多资源。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142832",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1653236695,
+      "标题": "刚果（金）启动埃博拉疫苗试验",
+      "摘要": "刚果民主共和国（刚果（金））正在开展一项埃博拉疫苗试验，参与者包括一线医护人员及其他参与疫情应对的工作人员",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142831",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1653236695.webp",
+      "封面": "assets/media/un-1653236695.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/03-06-2026-WFP-DR-Congo-ebola-01.jpg/image560x340cropped.jpg",
+      "导语": "刚果民主共和国（刚果（金））正在开展一项埃博拉疫苗试验，参与者包括一线医护人员及其他参与疫情应对的工作人员",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "刚果民主共和国（刚果（金））正在开展一项埃博拉疫苗试验，参与者包括一线医护人员及其他参与疫情应对的工作人员。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142831",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3572766734,
+      "标题": "建设一个更具大流行病防范和应对能力的世界",
+      "摘要": "在新冠疫情夺走数百万人的生命、重创医疗体系、打乱人们的生活并使全球经济几乎陷入停滞六年后，世界仍在努力探索如何更好地为下一次大流行做好准备",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142830",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3572766734.webp",
+      "封面": "assets/media/un-3572766734.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/UNHCR/Embargoed%202/09-03-2022_UNICEF_India-3.jpg/image560x340cropped.jpg",
+      "导语": "在新冠疫情夺走数百万人的生命、重创医疗体系、打乱人们的生活并使全球经济几乎陷入停滞六年后，世界仍在努力探索如何更好地为下一次大流行做好准备",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "在新冠疫情夺走数百万人的生命、重创医疗体系、打乱人们的生活并使全球经济几乎陷入停滞六年后，世界仍在努力探索如何更好地为下一次大流行做好准备。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142830",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 1984538495,
       "标题": "联合国独立科学小组：AI失控风险加剧",
@@ -1044,96 +1125,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://lenta.ru/news/2026/09/21/gensek-oon-pozhalovalsya-na-bolshuyu-problemu-v-sovete-bezopasnosti/",
       "出处说明": "根据lenta.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2206095066,
-      "标题": "外文资讯",
-      "原标题": "Hakan Fidandan ABDye : İsrail üzerinde nüfuzunu daha fazla kullanmalı",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 internethaber.com 最新报道，点击阅读原文。",
-      "来源": "internethaber.com",
-      "分类": "国际形势",
-      "日期": "2026-09-21",
-      "链接": "https://www.internethaber.com/hakan-fidandan-abdye-israil-uzerinde-nufuzunu-daha-fazla-kullanmali-2460447h.htm",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://img.internethaber.com/rcman/Cw1280h720q95gc/storage/files/images/2026/09/21/hakan-fidan-dak9_cover.jpg",
-      "数据截至": "2026-09-21T18:32:16+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 internethaber.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 internethaber.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.internethaber.com/hakan-fidandan-abdye-israil-uzerinde-nufuzunu-daha-fazla-kullanmali-2460447h.htm",
-      "出处说明": "根据internethaber.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1068835034,
-      "标题": "外文资讯",
-      "原标题": "Raad van State kraakt hogere boetes kabinet",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 dagelijksestandaard.nl 最新报道，点击阅读原文。",
-      "来源": "dagelijksestandaard.nl",
-      "分类": "国际形势",
-      "日期": "2026-09-21",
-      "链接": "https://www.dagelijksestandaard.nl/politiek/raad-van-state-kraakt-hogere-verkeersboetes-kabinet-automobilist-melkkoe?comment=1036942",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://r.testifier.nl/Acbs8526SDKI/resizing_type:fill/width:1200/height:630/plain/https%3A%2F%2Fs3-newsifier.ams3.digitaloceanspaces.com%2Fstaging.dailystandard.nl%2Fimages%2F2026-09%2Fshutterstock-2846906239-2-6ab12a64a3ec7.jpg",
-      "数据截至": "2026-09-21T18:32:16+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 dagelijksestandaard.nl 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 dagelijksestandaard.nl 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.dagelijksestandaard.nl/politiek/raad-van-state-kraakt-hogere-verkeersboetes-kabinet-automobilist-melkkoe?comment=1036942",
-      "出处说明": "根据dagelijksestandaard.nl公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 105172416,
-      "标题": "外文资讯",
-      "原标题": "Russia 3 - year budget to prioritize defense , security : minister",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 bignewsnetwork.com 最新报道，点击阅读原文。",
-      "来源": "bignewsnetwork.com",
-      "分类": "国际形势",
-      "日期": "2026-09-21",
-      "链接": "http://www.bignewsnetwork.com/news/279321719/russia-3-year-budget-to-prioritize-defense-security-minister",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-09-21T18:32:16+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 bignewsnetwork.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 bignewsnetwork.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.bignewsnetwork.com/news/279321719/russia-3-year-budget-to-prioritize-defense-security-minister",
-      "出处说明": "根据bignewsnetwork.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
