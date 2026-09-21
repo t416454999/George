@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-21T08:55:03+08:00",
+  "generated": "2026-09-21T13:59:33+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 2466981647,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 8,
+  "count": 10,
   "articles": [
     {
       "id": 2466981647,
@@ -32,7 +32,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,7 +49,41 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-21T08:55:03+08:00"
+      "选入时间": "2026-09-21T13:59:33+08:00"
+    },
+    {
+      "id": 3828027069,
+      "标题": "【原生·模型】Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "摘要": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes",
+      "内容": "arXiv:2609.21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-09-21",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2609.21113",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 86,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-21T13:59:33+08:00"
     },
     {
       "id": 3593540435,
@@ -97,7 +131,134 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-21T08:55:03+08:00"
+      "选入时间": "2026-09-21T13:59:33+08:00"
+    },
+    {
+      "id": 794081095,
+      "标题": "百曜科技发起，《AI虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告》正式发布",
+      "摘要": "《AI 虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告——AI 时代生命科学的新型基础设施》正式发布。",
+      "内容": "《AI 虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告——AI 时代生命科学的新型基础设施》正式发布。",
+      "来源": "量子位",
+      "分类": "行业动态",
+      "日期": "2026-09-21",
+      "热度": 56,
+      "链接": "https://www.qbitai.com/2026/09/493114.html",
+      "标签": [],
+      "图片": "https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png",
+      "候选栏目": "AI",
+      "编辑分": 76,
+      "评分分项": {
+        "可信度": 17,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 10,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 3,
+        "扣分": 0
+      },
+      "来源级别": "B",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-21T13:59:33+08:00"
+    },
+    {
+      "id": 3441092754,
+      "标题": "诗歌",
+      "原标题": "Poetry",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Louis Félix de La Rue · 年代不详 · Etching",
+      "来源": "The Metropolitan Museum of Art",
+      "分类": "人文艺术",
+      "日期": "2026-09-21",
+      "链接": "https://www.metmuseum.org/art/collection/search/394742",
+      "图片": "assets/art/met-394742.webp",
+      "原始图片": "https://images.metmuseum.org/CRDImages/dp/web-large/DP826252.jpg",
+      "封面": "assets/art/met-394742.webp",
+      "版权": "Public Domain / Open Access",
+      "标签": [
+        "poetry",
+        "公共领域"
+      ],
+      "导语": "从馆藏资料出发，认识《诗歌》及其创作背景",
+      "要点": [
+        "Louis Félix de La Rue",
+        "年代不详",
+        "Etching"
+      ],
+      "正文": "《诗歌》现由The Metropolitan Museum of Art收录。作者：Louis Félix de La Rue；年代：年代不详；材质：Etching。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.metmuseum.org/art/collection/search/394742",
+      "出处说明": "根据The Metropolitan Museum of Art公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 75,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 6,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "公共领域馆藏，图像与出处完整",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-21T13:59:33+08:00"
+    },
+    {
+      "id": 4283726279,
+      "标题": "无题",
+      "原标题": "Untitled",
+      "标题翻译方式": "保守规则/历史复用",
+      "摘要": "Richard M. Loving American, born Austria 1924-2021 · 1959 · Enamel and copper on wood",
+      "来源": "Art Institute of Chicago",
+      "分类": "人文艺术",
+      "日期": "2026-09-21",
+      "链接": "https://www.artic.edu/artworks/117256",
+      "图片": "assets/covers/humanities.svg",
+      "原始图片": "https://www.artic.edu/iiif/2/a4db604f-3c38-e566-ecfe-1c894fc9e4b8/full/843,/0/default.jpg",
+      "封面": "assets/covers/humanities.svg",
+      "版权": "CC0 / Public Domain",
+      "标签": [
+        "公共领域",
+        "芝加哥艺术博物馆"
+      ],
+      "导语": "从馆藏资料出发，认识《无题》及其创作背景",
+      "要点": [
+        "Richard M. Loving American, born Austria 1924-2021",
+        "1959",
+        "Enamel and copper on wood"
+      ],
+      "正文": "《无题》现由Art Institute of Chicago收录。作者：Richard M. Loving American, born Austria 1924-2021；年代：1959；材质：Enamel and copper on wood。这里呈现的是基于开放馆藏元数据整理的中文导览，适合先看作品、再沿原出处继续探索",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.artic.edu/artworks/117256",
+      "出处说明": "根据Art Institute of Chicago公开元数据/摘要整理，非原文转载。",
+      "候选栏目": "人文艺术",
+      "栏目状态": "ok",
+      "编辑分": 74,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "公共领域馆藏，图像与出处完整",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-21T13:59:33+08:00"
     },
     {
       "id": 81272607,
@@ -133,44 +294,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-21T08:55:03+08:00"
-    },
-    {
-      "id": 2625889791,
-      "标题": "【原生·发布】澳大利亚青少年安全蓝图简介",
-      "摘要": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "内容": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-09-18",
-      "热度": 65,
-      "链接": "https://openai.com/index/australian-youth-safety-blueprint",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "OpenAI"
-      ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/11NZvnxIWqXyYxeVZn7RVi/75a29b61ef84d54e91c850bee1e5f444/introducing-the-australian-youth-safety-blueprint-seo.png?w=1600&amp;h=900&amp;fit=fill",
-      "原标题": "【原生·发布】Introducing the Australian Youth Safety Blueprint",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-21T08:55:03+08:00"
+      "选入时间": "2026-09-21T13:59:33+08:00"
     },
     {
       "id": 234943217,
@@ -199,7 +323,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 73,
       "评分分项": {
         "可信度": 25,
@@ -216,43 +340,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-21T08:55:03+08:00"
-    },
-    {
-      "id": 2294411573,
-      "标题": "【原生·安全】MAGS：多智能体自动形式化保证智能体输出的安全",
-      "摘要": "arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the",
-      "内容": "arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-09-18",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2609.19391",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "原标题": "【原生·安全】MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-09-21T08:55:03+08:00"
+      "选入时间": "2026-09-21T13:59:33+08:00"
     },
     {
       "id": 2267500088,
@@ -281,7 +369,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 73,
       "评分分项": {
         "可信度": 25,
@@ -298,7 +386,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-21T08:55:03+08:00"
+      "选入时间": "2026-09-21T13:59:33+08:00"
     },
     {
       "id": 3278245669,
@@ -346,13 +434,13 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-21T08:55:03+08:00"
+      "选入时间": "2026-09-21T13:59:33+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-09-21T08:55:03+08:00",
+    "as_of": "2026-09-21T13:59:33+08:00",
     "candidate_count": 604,
-    "rejected_count": 412,
+    "rejected_count": 410,
     "rejected": [
       {
         "id": 832496304,
@@ -367,7 +455,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 3628691403,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3485552490,
+        "reason": "off_topic"
+      },
+      {
         "id": 3415587098,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3191545650,
         "reason": "off_topic"
       },
       {
@@ -376,6 +476,14 @@
       },
       {
         "id": 3044781218,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3035693396,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3031272068,
         "reason": "off_topic"
       },
       {
@@ -395,6 +503,14 @@
         "reason": "off_topic"
       },
       {
+        "id": 2615613048,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2446707387,
+        "reason": "off_topic"
+      },
+      {
         "id": 2445217661,
         "reason": "off_topic"
       },
@@ -407,11 +523,47 @@
         "reason": "off_topic"
       },
       {
+        "id": 2071839949,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1844994142,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1819674229,
+        "reason": "off_topic"
+      },
+      {
+        "id": 177011843,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1731986487,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1701496618,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1666874900,
+        "reason": "off_topic"
+      },
+      {
         "id": 1565549414,
         "reason": "off_topic"
       },
       {
+        "id": 1526586082,
+        "reason": "off_topic"
+      },
+      {
         "id": 1469818029,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1343872145,
         "reason": "off_topic"
       },
       {
@@ -1647,166 +1799,92 @@
         "reason": "off_topic"
       },
       {
-        "id": 843542395,
-        "reason": "off_topic"
-      },
-      {
-        "id": 834449670,
-        "reason": "off_topic"
-      },
-      {
-        "id": 738011740,
-        "reason": "off_topic"
-      },
-      {
-        "id": 669454633,
-        "reason": "off_topic"
-      },
-      {
-        "id": 558352282,
-        "reason": "off_topic"
-      },
-      {
-        "id": 452050064,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4286169117,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4191428190,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4137050122,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3784860021,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3676448943,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3641110290,
+        "id": 3596824012,
         "reason": "score_below_50",
-        "score": 49
+        "score": 39
       },
       {
-        "id": 3613400432,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3534585004,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3512464824,
-        "reason": "off_topic"
-      },
-      {
-        "id": 351066855,
-        "reason": "unresolved_placeholder"
-      },
-      {
-        "id": 3464545897,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3452321837,
+        "id": 1058641328,
         "reason": "score_below_50",
-        "score": 49
+        "score": 39
       },
       {
-        "id": 1638834858,
+        "id": 4051139735,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1870354916,
+        "id": 333974007,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3602235335,
+        "id": 3755175355,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3199830541,
+        "id": 774866649,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 749421532,
+        "id": 4053990518,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 173833687,
+        "id": 3122903043,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2056620971,
+        "id": 3121145684,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2656812563,
+        "id": 1978834770,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2583073852,
+        "id": 3656300993,
         "reason": "score_below_50",
-        "score": 33
+        "score": 43
       },
       {
-        "id": 1713685165,
+        "id": 4203355508,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1906337237,
+        "id": 3008309324,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 4146328504,
+        "id": 1402399491,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 815759322,
+        "id": 242395936,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 863845370,
+        "id": 2611745072,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3059066455,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 2409624753,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 3575118808,
+        "id": 2543335985,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 762251818,
+        "id": 975122100,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1816,7 +1894,22 @@
         "score": 38
       },
       {
+        "id": 2082554729,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 4153943361,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 2525032755,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 762251818,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1826,27 +1919,17 @@
         "score": 38
       },
       {
+        "id": 1169446762,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1711551295,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 3575828651,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 283187859,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1099051011,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 599430109,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1353832307,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1856,17 +1939,7 @@
         "score": 34
       },
       {
-        "id": 96927782,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
         "id": 1279590954,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1745920920,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1892,6 +1965,11 @@
       },
       {
         "id": 3041462331,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 458867101,
         "reason": "score_below_50",
         "score": 20
       },
@@ -1926,14 +2004,24 @@
         "score": 16
       },
       {
-        "id": 2970742308,
+        "id": 2179893703,
         "reason": "score_below_50",
         "score": 30
       },
       {
-        "id": 4233306717,
+        "id": 2572655427,
         "reason": "score_below_50",
-        "score": 26
+        "score": 30
+      },
+      {
+        "id": 2427294995,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
+        "id": 159422819,
+        "reason": "score_below_50",
+        "score": 30
       },
       {
         "id": 2226194873,
@@ -1946,7 +2034,7 @@
         "score": 30
       },
       {
-        "id": 2833132584,
+        "id": 3892170956,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1956,7 +2044,7 @@
         "score": 30
       },
       {
-        "id": 2238908324,
+        "id": 1397076260,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1966,17 +2054,12 @@
         "score": 31
       },
       {
-        "id": 2381940723,
-        "reason": "score_below_50",
-        "score": 24
-      },
-      {
         "id": 2232509654,
         "reason": "score_below_50",
         "score": 20
       },
       {
-        "id": 4218871996,
+        "id": 499524943,
         "reason": "score_below_50",
         "score": 24
       },
@@ -1986,19 +2069,14 @@
         "score": 24
       },
       {
-        "id": 1508516597,
+        "id": 468590270,
         "reason": "score_below_50",
         "score": 24
       },
       {
-        "id": 1338069741,
+        "id": 3559625855,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 789709312,
-        "reason": "score_below_50",
-        "score": 24
       },
       {
         "id": 2684525644,
@@ -2061,6 +2139,10 @@
         "reason": "near_duplicate"
       },
       {
+        "id": 3885387891,
+        "reason": "near_duplicate"
+      },
+      {
         "id": 3286627140,
         "reason": "near_duplicate"
       },
@@ -2070,10 +2152,6 @@
       },
       {
         "id": 2617368420,
-        "reason": "near_duplicate"
-      },
-      {
-        "id": 2578401004,
         "reason": "near_duplicate"
       },
       {
