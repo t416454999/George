@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-21T14:56:33+08:00",
+  "updated": "2026-09-22T13:12:44+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "181.4k",
+      "星标": "181.5k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "146.8k",
+      "星标": "146.9k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,97 +63,97 @@
       "名称": "open-code-review",
       "repo": "alibaba/open-code-review",
       "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 38986,
-      "本周新增": 15504,
+      "星标": 39547,
+      "本周新增": 14499,
       "语言": "Go"
     },
     {
       "名称": "claude-code",
       "repo": "anthropics/claude-code",
       "说明": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "星标": 147417,
-      "本周新增": 2342,
+      "星标": 147583,
+      "本周新增": 2731,
       "语言": "TypeScript"
     },
     {
       "名称": "WeKnora",
       "repo": "Tencent/WeKnora",
       "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "星标": 28398,
-      "本周新增": 5242,
+      "星标": 28808,
+      "本周新增": 5455,
       "语言": "Go"
     },
     {
       "名称": "ECC",
       "repo": "affaan-m/ECC",
       "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 264438,
-      "本周新增": 6453,
+      "星标": 265076,
+      "本周新增": 6865,
       "语言": "JavaScript"
     },
     {
       "名称": "knowledge-work-plugins",
       "repo": "anthropics/knowledge-work-plugins",
       "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "星标": 25329,
-      "本周新增": 1298,
+      "星标": 25402,
+      "本周新增": 1350,
       "语言": "Python"
     },
     {
       "名称": "agent-skills",
       "repo": "addyosmani/agent-skills",
       "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 98022,
-      "本周新增": 3986,
+      "星标": 98325,
+      "本周新增": 4197,
       "语言": "JavaScript"
+    },
+    {
+      "名称": "Octop",
+      "repo": "TencentCloud/Octop",
+      "说明": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "星标": 4575,
+      "本周新增": 2177,
+      "语言": "Python"
+    },
+    {
+      "名称": "financial-services",
+      "repo": "anthropics/financial-services",
+      "说明": null,
+      "星标": 36082,
+      "本周新增": 889,
+      "语言": "Python"
     },
     {
       "名称": "orca",
       "repo": "stablyai/orca",
       "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "星标": 74376,
-      "本周新增": 5841,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "context-mode",
-      "repo": "mksglu/context-mode",
-      "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 23852,
-      "本周新增": 1242,
+      "星标": 75221,
+      "本周新增": 6125,
       "语言": "TypeScript"
     },
     {
       "名称": "LibreChat",
       "repo": "danny-avila/LibreChat",
       "说明": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-      "星标": 44550,
-      "本周新增": 1600,
+      "星标": 44623,
+      "本周新增": 1401,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "Agent-Reach",
-      "repo": "Panniantong/Agent-Reach",
-      "说明": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "星标": 84228,
-      "本周新增": 3690,
-      "语言": "Python"
-    },
-    {
-      "名称": "humanizer",
-      "repo": "blader/humanizer",
-      "说明": "Agent skill that removes signs of AI-generated writing from text",
-      "星标": 50941,
-      "本周新增": 3045,
-      "语言": "Python"
     },
     {
       "名称": "cline",
       "repo": "cline/cline",
       "说明": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-      "星标": 68942,
-      "本周新增": 1167,
+      "星标": 69037,
+      "本周新增": 1204,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "linkedin-skills",
+      "repo": "sergebulaev/linkedin-skills",
+      "说明": "Claude skills for LinkedIn. 11 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft comments that get noticed, analyze your feed, and build a publishing cadence, all from your terminal. Content engineering by Creative Content Crafts. MIT.",
+      "星标": 3121,
+      "本周新增": 667,
+      "语言": "Python"
     }
   ]
 }
