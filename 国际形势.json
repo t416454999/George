@@ -1,13 +1,67 @@
 {
-  "updated": "2026-09-23T20:58:54+08:00",
-  "as_of": "2026-09-23T20:58:54+08:00",
+  "updated": "2026-09-24T01:48:41+08:00",
+  "as_of": "2026-09-24T01:48:41+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 3936105857,
+      "标题": "伊朗总统佩泽希齐扬：不接受对和平核技术的任何限制",
+      "摘要": "伊朗总统佩泽希齐扬周二在联合国大会第八十一届会议一般性辩论上发表讲话说，伊朗寻求能源是为了进步，和平利用核技术是伊朗固有进步的一部分。伊朗既不发展核武器，也不接受对和平核技术的任何限制",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-23",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142851",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3936105857.webp",
+      "封面": "assets/media/un-3936105857.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/23-09-2026-UN-Photo-Iran.jpg/image560x340cropped.jpg",
+      "导语": "伊朗总统佩泽希齐扬周二在联合国大会第八十一届会议一般性辩论上发表讲话说，伊朗寻求能源是为了进步，和平利用核技术是伊朗固有进步的一部分。伊朗既不发展核武器，也不接受对和平核技术的任何限制",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "伊朗总统佩泽希齐扬周二在联合国大会第八十一届会议一般性辩论上发表讲话说，伊朗寻求能源是为了进步，和平利用核技术是伊朗固有进步的一部分。伊朗既不发展核武器，也不接受对和平核技术的任何限制。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142851",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2267390226,
+      "标题": "叙利亚过渡政府总统沙拉：叙利亚正在崛起",
+      "摘要": "叙利亚过渡政府总统沙拉周二在联合国大会第八十一届会议一般性辩论上发表讲话说，一年前他曾表示“叙利亚已经回归”，今天可以说“叙利亚正在崛起”。他说，叙利亚已停止流血和破坏，踏上重建与恢复之路",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-23",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142850",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2267390226.webp",
+      "封面": "assets/media/un-2267390226.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/23-09-2026-UN-Photo-Syria.jpg/image560x340cropped.jpg",
+      "导语": "叙利亚过渡政府总统沙拉周二在联合国大会第八十一届会议一般性辩论上发表讲话说，一年前他曾表示“叙利亚已经回归”，今天可以说“叙利亚正在崛起”。他说，叙利亚已停止流血和破坏，踏上重建与恢复之路",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "叙利亚过渡政府总统沙拉周二在联合国大会第八十一届会议一般性辩论上发表讲话说，一年前他曾表示“叙利亚已经回归”，今天可以说“叙利亚正在崛起”。他说，叙利亚已停止流血和破坏，踏上重建与恢复之路。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142850",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2043613003,
       "标题": "联大高级别周特别报道丨2026年9月23日",
@@ -1074,66 +1128,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://lenta.ru/news/2026/09/23/glava-mid-belorussii-vstretilsya-s-sikorskim-i-anonsiroval-podsnezhnuyu-diplomatiyu/",
       "出处说明": "根据lenta.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1153850916,
-      "标题": "以色列谴责约旦在国王严厉批评联合国演讲后剥夺巴勒斯坦人的权利",
-      "原标题": "Israel slams Jordan for denying Palestinians rights after king scathing UN speech",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 jns.org 最新报道，点击阅读原文。",
-      "来源": "jns.org",
-      "分类": "国际形势",
-      "日期": "2026-09-23",
-      "链接": "https://www.jns.org/news/israel-news/israel-slams-jordan-for-denying-palestinians-rights-after-kings-scathing-un-speech",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://k2-prod-jns-prod.s3.us-east-1.amazonaws.com/brightspot/uploads/2024/09/UN71065576_20240924_LF_5360_.jpg",
-      "数据截至": "2026-09-23T12:58:41+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 jns.org 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 jns.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.jns.org/news/israel-news/israel-slams-jordan-for-denying-palestinians-rights-after-kings-scathing-un-speech",
-      "出处说明": "根据jns.org公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 342109033,
-      "标题": "民意调查发现，民主党比共和党有优势。而且，ICE 正在调查移动拘留中心",
-      "原标题": "Dems have an edge over GOP , poll finds . And , ICE looks into mobile detention centers",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 kunc.org 最新报道，点击阅读原文。",
-      "来源": "kunc.org",
-      "分类": "国际形势",
-      "日期": "2026-09-23",
-      "链接": "https://www.kunc.org/npr-news/2026-09-23/dems-have-an-edge-over-gop-poll-finds-and-ice-looks-into-mobile-detention-centers",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "http://npr-brightspot.s3.amazonaws.com/9c/fe/26238c7f4dcbbb642732e1f2998c/gettyimages-2293666676.jpg",
-      "数据截至": "2026-09-23T12:58:41+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 kunc.org 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 kunc.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.kunc.org/npr-news/2026-09-23/dems-have-an-edge-over-gop-poll-finds-and-ice-looks-into-mobile-detention-centers",
-      "出处说明": "根据kunc.org公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
