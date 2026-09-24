@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-24T22:21:28+08:00",
+  "generated": "2026-09-25T02:36:36+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 4155558651,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
-  "count": 8,
+  "count": 10,
   "articles": [
     {
       "id": 4155558651,
@@ -32,11 +32,11 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 96,
+      "栏目状态": "partial",
+      "编辑分": 90,
       "评分分项": {
         "可信度": 25,
-        "时效": 20,
+        "时效": 14,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-24T22:21:28+08:00"
+      "选入时间": "2026-09-25T02:36:36+08:00"
     },
     {
       "id": 4272374767,
@@ -73,10 +73,10 @@
       "原标题": "【原生·开发者】Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
       "中文提炼": "",
       "候选栏目": "AI",
-      "编辑分": 91,
+      "编辑分": 85,
       "评分分项": {
         "可信度": 25,
-        "时效": 20,
+        "时效": 14,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -89,7 +89,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-24T22:21:28+08:00"
+      "选入时间": "2026-09-25T02:36:36+08:00"
     },
     {
       "id": 97936451,
@@ -109,10 +109,10 @@
       "原标题": "【原生·一手】Reinforcement Learning with Decomposed Subtasks",
       "中文提炼": "",
       "候选栏目": "AI",
-      "编辑分": 86,
+      "编辑分": 80,
       "评分分项": {
         "可信度": 25,
-        "时效": 20,
+        "时效": 14,
         "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
@@ -125,7 +125,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-24T22:21:28+08:00"
+      "选入时间": "2026-09-25T02:36:36+08:00"
     },
     {
       "id": 3593540435,
@@ -135,7 +135,7 @@
       "摘要": "Jusepe de Ribera (called Lo Spagnoletto) · 1648 · Oil on canvas",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-09-24",
+      "日期": "2026-09-25",
       "链接": "https://www.metmuseum.org/art/collection/search/437455",
       "图片": "assets/art/met-437455.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/ep/web-large/DT16.jpg",
@@ -173,24 +173,70 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-24T22:21:28+08:00"
+      "选入时间": "2026-09-25T02:36:36+08:00"
     },
     {
-      "id": 4074470376,
-      "标题": "【原生·模型】使用 GPT-6 Astra 并行将研究时间和成本减少一半",
-      "摘要": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "内容": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "id": 95057222,
+      "标题": "【高级别周特别报道】安理会高级别会议再度讨论乌克兰局势",
+      "摘要": "在联大一般性辩论进入第二天之际，安理会周三上午就乌克兰局势举行一场高级别会议。安理会本月轮值主席国法国外长巴罗亲自主持会议。这场会议共有28位高级别参会者发言，包括拉脱维亚总统林克维奇斯、芬兰总统斯图布、罗马尼亚总统达恩、斯洛文尼亚总统穆萨尔、荷兰首相耶滕等",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-23",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142853",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-95057222.webp",
+      "封面": "assets/media/un-95057222.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/06-07-2026-UNOCHA-Ukraine-02.jpg/image560x340cropped.jpg",
+      "导语": "在联大一般性辩论进入第二天之际，安理会周三上午就乌克兰局势举行一场高级别会议。安理会本月轮值主席国法国外长巴罗亲自主持会议。这场会议共有28位高级别参会者发言，包括拉脱维亚总统林克维奇斯、芬兰总统斯图布、罗马尼亚总统达恩",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "在联大一般性辩论进入第二天之际，安理会周三上午就乌克兰局势举行一场高级别会议。安理会本月轮值主席国法国外长巴罗亲自主持会议。这场会议共有28位高级别参会者发言，包括拉脱维亚总统林克维奇斯、芬兰总统斯图布、罗马尼亚总统达恩、斯洛文尼亚总统穆萨尔、荷兰首相耶滕等。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142853",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 79,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 8,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-25T02:36:36+08:00"
+    },
+    {
+      "id": 4135357875,
+      "标题": "【原生·模型】Harvey 通过 GPT-6 Astra 将法律背景转化为更强大的草案",
+      "摘要": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "内容": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
-      "日期": "2026-09-22",
+      "日期": "2026-09-23",
       "热度": 58,
-      "链接": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "链接": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "标签": [
         "原生资讯",
         "OpenAI 官方"
       ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/28YD6O3zzNEdYaQ7MGhWfI/f27161b782112d8594c2f4c8035ccad1/parallel-option-c-seo-og-balanced.png?w=1600&amp;h=900&amp;fit=fill",
-      "原标题": "【原生·模型】Parallel cut research time and cost in half with GPT‑6 Astra",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/1fGwmofg1NcZrX5mgNL2f2/b88c7bf0b4fc2daeff9ec92264b0afcc/og.png?w=1600&amp;h=900&amp;fit=fill",
+      "原标题": "【原生·模型】Harvey turns legal context into stronger drafts with GPT-6 Astra",
       "中文提炼": "",
       "候选栏目": "AI",
       "编辑分": 79,
@@ -209,7 +255,53 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-24T22:21:28+08:00"
+      "选入时间": "2026-09-25T02:36:36+08:00"
+    },
+    {
+      "id": 3888902070,
+      "标题": "马克龙：面对“强权即公理”逻辑不能退让 呼吁重振多边主义",
+      "摘要": "法国总统马克龙周二在联合国大会一般性辩论中表示，面对“强权即公理”的逻辑卷土重来，国际社会不能退缩，而应坚守《联合国宪章》、国际法和多边主义。他说，当前世界战争和危机不断增加，权力日益集中于少数人手中，国际社会必须共同维护各国人民自由选择自身命运、发展模式和未来的权利",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-22",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142842",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3888902070.webp",
+      "封面": "assets/media/un-3888902070.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/22-09-2026-UN-Photo-France.jpg/image560x340cropped.jpg",
+      "导语": "法国总统马克龙周二在联合国大会一般性辩论中表示，面对“强权即公理”的逻辑卷土重来，国际社会不能退缩，而应坚守《联合国宪章》、国际法和多边主义。他说，当前世界战争和危机不断增加，权力日益集中于少数人手中，国际社会必须共同维",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "法国总统马克龙周二在联合国大会一般性辩论中表示，面对“强权即公理”的逻辑卷土重来，国际社会不能退缩，而应坚守《联合国宪章》、国际法和多边主义。他说，当前世界战争和危机不断增加，权力日益集中于少数人手中，国际社会必须共同维护各国人民自由选择自身命运、发展模式和未来的权利。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142842",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "partial",
+      "编辑分": 78,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 2,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-09-25T02:36:36+08:00"
     },
     {
       "id": 3441092754,
@@ -219,7 +311,7 @@
       "摘要": "Louis Félix de La Rue · 年代不详 · Etching",
       "来源": "The Metropolitan Museum of Art",
       "分类": "人文艺术",
-      "日期": "2026-09-24",
+      "日期": "2026-09-25",
       "链接": "https://www.metmuseum.org/art/collection/search/394742",
       "图片": "assets/art/met-394742.webp",
       "原始图片": "https://images.metmuseum.org/CRDImages/dp/web-large/DP826252.jpg",
@@ -257,7 +349,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-24T22:21:28+08:00"
+      "选入时间": "2026-09-25T02:36:36+08:00"
     },
     {
       "id": 4283726279,
@@ -267,7 +359,7 @@
       "摘要": "Richard M. Loving American, born Austria 1924-2021 · 1959 · Enamel and copper on wood",
       "来源": "Art Institute of Chicago",
       "分类": "人文艺术",
-      "日期": "2026-09-24",
+      "日期": "2026-09-25",
       "链接": "https://www.artic.edu/artworks/117256",
       "图片": "assets/covers/humanities.svg",
       "原始图片": "https://www.artic.edu/iiif/2/a4db604f-3c38-e566-ecfe-1c894fc9e4b8/full/843,/0/default.jpg",
@@ -305,7 +397,7 @@
       "入选理由": "公共领域馆藏，图像与出处完整",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-24T22:21:28+08:00"
+      "选入时间": "2026-09-25T02:36:36+08:00"
     },
     {
       "id": 3278245669,
@@ -353,14 +445,54 @@
       "入选理由": "球队已确认且处于重要比赛时间窗口",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-09-24T22:21:28+08:00"
+      "选入时间": "2026-09-25T02:36:36+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-09-24T22:21:28+08:00",
+    "as_of": "2026-09-25T02:36:36+08:00",
     "candidate_count": 604,
-    "rejected_count": 392,
+    "rejected_count": 396,
     "rejected": [
+      {
+        "id": 939611158,
+        "reason": "off_topic"
+      },
+      {
+        "id": 9188654,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4220350210,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3213865342,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2960667083,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2591146375,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2344531867,
+        "reason": "off_topic"
+      },
+      {
+        "id": 142229452,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1409348078,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1165955248,
+        "reason": "off_topic"
+      },
       {
         "id": 977487874,
         "reason": "off_topic"
@@ -870,8 +1002,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 888494434,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
+        "id": 858947979,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 805344649,
         "reason": "off_topic"
+      },
+      {
+        "id": 788240033,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 769491799,
@@ -978,12 +1125,22 @@
         "reason": "off_topic"
       },
       {
+        "id": 2487595575,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 2431777014,
         "reason": "off_topic"
       },
       {
         "id": 2407787114,
         "reason": "off_topic"
+      },
+      {
+        "id": 2399237505,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 2358487930,
@@ -1586,181 +1743,97 @@
         "reason": "off_topic"
       },
       {
-        "id": 3078377179,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2816387163,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2786392259,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2701350168,
-        "reason": "off_topic"
-      },
-      {
-        "id": 26490582,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2625003918,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2540589096,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2500589228,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2490651463,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2466115714,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2393462869,
-        "reason": "off_topic"
-      },
-      {
         "id": 1832469292,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 782725280,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 590845068,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3799589066,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2837232148,
         "reason": "score_below_50",
-        "score": 43
+        "score": 37
       },
       {
         "id": 1229434792,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 612398076,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1295006532,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2659289601,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1387004432,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1470359751,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1787644467,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1491933489,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3512653168,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2090663381,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3135257446,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 2624835000,
+        "id": 3460459151,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 2764384380,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 291408523,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3392291936,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2681665442,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2706377297,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3136218651,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 239406372,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2025233313,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3926568479,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 247578714,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1051926426,
+        "id": 1611040029,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1770,24 +1843,64 @@
         "score": 34
       },
       {
-        "id": 1220114639,
+        "id": 3000887560,
         "reason": "score_below_50",
-        "score": 20
+        "score": 32
       },
       {
-        "id": 2206703816,
+        "id": 3421083335,
         "reason": "score_below_50",
-        "score": 20
+        "score": 32
       },
       {
-        "id": 2497308190,
+        "id": 291408523,
         "reason": "score_below_50",
-        "score": 20
+        "score": 32
       },
       {
-        "id": 3175387043,
+        "id": 2706377297,
         "reason": "score_below_50",
-        "score": 20
+        "score": 32
+      },
+      {
+        "id": 2284882366,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2681665442,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3136218651,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3392291936,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1706581901,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3926568479,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 3005495752,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1909251307,
+        "reason": "score_below_50",
+        "score": 32
       },
       {
         "id": 91393018,
@@ -1795,17 +1908,12 @@
         "score": 21
       },
       {
-        "id": 3246854698,
+        "id": 103145616,
         "reason": "score_below_50",
         "score": 16
       },
       {
-        "id": 1529511889,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 3336040900,
+        "id": 3985878930,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1815,14 +1923,14 @@
         "score": 16
       },
       {
+        "id": 2813677068,
+        "reason": "score_below_50",
+        "score": 25
+      },
+      {
         "id": 318190491,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 2377391107,
-        "reason": "score_below_50",
-        "score": 21
       },
       {
         "id": 4173779993,
@@ -1830,7 +1938,12 @@
         "score": 16
       },
       {
-        "id": 2267527278,
+        "id": 2943210190,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 953092424,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1845,9 +1958,9 @@
         "score": 30
       },
       {
-        "id": 2121752831,
+        "id": 3408174843,
         "reason": "score_below_50",
-        "score": 31
+        "score": 35
       },
       {
         "id": 1263039081,
@@ -1875,7 +1988,7 @@
         "score": 30
       },
       {
-        "id": 2833132584,
+        "id": 3892170956,
         "reason": "score_below_50",
         "score": 30
       },
