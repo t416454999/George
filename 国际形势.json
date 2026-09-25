@@ -1,13 +1,40 @@
 {
-  "updated": "2026-09-25T19:22:26+08:00",
-  "as_of": "2026-09-25T19:22:26+08:00",
+  "updated": "2026-09-25T23:55:26+08:00",
+  "as_of": "2026-09-25T23:55:26+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2156542546,
+      "标题": "联大高级别周特别报道丨2026年9月25日",
+      "摘要": "欢迎收看联合国大会第81届会议高级别周特别报道。本期节目您将看到，巴以领导人同日登上联大讲坛；各国围绕“两国方案”展开激烈交锋；冲突一线的亲历者发声，面对不断恶化的现实，国际社会究竟还能做什么？",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-09-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142875",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2156542546.webp",
+      "封面": "assets/media/un-2156542546.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/25-09-2026_delegation.jpg/image560x340cropped.jpg",
+      "导语": "欢迎收看联合国大会第81届会议高级别周特别报道。本期节目您将看到，巴以领导人同日登上联大讲坛；各国围绕“两国方案”展开激烈交锋；冲突一线的亲历者发声，面对不断恶化的现实，国际社会究竟还能做什么？",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "欢迎收看联合国大会第81届会议高级别周特别报道。本期节目您将看到，巴以领导人同日登上联大讲坛；各国围绕“两国方案”展开激烈交锋；冲突一线的亲历者发声，面对不断恶化的现实，国际社会究竟还能做什么？。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142875",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2212532310,
       "标题": "南非：全球治理必须改革 非洲应在安理会拥有常任席位",
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://frontpageafricaonline.com/liberia-pul-announces-62ndanniversary-celebrations-focused-on-media-empowerment-for-democracy-and-development/",
       "出处说明": "根据frontpageafricaonline.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 394698044,
-      "标题": "早间新闻简报",
-      "原标题": "Morning news brief",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 publicradioeast.org 最新报道，点击阅读原文。",
-      "来源": "publicradioeast.org",
-      "分类": "国际形势",
-      "日期": "2026-09-25",
-      "链接": "https://www.publicradioeast.org/2026-09-25/morning-news-brief",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-09-25T11:22:09+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 publicradioeast.org 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 publicradioeast.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.publicradioeast.org/2026-09-25/morning-news-brief",
-      "出处说明": "根据publicradioeast.org公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
