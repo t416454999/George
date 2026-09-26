@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-25T13:24:17+08:00",
+  "updated": "2026-09-26T12:47:21+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "181.7k",
+      "星标": "181.8k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "147.0k",
+      "星标": "147.1k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "26.9k",
+      "星标": "27.0k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -60,100 +60,100 @@
   ],
   "trending": [
     {
-      "名称": "security-audit-skill",
-      "repo": "cloudflare/security-audit-skill",
-      "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "星标": 21486,
-      "本周新增": 11262,
-      "语言": "JavaScript"
-    },
-    {
       "名称": "financial-services",
       "repo": "anthropics/financial-services",
       "说明": null,
-      "星标": 37482,
-      "本周新增": 2382,
+      "星标": 37623,
+      "本周新增": 2623,
       "语言": "Python"
+    },
+    {
+      "名称": "security-audit-skill",
+      "repo": "cloudflare/security-audit-skill",
+      "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "星标": 21846,
+      "本周新增": 9547,
+      "语言": "JavaScript"
     },
     {
       "名称": "claude-code",
       "repo": "anthropics/claude-code",
       "说明": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "星标": 148038,
-      "本周新增": 2384,
+      "星标": 148163,
+      "本周新增": 2102,
       "语言": "TypeScript"
     },
     {
-      "名称": "open-code-review",
-      "repo": "alibaba/open-code-review",
-      "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 41126,
-      "本周新增": 6920,
-      "语言": "Go"
-    },
-    {
-      "名称": "ECC",
-      "repo": "affaan-m/ECC",
-      "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 267249,
-      "本周新增": 6193,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "WeKnora",
-      "repo": "Tencent/WeKnora",
-      "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "星标": 29919,
-      "本周新增": 3749,
-      "语言": "Go"
-    },
-    {
-      "名称": "agent-skills",
-      "repo": "addyosmani/agent-skills",
-      "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 98979,
-      "本周新增": 3345,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "orca",
-      "repo": "stablyai/orca",
-      "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "星标": 77937,
-      "本周新增": 6547,
+      "名称": "paperclip",
+      "repo": "paperclipai/paperclip",
+      "说明": "The open-source app everyone uses to manage agents at work",
+      "星标": 86026,
+      "本周新增": 2616,
       "语言": "TypeScript"
     },
     {
       "名称": "hindsight",
       "repo": "vectorize-io/hindsight",
       "说明": "Hindsight: Agent Memory That Learns",
-      "星标": 28642,
-      "本周新增": 3363,
+      "星标": 30716,
+      "本周新增": 4869,
       "语言": "Python"
     },
     {
-      "名称": "knowledge-work-plugins",
-      "repo": "anthropics/knowledge-work-plugins",
-      "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "星标": 25584,
-      "本周新增": 1118,
-      "语言": "Python"
+      "名称": "WeKnora",
+      "repo": "Tencent/WeKnora",
+      "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "星标": 30232,
+      "本周新增": 3189,
+      "语言": "Go"
+    },
+    {
+      "名称": "ECC",
+      "repo": "affaan-m/ECC",
+      "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "星标": 267735,
+      "本周新增": 6037,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "orca",
+      "repo": "stablyai/orca",
+      "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "星标": 78649,
+      "本周新增": 6537,
+      "语言": "TypeScript"
     },
     {
       "名称": "claude-code-templates",
       "repo": "davila7/claude-code-templates",
       "说明": "CLI tool for configuring and monitoring Claude Code",
-      "星标": 31773,
-      "本周新增": 965,
+      "星标": 31887,
+      "本周新增": 1041,
       "语言": "Python"
     },
     {
-      "名称": "paperclip",
-      "repo": "paperclipai/paperclip",
-      "说明": "The open-source app everyone uses to manage agents at work",
-      "星标": 83578,
-      "本周新增": 2321,
-      "语言": "TypeScript"
+      "名称": "open-code-review",
+      "repo": "alibaba/open-code-review",
+      "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "星标": 41505,
+      "本周新增": 5030,
+      "语言": "Go"
+    },
+    {
+      "名称": "knowledge-work-plugins",
+      "repo": "anthropics/knowledge-work-plugins",
+      "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "星标": 25654,
+      "本周新增": 889,
+      "语言": "Python"
+    },
+    {
+      "名称": "agent-skills",
+      "repo": "addyosmani/agent-skills",
+      "说明": "Production-grade engineering skills for AI coding agents.",
+      "星标": 99185,
+      "本周新增": 2911,
+      "语言": "JavaScript"
     }
   ]
 }
