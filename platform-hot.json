@@ -1,502 +1,158 @@
 {
-  "updated": "2026-09-27T05:48:15+08:00",
+  "updated": "2026-09-27T10:52:12+08:00",
   "source": "极光引擎 · 平台热点聚合",
   "description": "各平台实时热点榜单聚合（仅公开标题+链接，不缓存全文）",
-  "count": 69,
+  "count": 20,
   "platforms": {
     "微博热搜": [],
     "知乎热榜": [],
     "B站热门": [
       {
         "rank": 1,
-        "title": "时间不多喽",
-        "heat": "114.1万",
-        "raw_heat": 1141327,
-        "link": "https://www.bilibili.com/video/BV1xuhR6yEM3"
+        "title": "《崩坏：星穹铁道》真珠角色PV——「如何描绘一种希望」",
+        "heat": "181.7万",
+        "raw_heat": 1817075,
+        "link": "https://www.bilibili.com/video/BV1Rmh96ZEXh"
       },
       {
         "rank": 2,
-        "title": "甜瓜琵琶曲#高质量手搓 🤓",
-        "heat": "143.9万",
-        "raw_heat": 1438890,
-        "link": "https://www.bilibili.com/video/BV1ZfhD6XEGk"
+        "title": "《纯粹の体育精神》",
+        "heat": "93.3万",
+        "raw_heat": 933170,
+        "link": "https://www.bilibili.com/video/BV1Kyas6wEuz"
       },
       {
         "rank": 3,
-        "title": "【招笑版】新植物14:\"魅惑\"菇",
-        "heat": "141.6万",
-        "raw_heat": 1416337,
-        "link": "https://www.bilibili.com/video/BV1ZchQ6HEm4"
+        "title": "《三角洲行动》群星计划—代号：深蓝",
+        "heat": "200.9万",
+        "raw_heat": 2008883,
+        "link": "https://www.bilibili.com/video/BV1sghX6KEkX"
       },
       {
         "rank": 4,
         "title": "【独家】牧神记 第102集 大尊",
-        "heat": "75.4万",
-        "raw_heat": 753781,
+        "heat": "144.7万",
+        "raw_heat": 1447302,
         "link": "https://www.bilibili.com/video/BV152aA6nEz4"
       },
       {
         "rank": 5,
-        "title": "【说唱】不是，酒保怎么比我先醉啊…",
-        "heat": "37.7万",
-        "raw_heat": 377358,
-        "link": "https://www.bilibili.com/video/BV1JnhX6tEWP"
+        "title": "美食街，我在森林很想你【AI全民制作人】",
+        "heat": "138.6万",
+        "raw_heat": 1386097,
+        "link": "https://www.bilibili.com/video/BV12AhD6wENZ"
       },
       {
         "rank": 6,
-        "title": "戒赌吧覆灭！1400万赌徒抱团救赎，吧主将他们卖给赌场！【神奇组织17】",
-        "heat": "95.0万",
-        "raw_heat": 950081,
-        "link": "https://www.bilibili.com/video/BV17WhX6xEWn"
+        "title": "没人会记得神作之下的第二名，除非那一年都是逆天神梗！",
+        "heat": "125.9万",
+        "raw_heat": 1259347,
+        "link": "https://www.bilibili.com/video/BV114h96GEyq"
       },
       {
         "rank": 7,
-        "title": "《 假 期 热 梗 现 状 》",
-        "heat": "106.3万",
-        "raw_heat": 1062598,
-        "link": "https://www.bilibili.com/video/BV1vyaA6QE2X"
-      },
-      {
-        "rank": 8,
-        "title": "当你遇到两年前的自己.......",
-        "heat": "125.4万",
-        "raw_heat": 1254039,
-        "link": "https://www.bilibili.com/video/BV1m2aP6uELa"
-      },
-      {
-        "rank": 9,
-        "title": "《以片换物- -洗剪吹》 再不疯狂就老了  借一场大笑，释放藏起来的自己。",
-        "heat": "225.7万",
-        "raw_heat": 2257014,
-        "link": "https://www.bilibili.com/video/BV1JSau6kEou"
-      },
-      {
-        "rank": 10,
-        "title": "【纪录片】中国救护2 02 向未明处去",
-        "heat": "208.4万",
-        "raw_heat": 2084120,
-        "link": "https://www.bilibili.com/video/BV1MahU6eESN"
-      },
-      {
-        "rank": 11,
-        "title": "《三角洲行动》群星计划—代号：威龙",
-        "heat": "75.4万",
-        "raw_heat": 753692,
-        "link": "https://www.bilibili.com/video/BV1fAh96ZELn"
-      },
-      {
-        "rank": 12,
-        "title": "宁荣荣送祝福",
-        "heat": "80.8万",
-        "raw_heat": 808062,
-        "link": "https://www.bilibili.com/video/BV1rih96KETU"
-      },
-      {
-        "rank": 13,
-        "title": "“后来我们恶语相向，却忘了我们曾经是最相爱的人”",
-        "heat": "40.5万",
-        "raw_heat": 405348,
-        "link": "https://www.bilibili.com/video/BV1uSh16xEh5"
-      },
-      {
-        "rank": 14,
-        "title": "见证历史！原版MC第四维度——筛界！古城传送门开启！冰雪洞穴更新！MC直播总结 #MinecraftLive2026-9",
-        "heat": "44.3万",
-        "raw_heat": 443258,
-        "link": "https://www.bilibili.com/video/BV15Max61EgG"
-      },
-      {
-        "rank": 15,
-        "title": "【侯绿萝】更新啦，赶紧来围观吧！",
-        "heat": "119.1万",
-        "raw_heat": 1191296,
-        "link": "https://www.bilibili.com/video/BV1weh96BEte"
-      },
-      {
-        "rank": 16,
-        "title": "TES在VCTCN都算战神！无畏契约上海冠军赛门全员光头，一把不赢！【1酱赛评】",
-        "heat": "35.9万",
-        "raw_heat": 358971,
-        "link": "https://www.bilibili.com/video/BV1GYas6zELr"
-      },
-      {
-        "rank": 17,
         "title": "【立志成为恶兽】05 我有一个拯救村庄的计划【UP动画】【HiShorts! × updream AI短片大赛-剧情单元】",
-        "heat": "79.9万",
-        "raw_heat": 799118,
+        "heat": "110.1万",
+        "raw_heat": 1101095,
         "link": "https://www.bilibili.com/video/BV1j3hd6wE1w"
       },
       {
+        "rank": 8,
+        "title": "0元的酒店真能住？随机预算过一天！！",
+        "heat": "127.6万",
+        "raw_heat": 1276252,
+        "link": "https://www.bilibili.com/video/BV14zhU6fEpJ"
+      },
+      {
+        "rank": 9,
+        "title": "高中时同学经常乱吃药",
+        "heat": "123.3万",
+        "raw_heat": 1232909,
+        "link": "https://www.bilibili.com/video/BV1Tcht6NEF6"
+      },
+      {
+        "rank": 10,
+        "title": "【剧情】长生契（2026）07【方逸伦 / 谢可寅】",
+        "heat": "45.4万",
+        "raw_heat": 453588,
+        "link": "https://www.bilibili.com/video/BV1aUem6yEur"
+      },
+      {
+        "rank": 11,
+        "title": "【散人】间谍vs大小姐 智勇闯关生死抉择 P4",
+        "heat": "26.1万",
+        "raw_heat": 261338,
+        "link": "https://www.bilibili.com/video/BV1wtag62EAh"
+      },
+      {
+        "rank": 12,
+        "title": "将大局逆转吧！",
+        "heat": "45.1万",
+        "raw_heat": 450570,
+        "link": "https://www.bilibili.com/video/BV1QLat6mEe5"
+      },
+      {
+        "rank": 13,
+        "title": "戒赌吧覆灭！1400万赌徒抱团救赎，吧主将他们卖给赌场！【神奇组织17】",
+        "heat": "124.2万",
+        "raw_heat": 1242080,
+        "link": "https://www.bilibili.com/video/BV17WhX6xEWn"
+      },
+      {
+        "rank": 14,
+        "title": "【说唱】不是，酒保怎么比我先醉啊…",
+        "heat": "56.2万",
+        "raw_heat": 561772,
+        "link": "https://www.bilibili.com/video/BV1JnhX6tEWP"
+      },
+      {
+        "rank": 15,
+        "title": "Ai短片｜《标签》｜如果标签上的字都变成现实？",
+        "heat": "96.6万",
+        "raw_heat": 965687,
+        "link": "https://www.bilibili.com/video/BV1dChQ6XEaS"
+      },
+      {
+        "rank": 16,
+        "title": "消失的队友二",
+        "heat": "57.3万",
+        "raw_heat": 572919,
+        "link": "https://www.bilibili.com/video/BV11ahH6UEbn"
+      },
+      {
+        "rank": 17,
+        "title": "我们尝试用AI造了一个时空",
+        "heat": "26.5万",
+        "raw_heat": 265412,
+        "link": "https://www.bilibili.com/video/BV1TPa46MEwU"
+      },
+      {
         "rank": 18,
-        "title": "美国每年只存在七天的城市，黑石城！",
-        "heat": "38.2万",
-        "raw_heat": 381510,
-        "link": "https://www.bilibili.com/video/BV1UGhm6tEBB"
+        "title": "硬核，不是说说而已",
+        "heat": "60.4万",
+        "raw_heat": 604028,
+        "link": "https://www.bilibili.com/video/BV1AyhU64EFH"
       },
       {
         "rank": 19,
-        "title": "《鸣潮》共鸣者战斗演示 | 心",
-        "heat": "131.4万",
-        "raw_heat": 1314196,
-        "link": "https://www.bilibili.com/video/BV1GahD6GEjC"
+        "title": "《三角洲行动》群星计划—代号：威龙",
+        "heat": "113.4万",
+        "raw_heat": 1134105,
+        "link": "https://www.bilibili.com/video/BV1fAh96ZELn"
       },
       {
         "rank": 20,
-        "title": "【苏星河车机】别急着说你用过豆包，我这个你真没见过",
-        "heat": "126.8万",
-        "raw_heat": 1268016,
-        "link": "https://www.bilibili.com/video/BV126ht6qESe"
+        "title": "《五金月饼：月饼传三代，人走饼还在！》",
+        "heat": "88.3万",
+        "raw_heat": 883121,
+        "link": "https://www.bilibili.com/video/BV1egaN6XEAY"
       }
     ],
     "百度热搜": [],
     "抖音热榜": [],
     "头条热榜": [],
     "小红书热榜": [],
-    "快手热榜": [
-      {
-        "rank": 1,
-        "title": "继往开来万里行",
-        "heat": "",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 2,
-        "title": "中国代表团亚运6天破百金",
-        "heat": "1345.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 3,
-        "title": "多地雷暴大风冰雹来袭",
-        "heat": "1344.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 4,
-        "title": "延续40年的国庆仪式感",
-        "heat": "1344.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 5,
-        "title": "多视角直击钱塘江大潮",
-        "heat": "1344.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 6,
-        "title": "杨昊练俊杰夺得金牌",
-        "heat": "1344.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 7,
-        "title": "王楚钦称第四局疼得有点受不了",
-        "heat": "1344.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 8,
-        "title": "中国队王者荣耀闪电战零封老挝",
-        "heat": "1344.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 9,
-        "title": "河南一技校101名毕业生入职北大",
-        "heat": "1344.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 10,
-        "title": "胡歌3岁女儿近照",
-        "heat": "1250.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 11,
-        "title": "温瑞博向鹏无缘决赛",
-        "heat": "1156.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 12,
-        "title": "周深雨中唱响我爱你中国好震撼",
-        "heat": "1070.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 13,
-        "title": "歌手节目已经痛失两位歌王",
-        "heat": "1056.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 14,
-        "title": "2026年钱塘江大潮时间表",
-        "heat": "1042.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 15,
-        "title": "3名骑行者遭野牦牛猛追",
-        "heat": "1037.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 16,
-        "title": "人一旦入过风尘一辈子都会有烙印",
-        "heat": "1031.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 17,
-        "title": "台湾一服务区现老人尸体",
-        "heat": "1026.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 18,
-        "title": "霍建华回应被指面瘫",
-        "heat": "1021.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 19,
-        "title": "千万粉丝网红潘宏败诉",
-        "heat": "1018.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 20,
-        "title": "严浪宇晋级蹦床超级决赛",
-        "heat": "1016.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 21,
-        "title": "刘欢生平",
-        "heat": "1013.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 22,
-        "title": "男童串门17楼坠下主人被判赔38万",
-        "heat": "1006.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 23,
-        "title": "晒出你的中秋节手抄报",
-        "heat": "1003.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 24,
-        "title": "泪痣摇",
-        "heat": "998.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 25,
-        "title": "吴艳妮晋级100米栏决赛",
-        "heat": "996.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 26,
-        "title": "当大学生没买到回家的票",
-        "heat": "993.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 27,
-        "title": "所有人通透起来",
-        "heat": "991.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 28,
-        "title": "崔培军给加班困难员工塞钱",
-        "heat": "988.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 29,
-        "title": "国羽男单全军覆没",
-        "heat": "986.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 30,
-        "title": "美国顶尖高校曝丑闻",
-        "heat": "984.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 31,
-        "title": "冰冰冰音效表情包上线",
-        "heat": "981.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 32,
-        "title": "孙颖莎回应不敌林诗栋蒯曼",
-        "heat": "976.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 33,
-        "title": "放牛大哥称几十万不用贷款",
-        "heat": "973.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 34,
-        "title": "娜诺模糊的视频清晰的实力",
-        "heat": "969.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 35,
-        "title": "闫妮谈黄昏恋",
-        "heat": "967.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 36,
-        "title": "邓亚萍谈日本男单全军覆没",
-        "heat": "965.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 37,
-        "title": "高中生深夜偷吃螺蛳粉",
-        "heat": "963.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 38,
-        "title": "内蒙古紧急回应游客投喂棕熊",
-        "heat": "961.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 39,
-        "title": "黑老大报复临时工监狱开瓢致残",
-        "heat": "959.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 40,
-        "title": "名古屋亚运会9月27日看点",
-        "heat": "957万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 41,
-        "title": "台湾首来族赴大陆感震撼",
-        "heat": "954.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 42,
-        "title": "节日我在岗守万家团圆",
-        "heat": "952.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 43,
-        "title": "兰香公堂助大姑姐和离",
-        "heat": "950.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 44,
-        "title": "张本智和亚运会爆冷出局",
-        "heat": "948.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 45,
-        "title": "72岁大娘照顾瘫痪儿子",
-        "heat": "947.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 46,
-        "title": "石家庄无人车逆行被截停",
-        "heat": "947.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 47,
-        "title": "哪些城市能看到钱塘江大潮",
-        "heat": "946.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 48,
-        "title": "学功夫练武术舞蹈",
-        "heat": "945.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 49,
-        "title": "三大运营商全面暂停0元购机",
-        "heat": "945万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      }
-    ],
+    "快手热榜": [],
     "微信热点": []
   }
 }
