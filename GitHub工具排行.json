@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-27T13:39:55+08:00",
+  "updated": "2026-09-28T16:35:01+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "181.8k",
+      "星标": "181.9k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "147.1k",
+      "星标": "147.2k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,97 +63,97 @@
       "名称": "financial-services",
       "repo": "anthropics/financial-services",
       "说明": null,
-      "星标": 37775,
-      "本周新增": 2633,
+      "星标": 38005,
+      "本周新增": 2606,
       "语言": "Python"
     },
     {
       "名称": "paperclip",
       "repo": "paperclipai/paperclip",
       "说明": "The open-source app everyone uses to manage agents at work",
-      "星标": 88637,
-      "本周新增": 5376,
+      "星标": 92132,
+      "本周新增": 7364,
       "语言": "TypeScript"
     },
     {
       "名称": "hindsight",
       "repo": "vectorize-io/hindsight",
       "说明": "Hindsight: Agent Memory That Learns",
-      "星标": 35484,
-      "本周新增": 7282,
+      "星标": 40433,
+      "本周新增": 11089,
       "语言": "Python"
     },
     {
       "名称": "security-audit-skill",
       "repo": "cloudflare/security-audit-skill",
       "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "星标": 22200,
-      "本周新增": 6474,
+      "星标": 22629,
+      "本周新增": 4805,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "WeKnora",
-      "repo": "Tencent/WeKnora",
-      "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "星标": 30486,
-      "本周新增": 3015,
-      "语言": "Go"
     },
     {
       "名称": "claude-code-templates",
       "repo": "davila7/claude-code-templates",
       "说明": "CLI tool for configuring and monitoring Claude Code",
-      "星标": 31959,
-      "本周新增": 1142,
+      "星标": 32055,
+      "本周新增": 1154,
       "语言": "Python"
+    },
+    {
+      "名称": "WeKnora",
+      "repo": "Tencent/WeKnora",
+      "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "星标": 30893,
+      "本周新增": 2705,
+      "语言": "Go"
     },
     {
       "名称": "orca",
       "repo": "stablyai/orca",
       "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "星标": 79278,
-      "本周新增": 6503,
+      "星标": 80481,
+      "本周新增": 6227,
       "语言": "TypeScript"
     },
     {
       "名称": "CLI-Anything",
       "repo": "HKUDS/CLI-Anything",
       "说明": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "星标": 50687,
-      "本周新增": 1055,
+      "星标": 50858,
+      "本周新增": 1105,
       "语言": "Python"
     },
     {
       "名称": "pytorch",
       "repo": "pytorch/pytorch",
       "说明": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "星标": 103402,
-      "本周新增": 295,
+      "星标": 103457,
+      "本周新增": 320,
       "语言": "Python"
-    },
-    {
-      "名称": "claude-code",
-      "repo": "anthropics/claude-code",
-      "说明": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "星标": 148289,
-      "本周新增": 1744,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "ECC",
-      "repo": "affaan-m/ECC",
-      "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 268150,
-      "本周新增": 5522,
-      "语言": "JavaScript"
     },
     {
       "名称": "ai-engineering-from-scratch",
       "repo": "rohitg00/ai-engineering-from-scratch",
       "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 58803,
-      "本周新增": 3207,
+      "星标": 60152,
+      "本周新增": 3850,
       "语言": "Python"
+    },
+    {
+      "名称": "cua",
+      "repo": "trycua/cua",
+      "说明": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "星标": 26789,
+      "本周新增": 1559,
+      "语言": "HTML"
+    },
+    {
+      "名称": "ai-memory",
+      "repo": "akitaonrails/ai-memory",
+      "说明": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "星标": 8530,
+      "本周新增": 1224,
+      "语言": "Rust"
     }
   ]
 }
