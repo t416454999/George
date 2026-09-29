@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T16:35:01+08:00",
+  "updated": "2026-09-29T14:42:29+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "147.2k",
+      "星标": "147.3k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -60,100 +60,100 @@
   ],
   "trending": [
     {
-      "名称": "financial-services",
-      "repo": "anthropics/financial-services",
-      "说明": null,
-      "星标": 38005,
-      "本周新增": 2606,
-      "语言": "Python"
-    },
-    {
       "名称": "paperclip",
       "repo": "paperclipai/paperclip",
       "说明": "The open-source app everyone uses to manage agents at work",
-      "星标": 92132,
-      "本周新增": 7364,
+      "星标": 94063,
+      "本周新增": 10518,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "financial-services",
+      "repo": "anthropics/financial-services",
+      "说明": null,
+      "星标": 38182,
+      "本周新增": 2381,
+      "语言": "Python"
     },
     {
       "名称": "hindsight",
       "repo": "vectorize-io/hindsight",
       "说明": "Hindsight: Agent Memory That Learns",
-      "星标": 40433,
-      "本周新增": 11089,
-      "语言": "Python"
-    },
-    {
-      "名称": "security-audit-skill",
-      "repo": "cloudflare/security-audit-skill",
-      "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "星标": 22629,
-      "本周新增": 4805,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "claude-code-templates",
-      "repo": "davila7/claude-code-templates",
-      "说明": "CLI tool for configuring and monitoring Claude Code",
-      "星标": 32055,
-      "本周新增": 1154,
-      "语言": "Python"
-    },
-    {
-      "名称": "WeKnora",
-      "repo": "Tencent/WeKnora",
-      "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "星标": 30893,
-      "本周新增": 2705,
-      "语言": "Go"
-    },
-    {
-      "名称": "orca",
-      "repo": "stablyai/orca",
-      "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "星标": 80481,
-      "本周新增": 6227,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "CLI-Anything",
-      "repo": "HKUDS/CLI-Anything",
-      "说明": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "星标": 50858,
-      "本周新增": 1105,
-      "语言": "Python"
-    },
-    {
-      "名称": "pytorch",
-      "repo": "pytorch/pytorch",
-      "说明": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "星标": 103457,
-      "本周新增": 320,
+      "星标": 42223,
+      "本周新增": 15537,
       "语言": "Python"
     },
     {
       "名称": "ai-engineering-from-scratch",
       "repo": "rohitg00/ai-engineering-from-scratch",
       "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 60152,
-      "本周新增": 3850,
+      "星标": 60949,
+      "本周新增": 5004,
       "语言": "Python"
     },
     {
-      "名称": "cua",
-      "repo": "trycua/cua",
-      "说明": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-      "星标": 26789,
-      "本周新增": 1559,
-      "语言": "HTML"
+      "名称": "CLI-Anything",
+      "repo": "HKUDS/CLI-Anything",
+      "说明": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "星标": 50977,
+      "本周新增": 1227,
+      "语言": "Python"
     },
     {
-      "名称": "ai-memory",
-      "repo": "akitaonrails/ai-memory",
-      "说明": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "星标": 8530,
-      "本周新增": 1224,
-      "语言": "Rust"
+      "名称": "claude-code-templates",
+      "repo": "davila7/claude-code-templates",
+      "说明": "CLI tool for configuring and monitoring Claude Code",
+      "星标": 32143,
+      "本周新增": 1200,
+      "语言": "Python"
+    },
+    {
+      "名称": "orca",
+      "repo": "stablyai/orca",
+      "说明": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "星标": 81349,
+      "本周新增": 6151,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "pytorch",
+      "repo": "pytorch/pytorch",
+      "说明": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "星标": 103517,
+      "本周新增": 340,
+      "语言": "Python"
+    },
+    {
+      "名称": "WeKnora",
+      "repo": "Tencent/WeKnora",
+      "说明": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "星标": 31189,
+      "本周新增": 2509,
+      "语言": "Go"
+    },
+    {
+      "名称": "security-audit-skill",
+      "repo": "cloudflare/security-audit-skill",
+      "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "星标": 23029,
+      "本周新增": 3962,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "说明": "The design language that makes your AI harness better at design.",
+      "星标": 72398,
+      "本周新增": 2547,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "Octop",
+      "repo": "TencentCloud/Octop",
+      "说明": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "星标": 5704,
+      "本周新增": 970,
+      "语言": "Python"
     }
   ]
 }
