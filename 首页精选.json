@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T00:33:46+08:00",
+  "generated": "2026-10-03T05:13:10+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 98267617,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -39,7 +39,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-03T00:33:46+08:00"
+      "选入时间": "2026-10-03T05:13:10+08:00"
     },
     {
       "id": 3782634730,
@@ -68,7 +68,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 84,
       "评分分项": {
         "可信度": 25,
@@ -85,20 +85,25 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-03T00:33:46+08:00"
+      "选入时间": "2026-10-03T05:13:10+08:00"
     },
     {
-      "id": 3354046764,
-      "标题": "AI is rewriting the developer career ladder. Here’s how to stand out.",
-      "摘要": "Learn three ways to get noticed and grow your career as AI reshapes how developers build software. The post AI is rewriting the developer career ladder. Here’s how to stand out.",
-      "内容": "Learn three ways to get noticed and grow your career as AI reshapes how developers build software. The post AI is rewriting the developer career ladder. Here’s how to stand out.",
-      "来源": "GitHub 官方博客",
-      "分类": "AI应用",
+      "id": 548687616,
+      "标题": "【原生·开发者】Chatham scales its capital markets expertise with OpenAI",
+      "摘要": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "内容": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
       "日期": "2026-10-02",
-      "热度": 50,
-      "链接": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-      "标签": [],
-      "图片": "https://github.blog/wp-content/uploads/2026/03/branchingout.png?fit=2402%2C1263",
+      "热度": 77,
+      "链接": "https://openai.com/index/chatham-financial",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "GPT-5",
+        "OpenAI"
+      ],
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/5YyV7pXaAJJDcGDHvPniAF/4f73936c51d46e5bf8941e13f06987b2/chatham-financial-social-getty-texture.png?w=1600&amp;h=900&amp;fit=fill",
       "候选栏目": "AI",
       "编辑分": 80,
       "评分分项": {
@@ -116,20 +121,56 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-03T00:33:46+08:00"
+      "选入时间": "2026-10-03T05:13:10+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-03T00:33:46+08:00",
+    "as_of": "2026-10-03T05:13:10+08:00",
     "candidate_count": 604,
-    "rejected_count": 423,
+    "rejected_count": 422,
     "rejected": [
       {
         "id": 985629733,
         "reason": "off_topic"
       },
       {
+        "id": 3904637913,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3807032655,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3594450303,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3589171591,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3418249979,
+        "reason": "off_topic"
+      },
+      {
         "id": 3394890793,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3238148688,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3116856014,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2862064752,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1481696227,
         "reason": "off_topic"
       },
       {
@@ -1470,130 +1511,104 @@
         "reason": "off_topic"
       },
       {
-        "id": 318142574,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3171548012,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3050021744,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2976756535,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2975234227,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2960667083,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2876840882,
+        "id": 3327426918,
         "reason": "score_below_50",
-        "score": 49
+        "score": 37
       },
       {
-        "id": 2763514703,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 2758012753,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2694855892,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2591146375,
-        "reason": "off_topic"
-      },
-      {
-        "id": 196848754,
+        "id": 2067668095,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 2642854089,
+        "id": 3523147679,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 1705659376,
+        "id": 592352225,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 4078799493,
+        "id": 193187832,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 175176494,
+        "id": 520263358,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 1536088457,
+        "id": 2736218468,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 623224116,
+        "id": 3591416593,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 2773991723,
+        "id": 1435263885,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 386602517,
+        "id": 3830397605,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 729540048,
+        "id": 3953909777,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3991171692,
+        "id": 3327448826,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3013429953,
+        "id": 3334660041,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3807209768,
+        "id": 4288145799,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 3330653064,
+        "id": 2134486126,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 2423799528,
+        "id": 2708019545,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 1387767665,
+        "id": 3733939074,
         "reason": "score_below_50",
-        "score": 33
+        "score": 38
+      },
+      {
+        "id": 1872955698,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3198551120,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 34
       },
       {
         "id": 3911139526,
@@ -1606,27 +1621,17 @@
         "score": 32
       },
       {
-        "id": 963415812,
+        "id": 337259539,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 3733939074,
+        "id": 253350423,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 3816455234,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3358143421,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3757843185,
+        "id": 3799810095,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1634,16 +1639,6 @@
         "id": 1929306701,
         "reason": "score_below_50",
         "score": 32
-      },
-      {
-        "id": 2488645258,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 1372508447,
-        "reason": "score_below_50",
-        "score": 28
       },
       {
         "id": 3272171016,
@@ -1666,14 +1661,14 @@
         "score": 20
       },
       {
-        "id": 1447918101,
-        "reason": "score_below_50",
-        "score": 25
-      },
-      {
-        "id": 3308055480,
+        "id": 3598781908,
         "reason": "score_below_50",
         "score": 20
+      },
+      {
+        "id": 704377286,
+        "reason": "score_below_50",
+        "score": 25
       },
       {
         "id": 2470484058,
@@ -1686,12 +1681,12 @@
         "score": 16
       },
       {
-        "id": 93001606,
+        "id": 3336040900,
         "reason": "score_below_50",
         "score": 16
       },
       {
-        "id": 3336040900,
+        "id": 93001606,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1711,14 +1706,14 @@
         "score": 20
       },
       {
+        "id": 2813677068,
+        "reason": "score_below_50",
+        "score": 25
+      },
+      {
         "id": 3403640847,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 953092424,
-        "reason": "score_below_50",
-        "score": 16
       },
       {
         "id": 4190298209,
@@ -1773,7 +1768,7 @@
         "reason": "stale_section"
       },
       {
-        "id": 3633958241,
+        "id": 3628277920,
         "reason": "score_below_50",
         "score": 26
       },
@@ -1864,6 +1859,10 @@
         "reason": "invalid_or_future_date"
       },
       {
+        "id": 3483140898,
+        "reason": "invalid_or_future_date"
+      },
+      {
         "id": 2079532306,
         "reason": "invalid_or_future_date"
       },
@@ -1884,8 +1883,8 @@
         "reason": "invalid_or_future_date"
       },
       {
-        "id": 2129996195,
-        "reason": "invalid_or_future_date"
+        "id": 3354046764,
+        "reason": "near_duplicate"
       }
     ]
   }
