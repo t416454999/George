@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T14:33:47+08:00",
+  "updated": "2026-10-03T13:09:21+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "61.3k",
+      "星标": "61.2k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,96 +63,88 @@
       "名称": "paperclip",
       "repo": "paperclipai/paperclip",
       "说明": "The open-source app everyone uses to manage agents at work",
-      "星标": 96126,
-      "本周新增": 14335,
+      "星标": 96548,
+      "本周新增": 12825,
       "语言": "TypeScript"
     },
     {
       "名称": "hindsight",
       "repo": "vectorize-io/hindsight",
       "说明": "Hindsight: Agent Memory That Learns",
-      "星标": 44547,
-      "本周新增": 17403,
-      "语言": "Python"
-    },
-    {
-      "名称": "ai-engineering-from-scratch",
-      "repo": "rohitg00/ai-engineering-from-scratch",
-      "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 62589,
-      "本周新增": 6469,
+      "星标": 44905,
+      "本周新增": 16183,
       "语言": "Python"
     },
     {
       "名称": "impeccable",
       "repo": "pbakaus/impeccable",
       "说明": "The design language that makes your AI harness better at design.",
-      "星标": 74038,
-      "本周新增": 2704,
+      "星标": 74724,
+      "本周新增": 3124,
       "语言": "JavaScript"
     },
     {
-      "名称": "claude-skills",
-      "repo": "alirezarezvani/claude-skills",
-      "说明": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-      "星标": 27257,
-      "本周新增": 743,
+      "名称": "ai-engineering-from-scratch",
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "说明": "Learn it. Build it. Ship it for others.",
+      "星标": 62876,
+      "本周新增": 5600,
       "语言": "Python"
     },
     {
       "名称": "hyperframes",
       "repo": "heygen-com/hyperframes",
       "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 55680,
-      "本周新增": 2667,
+      "星标": 56136,
+      "本周新增": 2661,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "claude-skills",
+      "repo": "alirezarezvani/claude-skills",
+      "说明": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "星标": 27410,
+      "本周新增": 832,
+      "语言": "Python"
+    },
+    {
+      "名称": "Agent-Reach",
+      "repo": "Panniantong/Agent-Reach",
+      "说明": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "星标": 89392,
+      "本周新增": 3959,
+      "语言": "Python"
     },
     {
       "名称": "Octop",
       "repo": "TencentCloud/Octop",
       "说明": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "星标": 6331,
-      "本周新增": 1360,
-      "语言": "Python"
-    },
-    {
-      "名称": "ax",
-      "repo": "google/ax",
-      "说明": "Google's open agentic orchestration runtime",
-      "星标": 12841,
-      "本周新增": 2919,
-      "语言": "Go"
-    },
-    {
-      "名称": "financial-services",
-      "repo": "anthropics/financial-services",
-      "说明": null,
-      "星标": 38517,
-      "本周新增": 1270,
+      "星标": 6505,
+      "本周新增": 1425,
       "语言": "Python"
     },
     {
       "名称": "tilelang",
       "repo": "tile-ai/tilelang",
       "说明": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
-      "星标": 8211,
-      "本周新增": 481,
+      "星标": 8279,
+      "本周新增": 732,
       "语言": "Python"
-    },
-    {
-      "名称": "claude-code-action",
-      "repo": "anthropics/claude-code-action",
-      "说明": null,
-      "星标": 9354,
-      "本周新增": 376,
-      "语言": "TypeScript"
     },
     {
       "名称": "pytorch",
       "repo": "pytorch/pytorch",
       "说明": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "星标": 103616,
-      "本周新增": 376,
+      "星标": 103647,
+      "本周新增": 369,
+      "语言": "Python"
+    },
+    {
+      "名称": "MoneyPrinterTurbo",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "说明": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "星标": 128185,
+      "本周新增": 2533,
       "语言": "Python"
     }
   ]
