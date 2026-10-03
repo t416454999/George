@@ -1,509 +1,158 @@
 {
-  "updated": "2026-10-03T12:29:43+08:00",
+  "updated": "2026-10-03T16:40:02+08:00",
   "source": "极光引擎 · 平台热点聚合",
   "description": "各平台实时热点榜单聚合（仅公开标题+链接，不缓存全文）",
-  "count": 70,
+  "count": 20,
   "platforms": {
     "微博热搜": [],
     "知乎热榜": [],
     "B站热门": [
       {
         "rank": 1,
-        "title": "4名枪匪闯入豪宅，中国男子4秒13枪疯狂反击！",
-        "heat": "444.1万",
-        "raw_heat": 4441409,
-        "link": "https://www.bilibili.com/video/BV18Bam6eEBd"
+        "title": "有用版新植物：空调寒冰",
+        "heat": "82.8万",
+        "raw_heat": 827969,
+        "link": "https://www.bilibili.com/video/BV1W7HY6xErH"
       },
       {
         "rank": 2,
         "title": "我记得课本里的新疆，不是这样的啊？？",
-        "heat": "25.1万",
-        "raw_heat": 251156,
+        "heat": "78.1万",
+        "raw_heat": 781462,
         "link": "https://www.bilibili.com/video/BV1VCHY6BEcn"
       },
       {
         "rank": 3,
-        "title": "《霸凌の意志》",
-        "heat": "85.1万",
-        "raw_heat": 851142,
-        "link": "https://www.bilibili.com/video/BV1KmHb6JEFS"
+        "title": "撞断双腿后，我把油门踩到底 【探照灯计划】",
+        "heat": "29.6万",
+        "raw_heat": 295987,
+        "link": "https://www.bilibili.com/video/BV19faD6mEcF"
       },
       {
         "rank": 4,
         "title": "【独家】《凡人修仙传之慕兰之战》第18集【总第194集】",
-        "heat": "379.9万",
-        "raw_heat": 3798942,
+        "heat": "469.8万",
+        "raw_heat": 4698260,
         "link": "https://www.bilibili.com/video/BV1DxYP62EF3"
       },
       {
         "rank": 5,
-        "title": "hanser「花生与葱花」全程录像",
-        "heat": "4.8万",
-        "raw_heat": 47768,
-        "link": "https://www.bilibili.com/video/BV1r4a96KEfn"
+        "title": "带你吃绝密重庆",
+        "heat": "29.4万",
+        "raw_heat": 293860,
+        "link": "https://www.bilibili.com/video/BV1pHHY6XEzS"
       },
       {
         "rank": 6,
-        "title": "当你穿进老钱班36",
-        "heat": "20.6万",
-        "raw_heat": 205831,
-        "link": "https://www.bilibili.com/video/BV1wkHa6nEpn"
+        "title": "自学动画 爆肝俩月 自创一集《海绵宝宝》【手搓动画大赛】",
+        "heat": "10.8万",
+        "raw_heat": 107924,
+        "link": "https://www.bilibili.com/video/BV1TXHY6aETi"
       },
       {
         "rank": 7,
-        "title": "人狐情未了！谁不想要一个狐仙女友啊！",
-        "heat": "28.3万",
-        "raw_heat": 282721,
-        "link": "https://www.bilibili.com/video/BV1hFHh6FE41"
-      },
-      {
-        "rank": 8,
         "title": "我记录下来了我的十年，祝自己19岁生日快乐",
-        "heat": "85.1万",
-        "raw_heat": 851346,
+        "heat": "140.4万",
+        "raw_heat": 1404402,
         "link": "https://www.bilibili.com/video/BV1faak6AECm"
       },
       {
+        "rank": 8,
+        "title": "从今往后，我只吃小孩菜",
+        "heat": "69.0万",
+        "raw_heat": 690426,
+        "link": "https://www.bilibili.com/video/BV1Rna36gEj9"
+      },
+      {
         "rank": 9,
-        "title": "可恶的蚊子你也有今天",
-        "heat": "114.5万",
-        "raw_heat": 1145339,
-        "link": "https://www.bilibili.com/video/BV1GBa66HEC7"
+        "title": "当你穿进老钱班36",
+        "heat": "52.8万",
+        "raw_heat": 528069,
+        "link": "https://www.bilibili.com/video/BV1wkHa6nEpn"
       },
       {
         "rank": 10,
-        "title": "【纪录片】威尔史密斯的极地纵横 01 南极探险",
-        "heat": "170.6万",
-        "raw_heat": 1706198,
-        "link": "https://www.bilibili.com/video/BV1wUao6UEyD"
+        "title": "浅谈iPhone 18 Pro：赶紧骂，骂完还得买！",
+        "heat": "44.9万",
+        "raw_heat": 448535,
+        "link": "https://www.bilibili.com/video/BV1uWaD6rEE7"
       },
       {
         "rank": 11,
-        "title": "如何用5分钟让听日语歌的和唱中文歌的都沉默☝️",
-        "heat": "140.3万",
-        "raw_heat": 1402861,
-        "link": "https://www.bilibili.com/video/BV1Wqaz6PEkZ"
+        "title": "4名枪匪闯入豪宅，中国男子4秒13枪疯狂反击！",
+        "heat": "560.3万",
+        "raw_heat": 5602926,
+        "link": "https://www.bilibili.com/video/BV18Bam6eEBd"
       },
       {
         "rank": 12,
-        "title": "ピノキオピー - えねみぃ feat. 初音ミク・重音テト",
-        "heat": "131.5万",
-        "raw_heat": 1314672,
-        "link": "https://www.bilibili.com/video/BV1UGa961Ejt"
+        "title": "有一个人前来借寿【AI全民制作人】",
+        "heat": "81.2万",
+        "raw_heat": 811540,
+        "link": "https://www.bilibili.com/video/BV17vak6wErn"
       },
       {
         "rank": 13,
         "title": "【功夫女足】至尊无敌杯开赛！",
-        "heat": "60.1万",
-        "raw_heat": 600666,
+        "heat": "81.0万",
+        "raw_heat": 810066,
         "link": "https://www.bilibili.com/video/BV1c8aW6XEzz"
       },
       {
         "rank": 14,
-        "title": "从今往后，我只吃小孩菜",
-        "heat": "36.0万",
-        "raw_heat": 359872,
-        "link": "https://www.bilibili.com/video/BV1Rna36gEj9"
+        "title": "如何用5分钟让听日语歌的和唱中文歌的都沉默☝️",
+        "heat": "166.0万",
+        "raw_heat": 1660470,
+        "link": "https://www.bilibili.com/video/BV1Wqaz6PEkZ"
       },
       {
         "rank": 15,
-        "title": "美国中期选举临近，懂王一根筋最多可以几头堵？丨中国坐标",
-        "heat": "53.0万",
-        "raw_heat": 529841,
-        "link": "https://www.bilibili.com/video/BV1viaJ6wEgw"
-      },
-      {
-        "rank": 16,
-        "title": "中国同桌会飞（同桌请假就这么耍起",
-        "heat": "294.1万",
-        "raw_heat": 2941013,
-        "link": "https://www.bilibili.com/video/BV1vjar6sEBc"
-      },
-      {
-        "rank": 17,
-        "title": "我的老师竟然是二次元！！",
-        "heat": "149.0万",
-        "raw_heat": 1490204,
-        "link": "https://www.bilibili.com/video/BV1qraZ6GEMg"
-      },
-      {
-        "rank": 18,
-        "title": "勇夺季军！王钰栋宇宙级世界波+伤退，胡荷韬破门，李昊神扑，U23国足4比3乌兹勇夺亚运铜牌！",
-        "heat": "26.7万",
-        "raw_heat": 267031,
-        "link": "https://www.bilibili.com/video/BV1qQHa6VEAs"
-      },
-      {
-        "rank": 19,
         "title": "旅游第二天就车祸了？？【出发吧少年 02】",
-        "heat": "28.8万",
-        "raw_heat": 288033,
+        "heat": "41.4万",
+        "raw_heat": 413623,
         "link": "https://www.bilibili.com/video/BV1bWaD6rE1u"
       },
       {
+        "rank": 16,
+        "title": "「雨爱 (司凤版)」|“邦吧邦吧邦吧”|  \"听完感觉老通透了\"",
+        "heat": "80.7万",
+        "raw_heat": 806921,
+        "link": "https://www.bilibili.com/video/BV1faak6AEzm"
+      },
+      {
+        "rank": 17,
+        "title": "《霸凌の意志》",
+        "heat": "125.3万",
+        "raw_heat": 1253309,
+        "link": "https://www.bilibili.com/video/BV1KmHb6JEFS"
+      },
+      {
+        "rank": 18,
+        "title": "【水手】|“低山臭水遇知音 末法时代双子星”|【双子星の小曲】",
+        "heat": "220.1万",
+        "raw_heat": 2200922,
+        "link": "https://www.bilibili.com/video/BV19dat6nE9F"
+      },
+      {
+        "rank": 19,
+        "title": "人狐情未了！谁不想要一个狐仙女友啊！",
+        "heat": "42.8万",
+        "raw_heat": 428376,
+        "link": "https://www.bilibili.com/video/BV1hFHh6FE41"
+      },
+      {
         "rank": 20,
-        "title": "【2026·10月电脑配置推荐】爆肝一个月！教你装机不花冤枉钱！学生党直接抄作业，从2千-5万预算，共计28套台式电脑配置，小白必看攻略！电脑装机！建议收藏！",
-        "heat": "11.8万",
-        "raw_heat": 117841,
-        "link": "https://www.bilibili.com/video/BV18PHh64Er2"
+        "title": "【剧情】终极一班4（2016）01【曾沛慈 / 罗宏正】",
+        "heat": "27.1万",
+        "raw_heat": 271281,
+        "link": "https://www.bilibili.com/video/BV1neaA6bEtb"
       }
     ],
     "百度热搜": [],
     "抖音热榜": [],
     "头条热榜": [],
     "小红书热榜": [],
-    "快手热榜": [
-      {
-        "rank": 1,
-        "title": "跟着总书记唱响歌唱祖国",
-        "heat": "",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 2,
-        "title": "中国队169金89银83铜收官",
-        "heat": "1157.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 3,
-        "title": "中国男足时隔28年再夺亚运铜牌",
-        "heat": "1157万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 4,
-        "title": "带来的是空箱子带走的是中式生活",
-        "heat": "1156.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 5,
-        "title": "国庆献礼卷起来了",
-        "heat": "1156.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 6,
-        "title": "8万颗拼豆拼出祖国77周年长卷",
-        "heat": "1156.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 7,
-        "title": "为什么现在退房时酒店不查房了",
-        "heat": "1156.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 8,
-        "title": "我见识到手艺人放假的厉害了",
-        "heat": "1156.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 9,
-        "title": "昨晚国足惨败今天U23国足获铜牌",
-        "heat": "1156.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 10,
-        "title": "台媒紧盯解放军军机舰船台海活动",
-        "heat": "1135.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 11,
-        "title": "快手百米大战",
-        "heat": "1093.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 12,
-        "title": "饮用无醇啤酒后开车不会构成酒驾",
-        "heat": "1083.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 13,
-        "title": "中国夫妇刚拿澳洲绿卡车祸身亡",
-        "heat": "1078.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 14,
-        "title": "不烧心",
-        "heat": "1073.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 15,
-        "title": "乌兹别克斯坦门将赛后失落痛哭",
-        "heat": "1048.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 16,
-        "title": "行动即是相遇的转折点",
-        "heat": "1045.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 17,
-        "title": "周杰伦青岛演唱会",
-        "heat": "1039.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 18,
-        "title": "对手将李昊小抄水杯扔上看台",
-        "heat": "1032.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 19,
-        "title": "云南人爱吃撒撇",
-        "heat": "1027.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 20,
-        "title": "黑猫警长黑猫警长喵喵喵",
-        "heat": "1024.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 21,
-        "title": "国服拳手泰森申请出战",
-        "heat": "1020.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 22,
-        "title": "甲乙丙丁翻唱",
-        "heat": "1015.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 23,
-        "title": "新华社批国足0比5惨败",
-        "heat": "1012.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 24,
-        "title": "花花宇宙舞",
-        "heat": "1009.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 25,
-        "title": "郭朴3比0胜日本夺金",
-        "heat": "1006.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 26,
-        "title": "央视曝光租车公司划车骗赔偿",
-        "heat": "1001.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 27,
-        "title": "飞镖美食挑战",
-        "heat": "999.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 28,
-        "title": "马斯克和四孩母亲断崖式分手",
-        "heat": "994.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 29,
-        "title": "百米大战你应该马上来",
-        "heat": "991.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 30,
-        "title": "祖国完全统一的历史任务定能实现",
-        "heat": "989.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 31,
-        "title": "女孩们请大方勇敢地做自己",
-        "heat": "987.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 32,
-        "title": "刺伤机长飞行员承认意图在以坠机",
-        "heat": "985.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 33,
-        "title": "中国足球小将夺日本杯赛冠军",
-        "heat": "982.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 34,
-        "title": "开火车舞",
-        "heat": "980.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 35,
-        "title": "伊朗愿增进中伊省市合作",
-        "heat": "978.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 36,
-        "title": "董路怒批邵佳一排兵布阵",
-        "heat": "975.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 37,
-        "title": "泰国汶颂当选名古屋亚运会MVP",
-        "heat": "972.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 38,
-        "title": "老师借书反批学生没带书",
-        "heat": "970.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 39,
-        "title": "七国集团将释放1亿桶石油",
-        "heat": "967.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 40,
-        "title": "桐桐就酱版闪身步",
-        "heat": "964.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 41,
-        "title": "中国足球小将vs全日本冠军",
-        "heat": "962.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 42,
-        "title": "甘肃省委书记吴晓军在定西市调研",
-        "heat": "959.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 43,
-        "title": "郑钦文连续3年进中网32强",
-        "heat": "956.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 44,
-        "title": "小猪佩奇片尾看了让人暖暖的",
-        "heat": "954.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 45,
-        "title": "王钰栋铜牌战轰出世界波",
-        "heat": "952万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 46,
-        "title": "李昊两扑点球",
-        "heat": "947.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 47,
-        "title": "清唱一曲失控",
-        "heat": "946.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 48,
-        "title": "天安门凌晨排队人山人海",
-        "heat": "945.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 49,
-        "title": "Hero战胜AG",
-        "heat": "944.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 50,
-        "title": "闪身步闪现百米大战现场",
-        "heat": "943.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      }
-    ],
+    "快手热榜": [],
     "微信热点": []
   }
 }
