@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T13:48:54+08:00",
+  "updated": "2026-10-05T16:56:14+08:00",
   "stable": [
     {
       "名称": "Ollama",
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "147.4k",
+      "星标": "147.5k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -60,100 +60,100 @@
   ],
   "trending": [
     {
+      "名称": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "说明": "The design language that makes your AI harness better at design.",
+      "星标": 76913,
+      "本周新增": 4242,
+      "语言": "JavaScript"
+    },
+    {
       "名称": "paperclip",
       "repo": "paperclipai/paperclip",
       "说明": "The open-source app everyone uses to manage agents at work",
-      "星标": 96969,
-      "本周新增": 10722,
+      "星标": 97523,
+      "本周新增": 8732,
       "语言": "TypeScript"
     },
     {
       "名称": "hindsight",
       "repo": "vectorize-io/hindsight",
       "说明": "Hindsight: Agent Memory That Learns",
-      "星标": 45325,
-      "本周新增": 14507,
+      "星标": 45829,
+      "本周新增": 10623,
       "语言": "Python"
-    },
-    {
-      "名称": "impeccable",
-      "repo": "pbakaus/impeccable",
-      "说明": "The design language that makes your AI harness better at design.",
-      "星标": 75881,
-      "本周新增": 3311,
-      "语言": "JavaScript"
     },
     {
       "名称": "hyperframes",
       "repo": "heygen-com/hyperframes",
       "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 56518,
-      "本周新增": 3011,
+      "星标": 57152,
+      "本周新增": 3096,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "ai-engineering-from-scratch",
-      "repo": "rohitg00/ai-engineering-from-scratch",
-      "说明": "Learn it. Build it. Ship it for others.",
-      "星标": 63560,
-      "本周新增": 5059,
-      "语言": "Python"
     },
     {
       "名称": "Agent-Reach",
       "repo": "Panniantong/Agent-Reach",
       "说明": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "星标": 90415,
-      "本周新增": 3952,
+      "星标": 91657,
+      "本周新增": 4789,
+      "语言": "Python"
+    },
+    {
+      "名称": "ponytail",
+      "repo": "DietrichGebert/ponytail",
+      "说明": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "星标": 155758,
+      "本周新增": 7948,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "tuios",
+      "repo": "Gaurav-Gosain/tuios",
+      "说明": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+      "星标": 4774,
+      "本周新增": 708,
+      "语言": "Go"
+    },
+    {
+      "名称": "ai-engineering-from-scratch",
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "说明": "Learn it. Build it. Ship it for others.",
+      "星标": 64580,
+      "本周新增": 4904,
       "语言": "Python"
     },
     {
       "名称": "claude-skills",
       "repo": "alirezarezvani/claude-skills",
       "说明": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-      "星标": 27559,
-      "本周新增": 948,
+      "星标": 27668,
+      "本周新增": 1024,
+      "语言": "Python"
+    },
+    {
+      "名称": "cloudflare-os",
+      "repo": "cloudflare/cloudflare-os",
+      "说明": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "星标": 10901,
+      "本周新增": 655,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "tilelang",
+      "repo": "tile-ai/tilelang",
+      "说明": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "星标": 8408,
+      "本周新增": 839,
       "语言": "Python"
     },
     {
       "名称": "Octop",
       "repo": "TencentCloud/Octop",
       "说明": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "星标": 6671,
-      "本周新增": 1476,
+      "星标": 6944,
+      "本周新增": 1496,
       "语言": "Python"
-    },
-    {
-      "名称": "tilelang",
-      "repo": "tile-ai/tilelang",
-      "说明": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
-      "星标": 8315,
-      "本周新增": 800,
-      "语言": "Python"
-    },
-    {
-      "名称": "MoneyPrinterTurbo",
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "说明": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "星标": 128364,
-      "本周新增": 2324,
-      "语言": "Python"
-    },
-    {
-      "名称": "OpenShell",
-      "repo": "NVIDIA/OpenShell",
-      "说明": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "星标": 14766,
-      "本周新增": 5854,
-      "语言": "Rust"
-    },
-    {
-      "名称": "openrig",
-      "repo": "mvschwarz/openrig",
-      "说明": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-      "星标": 4840,
-      "本周新增": 4245,
-      "语言": "TypeScript"
     }
   ]
 }
