@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T08:06:55+08:00",
+  "generated": "2026-10-05T14:05:26+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3333345634,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -32,7 +32,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 78,
       "评分分项": {
         "可信度": 25,
@@ -49,31 +49,32 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-05T08:06:55+08:00"
+      "选入时间": "2026-10-05T14:05:26+08:00"
     },
     {
-      "id": 98267617,
-      "标题": "【原生·研究】K-Dense BYOK：在本地运行并保留哈希链实验室笔记本的开源人工智能研究助手",
-      "摘要": "arXiv:2610.00074v1 Announce Type: new Abstract: K-Dense BYOK (bring your own keys) is a free, open-source AI research assistant for scientists in any field that runs on the",
-      "内容": "arXiv:2610.00074v1 Announce Type: new Abstract: K-Dense BYOK (bring your own keys) is a free, open-source AI research assistant for scientists in any field that runs on the",
+      "id": 3923601325,
+      "标题": "【原生·开发者】DeReAct：可靠人工智能代理的分解推理和行动",
+      "摘要": "arXiv:2610.02351v1 Announce Type: new Abstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task",
+      "内容": "arXiv:2610.02351v1 Announce Type: new Abstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task",
       "来源": "arXiv AI",
       "分类": "原生资讯",
-      "日期": "2026-10-02",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2610.00074",
+      "日期": "2026-10-05",
+      "热度": 58,
+      "链接": "https://arxiv.org/abs/2610.02351",
       "标签": [
         "原生资讯",
-        "arXiv AI"
+        "arXiv AI",
+        "AI Agent"
       ],
-      "原标题": "【原生·研究】K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
+      "原标题": "【原生·开发者】DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
       "中文提炼": "",
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 73,
+      "编辑分": 86,
       "评分分项": {
         "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
+        "时效": 20,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -85,7 +86,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-05T08:06:55+08:00"
+      "选入时间": "2026-10-05T14:05:26+08:00"
     },
     {
       "id": 548687616,
@@ -123,20 +124,40 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-05T08:06:55+08:00"
+      "选入时间": "2026-10-05T14:05:26+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-05T08:06:55+08:00",
+    "as_of": "2026-10-05T14:05:26+08:00",
     "candidate_count": 604,
-    "rejected_count": 438,
+    "rejected_count": 437,
     "rejected": [
       {
         "id": 949591150,
         "reason": "off_topic"
       },
       {
+        "id": 831250447,
+        "reason": "off_topic"
+      },
+      {
         "id": 818384718,
+        "reason": "off_topic"
+      },
+      {
+        "id": 74394443,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4163813455,
+        "reason": "off_topic"
+      },
+      {
+        "id": 413168767,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4086301373,
         "reason": "off_topic"
       },
       {
@@ -148,11 +169,31 @@
         "reason": "off_topic"
       },
       {
+        "id": 3610364161,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3492256863,
+        "reason": "off_topic"
+      },
+      {
+        "id": 344978660,
+        "reason": "off_topic"
+      },
+      {
         "id": 3365920172,
         "reason": "off_topic"
       },
       {
         "id": 3222738774,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3063734354,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2955425351,
         "reason": "off_topic"
       },
       {
@@ -164,7 +205,31 @@
         "reason": "off_topic"
       },
       {
+        "id": 2391058510,
+        "reason": "off_topic"
+      },
+      {
         "id": 2078351019,
+        "reason": "off_topic"
+      },
+      {
+        "id": 195672432,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1297908506,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1168766394,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1079690811,
+        "reason": "rumor_or_unverified"
+      },
+      {
+        "id": 1073030024,
         "reason": "off_topic"
       },
       {
@@ -1506,74 +1571,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 2738800911,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2424125749,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2367168991,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2319894817,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2308221004,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2195079611,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2166532347,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1978115378,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1936375593,
-        "reason": "off_topic"
-      },
-      {
-        "id": 178975048,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1600890797,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1565174154,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1453335178,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1432643224,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1374354127,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1256365648,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1243012089,
-        "reason": "off_topic"
-      },
-      {
         "id": 3327426918,
         "reason": "score_below_50",
         "score": 25
@@ -1654,12 +1651,7 @@
         "score": 21
       },
       {
-        "id": 2937467675,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3135816974,
+        "id": 2052926769,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1669,14 +1661,14 @@
         "score": 38
       },
       {
-        "id": 2052926769,
+        "id": 1140042113,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 3554174705,
+        "id": 3952275201,
         "reason": "score_below_50",
-        "score": 38
+        "score": 43
       },
       {
         "id": 2488645258,
@@ -1684,7 +1676,12 @@
         "score": 34
       },
       {
-        "id": 3067769796,
+        "id": 2831869886,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1692021906,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1694,7 +1691,7 @@
         "score": 32
       },
       {
-        "id": 3259990017,
+        "id": 2202953566,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1709,7 +1706,7 @@
         "score": 26
       },
       {
-        "id": 1508276190,
+        "id": 3074961217,
         "reason": "score_below_50",
         "score": 31
       },
@@ -1717,11 +1714,6 @@
         "id": 2008050248,
         "reason": "score_below_50",
         "score": 22
-      },
-      {
-        "id": 1148159183,
-        "reason": "score_below_50",
-        "score": 20
       },
       {
         "id": 1417015443,
@@ -1744,6 +1736,11 @@
         "score": 16
       },
       {
+        "id": 318190491,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
         "id": 619245987,
         "reason": "score_below_50",
         "score": 16
@@ -1764,17 +1761,17 @@
         "score": 16
       },
       {
-        "id": 318190491,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 2813677068,
         "reason": "score_below_50",
         "score": 25
       },
       {
-        "id": 4173779993,
+        "id": 953092424,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 2793568773,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1876,7 +1873,7 @@
         "score": 30
       },
       {
-        "id": 1904413987,
+        "id": 21484413,
         "reason": "score_below_50",
         "score": 26
       },
