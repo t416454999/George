@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T00:10:08+08:00",
+  "generated": "2026-10-07T05:09:41+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 984635185,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,68 +49,29 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-07T00:10:08+08:00"
+      "选入时间": "2026-10-07T05:09:41+08:00"
     },
     {
-      "id": 3923601325,
-      "标题": "【原生·开发者】DeReAct：可靠人工智能代理的分解推理和行动",
-      "摘要": "arXiv:2610.02351v1 Announce Type: new Abstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task",
-      "内容": "arXiv:2610.02351v1 Announce Type: new Abstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-10-05",
-      "热度": 58,
-      "链接": "https://arxiv.org/abs/2610.02351",
-      "标签": [
-        "原生资讯",
-        "arXiv AI",
-        "AI Agent"
-      ],
-      "原标题": "【原生·开发者】DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 74,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-07T00:10:08+08:00"
-    },
-    {
-      "id": 3869500374,
-      "标题": "【原生·一手】我们对欧盟文本来源规则的处理方法",
-      "摘要": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "内容": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "id": 4252742912,
+      "标题": "【原生·一手】Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "摘要": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver",
+      "内容": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
-      "日期": "2026-10-05",
+      "日期": "2026-10-06",
       "热度": 59,
-      "链接": "https://openai.com/index/eu-text-provenance",
+      "链接": "https://openai.com/index/atlassian-partnership",
       "标签": [
         "原生资讯",
         "OpenAI 官方",
         "OpenAI"
       ],
-      "原标题": "【原生·一手】Our approach to EU text provenance rules",
-      "中文提炼": "",
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/7u8k3vMOefnc2eIwqAZlCJ/5e39aad76e07dc260070eae95d545d6f/ChatGPT_Image_5_Oct_2026__18_22_35.png?w=1600&amp;h=900&amp;fit=fill",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/6QbNTCFAGpVGjDLSMfKf9M/e571659e9694e08b73f5e73a01a0682c/atlassian-social-official.png?w=1600&amp;h=900&amp;fit=fill",
       "候选栏目": "AI",
-      "编辑分": 74,
+      "编辑分": 80,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
+        "时效": 14,
         "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
@@ -123,16 +84,75 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-07T00:10:08+08:00"
+      "选入时间": "2026-10-07T05:09:41+08:00"
+    },
+    {
+      "id": 1605260936,
+      "标题": "Building Git infrastructure for agent-scale development",
+      "摘要": "Writes are accelerating, and this growth can add stress to systems all repos depend on. Here's our approach to building architecture that can scale. The post Building Git",
+      "内容": "Writes are accelerating, and this growth can add stress to systems all repos depend on. Here's our approach to building architecture that can scale. The post Building Git",
+      "来源": "GitHub 官方博客",
+      "分类": "AI应用",
+      "日期": "2026-10-06",
+      "热度": 50,
+      "链接": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+      "标签": [],
+      "图片": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png",
+      "候选栏目": "AI",
+      "编辑分": 80,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-07T05:09:41+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-07T00:10:08+08:00",
+    "as_of": "2026-10-07T05:09:41+08:00",
     "candidate_count": 604,
-    "rejected_count": 441,
+    "rejected_count": 438,
     "rejected": [
       {
+        "id": 932769954,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3858692337,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3789591242,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3688656955,
+        "reason": "off_topic"
+      },
+      {
         "id": 2765037829,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2529409245,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2420672746,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2068886757,
         "reason": "off_topic"
       },
       {
@@ -1547,46 +1567,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 4165939514,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4061677085,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3811317308,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3806029150,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3666207931,
-        "reason": "off_topic"
-      },
-      {
-        "id": 365240984,
-        "reason": "off_topic"
-      },
-      {
-        "id": 365201186,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3478657722,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3442558129,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3411490910,
-        "reason": "off_topic"
-      },
-      {
         "id": 1090589964,
         "reason": "score_below_50",
         "score": 33
@@ -1667,12 +1647,42 @@
         "score": 33
       },
       {
-        "id": 2154267799,
+        "id": 3748774765,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2308993377,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3113085548,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3647773451,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1243539803,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 528949667,
+        "id": 2282170569,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2468661368,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2851660644,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1682,22 +1692,7 @@
         "score": 32
       },
       {
-        "id": 4259588815,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1643102547,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3646182789,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2989663108,
+        "id": 2059305084,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1717,6 +1712,11 @@
         "score": 22
       },
       {
+        "id": 3384667701,
+        "reason": "score_below_50",
+        "score": 22
+      },
+      {
         "id": 2303001368,
         "reason": "score_below_50",
         "score": 20
@@ -1727,19 +1727,9 @@
         "score": 20
       },
       {
-        "id": 704377286,
+        "id": 1447918101,
         "reason": "score_below_50",
         "score": 25
-      },
-      {
-        "id": 1528479258,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 182368273,
-        "reason": "score_below_50",
-        "score": 20
       },
       {
         "id": 2470484058,
@@ -1747,7 +1737,7 @@
         "score": 16
       },
       {
-        "id": 4195623734,
+        "id": 619245987,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1757,7 +1747,7 @@
         "score": 16
       },
       {
-        "id": 93001606,
+        "id": 461933557,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1767,29 +1757,19 @@
         "score": 16
       },
       {
-        "id": 76196422,
+        "id": 688858806,
         "reason": "score_below_50",
         "score": 20
       },
       {
-        "id": 318190491,
+        "id": 444437417,
         "reason": "score_below_50",
         "score": 20
       },
       {
-        "id": 2813677068,
+        "id": 2175254021,
         "reason": "score_below_50",
         "score": 25
-      },
-      {
-        "id": 1454462294,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 953092424,
-        "reason": "score_below_50",
-        "score": 16
       },
       {
         "id": 4190298209,
@@ -1849,11 +1829,6 @@
         "score": 26
       },
       {
-        "id": 125945372,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
         "id": 3526750235,
         "reason": "score_below_50",
         "score": 30
@@ -1864,12 +1839,12 @@
         "score": 30
       },
       {
-        "id": 2665589906,
+        "id": 1263039081,
         "reason": "score_below_50",
-        "score": 30
+        "score": 26
       },
       {
-        "id": 864756933,
+        "id": 2695004871,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1880,6 +1855,21 @@
       },
       {
         "id": 2970742308,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
+        "id": 2884733608,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
+        "id": 2427294995,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
+        "id": 2528065718,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1899,24 +1889,14 @@
         "score": 35
       },
       {
-        "id": 2266033708,
+        "id": 2624698564,
         "reason": "score_below_50",
-        "score": 24
+        "score": 31
       },
       {
         "id": 827143116,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 468590270,
-        "reason": "score_below_50",
-        "score": 24
-      },
-      {
-        "id": 3500451893,
-        "reason": "score_below_50",
-        "score": 24
       },
       {
         "id": 2684525644,
