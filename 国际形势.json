@@ -1,13 +1,67 @@
 {
-  "updated": "2026-10-06T17:16:38+08:00",
-  "as_of": "2026-10-06T17:16:38+08:00",
+  "updated": "2026-10-07T00:09:58+08:00",
+  "as_of": "2026-10-07T00:09:58+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "partial",
-  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
+  "status": "ok",
+  "message": "",
   "count": 40,
   "articles": [
+    {
+      "id": 4064245330,
+      "标题": "儿基会：近100个国家超过3.47亿儿童面临极端天气威胁",
+      "摘要": "联合国儿童基金会周二表示，2026至2027年厄尔尼诺现象预计将成为有记录以来最强的厄尔尼诺事件之一。异常湿润和干旱状况预计将增加极端天气事件的发生概率，包括严重洪水和严重干旱，威胁近100个国家和地区儿童的生命、健康和教育",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142945",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4064245330.webp",
+      "封面": "assets/media/un-4064245330.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/2810-2021-MADAGASCAR-CHILDREN-UNICEF.jpg/image560x340cropped.jpg",
+      "导语": "联合国儿童基金会周二表示，2026至2027年厄尔尼诺现象预计将成为有记录以来最强的厄尔尼诺事件之一。异常湿润和干旱状况预计将增加极端天气事件的发生概率，包括严重洪水和严重干旱，威胁近100个国家和地区儿童的生命、健康和",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国儿童基金会周二表示，2026至2027年厄尔尼诺现象预计将成为有记录以来最强的厄尔尼诺事件之一。异常湿润和干旱状况预计将增加极端天气事件的发生概率，包括严重洪水和严重干旱，威胁近100个国家和地区儿童的生命、健康和教育。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142945",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 341398976,
+      "标题": "访问巴基斯坦 古特雷斯赞扬该国在和平和气候行动中发挥关键作用",
+      "摘要": "联合国秘书长古特雷斯周二访问巴基斯坦，重申联合国与巴基斯坦人民的团结，并赞扬该国在地区和平、维和行动及应对气候危机中发挥的关键作用",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142944",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-341398976.webp",
+      "封面": "assets/media/un-341398976.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/06-10-2026_SG_Pakistan_Presser.jpg/image560x340cropped.jpg",
+      "导语": "联合国秘书长古特雷斯周二访问巴基斯坦，重申联合国与巴基斯坦人民的团结，并赞扬该国在地区和平、维和行动及应对气候危机中发挥的关键作用",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长古特雷斯周二访问巴基斯坦，重申联合国与巴基斯坦人民的团结，并赞扬该国在地区和平、维和行动及应对气候危机中发挥的关键作用。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142944",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 984635185,
       "标题": "世卫组织：受访欧洲年轻人中三分之二经历过童年逆境",
@@ -603,510 +657,483 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 2552364113,
-      "标题": "副人权高专：制度性种族主义影响非洲裔人群",
-      "摘要": "联合国人权事务副高级专员达博周三在日内瓦向人权理事会第六十三届会议表示，制度性种族主义影响全球非洲人和非洲裔人群的执法及刑事司法体系，种族定性、过度使用武力以及拘留设施中比例过高等现象仍然存在",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-30",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142917",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2552364113.webp",
-      "封面": "assets/media/un-2552364113.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/29-01-2026-IOM-Deo-Kato-02.jpg/image560x340cropped.jpg",
-      "导语": "联合国人权事务副高级专员达博周三在日内瓦向人权理事会第六十三届会议表示，制度性种族主义影响全球非洲人和非洲裔人群的执法及刑事司法体系，种族定性、过度使用武力以及拘留设施中比例过高等现象仍然存在",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国人权事务副高级专员达博周三在日内瓦向人权理事会第六十三届会议表示，制度性种族主义影响全球非洲人和非洲裔人群的执法及刑事司法体系，种族定性、过度使用武力以及拘留设施中比例过高等现象仍然存在。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142917",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 59554909,
-      "标题": "有组织犯罪利润率不断攀升，但凶杀案数量下降",
-      "摘要": "周三发布的一份联合国新报告显示，尽管全球大部分地区的凶杀案发生率正在下降，但在许多地区，有组织犯罪却呈上升趋势，因为犯罪网络正向人口贩运、偷运移民以及自然资源开采等领域多元化发展",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-30",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142916",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-59554909.webp",
-      "封面": "assets/media/un-59554909.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/12-06-2024-UNODC-Philippines-4-LG.jpg/image560x340cropped.jpg",
-      "导语": "周三发布的一份联合国新报告显示，尽管全球大部分地区的凶杀案发生率正在下降，但在许多地区，有组织犯罪却呈上升趋势，因为犯罪网络正向人口贩运、偷运移民以及自然资源开采等领域多元化发展",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "周三发布的一份联合国新报告显示，尽管全球大部分地区的凶杀案发生率正在下降，但在许多地区，有组织犯罪却呈上升趋势，因为犯罪网络正向人口贩运、偷运移民以及自然资源开采等领域多元化发展。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142916",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2721127547,
-      "标题": "世卫组织：烟草税改革有助于降低吸烟率并增加公共收入",
-      "摘要": "一项针对15个国家的最新独立分析显示，2009年至2025年间，所有受分析国家的卷烟税收政策均有所改进。大幅提高税收、简化税制，并防止香烟随着收入增长而变得更加容易负担的国家，取得了更明显的成效",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-30",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142915",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2721127547.webp",
-      "封面": "assets/media/un-2721127547.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/11-06-26_WHO_India_no_tobacco.jpeg/image560x340cropped.jpg",
-      "导语": "一项针对15个国家的最新独立分析显示，2009年至2025年间，所有受分析国家的卷烟税收政策均有所改进。大幅提高税收、简化税制，并防止香烟随着收入增长而变得更加容易负担的国家，取得了更明显的成效",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "一项针对15个国家的最新独立分析显示，2009年至2025年间，所有受分析国家的卷烟税收政策均有所改进。大幅提高税收、简化税制，并防止香烟随着收入增长而变得更加容易负担的国家，取得了更明显的成效。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142915",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 349770022,
-      "标题": "世卫组织发布预防大型集会高温相关疾病新指南",
-      "摘要": "世界卫生组织周三发布新的证据综述及指导方针指出，大型体育、宗教和文化活动中的大多数高温相关疾病可以通过及时采取风险管理措施预防或现场治疗",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-30",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142914",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-349770022.webp",
-      "封面": "assets/media/un-349770022.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/30-09-2026-Unsplash-heat-01.jpg/image560x340cropped.jpg",
-      "导语": "世界卫生组织周三发布新的证据综述及指导方针指出，大型体育、宗教和文化活动中的大多数高温相关疾病可以通过及时采取风险管理措施预防或现场治疗",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "世界卫生组织周三发布新的证据综述及指导方针指出，大型体育、宗教和文化活动中的大多数高温相关疾病可以通过及时采取风险管理措施预防或现场治疗。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142914",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2516783385,
-      "标题": "难民署对马来西亚遣返缅甸难民表示关切",
-      "摘要": "联合国难民署周三对马来西亚近期在缅甸冲突持续、人权与人道主义局势严峻的情况下，将1476人遣返缅甸一事表示关切",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-30",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142913",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2516783385.webp",
-      "封面": "assets/media/un-2516783385.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2015/11/23243/image560x340cropped.jpg",
-      "导语": "联合国难民署周三对马来西亚近期在缅甸冲突持续、人权与人道主义局势严峻的情况下，将1476人遣返缅甸一事表示关切",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国难民署周三对马来西亚近期在缅甸冲突持续、人权与人道主义局势严峻的情况下，将1476人遣返缅甸一事表示关切。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142913",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4281698126,
-      "标题": "人权高专谴责缅甸若开邦市场致命空袭",
-      "摘要": "联合国人权事务高级专员蒂尔克周二谴责缅甸军方在西北部若开邦觉陶镇发动的空袭。据报道，至少50人死亡，包括商贩、顾客、运输工人及其他平民，其中包括儿童和妇女；另有至少58人受伤",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-29",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142912",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-4281698126.webp",
-      "封面": "assets/media/un-4281698126.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/13-08-2026-WFP-Myanmar-flood-01.jpg/image560x340cropped.jpg",
-      "导语": "联合国人权事务高级专员蒂尔克周二谴责缅甸军方在西北部若开邦觉陶镇发动的空袭。据报道，至少50人死亡，包括商贩、顾客、运输工人及其他平民，其中包括儿童和妇女；另有至少58人受伤",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国人权事务高级专员蒂尔克周二谴责缅甸军方在西北部若开邦觉陶镇发动的空袭。据报道，至少50人死亡，包括商贩、顾客、运输工人及其他平民，其中包括儿童和妇女；另有至少58人受伤。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142912",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2418118398,
-      "标题": "产权组织全球创新指数：瑞士、瑞典、美国等位居前列 人工智能推动创新投资回升",
-      "摘要": "世界知识产权组织周二发布的2026年全球创新指数显示，瑞士、瑞典、美国、韩国和新加坡继续位居全球创新排名前列。与此同时，人工智能推动风险资本融资和研发支出回升，新兴经济体继续展现创新增长势头",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-29",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142911",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2418118398.webp",
-      "封面": "assets/media/un-2418118398.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/23-03-21-WIPO-Assistive-Technology-Video-Screengrab.jpg/image560x340cropped.jpg",
-      "导语": "世界知识产权组织周二发布的2026年全球创新指数显示，瑞士、瑞典、美国、韩国和新加坡继续位居全球创新排名前列。与此同时，人工智能推动风险资本融资和研发支出回升，新兴经济体继续展现创新增长势头",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "世界知识产权组织周二发布的2026年全球创新指数显示，瑞士、瑞典、美国、韩国和新加坡继续位居全球创新排名前列。与此同时，人工智能推动风险资本融资和研发支出回升，新兴经济体继续展现创新增长势头。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142911",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 306128089,
-      "标题": "难民署：830万人面临失去关键援助风险",
-      "摘要": "难民署周二发布报告说，持续严重的资金削减正使全球主要流离失所地区的援助和保护体系面临严重压力，近830万难民、其他被迫流离失所者及无国籍人面临失去关键援助的风险",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-29",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142910",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-306128089.webp",
-      "封面": "assets/media/un-306128089.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/29-09-2026-UNHCR-Burundi.jpg/image560x340cropped.jpg",
-      "导语": "难民署周二发布报告说，持续严重的资金削减正使全球主要流离失所地区的援助和保护体系面临严重压力，近830万难民、其他被迫流离失所者及无国籍人面临失去关键援助的风险",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "难民署周二发布报告说，持续严重的资金削减正使全球主要流离失所地区的援助和保护体系面临严重压力，近830万难民、其他被迫流离失所者及无国籍人面临失去关键援助的风险。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142910",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4060823157,
-      "标题": "刚果（金）东部冲突外交努力仍在进行 局势依然严峻",
-      "摘要": "联合国秘书长刚果民主共和国（刚果（金））问题特别代表兼联合国刚果民主共和国稳定团团长斯旺周二向安理会通报局势时说，围绕结束刚果（金）东部冲突的外交努力仍在进行，但当地安全和人道主义形势依然严峻",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-29",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142908",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-4060823157.webp",
-      "封面": "assets/media/un-4060823157.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/26-05-2026_ONUNews-Monusco01.png/image560x340cropped.jpg",
-      "导语": "联合国秘书长刚果民主共和国（刚果（金））问题特别代表兼联合国刚果民主共和国稳定团团长斯旺周二向安理会通报局势时说，围绕结束刚果（金）东部冲突的外交努力仍在进行，但当地安全和人道主义形势依然严峻",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国秘书长刚果民主共和国（刚果（金））问题特别代表兼联合国刚果民主共和国稳定团团长斯旺周二向安理会通报局势时说，围绕结束刚果（金）东部冲突的外交努力仍在进行，但当地安全和人道主义形势依然严峻。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142908",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4145417445,
-      "标题": "核武器风险正在加剧 推动裁军并消除核武器乃当务之急",
-      "摘要": "联合国秘书长古特雷斯周二在“彻底消除核武器国际日”全体会议上说，当前正值冷战结束以来最危险的核危机时刻。广岛和长崎遭受核爆81年后，核武器依然给人类投下阴影，而且这片阴影正在加深",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-29",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142907",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-4145417445.webp",
-      "封面": "assets/media/un-4145417445.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/21-05-2026_UN%20PHOTO_New%20York%201.jpeg/image560x340cropped.jpg",
-      "导语": "联合国秘书长古特雷斯周二在“彻底消除核武器国际日”全体会议上说，当前正值冷战结束以来最危险的核危机时刻。广岛和长崎遭受核爆81年后，核武器依然给人类投下阴影，而且这片阴影正在加深",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国秘书长古特雷斯周二在“彻底消除核武器国际日”全体会议上说，当前正值冷战结束以来最危险的核危机时刻。广岛和长崎遭受核爆81年后，核武器依然给人类投下阴影，而且这片阴影正在加深。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142907",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3125416793,
-      "标题": "【专题报道】从谈判桌到维和一线：四位女性，如何改变联合国",
-      "摘要": "1945年，当来自世界各国的代表聚集在旧金山，讨论一个战后新国际组织的诞生时，谈判桌几乎被男性占据。 但在这个男性占主导地位的世界里，一些女性已经开始推动改变。她们来自不同国家，经历各不相同：有中国教育家，有参与民族独立运动的政治活动家，有来自拉丁美洲的女性权利倡导者，也有后来进入国际安全领域、指挥联合国维和行动的军人。 从1945年联合国诞生，到首位女性联合国维和部队司令上任，女性逐渐从会议室的少数，走向国际事务的不同核心领域。 她们",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-09-29",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/09/1142807",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3125416793.webp",
-      "封面": "assets/media/un-3125416793.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/24-12-2024-UN_Photo-UN_HQs.jpg/image560x340cropped.jpg",
-      "导语": "1945年，当来自世界各国的代表聚集在旧金山，讨论一个战后新国际组织的诞生时，谈判桌几乎被男性占据。 但在这个男性占主导地位的世界里，一些女性已经开始推动改变。她们来自不同国家，经历各不相同：有中国教育家，有参与民族独立",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "1945年，当来自世界各国的代表聚集在旧金山，讨论一个战后新国际组织的诞生时，谈判桌几乎被男性占据。 但在这个男性占主导地位的世界里，一些女性已经开始推动改变。她们来自不同国家，经历各不相同：有中国教育家，有参与民族独立运动的政治活动家，有来自拉丁美洲的女性权利倡导者，也有后来进入国际安全领域、指挥联合国维和行动的军人。 从1945年联合国诞生，到首位女性联合国维和部队司令上任，女性逐渐从会议室的少数，走向国际事务的不同核心领域。 她们。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/09/1142807",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3327426918,
+      "id": 1090589964,
       "标题": "外文资讯",
-      "原标题": "США запровадили санкції проти фінансової мережі , пов язаної з Росією",
+      "原标题": "Arab News | Israel puts military on alert for Oct 7 anniversary , warns Gazans",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 eurointegration.com.ua 最新报道，点击阅读原文。",
-      "来源": "eurointegration.com.ua",
+      "摘要": "全球新闻索引收录的 arabnews.com 最新报道，点击阅读原文。",
+      "来源": "arabnews.com",
       "分类": "国际形势",
-      "日期": "2026-10-02",
-      "链接": "https://www.eurointegration.com.ua/news/2026/10/2/7246774/",
+      "日期": "2026-10-06",
+      "链接": "https://www.arabnews.com/middle-east/israel-puts-military-on-alert-for-oct-7-anniversary-warns-gazans-3004830",
       "标签": [
         "国际",
         "全球媒体"
       ],
-      "原始图片": "https://img.eurointegration.com.ua/images/doc/7/0/7067ea2-images---2026-10-02t083002.139.jpeg",
-      "数据截至": "2026-10-03T22:20:51+00:00",
+      "原始图片": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1791270137568-8ea5f95a20d1922f.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 eurointegration.com.ua 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 arabnews.com 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 eurointegration.com.ua 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 arabnews.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://www.eurointegration.com.ua/news/2026/10/2/7246774/",
-      "出处说明": "根据eurointegration.com.ua公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://www.arabnews.com/middle-east/israel-puts-military-on-alert-for-oct-7-anniversary-warns-gazans-3004830",
+      "出处说明": "根据arabnews.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 2067668095,
-      "标题": "日本擬追加對俄制裁 、 鎖定影子艦隊 普亭 ： 關係惡化責任在日本 | 國際焦點 | 全球",
-      "原标题": "日本擬追加對俄制裁 、 鎖定影子艦隊 普亭 ： 關係惡化責任在日本 | 國際焦點 | 全球",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 udn.com 最新报道，点击阅读原文。",
-      "来源": "udn.com",
-      "分类": "国际形势",
-      "日期": "2026-10-02",
-      "链接": "https://udn.com/news/story/6809/9791129",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://uc.udn.com.tw/photo/t3/2026/10/02/35384708.jpg",
-      "数据截至": "2026-10-03T22:20:51+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 udn.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 udn.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://udn.com/news/story/6809/9791129",
-      "出处说明": "根据udn.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3523147679,
+      "id": 2274338349,
       "标题": "外文资讯",
-      "原标题": "I fought for investment in Canada defence as international order eroded",
+      "原标题": "ВОСТОКОВЕД : НИКАКИХ САНКЦИЙ – НАДО УБЕДИТЬ ЗАПАД В ВАЖНОСТИ ИРАНА ДЛЯ АРМЕНИИ Голос Армении",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 theglobeandmail.com 最新报道，点击阅读原文。",
-      "来源": "theglobeandmail.com",
+      "摘要": "全球新闻索引收录的 golosarmenii.am 最新报道，点击阅读原文。",
+      "来源": "golosarmenii.am",
       "分类": "国际形势",
-      "日期": "2026-10-02",
-      "链接": "https://www.theglobeandmail.com/opinion/article-canada-defence-investment-international-order-wayne-eyre/",
+      "日期": "2026-10-06",
+      "链接": "https://golosarmenii.am/%D0%92%D0%9E%D0%A1%D0%A2%D0%9E%D0%9A%D0%9E%D0%92%D0%95%D0%94-%D0%9D%D0%98%D0%9A%D0%90%D0%9A%D0%98%D0%A5-%D0%A1%D0%90%D0%9D%D0%9A%D0%A6%D0%98%D0%99-%D0%9D%D0%90%D0%94%D0%9E-%D0%A3%D0%91/",
       "标签": [
         "国际",
         "全球媒体"
       ],
-      "原始图片": "https://www.theglobeandmail.com/resizer/v2/RS5NS7L5K5DY7GK7CPAGN7K4WA.jpg?auth=1e2ccff13922176c32f357ff7c2b0c9a8e168664b7d86280771e6cf945674905&quality=80&smart=true",
-      "数据截至": "2026-10-03T22:20:51+00:00",
+      "原始图片": "https://golosarmenii.am/wp-content/uploads/2026/10/94593355_0_0_1600_901_1920x0_80_0_0_62476b914eaa1ecaeffd2b99ac12ebad.jpg.webp",
+      "数据截至": "2026-10-06T16:09:49+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 theglobeandmail.com 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 golosarmenii.am 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 theglobeandmail.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 golosarmenii.am 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://www.theglobeandmail.com/opinion/article-canada-defence-investment-international-order-wayne-eyre/",
-      "出处说明": "根据theglobeandmail.com公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://golosarmenii.am/%D0%92%D0%9E%D0%A1%D0%A2%D0%9E%D0%9A%D0%9E%D0%92%D0%95%D0%94-%D0%9D%D0%98%D0%9A%D0%90%D0%9A%D0%98%D0%A5-%D0%A1%D0%90%D0%9D%D0%9A%D0%A6%D0%98%D0%99-%D0%9D%D0%90%D0%94%D0%9E-%D0%A3%D0%91/",
+      "出处说明": "根据golosarmenii.am公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 592352225,
+      "id": 4106062318,
       "标题": "外文资讯",
-      "原标题": "Cornell students accused of sexual assault gave conflicting accounts of night at fraternity house",
+      "原标题": "Germania avertizează că ambițiile Rusiei nu se opresc la Ucraina . Țările despre care ministrul de Externe spune că ar putea fi vizate",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 moneycontrol.com 最新报道，点击阅读原文。",
-      "来源": "moneycontrol.com",
+      "摘要": "全球新闻索引收录的 digi24.ro 最新报道，点击阅读原文。",
+      "来源": "digi24.ro",
       "分类": "国际形势",
-      "日期": "2026-10-02",
-      "链接": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html",
+      "日期": "2026-10-06",
+      "链接": "https://www.digi24.ro/stiri/externe/ue/germania-avertizeaza-ca-ambitiile-rusiei-nu-se-opresc-la-ucraina-tarile-despre-care-ministrul-de-externe-spune-ca-ar-putea-fi-vizate-3979987",
       "标签": [
         "国际",
         "全球媒体"
       ],
-      "原始图片": "https://images.moneycontrol.com/static-mcnews/2026/09/20260929152139_Cornell.jpg",
-      "数据截至": "2026-10-03T22:20:51+00:00",
+      "原始图片": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjI5JTJGMjk4MjMwMF8yOTgy/MzAwX0pvaGFubi1XYWRlcGh1bC1wcm9m/aW1lZGlhLmpwZyZ3PTEyMDAmaD02MzAm/emM9MSZoYXNoPTQ2OGQxNTM2MDljYmJkNDQwMTUzMjE2YzExN2E1NTQz.thumb.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 moneycontrol.com 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 digi24.ro 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 moneycontrol.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 digi24.ro 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://www.moneycontrol.com/world/cornell-students-accused-of-sexual-assault-gave-conflicting-accounts-of-night-at-fraternity-house-article-14043452.html",
-      "出处说明": "根据moneycontrol.com公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://www.digi24.ro/stiri/externe/ue/germania-avertizeaza-ca-ambitiile-rusiei-nu-se-opresc-la-ucraina-tarile-despre-care-ministrul-de-externe-spune-ca-ar-putea-fi-vizate-3979987",
+      "出处说明": "根据digi24.ro公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 193187832,
+      "id": 581796464,
       "标题": "外文资讯",
-      "原标题": "After Maduro , scrutiny turns to his ally Mireya Blavia de Cisneros over corruption",
+      "原标题": "Nigeria : INEC , Editors and the Battle for Trust Ahead of 2027",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 samaa.tv 最新报道，点击阅读原文。",
-      "来源": "samaa.tv",
+      "摘要": "全球新闻索引收录的 allafrica.com 最新报道，点击阅读原文。",
+      "来源": "allafrica.com",
       "分类": "国际形势",
-      "日期": "2026-10-02",
-      "链接": "https://www.samaa.tv/2087357807-after-maduro-scrutiny-turns-to-his-ally-mireya-blavia-de-cisneros-over-corruption",
+      "日期": "2026-10-06",
+      "链接": "https://allafrica.com/stories/202610060134.html",
       "标签": [
         "国际",
         "全球媒体"
       ],
-      "原始图片": "https://images.samaa.tv/images/Mireya-Blavia-de-Cisneros.jpg",
-      "数据截至": "2026-10-03T22:20:51+00:00",
+      "原始图片": "",
+      "数据截至": "2026-10-06T16:09:49+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 samaa.tv 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 allafrica.com 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 samaa.tv 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 allafrica.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://www.samaa.tv/2087357807-after-maduro-scrutiny-turns-to-his-ally-mireya-blavia-de-cisneros-over-corruption",
-      "出处说明": "根据samaa.tv公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://allafrica.com/stories/202610060134.html",
+      "出处说明": "根据allafrica.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 520263358,
-      "标题": "美控為跨國犯罪組織 俄羅斯支付平台A7否認暗助伊朗 - 國際",
-      "原标题": "美控為跨國犯罪組織 俄羅斯支付平台A7否認暗助伊朗 - 國際",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 news.ltn.com.tw 最新报道，点击阅读原文。",
-      "来源": "news.ltn.com.tw",
-      "分类": "国际形势",
-      "日期": "2026-10-02",
-      "链接": "https://news.ltn.com.tw/news/world/breakingnews/5593449",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://img.ltn.com.tw/Upload/news/600/2026/10/02/5593449_1_1.jpg",
-      "数据截至": "2026-10-03T22:20:51+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 news.ltn.com.tw 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 news.ltn.com.tw 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.ltn.com.tw/news/world/breakingnews/5593449",
-      "出处说明": "根据news.ltn.com.tw公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2736218468,
+      "id": 1303540067,
       "标题": "外文资讯",
-      "原标题": "US Reinforcing Military Presence In Middle East As Iran Tensions Rise",
+      "原标题": "MSF warns of deteriorating humanitarian conditions as Israeli - controlled areas in Gaza",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 orlandoecho.com 最新报道，点击阅读原文。",
-      "来源": "orlandoecho.com",
+      "摘要": "全球新闻索引收录的 middleeastmonitor.com 最新报道，点击阅读原文。",
+      "来源": "middleeastmonitor.com",
       "分类": "国际形势",
-      "日期": "2026-10-02",
-      "链接": "http://www.orlandoecho.com/news/279347225/us-reinforcing-military-presence-in-middle-east-as-iran-tensions-rise",
+      "日期": "2026-10-06",
+      "链接": "https://www.middleeastmonitor.com/20261006-msf-warns-of-deteriorating-humanitarian-conditions-as-israeli-controlled-areas-in-gaza/",
       "标签": [
         "国际",
         "全球媒体"
       ],
-      "原始图片": "https://chitra-api.kreatio.com/api/v1/wps/5f739c7/43a91c6e-bee6-4a44-98e4-6cb4b788e7c1/0/ZTgxYjExOGEtMTV-600x315.jpg",
-      "数据截至": "2026-10-03T22:20:51+00:00",
+      "原始图片": "https://www.middleeastmonitor.com/wp-content/uploads/2026/02/AA-20260115-40264584-40264561-PATIENTS_RECEIVE_TREATMENT_UNDER_LIMITED_CONDITIONS_AT_NASSER_HOSPITAL_IN_KHAN_YUNIS-Mehedi-Islam.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 orlandoecho.com 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 middleeastmonitor.com 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 orlandoecho.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 middleeastmonitor.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "http://www.orlandoecho.com/news/279347225/us-reinforcing-military-presence-in-middle-east-as-iran-tensions-rise",
-      "出处说明": "根据orlandoecho.com公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://www.middleeastmonitor.com/20261006-msf-warns-of-deteriorating-humanitarian-conditions-as-israeli-controlled-areas-in-gaza/",
+      "出处说明": "根据middleeastmonitor.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3849290686,
+      "标题": "外文资讯",
+      "原标题": "2년 연속 조희대 공방 으로 문 연 국감 … 상임위 곳곳 날선 대립",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 fnnews.com 最新报道，点击阅读原文。",
+      "来源": "fnnews.com",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://www.fnnews.com/news/202610061617160184",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://image.fnnews.com/resource/media/image/2026/10/06/202610061617108942_e.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 fnnews.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 fnnews.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.fnnews.com/news/202610061617160184",
+      "出处说明": "根据fnnews.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1581914172,
+      "标题": "外文资讯",
+      "原标题": "Guerre en Ukraine . Attaque de drones près de Moscou , marins et civils tués … Le point sur la nuit",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 toulon.maville.com 最新报道，点击阅读原文。",
+      "来源": "toulon.maville.com",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://toulon.maville.com/actu/actudet_-guerre-en-ukraine-attaque-de-drones-pres-de-moscou-marins-et-civils-tues-le-point-sur-la-nuit_fil-7510152_actu.Htm",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.maville.com/photosmvi/2026/10/06/P36169611D7510152G_crop_1200-675_.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 toulon.maville.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 toulon.maville.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://toulon.maville.com/actu/actudet_-guerre-en-ukraine-attaque-de-drones-pres-de-moscou-marins-et-civils-tues-le-point-sur-la-nuit_fil-7510152_actu.Htm",
+      "出处说明": "根据toulon.maville.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2722871049,
+      "标题": "外文资讯",
+      "原标题": "Ethiopia Reaffirms Rights Over Nile , Red Sea As Regional Alliances Shift",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 thereporterethiopia.com 最新报道，点击阅读原文。",
+      "来源": "thereporterethiopia.com",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://www.thereporterethiopia.com/53223/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.thereporterethiopia.com/wp-content/uploads/2026/10/IMG-20261006-WA0000.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 thereporterethiopia.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 thereporterethiopia.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.thereporterethiopia.com/53223/",
+      "出处说明": "根据thereporterethiopia.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 832510921,
+      "标题": "外文资讯",
+      "原标题": "Time . ai",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文。",
+      "来源": "time.mk",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://time.mk/ai/bb5ae966ba/mk/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://time.mk/ai/bb5ae966ba/mk/",
+      "出处说明": "根据time.mk公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3010431501,
+      "标题": "外文资讯",
+      "原标题": "Пусть уничтожат Лос - Анджелес : Трамп рассказал , чем США готовы заплатить за победу над Ираном",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 profile.ru 最新报道，点击阅读原文。",
+      "来源": "profile.ru",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://profile.ru/news/politics/pust-unichtozhat-los-andzheles-tramp-rasskazal-chem-ssha-gotovy-zaplatit-za-pobedu-nad-iranom-1909548/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://profile.ru/wp-content/uploads/1909548-fb.jpeg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 profile.ru 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 profile.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://profile.ru/news/politics/pust-unichtozhat-los-andzheles-tramp-rasskazal-chem-ssha-gotovy-zaplatit-za-pobedu-nad-iranom-1909548/",
+      "出处说明": "根据profile.ru公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1263380207,
+      "标题": "外文资讯",
+      "原标题": "Youth Critical After Jumping from 50 - Foot Water Tank at SCB Medical College",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 pragativadi.com 最新报道，点击阅读原文。",
+      "来源": "pragativadi.com",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://pragativadi.com/youth-critical-after-jumping-from-50-foot-water-tank-at-scb-medical-college/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://pragativadi.com/wp-content/uploads/2026/10/SCB.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 pragativadi.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 pragativadi.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://pragativadi.com/youth-critical-after-jumping-from-50-foot-water-tank-at-scb-medical-college/",
+      "出处说明": "根据pragativadi.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1387844561,
+      "标题": "外文资讯",
+      "原标题": "View From India Newsletter From Iraq to Gaza : A Long Trail of Damage",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 thehindu.com 最新报道，点击阅读原文。",
+      "来源": "thehindu.com",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://www.thehindu.com/news/international/view-from-india-newsletter-from-iraq-to-gaza-a-long-trail-of-damage/article71547254.ece",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://th-i.thgim.com/public/incoming/k1wqv4/article71547527.ece/alternates/LANDSCAPE_1200/image%2022.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 thehindu.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 thehindu.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.thehindu.com/news/international/view-from-india-newsletter-from-iraq-to-gaza-a-long-trail-of-damage/article71547254.ece",
+      "出处说明": "根据thehindu.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2683772459,
+      "标题": "外文资讯",
+      "原标题": "Człowiek Nawrockiego wytknął Tuskowi koszulę . Wyszedł niezły festiwal żenady",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 natemat.pl 最新报道，点击阅读原文。",
+      "来源": "natemat.pl",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://natemat.pl/670774,czlowiek-nawrockiego-wytknal-tuskowi-koszule-wyszedl-niezly-festiwal-zenady",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://m.natemat.pl/marcin-przydacz-g22wj0u5-1920x1080x0x0.webp",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 natemat.pl 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 natemat.pl 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://natemat.pl/670774,czlowiek-nawrockiego-wytknal-tuskowi-koszule-wyszedl-niezly-festiwal-zenady",
+      "出处说明": "根据natemat.pl公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1863394435,
+      "标题": "外文资讯",
+      "原标题": "Israeli documentary NAZA opens in the US , reigniting debate over the war in Gaza :: WRAL . com",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 wral.com 最新报道，点击阅读原文。",
+      "来源": "wral.com",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://www.wral.com/news/ap/0f3ec-israeli-documentary-naza-opens-in-the-us-reigniting-debate-over-the-war-in-gaza/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://images.wral.com/0f7ac2e1-a64f-548d-b298-2b1c0aea34b0",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 wral.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 wral.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.wral.com/news/ap/0f3ec-israeli-documentary-naza-opens-in-the-us-reigniting-debate-over-the-war-in-gaza/",
+      "出处说明": "根据wral.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2353688253,
+      "标题": "外文资讯",
+      "原标题": "Los cristianos de Gaza rezarán el Rosario por la paz tras un nuevo ataque mortal – INFOVATICANA",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 infovaticana.com 最新报道，点击阅读原文。",
+      "来源": "infovaticana.com",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://infovaticana.com/2026/10/06/los-cristianos-de-gaza-rezaran-el-rosario-por-la-paz-tras-un-nuevo-ataque-mortal/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://infovaticana.com/wp-content/uploads/2026/10/Holy_Family_Church_in_Gaza-scaled.jpg",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 infovaticana.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 infovaticana.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://infovaticana.com/2026/10/06/los-cristianos-de-gaza-rezaran-el-rosario-por-la-paz-tras-un-nuevo-ataque-mortal/",
+      "出处说明": "根据infovaticana.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3044689304,
+      "标题": "外文资讯",
+      "原标题": "Од Солун до Централна Европа преку Македонија : Регионален план за гасна и енергетска поврзаност",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文。",
+      "来源": "time.mk",
+      "分类": "国际形势",
+      "日期": "2026-10-06",
+      "链接": "https://time.mk/c/fc3819bde8/mk/od-solun-do-centralna-evropa-preku-makedonija-regionalen-plan-za-gasna-i-energetska-povrzanost.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://faktor.mk/media/main/2026/10/20261006095240.png",
+      "数据截至": "2026-10-06T16:09:49+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://time.mk/c/fc3819bde8/mk/od-solun-do-centralna-evropa-preku-makedonija-regionalen-plan-za-gasna-i-energetska-povrzanost.html",
+      "出处说明": "根据time.mk公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
