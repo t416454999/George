@@ -1,13 +1,67 @@
 {
-  "updated": "2026-10-07T22:17:36+08:00",
-  "as_of": "2026-10-07T22:17:36+08:00",
+  "updated": "2026-10-08T04:06:56+08:00",
+  "as_of": "2026-10-08T04:06:56+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 3143825160,
+      "标题": "粮农组织评估：南半球渔业每年至少导致3万只海鸟遭误捕",
+      "摘要": "联合国粮农组织周三表示，一项关于海鸟与远洋延绳钓渔业相互作用的大型新合作评估显示，在所评估的远洋延绳钓渔业中，每年至少有3万只海鸟被作为兼捕物捕获",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-07",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142955",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3143825160.webp",
+      "封面": "assets/media/un-3143825160.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2016/04/24199/image560x340cropped.jpg",
+      "导语": "联合国粮农组织周三表示，一项关于海鸟与远洋延绳钓渔业相互作用的大型新合作评估显示，在所评估的远洋延绳钓渔业中，每年至少有3万只海鸟被作为兼捕物捕获",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国粮农组织周三表示，一项关于海鸟与远洋延绳钓渔业相互作用的大型新合作评估显示，在所评估的远洋延绳钓渔业中，每年至少有3万只海鸟被作为兼捕物捕获。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142955",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 986092328,
+      "标题": "世卫组织：关键资金缺口威胁也门卫生应急响应行动",
+      "摘要": "世界卫生组织周二警告，随着冲突升级、需求上升，需要大幅增加资源以扩大其在也门的应急响应行动",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-07",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142954",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-986092328.webp",
+      "封面": "assets/media/un-986092328.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/25-09-2026_UNICEF_Yemen-02.jpg/image560x340cropped.jpg",
+      "导语": "世界卫生组织周二警告，随着冲突升级、需求上升，需要大幅增加资源以扩大其在也门的应急响应行动",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界卫生组织周二警告，随着冲突升级、需求上升，需要大幅增加资源以扩大其在也门的应急响应行动。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142954",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 790988935,
       "标题": "世卫组织总干事：正密切关注俄实验室工作人员死于重症肺炎事件",
@@ -1074,66 +1128,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.wral.com/news/ap/0f3ec-israeli-documentary-naza-opens-in-the-us-reigniting-debate-over-the-war-in-gaza/",
       "出处说明": "根据wral.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2353688253,
-      "标题": "外文资讯",
-      "原标题": "Los cristianos de Gaza rezarán el Rosario por la paz tras un nuevo ataque mortal – INFOVATICANA",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 infovaticana.com 最新报道，点击阅读原文。",
-      "来源": "infovaticana.com",
-      "分类": "国际形势",
-      "日期": "2026-10-06",
-      "链接": "https://infovaticana.com/2026/10/06/los-cristianos-de-gaza-rezaran-el-rosario-por-la-paz-tras-un-nuevo-ataque-mortal/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://infovaticana.com/wp-content/uploads/2026/10/Holy_Family_Church_in_Gaza-scaled.jpg",
-      "数据截至": "2026-10-07T14:17:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 infovaticana.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 infovaticana.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://infovaticana.com/2026/10/06/los-cristianos-de-gaza-rezaran-el-rosario-por-la-paz-tras-un-nuevo-ataque-mortal/",
-      "出处说明": "根据infovaticana.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3044689304,
-      "标题": "从塞萨洛尼基经马其顿到中欧：天然气和能源连接区域计划",
-      "原标题": "Од Солун до Централна Европа преку Македонија : Регионален план за гасна и енергетска поврзаност",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文。",
-      "来源": "time.mk",
-      "分类": "国际形势",
-      "日期": "2026-10-06",
-      "链接": "https://time.mk/c/fc3819bde8/mk/od-solun-do-centralna-evropa-preku-makedonija-regionalen-plan-za-gasna-i-energetska-povrzanost.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://faktor.mk/media/main/2026/10/20261006095240.png",
-      "数据截至": "2026-10-07T14:17:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 time.mk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://time.mk/c/fc3819bde8/mk/od-solun-do-centralna-evropa-preku-makedonija-regionalen-plan-za-gasna-i-energetska-povrzanost.html",
-      "出处说明": "根据time.mk公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
