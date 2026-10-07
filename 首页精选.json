@@ -1,10 +1,46 @@
 {
-  "generated": "2026-10-07T08:57:06+08:00",
+  "generated": "2026-10-07T14:56:18+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 984635185,
+  "headline_id": 4136412760,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
+    {
+      "id": 4136412760,
+      "标题": "【原生·一手】指导原则、通知行动：通过知识抽象进行代理进化",
+      "摘要": "arXiv:2610.06964v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in interactive environments, yet their ability to",
+      "内容": "arXiv:2610.06964v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in interactive environments, yet their ability to",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-10-07",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2610.06964",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "原标题": "【原生·一手】Principles that Guide, Actions that Inform: Agent Evolution via Knowledge Abstraction",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-07T14:56:18+08:00"
+    },
     {
       "id": 984635185,
       "标题": "世卫组织：受访欧洲年轻人中三分之二经历过童年逆境",
@@ -32,7 +68,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,7 +85,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-07T08:57:06+08:00"
+      "选入时间": "2026-10-07T14:56:18+08:00"
     },
     {
       "id": 492174979,
@@ -87,47 +123,28 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-07T08:57:06+08:00"
-    },
-    {
-      "id": 1605260936,
-      "标题": "Building Git infrastructure for agent-scale development",
-      "摘要": "Writes are accelerating, and this growth can add stress to systems all repos depend on. Here's our approach to building architecture that can scale. The post Building Git",
-      "内容": "Writes are accelerating, and this growth can add stress to systems all repos depend on. Here's our approach to building architecture that can scale. The post Building Git",
-      "来源": "GitHub 官方博客",
-      "分类": "AI应用",
-      "日期": "2026-10-06",
-      "热度": 50,
-      "链接": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
-      "标签": [],
-      "图片": "https://github.blog/wp-content/uploads/2026/01/generic-invertocat-github-logo.png",
-      "候选栏目": "AI",
-      "编辑分": 80,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-07T08:57:06+08:00"
+      "选入时间": "2026-10-07T14:56:18+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-07T08:57:06+08:00",
+    "as_of": "2026-10-07T14:56:18+08:00",
     "candidate_count": 604,
-    "rejected_count": 443,
+    "rejected_count": 438,
     "rejected": [
       {
         "id": 932769954,
+        "reason": "off_topic"
+      },
+      {
+        "id": 789319242,
+        "reason": "off_topic"
+      },
+      {
+        "id": 768426340,
+        "reason": "off_topic"
+      },
+      {
+        "id": 391267750,
         "reason": "off_topic"
       },
       {
@@ -155,6 +172,14 @@
         "reason": "off_topic"
       },
       {
+        "id": 3388376735,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2965573276,
+        "reason": "off_topic"
+      },
+      {
         "id": 2765037829,
         "reason": "off_topic"
       },
@@ -171,6 +196,14 @@
         "reason": "off_topic"
       },
       {
+        "id": 2264104051,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2083979869,
+        "reason": "off_topic"
+      },
+      {
         "id": 2068886757,
         "reason": "off_topic"
       },
@@ -183,6 +216,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 1902405457,
+        "reason": "off_topic"
+      },
+      {
         "id": 185312514,
         "reason": "off_topic"
       },
@@ -191,7 +228,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 1325398775,
+        "reason": "off_topic"
+      },
+      {
         "id": 1322043302,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1292191013,
         "reason": "off_topic"
       },
       {
@@ -1532,63 +1577,6 @@
         "score": 49
       },
       {
-        "id": 1811647994,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1641939506,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1580347563,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1402378966,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1308433243,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1304614655,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1242369491,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1223848919,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1033385191,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1031057436,
-        "reason": "off_topic"
-      },
-      {
-        "id": 945485245,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 904614536,
-        "reason": "off_topic"
-      },
-      {
-        "id": 867171346,
-        "reason": "off_topic"
-      },
-      {
-        "id": 78245953,
-        "reason": "off_topic"
-      },
-      {
         "id": 1090589964,
         "reason": "score_below_50",
         "score": 33
@@ -1664,11 +1652,6 @@
         "score": 33
       },
       {
-        "id": 3044689304,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
         "id": 84531183,
         "reason": "score_below_50",
         "score": 38
@@ -1679,17 +1662,17 @@
         "score": 38
       },
       {
-        "id": 457343590,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 2308993377,
+        "id": 3748774765,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 3748774765,
+        "id": 3923946191,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3790875840,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1704,7 +1687,22 @@
         "score": 38
       },
       {
+        "id": 1488405138,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 2523576696,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 1167664285,
         "reason": "score_below_50",
         "score": 34
       },
@@ -1719,17 +1717,12 @@
         "score": 32
       },
       {
-        "id": 2851660644,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 347722650,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
         "id": 4259588815,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2851660644,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1749,22 +1742,12 @@
         "score": 22
       },
       {
-        "id": 2303001368,
+        "id": 1447918101,
         "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 2595981013,
-        "reason": "score_below_50",
-        "score": 20
+        "score": 25
       },
       {
         "id": 2470484058,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 619245987,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1774,14 +1757,14 @@
         "score": 16
       },
       {
-        "id": 461933557,
+        "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
       },
       {
-        "id": 3246854698,
+        "id": 688858806,
         "reason": "score_below_50",
-        "score": 16
+        "score": 20
       },
       {
         "id": 444437417,
@@ -1876,11 +1859,6 @@
         "score": 30
       },
       {
-        "id": 4233306717,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
         "id": 3892170956,
         "reason": "score_below_50",
         "score": 30
@@ -1921,6 +1899,15 @@
         "score": 24
       },
       {
+        "id": 468590270,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 1042721348,
+        "reason": "invalid_or_future_date"
+      },
+      {
         "id": 2684525644,
         "reason": "invalid_or_future_date"
       },
@@ -1954,10 +1941,6 @@
       },
       {
         "id": 1530312988,
-        "reason": "invalid_or_future_date"
-      },
-      {
-        "id": 1558784209,
         "reason": "invalid_or_future_date"
       },
       {
