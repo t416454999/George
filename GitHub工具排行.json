@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-07T15:18:50+08:00",
+  "updated": "2026-10-08T15:22:24+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "182.5k",
+      "星标": "182.6k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "147.5k",
+      "星标": "147.6k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,57 +63,57 @@
       "名称": "openrig",
       "repo": "mvschwarz/openrig",
       "说明": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-      "星标": 5658,
-      "本周新增": 3327,
+      "星标": 6029,
+      "本周新增": 2912,
       "语言": "TypeScript"
     },
     {
       "名称": "hyperframes",
       "repo": "heygen-com/hyperframes",
       "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 58342,
-      "本周新增": 3614,
+      "星标": 58996,
+      "本周新增": 3908,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "OpenShell",
-      "repo": "NVIDIA/OpenShell",
-      "说明": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "星标": 15231,
-      "本周新增": 5228,
-      "语言": "Rust"
-    },
-    {
-      "名称": "Agent-Reach",
-      "repo": "Panniantong/Agent-Reach",
-      "说明": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "星标": 93033,
-      "本周新增": 6454,
-      "语言": "Python"
     },
     {
       "名称": "claude-mem",
       "repo": "thedotmack/claude-mem",
       "说明": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "星标": 97503,
-      "本周新增": 2104,
+      "星标": 98185,
+      "本周新增": 2607,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "skills",
+      "repo": "mattpocock/skills",
+      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
+      "星标": 280815,
+      "本周新增": 6869,
+      "语言": "Shell"
+    },
+    {
+      "名称": "Agent-Reach",
+      "repo": "Panniantong/Agent-Reach",
+      "说明": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "星标": 93938,
+      "本周新增": 6912,
+      "语言": "Python"
+    },
+    {
+      "名称": "text-to-cad",
+      "repo": "earthtojake/text-to-cad",
+      "说明": "Give your agent CAD superpowers.",
+      "星标": 18391,
+      "本周新增": 1800,
+      "语言": "Python"
     },
     {
       "名称": "openGym",
       "repo": "DuarteSantos8/openGym",
       "说明": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-      "星标": 6526,
-      "本周新增": 3318,
+      "星标": 7744,
+      "本周新增": 4906,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "tilelang",
-      "repo": "tile-ai/tilelang",
-      "说明": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
-      "星标": 8464,
-      "本周新增": 675,
-      "语言": "Python"
     }
   ]
 }
