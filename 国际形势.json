@@ -1,13 +1,202 @@
 {
-  "updated": "2026-10-09T14:32:27+08:00",
-  "as_of": "2026-10-09T14:32:27+08:00",
+  "updated": "2026-10-09T22:13:02+08:00",
+  "as_of": "2026-10-09T22:13:02+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2819980273,
+      "标题": "前联合国人权高专皮莱获诺贝尔和平奖",
+      "摘要": "前联合国人权事务高级专员纳维·皮莱于周五被宣布授予2026年诺贝尔和平奖",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-09",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142968",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2819980273.webp",
+      "封面": "assets/media/un-2819980273.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2012/10/15788/image560x340cropped.jpg",
+      "导语": "前联合国人权事务高级专员纳维·皮莱于周五被宣布授予2026年诺贝尔和平奖",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "前联合国人权事务高级专员纳维·皮莱于周五被宣布授予2026年诺贝尔和平奖。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142968",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 237317214,
+      "标题": "廉价老花镜仍是提升生活质量的关键途径",
+      "摘要": "据估计，全球约有22亿人视力不佳，其中近三分之一生活在东南亚地区",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142967",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-237317214.webp",
+      "封面": "assets/media/un-237317214.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/08-10-2026-WHO-Peru-eyecare.jpg/image560x340cropped.jpg",
+      "导语": "据估计，全球约有22亿人视力不佳，其中近三分之一生活在东南亚地区",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "据估计，全球约有22亿人视力不佳，其中近三分之一生活在东南亚地区。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142967",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1621069101,
+      "标题": "人权高专：实现赔偿正义必须消除制度性种族主义",
+      "摘要": "联合国人权事务高级专员蒂尔克周四在日内瓦举行的“非洲人和非洲裔人士的赔偿正义”高级别对话会上表示，奴隶制、非洲奴隶贸易和殖民主义的遗留问题至今仍在影响非洲人和非洲裔人士的平等权利，国际社会必须采取综合措施，解决历史和当前的不公正现象",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142966",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1621069101.webp",
+      "封面": "assets/media/un-1621069101.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/27-01-2023_Unsplash_UK.jpg/image560x340cropped.jpg",
+      "导语": "联合国人权事务高级专员蒂尔克周四在日内瓦举行的“非洲人和非洲裔人士的赔偿正义”高级别对话会上表示，奴隶制、非洲奴隶贸易和殖民主义的遗留问题至今仍在影响非洲人和非洲裔人士的平等权利，国际社会必须采取综合措施，解决历史和当前",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国人权事务高级专员蒂尔克周四在日内瓦举行的“非洲人和非洲裔人士的赔偿正义”高级别对话会上表示，奴隶制、非洲奴隶贸易和殖民主义的遗留问题至今仍在影响非洲人和非洲裔人士的平等权利，国际社会必须采取综合措施，解决历史和当前的不公正现象。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142966",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3373933105,
+      "标题": "人权高专谴责俄罗斯最新袭击乌克兰平民事件",
+      "摘要": "联合国人权事务高级专员蒂尔克周四表示，他对过去四天来在乌克兰各地造成平民死亡的一系列袭击事件感到震惊",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142965",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3373933105.webp",
+      "封面": "assets/media/un-3373933105.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/07-10-2026_UNICEF_Ukraine.jpg/image560x340cropped.jpg",
+      "导语": "联合国人权事务高级专员蒂尔克周四表示，他对过去四天来在乌克兰各地造成平民死亡的一系列袭击事件感到震惊",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国人权事务高级专员蒂尔克周四表示，他对过去四天来在乌克兰各地造成平民死亡的一系列袭击事件感到震惊。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142965",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 314044873,
+      "标题": "达尔富尔：安理会延长对苏丹制裁，医疗需求远超资源供给",
+      "摘要": "周四，安理会一致决定将苏丹制裁机制延长两个月，至12月11日。该机制包括定向制裁和武器禁运。负责监督执行情况的专家小组的任期现已延长至2027年1月11日",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142964",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-314044873.webp",
+      "封面": "assets/media/un-314044873.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/19-02-2026-UN-Photo-SC-wideview.jpg/image560x340cropped.jpg",
+      "导语": "周四，安理会一致决定将苏丹制裁机制延长两个月，至12月11日。该机制包括定向制裁和武器禁运。负责监督执行情况的专家小组的任期现已延长至2027年1月11日",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "周四，安理会一致决定将苏丹制裁机制延长两个月，至12月11日。该机制包括定向制裁和武器禁运。负责监督执行情况的专家小组的任期现已延长至2027年1月11日。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142964",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3409136139,
+      "标题": "妇女署：以色列空袭和地面军事行动导致3.8万名妇女和女孩死亡",
+      "摘要": "联合国妇女署周四指出，自2023年10月以来，以色列空袭和地面军事行动导致超过3.8万名妇女和女孩死亡，1.17万人严重受伤，相当于每21名加沙妇女和女孩中就有1人丧生或终身残疾",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142963",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3409136139.webp",
+      "封面": "assets/media/un-3409136139.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/22-09-2026_UNICEF_Gaza.jpg/image560x340cropped.jpg",
+      "导语": "联合国妇女署周四指出，自2023年10月以来，以色列空袭和地面军事行动导致超过3.8万名妇女和女孩死亡，1.17万人严重受伤，相当于每21名加沙妇女和女孩中就有1人丧生或终身残疾",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国妇女署周四指出，自2023年10月以来，以色列空袭和地面军事行动导致超过3.8万名妇女和女孩死亡，1.17万人严重受伤，相当于每21名加沙妇女和女孩中就有1人丧生或终身残疾。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142963",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1711861487,
+      "标题": "联阿援助团对塔利班针对妇女和女孩的逮捕与拘留行为表达严重关切",
+      "摘要": "联合国阿富汗援助团周四对阿富汗事实当局塔利班在多地针对妇女和女孩实施逮捕、拘留和威胁逮捕表示严重关切",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-08",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142962",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1711861487.webp",
+      "封面": "assets/media/un-1711861487.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/28-07-2023-UN-Photo-Afghanistan.jpg/image560x340cropped.jpg",
+      "导语": "联合国阿富汗援助团周四对阿富汗事实当局塔利班在多地针对妇女和女孩实施逮捕、拘留和威胁逮捕表示严重关切",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国阿富汗援助团周四对阿富汗事实当局塔利班在多地针对妇女和女孩实施逮捕、拘留和威胁逮捕表示严重关切。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142962",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 4006314443,
       "标题": "世卫组织发布全球行动方案，应对妊娠期高血压疾病",
@@ -924,216 +1113,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.hurriyet.com.tr/dunya/atinanin-ankaraya-karsi-son-umudu-rubio-43333344",
       "出处说明": "根据hurriyet.com.tr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1323181815,
-      "标题": "打击恐怖主义和反犹太主义：十月。 2026 年 7 月 – 圣地亚哥犹太世界",
-      "原标题": "The fight against terrorism and antisemitism : Oct . 7 , 2026 – San Diego Jewish World",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 sdjewishworld.com 最新报道，点击阅读原文。",
-      "来源": "sdjewishworld.com",
-      "分类": "国际形势",
-      "日期": "2026-10-08",
-      "链接": "https://www.sdjewishworld.com/2026/10/07/the-fight-against-terrorism-and-antisemitism-oct-7-2026/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-09T06:32:27+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 sdjewishworld.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 sdjewishworld.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.sdjewishworld.com/2026/10/07/the-fight-against-terrorism-and-antisemitism-oct-7-2026/",
-      "出处说明": "根据sdjewishworld.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2014300837,
-      "标题": "《 國際經濟 》 傳歐盟批准俄羅斯制裁 集中在彈道飛彈供應商 - 財經",
-      "原标题": "《 國際經濟 》 傳歐盟批准俄羅斯制裁 集中在彈道飛彈供應商 - 財經",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文。",
-      "来源": "chinatimes.com",
-      "分类": "国际形势",
-      "日期": "2026-10-08",
-      "链接": "https://www.chinatimes.com/realtimenews/20261008002604-260410",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-09T06:32:27+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.chinatimes.com/realtimenews/20261008002604-260410",
-      "出处说明": "根据chinatimes.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1362787572,
-      "标题": "美国参议员呼吁特朗普政府利用格雷厄姆定律向俄罗斯联邦施压",
-      "原标题": "У США сенатори закликали адміністрацію Трампа використати закон Ґрема для тиску на РФ",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 radiosvoboda.org 最新报道，点击阅读原文。",
-      "来源": "radiosvoboda.org",
-      "分类": "国际形势",
-      "日期": "2026-10-08",
-      "链接": "https://www.radiosvoboda.org/a/news-ssha-zakon-grema-zvernennja-senatoriv/33872559.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://gdb.rferl.org/dd6012f5-bd0f-4f7f-b4b6-255fde292588_w1200_h630.jpg",
-      "数据截至": "2026-10-09T06:32:27+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 radiosvoboda.org 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 radiosvoboda.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.radiosvoboda.org/a/news-ssha-zakon-grema-zvernennja-senatoriv/33872559.html",
-      "出处说明": "根据radiosvoboda.org公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3094629261,
-      "标题": "每一句话和谎言",
-      "原标题": "Κάθε λέξη κι ένα ψέμα",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 902.gr 最新报道，点击阅读原文。",
-      "来源": "902.gr",
-      "分类": "国际形势",
-      "日期": "2026-10-08",
-      "链接": "https://www.902.gr/eidisi/apopseis-sholia/430213/kathe-lexi-ki-ena-psema",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.902.gr/sites/default/files/MediaV2/20261007/greece-us-rubio-mitsotakis-12.jpg",
-      "数据截至": "2026-10-09T06:32:27+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 902.gr 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 902.gr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.902.gr/eidisi/apopseis-sholia/430213/kathe-lexi-ki-ena-psema",
-      "出处说明": "根据902.gr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2670062000,
-      "标题": "法院建议武警保护中央法医精神病研究所24/7",
-      "原标题": "Toà kiến nghị cảnh sát vũ trang bảo vệ Viện Pháp y tâm thần Trung ương 24 / 24",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 baomoi.com 最新报道，点击阅读原文。",
-      "来源": "baomoi.com",
-      "分类": "国际形势",
-      "日期": "2026-10-08",
-      "链接": "https://baomoi.com/toa-kien-nghi-canh-sat-vu-trang-bao-ve-vien-phap-y-tam-than-trung-uong-24-24-c56222278.epi",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://baomoi-photo-fbcrawler.bmcdn.me/w1200_r16x9/2026_10_08_20_56222278/8bc0a664172ffe71a73e.jpg",
-      "数据截至": "2026-10-09T06:32:27+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 baomoi.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 baomoi.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://baomoi.com/toa-kien-nghi-canh-sat-vu-trang-bao-ve-vien-phap-y-tam-than-trung-uong-24-24-c56222278.epi",
-      "出处说明": "根据baomoi.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3604297862,
-      "标题": "AI升级 、 深度出海 海尔智家新价值叙事眺望",
-      "原标题": "AI升级 、 深度出海 海尔智家新价值叙事眺望",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 163.com 最新报道，点击阅读原文。",
-      "来源": "163.com",
-      "分类": "国际形势",
-      "日期": "2026-10-08",
-      "链接": "https://www.163.com/dy/article/L8NH69OQ0519T4FA.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-09T06:32:27+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 163.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 163.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.163.com/dy/article/L8NH69OQ0519T4FA.html",
-      "出处说明": "根据163.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3772997411,
-      "标题": "如果发现向俄罗斯运送燃料违法，韩国威胁采取法律行动",
-      "原标题": "South Korea threatens legal action if fuel shipments to Russia found to have broken law",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 theguardian.com 最新报道，点击阅读原文。",
-      "来源": "theguardian.com",
-      "分类": "国际形势",
-      "日期": "2026-10-08",
-      "链接": "https://www.theguardian.com/world/2026/oct/08/south-korea-fuel-shipments-to-russia-domestic-law",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://i.guim.co.uk/img/media/1bc92aeec67082226ccd5e531f4e5378a53d0c2c/195_0_3750_3000/master/3750.jpg?&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0b100d88e8400cd6730fb55dffa493d0",
-      "数据截至": "2026-10-09T06:32:27+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 theguardian.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 theguardian.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.theguardian.com/world/2026/oct/08/south-korea-fuel-shipments-to-russia-domestic-law",
-      "出处说明": "根据theguardian.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
