@@ -1,13 +1,94 @@
 {
-  "updated": "2026-10-12T23:55:51+08:00",
-  "as_of": "2026-10-12T23:55:51+08:00",
+  "updated": "2026-10-13T06:47:26+08:00",
+  "as_of": "2026-10-13T06:47:26+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 4117338052,
+      "标题": "安理会讨论哥伦比亚和平协议执行情况，特别代表呼吁加强国家治理与安全保障",
+      "摘要": "安理会周一上午就哥伦比亚问题举行公开会议，听取秘书长哥伦比亚问题特别代表兼联合国哥伦比亚核查团团长让恰（Miroslav 让恰）有关当地局势和2016年和平协议执行情况的通报",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-12",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142987",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4117338052.webp",
+      "封面": "assets/media/un-4117338052.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/28-07-2025-CIAT-Colombia.jpg/image560x340cropped.jpg",
+      "导语": "安理会周一上午就哥伦比亚问题举行公开会议，听取秘书长哥伦比亚问题特别代表兼联合国哥伦比亚核查团团长让恰（Miroslav 让恰）有关当地局势和2016年和平协议执行情况的通报",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "安理会周一上午就哥伦比亚问题举行公开会议，听取秘书长哥伦比亚问题特别代表兼联合国哥伦比亚核查团团长让恰（Miroslav 让恰）有关当地局势和2016年和平协议执行情况的通报。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142987",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2297217383,
+      "标题": "尼泊尔再遭山洪，联合国紧急驰援",
+      "摘要": "尼泊尔中部廓尔喀地区周日突发山洪，冲毁房屋和桥梁。联合国已紧急驰援，而此时距该国北部此前发生灾难性洪水仅数周",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-12",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142986",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2297217383.webp",
+      "封面": "assets/media/un-2297217383.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/15-09-2026_UNICEF_Nepal.jpg/image560x340cropped.jpg",
+      "导语": "尼泊尔中部廓尔喀地区周日突发山洪，冲毁房屋和桥梁。联合国已紧急驰援，而此时距该国北部此前发生灾难性洪水仅数周",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "尼泊尔中部廓尔喀地区周日突发山洪，冲毁房屋和桥梁。联合国已紧急驰援，而此时距该国北部此前发生灾难性洪水仅数周。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142986",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 367122007,
+      "标题": "“效率是有极限的”：难民高专警告，资金削减正压垮难民保护体系",
+      "摘要": "全球目前有1.17亿男子、妇女和儿童被迫逃离家园，为他们提供救助的联合国难民署今年需要85亿美元，但仅有30亿美元到位。资金告急的速度，已快于需求增长的速度。为此，难民事务高级专员萨利赫周一警告，全球寻求庇护者支持体系正面临崩溃风险",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-12",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142985",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-367122007.webp",
+      "封面": "assets/media/un-367122007.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/09/30-09-2026-IOM-Sudan-03.jpg/image560x340cropped.jpg",
+      "导语": "全球目前有1.17亿男子、妇女和儿童被迫逃离家园，为他们提供救助的联合国难民署今年需要85亿美元，但仅有30亿美元到位。资金告急的速度，已快于需求增长的速度。为此，难民事务高级专员萨利赫周一警告，全球寻求庇护者支持体系正",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球目前有1.17亿男子、妇女和儿童被迫逃离家园，为他们提供救助的联合国难民署今年需要85亿美元，但仅有30亿美元到位。资金告急的速度，已快于需求增长的速度。为此，难民事务高级专员萨利赫周一警告，全球寻求庇护者支持体系正面临崩溃风险。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142985",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2804268078,
       "标题": "开发署：全球多维贫困自2010年以来首次上升",
@@ -1038,96 +1119,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://news.china.com/socialgd/10000169/20261010/49786812.html",
       "出处说明": "根据news.china.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1055790783,
-      "标题": "这是乌克兰对特朗普与普京协议的回应",
-      "原标题": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。",
-      "来源": "index.hr",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://ip.index.hr/remote/bucket.index.hr/b/index/5859ae3f-d1ab-4e9d-b668-bdf1a069eb5e.png?fb_wtrmrk=vijesti.jpg&mode=crop&format=png",
-      "数据截至": "2026-10-12T06:22:02+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
-      "出处说明": "根据index.hr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1803438293,
-      "标题": "赖台湾国庆演讲呼吁印太民主国家帮助维护和平",
-      "原标题": "Taiwan Lai calls on Indo - Pacific democracies to help maintain peace in National Day speech",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文。",
-      "来源": "wboc.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.wboc.com/news/international/taiwans-lai-calls-on-indo-pacific-democracies-to-help-maintain-peace-in-national-day-speech/article_0ffdfc19-8d85-5aac-923e-44e14e433318.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://bloximages.newyork1.vip.townnews.com/wboc.com/content/tncms/assets/v3/editorial/a/64/a642100a-285b-5ee7-bbb1-39274baa792a/6ac9c47d1744c.image.jpg?crop=1763%2C926%2C0%2C124",
-      "数据截至": "2026-10-12T06:22:02+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.wboc.com/news/international/taiwans-lai-calls-on-indo-pacific-democracies-to-help-maintain-peace-in-national-day-speech/article_0ffdfc19-8d85-5aac-923e-44e14e433318.html",
-      "出处说明": "根据wboc.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 968014103,
-      "标题": "伊朗战争，胡塞武装袭击利雅得机场：3名沙特公民死亡，数百航班取消 – Padovanews",
-      "原标题": "Guerra in Iran , attacchi Houthi contro laeroporto di Riad : morti 3 cittadini sauditi , cancellati centinaia di voli – Padovanews",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文。",
-      "来源": "padovanews.it",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.padovanews.it/2026/10/10/guerra-in-iran-attacchi-houthi-contro-laeroporto-di-riad-morti-3-cittadini-sauditi-cancellati-centinaia-di-voli/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-12T06:22:02+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.padovanews.it/2026/10/10/guerra-in-iran-attacchi-houthi-contro-laeroporto-di-riad-morti-3-cittadini-sauditi-cancellati-centinaia-di-voli/",
-      "出处说明": "根据padovanews.it公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
