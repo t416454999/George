@@ -1,13 +1,613 @@
 {
-  "updated": "2026-10-12T04:50:27+08:00",
-  "as_of": "2026-10-12T04:50:27+08:00",
+  "updated": "2026-10-12T08:17:21+08:00",
+  "as_of": "2026-10-12T08:17:21+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "联合国新闻：HTTPSConnectionPool(host='news.un.org', port=443): Read timed out. (read timeout=30)",
   "count": 40,
   "articles": [
+    {
+      "id": 3513449827,
+      "标题": "PMO 表彰《真实故事》电影制作人 NAZA 对指控提出质疑",
+      "原标题": "PMO honors NAZA , The True Story filmmakers for challenging allegations against",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。",
+      "来源": "jpost.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "http://www.jpost.com/israel-news/article-911208",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/741318",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "http://www.jpost.com/israel-news/article-911208",
+      "出处说明": "根据jpost.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1206237663,
+      "标题": "莫斯科控制使用数字技术支持业务",
+      "原标题": "« Контроль Москвы » использует цифровые технологии для поддержки бизнеса",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 mskagency.ru 最新报道，点击阅读原文。",
+      "来源": "mskagency.ru",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.mskagency.ru/materials/3569626",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 mskagency.ru 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 mskagency.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.mskagency.ru/materials/3569626",
+      "出处说明": "根据mskagency.ru公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 732475845,
+      "标题": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
+      "原标题": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文。",
+      "来源": "blog.wenxuecity.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
+      "出处说明": "根据blog.wenxuecity.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1837272821,
+      "标题": "特朗普宣布与俄罗斯就柴油问题达成协议，美国、乌克兰和欧洲谈判代表在迈阿密举行了六个小时的会谈",
+      "原标题": "Negociatorii americani , ucraineni și europeni au discutat șase ore la Miami , în timp ce Trump a anunțat un acord cu Rusia privind motorina",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文。",
+      "来源": "mediafax.ro",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.mediafax.ro/externe/negociatorii-americani-ucraineni-si-europeni-au-discutat-sase-ore-la-miami-in-timp-ce-trump-a-anuntat-un-acord-cu-rusia-privind-motorina-23823158",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.mediafax.ro/wp-content/uploads/2026/10/8156036-hepta_mediafax_foto-dpa_hepta-1-scaled.jpg",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.mediafax.ro/externe/negociatorii-americani-ucraineni-si-europeni-au-discutat-sase-ore-la-miami-in-timp-ce-trump-a-anuntat-un-acord-cu-rusia-privind-motorina-23823158",
+      "出处说明": "根据mediafax.ro公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2921665377,
+      "标题": "市委理论学习中心组举行学习会议 _ 本网独家 _ 新闻 _",
+      "原标题": "市委理论学习中心组举行学习会议 _ 本网独家 _ 新闻 _",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文。",
+      "来源": "chuzhou.cn",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "http://www.chuzhou.cn/2026/1010/990126.shtml",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "http://www.chuzhou.cn/2026/1010/990126.shtml",
+      "出处说明": "根据chuzhou.cn公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3082680128,
+      "标题": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
+      "原标题": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文。",
+      "来源": "cna.com.tw",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
+      "出处说明": "根据cna.com.tw公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 770612151,
+      "标题": "摩尔多瓦 40 多个社区从垃圾填埋场节省了近 15 吨电气设备",
+      "原标题": "Peste 40 de comunități din Moldova au salvat aproape 15 tone de echipamente electrice de la groapa de gunoi",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 news.yam.md 最新报道，点击阅读原文。",
+      "来源": "news.yam.md",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://news.yam.md/ro/story/74094400",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 news.yam.md 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 news.yam.md 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.yam.md/ro/story/74094400",
+      "出处说明": "根据news.yam.md公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2990014920,
+      "标题": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
+      "原标题": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文。",
+      "来源": "chinatimes.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://images.chinatimes.com/newsphoto/2026-10-10/656/20261010001693.jpg",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
+      "出处说明": "根据chinatimes.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 4204251880,
+      "标题": "特朗普针对印度后因俄罗斯柴油交易面临虚伪指控",
+      "原标题": "Trump faces hypocrisy charge over Russian diesel deal after targeting India",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 orissapost.com 最新报道，点击阅读原文。",
+      "来源": "orissapost.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.orissapost.com/trump-faces-hypocrisy-charge-over-russian-diesel-deal-after-targeting-india/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.orissapost.com/wp-content/uploads/2026/10/Trump-2.png",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 orissapost.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 orissapost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.orissapost.com/trump-faces-hypocrisy-charge-over-russian-diesel-deal-after-targeting-india/",
+      "出处说明": "根据orissapost.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2822611545,
+      "标题": "特朗普称国际刑事法院制裁旨在保护内塔尼亚胡和其他人",
+      "原标题": "Trump says ICC sanctions aimed at defending Netanyahu and others",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 middleeasteye.net 最新报道，点击阅读原文。",
+      "来源": "middleeasteye.net",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.middleeasteye.net/sites/default/files/2026-10/2026-09-21T170202Z_1972363810_RC2JNNACWHAG_RTRMADP_3_IRAN-CRISIS-YEMEN-DISPLACED.JPG",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 middleeasteye.net 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 middleeasteye.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others",
+      "出处说明": "根据middleeasteye.net公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3584380715,
+      "标题": "中方 ： 应在中东大局势下解决也门冲突 统筹考虑一体推进 _ 新闻频道 _ 中华网",
+      "原标题": "中方 ： 应在中东大局势下解决也门冲突 统筹考虑一体推进 _ 新闻频道 _ 中华网",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 news.china.com 最新报道，点击阅读原文。",
+      "来源": "news.china.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://news.china.com/socialgd/10000169/20261010/49786812.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 news.china.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 news.china.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.china.com/socialgd/10000169/20261010/49786812.html",
+      "出处说明": "根据news.china.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1055790783,
+      "标题": "这是乌克兰对特朗普与普京协议的回应",
+      "原标题": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。",
+      "来源": "index.hr",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://ip.index.hr/remote/bucket.index.hr/b/index/5859ae3f-d1ab-4e9d-b668-bdf1a069eb5e.png?fb_wtrmrk=vijesti.jpg&mode=crop&format=png",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
+      "出处说明": "根据index.hr公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1803438293,
+      "标题": "赖台湾国庆演讲呼吁印太民主国家帮助维护和平",
+      "原标题": "Taiwan Lai calls on Indo - Pacific democracies to help maintain peace in National Day speech",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文。",
+      "来源": "wboc.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.wboc.com/news/international/taiwans-lai-calls-on-indo-pacific-democracies-to-help-maintain-peace-in-national-day-speech/article_0ffdfc19-8d85-5aac-923e-44e14e433318.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://bloximages.newyork1.vip.townnews.com/wboc.com/content/tncms/assets/v3/editorial/a/64/a642100a-285b-5ee7-bbb1-39274baa792a/6ac9c47d1744c.image.jpg?crop=1763%2C926%2C0%2C124",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.wboc.com/news/international/taiwans-lai-calls-on-indo-pacific-democracies-to-help-maintain-peace-in-national-day-speech/article_0ffdfc19-8d85-5aac-923e-44e14e433318.html",
+      "出处说明": "根据wboc.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 968014103,
+      "标题": "伊朗战争，胡塞武装袭击利雅得机场：3名沙特公民死亡，数百航班取消 – Padovanews",
+      "原标题": "Guerra in Iran , attacchi Houthi contro laeroporto di Riad : morti 3 cittadini sauditi , cancellati centinaia di voli – Padovanews",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文。",
+      "来源": "padovanews.it",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.padovanews.it/2026/10/10/guerra-in-iran-attacchi-houthi-contro-laeroporto-di-riad-morti-3-cittadini-sauditi-cancellati-centinaia-di-voli/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.padovanews.it/2026/10/10/guerra-in-iran-attacchi-houthi-contro-laeroporto-di-riad-morti-3-cittadini-sauditi-cancellati-centinaia-di-voli/",
+      "出处说明": "根据padovanews.it公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1157702336,
+      "标题": "特朗普与普京通电话讨论乌克兰和伊朗问题",
+      "原标题": "Трамп і Путін провели телефонні переговори - обговорили Україну та Іран",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 24tv.ua 最新报道，点击阅读原文。",
+      "来源": "24tv.ua",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://24tv.ua/tramp-putin-proveli-telefonni-peregovori-obgovorili-ukrayinu_n3157918",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://24tv.ua/resources/photos/news/202610/3157918.jpg?v=1791610372000",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 24tv.ua 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 24tv.ua 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://24tv.ua/tramp-putin-proveli-telefonni-peregovori-obgovorili-ukrayinu_n3157918",
+      "出处说明": "根据24tv.ua公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 542931837,
+      "标题": "签署 BDS 承诺的萨明·诺斯拉特 (Samin Nosrat) 名厨与以色列人同台",
+      "原标题": "Samin Nosrat celebrity chef who signed BDS pledge shares stage with Israelis",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。",
+      "来源": "jpost.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "http://www.jpost.com/diaspora/article-911204",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/741311",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "http://www.jpost.com/diaspora/article-911204",
+      "出处说明": "根据jpost.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 844836675,
+      "标题": "外文资讯",
+      "原标题": "Rusi potvrdili : Putin u razgovoru s Trumpom odbio ideju o završetku rata",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。",
+      "来源": "index.hr",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.index.hr/vijesti/clanak/rusi-potvrdili-putin-u-razgovoru-s-trumpom-odbio-ideju-o-zavrsetku-rata/2844079.aspx",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://ip.index.hr/remote/bucket.index.hr/b/index/12852915-efac-4ec8-8484-cce5887c3fe1.png?fb_wtrmrk=vijesti.jpg&mode=crop&format=png",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.index.hr/vijesti/clanak/rusi-potvrdili-putin-u-razgovoru-s-trumpom-odbio-ideju-o-zavrsetku-rata/2844079.aspx",
+      "出处说明": "根据index.hr公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1119951321,
+      "标题": "外文资讯",
+      "原标题": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。",
+      "来源": "jpost.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "http://www.jpost.com/middle-east/article-911021",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/741075",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "http://www.jpost.com/middle-east/article-911021",
+      "出处说明": "根据jpost.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3128324489,
+      "标题": "外文资讯",
+      "原标题": "A U . S .- brokered ceasefire was supposed to end the war in Gaza . A year later , progress has stalled",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 japantoday.com 最新报道，点击阅读原文。",
+      "来源": "japantoday.com",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://japantoday.com/category/world/a-us-brokered-ceasefire-was-supposed-to-end-the-war-in-gaza.-a-year-later-progress-has-stalled",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 japantoday.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 japantoday.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://japantoday.com/category/world/a-us-brokered-ceasefire-was-supposed-to-end-the-war-in-gaza.-a-year-later-progress-has-stalled",
+      "出处说明": "根据japantoday.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 155485984,
+      "标题": "外文资讯",
+      "原标题": "Hibridni ruski ribar u crnogorskoj mreži : BBC analiza - BBC News na srpskom",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 danas.rs 最新报道，点击阅读原文。",
+      "来源": "danas.rs",
+      "分类": "国际形势",
+      "日期": "2026-10-10",
+      "链接": "https://www.danas.rs/bbc-news-serbian/hibridni-ruski-ribar-u-crnogorskoj-mrezi-bbc-analiza/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.danas.rs/wp-content/uploads/2026/10/1c049d80-c423-11f1-9462-0fb8e72a616b.jpg",
+      "数据截至": "2026-10-12T00:17:19+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 danas.rs 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 danas.rs 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.danas.rs/bbc-news-serbian/hibridni-ruski-ribar-u-crnogorskoj-mrezi-bbc-analiza/",
+      "出处说明": "根据danas.rs公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 872840653,
       "标题": "世卫组织呼吁从机构化照护转向社区精神卫生照护",
@@ -546,594 +1146,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142947",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 422278387,
-      "标题": "首届全球热浪论坛开幕 呼吁应对极端高温并增加投资",
-      "摘要": "首届全球热浪论坛周二在泰国曼谷开幕，旨在推动为应对极端高温增加资金投入并加快解决方案实施。近600名科学家、商界领袖、慈善家和卫生专家参加论坛",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-10-06",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142951",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-422278387.webp",
-      "封面": "assets/media/un-422278387.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/27-07-2021_Unsplash_Thailand-02.jpg/image560x340cropped.jpg",
-      "导语": "首届全球热浪论坛周二在泰国曼谷开幕，旨在推动为应对极端高温增加资金投入并加快解决方案实施。近600名科学家、商界领袖、慈善家和卫生专家参加论坛",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "首届全球热浪论坛周二在泰国曼谷开幕，旨在推动为应对极端高温增加资金投入并加快解决方案实施。近600名科学家、商界领袖、慈善家和卫生专家参加论坛。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142951",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4258820501,
-      "标题": "俄罗斯疑似鼠疫死亡病例正在接受检测和监测",
-      "摘要": "世界卫生组织周二表示，俄罗斯西伯利亚地区一名实验室工作人员的死亡引发了人们对可能出现鼠疫病例的担忧，并补充说该组织正在密切关注事态发展",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-10-06",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142950",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-4258820501.webp",
-      "封面": "assets/media/un-4258820501.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/20-04-2022-Russia-Lake-Baikal-03.jpg/image560x340cropped.jpg",
-      "导语": "世界卫生组织周二表示，俄罗斯西伯利亚地区一名实验室工作人员的死亡引发了人们对可能出现鼠疫病例的担忧，并补充说该组织正在密切关注事态发展",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "世界卫生组织周二表示，俄罗斯西伯利亚地区一名实验室工作人员的死亡引发了人们对可能出现鼠疫病例的担忧，并补充说该组织正在密切关注事态发展。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142950",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1810226788,
-      "标题": "非洲和平与安全挑战要求加强联合国与非盟伙伴关系",
-      "摘要": "联合国秘书长驻非洲联盟特别代表兼联合国驻非洲联盟办事处主任奥南加-安扬加周二在安理会会议上表示，当前非洲和平与安全挑战的规模和复杂性要求建立更强大的伙伴关系，将共同承诺转化为迅速、可预测且负责任的行动",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-10-06",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142949",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-1810226788.webp",
-      "封面": "assets/media/un-1810226788.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/12-10-2022-UN-Photo-UN7957773-International_Peace_Security.jpg/image560x340cropped.jpg",
-      "导语": "联合国秘书长驻非洲联盟特别代表兼联合国驻非洲联盟办事处主任奥南加-安扬加周二在安理会会议上表示，当前非洲和平与安全挑战的规模和复杂性要求建立更强大的伙伴关系，将共同承诺转化为迅速、可预测且负责任的行动",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国秘书长驻非洲联盟特别代表兼联合国驻非洲联盟办事处主任奥南加-安扬加周二在安理会会议上表示，当前非洲和平与安全挑战的规模和复杂性要求建立更强大的伙伴关系，将共同承诺转化为迅速、可预测且负责任的行动。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142949",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 261966113,
-      "标题": "肯尼亚确诊首例输入性本迪布焦型埃博拉病例",
-      "摘要": "肯尼亚卫生当局10月6日确认该国首例输入性本迪布焦病毒病埃博拉病例。世界卫生组织正与肯尼亚政府合作，加强病例调查、接触者监测和入境筛查等防控措施，防止病毒进一步传播",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-10-06",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142948",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-261966113.webp",
-      "封面": "assets/media/un-261966113.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/06-10-2026-WHO-Kenya-Bundibugyo-01.jpg/image560x340cropped.jpg",
-      "导语": "肯尼亚卫生当局10月6日确认该国首例输入性本迪布焦病毒病埃博拉病例。世界卫生组织正与肯尼亚政府合作，加强病例调查、接触者监测和入境筛查等防控措施，防止病毒进一步传播",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "肯尼亚卫生当局10月6日确认该国首例输入性本迪布焦病毒病埃博拉病例。世界卫生组织正与肯尼亚政府合作，加强病例调查、接触者监测和入境筛查等防控措施，防止病毒进一步传播。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142948",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3513449827,
-      "标题": "PMO 表彰《真实故事》电影制作人 NAZA 对指控提出质疑",
-      "原标题": "PMO honors NAZA , The True Story filmmakers for challenging allegations against",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。",
-      "来源": "jpost.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "http://www.jpost.com/israel-news/article-911208",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/741318",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.jpost.com/israel-news/article-911208",
-      "出处说明": "根据jpost.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1206237663,
-      "标题": "莫斯科控制使用数字技术支持业务",
-      "原标题": "« Контроль Москвы » использует цифровые технологии для поддержки бизнеса",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 mskagency.ru 最新报道，点击阅读原文。",
-      "来源": "mskagency.ru",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.mskagency.ru/materials/3569626",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 mskagency.ru 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 mskagency.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.mskagency.ru/materials/3569626",
-      "出处说明": "根据mskagency.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 732475845,
-      "标题": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
-      "原标题": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文。",
-      "来源": "blog.wenxuecity.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
-      "出处说明": "根据blog.wenxuecity.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1837272821,
-      "标题": "特朗普宣布与俄罗斯就柴油问题达成协议，美国、乌克兰和欧洲谈判代表在迈阿密举行了六个小时的会谈",
-      "原标题": "Negociatorii americani , ucraineni și europeni au discutat șase ore la Miami , în timp ce Trump a anunțat un acord cu Rusia privind motorina",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文。",
-      "来源": "mediafax.ro",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.mediafax.ro/externe/negociatorii-americani-ucraineni-si-europeni-au-discutat-sase-ore-la-miami-in-timp-ce-trump-a-anuntat-un-acord-cu-rusia-privind-motorina-23823158",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.mediafax.ro/wp-content/uploads/2026/10/8156036-hepta_mediafax_foto-dpa_hepta-1-scaled.jpg",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.mediafax.ro/externe/negociatorii-americani-ucraineni-si-europeni-au-discutat-sase-ore-la-miami-in-timp-ce-trump-a-anuntat-un-acord-cu-rusia-privind-motorina-23823158",
-      "出处说明": "根据mediafax.ro公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2921665377,
-      "标题": "市委理论学习中心组举行学习会议 _ 本网独家 _ 新闻 _",
-      "原标题": "市委理论学习中心组举行学习会议 _ 本网独家 _ 新闻 _",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文。",
-      "来源": "chuzhou.cn",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "http://www.chuzhou.cn/2026/1010/990126.shtml",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.chuzhou.cn/2026/1010/990126.shtml",
-      "出处说明": "根据chuzhou.cn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3082680128,
-      "标题": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
-      "原标题": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文。",
-      "来源": "cna.com.tw",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
-      "出处说明": "根据cna.com.tw公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 770612151,
-      "标题": "摩尔多瓦 40 多个社区从垃圾填埋场节省了近 15 吨电气设备",
-      "原标题": "Peste 40 de comunități din Moldova au salvat aproape 15 tone de echipamente electrice de la groapa de gunoi",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 news.yam.md 最新报道，点击阅读原文。",
-      "来源": "news.yam.md",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://news.yam.md/ro/story/74094400",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 news.yam.md 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 news.yam.md 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.yam.md/ro/story/74094400",
-      "出处说明": "根据news.yam.md公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2990014920,
-      "标题": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
-      "原标题": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文。",
-      "来源": "chinatimes.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://images.chinatimes.com/newsphoto/2026-10-10/656/20261010001693.jpg",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 chinatimes.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
-      "出处说明": "根据chinatimes.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4204251880,
-      "标题": "特朗普针对印度后因俄罗斯柴油交易面临虚伪指控",
-      "原标题": "Trump faces hypocrisy charge over Russian diesel deal after targeting India",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 orissapost.com 最新报道，点击阅读原文。",
-      "来源": "orissapost.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.orissapost.com/trump-faces-hypocrisy-charge-over-russian-diesel-deal-after-targeting-india/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.orissapost.com/wp-content/uploads/2026/10/Trump-2.png",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 orissapost.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 orissapost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.orissapost.com/trump-faces-hypocrisy-charge-over-russian-diesel-deal-after-targeting-india/",
-      "出处说明": "根据orissapost.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2822611545,
-      "标题": "特朗普称国际刑事法院制裁旨在保护内塔尼亚胡和其他人",
-      "原标题": "Trump says ICC sanctions aimed at defending Netanyahu and others",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 middleeasteye.net 最新报道，点击阅读原文。",
-      "来源": "middleeasteye.net",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.middleeasteye.net/sites/default/files/2026-10/2026-09-21T170202Z_1972363810_RC2JNNACWHAG_RTRMADP_3_IRAN-CRISIS-YEMEN-DISPLACED.JPG",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 middleeasteye.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 middleeasteye.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others",
-      "出处说明": "根据middleeasteye.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3584380715,
-      "标题": "中方 ： 应在中东大局势下解决也门冲突 统筹考虑一体推进 _ 新闻频道 _ 中华网",
-      "原标题": "中方 ： 应在中东大局势下解决也门冲突 统筹考虑一体推进 _ 新闻频道 _ 中华网",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 news.china.com 最新报道，点击阅读原文。",
-      "来源": "news.china.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://news.china.com/socialgd/10000169/20261010/49786812.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 news.china.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 news.china.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.china.com/socialgd/10000169/20261010/49786812.html",
-      "出处说明": "根据news.china.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1055790783,
-      "标题": "这是乌克兰对特朗普与普京协议的回应",
-      "原标题": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。",
-      "来源": "index.hr",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://ip.index.hr/remote/bucket.index.hr/b/index/5859ae3f-d1ab-4e9d-b668-bdf1a069eb5e.png?fb_wtrmrk=vijesti.jpg&mode=crop&format=png",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
-      "出处说明": "根据index.hr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1803438293,
-      "标题": "赖台湾国庆演讲呼吁印太民主国家帮助维护和平",
-      "原标题": "Taiwan Lai calls on Indo - Pacific democracies to help maintain peace in National Day speech",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文。",
-      "来源": "wboc.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.wboc.com/news/international/taiwans-lai-calls-on-indo-pacific-democracies-to-help-maintain-peace-in-national-day-speech/article_0ffdfc19-8d85-5aac-923e-44e14e433318.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://bloximages.newyork1.vip.townnews.com/wboc.com/content/tncms/assets/v3/editorial/a/64/a642100a-285b-5ee7-bbb1-39274baa792a/6ac9c47d1744c.image.jpg?crop=1763%2C926%2C0%2C124",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 wboc.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.wboc.com/news/international/taiwans-lai-calls-on-indo-pacific-democracies-to-help-maintain-peace-in-national-day-speech/article_0ffdfc19-8d85-5aac-923e-44e14e433318.html",
-      "出处说明": "根据wboc.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 968014103,
-      "标题": "伊朗战争，胡塞武装袭击利雅得机场：3名沙特公民死亡，数百航班取消 – Padovanews",
-      "原标题": "Guerra in Iran , attacchi Houthi contro laeroporto di Riad : morti 3 cittadini sauditi , cancellati centinaia di voli – Padovanews",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文。",
-      "来源": "padovanews.it",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.padovanews.it/2026/10/10/guerra-in-iran-attacchi-houthi-contro-laeroporto-di-riad-morti-3-cittadini-sauditi-cancellati-centinaia-di-voli/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 padovanews.it 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.padovanews.it/2026/10/10/guerra-in-iran-attacchi-houthi-contro-laeroporto-di-riad-morti-3-cittadini-sauditi-cancellati-centinaia-di-voli/",
-      "出处说明": "根据padovanews.it公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1157702336,
-      "标题": "特朗普与普京通电话讨论乌克兰和伊朗问题",
-      "原标题": "Трамп і Путін провели телефонні переговори - обговорили Україну та Іран",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 24tv.ua 最新报道，点击阅读原文。",
-      "来源": "24tv.ua",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://24tv.ua/tramp-putin-proveli-telefonni-peregovori-obgovorili-ukrayinu_n3157918",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://24tv.ua/resources/photos/news/202610/3157918.jpg?v=1791610372000",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 24tv.ua 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 24tv.ua 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://24tv.ua/tramp-putin-proveli-telefonni-peregovori-obgovorili-ukrayinu_n3157918",
-      "出处说明": "根据24tv.ua公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 542931837,
-      "标题": "签署 BDS 承诺的萨明·诺斯拉特 (Samin Nosrat) 名厨与以色列人同台",
-      "原标题": "Samin Nosrat celebrity chef who signed BDS pledge shares stage with Israelis",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。",
-      "来源": "jpost.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "http://www.jpost.com/diaspora/article-911204",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/741311",
-      "数据截至": "2026-10-11T20:50:26+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 jpost.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.jpost.com/diaspora/article-911204",
-      "出处说明": "根据jpost.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
