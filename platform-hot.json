@@ -1,509 +1,158 @@
 {
-  "updated": "2026-10-12T07:55:50+08:00",
+  "updated": "2026-10-12T17:39:37+08:00",
   "source": "极光引擎 · 平台热点聚合",
   "description": "各平台实时热点榜单聚合（仅公开标题+链接，不缓存全文）",
-  "count": 70,
+  "count": 20,
   "platforms": {
     "微博热搜": [],
     "知乎热榜": [],
     "B站热门": [
       {
         "rank": 1,
-        "title": "我们来到了地中海，重走《奥德赛》十年回家路！",
-        "heat": "160.9万",
-        "raw_heat": 1608566,
-        "link": "https://www.bilibili.com/video/BV1mopE6xEqv"
+        "title": "【A2O】A2O LITE 'NEON' Official Video",
+        "heat": "31.6万",
+        "raw_heat": 315694,
+        "link": "https://www.bilibili.com/video/BV1VVpo6gEYg"
       },
       {
         "rank": 2,
-        "title": "那些无法解释的瞬间心理感受。。。又一次把我心里的画面拍了出来，这次你中了几个？",
-        "heat": "64.3万",
-        "raw_heat": 642854,
-        "link": "https://www.bilibili.com/video/BV179p76zEZR"
+        "title": "纽北二刷！SU7Ultra能成为第一台BTG 7分内的中国车吗？",
+        "heat": "29.3万",
+        "raw_heat": 293035,
+        "link": "https://www.bilibili.com/video/BV1cPpb6CEZT"
       },
       {
         "rank": 3,
-        "title": "你 坐 不 过 我 你 信 吗 ？",
-        "heat": "28.6万",
-        "raw_heat": 286403,
-        "link": "https://www.bilibili.com/video/BV1nYpn6DEzp"
+        "title": "《不该存在的访客》继续用爱发电，耗费10000分钟制作，花费1000块",
+        "heat": "93.8万",
+        "raw_heat": 938338,
+        "link": "https://www.bilibili.com/video/BV1ZSp46AEF8"
       },
       {
         "rank": 4,
-        "title": "每个生命都值得被善待",
-        "heat": "59.3万",
-        "raw_heat": 593299,
-        "link": "https://www.bilibili.com/video/BV1DCpj64Emi"
-      },
-      {
-        "rank": 5,
         "title": "deepseek 翻唱《人是猫》真完整版，大肥鱼觉得人和猫一样可爱,所以人是猫",
-        "heat": "21.8万",
-        "raw_heat": 217947,
+        "heat": "52.5万",
+        "raw_heat": 525273,
         "link": "https://www.bilibili.com/video/BV1fYpn6SEk9"
       },
       {
+        "rank": 5,
+        "title": "那个卖菱角的小贩想要弄伤我的鳞片",
+        "heat": "190.9万",
+        "raw_heat": 1908841,
+        "link": "https://www.bilibili.com/video/BV1uopn6NEMR"
+      },
+      {
         "rank": 6,
-        "title": "《生》生命是什么",
-        "heat": "62.8万",
-        "raw_heat": 628384,
-        "link": "https://www.bilibili.com/video/BV1zVpJ6yEi3"
+        "title": "跟着AI教学能否实现薯条自由？",
+        "heat": "51.4万",
+        "raw_heat": 514325,
+        "link": "https://www.bilibili.com/video/BV17EpY6UEdL"
       },
       {
         "rank": 7,
-        "title": "用十三年去拍一部纪录片，然后明白死亡只是一个炎热的夏天午后 【探照灯计划】",
-        "heat": "31.6万",
-        "raw_heat": 315794,
-        "link": "https://www.bilibili.com/video/BV1jkp36XEtz"
+        "title": "你 坐 不 过 我 你 信 吗 ？",
+        "heat": "138.8万",
+        "raw_heat": 1388485,
+        "link": "https://www.bilibili.com/video/BV1nYpn6DEzp"
       },
       {
         "rank": 8,
-        "title": "【邓肯】新发恐怖事件！女企业家被儿子雇人送入老年护理中心丨诡异的五亿高中生坠楼谜案！",
-        "heat": "195.3万",
-        "raw_heat": 1952994,
-        "link": "https://www.bilibili.com/video/BV1wAp76yEu1"
+        "title": "精神小妹误闯天家",
+        "heat": "54.7万",
+        "raw_heat": 546556,
+        "link": "https://www.bilibili.com/video/BV1A4pR6XEeK"
       },
       {
         "rank": 9,
-        "title": "12个脑洞大开的做饭方式！",
-        "heat": "215.8万",
-        "raw_heat": 2157948,
-        "link": "https://www.bilibili.com/video/BV1Jjpg6QEkh"
+        "title": "史上最固执大爷-珍爱生命，远离牌桌6.0",
+        "heat": "85.7万",
+        "raw_heat": 856919,
+        "link": "https://www.bilibili.com/video/BV1v5pL6tEYw"
       },
       {
         "rank": 10,
-        "title": "新人第1次编曲耶",
-        "heat": "58.5万",
-        "raw_heat": 585033,
-        "link": "https://www.bilibili.com/video/BV1oQHR6rEBB"
+        "title": "当声优被AI抢走饭碗后",
+        "heat": "94.6万",
+        "raw_heat": 945762,
+        "link": "https://www.bilibili.com/video/BV1nYp36fEae"
       },
       {
         "rank": 11,
-        "title": "“我酒桶有自己的想法！”369、Karsa重聊纳尔往事【LPL视频播客丨把TA叫过来ep2】",
-        "heat": "17.5万",
-        "raw_heat": 175031,
-        "link": "https://www.bilibili.com/video/BV1KJpn68E2b"
+        "title": "原创动画《我到底穿了个什么东西？！》大合集",
+        "heat": "52.6万",
+        "raw_heat": 526085,
+        "link": "https://www.bilibili.com/video/BV1jupi6pEyo"
       },
       {
         "rank": 12,
-        "title": "逃离闪电侠黄金费德熊！你好邻居Mod",
-        "heat": "116.4万",
-        "raw_heat": 1163691,
-        "link": "https://www.bilibili.com/video/BV1QmpE6aEA7"
+        "title": "遗传定律：一种疾病，为什么能在家族中潜伏数代？",
+        "heat": "57.6万",
+        "raw_heat": 575564,
+        "link": "https://www.bilibili.com/video/BV1XupR6NEeo"
       },
       {
         "rank": 13,
-        "title": "这种神人游戏怎么还在出新作啊？",
-        "heat": "63.9万",
-        "raw_heat": 638550,
-        "link": "https://www.bilibili.com/video/BV1F4pj6uEZV"
+        "title": "今年诺奖颁给了“大脑的开关”：光遗传学到底是什么",
+        "heat": "21.0万",
+        "raw_heat": 209911,
+        "link": "https://www.bilibili.com/video/BV1Fbpt6qEPq"
       },
       {
         "rank": 14,
-        "title": "后来的我才明白...",
-        "heat": "164.8万",
-        "raw_heat": 1647703,
-        "link": "https://www.bilibili.com/video/BV1PDpv6vEsj"
+        "title": "豆包指导穿搭，笑死我了",
+        "heat": "42.1万",
+        "raw_heat": 420579,
+        "link": "https://www.bilibili.com/video/BV1Qope6rEH5"
       },
       {
         "rank": 15,
-        "title": "礼花炸响那一刻 又有个家庭蒸蒸日上",
-        "heat": "55.5万",
-        "raw_heat": 554923,
-        "link": "https://www.bilibili.com/video/BV1YhpY66E3p"
+        "title": "段位争夺战",
+        "heat": "22.3万",
+        "raw_heat": 223493,
+        "link": "https://www.bilibili.com/video/BV1WUpd64Ex6"
       },
       {
         "rank": 16,
-        "title": "可观测宇宙中最困的一声囔",
-        "heat": "110.8万",
-        "raw_heat": 1107789,
-        "link": "https://www.bilibili.com/video/BV1BWHQ6PE3b"
+        "title": "特朗普为何“大撒币”？中期选举究竟有多重要？【纸牌屋现实版】",
+        "heat": "61.8万",
+        "raw_heat": 617926,
+        "link": "https://www.bilibili.com/video/BV14LpE6sEx6"
       },
       {
         "rank": 17,
-        "title": "网络热门长虫视频(124)十岁男孩被太攀蛇咬伤！生命垂危险丧命！",
-        "heat": "25.2万",
-        "raw_heat": 252351,
-        "link": "https://www.bilibili.com/video/BV14GHY6fExG"
+        "title": "一镜到底骑行在路边发现一条未知小路，沉浸式体验在城市角落探索",
+        "heat": "59.0万",
+        "raw_heat": 590248,
+        "link": "https://www.bilibili.com/video/BV1KApg6hEa1"
       },
       {
         "rank": 18,
-        "title": "《谁家》一周年献礼",
-        "heat": "57.1万",
-        "raw_heat": 570652,
-        "link": "https://www.bilibili.com/video/BV1H2p765E1b"
+        "title": "“有人天生就喜欢这种感觉”",
+        "heat": "16.5万",
+        "raw_heat": 164712,
+        "link": "https://www.bilibili.com/video/BV1F6HD6eEwG"
       },
       {
         "rank": 19,
-        "title": "【26年双11显示器推荐】热门型号直降1000+？一条视频讲清楚！2万字爆肝 工业级设备实测 全规格尺寸实拍 1080P/2K/4K的电竞/办公/设计/性价比",
-        "heat": "38.6万",
-        "raw_heat": 386266,
-        "link": "https://www.bilibili.com/video/BV1Eipn6UEQq"
+        "title": "“我酒桶有自己的想法！”369、Karsa重聊纳尔往事【LPL视频播客丨把TA叫过来ep2】",
+        "heat": "80.0万",
+        "raw_heat": 799914,
+        "link": "https://www.bilibili.com/video/BV1KJpn68E2b"
       },
       {
         "rank": 20,
-        "title": "《不该存在的访客》继续用爱发电，耗费10000分钟制作，花费1000块",
-        "heat": "65.2万",
-        "raw_heat": 652258,
-        "link": "https://www.bilibili.com/video/BV1ZSp46AEF8"
+        "title": "【花小烙】蚰蜒：不就是腿多了点嘛，我们真没那么恐怖！",
+        "heat": "30.0万",
+        "raw_heat": 299546,
+        "link": "https://www.bilibili.com/video/BV1CapR6JEAM"
       }
     ],
     "百度热搜": [],
     "抖音热榜": [],
     "头条热榜": [],
     "小红书热榜": [],
-    "快手热榜": [
-      {
-        "rank": 1,
-        "title": "基础研究为何要久久为功",
-        "heat": "",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 2,
-        "title": "武网官方回应郑钦文退赛",
-        "heat": "1101.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 3,
-        "title": "霸王茶姬店员劝退消费者",
-        "heat": "1101.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 4,
-        "title": "听这些老红军留下的声音",
-        "heat": "1101.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 5,
-        "title": "歌手蔡琴宣布将退出歌坛",
-        "heat": "1101万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 6,
-        "title": "内蒙古阿尔山口岸外火光冲天",
-        "heat": "1100.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 7,
-        "title": "冰雪大世界联名迪士尼",
-        "heat": "1100.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 8,
-        "title": "31岁抗癌博主东东离世",
-        "heat": "1100.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 9,
-        "title": "当女儿第一次国旗下讲话",
-        "heat": "1080.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 10,
-        "title": "空壳公司成立9天接大棚项目骗钱",
-        "heat": "1059.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 11,
-        "title": "中国终将统一必将统一",
-        "heat": "1037.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 12,
-        "title": "头孢停药3天就能饮酒是谣言",
-        "heat": "1027万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 13,
-        "title": "亚洲最大的草莓植物工厂即将开工",
-        "heat": "1016.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 14,
-        "title": "郑钦文首夺中网女单冠军",
-        "heat": "993.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 15,
-        "title": "此处通往繁星郭麒麟上班碰见鬼",
-        "heat": "970.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 16,
-        "title": "金饰价格节后再涨",
-        "heat": "965.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 17,
-        "title": "“台独”穷途末路注定败亡",
-        "heat": "958万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 18,
-        "title": "中央政法委严打食品安全犯罪",
-        "heat": "953.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 19,
-        "title": "大狗大狗叫叫太上头了",
-        "heat": "949.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 20,
-        "title": "刘宇婕登顶中国女子高尔夫公开赛",
-        "heat": "945.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 21,
-        "title": "复刻济公的一日三餐",
-        "heat": "943万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 22,
-        "title": "央视曝光1.2亿农业项目烂尾",
-        "heat": "937.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 23,
-        "title": "章子怡回应获奖落泪",
-        "heat": "934.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 24,
-        "title": "王者周年庆妲己荣耀典藏",
-        "heat": "928.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 25,
-        "title": "施永青称生两孩才有权用避孕套",
-        "heat": "925.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 26,
-        "title": "安徽检察机关对潘良提起公诉",
-        "heat": "923.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 27,
-        "title": "郑钦文退出武网公开赛",
-        "heat": "921.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 28,
-        "title": "挪威学者称中国不谋霸权",
-        "heat": "916.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 29,
-        "title": "王小贱测评全皮肤账号",
-        "heat": "912.5万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 30,
-        "title": "专家：美国打击胡塞武装概率很大",
-        "heat": "910万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 31,
-        "title": "外交部驳斥美方涉台谬论",
-        "heat": "907.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 32,
-        "title": "北方多省份气温降幅可达6至12℃",
-        "heat": "897.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 33,
-        "title": "黑龙江全省大降温",
-        "heat": "895.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 34,
-        "title": "特朗普称俄乌同意能源停火",
-        "heat": "887.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 35,
-        "title": "北京牛街父母食堂量大实惠",
-        "heat": "885.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 36,
-        "title": "刚领的结婚证被狗撕了",
-        "heat": "882.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 37,
-        "title": "美国流浪汉兜售昏迷女友",
-        "heat": "879.9万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 38,
-        "title": "郑钦文夺冠致霸王茶姬崩了",
-        "heat": "877.3万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 39,
-        "title": "小猫针灸两次后变端庄",
-        "heat": "874.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 40,
-        "title": "全员进入巴提时代",
-        "heat": "872.8万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 41,
-        "title": "梁家辉称演员只是职业",
-        "heat": "871.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 42,
-        "title": "江西稻田种出祖国万岁",
-        "heat": "870.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 43,
-        "title": "蒙古草原火蔓延内蒙正堵截",
-        "heat": "869.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 44,
-        "title": "玉芬和彪哥",
-        "heat": "868.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 45,
-        "title": "泰国警方解救3名中国人",
-        "heat": "867万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 46,
-        "title": "早起晨练推荐四式",
-        "heat": "866.1万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 47,
-        "title": "第30号台风蔷琵或将生成",
-        "heat": "865.2万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 48,
-        "title": "王者周年庆福利肥嘟嘟的",
-        "heat": "864.4万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 49,
-        "title": "北京警方查电动车假证10人被抓",
-        "heat": "863.6万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      },
-      {
-        "rank": 50,
-        "title": "给我买个冰墩墩",
-        "heat": "862.7万",
-        "raw_heat": 0,
-        "link": "https://www.kuaishou.com/hot-board"
-      }
-    ],
+    "快手热榜": [],
     "微信热点": []
   }
 }
