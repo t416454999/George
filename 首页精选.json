@@ -1,78 +1,32 @@
 {
-  "generated": "2026-10-12T08:17:30+08:00",
+  "generated": "2026-10-12T14:22:20+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 872840653,
+  "headline_id": 2778666750,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
     {
-      "id": 872840653,
-      "标题": "世卫组织呼吁从机构化照护转向社区精神卫生照护",
-      "摘要": "在10月10日世界精神卫生日到来之际，世界卫生组织发布了一份新指南，支持各国摆脱以精神病院长期住院为中心的机构化精神卫生照护模式，转向以人为本、尊重人的权利和选择的社区照护模式",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-10-09",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142970",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-872840653.webp",
-      "封面": "assets/media/un-872840653.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/10-10-2022-UNICEF-UN0214238-Timor-Leste.jpg/image560x340cropped.jpg",
-      "导语": "在10月10日世界精神卫生日到来之际，世界卫生组织发布了一份新指南，支持各国摆脱以精神病院长期住院为中心的机构化精神卫生照护模式，转向以人为本、尊重人的权利和选择的社区照护模式",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "在10月10日世界精神卫生日到来之际，世界卫生组织发布了一份新指南，支持各国摆脱以精神病院长期住院为中心的机构化精神卫生照护模式，转向以人为本、尊重人的权利和选择的社区照护模式。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142970",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "partial",
-      "编辑分": 78,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-12T08:17:30+08:00"
-    },
-    {
-      "id": 404089864,
-      "标题": "【原生·一手】通过模拟进行综合：通过可扩展的代理-系统交互生成一致的企业数据",
-      "摘要": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained",
-      "内容": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained",
+      "id": 2778666750,
+      "标题": "【原生·模型】SpireBench：通过 Slay the Spire 评估代理模型的长期战略游戏",
+      "摘要": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic",
+      "内容": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic",
       "来源": "arXiv AI",
       "分类": "原生资讯",
-      "日期": "2026-10-09",
+      "日期": "2026-10-12",
       "热度": 50,
-      "链接": "https://arxiv.org/abs/2610.10549",
+      "链接": "https://arxiv.org/abs/2610.12596",
       "标签": [
         "原生资讯",
         "arXiv AI"
       ],
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "原标题": "【原生·一手】Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "原标题": "【原生·模型】SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
       "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 73,
+      "编辑分": 91,
       "评分分项": {
         "可信度": 25,
-        "时效": 2,
+        "时效": 20,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -85,7 +39,53 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-12T08:17:30+08:00"
+      "选入时间": "2026-10-12T14:22:20+08:00"
+    },
+    {
+      "id": 3925095507,
+      "标题": "吉布提近海发生严重沉船事故：139人遇难",
+      "摘要": "国际移民组织周日表示，一艘载有305人的船在吉布提近海翻沉，造成至少139名移民遇难，另有84余人仍下落不明",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-11",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142982",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3925095507.webp",
+      "封面": "assets/media/un-3925095507.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/11-06-2025_IOM_Dijbouti.jpg/image560x340cropped.jpg",
+      "导语": "国际移民组织周日表示，一艘载有305人的船在吉布提近海翻沉，造成至少139名移民遇难，另有84余人仍下落不明",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "国际移民组织周日表示，一艘载有305人的船在吉布提近海翻沉，造成至少139名移民遇难，另有84余人仍下落不明。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142982",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "ok",
+      "编辑分": 85,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-12T14:22:20+08:00"
     },
     {
       "id": 628883412,
@@ -123,16 +123,24 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-12T08:17:30+08:00"
+      "选入时间": "2026-10-12T14:22:20+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-12T08:17:30+08:00",
+    "as_of": "2026-10-12T14:22:20+08:00",
     "candidate_count": 604,
-    "rejected_count": 456,
+    "rejected_count": 447,
     "rejected": [
       {
+        "id": 859294223,
+        "reason": "off_topic"
+      },
+      {
         "id": 807914679,
+        "reason": "off_topic"
+      },
+      {
+        "id": 788576100,
         "reason": "off_topic"
       },
       {
@@ -140,7 +148,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 4253074109,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4124618619,
+        "reason": "off_topic"
+      },
+      {
         "id": 3991344309,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3845624109,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3779534074,
         "reason": "off_topic"
       },
       {
@@ -152,6 +176,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 3489636000,
+        "reason": "off_topic"
+      },
+      {
         "id": 3227169809,
         "reason": "off_topic"
       },
@@ -160,11 +188,31 @@
         "reason": "off_topic"
       },
       {
+        "id": 2970840495,
+        "reason": "off_topic"
+      },
+      {
+        "id": 296167213,
+        "reason": "off_topic"
+      },
+      {
         "id": 2744280115,
         "reason": "off_topic"
       },
       {
         "id": 2669070869,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2376400444,
+        "reason": "sensational_title"
+      },
+      {
+        "id": 2292446731,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2279319550,
         "reason": "off_topic"
       },
       {
@@ -181,6 +229,14 @@
       },
       {
         "id": 1766492781,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1676482586,
+        "reason": "off_topic"
+      },
+      {
+        "id": 161883637,
         "reason": "off_topic"
       },
       {
@@ -1560,82 +1616,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 94742123,
-        "reason": "off_topic"
-      },
-      {
-        "id": 928034203,
-        "reason": "off_topic"
-      },
-      {
-        "id": 59042348,
-        "reason": "off_topic"
-      },
-      {
-        "id": 553149765,
-        "reason": "off_topic"
-      },
-      {
-        "id": 514723494,
-        "reason": "off_topic"
-      },
-      {
-        "id": 415306487,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4032962224,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3925029346,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3914696718,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3904637913,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3837688874,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3807032655,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3594450303,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3589171591,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3418249979,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3394890793,
-        "reason": "off_topic"
-      },
-      {
-        "id": 331288298,
-        "reason": "off_topic"
-      },
-      {
-        "id": 330135886,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3238148688,
-        "reason": "off_topic"
-      },
-      {
         "id": 3513449827,
         "reason": "score_below_50",
         "score": 27
@@ -1716,27 +1696,7 @@
         "score": 27
       },
       {
-        "id": 844836675,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 1119951321,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 3128324489,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 155485984,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 2299560342,
+        "id": 3858348545,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1746,22 +1706,27 @@
         "score": 38
       },
       {
-        "id": 1156484259,
+        "id": 2985052582,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 428168691,
+        "id": 4211276149,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 3585257414,
+        "id": 513589797,
         "reason": "score_below_50",
         "score": 38
       },
       {
         "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 1974345789,
         "reason": "score_below_50",
         "score": 34
       },
@@ -1777,11 +1742,6 @@
       },
       {
         "id": 4121965531,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 1980953922,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1821,17 +1781,17 @@
         "score": 16
       },
       {
-        "id": 619245987,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
         "id": 3336040900,
         "reason": "score_below_50",
         "score": 16
       },
       {
         "id": 461933557,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1913,6 +1873,11 @@
         "reason": "stale_section"
       },
       {
+        "id": 916706397,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
         "id": 24740627,
         "reason": "score_below_50",
         "score": 26
@@ -1928,17 +1893,17 @@
         "score": 30
       },
       {
+        "id": 2422463297,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
         "id": 3628277920,
         "reason": "score_below_50",
         "score": 26
       },
       {
         "id": 3526750235,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
-        "id": 2572655427,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1973,19 +1938,14 @@
         "score": 30
       },
       {
-        "id": 1904413987,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
         "id": 2624698564,
         "reason": "score_below_50",
         "score": 25
       },
       {
-        "id": 2266033708,
+        "id": 4030196979,
         "reason": "score_below_50",
-        "score": 24
+        "score": 20
       },
       {
         "id": 4138627420,
