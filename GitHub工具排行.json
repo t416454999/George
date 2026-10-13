@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-12T17:32:25+08:00",
+  "updated": "2026-10-13T15:42:00+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "182.9k",
+      "星标": "183.0k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "147.7k",
+      "星标": "147.8k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,57 +63,41 @@
       "名称": "skills",
       "repo": "mattpocock/skills",
       "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 287593,
-      "本周新增": 10330,
+      "星标": 289126,
+      "本周新增": 11139,
       "语言": "Shell"
     },
     {
       "名称": "hyperframes",
       "repo": "heygen-com/hyperframes",
       "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 61610,
-      "本周新增": 4223,
+      "星标": 62388,
+      "本周新增": 4482,
       "语言": "TypeScript"
     },
     {
       "名称": "claude-mem",
       "repo": "thedotmack/claude-mem",
       "说明": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "星标": 100017,
-      "本周新增": 3803,
+      "星标": 100320,
+      "本周新增": 3762,
       "语言": "TypeScript"
     },
     {
       "名称": "text-to-cad",
       "repo": "earthtojake/text-to-cad",
       "说明": "Give your agent CAD superpowers.",
-      "星标": 19568,
-      "本周新增": 2508,
+      "星标": 19878,
+      "本周新增": 2441,
       "语言": "Python"
     },
     {
-      "名称": "openrig",
-      "repo": "mvschwarz/openrig",
-      "说明": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-      "星标": 7174,
-      "本周新增": 2028,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "rea",
-      "repo": "morluto/rea",
-      "说明": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "星标": 144609,
-      "本周新增": 126976,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "openGym",
-      "repo": "DuarteSantos8/openGym",
-      "说明": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-      "星标": 10270,
-      "本周新增": 7383,
-      "语言": "JavaScript"
+      "名称": "diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "说明": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "星标": 53663,
+      "本周新增": 9237,
+      "语言": "HTML"
     }
   ]
 }
