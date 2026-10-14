@@ -1,13 +1,121 @@
 {
-  "updated": "2026-10-14T21:00:43+08:00",
-  "as_of": "2026-10-14T21:00:43+08:00",
+  "updated": "2026-10-15T01:58:21+08:00",
+  "as_of": "2026-10-15T01:58:21+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
   "status": "partial",
-  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f28c1f275d0>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)'))",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2865644014,
+      "标题": "基金组织上调2026年全球经济增速预期",
+      "摘要": "国际货币基金组织周二发布最新一期《世界经济展望》报告，预计2026年全球经济增长3.1%，较7月预测上调0.1个百分点，2027年增速回升至3.4%，与此前预测持平",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-13",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142996",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2865644014.webp",
+      "封面": "assets/media/un-2865644014.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/02-12-25-Unsplash-cell-phone.jpg/image560x340cropped.jpg",
+      "导语": "国际货币基金组织周二发布最新一期《世界经济展望》报告，预计2026年全球经济增长3.1%，较7月预测上调0.1个百分点，2027年增速回升至3.4%，与此前预测持平",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "国际货币基金组织周二发布最新一期《世界经济展望》报告，预计2026年全球经济增长3.1%，较7月预测上调0.1个百分点，2027年增速回升至3.4%，与此前预测持平。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142996",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3249759156,
+      "标题": "西非经海路抵达欧洲人数下降近六成 非正规移民路线风险持续上升",
+      "摘要": "国际移民组织周二发布的最新数据显示，2026年上半年，来自马里、塞内加尔、几内亚和冈比亚的移民经海路抵达欧洲的人数为4566人，较2025年同期下降59%。然而，抵达人数减少并未让非正规移民旅程变得更加安全，部分移民正转向更长、更危险的路线",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-13",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142994",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3249759156.webp",
+      "封面": "assets/media/un-3249759156.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/04-11-2025_IOM_Migrants_Gambia.jpg/image560x340cropped.jpg",
+      "导语": "国际移民组织周二发布的最新数据显示，2026年上半年，来自马里、塞内加尔、几内亚和冈比亚的移民经海路抵达欧洲的人数为4566人，较2025年同期下降59%。然而，抵达人数减少并未让非正规移民旅程变得更加安全，部分移民正转",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "国际移民组织周二发布的最新数据显示，2026年上半年，来自马里、塞内加尔、几内亚和冈比亚的移民经海路抵达欧洲的人数为4566人，较2025年同期下降59%。然而，抵达人数减少并未让非正规移民旅程变得更加安全，部分移民正转向更长、更危险的路线。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142994",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2801113403,
+      "标题": "秘书长提出联合国2027年33亿美元的精简预算案",
+      "摘要": "秘书长古特雷斯周二在提交联合国明年总额为33亿美元的预算提案时表示，面对气候动荡、人工智能革命、战争以及日益加剧的饥饿问题，“对联合国的需要从未如此迫切”。这一预算较上年度削减了4080万美元",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-13",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142995",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2801113403.webp",
+      "封面": "assets/media/un-2801113403.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/24-12-2024-UN_Photo-UN_HQs.jpg/image560x340cropped.jpg",
+      "导语": "秘书长古特雷斯周二在提交联合国明年总额为33亿美元的预算提案时表示，面对气候动荡、人工智能革命、战争以及日益加剧的饥饿问题，“对联合国的需要从未如此迫切”。这一预算较上年度削减了4080万美元",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "秘书长古特雷斯周二在提交联合国明年总额为33亿美元的预算提案时表示，面对气候动荡、人工智能革命、战争以及日益加剧的饥饿问题，“对联合国的需要从未如此迫切”。这一预算较上年度削减了4080万美元。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142995",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3709772604,
+      "标题": "灾害每年造成的住房损失高达2280亿美元",
+      "摘要": "2280亿美元是一笔令人瞠目的巨款，但这正是世界各地的社区每年在灾后重建住房时必须面对的现实",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-13",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142993",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3709772604.webp",
+      "封面": "assets/media/un-3709772604.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/06-10-2026_UNICEF_Vietnam_El_Nino_Children.jpg/image560x340cropped.jpg",
+      "导语": "2280亿美元是一笔令人瞠目的巨款，但这正是世界各地的社区每年在灾后重建住房时必须面对的现实",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "2280亿美元是一笔令人瞠目的巨款，但这正是世界各地的社区每年在灾后重建住房时必须面对的现实。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142993",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2396641752,
       "标题": "开发计划署推出全球投资和就业倡议，以促进发展中国家经济增长",
@@ -984,126 +1092,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.mskagency.ru/materials/3569626",
       "出处说明": "根据mskagency.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 732475845,
-      "标题": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
-      "原标题": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文。",
-      "来源": "blog.wenxuecity.com",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-12T06:22:02+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 blog.wenxuecity.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
-      "出处说明": "根据blog.wenxuecity.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1837272821,
-      "标题": "特朗普宣布与俄罗斯就柴油问题达成协议，美国、乌克兰和欧洲谈判代表在迈阿密举行了六个小时的会谈",
-      "原标题": "Negociatorii americani , ucraineni și europeni au discutat șase ore la Miami , în timp ce Trump a anunțat un acord cu Rusia privind motorina",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文。",
-      "来源": "mediafax.ro",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.mediafax.ro/externe/negociatorii-americani-ucraineni-si-europeni-au-discutat-sase-ore-la-miami-in-timp-ce-trump-a-anuntat-un-acord-cu-rusia-privind-motorina-23823158",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.mediafax.ro/wp-content/uploads/2026/10/8156036-hepta_mediafax_foto-dpa_hepta-1-scaled.jpg",
-      "数据截至": "2026-10-12T06:22:02+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 mediafax.ro 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.mediafax.ro/externe/negociatorii-americani-ucraineni-si-europeni-au-discutat-sase-ore-la-miami-in-timp-ce-trump-a-anuntat-un-acord-cu-rusia-privind-motorina-23823158",
-      "出处说明": "根据mediafax.ro公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2921665377,
-      "标题": "市委理论学习中心组举行学习会议 _ 本网独家 _ 新闻 _",
-      "原标题": "市委理论学习中心组举行学习会议 _ 本网独家 _ 新闻 _",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文。",
-      "来源": "chuzhou.cn",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "http://www.chuzhou.cn/2026/1010/990126.shtml",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-12T06:22:02+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 chuzhou.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.chuzhou.cn/2026/1010/990126.shtml",
-      "出处说明": "根据chuzhou.cn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3082680128,
-      "标题": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
-      "原标题": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文。",
-      "来源": "cna.com.tw",
-      "分类": "国际形势",
-      "日期": "2026-10-10",
-      "链接": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-12T06:22:02+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 cna.com.tw 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
-      "出处说明": "根据cna.com.tw公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
