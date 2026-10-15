@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T17:48:55+08:00",
+  "generated": "2026-10-15T22:44:58+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 4210366527,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -39,7 +39,43 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-15T17:48:55+08:00"
+      "选入时间": "2026-10-15T22:44:58+08:00"
+    },
+    {
+      "id": 1289481460,
+      "标题": "【原生·一手】教学生通过问题思考和学习",
+      "摘要": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "内容": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-10-15",
+      "热度": 50,
+      "链接": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方"
+      ],
+      "原标题": "【原生·一手】Teaching students to think and learn through questions",
+      "中文提炼": "",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/16A5mkf828KStF68ijvmN1/2f720d42bb308b9c1ab0edc26a047a17/teaching-students-to-think-and-learn-through-questions-social.png?w=1600&amp;h=900&amp;fit=fill",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-15T22:44:58+08:00"
     },
     {
       "id": 3467230461,
@@ -68,7 +104,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -85,50 +121,13 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-15T17:48:55+08:00"
-    },
-    {
-      "id": 3402603906,
-      "标题": "【原生·一手】Block 如何利用 OpenAI 技术构建人工智能驱动的安全",
-      "摘要": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "内容": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-10-14",
-      "热度": 59,
-      "链接": "https://openai.com/index/block-ai-powered-security",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "OpenAI"
-      ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/6csT9lb6PlJ3KoxJDX6p7s/c94f16d2eadb4b01cb428ce5c62db7a2/Block-AI-Powered-Security-SEO-Image-1920x1080.png?w=1600&amp;h=900&amp;fit=fill",
-      "原标题": "【原生·一手】How Block is building AI-powered security with OpenAI technology",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 85,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-15T17:48:55+08:00"
+      "选入时间": "2026-10-15T22:44:58+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-15T17:48:55+08:00",
+    "as_of": "2026-10-15T22:44:58+08:00",
     "candidate_count": 604,
-    "rejected_count": 411,
+    "rejected_count": 404,
     "rejected": [
       {
         "id": 799650764,
@@ -136,6 +135,10 @@
       },
       {
         "id": 767043540,
+        "reason": "off_topic"
+      },
+      {
+        "id": 761745470,
         "reason": "off_topic"
       },
       {
@@ -148,6 +151,10 @@
       },
       {
         "id": 4114889561,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4113274455,
         "reason": "off_topic"
       },
       {
@@ -211,11 +218,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 3306403859,
+        "reason": "off_topic"
+      },
+      {
         "id": 3281711086,
         "reason": "off_topic"
       },
       {
         "id": 318271019,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3153766606,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3089470195,
         "reason": "off_topic"
       },
       {
@@ -227,7 +246,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 2996162008,
+        "reason": "off_topic"
+      },
+      {
         "id": 2919320241,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2873121397,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2703828238,
         "reason": "off_topic"
       },
       {
@@ -292,6 +323,10 @@
       },
       {
         "id": 1443013596,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1372569764,
         "reason": "off_topic"
       },
       {
@@ -1472,70 +1507,24 @@
         "reason": "off_topic"
       },
       {
-        "id": 2660283087,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2659438471,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2591098455,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2514511230,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2469422053,
+        "id": 593426795,
         "reason": "score_below_50",
-        "score": 49
+        "score": 38
       },
       {
-        "id": 233850385,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2334900296,
-        "reason": "off_topic"
-      },
-      {
-        "id": 229481184,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2068282496,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2008107700,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2006051235,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1976863784,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1941486067,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1741633618,
-        "reason": "off_topic"
-      },
-      {
-        "id": 17360332,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1679708970,
+        "id": 4161864678,
         "reason": "score_below_50",
-        "score": 49
+        "score": 38
+      },
+      {
+        "id": 3838810477,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1729886606,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
         "id": 507061304,
@@ -1543,12 +1532,7 @@
         "score": 38
       },
       {
-        "id": 3003312641,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2385296465,
+        "id": 1234684928,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1563,24 +1547,19 @@
         "score": 38
       },
       {
+        "id": 245301581,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 414694627,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 165731457,
         "reason": "score_below_50",
         "score": 38
-      },
-      {
-        "id": 3838810477,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3438414192,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3709105892,
-        "reason": "score_below_50",
-        "score": 43
       },
       {
         "id": 2488645258,
@@ -1588,32 +1567,27 @@
         "score": 34
       },
       {
+        "id": 51211121,
+        "reason": "score_below_50",
+        "score": 39
+      },
+      {
+        "id": 1310229508,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 3812660481,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 223499925,
+        "id": 3783897873,
         "reason": "score_below_50",
-        "score": 32
+        "score": 26
       },
       {
         "id": 4088191483,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 1000076194,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 367105842,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 1310229508,
         "reason": "score_below_50",
         "score": 26
       },
@@ -1629,16 +1603,6 @@
       },
       {
         "id": 619245987,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 3336040900,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1659,6 +1623,11 @@
       },
       {
         "id": 1930382564,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 745979126,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1730,11 +1699,6 @@
         "score": 30
       },
       {
-        "id": 24740627,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
         "id": 471907552,
         "reason": "score_below_50",
         "score": 26
@@ -1745,19 +1709,9 @@
         "score": 30
       },
       {
-        "id": 3628277920,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
         "id": 3526750235,
         "reason": "score_below_50",
         "score": 30
-      },
-      {
-        "id": 1263039081,
-        "reason": "score_below_50",
-        "score": 26
       },
       {
         "id": 7149929,
@@ -1780,12 +1734,27 @@
         "score": 29
       },
       {
-        "id": 2624698564,
+        "id": 3278864918,
         "reason": "score_below_50",
-        "score": 25
+        "score": 20
       },
       {
-        "id": 3278864918,
+        "id": 2266033708,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 827143116,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 468590270,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 974282593,
         "reason": "score_below_50",
         "score": 20
       },
