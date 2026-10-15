@@ -1,10 +1,46 @@
 {
-  "generated": "2026-10-15T08:02:51+08:00",
+  "generated": "2026-10-15T13:02:53+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 3467230461,
+  "headline_id": 4210366527,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
+    {
+      "id": 4210366527,
+      "标题": "【原生·研究】VETNET：为人工智能驱动的兽医创新组装基准数据集",
+      "摘要": "arXiv:2610.14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in",
+      "内容": "arXiv:2610.14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-10-15",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2610.14149",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "原标题": "【原生·研究】VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-15T13:02:53+08:00"
+    },
     {
       "id": 3467230461,
       "标题": "饮酒可导致乳腺癌 欧洲受访者知晓率仅15%",
@@ -32,7 +68,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,25 +85,26 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-15T08:02:51+08:00"
+      "选入时间": "2026-10-15T13:02:53+08:00"
     },
     {
-      "id": 1756416580,
-      "标题": "【原生·研究】Third Moment Research 如何让 10,000 个代理运行 36 个小时以上",
-      "摘要": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "内容": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "id": 3402603906,
+      "标题": "【原生·一手】Block 如何利用 OpenAI 技术构建人工智能驱动的安全",
+      "摘要": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "内容": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
       "日期": "2026-10-14",
-      "热度": 58,
-      "链接": "https://openai.com/index/third-moment-research",
+      "热度": 59,
+      "链接": "https://openai.com/index/block-ai-powered-security",
       "标签": [
         "原生资讯",
-        "OpenAI 官方"
+        "OpenAI 官方",
+        "OpenAI"
       ],
-      "原标题": "【原生·研究】How Third Moment Research runs 10,000 agents for 36+ hours",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/6csT9lb6PlJ3KoxJDX6p7s/c94f16d2eadb4b01cb428ce5c62db7a2/Block-AI-Powered-Security-SEO-Image-1920x1080.png?w=1600&amp;h=900&amp;fit=fill",
+      "原标题": "【原生·一手】How Block is building AI-powered security with OpenAI technology",
       "中文提炼": "",
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/m0YDNMUPfmBJYf8nw2LGR/202c3cb46da0506d77cce90027c1ef9c/third-moment-research-first-light-social-1920x1080.png?w=1600&amp;h=900&amp;fit=fill",
       "候选栏目": "AI",
       "编辑分": 85,
       "评分分项": {
@@ -85,50 +122,13 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-15T08:02:51+08:00"
-    },
-    {
-      "id": 3348650052,
-      "标题": "【原生·模型】Google DeepMind 和新加坡政府合作构建用于诈骗检测的微调人工智能模型",
-      "摘要": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data",
-      "内容": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data",
-      "来源": "Google DeepMind 官方",
-      "分类": "原生资讯",
-      "日期": "2026-10-14",
-      "热度": 57,
-      "链接": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "标签": [
-        "原生资讯",
-        "Google DeepMind 官方",
-        "Google"
-      ],
-      "图片": "https://lh3.googleusercontent.com/m134KeViYlQXqWaac-fW1TuTvCk1ZQ2EnHF72xH6anzjd4iKukfGHvV3o5PiDTJfSytjxUF2E1rwAAHlZ4ZyCkGkOHV7Uij2ZZ3zsbVZUAFCMCccZQ=w528-h297-n-nu-rw-lo",
-      "原标题": "【原生·模型】Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 80,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-15T08:02:51+08:00"
+      "选入时间": "2026-10-15T13:02:53+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-15T08:02:51+08:00",
+    "as_of": "2026-10-15T13:02:53+08:00",
     "candidate_count": 604,
-    "rejected_count": 414,
+    "rejected_count": 412,
     "rejected": [
       {
         "id": 799650764,
@@ -139,11 +139,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 640574106,
+        "reason": "off_topic"
+      },
+      {
         "id": 4129104642,
         "reason": "off_topic"
       },
       {
         "id": 4051009620,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3975788625,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3935215743,
         "reason": "off_topic"
       },
       {
@@ -159,6 +171,14 @@
         "reason": "off_topic"
       },
       {
+        "id": 3708330835,
+        "reason": "sensational_title"
+      },
+      {
+        "id": 3513683432,
+        "reason": "off_topic"
+      },
+      {
         "id": 3414679775,
         "reason": "off_topic"
       },
@@ -167,11 +187,27 @@
         "reason": "off_topic"
       },
       {
+        "id": 3327074652,
+        "reason": "off_topic"
+      },
+      {
         "id": 3322077119,
         "reason": "off_topic"
       },
       {
+        "id": 3281711086,
+        "reason": "off_topic"
+      },
+      {
         "id": 318271019,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3049342736,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3048415812,
         "reason": "off_topic"
       },
       {
@@ -183,11 +219,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 2195310530,
+        "reason": "off_topic"
+      },
+      {
         "id": 2194645251,
         "reason": "off_topic"
       },
       {
         "id": 2133023859,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2107369161,
         "reason": "off_topic"
       },
       {
@@ -1498,57 +1542,9 @@
         "reason": "off_topic"
       },
       {
-        "id": 1086534629,
-        "reason": "off_topic"
-      },
-      {
-        "id": 932769954,
-        "reason": "off_topic"
-      },
-      {
-        "id": 789319242,
-        "reason": "off_topic"
-      },
-      {
-        "id": 768426340,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4272291459,
-        "reason": "off_topic"
-      },
-      {
-        "id": 391267750,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3858692337,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3789591242,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3688656955,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3670266489,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3645070813,
+        "id": 3003312641,
         "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 3596522978,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3571983496,
-        "reason": "off_topic"
+        "score": 38
       },
       {
         "id": 507061304,
@@ -1556,7 +1552,17 @@
         "score": 38
       },
       {
+        "id": 3709105892,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
         "id": 165731457,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 322182617,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1566,29 +1572,9 @@
         "score": 38
       },
       {
-        "id": 1370762260,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
         "id": 2488645258,
         "reason": "score_below_50",
         "score": 34
-      },
-      {
-        "id": 223499925,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 4294689612,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2271320446,
-        "reason": "score_below_50",
-        "score": 32
       },
       {
         "id": 3812660481,
@@ -1599,6 +1585,16 @@
         "id": 963724620,
         "reason": "score_below_50",
         "score": 32
+      },
+      {
+        "id": 4088191483,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 1000076194,
+        "reason": "score_below_50",
+        "score": 26
       },
       {
         "id": 367105842,
@@ -1616,24 +1612,14 @@
         "score": 26
       },
       {
-        "id": 4088191483,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 1000076194,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
-        "id": 4212374522,
-        "reason": "score_below_50",
-        "score": 31
-      },
-      {
         "id": 1825203451,
         "reason": "score_below_50",
         "score": 26
+      },
+      {
+        "id": 3677521931,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 2470484058,
@@ -1654,6 +1640,11 @@
         "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
+      },
+      {
+        "id": 688858806,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 444437417,
@@ -1728,6 +1719,11 @@
         "reason": "stale_section"
       },
       {
+        "id": 1662940977,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
         "id": 916706397,
         "reason": "score_below_50",
         "score": 30
@@ -1763,7 +1759,7 @@
         "score": 30
       },
       {
-        "id": 4065851501,
+        "id": 1249595853,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1796,11 +1792,6 @@
         "id": 3892170956,
         "reason": "score_below_50",
         "score": 30
-      },
-      {
-        "id": 2640565248,
-        "reason": "score_below_50",
-        "score": 26
       },
       {
         "id": 4138627420,
