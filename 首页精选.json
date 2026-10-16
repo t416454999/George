@@ -1,33 +1,77 @@
 {
-  "generated": "2026-10-16T08:16:44+08:00",
+  "generated": "2026-10-16T12:52:35+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 4210366527,
+  "headline_id": 988158888,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
     {
-      "id": 4210366527,
-      "标题": "【原生·研究】VETNET：为人工智能驱动的兽医创新组装基准数据集",
-      "摘要": "arXiv:2610.14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in",
-      "内容": "arXiv:2610.14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
+      "id": 988158888,
+      "标题": "联合国警告：人工智能、绿色能源和经济转型可能导致弱势群体被抛在后面",
+      "摘要": "联合国周四发布的《2026年世界社会报告》称，从人工智能和数字技术到可再生能源及人口结构变化等快速转型，正在重塑全球经济格局，这些变化虽创造了新机遇，但也可能加剧社会经济不平等",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
       "日期": "2026-10-15",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2610.14149",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143006",
       "标签": [
-        "原生资讯",
-        "arXiv AI"
+        "国际",
+        "联合国"
       ],
-      "原标题": "【原生·研究】VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 85,
+      "图片": "assets/media/un-988158888.webp",
+      "封面": "assets/media/un-988158888.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/02-10-2026_ColombiaRobotics_2.JPG/image560x340cropped.jpg",
+      "导语": "联合国周四发布的《2026年世界社会报告》称，从人工智能和数字技术到可再生能源及人口结构变化等快速转型，正在重塑全球经济格局，这些变化虽创造了新机遇，但也可能加剧社会经济不平等",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国周四发布的《2026年世界社会报告》称，从人工智能和数字技术到可再生能源及人口结构变化等快速转型，正在重塑全球经济格局，这些变化虽创造了新机遇，但也可能加剧社会经济不平等。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143006",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
+      "候选栏目": "国际形势",
+      "栏目状态": "ok",
+      "编辑分": 90,
       "评分分项": {
         "可信度": 25,
         "时效": 14,
         "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 5,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-16T12:52:35+08:00"
+    },
+    {
+      "id": 890710971,
+      "标题": "【原生·开发者】The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "摘要": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously",
+      "内容": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-10-16",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2610.20665",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 86,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -39,7 +83,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-16T08:16:44+08:00"
+      "选入时间": "2026-10-16T12:52:35+08:00"
     },
     {
       "id": 1289481460,
@@ -75,60 +119,34 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-16T08:16:44+08:00"
-    },
-    {
-      "id": 3467230461,
-      "标题": "饮酒可导致乳腺癌 欧洲受访者知晓率仅15%",
-      "摘要": "世界卫生组织欧洲区域办事处周三表示，在欧洲14个国家开展的调查中，仅有15%的受访者知道饮酒可能导致乳腺癌。10月是乳腺癌宣传月。为了扩大相关医疗知识宣传，办事处推出配备人工智能助手的数字平台，帮助医护人员开展酒精风险筛查，并鼓励将健康饮酒的讨论纳入日常诊疗",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-10-14",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1142998",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3467230461.webp",
-      "封面": "assets/media/un-3467230461.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/14-10-2026-Adobe-Stock-woman-alcohol.jpg/image560x340cropped.jpg",
-      "导语": "世界卫生组织欧洲区域办事处周三表示，在欧洲14个国家开展的调查中，仅有15%的受访者知道饮酒可能导致乳腺癌。10月是乳腺癌宣传月。为了扩大相关医疗知识宣传，办事处推出配备人工智能助手的数字平台，帮助医护人员开展酒精风险筛",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "世界卫生组织欧洲区域办事处周三表示，在欧洲14个国家开展的调查中，仅有15%的受访者知道饮酒可能导致乳腺癌。10月是乳腺癌宣传月。为了扩大相关医疗知识宣传，办事处推出配备人工智能助手的数字平台，帮助医护人员开展酒精风险筛查，并鼓励将健康饮酒的讨论纳入日常诊疗。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1142998",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
-      "候选栏目": "国际形势",
-      "栏目状态": "ok",
-      "编辑分": 84,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 5,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-16T08:16:44+08:00"
+      "选入时间": "2026-10-16T12:52:35+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-16T08:16:44+08:00",
+    "as_of": "2026-10-16T12:52:35+08:00",
     "candidate_count": 604,
-    "rejected_count": 425,
+    "rejected_count": 418,
     "rejected": [
+      {
+        "id": 838629844,
+        "reason": "off_topic"
+      },
+      {
+        "id": 702667333,
+        "reason": "off_topic"
+      },
+      {
+        "id": 566611346,
+        "reason": "off_topic"
+      },
+      {
+        "id": 519260807,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4183951897,
+        "reason": "off_topic"
+      },
       {
         "id": 4105089664,
         "reason": "off_topic"
@@ -146,6 +164,26 @@
         "reason": "off_topic"
       },
       {
+        "id": 3713574893,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3689364352,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3486679061,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3345196530,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3237156387,
+        "reason": "off_topic"
+      },
+      {
         "id": 3153554673,
         "reason": "off_topic"
       },
@@ -158,6 +196,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 2937550568,
+        "reason": "off_topic"
+      },
+      {
         "id": 2864998594,
         "reason": "off_topic"
       },
@@ -167,6 +209,10 @@
       },
       {
         "id": 2116024793,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1994856542,
         "reason": "off_topic"
       },
       {
@@ -223,6 +269,10 @@
       },
       {
         "id": 640574106,
+        "reason": "off_topic"
+      },
+      {
+        "id": 426926057,
         "reason": "off_topic"
       },
       {
@@ -387,6 +437,10 @@
       },
       {
         "id": 2046694297,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2026717543,
         "reason": "off_topic"
       },
       {
@@ -1445,170 +1499,84 @@
         "reason": "off_topic"
       },
       {
-        "id": 2839264607,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2741453521,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2629267190,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2622753423,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2360337132,
-        "reason": "sensational_title"
-      },
-      {
-        "id": 232404954,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2308192368,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2298020294,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2183126836,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2153387059,
+        "id": 3815951444,
         "reason": "score_below_50",
-        "score": 49
+        "score": 39
       },
       {
-        "id": 2143331311,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1589869588,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1504734603,
-        "reason": "off_topic"
-      },
-      {
-        "id": 150095268,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1376900746,
-        "reason": "off_topic"
-      },
-      {
-        "id": 133537074,
+        "id": 2698771744,
         "reason": "score_below_50",
-        "score": 49
+        "score": 39
       },
       {
-        "id": 1332357674,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1254681362,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1079934428,
-        "reason": "off_topic"
-      },
-      {
-        "id": 851883325,
-        "reason": "off_topic"
-      },
-      {
-        "id": 762645461,
-        "reason": "sensational_title"
-      },
-      {
-        "id": 1936965088,
+        "id": 3218904289,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 18342489,
+        "id": 1281673548,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 163131519,
+        "id": 3601086817,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3039439024,
+        "id": 4172346488,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1568243480,
+        "id": 553841067,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2623455082,
+        "id": 791292359,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2969696168,
+        "id": 977712580,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 411425595,
+        "id": 3441777536,
         "reason": "score_below_50",
-        "score": 37
+        "score": 39
       },
       {
-        "id": 2383503235,
+        "id": 1698976947,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3594931399,
+        "id": 1446412924,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3885212577,
+        "id": 2435524653,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1219205788,
+        "id": 3510278210,
         "reason": "score_below_50",
-        "score": 37
+        "score": 39
       },
       {
-        "id": 781339853,
+        "id": 4056970772,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2260062513,
+        "id": 3390730737,
         "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 368474623,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 1693893999,
-        "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
         "id": 1485023159,
@@ -1631,12 +1599,27 @@
         "score": 38
       },
       {
+        "id": 1096162513,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 414694627,
         "reason": "score_below_50",
         "score": 38
       },
       {
         "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 1838559573,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 970069882,
         "reason": "score_below_50",
         "score": 34
       },
@@ -1656,7 +1639,7 @@
         "score": 32
       },
       {
-        "id": 507061304,
+        "id": 4161864678,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1691,17 +1674,17 @@
         "score": 20
       },
       {
-        "id": 3783897873,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 1825203451,
         "reason": "score_below_50",
         "score": 20
       },
       {
         "id": 2470484058,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 619245987,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1719,21 +1702,6 @@
         "id": 444437417,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 2175254021,
-        "reason": "score_below_50",
-        "score": 25
-      },
-      {
-        "id": 4265813590,
-        "reason": "score_below_50",
-        "score": 21
-      },
-      {
-        "id": 1930382564,
-        "reason": "score_below_50",
-        "score": 16
       },
       {
         "id": 4190298209,
@@ -1798,12 +1766,17 @@
         "score": 30
       },
       {
+        "id": 245002577,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
         "id": 24740627,
         "reason": "score_below_50",
         "score": 26
       },
       {
-        "id": 1145100833,
+        "id": 471907552,
         "reason": "score_below_50",
         "score": 26
       },
@@ -1811,11 +1784,6 @@
         "id": 2422463297,
         "reason": "score_below_50",
         "score": 30
-      },
-      {
-        "id": 3628277920,
-        "reason": "score_below_50",
-        "score": 26
       },
       {
         "id": 3526750235,
@@ -1829,11 +1797,6 @@
       },
       {
         "id": 7149929,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
-        "id": 2970742308,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1861,6 +1824,11 @@
         "id": 3278864918,
         "reason": "score_below_50",
         "score": 20
+      },
+      {
+        "id": 2266033708,
+        "reason": "score_below_50",
+        "score": 24
       },
       {
         "id": 4138627420,
