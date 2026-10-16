@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-15T13:10:58+08:00",
+  "updated": "2026-10-16T13:05:21+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "183.2k",
+      "星标": "183.4k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -63,57 +63,57 @@
       "名称": "rea",
       "repo": "morluto/rea",
       "说明": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "星标": 259645,
-      "本周新增": 214837,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "skills",
-      "repo": "mattpocock/skills",
-      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 292186,
-      "本周新增": 12292,
-      "语言": "Shell"
-    },
-    {
-      "名称": "hyperframes",
-      "repo": "heygen-com/hyperframes",
-      "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 64177,
-      "本周新增": 5123,
+      "星标": 283585,
+      "本周新增": 239477,
       "语言": "TypeScript"
     },
     {
       "名称": "diagram-design",
       "repo": "cathrynlavery/diagram-design",
       "说明": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "星标": 55689,
-      "本周新增": 10706,
+      "星标": 56213,
+      "本周新增": 10237,
       "语言": "HTML"
+    },
+    {
+      "名称": "hyperframes",
+      "repo": "heygen-com/hyperframes",
+      "说明": "Write HTML. Render video. Built for agents.",
+      "星标": 64995,
+      "本周新增": 5318,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "skills",
+      "repo": "mattpocock/skills",
+      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
+      "星标": 293595,
+      "本周新增": 12147,
+      "语言": "Shell"
+    },
+    {
+      "名称": "context-mode",
+      "repo": "mksglu/context-mode",
+      "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "星标": 30022,
+      "本周新增": 4038,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "claude-plugins-official",
+      "repo": "anthropics/claude-plugins-official",
+      "说明": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "星标": 39882,
+      "本周新增": 2217,
+      "语言": "Python"
     },
     {
       "名称": "text-to-cad",
       "repo": "earthtojake/text-to-cad",
       "说明": "Give your agent CAD superpowers.",
-      "星标": 20577,
-      "本周新增": 1994,
+      "星标": 20876,
+      "本周新增": 2244,
       "语言": "Python"
-    },
-    {
-      "名称": "SwiftUI-Agent-Skill",
-      "repo": "twostraws/SwiftUI-Agent-Skill",
-      "说明": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
-      "星标": 6038,
-      "本周新增": 930,
-      "语言": ""
-    },
-    {
-      "名称": "openGym",
-      "repo": "DuarteSantos8/openGym",
-      "说明": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-      "星标": 12109,
-      "本周新增": 5132,
-      "语言": "JavaScript"
     }
   ]
 }
