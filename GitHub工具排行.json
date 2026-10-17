@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-16T13:05:21+08:00",
+  "updated": "2026-10-17T12:01:42+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "183.4k",
+      "星标": "183.6k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "147.9k",
+      "星标": "148.0k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "27.3k",
+      "星标": "27.4k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -63,57 +63,49 @@
       "名称": "rea",
       "repo": "morluto/rea",
       "说明": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "星标": 283585,
-      "本周新增": 239477,
+      "星标": 298965,
+      "本周新增": 248962,
       "语言": "TypeScript"
     },
     {
       "名称": "diagram-design",
       "repo": "cathrynlavery/diagram-design",
       "说明": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "星标": 56213,
-      "本周新增": 10237,
+      "星标": 56678,
+      "本周新增": 9024,
       "语言": "HTML"
+    },
+    {
+      "名称": "claude-plugins-official",
+      "repo": "anthropics/claude-plugins-official",
+      "说明": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "星标": 41132,
+      "本周新增": 2328,
+      "语言": "Python"
     },
     {
       "名称": "hyperframes",
       "repo": "heygen-com/hyperframes",
       "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 64995,
-      "本周新增": 5318,
+      "星标": 65614,
+      "本周新增": 5601,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "context-mode",
+      "repo": "mksglu/context-mode",
+      "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "星标": 30399,
+      "本周新增": 4207,
       "语言": "TypeScript"
     },
     {
       "名称": "skills",
       "repo": "mattpocock/skills",
       "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 293595,
-      "本周新增": 12147,
+      "星标": 294524,
+      "本周新增": 11937,
       "语言": "Shell"
-    },
-    {
-      "名称": "context-mode",
-      "repo": "mksglu/context-mode",
-      "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 30022,
-      "本周新增": 4038,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "claude-plugins-official",
-      "repo": "anthropics/claude-plugins-official",
-      "说明": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "星标": 39882,
-      "本周新增": 2217,
-      "语言": "Python"
-    },
-    {
-      "名称": "text-to-cad",
-      "repo": "earthtojake/text-to-cad",
-      "说明": "Give your agent CAD superpowers.",
-      "星标": 20876,
-      "本周新增": 2244,
-      "语言": "Python"
     }
   ]
 }
