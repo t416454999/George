@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-17T12:01:42+08:00",
+  "updated": "2026-10-18T12:30:16+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "183.6k",
+      "星标": "183.7k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "61.4k",
+      "星标": "61.5k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,49 +63,25 @@
       "名称": "rea",
       "repo": "morluto/rea",
       "说明": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "星标": 298965,
-      "本周新增": 248962,
+      "星标": 315405,
+      "本周新增": 239923,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "diagram-design",
-      "repo": "cathrynlavery/diagram-design",
-      "说明": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "星标": 56678,
-      "本周新增": 9024,
-      "语言": "HTML"
     },
     {
       "名称": "claude-plugins-official",
       "repo": "anthropics/claude-plugins-official",
       "说明": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "星标": 41132,
-      "本周新增": 2328,
+      "星标": 42290,
+      "本周新增": 3581,
       "语言": "Python"
-    },
-    {
-      "名称": "hyperframes",
-      "repo": "heygen-com/hyperframes",
-      "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 65614,
-      "本周新增": 5601,
-      "语言": "TypeScript"
     },
     {
       "名称": "context-mode",
       "repo": "mksglu/context-mode",
       "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 30399,
-      "本周新增": 4207,
+      "星标": 30615,
+      "本周新增": 4438,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "skills",
-      "repo": "mattpocock/skills",
-      "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 294524,
-      "本周新增": 11937,
-      "语言": "Shell"
     }
   ]
 }
