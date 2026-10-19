@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-18T12:30:16+08:00",
+  "updated": "2026-10-19T15:21:45+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "183.7k",
+      "星标": "183.8k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "148.0k",
+      "星标": "148.1k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,24 +63,72 @@
       "名称": "rea",
       "repo": "morluto/rea",
       "说明": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "星标": 315405,
-      "本周新增": 239923,
+      "星标": 332787,
+      "本周新增": 229268,
       "语言": "TypeScript"
     },
     {
       "名称": "claude-plugins-official",
       "repo": "anthropics/claude-plugins-official",
       "说明": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "星标": 42290,
-      "本周新增": 3581,
+      "星标": 43086,
+      "本周新增": 4774,
+      "语言": "Python"
+    },
+    {
+      "名称": "ai-job-search",
+      "repo": "MadsLorentzen/ai-job-search",
+      "说明": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "星标": 55950,
+      "本周新增": 5742,
       "语言": "Python"
     },
     {
       "名称": "context-mode",
       "repo": "mksglu/context-mode",
       "说明": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "星标": 30615,
-      "本周新增": 4438,
+      "星标": 30973,
+      "本周新增": 4138,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "hyperframes",
+      "repo": "heygen-com/hyperframes",
+      "说明": "Write HTML. Render video. Built for agents.",
+      "星标": 67364,
+      "本周新增": 5883,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "说明": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "星标": 58216,
+      "本周新增": 7901,
+      "语言": "HTML"
+    },
+    {
+      "名称": "scientific-agent-skills",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "说明": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "星标": 52852,
+      "本周新增": 4310,
+      "语言": "Python"
+    },
+    {
+      "名称": "dsh-purge",
+      "repo": "YuJunZhiXue/dsh-purge",
+      "说明": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+      "星标": 8071,
+      "本周新增": 2622,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "ruflo",
+      "repo": "ruvnet/ruflo",
+      "说明": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "星标": 76951,
+      "本周新增": 2117,
       "语言": "TypeScript"
     }
   ]
