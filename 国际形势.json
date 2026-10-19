@@ -1,13 +1,148 @@
 {
-  "updated": "2026-10-20T00:51:35+08:00",
-  "as_of": "2026-10-20T00:51:35+08:00",
+  "updated": "2026-10-20T05:23:35+08:00",
+  "as_of": "2026-10-20T05:23:35+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 4004961044,
+      "标题": "亚美尼亚会议聚焦保护地球脆弱的生物多样性",
+      "摘要": "《生物多样性公约》第十七次缔约方大会周一在亚美尼亚首都埃里温开幕。各国将在未来两周首次全面审查《昆明-蒙特利尔全球生物多样性框架》的集体落实进展，重点讨论资金筹措、行动落实和成效监测，推动保护承诺转化为可衡量的成果",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-19",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143027",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4004961044.webp",
+      "封面": "assets/media/un-4004961044.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/14-12-2021-UNEP-Earth-Champions-Gladys-Kalema-02.jpg/image560x340cropped.jpg",
+      "导语": "《生物多样性公约》第十七次缔约方大会周一在亚美尼亚首都埃里温开幕。各国将在未来两周首次全面审查《昆明-蒙特利尔全球生物多样性框架》的集体落实进展，重点讨论资金筹措、行动落实和成效监测，推动保护承诺转化为可衡量的成果",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "《生物多样性公约》第十七次缔约方大会周一在亚美尼亚首都埃里温开幕。各国将在未来两周首次全面审查《昆明-蒙特利尔全球生物多样性框架》的集体落实进展，重点讨论资金筹措、行动落实和成效监测，推动保护承诺转化为可衡量的成果。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143027",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1780914263,
+      "标题": "加沙粮食援助因资金短缺大幅缩减，约50万人失去援助",
+      "摘要": "联合国世界粮食计划署周一表示，资金短缺迫使该署将加沙粮食援助覆盖人数削减约三分之一，从9月的160万人降至本月的110万人。随着冬季临近，继续获得援助的家庭也面临食品配给和现金支持减少",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-19",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143026",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1780914263.webp",
+      "封面": "assets/media/un-1780914263.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/13-08-2026-WFP-Gaza-04.jpg/image560x340cropped.jpg",
+      "导语": "联合国世界粮食计划署周一表示，资金短缺迫使该署将加沙粮食援助覆盖人数削减约三分之一，从9月的160万人降至本月的110万人。随着冬季临近，继续获得援助的家庭也面临食品配给和现金支持减少",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国世界粮食计划署周一表示，资金短缺迫使该署将加沙粮食援助覆盖人数削减约三分之一，从9月的160万人降至本月的110万人。随着冬季临近，继续获得援助的家庭也面临食品配给和现金支持减少。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143026",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1748415288,
+      "标题": "人权高专：不公正导致粮食权难以真正落实",
+      "摘要": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，粮食权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或营养质量合格的食物。这是一场本可以避免的悲剧",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-19",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143025",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1748415288.webp",
+      "封面": "assets/media/un-1748415288.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2013/09/17679/image560x340cropped.jpg",
+      "导语": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，粮食权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，粮食权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或营养质量合格的食物。这是一场本可以避免的悲剧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143025",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3288206102,
+      "标题": "从人工智能诈骗到3D打印枪支，联合国呼吁完善多边合作机制打击跨国有组织犯罪",
+      "摘要": "联合国毒品和犯罪问题办公室执行主任莫妮卡•朱马周一在维也纳举行的《联合国打击跨国有组织犯罪公约》第十三届缔约方会议开幕式上表示，从利用人工智能实施大规模诈骗，到通过3D打印制造枪支，再到不同犯罪类型相互交织，跨国有组织犯罪正在迅速演变，国际社会必须不断完善多边合作机制，以应对日益复杂的犯罪威胁",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-19",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143024",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3288206102.webp",
+      "封面": "assets/media/un-3288206102.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/15-10-2025-CPB-HIS-Haiti-03.jpg/image560x340cropped.jpg",
+      "导语": "联合国毒品和犯罪问题办公室执行主任莫妮卡•朱马周一在维也纳举行的《联合国打击跨国有组织犯罪公约》第十三届缔约方会议开幕式上表示，从利用人工智能实施大规模诈骗，到通过3D打印制造枪支，再到不同犯罪类型相互交织，跨国有组织犯",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国毒品和犯罪问题办公室执行主任莫妮卡•朱马周一在维也纳举行的《联合国打击跨国有组织犯罪公约》第十三届缔约方会议开幕式上表示，从利用人工智能实施大规模诈骗，到通过3D打印制造枪支，再到不同犯罪类型相互交织，跨国有组织犯罪正在迅速演变，国际社会必须不断完善多边合作机制，以应对日益复杂的犯罪威胁。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143024",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2606510549,
+      "标题": "海地选举筹备取得进展 帮派暴力与安全危机仍难缓解",
+      "摘要": "联合国官员周一在向安理会通报海地局势时指出，海地选举筹备工作取得进展，但帮派暴力持续威胁民众安全，政治过渡和国家治理仍面临重大挑战。今年7月至9月，联合国记录到海地超过1000人被杀，境内流离失所者总数接近150万。与此同时，镇压黑帮部队逐步扩大部署，联合国正加强后勤保障，以支持部队在更多地区开展行动",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-19",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143023",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2606510549.webp",
+      "封面": "assets/media/un-2606510549.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/07-05-2025-UNESCO-Haiti-Bahare-Khodabande.jpg/image560x340cropped.jpg",
+      "导语": "联合国官员周一在向安理会通报海地局势时指出，海地选举筹备工作取得进展，但帮派暴力持续威胁民众安全，政治过渡和国家治理仍面临重大挑战。今年7月至9月，联合国记录到海地超过1000人被杀，境内流离失所者总数接近150万。与此",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国官员周一在向安理会通报海地局势时指出，海地选举筹备工作取得进展，但帮派暴力持续威胁民众安全，政治过渡和国家治理仍面临重大挑战。今年7月至9月，联合国记录到海地超过1000人被杀，境内流离失所者总数接近150万。与此同时，镇压黑帮部队逐步扩大部署，联合国正加强后勤保障，以支持部队在更多地区开展行动。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143023",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 1730992451,
       "标题": "【世界进行时】2026年10月16日",
@@ -984,156 +1119,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://news3lv.com/news/nation-world/president-donald-trump-accuses-ukraine-president-zelenskyy-of-prolonging-war-as-russia-putin-pounds-ukraines-power-grid-energy-infrastructure-moscow-sanctions-diesel-imports-ceasefire-shared-intelligence",
       "出处说明": "根据news3lv.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1768950063,
-      "标题": "卢比奥表示美国将结束俄罗斯与乌克兰的冲突。 S。优先事项",
-      "原标题": "Rubio terms ending Russia - Ukraine conflict as U . S . priority",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 bignewsnetwork.com 最新报道，点击阅读原文。",
-      "来源": "bignewsnetwork.com",
-      "分类": "国际形势",
-      "日期": "2026-10-19",
-      "链接": "http://www.bignewsnetwork.com/news/279385487/rubio-terms-ending-russia-ukraine-conflict-as-us-priority",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-19T16:51:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 bignewsnetwork.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 bignewsnetwork.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.bignewsnetwork.com/news/279385487/rubio-terms-ending-russia-ukraine-conflict-as-us-priority",
-      "出处说明": "根据bignewsnetwork.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2820078712,
-      "标题": "胡塞武装袭击后沙特阿拉伯推迟在利雅得举行的国际工业联合会会议",
-      "原标题": "Saudi Arabia postpones FII conference in Riyadh after Houthi attacks",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 thenationalnews.com 最新报道，点击阅读原文。",
-      "来源": "thenationalnews.com",
-      "分类": "国际形势",
-      "日期": "2026-10-19",
-      "链接": "https://www.thenationalnews.com/business/economy/2026/10/19/saudi-arabia-postpones-fii-investment-in-riyadh-after-houthi-attacks/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.thenationalnews.com/resizer/v2/TQTDGEXGW264ANZ27TQSI3MJAA.jpg?auth=26e89f196168c373eea3b4177c21fe45c85989eb7ec0ab4b2bb41c86d229300b&smart=true",
-      "数据截至": "2026-10-19T16:51:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 thenationalnews.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 thenationalnews.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.thenationalnews.com/business/economy/2026/10/19/saudi-arabia-postpones-fii-investment-in-riyadh-after-houthi-attacks/",
-      "出处说明": "根据thenationalnews.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3507139502,
-      "标题": "尽管停火协议已生效，但三名巴勒斯坦人在以色列对加沙的袭击中丧生，其中一名 14 岁",
-      "原标题": "Mueren tres palestinos , uno de ellos de 14 años , en ataques de Israel en Gaza pese a la tregua en vigor",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 europapress.es 最新报道，点击阅读原文。",
-      "来源": "europapress.es",
-      "分类": "国际形势",
-      "日期": "2026-10-19",
-      "链接": "https://www.europapress.es/internacional/noticia-muere-palestino-ataque-israel-contra-norte-gaza-pesar-acuerdo-alto-fuego-20261019150812.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://img.europapress.es/fotoweb/fotonoticia_20261019150812_1200.jpg",
-      "数据截至": "2026-10-19T16:51:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 europapress.es 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 europapress.es 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.europapress.es/internacional/noticia-muere-palestino-ataque-israel-contra-norte-gaza-pesar-acuerdo-alto-fuego-20261019150812.html",
-      "出处说明": "根据europapress.es公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1028269233,
-      "标题": "泽连斯基：俄罗斯再次上网时乌克兰没有收到合作伙伴的预警",
-      "原标题": "Ukraine got no early warning from partners as Russia hits grid again – Zelensky",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 eveningnews24.co.uk 最新报道，点击阅读原文。",
-      "来源": "eveningnews24.co.uk",
-      "分类": "国际形势",
-      "日期": "2026-10-19",
-      "链接": "https://www.eveningnews24.co.uk/news/national/26647938.ukraine-got-no-early-warning-partners-russia-hits-grid---zelensky/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.eveningnews24.co.uk/resources/images/21599065.jpg?type=og-image",
-      "数据截至": "2026-10-19T16:51:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 eveningnews24.co.uk 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 eveningnews24.co.uk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.eveningnews24.co.uk/news/national/26647938.ukraine-got-no-early-warning-partners-russia-hits-grid---zelensky/",
-      "出处说明": "根据eveningnews24.co.uk公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3854314182,
-      "标题": "欧盟排除恢复俄罗斯天然气进口的可能性",
-      "原标题": "EU rules out resuming Russian gas imports",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 news.az 最新报道，点击阅读原文。",
-      "来源": "news.az",
-      "分类": "国际形势",
-      "日期": "2026-10-19",
-      "链接": "https://news.az/news/eu-rules-out-resuming-russian-gas-imports",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://news.az/photos/2026/10/1792421796.webp",
-      "数据截至": "2026-10-19T16:51:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 news.az 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 news.az 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.az/news/eu-rules-out-resuming-russian-gas-imports",
-      "出处说明": "根据news.az公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
