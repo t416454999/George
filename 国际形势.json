@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20T05:23:35+08:00",
-  "as_of": "2026-10-20T05:23:35+08:00",
+  "updated": "2026-10-20T08:34:20+08:00",
+  "as_of": "2026-10-20T08:34:20+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
@@ -8,6 +8,60 @@
   "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2140195182,
+      "标题": "联合国谴责苏丹多地无人机袭击事件",
+      "摘要": "联合国秘书长发言人杜加里克周一在纽约对记者表示，联合国对苏丹各地持续发生的致命无人机袭击深感震惊。这些袭击造成包括儿童在内的平民死亡，并扰乱基本服务",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-19",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143029",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2140195182.webp",
+      "封面": "assets/media/un-2140195182.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2011/06/12751/image560x340cropped.jpg",
+      "导语": "联合国秘书长发言人杜加里克周一在纽约对记者表示，联合国对苏丹各地持续发生的致命无人机袭击深感震惊。这些袭击造成包括儿童在内的平民死亡，并扰乱基本服务",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国秘书长发言人杜加里克周一在纽约对记者表示，联合国对苏丹各地持续发生的致命无人机袭击深感震惊。这些袭击造成包括儿童在内的平民死亡，并扰乱基本服务。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143029",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 622862170,
+      "标题": "安理会通过决议：警惕数字技术助长冲突中的儿童侵害行为",
+      "摘要": "安理会周一以15票赞成一致通过决议，警告数字技术正被武装冲突各方用于招募和使用儿童、绑架及性暴力等侵害行为，并呼吁各国加强儿童保护，推动数字平台采取措施防范相关风险",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-19",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143028",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-622862170.webp",
+      "封面": "assets/media/un-622862170.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production+Library/09-12-2021-florian-olivo-unsplash.jpg/image560x340cropped.jpg",
+      "导语": "安理会周一以15票赞成一致通过决议，警告数字技术正被武装冲突各方用于招募和使用儿童、绑架及性暴力等侵害行为，并呼吁各国加强儿童保护，推动数字平台采取措施防范相关风险",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "安理会周一以15票赞成一致通过决议，警告数字技术正被武装冲突各方用于招募和使用儿童、绑架及性暴力等侵害行为，并呼吁各国加强儿童保护，推动数字平台采取措施防范相关风险。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143028",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 4004961044,
       "标题": "亚美尼亚会议聚焦保护地球脆弱的生物多样性",
@@ -63,9 +117,9 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 1748415288,
-      "标题": "人权高专：不公正导致粮食权难以真正落实",
-      "摘要": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，粮食权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或营养质量合格的食物。这是一场本可以避免的悲剧",
+      "id": 730540531,
+      "标题": "人权高专：不公正导致食物权难以真正落实",
+      "摘要": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，食物权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或营养质量合格的食物。这是一场本可以避免的悲剧",
       "来源": "联合国新闻",
       "分类": "国际形势",
       "日期": "2026-10-19",
@@ -74,16 +128,16 @@
         "国际",
         "联合国"
       ],
-      "图片": "assets/media/un-1748415288.webp",
-      "封面": "assets/media/un-1748415288.webp",
+      "图片": "assets/media/un-730540531.webp",
+      "封面": "assets/media/un-730540531.webp",
       "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2013/09/17679/image560x340cropped.jpg",
-      "导语": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，粮食权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或",
+      "导语": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，食物权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，粮食权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或营养质量合格的食物。这是一场本可以避免的悲剧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "联合国人权事务高级专员蒂尔克周一在联合国世界粮食安全委员会第五十四届上指出，食物权是一项基本人权，与生命权、饮水权、健康权、社会保障权和工作权密切相关。然而，在一个粮食供应充足的世界，仍有超过四分之一的人口难以获得足够或营养质量合格的食物。这是一场本可以避免的悲剧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
       "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143025",
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
@@ -1059,66 +1113,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.bracknellnews.co.uk/news/national/26647938.ukraine-got-no-early-warning-partners-russia-hits-grid---zelensky/",
       "出处说明": "根据bracknellnews.co.uk公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1974702120,
-      "标题": "Slog AM：西雅图游行、以色列发动定居者袭击、班布里奇兄弟赢得万圣节",
-      "原标题": "Slog AM : Seattleites March , Israel Spins Settler Attack , Bainbridge Brothers Win Halloween",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 thestranger.com 最新报道，点击阅读原文。",
-      "来源": "thestranger.com",
-      "分类": "国际形势",
-      "日期": "2026-10-19",
-      "链接": "https://www.thestranger.com/slog-am/slog-am-seattleites-march-israel-spins-settler-attack-bainbridge-brothers-win-halloween/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://i0.wp.com/www.thestranger.com/wp-content/uploads/2026/10/1000033939.jpg?fit=1600%2C720&ssl=1",
-      "数据截至": "2026-10-19T16:51:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 thestranger.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 thestranger.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.thestranger.com/slog-am/slog-am-seattleites-march-israel-spins-settler-attack-bainbridge-brothers-win-halloween/",
-      "出处说明": "根据thestranger.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2957415088,
-      "标题": "特朗普指责泽伦斯基延长战争，俄罗斯袭击乌克兰电网",
-      "原标题": "Trump accuses Zelenskyy of prolonging war as Russia pounds Ukraine power grid",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 news3lv.com 最新报道，点击阅读原文。",
-      "来源": "news3lv.com",
-      "分类": "国际形势",
-      "日期": "2026-10-19",
-      "链接": "https://news3lv.com/news/nation-world/president-donald-trump-accuses-ukraine-president-zelenskyy-of-prolonging-war-as-russia-putin-pounds-ukraines-power-grid-energy-infrastructure-moscow-sanctions-diesel-imports-ceasefire-shared-intelligence",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://news3lv.com/resources/media2/16x9/8640/1320/0x450/90/aebd345f-8f1d-4b1d-9686-84c5ae0f3162-AP26292325318645.jpg",
-      "数据截至": "2026-10-19T16:51:20+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 news3lv.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 news3lv.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news3lv.com/news/nation-world/president-donald-trump-accuses-ukraine-president-zelenskyy-of-prolonging-war-as-russia-putin-pounds-ukraines-power-grid-energy-infrastructure-moscow-sanctions-diesel-imports-ceasefire-shared-intelligence",
-      "出处说明": "根据news3lv.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
