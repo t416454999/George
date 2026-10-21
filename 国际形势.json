@@ -1,13 +1,283 @@
 {
-  "updated": "2026-10-22T01:35:05+08:00",
-  "as_of": "2026-10-22T01:35:05+08:00",
+  "updated": "2026-10-22T05:22:30+08:00",
+  "as_of": "2026-10-22T05:22:30+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 1081205679,
+      "标题": "世卫组织协助尼日利亚应对首例埃博拉输入病例",
+      "摘要": "世界卫生组织周三表示，尼日利亚已确认该国首例布恩迪布焦型埃博拉病毒病例。患者为一名近期从乌干达入境的女性，目前正接受隔离治疗。当地卫生部门已识别44名接触者并开展健康监测，世卫组织正协助加强疫情调查和感染防控",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143042",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1081205679.webp",
+      "封面": "assets/media/un-1081205679.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/06-10-2026-WHO-Kenya-Bundibugyo-01.jpg/image560x340cropped.jpg",
+      "导语": "世界卫生组织周三表示，尼日利亚已确认该国首例布恩迪布焦型埃博拉病毒病例。患者为一名近期从乌干达入境的女性，目前正接受隔离治疗。当地卫生部门已识别44名接触者并开展健康监测，世卫组织正协助加强疫情调查和感染防控",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界卫生组织周三表示，尼日利亚已确认该国首例布恩迪布焦型埃博拉病毒病例。患者为一名近期从乌干达入境的女性，目前正接受隔离治疗。当地卫生部门已识别44名接触者并开展健康监测，世卫组织正协助加强疫情调查和感染防控。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143042",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1432224652,
+      "标题": "苏丹和平磋商在日内瓦继续，推动结束“无人机战争”",
+      "摘要": "二十多个国家代表周三在日内瓦继续磋商，讨论推动苏丹停火、缓解人道主义危机，以及向和平治理过渡的路径。目前，苏丹冲突已进入第四年，无人机袭击持续威胁平民和公共基础设施，全国近3400万人需要人道主义援助",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143041",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1432224652.webp",
+      "封面": "assets/media/un-1432224652.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/21_10_26_UNOG_Sudan_meeting_1.jpg/image560x340cropped.jpg",
+      "导语": "二十多个国家代表周三在日内瓦继续磋商，讨论推动苏丹停火、缓解人道主义危机，以及向和平治理过渡的路径。目前，苏丹冲突已进入第四年，无人机袭击持续威胁平民和公共基础设施，全国近3400万人需要人道主义援助",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "二十多个国家代表周三在日内瓦继续磋商，讨论推动苏丹停火、缓解人道主义危机，以及向和平治理过渡的路径。目前，苏丹冲突已进入第四年，无人机袭击持续威胁平民和公共基础设施，全国近3400万人需要人道主义援助。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143041",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2931856421,
+      "标题": "厄尔尼诺现象强度史无前例，联合国机构呼吁保护最脆弱群体免受影响",
+      "摘要": "联合国两大机构周三发出强烈呼吁，要求国际社会立即提供援助，帮助那些已经受到有记录以来最强厄尔尼诺气候现象影响的社区",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143040",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2931856421.webp",
+      "封面": "assets/media/un-2931856421.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/05-10-2021-UNICEF-UN0403971-Mozambique.jpg/image560x340cropped.jpg",
+      "导语": "联合国两大机构周三发出强烈呼吁，要求国际社会立即提供援助，帮助那些已经受到有记录以来最强厄尔尼诺气候现象影响的社区",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国两大机构周三发出强烈呼吁，要求国际社会立即提供援助，帮助那些已经受到有记录以来最强厄尔尼诺气候现象影响的社区。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143040",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3178212675,
+      "标题": "秘书长强烈谴责阿卜耶伊无人机袭击事件",
+      "摘要": "秘书长古特雷斯周二晚就10月19日发生在阿卜耶伊地区的无人机袭击发表声明，对这一造成重大平民伤亡的事件予以强烈谴责",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143039",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3178212675.webp",
+      "封面": "assets/media/un-3178212675.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/29-05-2026_unisfa1.jpg/image560x340cropped.jpg",
+      "导语": "秘书长古特雷斯周二晚就10月19日发生在阿卜耶伊地区的无人机袭击发表声明，对这一造成重大平民伤亡的事件予以强烈谴责",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "秘书长古特雷斯周二晚就10月19日发生在阿卜耶伊地区的无人机袭击发表声明，对这一造成重大平民伤亡的事件予以强烈谴责。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143039",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3394870298,
+      "标题": "全球变暖将突破1.5°C——但通过深度、快速的减排仍可扭转局面",
+      "摘要": "鉴于全球气温升幅预计将超过工业革命前水平1.5°C，各国“必须不遗余力”，紧急削减排放，以便将超标幅度降至最低，并在本世纪末前回归国际公认的阈值",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-20",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143038",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3394870298.webp",
+      "封面": "assets/media/un-3394870298.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/12-08-2026-UNDP_Morocco_Electric_Bus.jpg/image560x340cropped.jpg",
+      "导语": "鉴于全球气温升幅预计将超过工业革命前水平1.5°C，各国“必须不遗余力”，紧急削减排放，以便将超标幅度降至最低，并在本世纪末前回归国际公认的阈值",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "鉴于全球气温升幅预计将超过工业革命前水平1.5°C，各国“必须不遗余力”，紧急削减排放，以便将超标幅度降至最低，并在本世纪末前回归国际公认的阈值。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143038",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3028749,
+      "标题": "特别代表警告科索沃紧张局势加剧，呼吁重启对话增进互信",
+      "摘要": "秘书长科索沃问题特别代表周二在安理会审议科索沃问题时表示，过去半年科索沃及整个西巴尔干地区紧张局势有所上升，各方应通过对话、法治和问责机制重建互信，推动关系正常化",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-20",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143037",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3028749.webp",
+      "封面": "assets/media/un-3028749.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/22-04-2024_Unsplash_Kosovo-01.jpg/image560x340cropped.jpg",
+      "导语": "秘书长科索沃问题特别代表周二在安理会审议科索沃问题时表示，过去半年科索沃及整个西巴尔干地区紧张局势有所上升，各方应通过对话、法治和问责机制重建互信，推动关系正常化",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "秘书长科索沃问题特别代表周二在安理会审议科索沃问题时表示，过去半年科索沃及整个西巴尔干地区紧张局势有所上升，各方应通过对话、法治和问责机制重建互信，推动关系正常化。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143037",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1912666484,
+      "标题": "儿基会呼吁孟加拉国采取措施结束童婚",
+      "摘要": "联合国儿童基金会执行主任拉塞尔周二在结束对孟加拉国为期三天的访问之际发表讲话，呼吁该国终止童婚、保障女童继续接受教育，落实增加教育和卫生投入的承诺，并保障罗兴亚难民及接收社区儿童获得优质教育",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-20",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143036",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1912666484.webp",
+      "封面": "assets/media/un-1912666484.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/30-01-2025-UNICEF-Bangladesh-06.jpg/image560x340cropped.jpg",
+      "导语": "联合国儿童基金会执行主任拉塞尔周二在结束对孟加拉国为期三天的访问之际发表讲话，呼吁该国终止童婚、保障女童继续接受教育，落实增加教育和卫生投入的承诺，并保障罗兴亚难民及接收社区儿童获得优质教育",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国儿童基金会执行主任拉塞尔周二在结束对孟加拉国为期三天的访问之际发表讲话，呼吁该国终止童婚、保障女童继续接受教育，落实增加教育和卫生投入的承诺，并保障罗兴亚难民及接收社区儿童获得优质教育。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143036",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 633972150,
+      "标题": "阿富汗饥饿危机：“距离饥荒仅一步之遥”",
+      "摘要": "联合国已经对阿富汗发布了极端饥饿预警。该国各地正面临着一个残酷的现实：虽然有粮食，但数百万民众却无法获得食物",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-20",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143035",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-633972150.webp",
+      "封面": "assets/media/un-633972150.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/11-08-2025-UNAMA-Afghanistan-02.jpg/image560x340cropped.jpg",
+      "导语": "联合国已经对阿富汗发布了极端饥饿预警。该国各地正面临着一个残酷的现实：虽然有粮食，但数百万民众却无法获得食物",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国已经对阿富汗发布了极端饥饿预警。该国各地正面临着一个残酷的现实：虽然有粮食，但数百万民众却无法获得食物。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143035",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3090991450,
+      "标题": "也门战火迫使25万人逃离家园，饥饿与疾病加重困境",
+      "摘要": "联合国周二表示，也门新一轮战事已迫使超过25万人逃离家园，其中约一半在西南部塔伊兹市及所在省份避难。当地援助通行基本受阻，食品、燃料和医疗物资供应趋紧，平民面临的健康与安全风险持续上升",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-20",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143033",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3090991450.webp",
+      "封面": "assets/media/un-3090991450.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/02-08-2023_WFP_Yemen.jpg/image560x340cropped.jpg",
+      "导语": "联合国周二表示，也门新一轮战事已迫使超过25万人逃离家园，其中约一半在西南部塔伊兹市及所在省份避难。当地援助通行基本受阻，食品、燃料和医疗物资供应趋紧，平民面临的健康与安全风险持续上升",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国周二表示，也门新一轮战事已迫使超过25万人逃离家园，其中约一半在西南部塔伊兹市及所在省份避难。当地援助通行基本受阻，食品、燃料和医疗物资供应趋紧，平民面临的健康与安全风险持续上升。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143033",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2441319862,
+      "标题": "欧洲多国抗议引发关切，人权高专呼吁各方开展和平对话",
+      "摘要": "联合国人权事务高级专员蒂尔克周二表示，阿尔巴尼亚、比利时、法国、意大利和葡萄牙的大规模抗议活动引发人权关切。他谴责一切暴力行为，呼吁所有相关方缓和紧张局势、防止暴力进一步发生，并通过包容、安全的对话寻求解决办法",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-20",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143032",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2441319862.webp",
+      "封面": "assets/media/un-2441319862.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/20-10-2026-Unsplash-France-protests-02.jpg/image560x340cropped.jpg",
+      "导语": "联合国人权事务高级专员蒂尔克周二表示，阿尔巴尼亚、比利时、法国、意大利和葡萄牙的大规模抗议活动引发人权关切。他谴责一切暴力行为，呼吁所有相关方缓和紧张局势、防止暴力进一步发生，并通过包容、安全的对话寻求解决办法",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国人权事务高级专员蒂尔克周二表示，阿尔巴尼亚、比利时、法国、意大利和葡萄牙的大规模抗议活动引发人权关切。他谴责一切暴力行为，呼吁所有相关方缓和紧张局势、防止暴力进一步发生，并通过包容、安全的对话寻求解决办法。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143032",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2011731148,
       "标题": "秘书长特别代表：中非共和国和平进程取得进展，东北部安全形势仍面临挑战",
@@ -834,306 +1104,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://ua.korrespondent.net/world/russia/4922214-tramp-putin-i-si-hotovi-do-zustrichi-kreml",
       "出处说明": "根据ua.korrespondent.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 979476368,
-      "标题": "弗罗茨瓦夫会终止与利沃夫的合作吗？ PiS议员要求谴责区议会的决议",
-      "原标题": "Czy Wrocław zerwie współpracę ze Lwowem ? Radni PiS żądają potępienia uchwały Rady Obwodowej",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 radiowroclaw.pl 最新报道，点击阅读原文。",
-      "来源": "radiowroclaw.pl",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "http://www.radiowroclaw.pl/articles/view/164996/Czy-Wroclaw-zerwie-wspolprace-ze-Lwowem-Radni-PiS-zadaja-potepienia-uchwaly-Rady-Obwodowej",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.radiowroclaw.pl/img/articles/164996/Pp1nMqisQP.jpg",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 radiowroclaw.pl 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 radiowroclaw.pl 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.radiowroclaw.pl/articles/view/164996/Czy-Wroclaw-zerwie-wspolprace-ze-Lwowem-Radni-PiS-zadaja-potepienia-uchwaly-Rady-Obwodowej",
-      "出处说明": "根据radiowroclaw.pl公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3170120033,
-      "标题": "土耳其和阿塞拜疆领导人讨论双边关系",
-      "原标题": "Лидеры Турции и Азербайджана обсудили двусторонние отношения",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 zerkalo.az 最新报道，点击阅读原文。",
-      "来源": "zerkalo.az",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "https://zerkalo.az/lidery-turtsii-i-azerbajdzhana-obsudili-dvustoronnie-otnosheniya/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://cdn.zerkalo.az/2023/03/ilham-aliev_erdogan_15_03_2023-1.jpg",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 zerkalo.az 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 zerkalo.az 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://zerkalo.az/lidery-turtsii-i-azerbajdzhana-obsudili-dvustoronnie-otnosheniya/",
-      "出处说明": "根据zerkalo.az公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3894942319,
-      "标题": "尽管特朗普取消了美国制裁，欧盟仍维持对俄罗斯的能源制裁",
-      "原标题": "UE menține sancțiunile energetice împotriva Rusiei chiar dacă Trump a șters sancțiunile impuse de SUA",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 antena3.ro 最新报道，点击阅读原文。",
-      "来源": "antena3.ro",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "https://www.antena3.ro/externe/ue-mentine-sanctiunile-energetice-impotriva-rusiei-chiar-daca-trump-a-sters-sanctiunile-impuse-de-sua-808147.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.antena3.ro/thumbs/amp/2026/10/21/ue-mentine-sanctiunile-energetice-impotriva-rusiei-chiar-daca-trump-a-sters-sanctiunile-impuse-de-sua-1113070.webp",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 antena3.ro 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 antena3.ro 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.antena3.ro/externe/ue-mentine-sanctiunile-energetice-impotriva-rusiei-chiar-daca-trump-a-sters-sanctiunile-impuse-de-sua-808147.html",
-      "出处说明": "根据antena3.ro公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2683931665,
-      "标题": "克里姆林宫认为乌克兰和平理念没有什么实质内容卡塔尔半岛",
-      "原标题": "Kremlin sees little substance in Ukraine peace ideas | The Peninsula Qatar",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 thepeninsulaqatar.com 最新报道，点击阅读原文。",
-      "来源": "thepeninsulaqatar.com",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "http://thepeninsulaqatar.com/article/21/10/2026/kremlin-sees-little-substance-in-ukraine-peace-ideas",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "http://thepeninsulaqatar.com/get/maximage/20251230_1767103503-653.jpg",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 thepeninsulaqatar.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 thepeninsulaqatar.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://thepeninsulaqatar.com/article/21/10/2026/kremlin-sees-little-substance-in-ukraine-peace-ideas",
-      "出处说明": "根据thepeninsulaqatar.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3053807723,
-      "标题": "普京同意与基辅和华盛顿恢复有关乌克兰战争的谈判 - 克里姆林宫",
-      "原标题": "Putin agrees to resume talks on Ukraine war with Kyiv and Washington – Kremlin",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 ealingtimes.co.uk 最新报道，点击阅读原文。",
-      "来源": "ealingtimes.co.uk",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "https://www.ealingtimes.co.uk/news/national/26657939.putin-agrees-resume-talks-ukraine-war-kyiv-washington---kremlin/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.ealingtimes.co.uk/resources/images/21613309.jpg?type=og-image",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 ealingtimes.co.uk 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 ealingtimes.co.uk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.ealingtimes.co.uk/news/national/26657939.putin-agrees-resume-talks-ukraine-war-kyiv-washington---kremlin/",
-      "出处说明": "根据ealingtimes.co.uk公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1294432573,
-      "标题": "白卡 - 普拉会见司法系统领导人",
-      "原标题": "Shiroka - Pula takon drejtuesit e sistemit të drejtësisë",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 realiteti.net 最新报道，点击阅读原文。",
-      "来源": "realiteti.net",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "https://realiteti.net/shiroka-pula-takon-drejtuesit-e-sistemit-te-drejtesise/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://realiteti.net/wp-content/uploads/2026/10/realiteti-299e50dd13dd.jpg",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 realiteti.net 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 realiteti.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://realiteti.net/shiroka-pula-takon-drejtuesit-e-sistemit-te-drejtesise/",
-      "出处说明": "根据realiteti.net公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3093548317,
-      "标题": "普京同意与基辅和华盛顿恢复有关乌克兰战争的谈判 - 克里姆林宫",
-      "原标题": "Putin agrees to resume talks on Ukraine war with Kyiv and Washington – Kremlin",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 bridgwatermercury.co.uk 最新报道，点击阅读原文。",
-      "来源": "bridgwatermercury.co.uk",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "https://www.bridgwatermercury.co.uk/news/national/26657939.putin-agrees-resume-talks-ukraine-war-kyiv-washington---kremlin/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.bridgwatermercury.co.uk/resources/images/21613309.jpg?type=og-image",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 bridgwatermercury.co.uk 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 bridgwatermercury.co.uk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.bridgwatermercury.co.uk/news/national/26657939.putin-agrees-resume-talks-ukraine-war-kyiv-washington---kremlin/",
-      "出处说明": "根据bridgwatermercury.co.uk公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 347980451,
-      "标题": "SVO何时结束：威特科夫与普京和泽连斯基的谈判结果",
-      "原标题": "Когда закончится СВО : итоги переговоров Уиткоффа с Путиным и Зеленским",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 ura.news 最新报道，点击阅读原文。",
-      "来源": "ura.news",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "https://ura.news/articles/1053137979",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://cdn-img.ura.news/137/118/8fab4041-7ba9-4ffe-a97d-8aef5824457c/bpzttc/L-1200.1.9.jpg",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 ura.news 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 ura.news 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://ura.news/articles/1053137979",
-      "出处说明": "根据ura.news公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3591280867,
-      "标题": "克里姆林宫：特朗普、普京和习近平计划会晤",
-      "原标题": "Kreml : Trumpin , Putinin ja Xin välinen tapaaminen suunnitteilla",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 sss.fi 最新报道，点击阅读原文。",
-      "来源": "sss.fi",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "https://www.sss.fi/2026/10/kreml-trumpin-putinin-ja-xin-valinen-tapaaminen-suunnitteilla/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 sss.fi 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 sss.fi 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.sss.fi/2026/10/kreml-trumpin-putinin-ja-xin-valinen-tapaaminen-suunnitteilla/",
-      "出处说明": "根据sss.fi公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1400210175,
-      "标题": "乌克兰：普京同意恢复与基辅和华盛顿的三边谈判",
-      "原标题": "Ucrânia : Putin aceita retomar negociaes trilaterais com Kiev e Washington",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 jornaleconomico.sapo.pt 最新报道，点击阅读原文。",
-      "来源": "jornaleconomico.sapo.pt",
-      "分类": "国际形势",
-      "日期": "2026-10-21",
-      "链接": "https://jornaleconomico.sapo.pt/noticias/ucrania-putin-aceita-retomar-negociacoes-trilaterais-com-kiev-e-washington/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://jornaleconomico.sapo.pt/wp-content/uploads/2023/06/putin_reuters.jpg",
-      "数据截至": "2026-10-21T17:34:47+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 jornaleconomico.sapo.pt 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 jornaleconomico.sapo.pt 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://jornaleconomico.sapo.pt/noticias/ucrania-putin-aceita-retomar-negociacoes-trilaterais-com-kiev-e-washington/",
-      "出处说明": "根据jornaleconomico.sapo.pt公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
