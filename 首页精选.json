@@ -1,10 +1,46 @@
 {
-  "generated": "2026-10-21T20:14:28+08:00",
+  "generated": "2026-10-22T01:35:15+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 965087058,
+  "headline_id": 558214136,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
+    {
+      "id": 558214136,
+      "标题": "【原生·一手】DataPraxis：通过验证的工作空间演进扩展分析任务",
+      "摘要": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning,",
+      "内容": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning,",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-10-21",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2610.26924",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "原标题": "【原生·一手】DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+      "中文提炼": "",
+      "候选栏目": "AI",
+      "编辑分": 85,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-22T01:35:15+08:00"
+    },
     {
       "id": 965087058,
       "标题": "世卫组织报告探讨非传染性疾病及其风险因素方面存在的不平等现象",
@@ -33,10 +69,10 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
       "栏目状态": "ok",
-      "编辑分": 90,
+      "编辑分": 84,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
+        "时效": 8,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,58 +85,22 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-21T20:14:28+08:00"
+      "选入时间": "2026-10-22T01:35:15+08:00"
     },
     {
-      "id": 558214136,
-      "标题": "【原生·一手】DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
-      "摘要": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning,",
-      "内容": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning,",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
+      "id": 977859865,
+      "标题": "The bridge to agent-scale Git infrastructure",
+      "摘要": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.",
+      "内容": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.",
+      "来源": "GitHub 官方博客",
+      "分类": "AI应用",
       "日期": "2026-10-21",
       "热度": 50,
-      "链接": "https://arxiv.org/abs/2610.26924",
+      "链接": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
       "标签": [
-        "原生资讯",
-        "arXiv AI"
+        "RAG"
       ],
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 86,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 20,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-21T20:14:28+08:00"
-    },
-    {
-      "id": 602136035,
-      "标题": "【原生·一手】OpenAI acquires Orchestra Bio",
-      "摘要": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new",
-      "内容": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-10-20",
-      "热度": 59,
-      "链接": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "OpenAI"
-      ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/qoX4w89e0GxOOa2GsAdSm/b4a461997956908e9813e59044617416/openai-to-acquire-orchestra-bio-social.png?w=1600&amp;h=900&amp;fit=fill",
+      "图片": "https://github.blog/wp-content/uploads/2026/01/generic-mona-github.png?fit=1920%2C1080",
       "候选栏目": "AI",
       "编辑分": 80,
       "评分分项": {
@@ -118,14 +118,42 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-21T20:14:28+08:00"
+      "选入时间": "2026-10-22T01:35:15+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-21T20:14:28+08:00",
+    "as_of": "2026-10-22T01:35:15+08:00",
     "candidate_count": 604,
-    "rejected_count": 423,
+    "rejected_count": 426,
     "rejected": [
+      {
+        "id": 427579355,
+        "reason": "off_topic"
+      },
+      {
+        "id": 417800607,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2885795352,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1841043884,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1779360097,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1621347945,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1005128149,
+        "reason": "off_topic"
+      },
       {
         "id": 952634260,
         "reason": "off_topic"
@@ -159,11 +187,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 600122022,
+        "reason": "off_topic"
+      },
+      {
         "id": 459988459,
         "reason": "off_topic"
       },
       {
         "id": 428224703,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4279704205,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4256352102,
         "reason": "off_topic"
       },
       {
@@ -251,11 +291,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 2445954477,
+        "reason": "off_topic"
+      },
+      {
         "id": 2410640700,
         "reason": "off_topic"
       },
       {
         "id": 2375197374,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2257764802,
         "reason": "off_topic"
       },
       {
@@ -551,6 +599,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 528746029,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 510455695,
         "reason": "off_topic"
       },
@@ -595,6 +648,11 @@
         "reason": "off_topic"
       },
       {
+        "id": 3662943648,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 3623792604,
         "reason": "off_topic"
       },
@@ -603,8 +661,18 @@
         "reason": "off_topic"
       },
       {
+        "id": 3256537350,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 3248286097,
         "reason": "off_topic"
+      },
+      {
+        "id": 319845826,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 3195896739,
@@ -681,6 +749,11 @@
       {
         "id": 1610451185,
         "reason": "off_topic"
+      },
+      {
+        "id": 1459943647,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 1428952616,
@@ -1451,247 +1524,184 @@
         "reason": "sensational_title"
       },
       {
-        "id": 366223267,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3597165419,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3513683432,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3414679775,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3353269442,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 334382345,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3327074652,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3322077119,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3306403859,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3281711086,
-        "reason": "off_topic"
-      },
-      {
-        "id": 318271019,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3153766606,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3104537869,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 3089470195,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2095691918,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2797575953,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2487222340,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 3103886452,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 141313660,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 1245943504,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 583302163,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 1584100773,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2281963516,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2178541742,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 3898561402,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 3742046943,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 3338016266,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2958587771,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 1438213579,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 984552020,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 26610621,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1539850271,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 311282974,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3944957517,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2255540248,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2597696188,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2488645258,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 2357098993,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1138538208,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 18579853,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3669303667,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1186039120,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1551849646,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3358311773,
+        "id": 3278021721,
         "reason": "score_below_50",
         "score": 33
       },
       {
-        "id": 623456332,
+        "id": 2727278963,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 3651675235,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2488083664,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3366193082,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 4105830859,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 979476368,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3170120033,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3894942319,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2683931665,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3053807723,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1294432573,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3093548317,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 347980451,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 3591280867,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1400210175,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 1939839216,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 26610621,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 1962522591,
+        "id": 2137456740,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 1539850271,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 1419308163,
+        "id": 661891361,
         "reason": "score_below_50",
-        "score": 22
+        "score": 32
       },
       {
-        "id": 662669757,
+        "id": 3944957517,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2255540248,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 899986237,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3182894224,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 2357098993,
         "reason": "score_below_50",
         "score": 26
       },
       {
+        "id": 1138538208,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 18579853,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 623456332,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 3358311773,
+        "reason": "score_below_50",
+        "score": 27
+      },
+      {
+        "id": 1962522591,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 1419308163,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 662669757,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
         "id": 3175775845,
         "reason": "score_below_50",
-        "score": 22
+        "score": 16
       },
       {
         "id": 3015025727,
         "reason": "score_below_50",
-        "score": 22
-      },
-      {
-        "id": 1836027061,
-        "reason": "score_below_50",
-        "score": 20
+        "score": 16
       },
       {
         "id": 897699259,
@@ -1709,9 +1719,14 @@
         "score": 20
       },
       {
-        "id": 1310229508,
+        "id": 367105842,
         "reason": "score_below_50",
         "score": 20
+      },
+      {
+        "id": 2470484058,
+        "reason": "score_below_50",
+        "score": 16
       },
       {
         "id": 4190298209,
@@ -1811,6 +1826,11 @@
         "score": 30
       },
       {
+        "id": 4233306717,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
         "id": 1453257347,
         "reason": "score_below_50",
         "score": 30
@@ -1834,11 +1854,6 @@
         "id": 2624698564,
         "reason": "score_below_50",
         "score": 25
-      },
-      {
-        "id": 603258737,
-        "reason": "score_below_50",
-        "score": 24
       },
       {
         "id": 4138627420,
