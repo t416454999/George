@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T09:28:52+08:00",
+  "generated": "2026-10-21T14:28:25+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 965087058,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,7 +49,41 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-21T09:28:52+08:00"
+      "选入时间": "2026-10-21T14:28:25+08:00"
+    },
+    {
+      "id": 558214136,
+      "标题": "【原生·一手】DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+      "摘要": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning,",
+      "内容": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning,",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-10-21",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2610.26924",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 86,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-21T14:28:25+08:00"
     },
     {
       "id": 602136035,
@@ -84,49 +118,13 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-21T09:28:52+08:00"
-    },
-    {
-      "id": 2654127530,
-      "标题": "【原生·安全】人工智能安全的功能性福利",
-      "摘要": "arXiv:2610.22460v1 Announce Type: new Abstract: AI welfare is generally treated purely as an ethical issue rather than also as a safety issue. We argue this is a mistake. Whatever",
-      "内容": "arXiv:2610.22460v1 Announce Type: new Abstract: AI welfare is generally treated purely as an ethical issue rather than also as a safety issue. We argue this is a mistake. Whatever",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-10-19",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2610.22460",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "原标题": "【原生·安全】Functional Welfare for AI Safety",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 79,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-21T09:28:52+08:00"
+      "选入时间": "2026-10-21T14:28:25+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-21T09:28:52+08:00",
+    "as_of": "2026-10-21T14:28:25+08:00",
     "candidate_count": 604,
-    "rejected_count": 424,
+    "rejected_count": 420,
     "rejected": [
       {
         "id": 952634260,
@@ -161,6 +159,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 4168103635,
+        "reason": "off_topic"
+      },
+      {
         "id": 3972068809,
         "reason": "off_topic"
       },
@@ -169,7 +171,31 @@
         "reason": "off_topic"
       },
       {
+        "id": 3778574533,
+        "reason": "off_topic"
+      },
+      {
         "id": 3746740753,
+        "reason": "off_topic"
+      },
+      {
+        "id": 361958423,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3490062559,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3478269251,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3370570568,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3347878369,
         "reason": "off_topic"
       },
       {
@@ -201,8 +227,16 @@
         "reason": "off_topic"
       },
       {
+        "id": 2187963982,
+        "reason": "off_topic"
+      },
+      {
         "id": 2186804480,
         "reason": "rumor_or_unverified"
+      },
+      {
+        "id": 2151831940,
+        "reason": "off_topic"
       },
       {
         "id": 2094946235,
@@ -214,6 +248,10 @@
       },
       {
         "id": 169411143,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1645965576,
         "reason": "off_topic"
       },
       {
@@ -230,6 +268,10 @@
       },
       {
         "id": 1172662576,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1075514612,
         "reason": "off_topic"
       },
       {
@@ -1455,67 +1497,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 2195310530,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2194645251,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2181036362,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2133023859,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2107369161,
-        "reason": "off_topic"
-      },
-      {
-        "id": 207540293,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2046694297,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2026717543,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2022393499,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1925624487,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1901160593,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1697128121,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 1694203283,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1443013596,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1372569764,
-        "reason": "off_topic"
-      },
-      {
         "id": 3850520841,
         "reason": "score_below_50",
         "score": 33
@@ -1596,7 +1577,7 @@
         "score": 33
       },
       {
-        "id": 18579853,
+        "id": 2255540248,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1611,17 +1592,32 @@
         "score": 38
       },
       {
-        "id": 2357098993,
+        "id": 311282974,
         "reason": "score_below_50",
-        "score": 32
+        "score": 38
       },
       {
-        "id": 4137366408,
+        "id": 3040744731,
         "reason": "score_below_50",
-        "score": 28
+        "score": 38
       },
       {
-        "id": 1175016765,
+        "id": 1435681777,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2431554238,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3815719179,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3669303667,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1631,12 +1627,27 @@
         "score": 32
       },
       {
-        "id": 3669303667,
+        "id": 2650971139,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 2650971139,
+        "id": 3254285489,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1693556018,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 807384802,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3898521632,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1686,37 +1697,7 @@
         "score": 22
       },
       {
-        "id": 2121857751,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 1836027061,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 897699259,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 2764896008,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 1310229508,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 367105842,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 3677521931,
         "reason": "score_below_50",
         "score": 20
       },
@@ -1788,17 +1769,17 @@
         "score": 26
       },
       {
-        "id": 2422463297,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
         "id": 3628277920,
         "reason": "score_below_50",
         "score": 26
       },
       {
         "id": 2527121874,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
+        "id": 3626190833,
         "reason": "score_below_50",
         "score": 30
       },
