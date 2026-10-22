@@ -1,13 +1,94 @@
 {
-  "updated": "2026-10-23T03:48:52+08:00",
-  "as_of": "2026-10-23T03:48:52+08:00",
+  "updated": "2026-10-23T07:02:32+08:00",
+  "as_of": "2026-10-23T07:02:32+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2393524916,
+      "标题": "法国报告首例沙蒙达病毒人类感染病例，患者已死亡",
+      "摘要": "法国一名患者感染沙蒙达病毒后死亡，这是该病有记录以来的首例人类感染病例",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-22",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143053",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2393524916.webp",
+      "封面": "assets/media/un-2393524916.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/31-09-2020-Unsplash-fossil-fuel-France.jpg/image560x340cropped.jpg",
+      "导语": "法国一名患者感染沙蒙达病毒后死亡，这是该病有记录以来的首例人类感染病例",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "法国一名患者感染沙蒙达病毒后死亡，这是该病有记录以来的首例人类感染病例。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143053",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1299082618,
+      "标题": "尼泊尔致命冰川洪灾敲响全球气候危机警钟",
+      "摘要": "联合国项目事务署负责人周四表示，今年8月尼泊尔发生的致命山洪灾害，对该国和整个国际社会而言都具有重要的警示意义",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-22",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143052",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1299082618.webp",
+      "封面": "assets/media/un-1299082618.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/08/28-08-2026-UNICEF-Nepal-floods-06.jpg/image560x340cropped.jpg",
+      "导语": "联合国项目事务署负责人周四表示，今年8月尼泊尔发生的致命山洪灾害，对该国和整个国际社会而言都具有重要的警示意义",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国项目事务署负责人周四表示，今年8月尼泊尔发生的致命山洪灾害，对该国和整个国际社会而言都具有重要的警示意义。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143052",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 120631816,
+      "标题": "联合国专家敦促各国采取行动，应对全球老年人非法死亡问题",
+      "摘要": "一位联合国人权专家周三表示，全球范围内老年人非法死亡事件的报告、调查和研究工作严重不足，呼吁各国采取紧急措施，加强相关调查机制和预防体系",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-22",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143051",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-120631816.webp",
+      "封面": "assets/media/un-120631816.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/12-01-2023_UNFPA_China.jpg/image560x340cropped.jpg",
+      "导语": "一位联合国人权专家周三表示，全球范围内老年人非法死亡事件的报告、调查和研究工作严重不足，呼吁各国采取紧急措施，加强相关调查机制和预防体系",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "一位联合国人权专家周三表示，全球范围内老年人非法死亡事件的报告、调查和研究工作严重不足，呼吁各国采取紧急措施，加强相关调查机制和预防体系。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143051",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 163540974,
       "标题": "国际刑事法院荣获2026年萨哈罗夫思想自由奖",
@@ -1044,96 +1125,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://24-ore.com/kapetanovic-ne-samitin-e-procesit-te-berlinit-koha-qe-premtimet-rajonale-te-kthehen-ne-progres/",
       "出处说明": "根据24-ore.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2533678950,
-      "标题": "外文资讯",
-      "原标题": "Nothing personal between me and Trump , Zelensky tells CNN",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 kesq.com 最新报道，点击阅读原文。",
-      "来源": "kesq.com",
-      "分类": "国际形势",
-      "日期": "2026-10-22",
-      "链接": "https://kesq.com/news/national-world/cnn-world/2026/10/22/nothing-personal-between-me-and-trump-zelensky-tells-cnn/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://kesq.com/wp-content/uploads/2026/10/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbXZqYWN4a2UwMDBqMjhxY2Z3NDQ3cnA5-L19jb21wb25lbnRzL2FydGljbGUvaW5zdGFuY2VzL2NtdmphY3hrZTAwMHkyOHFjMDdrbzdldXc-860x573.jpg",
-      "数据截至": "2026-10-22T19:48:45+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 kesq.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 kesq.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://kesq.com/news/national-world/cnn-world/2026/10/22/nothing-personal-between-me-and-trump-zelensky-tells-cnn/",
-      "出处说明": "根据kesq.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 205242591,
-      "标题": "外文资讯",
-      "原标题": "Son of Aung San Suu Kyi speaks to her for first time in five years in dramatic breakthrough",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 independent.co.uk 最新报道，点击阅读原文。",
-      "来源": "independent.co.uk",
-      "分类": "国际形势",
-      "日期": "2026-10-22",
-      "链接": "https://www.independent.co.uk/asia/southeast-asia/aung-san-suu-kyi-breakthrough-son-kim-aris-telephone-b3071330.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://static.independent.co.uk/2026/10/20/08/2026-10-19T135029Z_1422108732_RC2D6OAV8B5Z_RTRMADP_3_MYANMAR-POLITICS.JPG?trim=81,124,69,95&crop=1200:800",
-      "数据截至": "2026-10-22T19:48:45+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 independent.co.uk 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 independent.co.uk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.independent.co.uk/asia/southeast-asia/aung-san-suu-kyi-breakthrough-son-kim-aris-telephone-b3071330.html",
-      "出处说明": "根据independent.co.uk公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3010023423,
-      "标题": "外文资讯",
-      "原标题": "Матвейчев заявил об изменении тона переговоров России и США при Трампе",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 life.ru 最新报道，点击阅读原文。",
-      "来源": "life.ru",
-      "分类": "国际形势",
-      "日期": "2026-10-22",
-      "链接": "https://life.ru/p/my-velikie-derzhavy-v-gosdume-obyasnili-pochemu-evropa-ostalas-za-ramkami",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://static.life.ru/ip/unsafe/rs:fit:1200:/q:98/sh:0.5/czM6Ly9saWZlLXN0YXRpYy9wdWJsaWNhdGlvbnMvMjAyNi8xMC8yMi83MDY1MTU0NjQxMjMuNzYyNi5wbmc=.webp",
-      "数据截至": "2026-10-22T19:48:45+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 life.ru 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 life.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://life.ru/p/my-velikie-derzhavy-v-gosdume-obyasnili-pochemu-evropa-ostalas-za-ramkami",
-      "出处说明": "根据life.ru公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
