@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T07:02:41+08:00",
+  "generated": "2026-10-23T09:26:51+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 2569981193,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,32 +49,33 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-23T07:02:41+08:00"
+      "选入时间": "2026-10-23T09:26:51+08:00"
     },
     {
-      "id": 2325036803,
-      "标题": "【原生·一手】FDE 在 OpenAI 中意味着什么",
-      "摘要": "What forward deployed engineering means at OpenAI",
-      "内容": "What forward deployed engineering means at OpenAI",
+      "id": 146702619,
+      "标题": "【原生·模型】Uber 通过 OpenAI 为所有员工带来 ChatGPT Work",
+      "摘要": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex",
+      "内容": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
       "日期": "2026-10-22",
-      "热度": 59,
-      "链接": "https://openai.com/index/forward-deployed-engineering-means",
+      "热度": 67,
+      "链接": "https://openai.com/index/uber-chatgpt-work-rollout",
       "标签": [
         "原生资讯",
         "OpenAI 官方",
+        "ChatGPT",
         "OpenAI"
       ],
-      "原标题": "【原生·一手】What FDE means at OpenAI",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/5Ggg0KhDALourCX7MklMBY/c7f06d5982895ca0867ed21a0b95d422/uber-brings-chatgpt-work-to-all-employees-seo.png?w=1600&amp;h=900&amp;fit=fill",
+      "原标题": "【原生·模型】Uber brings ChatGPT Work to all employees with OpenAI",
       "中文提炼": "",
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/avyxVkYFTgBKxOXiHxw1C/ab86099b3fc9ac1fa3fc3c13ff36c0c0/forward-deployed-engineering-means-social.png?w=1600&amp;h=900&amp;fit=fill",
       "候选栏目": "AI",
-      "编辑分": 80,
+      "编辑分": 85,
       "评分分项": {
         "可信度": 25,
         "时效": 14,
-        "公共价值": 11,
+        "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -86,7 +87,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-23T07:02:41+08:00"
+      "选入时间": "2026-10-23T09:26:51+08:00"
     },
     {
       "id": 558214136,
@@ -122,20 +123,28 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-23T07:02:41+08:00"
+      "选入时间": "2026-10-23T09:26:51+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-23T07:02:41+08:00",
+    "as_of": "2026-10-23T09:26:51+08:00",
     "candidate_count": 604,
-    "rejected_count": 429,
+    "rejected_count": 430,
     "rejected": [
       {
         "id": 970450334,
         "reason": "off_topic"
       },
       {
+        "id": 793338075,
+        "reason": "off_topic"
+      },
+      {
         "id": 647492900,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4081073676,
         "reason": "off_topic"
       },
       {
@@ -147,7 +156,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 3495145997,
+        "reason": "off_topic"
+      },
+      {
         "id": 3417265275,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3274429629,
         "reason": "off_topic"
       },
       {
@@ -167,7 +184,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 3007844430,
+        "reason": "off_topic"
+      },
+      {
         "id": 2651910879,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2470195724,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2426300927,
         "reason": "off_topic"
       },
       {
@@ -175,7 +204,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 2115228722,
+        "reason": "off_topic"
+      },
+      {
         "id": 2016123495,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1881497040,
         "reason": "off_topic"
       },
       {
@@ -1518,39 +1555,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 4183951897,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4105089664,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4088381849,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 4034088639,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4031997733,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4012577665,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4000701065,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3997138287,
-        "reason": "off_topic"
-      },
-      {
         "id": 2533769645,
         "reason": "score_below_50",
         "score": 37
@@ -1621,6 +1625,11 @@
         "score": 38
       },
       {
+        "id": 641043075,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 3399575850,
         "reason": "score_below_50",
         "score": 38
@@ -1631,12 +1640,7 @@
         "score": 38
       },
       {
-        "id": 4199802014,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3571549342,
+        "id": 141322645,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1646,34 +1650,19 @@
         "score": 38
       },
       {
-        "id": 3068741800,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2933012808,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
         "id": 1051596097,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 141322645,
+        "id": 3068741800,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2467537232,
+        "id": 2488645258,
         "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3830287692,
-        "reason": "score_below_50",
-        "score": 38
+        "score": 34
       },
       {
         "id": 477779767,
@@ -1691,9 +1680,9 @@
         "score": 32
       },
       {
-        "id": 2488645258,
+        "id": 2797436558,
         "reason": "score_below_50",
-        "score": 28
+        "score": 20
       },
       {
         "id": 623456332,
@@ -1702,6 +1691,11 @@
       },
       {
         "id": 804116797,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 855197339,
         "reason": "score_below_50",
         "score": 20
       },
@@ -1729,6 +1723,16 @@
         "id": 897699259,
         "reason": "score_below_50",
         "score": 16
+      },
+      {
+        "id": 3698434870,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 2764896008,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 2470484058,
