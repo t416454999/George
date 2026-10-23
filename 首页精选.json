@@ -1,10 +1,45 @@
 {
-  "generated": "2026-10-23T09:26:51+08:00",
+  "generated": "2026-10-23T14:22:10+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 2569981193,
+  "headline_id": 288037112,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
+    {
+      "id": 288037112,
+      "标题": "【原生·安全】OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "摘要": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital",
+      "内容": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-10-23",
+      "热度": 59,
+      "链接": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "OpenAI"
+      ],
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/2QFh7GNhKrntGGGPok2slW/0a4c69fe28104fc2102821d451277b06/openai-and-poland-s-nask-announce-partnership-seo.png?w=1600&amp;h=900&amp;fit=fill",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-23T14:22:10+08:00"
+    },
     {
       "id": 2569981193,
       "标题": "父亲带薪育儿假仅为母亲的八分之一， 整个社会承担“育儿鸿沟”代价",
@@ -32,7 +67,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,69 +84,29 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-23T09:26:51+08:00"
+      "选入时间": "2026-10-23T14:22:10+08:00"
     },
     {
-      "id": 146702619,
-      "标题": "【原生·模型】Uber 通过 OpenAI 为所有员工带来 ChatGPT Work",
-      "摘要": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex",
-      "内容": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-10-22",
-      "热度": 67,
-      "链接": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "ChatGPT",
-        "OpenAI"
-      ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/5Ggg0KhDALourCX7MklMBY/c7f06d5982895ca0867ed21a0b95d422/uber-brings-chatgpt-work-to-all-employees-seo.png?w=1600&amp;h=900&amp;fit=fill",
-      "原标题": "【原生·模型】Uber brings ChatGPT Work to all employees with OpenAI",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 85,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-23T09:26:51+08:00"
-    },
-    {
-      "id": 558214136,
-      "标题": "【原生·一手】DataPraxis：通过验证的工作空间演进扩展分析任务",
-      "摘要": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning,",
-      "内容": "arXiv:2610.26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning,",
+      "id": 495601903,
+      "标题": "【原生·一手】Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
+      "摘要": "arXiv:2610.28815v1 Announce Type: new Abstract: Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as",
+      "内容": "arXiv:2610.28815v1 Announce Type: new Abstract: Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as",
       "来源": "arXiv AI",
       "分类": "原生资讯",
-      "日期": "2026-10-21",
+      "日期": "2026-10-23",
       "热度": 50,
-      "链接": "https://arxiv.org/abs/2610.26924",
+      "链接": "https://arxiv.org/abs/2610.28815",
       "标签": [
         "原生资讯",
         "arXiv AI"
       ],
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "原标题": "【原生·一手】DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
-      "中文提炼": "",
       "候选栏目": "AI",
-      "编辑分": 79,
+      "编辑分": 86,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
-        "公共价值": 16,
+        "时效": 20,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -123,13 +118,13 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-23T09:26:51+08:00"
+      "选入时间": "2026-10-23T14:22:10+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-23T09:26:51+08:00",
+    "as_of": "2026-10-23T14:22:10+08:00",
     "candidate_count": 604,
-    "rejected_count": 430,
+    "rejected_count": 424,
     "rejected": [
       {
         "id": 970450334,
@@ -144,11 +139,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 579221164,
+        "reason": "off_topic"
+      },
+      {
         "id": 4081073676,
         "reason": "off_topic"
       },
       {
         "id": 3975654502,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3930515614,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3605660434,
         "reason": "off_topic"
       },
       {
@@ -164,11 +171,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 3384181710,
+        "reason": "off_topic"
+      },
+      {
+        "id": 33395570,
+        "reason": "off_topic"
+      },
+      {
         "id": 3274429629,
         "reason": "off_topic"
       },
       {
         "id": 3259595503,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3198338248,
         "reason": "off_topic"
       },
       {
@@ -188,7 +207,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 2967620978,
+        "reason": "off_topic"
+      },
+      {
         "id": 2651910879,
+        "reason": "off_topic"
+      },
+      {
+        "id": 262179781,
         "reason": "off_topic"
       },
       {
@@ -213,6 +240,18 @@
       },
       {
         "id": 1881497040,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1769178474,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1731449427,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1529005995,
         "reason": "off_topic"
       },
       {
@@ -1474,158 +1513,92 @@
         "reason": "off_topic"
       },
       {
-        "id": 1625181829,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1625084557,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1601684031,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1501310114,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1410068586,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1357351535,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1346108863,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1298230385,
-        "reason": "off_topic"
-      },
-      {
-        "id": 117245530,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1112770283,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1086566416,
-        "reason": "off_topic"
-      },
-      {
-        "id": 102741555,
-        "reason": "off_topic"
-      },
-      {
-        "id": 838629844,
-        "reason": "off_topic"
-      },
-      {
-        "id": 77721825,
-        "reason": "off_topic"
-      },
-      {
-        "id": 702667333,
-        "reason": "off_topic"
-      },
-      {
-        "id": 673985338,
-        "reason": "off_topic"
-      },
-      {
-        "id": 628678268,
+        "id": 3728603760,
         "reason": "score_below_50",
-        "score": 49
+        "score": 39
       },
       {
-        "id": 586475010,
-        "reason": "off_topic"
-      },
-      {
-        "id": 566611346,
-        "reason": "off_topic"
-      },
-      {
-        "id": 519260807,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2533769645,
+        "id": 553287237,
         "reason": "score_below_50",
-        "score": 37
+        "score": 39
       },
       {
-        "id": 4052441734,
+        "id": 267777154,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1038301713,
+        "id": 2160347938,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3229379404,
+        "id": 397568319,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3664126670,
+        "id": 2500086796,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2246121367,
+        "id": 3546034020,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2943040195,
+        "id": 3835995426,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1758090790,
+        "id": 3274272774,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2397085423,
+        "id": 866132016,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3124848865,
+        "id": 3305352965,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1415739987,
+        "id": 2003401300,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 658448781,
+        "id": 2325983065,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 940996864,
+        "id": 1946434853,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 671785915,
+        "id": 1924675763,
+        "reason": "score_below_50",
+        "score": 39
+      },
+      {
+        "id": 3958194116,
+        "reason": "score_below_50",
+        "score": 39
+      },
+      {
+        "id": 641043075,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 641043075,
+        "id": 671785915,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1650,11 +1623,6 @@
         "score": 38
       },
       {
-        "id": 1051596097,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
         "id": 3068741800,
         "reason": "score_below_50",
         "score": 38
@@ -1665,12 +1633,12 @@
         "score": 34
       },
       {
-        "id": 477779767,
+        "id": 1358083362,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 1358083362,
+        "id": 477779767,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1680,7 +1648,22 @@
         "score": 32
       },
       {
+        "id": 945849946,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3094035887,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
         "id": 2797436558,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 277218417,
         "reason": "score_below_50",
         "score": 20
       },
@@ -1693,16 +1676,6 @@
         "id": 804116797,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 855197339,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 1419308163,
-        "reason": "score_below_50",
-        "score": 16
       },
       {
         "id": 662669757,
@@ -1725,11 +1698,6 @@
         "score": 16
       },
       {
-        "id": 3698434870,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 2764896008,
         "reason": "score_below_50",
         "score": 20
@@ -1741,6 +1709,11 @@
       },
       {
         "id": 461933557,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1812,16 +1785,6 @@
         "score": 26
       },
       {
-        "id": 916706397,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
-        "id": 245002577,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
         "id": 24740627,
         "reason": "score_below_50",
         "score": 26
@@ -1832,29 +1795,9 @@
         "score": 26
       },
       {
-        "id": 2422463297,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
         "id": 3628277920,
         "reason": "score_below_50",
         "score": 26
-      },
-      {
-        "id": 2527121874,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
-        "id": 4065851501,
-        "reason": "score_below_50",
-        "score": 30
-      },
-      {
-        "id": 7149929,
-        "reason": "score_below_50",
-        "score": 30
       },
       {
         "id": 1710839034,
@@ -1862,12 +1805,42 @@
         "score": 26
       },
       {
-        "id": 3892170956,
+        "id": 3452154756,
         "reason": "score_below_50",
-        "score": 30
+        "score": 24
       },
       {
-        "id": 3706422641,
+        "id": 2624698564,
+        "reason": "score_below_50",
+        "score": 25
+      },
+      {
+        "id": 603258737,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 2266033708,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 4030196979,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 468590270,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 3500451893,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 1269554736,
         "reason": "score_below_50",
         "score": 24
       },
