@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-23T13:12:08+08:00",
+  "updated": "2026-10-24T12:30:11+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "184.4k",
+      "星标": "184.6k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "148.3k",
+      "星标": "148.4k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -60,83 +60,99 @@
   ],
   "trending": [
     {
+      "名称": "security-audit-skill",
+      "repo": "cloudflare/security-audit-skill",
+      "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "星标": 43050,
+      "本周新增": 11223,
+      "语言": "JavaScript"
+    },
+    {
       "名称": "rea",
       "repo": "morluto/rea",
       "说明": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "星标": 370486,
-      "本周新增": 106341,
+      "星标": 375818,
+      "本周新增": 88243,
       "语言": "TypeScript"
     },
     {
       "名称": "claude-plugins-official",
       "repo": "anthropics/claude-plugins-official",
       "说明": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-      "星标": 44028,
-      "本周新增": 5649,
+      "星标": 44258,
+      "本周新增": 4250,
       "语言": "Python"
     },
     {
       "名称": "ruflo",
       "repo": "ruvnet/ruflo",
       "说明": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "星标": 78642,
-      "本周新增": 3708,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "opencode",
-      "repo": "anomalyco/opencode",
-      "说明": "The open source coding agent.",
-      "星标": 220450,
-      "本周新增": 6750,
+      "星标": 78904,
+      "本周新增": 3349,
       "语言": "TypeScript"
     },
     {
       "名称": "orca",
       "repo": "stablyai/orca",
       "说明": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "星标": 103379,
-      "本周新增": 9401,
+      "星标": 104450,
+      "本周新增": 9545,
       "语言": "TypeScript"
     },
     {
-      "名称": "ai-memory",
-      "repo": "akitaonrails/ai-memory",
-      "说明": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "星标": 12906,
-      "本周新增": 3322,
-      "语言": "Rust"
+      "名称": "opencode",
+      "repo": "anomalyco/opencode",
+      "说明": "The open source coding agent.",
+      "星标": 220911,
+      "本周新增": 6765,
+      "语言": "TypeScript"
     },
     {
-      "名称": "CLI-Anything",
-      "repo": "HKUDS/CLI-Anything",
-      "说明": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "星标": 56443,
-      "本周新增": 3275,
-      "语言": "Python"
-    },
-    {
-      "名称": "ComfyUI",
-      "repo": "Comfy-Org/ComfyUI",
-      "说明": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-      "星标": 142216,
-      "本周新增": 4375,
+      "名称": "knowledge-work-plugins",
+      "repo": "anthropics/knowledge-work-plugins",
+      "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "星标": 32508,
+      "本周新增": 2625,
       "语言": "Python"
     },
     {
       "名称": "hyperframes",
       "repo": "heygen-com/hyperframes",
       "说明": "Write HTML. Render video. Built for agents.",
-      "星标": 70417,
-      "本周新增": 5669,
+      "星标": 71129,
+      "本周新增": 5553,
       "语言": "TypeScript"
     },
     {
-      "名称": "scientific-agent-skills",
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "说明": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "星标": 54096,
-      "本周新增": 3967,
+      "名称": "ComfyUI",
+      "repo": "Comfy-Org/ComfyUI",
+      "说明": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "星标": 142495,
+      "本周新增": 4531,
+      "语言": "Python"
+    },
+    {
+      "名称": "ai-memory",
+      "repo": "akitaonrails/ai-memory",
+      "说明": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "星标": 13160,
+      "本周新增": 3449,
+      "语言": "Rust"
+    },
+    {
+      "名称": "graphify",
+      "repo": "Graphify-Labs/graphify",
+      "说明": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "星标": 134142,
+      "本周新增": 6875,
+      "语言": "Python"
+    },
+    {
+      "名称": "CLI-Anything",
+      "repo": "HKUDS/CLI-Anything",
+      "说明": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "星标": 56740,
+      "本周新增": 3303,
       "语言": "Python"
     }
   ]
