@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T13:51:20+08:00",
+  "generated": "2026-10-26T20:26:32+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 332072331,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -40,7 +40,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-26T13:51:20+08:00"
+      "选入时间": "2026-10-26T20:26:32+08:00"
     },
     {
       "id": 2012643187,
@@ -86,50 +86,48 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-26T13:51:20+08:00"
+      "选入时间": "2026-10-26T20:26:32+08:00"
     },
     {
-      "id": 288037112,
-      "标题": "【原生·安全】OpenAI 与波兰 NSK 合作推进人工智能安全",
-      "摘要": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital",
-      "内容": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-10-23",
-      "热度": 59,
-      "链接": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "id": 2737083442,
+      "标题": "DeepSeek 开源看家算子的同一周，AI 超过了它",
+      "摘要": "国产大模型的竞争，正从模型层延伸到算力层：再强的模型，最终都要基于算子在芯片上执行。同一个模型、同一块芯片，换一套更优的算子，有时会带来数倍的性能提升。算子的效率决定了同样的显卡能跑多快，也决定了每个 token 的价格。DeepSeek 近日全面开源推理框架 DeepInfer。",
+      "内容": "国产大模型的竞争，正从模型层延伸到算力层：再强的模型，最终都要基于算子在芯片上执行。同一个模型、同一块芯片，换一套更优的算子，有时会带来数倍的性能提升。算子的效率决定了同样的显卡能跑多快，也决定了每个 token 的价格。DeepSeek 近日全面开源推理框架 DeepInfer。",
+      "来源": "雷锋网",
+      "分类": "大模型",
+      "日期": "2026-10-26",
+      "热度": 73,
+      "链接": "https://www.leiphone.com/category/industrynews/IaMw7vRrTCadlbCY.html",
       "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "OpenAI"
+        "DeepSeek",
+        "大模型",
+        "开源"
       ],
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/2QFh7GNhKrntGGGPok2slW/0a4c69fe28104fc2102821d451277b06/openai-and-poland-s-nask-announce-partnership-seo.png?w=1600&amp;h=900&amp;fit=fill",
-      "原标题": "【原生·安全】OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "中文提炼": "",
+      "图片": "https://static.leiphone.com/uploads/new/banner/6a3a22b4dadf8.jpeg",
       "候选栏目": "AI",
-      "编辑分": 73,
+      "编辑分": 76,
       "评分分项": {
-        "可信度": 25,
-        "时效": 2,
+        "可信度": 17,
+        "时效": 20,
         "公共价值": 16,
-        "一手可追溯": 15,
+        "一手可追溯": 10,
         "完整度": 10,
         "真实图片": 0,
-        "编辑价值": 5,
+        "编辑价值": 3,
         "扣分": 0
       },
-      "来源级别": "A",
+      "来源级别": "B",
       "扣分项": [],
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-26T13:51:20+08:00"
+      "选入时间": "2026-10-26T20:26:32+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-26T13:51:20+08:00",
+    "as_of": "2026-10-26T20:26:32+08:00",
     "candidate_count": 604,
-    "rejected_count": 430,
+    "rejected_count": 431,
     "rejected": [
       {
         "id": 970253832,
@@ -137,6 +135,10 @@
       },
       {
         "id": 869750862,
+        "reason": "off_topic"
+      },
+      {
+        "id": 8545015,
         "reason": "off_topic"
       },
       {
@@ -192,6 +194,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 3377404672,
+        "reason": "off_topic"
+      },
+      {
         "id": 3294742715,
         "reason": "off_topic"
       },
@@ -201,6 +207,10 @@
       },
       {
         "id": 3246672640,
+        "reason": "off_topic"
+      },
+      {
+        "id": 324111182,
         "reason": "off_topic"
       },
       {
@@ -220,11 +230,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 2969927584,
+        "reason": "off_topic"
+      },
+      {
         "id": 2895006183,
         "reason": "off_topic"
       },
       {
+        "id": 2817945813,
+        "reason": "off_topic"
+      },
+      {
         "id": 2799401681,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2797091428,
         "reason": "off_topic"
       },
       {
@@ -233,6 +255,10 @@
       },
       {
         "id": 2623738160,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2443207016,
         "reason": "off_topic"
       },
       {
@@ -249,6 +275,14 @@
       },
       {
         "id": 212569288,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1869189988,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1680823351,
         "reason": "off_topic"
       },
       {
@@ -656,6 +690,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 739885770,
+        "reason": "off_topic"
+      },
+      {
         "id": 662623673,
         "reason": "off_topic"
       },
@@ -670,6 +708,11 @@
       {
         "id": 579221164,
         "reason": "off_topic"
+      },
+      {
+        "id": 569985584,
+        "reason": "score_below_50",
+        "score": 49
       },
       {
         "id": 44661603,
@@ -780,6 +823,16 @@
         "reason": "off_topic"
       },
       {
+        "id": 2383999110,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
+        "id": 2383063897,
+        "reason": "score_below_50",
+        "score": 49
+      },
+      {
         "id": 237000205,
         "reason": "off_topic"
       },
@@ -797,6 +850,10 @@
       },
       {
         "id": 2087485553,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2086422283,
         "reason": "off_topic"
       },
       {
@@ -1488,60 +1545,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 2042047275,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2010308147,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1951810114,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 1903861972,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1871710834,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1836779803,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 1782924984,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1646550740,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1488522294,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1442304433,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1411975338,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1347411894,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1218400695,
-        "reason": "off_topic"
-      },
-      {
         "id": 482225830,
         "reason": "score_below_50",
         "score": 33
@@ -1627,7 +1630,22 @@
         "score": 38
       },
       {
+        "id": 3243364662,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 3028536068,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
         "id": 586140642,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 29568224,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1637,12 +1655,12 @@
         "score": 43
       },
       {
-        "id": 2205721915,
+        "id": 2497616897,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2497616897,
+        "id": 2224102202,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1672,11 +1690,6 @@
         "score": 32
       },
       {
-        "id": 1224194261,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
         "id": 2209971387,
         "reason": "score_below_50",
         "score": 32
@@ -1692,11 +1705,6 @@
         "score": 22
       },
       {
-        "id": 641043075,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 2602566102,
         "reason": "score_below_50",
         "score": 25
@@ -1705,11 +1713,6 @@
         "id": 1847010768,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 1094837968,
-        "reason": "score_below_50",
-        "score": 16
       },
       {
         "id": 3677521931,
@@ -1799,7 +1802,7 @@
         "reason": "stale_section"
       },
       {
-        "id": 664567241,
+        "id": 2268635213,
         "reason": "score_below_50",
         "score": 26
       },
