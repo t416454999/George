@@ -1,10 +1,47 @@
 {
-  "generated": "2026-10-26T08:36:48+08:00",
+  "generated": "2026-10-26T13:51:20+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 2012643187,
+  "headline_id": 332072331,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
+    {
+      "id": 332072331,
+      "标题": "【原生·一手】重试权限：AI 代理工作流程中的授权和恢复研究",
+      "摘要": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain.",
+      "内容": "arXiv:2610.31916v1 Announce Type: new Abstract: A durable agent can resume a consequential action while its authority changes and the action's external outcome remains uncertain.",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-10-26",
+      "热度": 58,
+      "链接": "https://arxiv.org/abs/2610.31916",
+      "标签": [
+        "原生资讯",
+        "arXiv AI",
+        "AI Agent"
+      ],
+      "原标题": "【原生·一手】Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-10-26T13:51:20+08:00"
+    },
     {
       "id": 2012643187,
       "标题": "【子午播报】2026年10月24日",
@@ -32,7 +69,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 84,
       "评分分项": {
         "可信度": 25,
@@ -49,43 +86,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-26T08:36:48+08:00"
-    },
-    {
-      "id": 495601903,
-      "标题": "【原生·一手】将更多任务融入更好的安全带中：通过连续规模赛车进行代理安全带进化",
-      "摘要": "arXiv:2610.28815v1 Announce Type: new Abstract: Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as",
-      "内容": "arXiv:2610.28815v1 Announce Type: new Abstract: Agentic harness evolution optimizes an agent's instructions, tools, and control flow by using its task execution experiences as",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-10-23",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2610.28815",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "原标题": "【原生·一手】Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-10-26T08:36:48+08:00"
+      "选入时间": "2026-10-26T13:51:20+08:00"
     },
     {
       "id": 288037112,
@@ -122,14 +123,26 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-26T08:36:48+08:00"
+      "选入时间": "2026-10-26T13:51:20+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-26T08:36:48+08:00",
+    "as_of": "2026-10-26T13:51:20+08:00",
     "candidate_count": 604,
     "rejected_count": 430,
     "rejected": [
+      {
+        "id": 970253832,
+        "reason": "off_topic"
+      },
+      {
+        "id": 869750862,
+        "reason": "off_topic"
+      },
+      {
+        "id": 791614996,
+        "reason": "off_topic"
+      },
       {
         "id": 569271532,
         "reason": "off_topic"
@@ -147,6 +160,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 4197487756,
+        "reason": "off_topic"
+      },
+      {
         "id": 3915981082,
         "reason": "off_topic"
       },
@@ -155,11 +172,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 3878751306,
+        "reason": "off_topic"
+      },
+      {
         "id": 3813913798,
         "reason": "off_topic"
       },
       {
+        "id": 3803773456,
+        "reason": "off_topic"
+      },
+      {
         "id": 3720706814,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3664706067,
         "reason": "off_topic"
       },
       {
@@ -187,6 +216,26 @@
         "reason": "off_topic"
       },
       {
+        "id": 2981515200,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2895006183,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2799401681,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2672787472,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2623738160,
+        "reason": "off_topic"
+      },
+      {
         "id": 2337144162,
         "reason": "off_topic"
       },
@@ -200,6 +249,10 @@
       },
       {
         "id": 212569288,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1241436835,
         "reason": "off_topic"
       },
       {
@@ -1489,59 +1542,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 1157187187,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1092070386,
-        "reason": "off_topic"
-      },
-      {
-        "id": 97803973,
-        "reason": "off_topic"
-      },
-      {
-        "id": 74641795,
-        "reason": "off_topic"
-      },
-      {
-        "id": 717383664,
-        "reason": "off_topic"
-      },
-      {
-        "id": 668472241,
-        "reason": "off_topic"
-      },
-      {
-        "id": 528746029,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 510455695,
-        "reason": "off_topic"
-      },
-      {
-        "id": 490715227,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4177745534,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4150091956,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4087469073,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4074416171,
-        "reason": "off_topic"
-      },
-      {
         "id": 482225830,
         "reason": "score_below_50",
         "score": 33
@@ -1632,19 +1632,19 @@
         "score": 38
       },
       {
-        "id": 4279092970,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3553719164,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
         "id": 1816860012,
         "reason": "score_below_50",
         "score": 43
+      },
+      {
+        "id": 2205721915,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2497616897,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
         "id": 2488645258,
@@ -1652,9 +1652,9 @@
         "score": 34
       },
       {
-        "id": 2321818236,
+        "id": 1114919116,
         "reason": "score_below_50",
-        "score": 32
+        "score": 34
       },
       {
         "id": 905560632,
@@ -1663,6 +1663,11 @@
       },
       {
         "id": 3617130008,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2321818236,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1702,9 +1707,9 @@
         "score": 20
       },
       {
-        "id": 18579853,
+        "id": 1094837968,
         "reason": "score_below_50",
-        "score": 20
+        "score": 16
       },
       {
         "id": 3677521931,
@@ -1718,11 +1723,6 @@
       },
       {
         "id": 3246854698,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 619245987,
         "reason": "score_below_50",
         "score": 16
       },
