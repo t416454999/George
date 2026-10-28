@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T12:30:36+08:00",
+  "generated": "2026-10-28T18:48:46+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 60893681,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -39,7 +39,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-28T12:30:36+08:00"
+      "选入时间": "2026-10-28T18:48:46+08:00"
     },
     {
       "id": 88207213,
@@ -68,7 +68,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -85,31 +85,32 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-28T12:30:36+08:00"
+      "选入时间": "2026-10-28T18:48:46+08:00"
     },
     {
-      "id": 2239349236,
-      "标题": "【原生·研究】Check Point 如何利用 Daybreak 加速漏洞研究",
-      "摘要": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses",
-      "内容": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses",
+      "id": 730223015,
+      "标题": "【原生·一手】Legora正在构建法律工作代理操作系统",
+      "摘要": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value",
+      "内容": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
-      "日期": "2026-10-27",
-      "热度": 59,
-      "链接": "https://openai.com/index/check-point-daybreak",
+      "日期": "2026-10-28",
+      "热度": 67,
+      "链接": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
       "标签": [
         "原生资讯",
         "OpenAI 官方",
+        "ChatGPT",
         "OpenAI"
       ],
-      "原标题": "【原生·研究】How Check Point accelerates vulnerability research with Daybreak",
+      "原标题": "【原生·一手】Legora is building the agentic operating system for legal work",
       "中文提炼": "",
       "候选栏目": "AI",
-      "编辑分": 85,
+      "编辑分": 86,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
-        "公共价值": 16,
+        "时效": 20,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -121,13 +122,13 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-10-28T12:30:36+08:00"
+      "选入时间": "2026-10-28T18:48:46+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-10-28T12:30:36+08:00",
+    "as_of": "2026-10-28T18:48:46+08:00",
     "candidate_count": 604,
-    "rejected_count": 406,
+    "rejected_count": 408,
     "rejected": [
       {
         "id": 998021355,
@@ -135,6 +136,10 @@
       },
       {
         "id": 983317462,
+        "reason": "off_topic"
+      },
+      {
+        "id": 943349613,
         "reason": "off_topic"
       },
       {
@@ -150,7 +155,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 4069783311,
+        "reason": "off_topic"
+      },
+      {
         "id": 3933598151,
+        "reason": "off_topic"
+      },
+      {
+        "id": 393184251,
         "reason": "off_topic"
       },
       {
@@ -179,6 +192,18 @@
       },
       {
         "id": 3113552420,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3020194304,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2837119890,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2820672219,
         "reason": "off_topic"
       },
       {
@@ -214,7 +239,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 2021945104,
+        "reason": "off_topic"
+      },
+      {
         "id": 1969946960,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1884033809,
         "reason": "off_topic"
       },
       {
@@ -230,11 +263,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 1771817290,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1768033094,
+        "reason": "off_topic"
+      },
+      {
         "id": 1541434200,
         "reason": "unresolved_placeholder"
       },
       {
         "id": 1196345391,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1020204261,
         "reason": "off_topic"
       },
       {
@@ -1405,62 +1450,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 1621347945,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1559147786,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1544263,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1379185293,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1179412746,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1137615061,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1113239689,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1064319333,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1052187311,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1005128149,
-        "reason": "off_topic"
-      },
-      {
-        "id": 952634260,
-        "reason": "off_topic"
-      },
-      {
-        "id": 931631960,
-        "reason": "off_topic"
-      },
-      {
-        "id": 762907796,
-        "reason": "off_topic"
-      },
-      {
-        "id": 762658703,
-        "reason": "off_topic"
-      },
-      {
         "id": 1252417653,
         "reason": "score_below_50",
         "score": 33
@@ -1516,17 +1505,32 @@
         "score": 33
       },
       {
-        "id": 5210474,
+        "id": 2905584089,
         "reason": "score_below_50",
-        "score": 34
+        "score": 33
       },
       {
-        "id": 2969520086,
+        "id": 2870510831,
         "reason": "score_below_50",
-        "score": 38
+        "score": 33
       },
       {
-        "id": 432825155,
+        "id": 2132316519,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 1327262069,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2409613664,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 1832765018,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1536,29 +1540,19 @@
         "score": 38
       },
       {
-        "id": 3164176489,
+        "id": 432825155,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 658578941,
+        "id": 1844118839,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2912228199,
+        "id": 128209423,
         "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2192191309,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 226792253,
-        "reason": "score_below_50",
-        "score": 38
+        "score": 34
       },
       {
         "id": 2488645258,
@@ -1566,47 +1560,17 @@
         "score": 34
       },
       {
-        "id": 164222998,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 1413368989,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 2183435272,
+        "id": 1119177400,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 3957982638,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 4237763049,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2286579724,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 276643200,
+        "id": 2645969669,
         "reason": "score_below_50",
         "score": 32
       },
       {
         "id": 1296040194,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 1376375935,
         "reason": "score_below_50",
         "score": 28
       },
@@ -1621,14 +1585,9 @@
         "score": 28
       },
       {
-        "id": 743283996,
+        "id": 1376375935,
         "reason": "score_below_50",
         "score": 28
-      },
-      {
-        "id": 1868804843,
-        "reason": "score_below_50",
-        "score": 33
       },
       {
         "id": 1826901623,
@@ -1636,9 +1595,63 @@
         "score": 33
       },
       {
-        "id": 2681623300,
+        "id": 3277199105,
         "reason": "score_below_50",
         "score": 26
+      },
+      {
+        "id": 1114919116,
+        "reason": "score_below_50",
+        "score": 22
+      },
+      {
+        "id": 3617130008,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 905560632,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 414694627,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 2602566102,
+        "reason": "score_below_50",
+        "score": 25
+      },
+      {
+        "id": 256926145,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 2015249527,
+        "reason": "sensational_title"
+      },
+      {
+        "id": 367105842,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 2470484058,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 461933557,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 619245987,
+        "reason": "score_below_50",
+        "score": 16
       },
       {
         "id": 4190298209,
@@ -1718,7 +1731,12 @@
         "score": 30
       },
       {
-        "id": 2422463297,
+        "id": 3628277920,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
+        "id": 4279798319,
         "reason": "score_below_50",
         "score": 30
       },
@@ -1741,11 +1759,6 @@
         "id": 2045596937,
         "reason": "score_below_50",
         "score": 30
-      },
-      {
-        "id": 1710839034,
-        "reason": "score_below_50",
-        "score": 26
       },
       {
         "id": 1736945337,
