@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-27T14:09:52+08:00",
+  "updated": "2026-10-28T14:56:16+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "185.0k",
+      "星标": "185.1k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "27.5k",
+      "星标": "27.6k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -37,7 +37,7 @@
       "名称": "DeepSeek-V3",
       "repo": "deepseek-ai/DeepSeek-V3",
       "说明": "深度求索开源大语言模型，MoE 架构 671B 参数，性能对标 GPT-4。",
-      "星标": "104.6k",
+      "星标": "104.7k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,81 +63,81 @@
       "名称": "security-audit-skill",
       "repo": "cloudflare/security-audit-skill",
       "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "星标": 49484,
-      "本周新增": 16593,
+      "星标": 51115,
+      "本周新增": 16388,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "knowledge-work-plugins",
-      "repo": "anthropics/knowledge-work-plugins",
-      "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "星标": 33355,
-      "本周新增": 2822,
-      "语言": "Python"
     },
     {
       "名称": "claude-seo",
       "repo": "AgriciDaniel/claude-seo",
       "说明": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "星标": 22506,
-      "本周新增": 2546,
+      "星标": 23110,
+      "本周新增": 3081,
       "语言": "Python"
     },
     {
       "名称": "andrej-karpathy-skills",
       "repo": "multica-ai/andrej-karpathy-skills",
       "说明": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "星标": 225243,
-      "本周新增": 3286,
+      "星标": 225803,
+      "本周新增": 4039,
       "语言": ""
+    },
+    {
+      "名称": "knowledge-work-plugins",
+      "repo": "anthropics/knowledge-work-plugins",
+      "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "星标": 33567,
+      "本周新增": 2789,
+      "语言": "Python"
     },
     {
       "名称": "TradingAgents",
       "repo": "TauricResearch/TradingAgents",
       "说明": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "星标": 117020,
-      "本周新增": 3437,
+      "星标": 117696,
+      "本周新增": 4882,
       "语言": "Python"
+    },
+    {
+      "名称": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "说明": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "星标": 91745,
+      "本周新增": 6713,
+      "语言": "Rust"
     },
     {
       "名称": "graphify",
       "repo": "Graphify-Labs/graphify",
       "说明": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "星标": 136658,
-      "本周新增": 7183,
+      "星标": 137474,
+      "本周新增": 7268,
       "语言": "Python"
     },
     {
       "名称": "ruflo",
       "repo": "ruvnet/ruflo",
       "说明": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "星标": 79686,
-      "本周新增": 2683,
+      "星标": 79898,
+      "本周新增": 2296,
       "语言": "TypeScript"
     },
     {
       "名称": "opencode",
       "repo": "anomalyco/opencode",
       "说明": "The open source coding agent.",
-      "星标": 222220,
-      "本周新增": 5070,
+      "星标": 222628,
+      "本周新增": 4334,
       "语言": "TypeScript"
     },
     {
-      "名称": "orca",
-      "repo": "stablyai/orca",
-      "说明": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "星标": 107704,
-      "本周新增": 9241,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "ai-memory",
-      "repo": "akitaonrails/ai-memory",
-      "说明": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "星标": 13972,
-      "本周新增": 2838,
-      "语言": "Rust"
+      "名称": "skills",
+      "repo": "jakubkrehel/skills",
+      "说明": "A collection of agent skills that help you build great interfaces.",
+      "星标": 8895,
+      "本周新增": 746,
+      "语言": "Markdown"
     }
   ]
 }
