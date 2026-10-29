@@ -1,13 +1,121 @@
 {
-  "updated": "2026-10-29T05:52:15+08:00",
-  "as_of": "2026-10-29T05:52:15+08:00",
+  "updated": "2026-10-29T09:38:44+08:00",
+  "as_of": "2026-10-29T09:38:44+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 3618836518,
+      "标题": "苏丹平民面临无人机袭击与任意逮捕双重威胁",
+      "摘要": "由联合国人权理事会任命的苏丹问题独立国际实况调查团周三表示，苏丹战火正蔓延至更多地区，作战技术日趋先进，平民面临的危险也不断加剧。在欧拜伊德市，当地平民持续生活在恐惧之中。他们既面临快速支援部队的无人机袭击，也面临苏丹武装部队的任意逮捕",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143089",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3618836518.webp",
+      "封面": "assets/media/un-3618836518.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/13-02-2026-UNICEF-Sudan-01.jpg/image560x340cropped.jpg",
+      "导语": "由联合国人权理事会任命的苏丹问题独立国际实况调查团周三表示，苏丹战火正蔓延至更多地区，作战技术日趋先进，平民面临的危险也不断加剧。在欧拜伊德市，当地平民持续生活在恐惧之中。他们既面临快速支援部队的无人机袭击，也面临苏丹武",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "由联合国人权理事会任命的苏丹问题独立国际实况调查团周三表示，苏丹战火正蔓延至更多地区，作战技术日趋先进，平民面临的危险也不断加剧。在欧拜伊德市，当地平民持续生活在恐惧之中。他们既面临快速支援部队的无人机袭击，也面临苏丹武装部队的任意逮捕。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143089",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3623252708,
+      "标题": "粮食署新任执行主任：结束冲突是缓解全球饥饿问题的关键",
+      "摘要": "世界粮食计划署新任执行主任林德伯格（Luke Lindberg）周三表示，减少冲突是缓解全球饥饿问题最有效的途径。目前，全球约2.66亿人面临急性粮食不安全，其中三分之二的粮食安全问题由冲突造成",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143088",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3623252708.webp",
+      "封面": "assets/media/un-3623252708.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/28-10-2026-UN-Photo-Luke-Lindberg.jpg/image560x340cropped.jpg",
+      "导语": "世界粮食计划署新任执行主任林德伯格（Luke Lindberg）周三表示，减少冲突是缓解全球饥饿问题最有效的途径。目前，全球约2.66亿人面临急性粮食不安全，其中三分之二的粮食安全问题由冲突造成",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界粮食计划署新任执行主任林德伯格（Luke Lindberg）周三表示，减少冲突是缓解全球饥饿问题最有效的途径。目前，全球约2.66亿人面临急性粮食不安全，其中三分之二的粮食安全问题由冲突造成。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143088",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3647579831,
+      "标题": "刚果（金）埃博拉确诊病例破万，世卫组织呼吁持续开展防控工作",
+      "摘要": "刚果民主共和国（刚果（金））埃博拉确诊病例数已超过10000例，世界卫生组织强调必须持续采取措施，遏制病毒传播",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143087",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3647579831.webp",
+      "封面": "assets/media/un-3647579831.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/23-10-2026-WHO-DRC-ebola.jpg/image560x340cropped.jpg",
+      "导语": "刚果民主共和国（刚果（金））埃博拉确诊病例数已超过10000例，世界卫生组织强调必须持续采取措施，遏制病毒传播",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "刚果民主共和国（刚果（金））埃博拉确诊病例数已超过10000例，世界卫生组织强调必须持续采取措施，遏制病毒传播。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143087",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1254204570,
+      "标题": "2023年全球高温相关死亡人数达71万，创历史新高",
+      "摘要": "世界卫生组织参与发布的一份最新报告周三警告，各国在应对气候变化方面采取的措施仍远远不够，气候变化正持续威胁全球民众的健康与生命。2023年，全球高温相关死亡人数估计达71万，其中超过七成的死亡可归因于人为造成的气候变化",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-10-28",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143085",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1254204570.webp",
+      "封面": "assets/media/un-1254204570.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/28-10-2026-extremeheat-AdobeStockjpg/image560x340cropped.jpg",
+      "导语": "世界卫生组织参与发布的一份最新报告周三警告，各国在应对气候变化方面采取的措施仍远远不够，气候变化正持续威胁全球民众的健康与生命。2023年，全球高温相关死亡人数估计达71万，其中超过七成的死亡可归因于人为造成的气候变化",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界卫生组织参与发布的一份最新报告周三警告，各国在应对气候变化方面采取的措施仍远远不够，气候变化正持续威胁全球民众的健康与生命。2023年，全球高温相关死亡人数估计达71万，其中超过七成的死亡可归因于人为造成的气候变化。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143085",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 899848957,
       "标题": "联合国警告：随着气候变化加剧，海洋吸收碳的能力正在减弱",
@@ -1014,126 +1122,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://vz.ru/news/2026/10/27/1468282.html",
       "出处说明": "根据vz.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2870510831,
-      "标题": "外文资讯",
-      "原标题": "OMODA & JAECOO : From a Bold New Model to Global Owners in the Spotlight : OMODA X Night Takes the Stage",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 finanznachrichten.de 最新报道，点击阅读原文。",
-      "来源": "finanznachrichten.de",
-      "分类": "国际形势",
-      "日期": "2026-10-27",
-      "链接": "https://www.finanznachrichten.de/nachrichten-2026-10/69941487-omoda-jaecoo-from-a-bold-new-model-to-global-owners-in-the-spotlight-omoda-x-night-takes-the-stage-399.htm",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://ml.globenewswire.com/media/YjhhZWNlYzgtZDA4YS00MDM1LTkwZDYtMzU2MDY5NGU1NWZhLTUwMDE2OTU4Ni0yMDI2LTEwLTI3LWVu/tiny/OMODA-JAECOO.png",
-      "数据截至": "2026-10-28T21:52:15+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 finanznachrichten.de 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 finanznachrichten.de 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.finanznachrichten.de/nachrichten-2026-10/69941487-omoda-jaecoo-from-a-bold-new-model-to-global-owners-in-the-spotlight-omoda-x-night-takes-the-stage-399.htm",
-      "出处说明": "根据finanznachrichten.de公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2132316519,
-      "标题": "随着要求奴隶制道歉的呼声越来越高，金开始加勒比海之旅",
-      "原标题": "King begins tour of Caribbean as calls grow for slavery apology",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 greenocktelegraph.co.uk 最新报道，点击阅读原文。",
-      "来源": "greenocktelegraph.co.uk",
-      "分类": "国际形势",
-      "日期": "2026-10-27",
-      "链接": "https://www.greenocktelegraph.co.uk/news/national/26672176.king-begins-tour-caribbean-calls-grow-slavery-apology/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.greenocktelegraph.co.uk/resources/images/21634218.jpg?type=og-image",
-      "数据截至": "2026-10-28T21:52:15+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 greenocktelegraph.co.uk 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 greenocktelegraph.co.uk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.greenocktelegraph.co.uk/news/national/26672176.king-begins-tour-caribbean-calls-grow-slavery-apology/",
-      "出处说明": "根据greenocktelegraph.co.uk公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1327262069,
-      "标题": "残酷的冬天等待着乌克兰，普京并不寻求和平——卡拉斯的惊人警告",
-      "原标题": "Україну чекає жорстока зима , а путін не прагне миру – тривожне попередження Каллас",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 unn.ua 最新报道，点击阅读原文。",
-      "来源": "unn.ua",
-      "分类": "国际形势",
-      "日期": "2026-10-27",
-      "链接": "https://unn.ua/news/ukrainu-chekaie-zhorstoka-zyma-a-putin-ne-prahne-myru-tryvozhne-poperedzhennia-kallas",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://unn.ua/img/2026/10/16/1792147619-3066-large.webp",
-      "数据截至": "2026-10-28T21:52:15+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 unn.ua 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 unn.ua 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://unn.ua/news/ukrainu-chekaie-zhorstoka-zyma-a-putin-ne-prahne-myru-tryvozhne-poperedzhennia-kallas",
-      "出处说明": "根据unn.ua公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2409613664,
-      "标题": "美国国会威胁对进口俄罗斯柴油实施制裁 - 2026 年 10 月 27 日",
-      "原标题": "Конгресс США угрожает санкциями за импорт российского дизеля - 27 октября 2026",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 fontanka.ru 最新报道，点击阅读原文。",
-      "来源": "fontanka.ru",
-      "分类": "国际形势",
-      "日期": "2026-10-27",
-      "链接": "https://www.fontanka.ru/2026/10/27/76725906/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.fontanka.ru/html-to-img/og/ckbiEIV67fz_wGJ25ofP9w/article-id76725906-16x9.jpg",
-      "数据截至": "2026-10-28T21:52:15+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 fontanka.ru 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 fontanka.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.fontanka.ru/2026/10/27/76725906/",
-      "出处说明": "根据fontanka.ru公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
