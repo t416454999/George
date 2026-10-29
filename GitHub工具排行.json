@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-28T14:56:16+08:00",
+  "updated": "2026-10-29T15:01:41+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "185.1k",
+      "星标": "185.2k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "148.6k",
+      "星标": "148.7k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -45,7 +45,7 @@
       "名称": "Stable Diffusion",
       "repo": "CompVis/stable-diffusion",
       "说明": "开源文生图模型，支持文本到图像生成，生态最丰富的图像生成框架。",
-      "星标": "73.5k",
+      "星标": "73.6k",
       "本周变化": "─",
       "语言": "Jupyter Notebook"
     },
@@ -63,81 +63,81 @@
       "名称": "security-audit-skill",
       "repo": "cloudflare/security-audit-skill",
       "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "星标": 51115,
-      "本周新增": 16388,
+      "星标": 52423,
+      "本周新增": 16002,
       "语言": "JavaScript"
     },
     {
       "名称": "claude-seo",
       "repo": "AgriciDaniel/claude-seo",
       "说明": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "星标": 23110,
-      "本周新增": 3081,
-      "语言": "Python"
-    },
-    {
-      "名称": "andrej-karpathy-skills",
-      "repo": "multica-ai/andrej-karpathy-skills",
-      "说明": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "星标": 225803,
-      "本周新增": 4039,
-      "语言": ""
-    },
-    {
-      "名称": "knowledge-work-plugins",
-      "repo": "anthropics/knowledge-work-plugins",
-      "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "星标": 33567,
-      "本周新增": 2789,
-      "语言": "Python"
-    },
-    {
-      "名称": "TradingAgents",
-      "repo": "TauricResearch/TradingAgents",
-      "说明": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "星标": 117696,
-      "本周新增": 4882,
+      "星标": 23793,
+      "本周新增": 3516,
       "语言": "Python"
     },
     {
       "名称": "impeccable",
       "repo": "pbakaus/impeccable",
       "说明": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "星标": 91745,
-      "本周新增": 6713,
+      "星标": 94584,
+      "本周新增": 7283,
       "语言": "Rust"
     },
     {
-      "名称": "graphify",
-      "repo": "Graphify-Labs/graphify",
-      "说明": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "星标": 137474,
-      "本周新增": 7268,
+      "名称": "andrej-karpathy-skills",
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "说明": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "星标": 226263,
+      "本周新增": 4293,
+      "语言": ""
+    },
+    {
+      "名称": "TradingAgents",
+      "repo": "TauricResearch/TradingAgents",
+      "说明": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "星标": 118175,
+      "本周新增": 5322,
       "语言": "Python"
     },
     {
-      "名称": "ruflo",
-      "repo": "ruvnet/ruflo",
-      "说明": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "星标": 79898,
-      "本周新增": 2296,
-      "语言": "TypeScript"
+      "名称": "superpowers",
+      "repo": "obra/superpowers",
+      "说明": "An agentic skills framework & software development methodology that works.",
+      "星标": 308089,
+      "本周新增": 4655,
+      "语言": "Shell"
     },
     {
-      "名称": "opencode",
-      "repo": "anomalyco/opencode",
-      "说明": "The open source coding agent.",
-      "星标": 222628,
-      "本周新增": 4334,
-      "语言": "TypeScript"
+      "名称": "knowledge-work-plugins",
+      "repo": "anthropics/knowledge-work-plugins",
+      "说明": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "星标": 33780,
+      "本周新增": 2612,
+      "语言": "Python"
+    },
+    {
+      "名称": "taste-skill",
+      "repo": "Leonxlnx/taste-skill",
+      "说明": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "星标": 105199,
+      "本周新增": 3940,
+      "语言": "JavaScript"
     },
     {
       "名称": "skills",
       "repo": "jakubkrehel/skills",
       "说明": "A collection of agent skills that help you build great interfaces.",
-      "星标": 8895,
-      "本周新增": 746,
+      "星标": 9118,
+      "本周新增": 776,
       "语言": "Markdown"
+    },
+    {
+      "名称": "ruflo",
+      "repo": "ruvnet/ruflo",
+      "说明": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "星标": 80080,
+      "本周新增": 1930,
+      "语言": "TypeScript"
     }
   ]
 }
