@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-31T14:23:57+08:00",
+  "updated": "2026-11-01T14:49:53+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "185.4k",
+      "星标": "185.5k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "27.6k",
+      "星标": "27.7k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "61.6k",
+      "星标": "61.7k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,97 +63,97 @@
       "名称": "hallmark",
       "repo": "Nutlope/hallmark",
       "说明": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "星标": 43529,
-      "本周新增": 11766,
+      "星标": 44472,
+      "本周新增": 12062,
       "语言": "CSS"
-    },
-    {
-      "名称": "security-audit-skill",
-      "repo": "cloudflare/security-audit-skill",
-      "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "星标": 54832,
-      "本周新增": 12838,
-      "语言": "JavaScript"
-    },
-    {
-      "名称": "claude-seo",
-      "repo": "AgriciDaniel/claude-seo",
-      "说明": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "星标": 24825,
-      "本周新增": 4478,
-      "语言": "Python"
     },
     {
       "名称": "impeccable",
       "repo": "pbakaus/impeccable",
       "说明": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "星标": 97795,
-      "本周新增": 11323,
+      "星标": 98952,
+      "本周新增": 12031,
       "语言": "Rust"
     },
     {
-      "名称": "superpowers",
-      "repo": "obra/superpowers",
-      "说明": "An agentic skills framework & software development methodology that works.",
-      "星标": 309789,
-      "本周新增": 5474,
-      "语言": "Shell"
-    },
-    {
-      "名称": "andrej-karpathy-skills",
-      "repo": "multica-ai/andrej-karpathy-skills",
-      "说明": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "星标": 227241,
-      "本周新增": 4178,
-      "语言": ""
-    },
-    {
-      "名称": "TradingAgents",
-      "repo": "TauricResearch/TradingAgents",
-      "说明": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "星标": 118896,
-      "本周新增": 5490,
+      "名称": "claude-seo",
+      "repo": "AgriciDaniel/claude-seo",
+      "说明": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "星标": 25324,
+      "本周新增": 4814,
       "语言": "Python"
-    },
-    {
-      "名称": "skills",
-      "repo": "jakubkrehel/skills",
-      "说明": "A collection of agent skills that help you build great interfaces.",
-      "星标": 9501,
-      "本周新增": 1107,
-      "语言": "Markdown"
-    },
-    {
-      "名称": "taste-skill",
-      "repo": "Leonxlnx/taste-skill",
-      "说明": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "星标": 106722,
-      "本周新增": 4712,
-      "语言": "JavaScript"
     },
     {
       "名称": "claude-mem",
       "repo": "thedotmack/claude-mem",
       "说明": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "星标": 107184,
-      "本周新增": 3518,
+      "星标": 108669,
+      "本周新增": 4575,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "security-audit-skill",
+      "repo": "cloudflare/security-audit-skill",
+      "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "星标": 56013,
+      "本周新增": 11908,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "superpowers",
+      "repo": "obra/superpowers",
+      "说明": "An agentic skills framework & software development methodology that works.",
+      "星标": 310408,
+      "本周新增": 5636,
+      "语言": "Shell"
+    },
+    {
+      "名称": "thinkrail",
+      "repo": "JetBrains/thinkrail",
+      "说明": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "星标": 6901,
+      "本周新增": 5738,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "andrej-karpathy-skills",
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "说明": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "星标": 227808,
+      "本周新增": 4277,
+      "语言": ""
+    },
+    {
+      "名称": "skills",
+      "repo": "jakubkrehel/skills",
+      "说明": "A collection of agent skills that help you build great interfaces.",
+      "星标": 9869,
+      "本周新增": 1272,
+      "语言": "Markdown"
+    },
+    {
+      "名称": "TradingAgents",
+      "repo": "TauricResearch/TradingAgents",
+      "说明": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "星标": 119349,
+      "本周新增": 5483,
+      "语言": "Python"
+    },
+    {
+      "名称": "taste-skill",
+      "repo": "Leonxlnx/taste-skill",
+      "说明": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "星标": 107481,
+      "本周新增": 4975,
+      "语言": "JavaScript"
     },
     {
       "名称": "skills",
       "repo": "anthropics/skills",
       "说明": "Public repository for Agent Skills",
-      "星标": 185734,
-      "本周新增": 1888,
+      "星标": 186152,
+      "本周新增": 2389,
       "语言": "Python"
-    },
-    {
-      "名称": "ECC",
-      "repo": "affaan-m/ECC",
-      "说明": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "星标": 293754,
-      "本周新增": 6506,
-      "语言": "JavaScript"
     }
   ]
 }
