@@ -1,10 +1,46 @@
 {
-  "generated": "2026-11-04T14:55:47+08:00",
+  "generated": "2026-11-04T23:14:00+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 608558748,
+  "headline_id": 449014208,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
+    {
+      "id": 449014208,
+      "标题": "【原生·一手】Daybreak Red 现已在 AWS GovCloud（美国东部）推出",
+      "摘要": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "内容": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-11-04",
+      "热度": 68,
+      "链接": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "GPT-5"
+      ],
+      "原标题": "【原生·一手】Daybreak Red is now available in AWS GovCloud (US-East)",
+      "中文提炼": "",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-11-04T23:14:00+08:00"
+    },
     {
       "id": 608558748,
       "标题": "国际电联：全球20亿人仍未上网",
@@ -32,7 +68,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,43 +85,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-04T14:55:47+08:00"
-    },
-    {
-      "id": 941507319,
-      "标题": "【原生·一手】加速物理世界的工程",
-      "摘要": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "内容": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-11-03",
-      "热度": 58,
-      "链接": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "ChatGPT"
-      ],
-      "原标题": "【原生·一手】Accelerating engineering for the physical world",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 80,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-11-04T14:55:47+08:00"
+      "选入时间": "2026-11-04T23:14:00+08:00"
     },
     {
       "id": 797869016,
@@ -121,16 +121,24 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-04T14:55:47+08:00"
+      "选入时间": "2026-11-04T23:14:00+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-04T14:55:47+08:00",
+    "as_of": "2026-11-04T23:14:00+08:00",
     "candidate_count": 604,
-    "rejected_count": 416,
+    "rejected_count": 411,
     "rejected": [
       {
+        "id": 53477349,
+        "reason": "off_topic"
+      },
+      {
         "id": 475486557,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4276583994,
         "reason": "off_topic"
       },
       {
@@ -140,6 +148,14 @@
       {
         "id": 414443092,
         "reason": "off_topic"
+      },
+      {
+        "id": 4104309416,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4086302295,
+        "reason": "sensational_title"
       },
       {
         "id": 3937920717,
@@ -159,6 +175,10 @@
       },
       {
         "id": 3596876478,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3459019980,
         "reason": "off_topic"
       },
       {
@@ -182,7 +202,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 2986581197,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2979901051,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2781065450,
+        "reason": "off_topic"
+      },
+      {
         "id": 2754348987,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2698350849,
         "reason": "off_topic"
       },
       {
@@ -194,11 +230,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 2271546522,
+        "reason": "off_topic"
+      },
+      {
         "id": 2242980022,
         "reason": "off_topic"
       },
       {
         "id": 2221333314,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2112444017,
         "reason": "off_topic"
       },
       {
@@ -223,6 +267,10 @@
       },
       {
         "id": 1522516109,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1328007224,
         "reason": "off_topic"
       },
       {
@@ -1421,74 +1469,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 3113552420,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3020194304,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2837119890,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2820672219,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2723775072,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2645313048,
-        "reason": "off_topic"
-      },
-      {
-        "id": 262233297,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2513028758,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2382718234,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2187366,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2130672110,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2097917932,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2021945104,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1969946960,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1943456570,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1884033809,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1871877832,
-        "reason": "off_topic"
-      },
-      {
         "id": 4230955,
         "reason": "score_below_50",
         "score": 39
@@ -1568,16 +1548,6 @@
         "score": 39
       },
       {
-        "id": 413282203,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3929956435,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
         "id": 370258651,
         "reason": "score_below_50",
         "score": 38
@@ -1588,12 +1558,72 @@
         "score": 38
       },
       {
+        "id": 1447070638,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 370984401,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 3569935864,
         "reason": "score_below_50",
         "score": 38
       },
       {
+        "id": 2397274249,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2053431685,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1231520372,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2807875851,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3081258794,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2815200877,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3808330043,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 3873604954,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
         "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 1769665124,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 1811230454,
         "reason": "score_below_50",
         "score": 34
       },
@@ -1608,47 +1638,12 @@
         "score": 34
       },
       {
-        "id": 2760865997,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 2872133931,
+        "id": 1253689120,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 3808330043,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 3765133507,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2460901290,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 421662747,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 631889708,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 280114100,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 3686015068,
+        "id": 3663201452,
         "reason": "score_below_50",
         "score": 26
       },
@@ -1656,26 +1651,6 @@
         "id": 4158464633,
         "reason": "score_below_50",
         "score": 21
-      },
-      {
-        "id": 2050339975,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 1390672203,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 1346868993,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 3282247505,
-        "reason": "score_below_50",
-        "score": 25
       },
       {
         "id": 2470484058,
@@ -1691,6 +1666,11 @@
         "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
+      },
+      {
+        "id": 444437417,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 4190298209,
@@ -1750,16 +1730,6 @@
         "score": 26
       },
       {
-        "id": 1549453902,
-        "reason": "score_below_50",
-        "score": 31
-      },
-      {
-        "id": 1710839034,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
         "id": 3452154756,
         "reason": "score_below_50",
         "score": 24
@@ -1775,27 +1745,12 @@
         "score": 24
       },
       {
-        "id": 4030196979,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 2552247385,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 468590270,
         "reason": "score_below_50",
         "score": 24
       },
       {
-        "id": 420589601,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
-        "id": 2741619439,
+        "id": 974282593,
         "reason": "score_below_50",
         "score": 20
       },
@@ -1805,9 +1760,19 @@
         "score": 24
       },
       {
+        "id": 2463373785,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
         "id": 1269554736,
         "reason": "score_below_50",
         "score": 24
+      },
+      {
+        "id": 3987974192,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 3049165558,
@@ -1818,6 +1783,21 @@
         "id": 3687896276,
         "reason": "score_below_50",
         "score": 20
+      },
+      {
+        "id": 2027906285,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 133200706,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
+        "id": 3242876717,
+        "reason": "score_below_50",
+        "score": 24
       },
       {
         "id": 4138627420,
