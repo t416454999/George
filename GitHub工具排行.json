@@ -1,62 +1,151 @@
 {
-  "updated": "2026-11-04T16:02:04+08:00",
+  "updated": "2026-11-05T16:16:29+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "0",
+      "星标": "186.0k",
       "本周变化": "─",
-      "语言": ""
+      "语言": "Go"
     },
     {
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "0",
+      "星标": "149.1k",
       "本周变化": "─",
-      "语言": ""
+      "语言": "Python"
     },
     {
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "0",
+      "星标": "27.8k",
       "本周变化": "─",
-      "语言": ""
+      "语言": "TypeScript"
     },
     {
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "0",
+      "星标": "61.7k",
       "本周变化": "─",
-      "语言": ""
+      "语言": "Python"
     },
     {
       "名称": "DeepSeek-V3",
       "repo": "deepseek-ai/DeepSeek-V3",
       "说明": "深度求索开源大语言模型，MoE 架构 671B 参数，性能对标 GPT-4。",
-      "星标": "0",
+      "星标": "104.7k",
       "本周变化": "─",
-      "语言": ""
+      "语言": "Python"
     },
     {
       "名称": "Stable Diffusion",
       "repo": "CompVis/stable-diffusion",
       "说明": "开源文生图模型，支持文本到图像生成，生态最丰富的图像生成框架。",
-      "星标": "0",
+      "星标": "73.6k",
       "本周变化": "─",
-      "语言": ""
+      "语言": "Jupyter Notebook"
     },
     {
       "名称": "Cursor",
       "repo": "getcursor/cursor",
       "说明": "AI 原生代码编辑器，深度集成 Claude 和 GPT 模型，支持自然语言编程和多文件重构。",
-      "星标": "0",
+      "星标": "33.3k",
       "本周变化": "─",
       "语言": ""
     }
   ],
-  "trending": []
+  "trending": [
+    {
+      "名称": "claude-mem",
+      "repo": "thedotmack/claude-mem",
+      "说明": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "星标": 113373,
+      "本周新增": 8822,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "hallmark",
+      "repo": "Nutlope/hallmark",
+      "说明": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "星标": 48527,
+      "本周新增": 7622,
+      "语言": "CSS"
+    },
+    {
+      "名称": "skills",
+      "repo": "anthropics/skills",
+      "说明": "Public repository for Agent Skills",
+      "星标": 187652,
+      "本周新增": 3003,
+      "语言": "Python"
+    },
+    {
+      "名称": "worktrunk",
+      "repo": "max-sixty/worktrunk",
+      "说明": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "星标": 11374,
+      "本周新增": 1261,
+      "语言": "Rust"
+    },
+    {
+      "名称": "superpowers",
+      "repo": "obra/superpowers",
+      "说明": "An agentic skills framework & software development methodology that works.",
+      "星标": 312841,
+      "本周新增": 5565,
+      "语言": "Shell"
+    },
+    {
+      "名称": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "说明": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "星标": 103596,
+      "本周新增": 10921,
+      "语言": "Rust"
+    },
+    {
+      "名称": "skills",
+      "repo": "jakubkrehel/skills",
+      "说明": "A collection of agent skills that help you build great interfaces.",
+      "星标": 10947,
+      "本周新增": 1865,
+      "语言": "Markdown"
+    },
+    {
+      "名称": "OpenMontage",
+      "repo": "calesthio/OpenMontage",
+      "说明": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "星标": 76974,
+      "本周新增": 3743,
+      "语言": "Python"
+    },
+    {
+      "名称": "andrej-karpathy-skills",
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "说明": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "星标": 229778,
+      "本周新增": 3808,
+      "语言": ""
+    },
+    {
+      "名称": "taste-skill",
+      "repo": "Leonxlnx/taste-skill",
+      "说明": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "星标": 110467,
+      "本周新增": 5935,
+      "语言": "JavaScript"
+    },
+    {
+      "名称": "pr-agent",
+      "repo": "The-PR-Agent/pr-agent",
+      "说明": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "星标": 15031,
+      "本周新增": 966,
+      "语言": "Python"
+    }
+  ]
 }
