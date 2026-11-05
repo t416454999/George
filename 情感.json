@@ -4,8 +4,8 @@
   "category": "情感",
   "source": "PubMed / NCBI · Google News",
   "description": "从关系、孤独、依恋与情绪研究中寻找可靠线索；不是医疗建议。",
-  "status": "ok",
-  "message": "",
+  "status": "stale",
+  "message": "本轮更新失败，当前展示上次成功数据：500 Server Error: Internal Server Error for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22emotion+regulation%22%5BTitle%5D+OR+loneliness%5BTitle%5D+OR+attachment%5BTitle%5D+OR+%22close+relationship%22%5BTitle%5D+OR+%22romantic+relationship%22%5BTitle%5D+OR+%22social+connection%22%5BTitle%5D%29+AND+2025%3A2026%5Bpdat%5D%29&retmode=json&retmax=18&sort=pub+date",
   "count": 25,
   "articles": [
     {
