@@ -1,13 +1,67 @@
 {
-  "updated": "2026-11-05T17:06:34+08:00",
-  "as_of": "2026-11-05T17:06:34+08:00",
+  "updated": "2026-11-06T01:35:15+08:00",
+  "as_of": "2026-11-06T01:35:15+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "partial",
-  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
+  "status": "ok",
+  "message": "",
   "count": 40,
   "articles": [
+    {
+      "id": 930947337,
+      "标题": "燃油价格上涨冲击全球 发展中经济体负担最重",
+      "摘要": "今年2月，战争导致霍尔木兹海峡封锁，全球油价随之飙升。但联合国贸易和发展会议发布的一份新报告显示，各国在加油站承受的压力远非均等，全球发展中经济体正为此付出最沉重的代价",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-04",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143135",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-930947337.webp",
+      "封面": "assets/media/un-930947337.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/04-11-2026-Adobe-Stock-fuel-station.jpg/image560x340cropped.jpg",
+      "导语": "今年2月，战争导致霍尔木兹海峡封锁，全球油价随之飙升。但联合国贸易和发展会议发布的一份新报告显示，各国在加油站承受的压力远非均等，全球发展中经济体正为此付出最沉重的代价",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "今年2月，战争导致霍尔木兹海峡封锁，全球油价随之飙升。但联合国贸易和发展会议发布的一份新报告显示，各国在加油站承受的压力远非均等，全球发展中经济体正为此付出最沉重的代价。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143135",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3005188131,
+      "标题": "联合国维和事务负责人：“蓝盔”部队撤离黎巴嫩和西撒哈拉将导致“安全真空”",
+      "摘要": "联合国维和事务负责人周三警告称，“蓝盔”部队从黎巴嫩和西撒哈拉撤离可能导致危险的安全真空，而安理会对于是否应以其他力量取而代之、以及应以何种力量替代等问题仍存在分歧",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-04",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143134",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3005188131.webp",
+      "封面": "assets/media/un-3005188131.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/01-10-2026-UNIFIL-Lebanon-01.jpg/image560x340cropped.jpg",
+      "导语": "联合国维和事务负责人周三警告称，“蓝盔”部队从黎巴嫩和西撒哈拉撤离可能导致危险的安全真空，而安理会对于是否应以其他力量取而代之、以及应以何种力量替代等问题仍存在分歧",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国维和事务负责人周三警告称，“蓝盔”部队从黎巴嫩和西撒哈拉撤离可能导致危险的安全真空，而安理会对于是否应以其他力量取而代之、以及应以何种力量替代等问题仍存在分歧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143134",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 397006711,
       "标题": "【专题报道 】驶向电气化未来：交通转型如何助力全球气候目标",
@@ -603,57 +657,213 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 413050118,
-      "标题": "世界城市日：城市焕新：人人享有适当住房",
-      "摘要": "世界城市日全球纪念活动周六在中国福州举行，主题为“城市焕新：人人享有适当住房”，聚焦城市复兴，将城市复兴视为实现人人享有适当住房的推动力",
-      "来源": "联合国新闻",
+      "id": 3365665775,
+      "标题": "灰色、危险、神秘：德国的雾",
+      "原标题": "Grau , gefährlich , geheimnisvoll : Nebel in Deutschland",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 gmx.ch 最新报道，点击阅读原文。",
+      "来源": "gmx.ch",
       "分类": "国际形势",
-      "日期": "2026-10-31",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143111",
+      "日期": "2026-11-05",
+      "链接": "https://www.gmx.ch/magazine/panorama/wetter/grau-gefaehrlich-geheimnisvoll-nebel-deutschland-42913804",
       "标签": [
         "国际",
-        "联合国"
+        "全球媒体"
       ],
-      "图片": "assets/media/un-413050118.webp",
-      "封面": "assets/media/un-413050118.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/31-07-2026_Jingdezhen6.jpg/image560x340cropped.jpg",
-      "导语": "世界城市日全球纪念活动周六在中国福州举行，主题为“城市焕新：人人享有适当住房”，聚焦城市复兴，将城市复兴视为实现人人享有适当住房的推动力",
+      "原始图片": "https://i0.gmx.ch/image/806/42913806,pd=1,f=opengraph/brocken.jpg",
+      "数据截至": "2026-11-05T17:35:11+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 gmx.ch 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "世界城市日全球纪念活动周六在中国福州举行，主题为“城市焕新：人人享有适当住房”，聚焦城市复兴，将城市复兴视为实现人人享有适当住房的推动力。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 gmx.ch 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143111",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://www.gmx.ch/magazine/panorama/wetter/grau-gefaehrlich-geheimnisvoll-nebel-deutschland-42913804",
+      "出处说明": "根据gmx.ch公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 423169179,
-      "标题": "人权高专办工作人员在胡塞武装羁押期间死亡，联合国强烈谴责并要求展开调查",
-      "摘要": "秘书长古特雷斯和人权事务高级专员蒂尔克周六分别发表声明，对一名联合国人权事务高级专员办事处驻也门工作人员在被胡塞事实当局羁押期间死亡一事，深表震惊并予以强烈谴责",
-      "来源": "联合国新闻",
+      "id": 1184735360,
+      "标题": "EAM Jaishankar会见澳大利亚、英国总理，讨论双边合作",
+      "原标题": "EAM Jaishankar meets Australian , united kingdom PMs , discusses bilateral cooperation",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 ianslive.in 最新报道，点击阅读原文。",
+      "来源": "ianslive.in",
       "分类": "国际形势",
-      "日期": "2026-10-31",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/10/1143110",
+      "日期": "2026-11-05",
+      "链接": "https://ianslive.in/eam-jaishankar-meets-australian-uk-pms-discusses-bilateral-cooperation--20261105105112",
       "标签": [
         "国际",
-        "联合国"
+        "全球媒体"
       ],
-      "图片": "assets/media/un-423169179.webp",
-      "封面": "assets/media/un-423169179.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/04-09-2026-IOM-Yemen-Vaccination.jpg/image560x340cropped.jpg",
-      "导语": "秘书长古特雷斯和人权事务高级专员蒂尔克周六分别发表声明，对一名联合国人权事务高级专员办事处驻也门工作人员在被胡塞事实当局羁押期间死亡一事，深表震惊并予以强烈谴责",
+      "原始图片": "https://d2lnbwhcsmj8tp.cloudfront.net/ianslive_watermark/202611054003182.jpg",
+      "数据截至": "2026-11-05T17:35:11+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 ianslive.in 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "秘书长古特雷斯和人权事务高级专员蒂尔克周六分别发表声明，对一名联合国人权事务高级专员办事处驻也门工作人员在被胡塞事实当局羁押期间死亡一事，深表震惊并予以强烈谴责。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 ianslive.in 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/10/1143110",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://ianslive.in/eam-jaishankar-meets-australian-uk-pms-discusses-bilateral-cooperation--20261105105112",
+      "出处说明": "根据ianslive.in公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2490517180,
+      "标题": "昌迪加尔夫妇，他们的公司因伊朗石油联系而面临美国制裁",
+      "原标题": "Chandigarh - based couple , their firms face US sanctions over Iran oil links",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 dailyexcelsior.com 最新报道，点击阅读原文。",
+      "来源": "dailyexcelsior.com",
+      "分类": "国际形势",
+      "日期": "2026-11-05",
+      "链接": "https://www.dailyexcelsior.com/chandigarh-based-couple-their-firms-face-us-sanctions-over-iran-oil-links/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYTc2OTQxNTUwLWQ4ZTYtMTFmMS1iYTAzLTc3OTVjZGZhOTdmZS5qcGc=",
+      "数据截至": "2026-11-05T17:35:11+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 dailyexcelsior.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 dailyexcelsior.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.dailyexcelsior.com/chandigarh-based-couple-their-firms-face-us-sanctions-over-iran-oil-links/",
+      "出处说明": "根据dailyexcelsior.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1037702006,
+      "标题": "川普期中選舉大敗 ！ 民主黨掌美國會 歐洲認有幫助 、 中國低調 、「 這大國 」 憂心 | 國際",
+      "原标题": "川普期中選舉大敗 ！ 民主黨掌美國會 歐洲認有幫助 、 中國低調 、「 這大國 」 憂心 | 國際",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 newtalk.tw 最新报道，点击阅读原文。",
+      "来源": "newtalk.tw",
+      "分类": "国际形势",
+      "日期": "2026-11-05",
+      "链接": "https://newtalk.tw/news/view/2026-11-05/1069445",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://s.newtalk.tw/album/news/1070/6aec07f1309d1.jpg",
+      "数据截至": "2026-11-05T17:35:11+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 newtalk.tw 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 newtalk.tw 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://newtalk.tw/news/view/2026-11-05/1069445",
+      "出处说明": "根据newtalk.tw公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3998579806,
+      "标题": "减轻负担与威胁生计...由于配送应用程序的上限制度，自营职业者和骑手之间的冲突加剧",
+      "原标题": "부담 줄여야 vs 생계 위협 … 배달앱 상한제에 자영업자 · 라이더 갈등 고조",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 newspim.com 最新报道，点击阅读原文。",
+      "来源": "newspim.com",
+      "分类": "国际形势",
+      "日期": "2026-11-05",
+      "链接": "https://www.newspim.com/news/view/20261105001182",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://img.newspim.com/news/2026/09/01/260901143735416_t1.jpg",
+      "数据截至": "2026-11-05T17:35:11+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 newspim.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 newspim.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.newspim.com/news/view/20261105001182",
+      "出处说明": "根据newspim.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 855250128,
+      "标题": "英国同意就英联邦协议后的历史伤害进行奴隶贸易赔偿谈判",
+      "原标题": "UK agrees to slave trade reparations talks addressing historical harm after Commonwealth deal",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 mirror.co.uk 最新报道，点击阅读原文。",
+      "来源": "mirror.co.uk",
+      "分类": "国际形势",
+      "日期": "2026-11-05",
+      "链接": "https://www.mirror.co.uk/news/uk-news/uk-agrees-slave-trade-reparations-37844710",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://i2-prod.mirror.co.uk/article37844705.ece/ALTERNATES/s1200d/2_Prime-Minister-Andy-Burnham-speaks-to-the-media-on-the-sidelines-of-the-Commonwealth-Heads-of-Government-Meeting-at-th.jpg",
+      "数据截至": "2026-11-05T17:35:11+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 mirror.co.uk 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 mirror.co.uk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.mirror.co.uk/news/uk-news/uk-agrees-slave-trade-reparations-37844710",
+      "出处说明": "根据mirror.co.uk公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 254523513,
+      "标题": "胡志明市制定到2045年推进文化外交的计划",
+      "原标题": "HCM City sets out plan to boost cultural diplomacy by 2045",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 vietnamnews.vn 最新报道，点击阅读原文。",
+      "来源": "vietnamnews.vn",
+      "分类": "国际形势",
+      "日期": "2026-11-05",
+      "链接": "https://vietnamnews.vn/society/1803611/hcm-city-sets-out-plan-to-boost-cultural-diplomacy-by-2045.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://image.vietnamnews.vn/MediaUpload/Medium/2026/11/05/134231_hcm.png",
+      "数据截至": "2026-11-05T17:35:11+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 vietnamnews.vn 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 vietnamnews.vn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://vietnamnews.vn/society/1803611/hcm-city-sets-out-plan-to-boost-cultural-diplomacy-by-2045.html",
+      "出处说明": "根据vietnamnews.vn公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
@@ -671,7 +881,7 @@
         "全球媒体"
       ],
       "原始图片": "http://www.guimaraesdigital.pt/images/opiniao/alexandre_barros_cunha.jpg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 guimaraesdigital.pt 最新报道，点击阅读原文",
@@ -701,7 +911,7 @@
         "全球媒体"
       ],
       "原始图片": "http://img2.chinadaily.com.cn/images/202611/04/6aea8236e4b06d4a392f6ae6.jpeg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 europe.chinadaily.com.cn 最新报道，点击阅读原文",
@@ -731,7 +941,7 @@
         "全球媒体"
       ],
       "原始图片": "https://www.aljazeera.net/wp-content/uploads/2026/07/getty_6a6b2b3dd4-1785408317.jpg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 aljazeera.net 最新报道，点击阅读原文",
@@ -761,7 +971,7 @@
         "全球媒体"
       ],
       "原始图片": "https://www.maldonandburnhamstandard.co.uk/resources/images/21667544.jpg?type=og-image",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 maldonandburnhamstandard.co.uk 最新报道，点击阅读原文",
@@ -791,7 +1001,7 @@
         "全球媒体"
       ],
       "原始图片": "https://image.ichannela.com/images/channela/2026/11/04/000003173645/00000317364520261104083156029.webp",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 ichannela.com 最新报道，点击阅读原文",
@@ -821,7 +1031,7 @@
         "全球媒体"
       ],
       "原始图片": "",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 calgaryherald.com 最新报道，点击阅读原文",
@@ -851,7 +1061,7 @@
         "全球媒体"
       ],
       "原始图片": "",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 163.com 最新报道，点击阅读原文",
@@ -881,7 +1091,7 @@
         "全球媒体"
       ],
       "原始图片": "https://wimg.heraldcorp.com/news/cms/2026/11/04/news-p.v1.20261104.525518e6b3694e5ab78fdd14e046cbb0_P1.jpg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 koreaherald.com 最新报道，点击阅读原文",
@@ -911,7 +1121,7 @@
         "全球媒体"
       ],
       "原始图片": "",
-      "数据截至": "2026-11-05T01:43:53+00:00",
+      "数据截至": "2026-11-05T17:35:11+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
       "导语": "全球新闻索引收录的 hznews.hangzhou.com.cn 最新报道，点击阅读原文",
@@ -924,216 +1134,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://hznews.hangzhou.com.cn/jingji/content/2026-11/04/content_9366739.htm",
       "出处说明": "根据hznews.hangzhou.com.cn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3424039381,
-      "标题": "美国首次投票已经结束，计票工作已经开始！这是第一个结果",
-      "原标题": "ABDde ilk sandıklar kapandı , oylar sayılmaya başlandı ! İşte ilk sonuçlar",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 sondakika.com 最新报道，点击阅读原文。",
-      "来源": "sondakika.com",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://www.sondakika.com/haber/haber-abdde-ilk-sandiklar-kapandi-oylar-sayilmaya-20393244/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://foto.sondakika.com/crop/1210x0/haber/2026/11/04/abdde-ilk-sandiklar-kapandi-oylar-sayilmaya-20393243_3181_sd.jpg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 sondakika.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 sondakika.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.sondakika.com/haber/haber-abdde-ilk-sandiklar-kapandi-oylar-sayilmaya-20393244/",
-      "出处说明": "根据sondakika.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2614032700,
-      "标题": "国家支持香港作为全球金融中心",
-      "原标题": "Nation backs HK as global financial hub",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 europe.chinadaily.com.cn 最新报道，点击阅读原文。",
-      "来源": "europe.chinadaily.com.cn",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "http://europe.chinadaily.com.cn/a/202611/03/WS6aea01b4e4b06d4aa0566dbb.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "http://img2.chinadaily.com.cn/images/202611/03/6aea01b4e4b06d4a392f66f4.jpeg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 europe.chinadaily.com.cn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 europe.chinadaily.com.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://europe.chinadaily.com.cn/a/202611/03/WS6aea01b4e4b06d4aa0566dbb.html",
-      "出处说明": "根据europe.chinadaily.com.cn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 918271239,
-      "标题": "金融界财经早餐 ： 李强乌镇峰会倡建可信AI工具 ； 央行上调外汇存准率 、 SFISF千亿操作落地 ； 证监会推进长钱长投 ； 1089家公司现金分红超8000亿 ； 多家企业密集回购增持 ； 红果用户超豆包 （ 11月4日 ）",
-      "原标题": "金融界财经早餐 ： 李强乌镇峰会倡建可信AI工具 ； 央行上调外汇存准率 、 SFISF千亿操作落地 ； 证监会推进长钱长投 ； 1089家公司现金分红超8000亿 ； 多家企业密集回购增持 ； 红果用户超豆包 （ 11月4日 ）",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 finance.jrj.com.cn 最新报道，点击阅读原文。",
-      "来源": "finance.jrj.com.cn",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://finance.jrj.com.cn/2026/11/04085259003392.shtml",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://img.jrjimg.cn/2026/11/20261104082415856.png",
-      "数据截至": "2026-11-05T01:43:53+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 finance.jrj.com.cn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 finance.jrj.com.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://finance.jrj.com.cn/2026/11/04085259003392.shtml",
-      "出处说明": "根据finance.jrj.com.cn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3703063722,
-      "标题": "央行损失600亿美元 - NEW ASIA",
-      "原标题": "MBde 60 milyar $ kayıp - YENİ ASYA",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 yeniasya.com.tr 最新报道，点击阅读原文。",
-      "来源": "yeniasya.com.tr",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://www.yeniasya.com.tr/ekonomi/mb-de-60-milyar-kayip_628043",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.yeniasya.com.tr/Sites/YeniAsya/Upload/images/Content/2026/11/04/MB.jpg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 yeniasya.com.tr 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 yeniasya.com.tr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.yeniasya.com.tr/ekonomi/mb-de-60-milyar-kayip_628043",
-      "出处说明": "根据yeniasya.com.tr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3760746567,
-      "标题": "이란 안보수장 우리 요구에 대한 美 반응 , 설득력 없어",
-      "原标题": "이란 안보수장 우리 요구에 대한 美 반응 , 설득력 없어",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 fnnews.com 最新报道，点击阅读原文。",
-      "来源": "fnnews.com",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://www.fnnews.com/news/202611040704170557",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://image.fnnews.com/resource/media/image/2026/11/03/202611031739103895_e.jpg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 fnnews.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 fnnews.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.fnnews.com/news/202611040704170557",
-      "出处说明": "根据fnnews.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1425688752,
-      "标题": "不追风口却被风口追上 ： 碧云泉G7千境问鼎天猫台式净饮机热销榜",
-      "原标题": "不追风口却被风口追上 ： 碧云泉G7千境问鼎天猫台式净饮机热销榜",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文。",
-      "来源": "finance.sina.com.cn",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://finance.sina.com.cn/tech/roll/2026-11-04/doc-inixpmfe6295438.shtml",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://n.sinaimg.cn/spider20261104/455/w650h605/20261104/2723-653332289001751a72778c1872240181.jpg",
-      "数据截至": "2026-11-05T01:43:53+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://finance.sina.com.cn/tech/roll/2026-11-04/doc-inixpmfe6295438.shtml",
-      "出处说明": "根据finance.sina.com.cn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 31051975,
-      "标题": "开源主题生态体验馆亮相浙江乌镇",
-      "原标题": "开源主题生态体验馆亮相浙江乌镇",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 163.com 最新报道，点击阅读原文。",
-      "来源": "163.com",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://www.163.com/dy/article/LASLPHH40514R9OJ.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-05T01:43:53+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 163.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 163.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.163.com/dy/article/LASLPHH40514R9OJ.html",
-      "出处说明": "根据163.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
