@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T03:01:19+08:00",
+  "generated": "2026-11-07T07:44:36+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 686853674,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-07T03:01:19+08:00"
+      "选入时间": "2026-11-07T07:44:36+08:00"
     },
     {
       "id": 772904950,
@@ -85,24 +85,25 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-07T03:01:19+08:00"
+      "选入时间": "2026-11-07T07:44:36+08:00"
     },
     {
-      "id": 3438291795,
-      "标题": "【原生·一手】与 Hacktron 合作寻找 OpenAI 系统中的漏洞",
-      "摘要": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "内容": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "id": 4085105440,
+      "标题": "【原生·开发者】衡量人工智能代理如何处理日常湿实验室科学",
+      "摘要": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab",
+      "内容": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
       "日期": "2026-11-06",
-      "热度": 59,
-      "链接": "https://openai.com/index/partnering-with-hacktron",
+      "热度": 67,
+      "链接": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "标签": [
         "原生资讯",
         "OpenAI 官方",
-        "OpenAI"
+        "OpenAI",
+        "AI Agent"
       ],
-      "原标题": "【原生·一手】Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "原标题": "【原生·开发者】Measuring how AI agents handle everyday wet-lab science",
       "中文提炼": "",
       "候选栏目": "AI",
       "编辑分": 80,
@@ -121,20 +122,40 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-07T03:01:19+08:00"
+      "选入时间": "2026-11-07T07:44:36+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-07T03:01:19+08:00",
+    "as_of": "2026-11-07T07:44:36+08:00",
     "candidate_count": 604,
-    "rejected_count": 382,
+    "rejected_count": 385,
     "rejected": [
       {
         "id": 904931283,
         "reason": "off_topic"
       },
       {
+        "id": 802937485,
+        "reason": "off_topic"
+      },
+      {
+        "id": 731582271,
+        "reason": "off_topic"
+      },
+      {
+        "id": 568918945,
+        "reason": "off_topic"
+      },
+      {
         "id": 490108639,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3768160023,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3697607109,
         "reason": "off_topic"
       },
       {
@@ -146,6 +167,14 @@
         "reason": "off_topic"
       },
       {
+        "id": 2911309771,
+        "reason": "off_topic"
+      },
+      {
+        "id": 288647674,
+        "reason": "off_topic"
+      },
+      {
         "id": 2646096441,
         "reason": "off_topic"
       },
@@ -154,7 +183,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 1609639984,
+        "reason": "off_topic"
+      },
+      {
         "id": 1410225053,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1152954209,
         "reason": "off_topic"
       },
       {
@@ -1380,30 +1417,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 3261933696,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2798800781,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2709964761,
-        "reason": "off_topic"
-      },
-      {
-        "id": 269387874,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2689470797,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2560051897,
-        "reason": "off_topic"
-      },
-      {
         "id": 3365665775,
         "reason": "score_below_50",
         "score": 27
@@ -1434,9 +1447,54 @@
         "score": 38
       },
       {
+        "id": 1668722558,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3512623744,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 1691283890,
         "reason": "score_below_50",
         "score": 38
+      },
+      {
+        "id": 633023589,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 819410435,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 1461921457,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 25157004,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 984134723,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 113253381,
+        "reason": "score_below_50",
+        "score": 34
       },
       {
         "id": 2359631190,
@@ -1444,7 +1502,22 @@
         "score": 34
       },
       {
+        "id": 1123226035,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
         "id": 3037721695,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 1136295142,
+        "reason": "score_below_50",
+        "score": 39
+      },
+      {
+        "id": 2566216670,
         "reason": "score_below_50",
         "score": 34
       },
@@ -1469,17 +1542,17 @@
         "score": 32
       },
       {
+        "id": 1214787836,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 3150764182,
         "reason": "score_below_50",
         "score": 32
       },
       {
         "id": 1431239677,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1214787836,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1492,66 +1565,6 @@
         "id": 3270811109,
         "reason": "score_below_50",
         "score": 32
-      },
-      {
-        "id": 287161990,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2653314903,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3014224009,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2082007031,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2173437529,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1580239821,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 486302334,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 3464503494,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 4168569517,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 2416061436,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 2488645258,
-        "reason": "score_below_50",
-        "score": 22
-      },
-      {
-        "id": 3246854698,
-        "reason": "score_below_50",
-        "score": 16
       },
       {
         "id": 4190298209,
@@ -1656,11 +1669,6 @@
         "score": 24
       },
       {
-        "id": 3987974192,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 3049165558,
         "reason": "score_below_50",
         "score": 24
@@ -1679,6 +1687,11 @@
         "id": 133200706,
         "reason": "score_below_50",
         "score": 20
+      },
+      {
+        "id": 3242876717,
+        "reason": "score_below_50",
+        "score": 24
       },
       {
         "id": 4138627420,
