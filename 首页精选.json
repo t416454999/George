@@ -1,10 +1,46 @@
 {
-  "generated": "2026-11-06T11:35:44+08:00",
+  "generated": "2026-11-06T19:54:46+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 4041193993,
+  "headline_id": 772904950,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
+    {
+      "id": 772904950,
+      "标题": "【原生·安全】具有策略行为和参数敏感性经验特征的代理 AI 的信任响应式运行时授权",
+      "摘要": "arXiv:2611.06996v1 Announce Type: new Abstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or",
+      "内容": "arXiv:2611.06996v1 Announce Type: new Abstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-11-06",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2611.06996",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "原标题": "【原生·安全】Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
+      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-11-06T19:54:46+08:00"
+    },
     {
       "id": 4041193993,
       "标题": "联合国阿卜耶伊安全部队继续发挥稳定作用 无人机袭击凸显地区安全风险",
@@ -49,7 +85,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-06T11:35:44+08:00"
+      "选入时间": "2026-11-06T19:54:46+08:00"
     },
     {
       "id": 821342787,
@@ -85,56 +121,28 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-06T11:35:44+08:00"
-    },
-    {
-      "id": 3903546653,
-      "标题": "【原生·研究】迈向强大的长寿命代理：不断变化的环境中的体验生命周期基准测试",
-      "摘要": "arXiv:2611.05450v1 Announce Type: new Abstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such",
-      "内容": "arXiv:2611.05450v1 Announce Type: new Abstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals. Such",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-11-05",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2611.05450",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "原标题": "【原生·研究】Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 85,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-11-06T11:35:44+08:00"
+      "选入时间": "2026-11-06T19:54:46+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-06T11:35:44+08:00",
+    "as_of": "2026-11-06T19:54:46+08:00",
     "candidate_count": 604,
-    "rejected_count": 399,
+    "rejected_count": 386,
     "rejected": [
       {
         "id": 979698609,
         "reason": "off_topic"
       },
       {
+        "id": 856640189,
+        "reason": "off_topic"
+      },
+      {
         "id": 84766256,
+        "reason": "off_topic"
+      },
+      {
+        "id": 7723606,
         "reason": "off_topic"
       },
       {
@@ -146,7 +154,27 @@
         "reason": "off_topic"
       },
       {
+        "id": 529644057,
+        "reason": "off_topic"
+      },
+      {
+        "id": 503373205,
+        "reason": "off_topic"
+      },
+      {
         "id": 4177502797,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4134295480,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3891375239,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3615759259,
         "reason": "off_topic"
       },
       {
@@ -155,6 +183,10 @@
       },
       {
         "id": 3360157952,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3320723011,
         "reason": "off_topic"
       },
       {
@@ -170,11 +202,31 @@
         "reason": "off_topic"
       },
       {
+        "id": 3045159740,
+        "reason": "off_topic"
+      },
+      {
         "id": 2726958117,
         "reason": "off_topic"
       },
       {
+        "id": 265351835,
+        "reason": "off_topic"
+      },
+      {
         "id": 2495167483,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2279728514,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2195794818,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2183494948,
         "reason": "off_topic"
       },
       {
@@ -190,7 +242,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 1569511042,
+        "reason": "off_topic"
+      },
+      {
         "id": 1543280327,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1258477245,
         "reason": "off_topic"
       },
       {
@@ -323,6 +383,10 @@
       },
       {
         "id": 1193075305,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1145510711,
         "reason": "off_topic"
       },
       {
@@ -1341,111 +1405,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 1658788118,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1486443546,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1470615345,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1455453987,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1415722854,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1408305755,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1333827617,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1287707094,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 1171724972,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1145019868,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 1101374177,
-        "reason": "off_topic"
-      },
-      {
-        "id": 806329373,
-        "reason": "off_topic"
-      },
-      {
-        "id": 786471009,
-        "reason": "off_topic"
-      },
-      {
-        "id": 75762447,
-        "reason": "off_topic"
-      },
-      {
-        "id": 701638938,
-        "reason": "off_topic"
-      },
-      {
-        "id": 667596933,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 658644214,
-        "reason": "off_topic"
-      },
-      {
-        "id": 563162167,
-        "reason": "off_topic"
-      },
-      {
-        "id": 545002601,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4177569129,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4176465808,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4045958248,
-        "reason": "off_topic"
-      },
-      {
-        "id": 40267882,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3911644064,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 3843465970,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
         "id": 3365665775,
         "reason": "score_below_50",
         "score": 33
@@ -1486,26 +1445,6 @@
         "score": 27
       },
       {
-        "id": 701364576,
-        "reason": "score_below_50",
-        "score": 31
-      },
-      {
-        "id": 1564862567,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 100408539,
-        "reason": "score_below_50",
-        "score": 31
-      },
-      {
-        "id": 3883054760,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
         "id": 3860960574,
         "reason": "score_below_50",
         "score": 38
@@ -1516,22 +1455,12 @@
         "score": 38
       },
       {
+        "id": 287161990,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 2173437529,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2973508647,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1817374351,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2746279972,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1541,7 +1470,22 @@
         "score": 38
       },
       {
+        "id": 1717288559,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 3014224009,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 3755463544,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1817374351,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1551,9 +1495,19 @@
         "score": 38
       },
       {
+        "id": 2643467692,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 3464503494,
         "reason": "score_below_50",
         "score": 34
+      },
+      {
+        "id": 2416061436,
+        "reason": "score_below_50",
+        "score": 39
       },
       {
         "id": 4168569517,
@@ -1566,32 +1520,37 @@
         "score": 38
       },
       {
+        "id": 1121926292,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 3126980078,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
         "id": 3688124435,
         "reason": "score_below_50",
         "score": 34
       },
       {
-        "id": 3746651334,
+        "id": 4046265084,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 703527244,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 4288095834,
+        "id": 607201625,
         "reason": "score_below_50",
         "score": 37
       },
       {
-        "id": 3824067445,
+        "id": 293693467,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 957299618,
+        "id": 181383057,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1601,32 +1560,12 @@
         "score": 28
       },
       {
-        "id": 4247608741,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 939265391,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 370258651,
-        "reason": "score_below_50",
-        "score": 26
-      },
-      {
         "id": 2470484058,
         "reason": "score_below_50",
         "score": 16
       },
       {
         "id": 4246817602,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1723,11 +1662,6 @@
         "score": 24
       },
       {
-        "id": 2271116506,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 2463373785,
         "reason": "score_below_50",
         "score": 20
@@ -1736,6 +1670,11 @@
         "id": 1269554736,
         "reason": "score_below_50",
         "score": 24
+      },
+      {
+        "id": 3987974192,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 3049165558,
