@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T07:44:36+08:00",
+  "generated": "2026-11-07T13:00:49+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 686853674,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-07T07:44:36+08:00"
+      "选入时间": "2026-11-07T13:00:49+08:00"
     },
     {
       "id": 772904950,
@@ -85,7 +85,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-07T07:44:36+08:00"
+      "选入时间": "2026-11-07T13:00:49+08:00"
     },
     {
       "id": 4085105440,
@@ -122,13 +122,13 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-07T07:44:36+08:00"
+      "选入时间": "2026-11-07T13:00:49+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-07T07:44:36+08:00",
+    "as_of": "2026-11-07T13:00:49+08:00",
     "candidate_count": 604,
-    "rejected_count": 385,
+    "rejected_count": 383,
     "rejected": [
       {
         "id": 904931283,
@@ -151,6 +151,14 @@
         "reason": "off_topic"
       },
       {
+        "id": 4174428703,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3814726559,
+        "reason": "off_topic"
+      },
+      {
         "id": 3768160023,
         "reason": "off_topic"
       },
@@ -167,6 +175,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 3123438512,
+        "reason": "off_topic"
+      },
+      {
         "id": 2911309771,
         "reason": "off_topic"
       },
@@ -175,7 +187,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 2873555586,
+        "reason": "off_topic"
+      },
+      {
         "id": 2646096441,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2026621375,
         "reason": "off_topic"
       },
       {
@@ -183,11 +203,27 @@
         "reason": "off_topic"
       },
       {
+        "id": 1664271760,
+        "reason": "off_topic"
+      },
+      {
         "id": 1609639984,
         "reason": "off_topic"
       },
       {
+        "id": 1592617718,
+        "reason": "off_topic"
+      },
+      {
         "id": 1410225053,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1401828338,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1276996550,
         "reason": "off_topic"
       },
       {
@@ -1393,55 +1429,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 601163444,
-        "reason": "off_topic"
-      },
-      {
-        "id": 540266851,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3994710831,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3700887088,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3618121476,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3431731812,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3365665775,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 1184735360,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 2490517180,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 1037702006,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
-        "id": 3998579806,
-        "reason": "score_below_50",
-        "score": 27
-      },
-      {
         "id": 3987558784,
         "reason": "score_below_50",
         "score": 38
@@ -1452,7 +1439,7 @@
         "score": 38
       },
       {
-        "id": 3512623744,
+        "id": 1116205495,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1467,6 +1454,11 @@
         "score": 38
       },
       {
+        "id": 2082007031,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 2488645258,
         "reason": "score_below_50",
         "score": 34
@@ -1477,7 +1469,22 @@
         "score": 43
       },
       {
-        "id": 1461921457,
+        "id": 1074887544,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 4192728731,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 3332460919,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
+        "id": 63895384,
         "reason": "score_below_50",
         "score": 34
       },
@@ -1497,12 +1504,12 @@
         "score": 34
       },
       {
-        "id": 2359631190,
+        "id": 1123226035,
         "reason": "score_below_50",
         "score": 34
       },
       {
-        "id": 1123226035,
+        "id": 2359631190,
         "reason": "score_below_50",
         "score": 34
       },
@@ -1512,32 +1519,7 @@
         "score": 34
       },
       {
-        "id": 1136295142,
-        "reason": "score_below_50",
-        "score": 39
-      },
-      {
-        "id": 2566216670,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 3310863660,
-        "reason": "score_below_50",
-        "score": 34
-      },
-      {
-        "id": 2687745671,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
         "id": 2875955587,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 4191910001,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1557,12 +1539,17 @@
         "score": 32
       },
       {
-        "id": 3860960574,
+        "id": 3270811109,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 3270811109,
+        "id": 3014224009,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2643467692,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1617,11 +1604,6 @@
       {
         "id": 53738811,
         "reason": "stale_section"
-      },
-      {
-        "id": 687103649,
-        "reason": "score_below_50",
-        "score": 26
       },
       {
         "id": 138308442,
@@ -1690,6 +1672,11 @@
       },
       {
         "id": 3242876717,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
+        "id": 3310072324,
         "reason": "score_below_50",
         "score": 24
       },
