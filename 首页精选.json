@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T09:11:05+08:00",
+  "generated": "2026-11-08T15:47:59+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 1149460034,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -32,7 +32,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "partial",
+      "栏目状态": "ok",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-08T09:11:05+08:00"
+      "选入时间": "2026-11-08T15:47:59+08:00"
     },
     {
       "id": 772904950,
@@ -85,48 +85,47 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-08T09:11:05+08:00"
+      "选入时间": "2026-11-08T15:47:59+08:00"
     },
     {
-      "id": 4085105440,
-      "标题": "【原生·开发者】衡量人工智能代理如何处理日常湿实验室科学",
-      "摘要": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab",
-      "内容": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-11-06",
-      "热度": 67,
-      "链接": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "OpenAI",
-        "AI Agent"
-      ],
-      "原标题": "【原生·开发者】Measuring how AI agents handle everyday wet-lab science",
-      "中文提炼": "",
+      "id": 3412663360,
+      "标题": "环保组织陷入AI两难：数据中心耗能激增，但AI让九个月的工作缩短至数小时",
+      "摘要": "随着人工智能数据中心的能源和水资源消耗持续增加，全球环保组织正面临一个矛盾：一方面担忧AI技术带来的环境负担，另一方面又越来越依赖AI保护野生动物...",
+      "内容": "随着人工智能数据中心的能源和水资源消耗持续增加，全球环保组织正面临一个矛盾：一方面担忧AI技术带来的环境负担，另一方面又越来越依赖AI保护野生动物...",
+      "来源": "新浪科技",
+      "分类": "行业动态",
+      "日期": "2026-11-08",
+      "热度": 50,
+      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-11-08/doc-inixzapa7385669.shtml",
+      "标签": [],
+      "图片": {
+        "u": "http://n.sinaimg.cn/finance/c30320b4/20210712/wx_poster_finance1.png",
+        "w": 100,
+        "h": 100,
+        "t": ""
+      },
       "候选栏目": "AI",
-      "编辑分": 74,
+      "编辑分": 76,
       "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 11,
-        "一手可追溯": 15,
+        "可信度": 17,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 10,
         "完整度": 10,
         "真实图片": 0,
-        "编辑价值": 5,
+        "编辑价值": 3,
         "扣分": 0
       },
-      "来源级别": "A",
+      "来源级别": "B",
       "扣分项": [],
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-08T09:11:05+08:00"
+      "选入时间": "2026-11-08T15:47:59+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-08T09:11:05+08:00",
+    "as_of": "2026-11-08T15:47:59+08:00",
     "candidate_count": 604,
     "rejected_count": 404,
     "rejected": [
@@ -143,6 +142,18 @@
         "reason": "off_topic"
       },
       {
+        "id": 473034659,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3862378616,
+        "reason": "off_topic"
+      },
+      {
+        "id": 385663397,
+        "reason": "off_topic"
+      },
+      {
         "id": 3694080672,
         "reason": "off_topic"
       },
@@ -151,11 +162,27 @@
         "reason": "off_topic"
       },
       {
+        "id": 3092631477,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2828216763,
+        "reason": "off_topic"
+      },
+      {
         "id": 2805192951,
         "reason": "off_topic"
       },
       {
+        "id": 2616189961,
+        "reason": "off_topic"
+      },
+      {
         "id": 2438015846,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2393850278,
         "reason": "off_topic"
       },
       {
@@ -164,6 +191,10 @@
       },
       {
         "id": 2230148361,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2145785361,
         "reason": "off_topic"
       },
       {
@@ -1420,116 +1451,104 @@
         "reason": "off_topic"
       },
       {
-        "id": 3049499253,
-        "reason": "off_topic"
-      },
-      {
-        "id": 289137110,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2818310734,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2760853098,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2728022419,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2395436691,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2325703574,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2311615353,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2342891420,
+        "id": 129640937,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3488472487,
+        "id": 3212130903,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 4072138524,
+        "id": 2841124069,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2091840042,
+        "id": 2962441003,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1542128292,
+        "id": 1668493910,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 4025637346,
+        "id": 20858301,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 2686408845,
+        "id": 3442180442,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3985634628,
+        "id": 1489563762,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 72130033,
+        "id": 2501340601,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 3795031550,
+        "id": 1589638123,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 743224035,
+        "id": 2836385795,
         "reason": "score_below_50",
-        "score": 33
+        "score": 43
       },
       {
-        "id": 2992912450,
+        "id": 3516944440,
         "reason": "score_below_50",
-        "score": 37
+        "score": 39
       },
       {
-        "id": 2108068277,
+        "id": 3541399907,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 24865642,
+        "id": 3835006340,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 1090855417,
+        "id": 2101050534,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
       },
       {
-        "id": 84170892,
+        "id": 1094441322,
         "reason": "score_below_50",
-        "score": 33
+        "score": 39
+      },
+      {
+        "id": 1948157941,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2958314381,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1441337473,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1188391735,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
         "id": 929682145,
@@ -1542,22 +1561,22 @@
         "score": 38
       },
       {
-        "id": 1751190088,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 186157890,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3231514786,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
         "id": 798421734,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2946507948,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3087685072,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2919887705,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1567,17 +1586,17 @@
         "score": 34
       },
       {
-        "id": 1011577689,
+        "id": 4000892826,
         "reason": "score_below_50",
         "score": 39
       },
       {
-        "id": 2210951496,
+        "id": 2919572535,
         "reason": "score_below_50",
-        "score": 32
+        "score": 34
       },
       {
-        "id": 3867225145,
+        "id": 2210951496,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1591,11 +1610,6 @@
         "reason": "sensational_title"
       },
       {
-        "id": 2357916073,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
         "id": 409096100,
         "reason": "score_below_50",
         "score": 37
@@ -1604,26 +1618,6 @@
         "id": 3115989573,
         "reason": "score_below_50",
         "score": 37
-      },
-      {
-        "id": 1441337473,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2311860070,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 3332460919,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 63895384,
-        "reason": "score_below_50",
-        "score": 28
       },
       {
         "id": 819410435,
@@ -1654,6 +1648,11 @@
         "id": 2175254021,
         "reason": "score_below_50",
         "score": 25
+      },
+      {
+        "id": 4265813590,
+        "reason": "score_below_50",
+        "score": 21
       },
       {
         "id": 4190298209,
@@ -1706,11 +1705,6 @@
       {
         "id": 53738811,
         "reason": "stale_section"
-      },
-      {
-        "id": 687103649,
-        "reason": "score_below_50",
-        "score": 26
       },
       {
         "id": 138308442,
@@ -1781,6 +1775,11 @@
         "id": 133200706,
         "reason": "score_below_50",
         "score": 20
+      },
+      {
+        "id": 3242876717,
+        "reason": "score_below_50",
+        "score": 24
       },
       {
         "id": 4138627420,
