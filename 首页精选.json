@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T03:24:07+08:00",
+  "generated": "2026-11-09T07:03:23+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 1149460034,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -32,7 +32,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 84,
       "评分分项": {
         "可信度": 25,
@@ -49,7 +49,38 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-09T03:24:07+08:00"
+      "选入时间": "2026-11-09T07:03:23+08:00"
+    },
+    {
+      "id": 832490021,
+      "标题": "11月9日周末要闻：鲁比奥称伊朗要求不可接受 美再袭伊格什姆岛 英伟达千万美元货物被盗",
+      "摘要": "市场 11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存 11月7日热门中概股多数上涨，台积电涨超6%，理想汽车涨超5% 大宗商品综述：油价走势震荡 铜价下跌...",
+      "内容": "市场 11月7日收盘：三大指数涨跌不一 芯片股反弹 AI监管担忧仍存 11月7日热门中概股多数上涨，台积电涨超6%，理想汽车涨超5% 大宗商品综述：油价走势震荡 铜价下跌...",
+      "来源": "新浪科技",
+      "分类": "行业动态",
+      "日期": "2026-11-09",
+      "热度": 57,
+      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-11-09/doc-iniyaqqn3523524.shtml",
+      "标签": [],
+      "图片": "https://n.sinaimg.cn/finance/transform/162/w550h412/20261109/2eeb-0d82c05f57ebecb1bc13afc6e02f59f2.png",
+      "候选栏目": "AI",
+      "编辑分": 76,
+      "评分分项": {
+        "可信度": 17,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 10,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 3,
+        "扣分": 0
+      },
+      "来源级别": "B",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-11-09T07:03:23+08:00"
     },
     {
       "id": 772904950,
@@ -85,56 +116,44 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-09T03:24:07+08:00"
-    },
-    {
-      "id": 821342787,
-      "标题": "【原生·研究】富兰克林邓普顿使用 OpenAI 支持投资研究",
-      "摘要": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment",
-      "内容": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-11-05",
-      "热度": 59,
-      "链接": "https://openai.com/index/franklin-templeton",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "OpenAI"
-      ],
-      "原标题": "【原生·研究】Franklin Templeton uses OpenAI to support investment research",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-11-09T03:24:07+08:00"
+      "选入时间": "2026-11-09T07:03:23+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-09T03:24:07+08:00",
+    "as_of": "2026-11-09T07:03:23+08:00",
     "candidate_count": 604,
     "rejected_count": 412,
     "rejected": [
+      {
+        "id": 902221553,
+        "reason": "off_topic"
+      },
       {
         "id": 611073302,
         "reason": "off_topic"
       },
       {
+        "id": 533555475,
+        "reason": "off_topic"
+      },
+      {
         "id": 416061296,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3664550575,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3269051954,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2623375897,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2340399349,
         "reason": "off_topic"
       },
       {
@@ -147,6 +166,10 @@
       },
       {
         "id": 1461740206,
+        "reason": "off_topic"
+      },
+      {
+        "id": 109278299,
         "reason": "off_topic"
       },
       {
@@ -1462,34 +1485,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 1180014677,
-        "reason": "sensational_title"
-      },
-      {
-        "id": 1095515319,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1073543735,
-        "reason": "off_topic"
-      },
-      {
-        "id": 968262168,
-        "reason": "off_topic"
-      },
-      {
-        "id": 956300999,
-        "reason": "off_topic"
-      },
-      {
-        "id": 949013083,
-        "reason": "off_topic"
-      },
-      {
-        "id": 827072263,
-        "reason": "off_topic"
-      },
-      {
         "id": 2397982953,
         "reason": "score_below_50",
         "score": 33
@@ -1570,7 +1565,17 @@
         "score": 33
       },
       {
+        "id": 1729099100,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 2948268820,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2801435319,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1580,12 +1585,32 @@
         "score": 38
       },
       {
+        "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 34
+      },
+      {
         "id": 1410162588,
         "reason": "score_below_50",
         "score": 37
       },
       {
-        "id": 211425283,
+        "id": 3349143110,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2391496564,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 1284567932,
+        "reason": "score_below_50",
+        "score": 33
+      },
+      {
+        "id": 2615895119,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1595,39 +1620,19 @@
         "score": 32
       },
       {
-        "id": 3349143110,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1284567932,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 2391496564,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 1948157941,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
         "id": 1891268445,
         "reason": "score_below_50",
         "score": 37
       },
       {
-        "id": 1131552950,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
         "id": 3443296153,
         "reason": "score_below_50",
         "score": 37
+      },
+      {
+        "id": 2731922546,
+        "reason": "score_below_50",
+        "score": 32
       },
       {
         "id": 798421734,
@@ -1638,16 +1643,6 @@
         "id": 1897528137,
         "reason": "score_below_50",
         "score": 32
-      },
-      {
-        "id": 3087685072,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2488645258,
-        "reason": "score_below_50",
-        "score": 28
       },
       {
         "id": 4000892826,
@@ -1802,6 +1797,11 @@
         "score": 24
       },
       {
+        "id": 3687896276,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
         "id": 2027906285,
         "reason": "score_below_50",
         "score": 24
@@ -1813,11 +1813,6 @@
       },
       {
         "id": 3242876717,
-        "reason": "score_below_50",
-        "score": 24
-      },
-      {
-        "id": 3310072324,
         "reason": "score_below_50",
         "score": 24
       },
