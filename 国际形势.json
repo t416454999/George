@@ -1,13 +1,121 @@
 {
-  "updated": "2026-11-09T19:02:22+08:00",
-  "as_of": "2026-11-09T19:02:22+08:00",
+  "updated": "2026-11-10T05:26:05+08:00",
+  "as_of": "2026-11-10T05:26:05+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "partial",
-  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=30)",
+  "status": "ok",
+  "message": "",
   "count": 40,
   "articles": [
+    {
+      "id": 1378250319,
+      "标题": "强厄尔尼诺或致全球经济损失11万亿美元",
+      "摘要": "国际农业发展基金与土耳其农业和林业部周一联合发布报告警告，强厄尔尼诺事件可能在未来五至六年内给全球经济造成高达11万亿美元的损失，并对粮食安全产生重大而持久的影响",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143165",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1378250319.webp",
+      "封面": "assets/media/un-1378250319.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/10-09-2026-Mozambique-WFP.jpg/image560x340cropped.jpg",
+      "导语": "国际农业发展基金与土耳其农业和林业部周一联合发布报告警告，强厄尔尼诺事件可能在未来五至六年内给全球经济造成高达11万亿美元的损失，并对粮食安全产生重大而持久的影响",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "国际农业发展基金与土耳其农业和林业部周一联合发布报告警告，强厄尔尼诺事件可能在未来五至六年内给全球经济造成高达11万亿美元的损失，并对粮食安全产生重大而持久的影响。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143165",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1451058248,
+      "标题": "贸发会议：贸易合作有助于增强气候行动和经济韧性",
+      "摘要": "联合国贸易和发展会议发布的《全球贸易动态》报告指出，随着气候变化带来的经济风险不断上升，贸易合作对于加快气候行动、促进气候技术获取以及增强经济韧性至关重要。报告强调，各国需要加强落实气候承诺，深化贸易合作，帮助发展中经济体参与气候相关价值链",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143164",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1451058248.webp",
+      "封面": "assets/media/un-1451058248.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/18-11-2021_Unsplash_martime-trade.jpg/image560x340cropped.jpg",
+      "导语": "联合国贸易和发展会议发布的《全球贸易动态》报告指出，随着气候变化带来的经济风险不断上升，贸易合作对于加快气候行动、促进气候技术获取以及增强经济韧性至关重要。报告强调，各国需要加强落实气候承诺，深化贸易合作，帮助发展中经济",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国贸易和发展会议发布的《全球贸易动态》报告指出，随着气候变化带来的经济风险不断上升，贸易合作对于加快气候行动、促进气候技术获取以及增强经济韧性至关重要。报告强调，各国需要加强落实气候承诺，深化贸易合作，帮助发展中经济体参与气候相关价值链。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143164",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3327360198,
+      "标题": "联合国：乌克兰平民伤亡持续增加 冬季人道主义风险加剧",
+      "摘要": "联合国两位高级官员周一在安理会通报乌克兰局势时表示，随着俄罗斯持续加大对乌克兰人口密集区、民用基础设施和能源设施的袭击，乌克兰平民伤亡不断增加，人道主义局势持续恶化。随着冬季临近，电力、供暖和供水中断将使更多平民面临危险。他们呼吁各方立即停止袭击，保护平民，并确保人道主义援助安全、畅通无阻地送达",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143163",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3327360198.webp",
+      "封面": "assets/media/un-3327360198.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/09-11-2026_UNP_Ukraine.jpg/image560x340cropped.jpg",
+      "导语": "联合国两位高级官员周一在安理会通报乌克兰局势时表示，随着俄罗斯持续加大对乌克兰人口密集区、民用基础设施和能源设施的袭击，乌克兰平民伤亡不断增加，人道主义局势持续恶化。随着冬季临近，电力、供暖和供水中断将使更多平民面临危险",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国两位高级官员周一在安理会通报乌克兰局势时表示，随着俄罗斯持续加大对乌克兰人口密集区、民用基础设施和能源设施的袭击，乌克兰平民伤亡不断增加，人道主义局势持续恶化。随着冬季临近，电力、供暖和供水中断将使更多平民面临危险。他们呼吁各方立即停止袭击，保护平民，并确保人道主义援助安全、畅通无阻地送达。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143163",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2936760062,
+      "标题": "2026年前9个月全球平均地表温度比工业化前水平高出约1.47摄氏度",
+      "摘要": "世界气象组织周一发布的《2026年气候状况最新通报》显示，全球气温异常偏高、冰川融化和海平面上升的长期趋势仍在持续。与此同时，一次极强的厄尔尼诺事件预计将进一步加剧高温和极端天气，其影响将持续至2027年。报告强调，这些变化正在对环境、经济和日常生活产生连锁影响",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143162",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2936760062.webp",
+      "封面": "assets/media/un-2936760062.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/06/04-11-2025-WMO-France.jpg/image560x340cropped.jpg",
+      "导语": "世界气象组织周一发布的《2026年气候状况最新通报》显示，全球气温异常偏高、冰川融化和海平面上升的长期趋势仍在持续。与此同时，一次极强的厄尔尼诺事件预计将进一步加剧高温和极端天气，其影响将持续至2027年。报告强调，这些",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "世界气象组织周一发布的《2026年气候状况最新通报》显示，全球气温异常偏高、冰川融化和海平面上升的长期趋势仍在持续。与此同时，一次极强的厄尔尼诺事件预计将进一步加剧高温和极端天气，其影响将持续至2027年。报告强调，这些变化正在对环境、经济和日常生活产生连锁影响。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143162",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2113698551,
       "标题": "古特雷斯谴责波兰克拉科夫市发生的大规模枪击事件",
@@ -549,591 +657,483 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 3005188131,
-      "标题": "联合国维和事务负责人：“蓝盔”部队撤离黎巴嫩和西撒哈拉将导致“安全真空”",
-      "摘要": "联合国维和事务负责人周三警告称，“蓝盔”部队从黎巴嫩和西撒哈拉撤离可能导致危险的安全真空，而安理会对于是否应以其他力量取而代之、以及应以何种力量替代等问题仍存在分歧",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143134",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-3005188131.webp",
-      "封面": "assets/media/un-3005188131.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/01-10-2026-UNIFIL-Lebanon-01.jpg/image560x340cropped.jpg",
-      "导语": "联合国维和事务负责人周三警告称，“蓝盔”部队从黎巴嫩和西撒哈拉撤离可能导致危险的安全真空，而安理会对于是否应以其他力量取而代之、以及应以何种力量替代等问题仍存在分歧",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "联合国维和事务负责人周三警告称，“蓝盔”部队从黎巴嫩和西撒哈拉撤离可能导致危险的安全真空，而安理会对于是否应以其他力量取而代之、以及应以何种力量替代等问题仍存在分歧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143134",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 397006711,
-      "标题": "【专题报道 】驶向电气化未来：交通转型如何助力全球气候目标",
-      "摘要": "随着《联合国气候变化框架公约》第31次缔约方大会临近，全球电气化进程正成为国际气候治理的核心议题。本次大会主席国土耳其提出的“35 by 35”全球电气化倡议，旨在到2035年将电力在全球终端能源消费中的占比提升至35%，并得到了各国政府、企业和国际组织支持。《联合国新闻》记者张静近日走访了位于深圳的比亚迪公司总部，就交通电气化与该公司首席可持续发展专家潘亮进行了探讨",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143075",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-397006711.webp",
-      "封面": "assets/media/un-397006711.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/27-10-2026_BYD_1.jpg/image560x340cropped.jpg",
-      "导语": "随着《联合国气候变化框架公约》第31次缔约方大会临近，全球电气化进程正成为国际气候治理的核心议题。本次大会主席国土耳其提出的“35 by 35”全球电气化倡议，旨在到2035年将电力在全球终端能源消费中的占比提升至35%",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "随着《联合国气候变化框架公约》第31次缔约方大会临近，全球电气化进程正成为国际气候治理的核心议题。本次大会主席国土耳其提出的“35 by 35”全球电气化倡议，旨在到2035年将电力在全球终端能源消费中的占比提升至35%，并得到了各国政府、企业和国际组织支持。《联合国新闻》记者张静近日走访了位于深圳的比亚迪公司总部，就交通电气化与该公司首席可持续发展专家潘亮进行了探讨。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143075",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2562041972,
-      "标题": "COP31前瞻：今年联合国气候变化大会有哪些重要议题？",
-      "摘要": "如今，全球拥有比以往更多的技术和手段来应对气候变化，但仍有数百万人无法从中受益。随着清洁能源技术以前所未有的速度发展，各国在第31届联合国气候变化大会上面临的挑战，已不再只是寻找解决方案，而是如何让所有人都有能力负担这些方案的成本",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143132",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2562041972.webp",
-      "封面": "assets/media/un-2562041972.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/11/03-11-2026-UNICEF-Bangladesh-02.jpg/image560x340cropped.jpg",
-      "导语": "如今，全球拥有比以往更多的技术和手段来应对气候变化，但仍有数百万人无法从中受益。随着清洁能源技术以前所未有的速度发展，各国在第31届联合国气候变化大会上面临的挑战，已不再只是寻找解决方案，而是如何让所有人都有能力负担这些",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "如今，全球拥有比以往更多的技术和手段来应对气候变化，但仍有数百万人无法从中受益。随着清洁能源技术以前所未有的速度发展，各国在第31届联合国气候变化大会上面临的挑战，已不再只是寻找解决方案，而是如何让所有人都有能力负担这些方案的成本。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143132",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1558292843,
-      "标题": "全球四分之一青少年过去一周每天运动均不足一小时",
-      "摘要": "世界卫生组织周三发布的最新数据显示，全球约2.4亿的11至17岁青少年在过去一周，每天的中高强度身体活动均不足60分钟",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-11-04",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143131",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-1558292843.webp",
-      "封面": "assets/media/un-1558292843.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2019/05/13-05-2019-UNVMC-46359313204_0998a670c1_k.jpg/image560x340cropped.jpg",
-      "导语": "世界卫生组织周三发布的最新数据显示，全球约2.4亿的11至17岁青少年在过去一周，每天的中高强度身体活动均不足60分钟",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "世界卫生组织周三发布的最新数据显示，全球约2.4亿的11至17岁青少年在过去一周，每天的中高强度身体活动均不足60分钟。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143131",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1988103502,
+      "id": 2098532288,
       "标题": "外文资讯",
-      "原标题": "Iran FM Abbas Araghchi gives ultimatum to US on ending war : Our 2 - day proposal stands",
+      "原标题": "Mario Gas , actor y director , 79 años : La gente de nuestra edad tiene ideas y mucho que decir , pero desgraciadamente a menudo no hay nadie al otro lado del t",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文。",
-      "来源": "hindustantimes.com",
+      "摘要": "全球新闻索引收录的 lavanguardia.com 最新报道，点击阅读原文。",
+      "来源": "lavanguardia.com",
       "分类": "国际形势",
       "日期": "2026-11-09",
-      "链接": "https://www.hindustantimes.com/world-news/irans-fm-abbas-araghchi-gives-ultimatum-to-us-on-ending-war-our-2-day-proposal-stands-101794181550576.html",
+      "链接": "https://www.lavanguardia.com/vivo/longevity/20261109/11668188/mario-gas-actor-director-79-anos-gente-nuestra-edad-ideas-decir-desgraciadamente-menudo-hay-nadie-lado-telefono.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.lavanguardia.com/files/image_1920_1080/files/fp/uploads/2026/07/08/6a4ebb9f33c13.r_d.2587-1198-8700.jpeg",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 lavanguardia.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 lavanguardia.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.lavanguardia.com/vivo/longevity/20261109/11668188/mario-gas-actor-director-79-anos-gente-nuestra-edad-ideas-decir-desgraciadamente-menudo-hay-nadie-lado-telefono.html",
+      "出处说明": "根据lavanguardia.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2648391079,
+      "标题": "「 沉睡艺人 」 总能翻红 ， 拿 「 大芒果 」 是有方法论的吗 ？",
+      "原标题": "「 沉睡艺人 」 总能翻红 ， 拿 「 大芒果 」 是有方法论的吗 ？",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 news.pedaily.cn 最新报道，点击阅读原文。",
+      "来源": "news.pedaily.cn",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://news.pedaily.cn/202611/571513.shtml",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://pic2.pedaily.cn/26/202611/20261109@1186827.png",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 news.pedaily.cn 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 news.pedaily.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.pedaily.cn/202611/571513.shtml",
+      "出处说明": "根据news.pedaily.cn公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2418889740,
+      "标题": "欧盟在斯科普里和索非亚之间进行调解",
+      "原标题": "Европска Унија посредује између Скопља и Софије",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 politika.rs 最新报道，点击阅读原文。",
+      "来源": "politika.rs",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.politika.rs/scc/clanak/801073/evropska-unija-posreduje-izmedu-skoplja-i-sofije",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.politika.rs/thumbs/upload/Article/Image/2026_11/757z468_cb_Gordana-Siljanovska-Davkova-EPA.jpg-2.jpg",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 politika.rs 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 politika.rs 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.politika.rs/scc/clanak/801073/evropska-unija-posreduje-izmedu-skoplja-i-sofije",
+      "出处说明": "根据politika.rs公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1250706380,
+      "标题": "阿拉奇：现在轮到白宫做出选择了",
+      "原标题": "Arakçi : Seçim yapma sırası Beyaz Sarayda",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 dha.com.tr 最新报道，点击阅读原文。",
+      "来源": "dha.com.tr",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.dha.com.tr/dunya/arakci-secim-yapma-sirasi-beyaz-sarayda-2977696",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://image.dha.com.tr/i/dha/75/0x0/6af15dc23653c6b77ea41765.jpg",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 dha.com.tr 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 dha.com.tr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.dha.com.tr/dunya/arakci-secim-yapma-sirasi-beyaz-sarayda-2977696",
+      "出处说明": "根据dha.com.tr公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2075975872,
+      "标题": "COP31面临战争般的艰苦战斗，人工智能重塑气候议程",
+      "原标题": "COP31 faces uphill battle as war , AI reshape climate agenda",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 middle-east-online.com 最新报道，点击阅读原文。",
+      "来源": "middle-east-online.com",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.middle-east-online.com/en/cop31-faces-uphill-battle-war-ai-reshape-climate-agenda",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.middle-east-online.com/sites/default/files/styles/social_image/public/2026-11/UN-Climate-Change-Conference-COP31-Turkey.jpg?da015&itok=W3sIvF0D",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 middle-east-online.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 middle-east-online.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.middle-east-online.com/en/cop31-faces-uphill-battle-war-ai-reshape-climate-agenda",
+      "出处说明": "根据middle-east-online.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3936795907,
+      "标题": "特朗普：乌克兰将有“略有不同的形状",
+      "原标题": "Trump : Ukraine wird « etwas andere Form » haben",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 stimme.de 最新报道，点击阅读原文。",
+      "来源": "stimme.de",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.stimme.de/politik/welt/politik/ausland/trump-ukraine-wird-etwas-andere-form-haben-art-5232713",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.stimme.de/storage/image/4/3/6/8/4238634_us-praesident-trump_twitter-card_1GYkyl_5Ev0b4.jpg",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 stimme.de 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 stimme.de 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.stimme.de/politik/welt/politik/ausland/trump-ukraine-wird-etwas-andere-form-haben-art-5232713",
+      "出处说明": "根据stimme.de公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2307685806,
+      "标题": "世界上最有价值的公司的负责人与一名中国间谍欺骗了他的妻子",
+      "原标题": "Šef najvrjednije korporacije na svijetu prevario ženu s kineskom špijunkom",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。",
+      "来源": "index.hr",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.index.hr/vijesti/clanak/sef-najvrjednije-korporacije-na-svijetu-na-prevario-zenu-s-kineskom-spijunkom/2854708.aspx?index_ref=homepage_comment_box_d&commentId=12442862",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://ip.index.hr/remote/bucket.index.hr/b/index/b67a2b67-173d-4cc3-8c30-4371f6a08ff2.jpg?fb_wtrmrk=vijesti.jpg&mode=crop&format=png",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 index.hr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.index.hr/vijesti/clanak/sef-najvrjednije-korporacije-na-svijetu-na-prevario-zenu-s-kineskom-spijunkom/2854708.aspx?index_ref=homepage_comment_box_d&commentId=12442862",
+      "出处说明": "根据index.hr公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3242149685,
+      "标题": "美国成立新工作组防止武器和非法物品进入伊朗",
+      "原标题": "ইরানে অস্ত্র ও অবৈধ পণ্য প্রবেশ ঠেকাতে নতুন টাস্কফোর্স গঠন যুক্তরাষ্ট্রের",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 ntvbd.com 最新报道，点击阅读原文。",
+      "来源": "ntvbd.com",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.ntvbd.com/world/news-1833317",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://ncdn.ntvbd.com/sites/default/files/styles/social_gpi_ntv_24m/public/images/2026/11/09/yuktraassttr.jpg",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 ntvbd.com 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 ntvbd.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.ntvbd.com/world/news-1833317",
+      "出处说明": "根据ntvbd.com公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1598779593,
+      "标题": "普京如何通过冰淇淋外交赢得非洲领导人的青睐",
+      "原标题": "How Putin won Africa leader hearts with his ice cream diplomacy",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 standardmedia.co.ke 最新报道，点击阅读原文。",
+      "来源": "standardmedia.co.ke",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.standardmedia.co.ke/macharia-munene/article/2001561858/how-putin-won-africa-leaders-hearts-with-his-ice-cream-diplomacy",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://cdn.standardmedia.co.ke/images/articles/thumbnails/aXOfMZ26apeiByYC09hbUD6lF4TWMFsvW3JBniYr.jpg",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 standardmedia.co.ke 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 standardmedia.co.ke 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.standardmedia.co.ke/macharia-munene/article/2001561858/how-putin-won-africa-leaders-hearts-with-his-ice-cream-diplomacy",
+      "出处说明": "根据standardmedia.co.ke公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 260398008,
+      "标题": "外文资讯",
+      "原标题": "Preferințele electorale ale Sibiului : de la Gheorghe Funar , la Călin Georgescu | Anul în care aproape 80 de mii de sibieni au votat Vadim Tudor",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 tribuna.ro 最新报道，点击阅读原文。",
+      "来源": "tribuna.ro",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.tribuna.ro/preferintele-electorale-ale-sibiului-de-la-gheorghe-funar-la-calin-georgescu-anul-in-care-aproape-80-de-mii-de-sibieni-au-votat-vadim-tudor/",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://www.tribuna.ro/wp-content/uploads/2026/11/IMG_2609.jpeg",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 tribuna.ro 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 tribuna.ro 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.tribuna.ro/preferintele-electorale-ale-sibiului-de-la-gheorghe-funar-la-calin-georgescu-anul-in-care-aproape-80-de-mii-de-sibieni-au-votat-vadim-tudor/",
+      "出处说明": "根据tribuna.ro公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 894565555,
+      "标题": "IEA将在COP31上推进全球电气化和甲烷减排议程",
+      "原标题": "IEA to advance global electrification , methane reduction agenda at COP31",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 trend.az 最新报道，点击阅读原文。",
+      "来源": "trend.az",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.trend.az/world/4244587.html",
       "标签": [
         "国际",
         "全球媒体"
       ],
       "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
+      "数据截至": "2026-11-09T21:25:45+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 trend.az 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 trend.az 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://www.hindustantimes.com/world-news/irans-fm-abbas-araghchi-gives-ultimatum-to-us-on-ending-war-our-2-day-proposal-stands-101794181550576.html",
-      "出处说明": "根据hindustantimes.com公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://www.trend.az/world/4244587.html",
+      "出处说明": "根据trend.az公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
-      "id": 205602191,
-      "标题": "外文资讯",
-      "原标题": "Trump tells 60 Minutes how his net worth reportedly increased by $3 billion since he returned to office",
+      "id": 2810028425,
+      "标题": "竞争对手到合作伙伴？三星和现代为主要管理人员举办大型社交活动",
+      "原标题": "Rivals to partners ? Samsung and Hyundai hold major networking event for key managers",
       "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文。",
-      "来源": "hindustantimes.com",
+      "摘要": "全球新闻索引收录的 english.hani.co.kr 最新报道，点击阅读原文。",
+      "来源": "english.hani.co.kr",
       "分类": "国际形势",
       "日期": "2026-11-09",
-      "链接": "https://www.hindustantimes.com/world-news/us-news/trump-tells-60-minutes-how-his-net-worth-reportedly-increased-by-3-billion-since-he-returned-to-office-101794174671590.html",
+      "链接": "http://english.hani.co.kr/arti/english_edition/e_business/1286431.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://flexible.img.hani.co.kr/flexible/normal/1200/818/imgdb/original/2026/1109/9417942042329788.webp",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 english.hani.co.kr 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 english.hani.co.kr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "http://english.hani.co.kr/arti/english_edition/e_business/1286431.html",
+      "出处说明": "根据english.hani.co.kr公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 3711403100,
+      "标题": "特朗普、普京和习近平会晤：美国总统透露细节",
+      "原标题": "Встреча Трампа , Путина и Си : президент США раскрыл детали",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 unian.net 最新报道，点击阅读原文。",
+      "来源": "unian.net",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.unian.net/world/vstrecha-trampa-putina-i-si-prezident-ssha-raskryl-detali-13553838.html",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://images.unian.net/photos/2025_01/thumb_files/620_324_1738231899-8342.jpg?1",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 unian.net 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 unian.net 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.unian.net/world/vstrecha-trampa-putina-i-si-prezident-ssha-raskryl-detali-13553838.html",
+      "出处说明": "根据unian.net公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 698473497,
+      "标题": "内阁正在开会。将讨论退休人员福利份额监管和基金调查",
+      "原标题": "Kabine toplanıyor . Emekliye refah payı düzenlemesi ve fon soruşturması ele alınacak",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 ntv.com.tr 最新报道，点击阅读原文。",
+      "来源": "ntv.com.tr",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.ntv.com.tr/turkiye/kabine-toplaniyor-emekliye-refah-payi-duzenlemesi-ve-fon-sorusturmasi-ele-alinacak-1750042",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://images.ntv.com.tr/images/kabine-925856.jpg?format=webp",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 ntv.com.tr 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 ntv.com.tr 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://www.ntv.com.tr/turkiye/kabine-toplaniyor-emekliye-refah-payi-duzenlemesi-ve-fon-sorusturmasi-ele-alinacak-1750042",
+      "出处说明": "根据ntv.com.tr公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 568383823,
+      "标题": "11 月 9 日至 15 日商业明星：是时候让分析让位于行动了",
+      "原标题": "Звездите за бизнеса от 9 до 15 ноември : Време е анализът да отстъпи място на действията",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 manager.bg 最新报道，点击阅读原文。",
+      "来源": "manager.bg",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://manager.bg/%D1%85%D0%BE%D1%80%D0%BE%D1%81%D0%BA%D0%BE%D0%BF/zvezdite-za-biznesa-ot-9-do-15-noemvri-vreme-e-analizat-da-otstapi-masto-na-deistviata",
+      "标签": [
+        "国际",
+        "全球媒体"
+      ],
+      "原始图片": "https://manager.bg/media/300/shutterstock_2618359903.og.jpg",
+      "数据截至": "2026-11-09T21:25:45+00:00",
+      "图片": "assets/covers/international.svg",
+      "封面": "assets/covers/international.svg",
+      "导语": "全球新闻索引收录的 manager.bg 最新报道，点击阅读原文",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "全球新闻索引收录的 manager.bg 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://manager.bg/%D1%85%D0%BE%D1%80%D0%BE%D1%81%D0%BA%D0%BE%D0%BF/zvezdite-za-biznesa-ot-9-do-15-noemvri-vreme-e-analizat-da-otstapi-masto-na-deistviata",
+      "出处说明": "根据manager.bg公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2818814367,
+      "标题": "伊朗核谈判未能达成协议，但官员们仍抱有希望",
+      "原标题": "Iran Nuclear Talks End With No Deal , Though Officials Still Hopeful",
+      "标题翻译方式": "短译/历史复用",
+      "摘要": "全球新闻索引收录的 inquisitr.com 最新报道，点击阅读原文。",
+      "来源": "inquisitr.com",
+      "分类": "国际形势",
+      "日期": "2026-11-09",
+      "链接": "https://www.inquisitr.com/iran-nuclear-talks-end-with-no-deal-though-officials-still-hopeful/",
       "标签": [
         "国际",
         "全球媒体"
       ],
       "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
+      "数据截至": "2026-11-09T21:25:45+00:00",
       "图片": "assets/covers/international.svg",
       "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文",
+      "导语": "全球新闻索引收录的 inquisitr.com 最新报道，点击阅读原文",
       "要点": [
         "发生了什么",
         "涉及哪些主体",
         "后续值得关注什么"
       ],
-      "正文": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "正文": "全球新闻索引收录的 inquisitr.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
       "编辑方式": "规则整理",
-      "原文链接": "https://www.hindustantimes.com/world-news/us-news/trump-tells-60-minutes-how-his-net-worth-reportedly-increased-by-3-billion-since-he-returned-to-office-101794174671590.html",
-      "出处说明": "根据hindustantimes.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3853336109,
-      "标题": "在北京开的这个峰会 ， 很特别",
-      "原标题": "在北京开的这个峰会 ， 很特别",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 news.ifeng.com 最新报道，点击阅读原文。",
-      "来源": "news.ifeng.com",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://news.ifeng.com/c/8xu74Yn9VWI",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://x0.ifengimg.com/ucms/2026_46/28B59945844E2A580970D015ACC34C95B90488C3_size102_w753_h424.jpg",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 news.ifeng.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 news.ifeng.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.ifeng.com/c/8xu74Yn9VWI",
-      "出处说明": "根据news.ifeng.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3548094287,
-      "标题": "外文资讯",
-      "原标题": "The world largest telecoms firm is on trial and the outcome has global implications",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 wxxinews.org 最新报道，点击阅读原文。",
-      "来源": "wxxinews.org",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://www.wxxinews.org/npr-news/2026-11-08/the-worlds-largest-telecoms-firm-is-on-trial-and-the-outcome-has-global-implications",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 wxxinews.org 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 wxxinews.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.wxxinews.org/npr-news/2026-11-08/the-worlds-largest-telecoms-firm-is-on-trial-and-the-outcome-has-global-implications",
-      "出处说明": "根据wxxinews.org公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4079898880,
-      "标题": "外文资讯",
-      "原标题": "Санкции осложняют торги русским искусством на Западе , считает эксперт",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 ria.ru 最新报道，点击阅读原文。",
-      "来源": "ria.ru",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://ria.ru/20261109/auktsiony-2130195464.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://cdnn21.imgria.ru/images/sharing/article/2130195464.jpg",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 ria.ru 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 ria.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://ria.ru/20261109/auktsiony-2130195464.html",
-      "出处说明": "根据ria.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1289121660,
-      "标题": "外文资讯",
-      "原标题": "Gaza Three Years Later : Continuities and Discontinuities",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 countercurrents.org 最新报道，点击阅读原文。",
-      "来源": "countercurrents.org",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://countercurrents.org/2026/11/gaza-three-years-later-continuities-and-discontinuities/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://countercurrents.org/wp-content/uploads/2026/11/Gaza-Amputee-children.jpg",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 countercurrents.org 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 countercurrents.org 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://countercurrents.org/2026/11/gaza-three-years-later-continuities-and-discontinuities/",
-      "出处说明": "根据countercurrents.org公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 220096168,
-      "标题": "外文资讯",
-      "原标题": "France / Lebanon : Opening of war crimes investigation into deadly Israeli strike is a critical step towards justice , truth and reparation",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 amnesty.org.au 最新报道，点击阅读原文。",
-      "来源": "amnesty.org.au",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://www.amnesty.org.au/france-lebanon-opening-of-war-crimes-investigation-into-deadly-israeli-strike-is-a-critical-step-towards-justice-truth-and-reparation/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.amnesty.org.au/wp-content/uploads/2026/11/4bc5f0ca-7743-44e4-9085-fb202c1a8dd9-1468x710-1.jpg",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 amnesty.org.au 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 amnesty.org.au 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.amnesty.org.au/france-lebanon-opening-of-war-crimes-investigation-into-deadly-israeli-strike-is-a-critical-step-towards-justice-truth-and-reparation/",
-      "出处说明": "根据amnesty.org.au公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 225274562,
-      "标题": "11 / 9國際早報｜黃仁勳認了和中國間諜女主管有染 、 台灣人民共產黨主席涉拿中資選里長遭押 、 波蘭槍手血洗觀光廣場前先滅門 | 國際中心 | 新聞",
-      "原标题": "11 / 9國際早報｜黃仁勳認了和中國間諜女主管有染 、 台灣人民共產黨主席涉拿中資選里長遭押 、 波蘭槍手血洗觀光廣場前先滅門 | 國際中心 | 新聞",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 storm.mg 最新报道，点击阅读原文。",
-      "来源": "storm.mg",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://www.storm.mg/article/11179569",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://images.storm.mg/cloud/2de0ad8ad3d29f38746c882e5e35d24b6f4fa8ad.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2236081%2Fw6XiGuMsirwjMMuu9c0r7ex4GSKGbbki5ntDXS4I.jpeg&g=sm",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 storm.mg 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 storm.mg 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.storm.mg/article/11179569",
-      "出处说明": "根据storm.mg公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3057966659,
-      "标题": "外文资讯",
-      "原标题": "Trump says he thinks he will meet with Xi , Putin at APEC summit in China",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文。",
-      "来源": "hindustantimes.com",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://www.hindustantimes.com/world-news/trump-says-he-thinks-he-will-meet-with-xi-putin-at-apec-summit-in-china-101794185002081.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 hindustantimes.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.hindustantimes.com/world-news/trump-says-he-thinks-he-will-meet-with-xi-putin-at-apec-summit-in-china-101794185002081.html",
-      "出处说明": "根据hindustantimes.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 4143248613,
-      "标题": "外文资讯",
-      "原标题": "Cỗ máy công nghệ xanh Trung Quốc làm đảo lộn cuộc đua năng lượng toàn cầu",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 dantri.com.vn 最新报道，点击阅读原文。",
-      "来源": "dantri.com.vn",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://dantri.com.vn/kinh-doanh/co-may-cong-nghe-xanh-trung-quoc-lam-dao-lon-cuoc-dua-nang-luong-toan-cau-20261108080306964.htm",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://cdnphoto.dantri.com.vn/eTHko7MJHwf2vnnwvNdoCAk5rKA=/zoom/1200_630/2026/11/08/china-ev-cropped-1794099520038.jpg",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 dantri.com.vn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 dantri.com.vn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://dantri.com.vn/kinh-doanh/co-may-cong-nghe-xanh-trung-quoc-lam-dao-lon-cuoc-dua-nang-luong-toan-cau-20261108080306964.htm",
-      "出处说明": "根据dantri.com.vn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3318569912,
-      "标题": "外文资讯",
-      "原标题": "Targeted News Service",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 targetednews.com 最新报道，点击阅读原文。",
-      "来源": "targetednews.com",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://targetednews.com/pr_disp.php?pr_id=9820314",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 targetednews.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 targetednews.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://targetednews.com/pr_disp.php?pr_id=9820314",
-      "出处说明": "根据targetednews.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3499026357,
-      "标题": "专访丨人工智能改变新闻生产方式 ， 记者的专业能力同样不可或缺 访印度教徒报集团总裁拉姆",
-      "原标题": "专访丨人工智能改变新闻生产方式 ， 记者的专业能力同样不可或缺 访印度教徒报集团总裁拉姆",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文。",
-      "来源": "finance.sina.com.cn",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniyazcy6363127.shtml",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniyazcy6363127.shtml",
-      "出处说明": "根据finance.sina.com.cn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3612841339,
-      "标题": "11月9日投资日历|中国10月CPI 、 PPI等数据今日披露 _ 东方财富网",
-      "原标题": "11月9日投资日历|中国10月CPI 、 PPI等数据今日披露 _ 东方财富网",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 finance.eastmoney.com 最新报道，点击阅读原文。",
-      "来源": "finance.eastmoney.com",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://finance.eastmoney.com/a/202611093925774790.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 finance.eastmoney.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 finance.eastmoney.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://finance.eastmoney.com/a/202611093925774790.html",
-      "出处说明": "根据finance.eastmoney.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 345288533,
-      "标题": "外文资讯",
-      "原标题": "Трамп выбрал тему для обсуждений с Путиным",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 lenta.ru 最新报道，点击阅读原文。",
-      "来源": "lenta.ru",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://lenta.ru/news/2026/11/09/tramp-vybral-temu-dlya-obsuzhdeniy-s-putinym/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 lenta.ru 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 lenta.ru 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://lenta.ru/news/2026/11/09/tramp-vybral-temu-dlya-obsuzhdeniy-s-putinym/",
-      "出处说明": "根据lenta.ru公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2978909224,
-      "标题": "新华社蓝皮书详解智能传播生态下媒体共治之策",
-      "原标题": "新华社蓝皮书详解智能传播生态下媒体共治之策",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文。",
-      "来源": "finance.sina.com.cn",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniyazcy6363161.shtml",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 finance.sina.com.cn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniyazcy6363161.shtml",
-      "出处说明": "根据finance.sina.com.cn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3860821974,
-      "标题": "新华社蓝皮书详解智能传播生态下媒体共治之策 - 新华网",
-      "原标题": "新华社蓝皮书详解智能传播生态下媒体共治之策 - 新华网",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 bj.xinhuanet.com 最新报道，点击阅读原文。",
-      "来源": "bj.xinhuanet.com",
-      "分类": "国际形势",
-      "日期": "2026-11-09",
-      "链接": "http://www.bj.xinhuanet.com/20261109/ca47641e41f64f94909c52c13351aac9/c.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-09T02:55:37+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 bj.xinhuanet.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 bj.xinhuanet.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "http://www.bj.xinhuanet.com/20261109/ca47641e41f64f94909c52c13351aac9/c.html",
-      "出处说明": "根据bj.xinhuanet.com公开元数据/摘要整理，非原文转载。",
+      "原文链接": "https://www.inquisitr.com/iran-nuclear-talks-end-with-no-deal-though-officials-still-hopeful/",
+      "出处说明": "根据inquisitr.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
