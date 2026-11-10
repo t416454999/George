@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T05:26:20+08:00",
+  "generated": "2026-11-10T11:45:39+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3327360198,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -32,7 +32,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 90,
       "评分分项": {
         "可信度": 25,
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-10T05:26:20+08:00"
+      "选入时间": "2026-11-10T11:45:39+08:00"
     },
     {
       "id": 1594679684,
@@ -85,52 +85,60 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-10T05:26:20+08:00"
+      "选入时间": "2026-11-10T11:45:39+08:00"
     },
     {
-      "id": 772904950,
-      "标题": "【原生·安全】具有策略行为和参数敏感性经验特征的代理 AI 的信任响应式运行时授权",
-      "摘要": "arXiv:2611.06996v1 Announce Type: new Abstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or",
-      "内容": "arXiv:2611.06996v1 Announce Type: new Abstract: The policy that converts runtime estimates of an autonomous agent's condition into operational authority is rarely specified or",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-11-06",
+      "id": 597603085,
+      "标题": "香港金融科技周|穆迪评级数字经济全球主管Fabian Astic：警惕AI时代网络安全风险 稳定币信用风险需综合评估",
+      "摘要": "文/新浪财经香港站 赵岚 频/新浪财经香港站 王柳潞 赵岚 “香港金融科技周 × StartmeupHK 2026”于11月2日至6日在香港会展中心举行。",
+      "内容": "文/新浪财经香港站 赵岚 频/新浪财经香港站 王柳潞 赵岚 “香港金融科技周 × StartmeupHK 2026”于11月2日至6日在香港会展中心举行。",
+      "来源": "新浪科技",
+      "分类": "行业动态",
+      "日期": "2026-11-10",
       "热度": 50,
-      "链接": "https://arxiv.org/abs/2611.06996",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "原标题": "【原生·安全】Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
-      "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "链接": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-11-10/doc-iniyfkme2779980.shtml",
+      "标签": [],
+      "图片": {
+        "u": "http://n.sinaimg.cn/finance/c30320b4/20210712/wx_poster_finance1.png",
+        "w": 100,
+        "h": 100,
+        "t": ""
+      },
       "候选栏目": "AI",
-      "编辑分": 73,
+      "编辑分": 76,
       "评分分项": {
-        "可信度": 25,
-        "时效": 2,
+        "可信度": 17,
+        "时效": 20,
         "公共价值": 16,
-        "一手可追溯": 15,
+        "一手可追溯": 10,
         "完整度": 10,
         "真实图片": 0,
-        "编辑价值": 5,
+        "编辑价值": 3,
         "扣分": 0
       },
-      "来源级别": "A",
+      "来源级别": "B",
       "扣分项": [],
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-10T05:26:20+08:00"
+      "选入时间": "2026-11-10T11:45:39+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-10T05:26:20+08:00",
+    "as_of": "2026-11-10T11:45:39+08:00",
     "candidate_count": 604,
-    "rejected_count": 400,
+    "rejected_count": 399,
     "rejected": [
       {
         "id": 994507848,
+        "reason": "off_topic"
+      },
+      {
+        "id": 91350456,
+        "reason": "off_topic"
+      },
+      {
+        "id": 477662175,
         "reason": "off_topic"
       },
       {
@@ -138,7 +146,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 3865273028,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3822064233,
+        "reason": "off_topic"
+      },
+      {
         "id": 3315274813,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3066562866,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2850176606,
         "reason": "off_topic"
       },
       {
@@ -150,11 +174,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 1790507836,
+        "reason": "off_topic"
+      },
+      {
         "id": 1748514951,
         "reason": "off_topic"
       },
       {
         "id": 1558345491,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1405688438,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1307540284,
         "reason": "off_topic"
       },
       {
@@ -1399,48 +1435,6 @@
         "score": 49
       },
       {
-        "id": 2553808459,
-        "reason": "off_topic"
-      },
-      {
-        "id": 252828158,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 2280627047,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2262118946,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2156257245,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2108633253,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2008255254,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1999644974,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1990263607,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 1912462716,
-        "reason": "off_topic"
-      },
-      {
         "id": 2098532288,
         "reason": "score_below_50",
         "score": 33
@@ -1526,7 +1520,7 @@
         "score": 38
       },
       {
-        "id": 2036870429,
+        "id": 2368660371,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1536,7 +1530,32 @@
         "score": 38
       },
       {
+        "id": 2807858543,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3101545154,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 4168117740,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2998835322,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2036870429,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2633255956,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1546,14 +1565,19 @@
         "score": 38
       },
       {
-        "id": 3685662746,
+        "id": 2488645258,
         "reason": "score_below_50",
-        "score": 38
+        "score": 34
       },
       {
-        "id": 2986809750,
+        "id": 1178532581,
         "reason": "score_below_50",
-        "score": 43
+        "score": 34
+      },
+      {
+        "id": 3817908938,
+        "reason": "score_below_50",
+        "score": 39
       },
       {
         "id": 3585168167,
@@ -1571,9 +1595,9 @@
         "score": 32
       },
       {
-        "id": 2991707797,
+        "id": 1463852636,
         "reason": "score_below_50",
-        "score": 37
+        "score": 32
       },
       {
         "id": 1676909235,
@@ -1581,42 +1605,12 @@
         "score": 37
       },
       {
-        "id": 1463852636,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2801435319,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 591809483,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2488645258,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
         "id": 2465196395,
         "reason": "score_below_50",
         "score": 37
       },
       {
-        "id": 819410435,
-        "reason": "score_below_50",
-        "score": 25
-      },
-      {
-        "id": 2359631190,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
-        "id": 25157004,
+        "id": 4246817602,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1626,22 +1620,22 @@
         "score": 16
       },
       {
-        "id": 4246817602,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
         "id": 444437417,
         "reason": "score_below_50",
         "score": 20
       },
       {
-        "id": 2175254021,
+        "id": 1930382564,
         "reason": "score_below_50",
-        "score": 25
+        "score": 16
       },
       {
-        "id": 1930382564,
+        "id": 2946713387,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 417768737,
         "reason": "score_below_50",
         "score": 16
       },
