@@ -1,10 +1,46 @@
 {
-  "generated": "2026-11-11T15:01:15+08:00",
+  "generated": "2026-11-11T23:05:01+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 3148014498,
+  "headline_id": 652886934,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
+    {
+      "id": 652886934,
+      "标题": "【原生·模型】SetPrint：通过响应变化的 Setwise 对应关系进行黑盒 LLM 指纹识别",
+      "摘要": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output",
+      "内容": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output",
+      "来源": "arXiv AI",
+      "分类": "原生资讯",
+      "日期": "2026-11-11",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2611.12950",
+      "标签": [
+        "原生资讯",
+        "arXiv AI"
+      ],
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "原标题": "【原生·模型】SetPrint: Black-Box LLM Fingerprinting via Setwise Correspondence of Response Changes",
+      "中文提炼": "",
+      "候选栏目": "AI",
+      "编辑分": 91,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-11-11T23:05:01+08:00"
+    },
     {
       "id": 3148014498,
       "标题": "全球15亿妇女和女童生活在气候高风险地区",
@@ -49,45 +85,11 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-11T15:01:15+08:00"
-    },
-    {
-      "id": 652886934,
-      "标题": "【原生·模型】SetPrint: Black-Box LLM Fingerprinting via Setwise Correspondence of Response Changes",
-      "摘要": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output",
-      "内容": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-11-11",
-      "热度": 50,
-      "链接": "https://arxiv.org/abs/2611.12950",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "候选栏目": "AI",
-      "编辑分": 86,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 20,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-11-11T15:01:15+08:00"
+      "选入时间": "2026-11-11T23:05:01+08:00"
     },
     {
       "id": 2167183173,
-      "标题": "【原生·模型】ChatGPT Plus for veterans and servicemembers",
+      "标题": "【原生·模型】面向退伍军人和现役军人的 ChatGPT Plus",
       "摘要": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian",
       "内容": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian",
       "来源": "OpenAI 官方",
@@ -100,6 +102,8 @@
         "OpenAI 官方",
         "ChatGPT"
       ],
+      "原标题": "【原生·模型】ChatGPT Plus for veterans and servicemembers",
+      "中文提炼": "",
       "候选栏目": "AI",
       "编辑分": 86,
       "评分分项": {
@@ -117,17 +121,37 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-11T15:01:15+08:00"
+      "选入时间": "2026-11-11T23:05:01+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-11T15:01:15+08:00",
+    "as_of": "2026-11-11T23:05:01+08:00",
     "candidate_count": 604,
-    "rejected_count": 389,
+    "rejected_count": 391,
     "rejected": [
       {
         "id": 3999884410,
         "reason": "invalid_or_future_date"
+      },
+      {
+        "id": 978948270,
+        "reason": "off_topic"
+      },
+      {
+        "id": 90206989,
+        "reason": "off_topic"
+      },
+      {
+        "id": 857626683,
+        "reason": "off_topic"
+      },
+      {
+        "id": 663682363,
+        "reason": "off_topic"
+      },
+      {
+        "id": 647647546,
+        "reason": "off_topic"
       },
       {
         "id": 449066725,
@@ -154,11 +178,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 3876503084,
+        "reason": "off_topic"
+      },
+      {
         "id": 3649686381,
         "reason": "off_topic"
       },
       {
         "id": 3594765363,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3551121032,
         "reason": "off_topic"
       },
       {
@@ -178,11 +210,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 3355589519,
+        "reason": "off_topic"
+      },
+      {
         "id": 330986713,
         "reason": "off_topic"
       },
       {
         "id": 3250578041,
+        "reason": "off_topic"
+      },
+      {
+        "id": 320884790,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3136004300,
         "reason": "off_topic"
       },
       {
@@ -210,6 +254,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 2679812788,
+        "reason": "off_topic"
+      },
+      {
         "id": 2439574333,
         "reason": "off_topic"
       },
@@ -234,7 +282,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 1923680766,
+        "reason": "off_topic"
+      },
+      {
         "id": 1795435503,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1741356475,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1572923947,
         "reason": "off_topic"
       },
       {
@@ -1379,54 +1439,6 @@
         "score": 49
       },
       {
-        "id": 473784574,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4240620377,
-        "reason": "off_topic"
-      },
-      {
-        "id": 407985854,
-        "reason": "off_topic"
-      },
-      {
-        "id": 398953604,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3938815895,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3911084465,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3876314014,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3811221720,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3483404215,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3341533688,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3336763721,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3188696002,
-        "reason": "off_topic"
-      },
-      {
         "id": 2098532288,
         "reason": "score_below_50",
         "score": 27
@@ -1472,17 +1484,12 @@
         "score": 38
       },
       {
-        "id": 3574292228,
+        "id": 2658125160,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 1394428684,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2704610560,
+        "id": 4227539288,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1492,22 +1499,22 @@
         "score": 38
       },
       {
-        "id": 1332034689,
+        "id": 2962779311,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 558662432,
+        "id": 2704610560,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 3016239211,
+        "id": 1865544615,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 664108683,
+        "id": 976784178,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1517,7 +1524,7 @@
         "score": 38
       },
       {
-        "id": 2991065328,
+        "id": 2693608954,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1527,17 +1534,22 @@
         "score": 34
       },
       {
-        "id": 2206195256,
+        "id": 2991065328,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 4168117740,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 1073441423,
         "reason": "score_below_50",
         "score": 32
       },
       {
         "id": 2887019812,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 4168117740,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1552,14 +1564,14 @@
         "score": 28
       },
       {
-        "id": 1575954515,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
         "id": 1409850605,
         "reason": "score_below_50",
         "score": 28
+      },
+      {
+        "id": 1575954515,
+        "reason": "score_below_50",
+        "score": 33
       },
       {
         "id": 2470484058,
@@ -1669,11 +1681,6 @@
         "score": 24
       },
       {
-        "id": 974282593,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 2463373785,
         "reason": "score_below_50",
         "score": 20
@@ -1707,6 +1714,11 @@
         "id": 3310072324,
         "reason": "score_below_50",
         "score": 24
+      },
+      {
+        "id": 1112850111,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 4138627420,
