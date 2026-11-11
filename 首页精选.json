@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T08:29:01+08:00",
+  "generated": "2026-11-11T15:01:15+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3148014498,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,31 +49,29 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-11T08:29:01+08:00"
+      "选入时间": "2026-11-11T15:01:15+08:00"
     },
     {
-      "id": 4113801020,
-      "标题": "【原生·发布】AlphaProof Code 简介：深度验证复杂软件的突破",
-      "摘要": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "内容": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "来源": "Google DeepMind 官方",
+      "id": 652886934,
+      "标题": "【原生·模型】SetPrint: Black-Box LLM Fingerprinting via Setwise Correspondence of Response Changes",
+      "摘要": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output",
+      "内容": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output",
+      "来源": "arXiv AI",
       "分类": "原生资讯",
-      "日期": "2026-11-10",
-      "热度": 56,
-      "链接": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "日期": "2026-11-11",
+      "热度": 50,
+      "链接": "https://arxiv.org/abs/2611.12950",
       "标签": [
         "原生资讯",
-        "Google DeepMind 官方"
+        "arXiv AI"
       ],
-      "图片": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
-      "原标题": "【原生·发布】Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "中文提炼": "",
+      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 85,
+      "编辑分": 86,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
-        "公共价值": 16,
+        "时效": 20,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -85,31 +83,29 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-11T08:29:01+08:00"
+      "选入时间": "2026-11-11T15:01:15+08:00"
     },
     {
-      "id": 3551576878,
-      "标题": "【原生·发布】ChatGPT 中介绍业务",
-      "摘要": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "内容": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "id": 2167183173,
+      "标题": "【原生·模型】ChatGPT Plus for veterans and servicemembers",
+      "摘要": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian",
+      "内容": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
-      "日期": "2026-11-10",
-      "热度": 64,
-      "链接": "https://openai.com/index/introducing-businesses-chatgpt",
+      "日期": "2026-11-11",
+      "热度": 58,
+      "链接": "https://openai.com/index/chatgpt-plus-for-veterans",
       "标签": [
         "原生资讯",
         "OpenAI 官方",
         "ChatGPT"
       ],
-      "原标题": "【原生·发布】Introducing Businesses in ChatGPT",
-      "中文提炼": "",
       "候选栏目": "AI",
-      "编辑分": 85,
+      "编辑分": 86,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
-        "公共价值": 16,
+        "时效": 20,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -121,16 +117,36 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-11T08:29:01+08:00"
+      "选入时间": "2026-11-11T15:01:15+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-11T08:29:01+08:00",
+    "as_of": "2026-11-11T15:01:15+08:00",
     "candidate_count": 604,
-    "rejected_count": 390,
+    "rejected_count": 389,
     "rejected": [
       {
+        "id": 3999884410,
+        "reason": "invalid_or_future_date"
+      },
+      {
+        "id": 449066725,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4206442850,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4201816253,
+        "reason": "off_topic"
+      },
+      {
         "id": 4159868902,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4086432232,
         "reason": "off_topic"
       },
       {
@@ -138,11 +154,31 @@
         "reason": "off_topic"
       },
       {
+        "id": 3649686381,
+        "reason": "off_topic"
+      },
+      {
         "id": 3594765363,
         "reason": "off_topic"
       },
       {
+        "id": 348535614,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3415228523,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3400025919,
+        "reason": "off_topic"
+      },
+      {
         "id": 3360666316,
+        "reason": "off_topic"
+      },
+      {
+        "id": 330986713,
         "reason": "off_topic"
       },
       {
@@ -151,6 +187,14 @@
       },
       {
         "id": 3110487160,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3110106580,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2862033346,
         "reason": "off_topic"
       },
       {
@@ -178,7 +222,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 2294678498,
+        "reason": "off_topic"
+      },
+      {
         "id": 196260527,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1930002024,
         "reason": "off_topic"
       },
       {
@@ -195,6 +247,14 @@
       },
       {
         "id": 1199105101,
+        "reason": "off_topic"
+      },
+      {
+        "id": 114819257,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1072440128,
         "reason": "off_topic"
       },
       {
@@ -1367,73 +1427,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 3056706488,
-        "reason": "off_topic"
-      },
-      {
-        "id": 297273268,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 2860662638,
-        "reason": "off_topic"
-      },
-      {
-        "id": 278970566,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 2703690395,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2667050585,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2549134596,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2388061685,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2242159876,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2220906815,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1943656551,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1809723883,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1677107734,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 1624860834,
-        "reason": "off_topic"
-      },
-      {
-        "id": 143941020,
-        "reason": "off_topic"
-      },
-      {
-        "id": 1438457023,
-        "reason": "off_topic"
-      },
-      {
         "id": 2098532288,
         "reason": "score_below_50",
         "score": 27
@@ -1464,32 +1457,12 @@
         "score": 27
       },
       {
-        "id": 2307685806,
+        "id": 635107784,
         "reason": "score_below_50",
-        "score": 27
+        "score": 38
       },
       {
         "id": 3692073262,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1280856005,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 2693608954,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 2704610560,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1869224,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1499,22 +1472,52 @@
         "score": 38
       },
       {
-        "id": 442000665,
+        "id": 3574292228,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2394699766,
+        "id": 1394428684,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2282616842,
+        "id": 2704610560,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 635107784,
+        "id": 2314717820,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1332034689,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 558662432,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3016239211,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 664108683,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3487353853,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2991065328,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1534,34 +1537,9 @@
         "score": 32
       },
       {
-        "id": 1073441423,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2042088837,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
         "id": 4168117740,
         "reason": "score_below_50",
         "score": 32
-      },
-      {
-        "id": 1178532581,
-        "reason": "score_below_50",
-        "score": 28
-      },
-      {
-        "id": 2239143738,
-        "reason": "score_below_50",
-        "score": 33
-      },
-      {
-        "id": 3084478054,
-        "reason": "score_below_50",
-        "score": 28
       },
       {
         "id": 366199280,
@@ -1569,14 +1547,24 @@
         "score": 28
       },
       {
-        "id": 2581815853,
+        "id": 3084478054,
         "reason": "score_below_50",
-        "score": 32
+        "score": 28
       },
       {
-        "id": 2465196395,
+        "id": 1575954515,
         "reason": "score_below_50",
-        "score": 31
+        "score": 33
+      },
+      {
+        "id": 1409850605,
+        "reason": "score_below_50",
+        "score": 28
+      },
+      {
+        "id": 2470484058,
+        "reason": "score_below_50",
+        "score": 16
       },
       {
         "id": 4246817602,
@@ -1701,9 +1689,9 @@
         "score": 24
       },
       {
-        "id": 3687896276,
+        "id": 1853407084,
         "reason": "score_below_50",
-        "score": 20
+        "score": 24
       },
       {
         "id": 2027906285,
