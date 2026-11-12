@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-11T15:56:42+08:00",
+  "updated": "2026-11-12T16:39:48+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "186.7k",
+      "星标": "186.8k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -60,84 +60,68 @@
   ],
   "trending": [
     {
-      "名称": "auto-ontology",
-      "repo": "NVIDIA/auto-ontology",
-      "说明": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "星标": 11731,
-      "本周新增": 9621,
-      "语言": "Python"
-    },
-    {
       "名称": "skills",
       "repo": "anthropics/skills",
       "说明": "Public repository for Agent Skills",
-      "星标": 192906,
-      "本周新增": 5014,
+      "星标": 193563,
+      "本周新增": 5738,
       "语言": "Python"
-    },
-    {
-      "名称": "agent-desktop",
-      "repo": "vercel-labs/agent-desktop",
-      "说明": "Computer use CLI for AI agents",
-      "星标": 21884,
-      "本周新增": 9502,
-      "语言": "Rust"
     },
     {
       "名称": "agent-browser",
       "repo": "vercel-labs/agent-browser",
       "说明": "Browser automation CLI for AI agents",
-      "星标": 49687,
-      "本周新增": 3606,
+      "星标": 50233,
+      "本周新增": 4183,
       "语言": "Rust"
+    },
+    {
+      "名称": "auto-ontology",
+      "repo": "NVIDIA/auto-ontology",
+      "说明": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "星标": 12154,
+      "本周新增": 7947,
+      "语言": "Python"
     },
     {
       "名称": "security-audit-skill",
       "repo": "cloudflare/security-audit-skill",
       "说明": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "星标": 70003,
-      "本周新增": 10967,
+      "星标": 70929,
+      "本周新增": 11507,
       "语言": "JavaScript"
+    },
+    {
+      "名称": "agent-desktop",
+      "repo": "vercel-labs/agent-desktop",
+      "说明": "Computer use CLI for AI agents",
+      "星标": 22586,
+      "本周新增": 7772,
+      "语言": "Rust"
     },
     {
       "名称": "skills",
       "repo": "mattpocock/skills",
       "说明": "Skills for Real Engineers. Straight from my .agents directory.",
-      "星标": 321671,
-      "本周新增": 9872,
-      "语言": "Shell"
-    },
-    {
-      "名称": "Scrapling",
-      "repo": "D4Vinci/Scrapling",
-      "说明": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here:https://discord.gg/EMgGbDceNQand follow here for daily tips and tricks:https://x.com/Scrapling_dev",
-      "星标": 101522,
-      "本周新增": 7291,
-      "语言": "Python"
-    },
-    {
-      "名称": "Claude-Code-Game-Studios",
-      "repo": "Donchitos/Claude-Code-Game-Studios",
-      "说明": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "星标": 38351,
-      "本周新增": 3730,
+      "星标": 322764,
+      "本周新增": 9575,
       "语言": "Shell"
     },
     {
       "名称": "skills",
       "repo": "google/skills",
       "说明": "Agent Skills for Google products and technologies",
-      "星标": 23887,
-      "本周新增": 2024,
+      "星标": 24029,
+      "本周新增": 2013,
       "语言": "Python"
     },
     {
-      "名称": "herdr",
-      "repo": "herdrdev/herdr",
-      "说明": "the runtime your coding agents live on",
-      "星标": 50209,
-      "本周新增": 2196,
-      "语言": "Rust"
+      "名称": "Scrapling",
+      "repo": "D4Vinci/Scrapling",
+      "说明": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here:https://discord.gg/EMgGbDceNQand follow here for daily tips and tricks:https://x.com/Scrapling_dev",
+      "星标": 102016,
+      "本周新增": 5814,
+      "语言": "Python"
     }
   ]
 }
