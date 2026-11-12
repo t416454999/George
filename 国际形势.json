@@ -1,13 +1,67 @@
 {
-  "updated": "2026-11-12T19:43:25+08:00",
-  "as_of": "2026-11-12T19:43:25+08:00",
+  "updated": "2026-11-13T03:40:08+08:00",
+  "as_of": "2026-11-13T03:40:08+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 1175908662,
+      "标题": "肯尼亚最后一名埃博拉患者出院，疫情结束进入倒计时",
+      "摘要": "肯尼亚周四开始为期42天的埃博拉疫情结束倒计时。此前一天，最后一名在院治疗的患者康复出院，最后11名隔离观察人员也已解除隔离",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-12",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143184",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1175908662.webp",
+      "封面": "assets/media/un-1175908662.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/06-10-2026-WHO-Kenya-Bundibugyo-02.jpg/image560x340cropped.jpg",
+      "导语": "肯尼亚周四开始为期42天的埃博拉疫情结束倒计时。此前一天，最后一名在院治疗的患者康复出院，最后11名隔离观察人员也已解除隔离",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "肯尼亚周四开始为期42天的埃博拉疫情结束倒计时。此前一天，最后一名在院治疗的患者康复出院，最后11名隔离观察人员也已解除隔离。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143184",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 4156352805,
+      "标题": "孟加拉国和印度禁止使用剧毒农药百草枯 加强自杀预防和脑健康保护",
+      "摘要": "孟加拉国和印度于2026年9月宣布在全国范围内禁止使用剧毒农药百草枯。世界卫生组织称，这一监管措施预计将挽救成千上万人的生命，并保护脑健康",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-12",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143183",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4156352805.webp",
+      "封面": "assets/media/un-4156352805.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/21-10-2024_UNEP_pesticide.jpg/image560x340cropped.jpg",
+      "导语": "孟加拉国和印度于2026年9月宣布在全国范围内禁止使用剧毒农药百草枯。世界卫生组织称，这一监管措施预计将挽救成千上万人的生命，并保护脑健康",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "孟加拉国和印度于2026年9月宣布在全国范围内禁止使用剧毒农药百草枯。世界卫生组织称，这一监管措施预计将挽救成千上万人的生命，并保护脑健康。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143183",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 747500243,
       "标题": "【专题报道|前方视野】人类是否会失去对战争的有效控制——人工智能时代的安全隐忧",
@@ -1074,66 +1128,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.rte.ie/news/eu-presidency/2026/1112/1598891-epc-summit/",
       "出处说明": "根据rte.ie公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3268680339,
-      "标题": "特习普京峰会：全球紧张局势下中国会加入核谈判吗？",
-      "原标题": "Trump - Xi - Putin Summit : Will China Join Nuclear Talks Amid Global Tensions ?",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 openthemagazine.com 最新报道，点击阅读原文。",
-      "来源": "openthemagazine.com",
-      "分类": "国际形势",
-      "日期": "2026-11-12",
-      "链接": "https://openthemagazine.com/world/rubio-wang-call-puts-trump-xi-putin-summit-in-focus-will-china-agree-to-nuclear-talks",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://media.openthemagazine.com/openthemagazine/2026-11-12/if40zq87/ok.png?&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "数据截至": "2026-11-12T11:43:18+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 openthemagazine.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 openthemagazine.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://openthemagazine.com/world/rubio-wang-call-puts-trump-xi-putin-summit-in-focus-will-china-agree-to-nuclear-talks",
-      "出处说明": "根据openthemagazine.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 3662689016,
-      "标题": "五十位国家元首齐聚都柏林参加重要欧洲峰会",
-      "原标题": "Fifty heads of state gather in Dublin for major European summit",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 ilfordrecorder.co.uk 最新报道，点击阅读原文。",
-      "来源": "ilfordrecorder.co.uk",
-      "分类": "国际形势",
-      "日期": "2026-11-12",
-      "链接": "https://www.ilfordrecorder.co.uk/news/national/26721808.fifty-heads-state-gather-dublin-major-european-summit/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://www.ilfordrecorder.co.uk/resources/images/21706278.jpg?type=og-image",
-      "数据截至": "2026-11-12T11:43:18+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 ilfordrecorder.co.uk 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 ilfordrecorder.co.uk 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.ilfordrecorder.co.uk/news/national/26721808.fifty-heads-state-gather-dublin-major-european-summit/",
-      "出处说明": "根据ilfordrecorder.co.uk公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
