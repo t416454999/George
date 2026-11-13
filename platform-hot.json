@@ -1,158 +1,1071 @@
 {
-  "updated": "2026-11-12T23:48:45+08:00",
+  "updated": "2026-11-13T03:40:00+08:00",
   "source": "极光引擎 · 平台热点聚合",
   "description": "各平台实时热点榜单聚合（仅公开标题+链接，不缓存全文）",
-  "count": 20,
+  "count": 150,
   "platforms": {
-    "微博热搜": [],
-    "知乎热榜": [],
+    "微博热搜": [
+      {
+        "rank": 1,
+        "title": "男子花四千多元做AI短剧火了",
+        "heat": "113.9万",
+        "raw_heat": 1139184,
+        "link": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E8%8A%B1%E5%9B%9B%E5%8D%83%E5%A4%9A%E5%85%83%E5%81%9AAI%E7%9F%AD%E5%89%A7%E7%81%AB%E4%BA%86"
+      },
+      {
+        "rank": 2,
+        "title": "上海00后女生靠AI卖穿戴甲月入10万",
+        "heat": "80.3万",
+        "raw_heat": 803346,
+        "link": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B700%E5%90%8E%E5%A5%B3%E7%94%9F%E9%9D%A0AI%E5%8D%96%E7%A9%BF%E6%88%B4%E7%94%B2%E6%9C%88%E5%85%A510%E4%B8%87"
+      },
+      {
+        "rank": 3,
+        "title": "多元供给赋能线上消费新活力",
+        "heat": "65.8万",
+        "raw_heat": 658173,
+        "link": "https://s.weibo.com/weibo?q=%E5%A4%9A%E5%85%83%E4%BE%9B%E7%BB%99%E8%B5%8B%E8%83%BD%E7%BA%BF%E4%B8%8A%E6%B6%88%E8%B4%B9%E6%96%B0%E6%B4%BB%E5%8A%9B"
+      },
+      {
+        "rank": 4,
+        "title": "张萌后悔叫马天宇上节目",
+        "heat": "60.6万",
+        "raw_heat": 606251,
+        "link": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%90%8C%E5%90%8E%E6%82%94%E5%8F%AB%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%B8%8A%E8%8A%82%E7%9B%AE"
+      },
+      {
+        "rank": 5,
+        "title": "微软Outlook服务宕机",
+        "heat": "45.3万",
+        "raw_heat": 453241,
+        "link": "https://s.weibo.com/weibo?q=%E5%BE%AE%E8%BD%AFOutlook%E6%9C%8D%E5%8A%A1%E5%AE%95%E6%9C%BA"
+      },
+      {
+        "rank": 6,
+        "title": "男子失业断供与银行协商还贷被拒",
+        "heat": "44.7万",
+        "raw_heat": 446887,
+        "link": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E5%A4%B1%E4%B8%9A%E6%96%AD%E4%BE%9B%E4%B8%8E%E9%93%B6%E8%A1%8C%E5%8D%8F%E5%95%86%E8%BF%98%E8%B4%B7%E8%A2%AB%E6%8B%92"
+      },
+      {
+        "rank": 7,
+        "title": "文吉儿后面几期要怎么办",
+        "heat": "43.9万",
+        "raw_heat": 438605,
+        "link": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E5%90%8E%E9%9D%A2%E5%87%A0%E6%9C%9F%E8%A6%81%E6%80%8E%E4%B9%88%E5%8A%9E"
+      },
+      {
+        "rank": 8,
+        "title": "7碗米饭摆拍到底骗了多少善意",
+        "heat": "42.6万",
+        "raw_heat": 425634,
+        "link": "https://s.weibo.com/weibo?q=7%E7%A2%97%E7%B1%B3%E9%A5%AD%E6%91%86%E6%8B%8D%E5%88%B0%E5%BA%95%E9%AA%97%E4%BA%86%E5%A4%9A%E5%B0%91%E5%96%84%E6%84%8F"
+      },
+      {
+        "rank": 9,
+        "title": "疑遭拘禁殴打死亡男子1米9才60斤",
+        "heat": "37.1万",
+        "raw_heat": 371233,
+        "link": "https://s.weibo.com/weibo?q=%E7%96%91%E9%81%AD%E6%8B%98%E7%A6%81%E6%AE%B4%E6%89%93%E6%AD%BB%E4%BA%A1%E7%94%B7%E5%AD%901%E7%B1%B39%E6%89%8D60%E6%96%A4"
+      },
+      {
+        "rank": 10,
+        "title": "后会友期接人vs花少接人",
+        "heat": "34.2万",
+        "raw_heat": 341934,
+        "link": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E6%8E%A5%E4%BA%BAvs%E8%8A%B1%E5%B0%91%E6%8E%A5%E4%BA%BA"
+      },
+      {
+        "rank": 11,
+        "title": "金晨发文秒删",
+        "heat": "34.0万",
+        "raw_heat": 339592,
+        "link": "https://s.weibo.com/weibo?q=%E9%87%91%E6%99%A8%E5%8F%91%E6%96%87%E7%A7%92%E5%88%A0"
+      },
+      {
+        "rank": 12,
+        "title": "黄仁勋辞职马斯克回应",
+        "heat": "33.6万",
+        "raw_heat": 336161,
+        "link": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C%E9%A9%AC%E6%96%AF%E5%85%8B%E5%9B%9E%E5%BA%94"
+      },
+      {
+        "rank": 13,
+        "title": "怀孕妻子发现丈夫的白月光",
+        "heat": "32.9万",
+        "raw_heat": 329029,
+        "link": "https://s.weibo.com/weibo?q=%E6%80%80%E5%AD%95%E5%A6%BB%E5%AD%90%E5%8F%91%E7%8E%B0%E4%B8%88%E5%A4%AB%E7%9A%84%E7%99%BD%E6%9C%88%E5%85%89"
+      },
+      {
+        "rank": 14,
+        "title": "向太说厉娜许飞不需要告密",
+        "heat": "32.5万",
+        "raw_heat": 325263,
+        "link": "https://s.weibo.com/weibo?q=%E5%90%91%E5%A4%AA%E8%AF%B4%E5%8E%89%E5%A8%9C%E8%AE%B8%E9%A3%9E%E4%B8%8D%E9%9C%80%E8%A6%81%E5%91%8A%E5%AF%86"
+      },
+      {
+        "rank": 15,
+        "title": "刘欢得知癌细胞疑似转移仍跨年献唱",
+        "heat": "32.0万",
+        "raw_heat": 319584,
+        "link": "https://s.weibo.com/weibo?q=%E5%88%98%E6%AC%A2%E5%BE%97%E7%9F%A5%E7%99%8C%E7%BB%86%E8%83%9E%E7%96%91%E4%BC%BC%E8%BD%AC%E7%A7%BB%E4%BB%8D%E8%B7%A8%E5%B9%B4%E7%8C%AE%E5%94%B1"
+      },
+      {
+        "rank": 16,
+        "title": "黄仁勋离职后硅谷会掀起抢人潮吗",
+        "heat": "31.4万",
+        "raw_heat": 313593,
+        "link": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A6%BB%E8%81%8C%E5%90%8E%E7%A1%85%E8%B0%B7%E4%BC%9A%E6%8E%80%E8%B5%B7%E6%8A%A2%E4%BA%BA%E6%BD%AE%E5%90%97"
+      },
+      {
+        "rank": 17,
+        "title": "曝汤臣二公子和90花隐婚",
+        "heat": "30.6万",
+        "raw_heat": 306155,
+        "link": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%B1%A4%E8%87%A3%E4%BA%8C%E5%85%AC%E5%AD%90%E5%92%8C90%E8%8A%B1%E9%9A%90%E5%A9%9A"
+      },
+      {
+        "rank": 18,
+        "title": "白小纯 王子璇",
+        "heat": "30.3万",
+        "raw_heat": 302833,
+        "link": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E7%8E%8B%E5%AD%90%E7%92%87"
+      },
+      {
+        "rank": 19,
+        "title": "特朗普说库克是接替黄仁勋唯一人选",
+        "heat": "29.6万",
+        "raw_heat": 296044,
+        "link": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E5%BA%93%E5%85%8B%E6%98%AF%E6%8E%A5%E6%9B%BF%E9%BB%84%E4%BB%81%E5%8B%8B%E5%94%AF%E4%B8%80%E4%BA%BA%E9%80%89"
+      },
+      {
+        "rank": 20,
+        "title": "刘欢癌症扩散后曾放手一搏试新药",
+        "heat": "29.2万",
+        "raw_heat": 291669,
+        "link": "https://s.weibo.com/weibo?q=%E5%88%98%E6%AC%A2%E7%99%8C%E7%97%87%E6%89%A9%E6%95%A3%E5%90%8E%E6%9B%BE%E6%94%BE%E6%89%8B%E4%B8%80%E6%90%8F%E8%AF%95%E6%96%B0%E8%8D%AF"
+      },
+      {
+        "rank": 21,
+        "title": "王子璇白小纯4公里开了三小时",
+        "heat": "28.9万",
+        "raw_heat": 288686,
+        "link": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%AD%90%E7%92%87%E7%99%BD%E5%B0%8F%E7%BA%AF4%E5%85%AC%E9%87%8C%E5%BC%80%E4%BA%86%E4%B8%89%E5%B0%8F%E6%97%B6"
+      },
+      {
+        "rank": 22,
+        "title": "黄仁勋将失去超1亿美元未归属股权奖励",
+        "heat": "28.4万",
+        "raw_heat": 284107,
+        "link": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E5%B0%86%E5%A4%B1%E5%8E%BB%E8%B6%851%E4%BA%BF%E7%BE%8E%E5%85%83%E6%9C%AA%E5%BD%92%E5%B1%9E%E8%82%A1%E6%9D%83%E5%A5%96%E5%8A%B1"
+      },
+      {
+        "rank": 23,
+        "title": "王子璇听到白小纯说去接文吉儿的表情",
+        "heat": "28.1万",
+        "raw_heat": 281304,
+        "link": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%AD%90%E7%92%87%E5%90%AC%E5%88%B0%E7%99%BD%E5%B0%8F%E7%BA%AF%E8%AF%B4%E5%8E%BB%E6%8E%A5%E6%96%87%E5%90%89%E5%84%BF%E7%9A%84%E8%A1%A8%E6%83%85"
+      },
+      {
+        "rank": 24,
+        "title": "接替黄仁勋的临时女CEO是谁",
+        "heat": "22.8万",
+        "raw_heat": 228336,
+        "link": "https://s.weibo.com/weibo?q=%E6%8E%A5%E6%9B%BF%E9%BB%84%E4%BB%81%E5%8B%8B%E7%9A%84%E4%B8%B4%E6%97%B6%E5%A5%B3CEO%E6%98%AF%E8%B0%81"
+      },
+      {
+        "rank": 25,
+        "title": "女子刮痧排淤堵脖上刮出3条大血印",
+        "heat": "21.4万",
+        "raw_heat": 214436,
+        "link": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%88%AE%E7%97%A7%E6%8E%92%E6%B7%A4%E5%A0%B5%E8%84%96%E4%B8%8A%E5%88%AE%E5%87%BA3%E6%9D%A1%E5%A4%A7%E8%A1%80%E5%8D%B0"
+      },
+      {
+        "rank": 26,
+        "title": "AMD",
+        "heat": "19.0万",
+        "raw_heat": 189752,
+        "link": "https://s.weibo.com/weibo?q=AMD"
+      },
+      {
+        "rank": 27,
+        "title": "高中生困电梯2小时被让等物业上班",
+        "heat": "18.2万",
+        "raw_heat": 182088,
+        "link": "https://s.weibo.com/weibo?q=%E9%AB%98%E4%B8%AD%E7%94%9F%E5%9B%B0%E7%94%B5%E6%A2%AF2%E5%B0%8F%E6%97%B6%E8%A2%AB%E8%AE%A9%E7%AD%89%E7%89%A9%E4%B8%9A%E4%B8%8A%E7%8F%AD"
+      },
+      {
+        "rank": 28,
+        "title": "金晨回应回归现在就出发4",
+        "heat": "17.6万",
+        "raw_heat": 175538,
+        "link": "https://s.weibo.com/weibo?q=%E9%87%91%E6%99%A8%E5%9B%9E%E5%BA%94%E5%9B%9E%E5%BD%92%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%914"
+      },
+      {
+        "rank": 29,
+        "title": "男子怀疑女儿是外星人",
+        "heat": "17.1万",
+        "raw_heat": 170689,
+        "link": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E6%80%80%E7%96%91%E5%A5%B3%E5%84%BF%E6%98%AF%E5%A4%96%E6%98%9F%E4%BA%BA"
+      },
+      {
+        "rank": 30,
+        "title": "青云稚上",
+        "heat": "16.5万",
+        "raw_heat": 165021,
+        "link": "https://s.weibo.com/weibo?q=%E9%9D%92%E4%BA%91%E7%A8%9A%E4%B8%8A"
+      },
+      {
+        "rank": 31,
+        "title": "有车企坚持把L3级架构作为标配",
+        "heat": "16.5万",
+        "raw_heat": 164965,
+        "link": "https://s.weibo.com/weibo?q=%E6%9C%89%E8%BD%A6%E4%BC%81%E5%9D%9A%E6%8C%81%E6%8A%8AL3%E7%BA%A7%E6%9E%B6%E6%9E%84%E4%BD%9C%E4%B8%BA%E6%A0%87%E9%85%8D"
+      },
+      {
+        "rank": 32,
+        "title": "医生说今年流感毒株不太一样",
+        "heat": "16.4万",
+        "raw_heat": 163534,
+        "link": "https://s.weibo.com/weibo?q=%E5%8C%BB%E7%94%9F%E8%AF%B4%E4%BB%8A%E5%B9%B4%E6%B5%81%E6%84%9F%E6%AF%92%E6%A0%AA%E4%B8%8D%E5%A4%AA%E4%B8%80%E6%A0%B7"
+      },
+      {
+        "rank": 33,
+        "title": "王楚然现发4贡献了好多名场面",
+        "heat": "15.8万",
+        "raw_heat": 157598,
+        "link": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A5%9A%E7%84%B6%E7%8E%B0%E5%8F%914%E8%B4%A1%E7%8C%AE%E4%BA%86%E5%A5%BD%E5%A4%9A%E5%90%8D%E5%9C%BA%E9%9D%A2"
+      },
+      {
+        "rank": 34,
+        "title": "女孩帮老人带路后脊背发凉",
+        "heat": "13.8万",
+        "raw_heat": 138195,
+        "link": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%A9%E5%B8%AE%E8%80%81%E4%BA%BA%E5%B8%A6%E8%B7%AF%E5%90%8E%E8%84%8A%E8%83%8C%E5%8F%91%E5%87%89"
+      },
+      {
+        "rank": 35,
+        "title": "成都蓉城丢冠球迷采访",
+        "heat": "11.7万",
+        "raw_heat": 117098,
+        "link": "https://s.weibo.com/weibo?q=%E6%88%90%E9%83%BD%E8%93%89%E5%9F%8E%E4%B8%A2%E5%86%A0%E7%90%83%E8%BF%B7%E9%87%87%E8%AE%BF"
+      },
+      {
+        "rank": 36,
+        "title": "曝许飞厉娜选秀时期只是同事",
+        "heat": "11.7万",
+        "raw_heat": 116890,
+        "link": "https://s.weibo.com/weibo?q=%E6%9B%9D%E8%AE%B8%E9%A3%9E%E5%8E%89%E5%A8%9C%E9%80%89%E7%A7%80%E6%97%B6%E6%9C%9F%E5%8F%AA%E6%98%AF%E5%90%8C%E4%BA%8B"
+      },
+      {
+        "rank": 37,
+        "title": "女子腿疼找中医扎针血直往外喷",
+        "heat": "11.6万",
+        "raw_heat": 116220,
+        "link": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%85%BF%E7%96%BC%E6%89%BE%E4%B8%AD%E5%8C%BB%E6%89%8E%E9%92%88%E8%A1%80%E7%9B%B4%E5%BE%80%E5%A4%96%E5%96%B7"
+      },
+      {
+        "rank": 38,
+        "title": "感觉杨超越不捂住董思成的嘴都要亲了",
+        "heat": "11.6万",
+        "raw_heat": 115839,
+        "link": "https://s.weibo.com/weibo?q=%E6%84%9F%E8%A7%89%E6%9D%A8%E8%B6%85%E8%B6%8A%E4%B8%8D%E6%8D%82%E4%BD%8F%E8%91%A3%E6%80%9D%E6%88%90%E7%9A%84%E5%98%B4%E9%83%BD%E8%A6%81%E4%BA%B2%E4%BA%86"
+      },
+      {
+        "rank": 39,
+        "title": "谷雨李小冉下线",
+        "heat": "11.5万",
+        "raw_heat": 115322,
+        "link": "https://s.weibo.com/weibo?q=%E8%B0%B7%E9%9B%A8%E6%9D%8E%E5%B0%8F%E5%86%89%E4%B8%8B%E7%BA%BF"
+      },
+      {
+        "rank": 40,
+        "title": "普通人用AI和会用AI的人",
+        "heat": "11.5万",
+        "raw_heat": 115076,
+        "link": "https://s.weibo.com/weibo?q=%E6%99%AE%E9%80%9A%E4%BA%BA%E7%94%A8AI%E5%92%8C%E4%BC%9A%E7%94%A8AI%E7%9A%84%E4%BA%BA"
+      },
+      {
+        "rank": 41,
+        "title": "女子打司美格鲁肽瘦20斤后视力模糊",
+        "heat": "11.4万",
+        "raw_heat": 114496,
+        "link": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E6%89%93%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%98%A620%E6%96%A4%E5%90%8E%E8%A7%86%E5%8A%9B%E6%A8%A1%E7%B3%8A"
+      },
+      {
+        "rank": 42,
+        "title": "镜头转到周洁琼时这张脸好权威",
+        "heat": "11.4万",
+        "raw_heat": 114286,
+        "link": "https://s.weibo.com/weibo?q=%E9%95%9C%E5%A4%B4%E8%BD%AC%E5%88%B0%E5%91%A8%E6%B4%81%E7%90%BC%E6%97%B6%E8%BF%99%E5%BC%A0%E8%84%B8%E5%A5%BD%E6%9D%83%E5%A8%81"
+      },
+      {
+        "rank": 43,
+        "title": "藏海传海外成绩太提气了",
+        "heat": "11.4万",
+        "raw_heat": 113917,
+        "link": "https://s.weibo.com/weibo?q=%E8%97%8F%E6%B5%B7%E4%BC%A0%E6%B5%B7%E5%A4%96%E6%88%90%E7%BB%A9%E5%A4%AA%E6%8F%90%E6%B0%94%E4%BA%86"
+      },
+      {
+        "rank": 44,
+        "title": "高中生困电梯保安被开除",
+        "heat": "10.7万",
+        "raw_heat": 106968,
+        "link": "https://s.weibo.com/weibo?q=%E9%AB%98%E4%B8%AD%E7%94%9F%E5%9B%B0%E7%94%B5%E6%A2%AF%E4%BF%9D%E5%AE%89%E8%A2%AB%E5%BC%80%E9%99%A4"
+      },
+      {
+        "rank": 45,
+        "title": "卡里克 曼联",
+        "heat": "10.4万",
+        "raw_heat": 104348,
+        "link": "https://s.weibo.com/weibo?q=%E5%8D%A1%E9%87%8C%E5%85%8B%20%E6%9B%BC%E8%81%94"
+      },
+      {
+        "rank": 46,
+        "title": "影视飓风Tim涨粉至25万",
+        "heat": "10.1万",
+        "raw_heat": 100984,
+        "link": "https://s.weibo.com/weibo?q=%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8ETim%E6%B6%A8%E7%B2%89%E8%87%B325%E4%B8%87"
+      },
+      {
+        "rank": 47,
+        "title": "张颂文无实物表演抽烟",
+        "heat": "10.0万",
+        "raw_heat": 100450,
+        "link": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%A2%82%E6%96%87%E6%97%A0%E5%AE%9E%E7%89%A9%E8%A1%A8%E6%BC%94%E6%8A%BD%E7%83%9F"
+      },
+      {
+        "rank": 48,
+        "title": "奚梦瑶出演盆栽新歌MV",
+        "heat": "9.7万",
+        "raw_heat": 96783,
+        "link": "https://s.weibo.com/weibo?q=%E5%A5%9A%E6%A2%A6%E7%91%B6%E5%87%BA%E6%BC%94%E7%9B%86%E6%A0%BD%E6%96%B0%E6%AD%8CMV"
+      },
+      {
+        "rank": 49,
+        "title": "3骑手回应摁倒猥亵女子的男子",
+        "heat": "9.6万",
+        "raw_heat": 95937,
+        "link": "https://s.weibo.com/weibo?q=3%E9%AA%91%E6%89%8B%E5%9B%9E%E5%BA%94%E6%91%81%E5%80%92%E7%8C%A5%E4%BA%B5%E5%A5%B3%E5%AD%90%E7%9A%84%E7%94%B7%E5%AD%90"
+      },
+      {
+        "rank": 50,
+        "title": "拜登说早知道患癌就不参选了",
+        "heat": "9.6万",
+        "raw_heat": 95504,
+        "link": "https://s.weibo.com/weibo?q=%E6%8B%9C%E7%99%BB%E8%AF%B4%E6%97%A9%E7%9F%A5%E9%81%93%E6%82%A3%E7%99%8C%E5%B0%B1%E4%B8%8D%E5%8F%82%E9%80%89%E4%BA%86"
+      }
+    ],
+    "知乎热榜": [
+      {
+        "rank": 1,
+        "title": "被曝大裁员的腾讯，是业务出了什么问题吗？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104225780083286957"
+      },
+      {
+        "rank": 2,
+        "title": "媒体曝张一鸣称字节不应依赖蒸馏，应长期自主研发，「追上第一梯队还需三四年」，目前差距和核心难点在哪？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104125774148146904"
+      },
+      {
+        "rank": 3,
+        "title": "如何看待28岁中国留学毕业生在墨尔本遇袭，两根手指被砍断，膝盖被砍伤，还遭朋友卷走5.4万澳元医药费？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103997936267019794"
+      },
+      {
+        "rank": 4,
+        "title": "成都成中国唯一入选美国《国家地理》全球最佳旅行地城市，凭什么吸引世界目光？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2101800244514121260"
+      },
+      {
+        "rank": 5,
+        "title": "刘欢死因首次曝光，系感染性休克，生前与膀胱癌斗争十几年，膀胱癌有多危险？该怎样预防？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104319975074656932"
+      },
+      {
+        "rank": 6,
+        "title": "张雪回应「读书无用论」，称这种定义很 low，自己几乎每天都学习，如何看待这一表态？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103876810748453802"
+      },
+      {
+        "rank": 7,
+        "title": "微软多项服务发生大规模故障，Outlook异常报告超13万起，问题可能出在哪？你现在还能正常登录吗？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104481527711143901"
+      },
+      {
+        "rank": 8,
+        "title": "乡干部捅伤村民潜逃 15 年，其间违规吃空饷 140 万元并升为正科，暴露出哪些问题？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2101649988895904476"
+      },
+      {
+        "rank": 9,
+        "title": "禅让制为何在尧舜禹之间传了三代就玩不下去了？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103759019978630326"
+      },
+      {
+        "rank": 10,
+        "title": "《福尔摩斯》原著里头的房东太太为什么会像个仆人一样伺候她的租客？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/266192012"
+      },
+      {
+        "rank": 11,
+        "title": "如何评价Google 11月13日发布的模型Gemini 4 Hydrogen？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104402653010834622"
+      },
+      {
+        "rank": 12,
+        "title": "如何看待2026年10月特斯拉国内销量暴跌？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103258099138172807"
+      },
+      {
+        "rank": 13,
+        "title": "高管私德问题能否成为罢免黄仁勋的理由？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104111620981106524"
+      },
+      {
+        "rank": 14,
+        "title": "《密档》口碑、票房均不如《给阿嬷的情书》《南京照相馆》，其导演却拿下最佳导演，金鸡奖的评审逻辑是什么？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103800406706841399"
+      },
+      {
+        "rank": 15,
+        "title": "大学保研中举报现象越来越频发，背后原因是什么？为了保研主动切断同学关系是否可取？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103788856000755554"
+      },
+      {
+        "rank": 16,
+        "title": "黄仁勋算是美国中期选举的牺牲品吗？为什么偏偏是他？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104350711869698691"
+      },
+      {
+        "rank": 17,
+        "title": "感觉影之刃里的各种字体都好帅啊，比如“决战、殒命”等，这是单独请人写的吗，还是说能靠AI跑一批出来？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2101991601568536184"
+      },
+      {
+        "rank": 18,
+        "title": "如何看待马化腾在腾讯 28 周年庆全员会上的讲话？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104232899662669796"
+      },
+      {
+        "rank": 19,
+        "title": "房子已经过剩，为什么一直还在新盖楼盘？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2075640740537963785"
+      },
+      {
+        "rank": 20,
+        "title": "为什么人到中年，很多人会觉得友情没那么重要？还有些人会觉得这是成熟的表现？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103417826614538383"
+      },
+      {
+        "rank": 21,
+        "title": "如何评价 Doran 在 S16 全球总决赛上的表现？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103062644244717911"
+      },
+      {
+        "rank": 22,
+        "title": "为什么黄仁勋出轨社会影响就这么大，而马斯克就能安然无恙？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104173918944862602"
+      },
+      {
+        "rank": 23,
+        "title": "为什么伽利略、爱因斯坦没有成为物理学单位？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/14403971689"
+      },
+      {
+        "rank": 24,
+        "title": "网友称高铁座椅 USB 口充手机越充越掉电，12306 称电压更低，用于应急补电，这个设计合理吗？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103538454634180703"
+      },
+      {
+        "rank": 25,
+        "title": "金字塔到底是怎么建成的？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/6199105600"
+      },
+      {
+        "rank": 26,
+        "title": "C 罗官宣自己首部电视剧《Day 1s》开机，聚焦足球行业，C 罗为执行制片人和演员，你期待这部剧吗？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104181593925482165"
+      },
+      {
+        "rank": 27,
+        "title": "女子在西西弗书店买了200元的书，想坐咖啡区却被拒，店方称需另行消费才能入座，这一规定合理吗？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104110182112482058"
+      },
+      {
+        "rank": 28,
+        "title": "德芙因七夕广告宣扬错误婚恋观，代运营方被罚 80 万，怎样看待这一结果？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2104239650290098778"
+      },
+      {
+        "rank": 29,
+        "title": "2026 年第一电动网破解特斯拉未开放 FSD 做测试收律师函，该行为是否合规？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103657675795984389"
+      },
+      {
+        "rank": 30,
+        "title": "卡蓓诺洗发水宣称日本进口，日本主流渠道却查无此牌，抖音官旗又突然闭店，这件事后续会如何发展？",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.zhihu.com/question/2103952928415422420"
+      }
+    ],
     "B站热门": [
       {
         "rank": 1,
         "title": "他真的太优雅了！灰太狼&红太狼【非凡之爱】",
-        "heat": "118.1万",
-        "raw_heat": 1181005,
+        "heat": "219.2万",
+        "raw_heat": 2192268,
         "link": "https://www.bilibili.com/video/BV1aNWm6UEeC"
       },
       {
         "rank": 2,
-        "title": "为什么是最后一期？影视飓风1800万粉丝Q&A！",
-        "heat": "160.7万",
-        "raw_heat": 1606828,
-        "link": "https://www.bilibili.com/video/BV1kZWX62ENY"
+        "title": "《白银之城》角色PV - 馨西亚二世：到月下的城邦去",
+        "heat": "250.2万",
+        "raw_heat": 2502150,
+        "link": "https://www.bilibili.com/video/BV1PoW16NEZN"
       },
       {
         "rank": 3,
-        "title": "拿什么打手游最过瘾？游戏平板采销推荐",
-        "heat": "89.3万",
-        "raw_heat": 892698,
-        "link": "https://www.bilibili.com/video/BV13VWb68ENP"
+        "title": "臣妾要线上告发熹贵妃 2.0",
+        "heat": "72.1万",
+        "raw_heat": 720504,
+        "link": "https://www.bilibili.com/video/BV1PZWR6xEqv"
       },
       {
         "rank": 4,
         "title": "【纪录片】人生一串 第四季 02 心惊肉跳",
-        "heat": "176.0万",
-        "raw_heat": 1759706,
+        "heat": "185.7万",
+        "raw_heat": 1857095,
         "link": "https://www.bilibili.com/video/BV16DWj61EoY"
       },
       {
         "rank": 5,
-        "title": "臣妾要线上告发熹贵妃 2.0",
-        "heat": "29.2万",
-        "raw_heat": 291758,
-        "link": "https://www.bilibili.com/video/BV1PZWR6xEqv"
+        "title": "为什么是最后一期？影视飓风1800万粉丝Q&A！",
+        "heat": "195.7万",
+        "raw_heat": 1957268,
+        "link": "https://www.bilibili.com/video/BV1kZWX62ENY"
       },
       {
         "rank": 6,
-        "title": "《崩坏：星穹铁道》EP：「无中生有」",
-        "heat": "119.7万",
-        "raw_heat": 1196697,
-        "link": "https://www.bilibili.com/video/BV1nEWu6xEyq"
-      },
-      {
-        "rank": 7,
-        "title": "议员儿子涉毒，当红男明星偷拍，黑帮大佬遭绑架？钱已到位，罪恶都市清道夫来活了！《黑白清道夫》",
-        "heat": "71.7万",
-        "raw_heat": 716816,
-        "link": "https://www.bilibili.com/video/BV17uWy6EEjM"
-      },
-      {
-        "rank": 8,
-        "title": "英伟达公司宣布：黄仁勋辞职",
-        "heat": "145.6万",
-        "raw_heat": 1455780,
-        "link": "https://www.bilibili.com/video/BV1FuWZ6dEjb"
-      },
-      {
-        "rank": 9,
-        "title": "NVIDIA：黄仁勋辞职",
-        "heat": "21.0万",
-        "raw_heat": 209617,
-        "link": "https://www.bilibili.com/video/BV1efWd6CEvF"
-      },
-      {
-        "rank": 10,
-        "title": "【烂奇迹】三毛：我的一生颠沛流离，活到现在算是个奇迹",
-        "heat": "43.4万",
-        "raw_heat": 434144,
-        "link": "https://www.bilibili.com/video/BV14gW16iEq8"
-      },
-      {
-        "rank": 11,
-        "title": "伏笔满满、高层改戏、英雄崩溃！漫威口碑“系列最差”的《复联2》到底冤不冤？",
-        "heat": "44.6万",
-        "raw_heat": 446371,
-        "link": "https://www.bilibili.com/video/BV1GpWd6uEcE"
-      },
-      {
-        "rank": 12,
-        "title": "我将负责嘎嘎乱吃！",
-        "heat": "41.1万",
-        "raw_heat": 410777,
-        "link": "https://www.bilibili.com/video/BV1anWd6zEsN"
-      },
-      {
-        "rank": 13,
-        "title": "这都能还原！！？【MC阿哈篇】",
-        "heat": "135.6万",
-        "raw_heat": 1355939,
-        "link": "https://www.bilibili.com/video/BV1MdWL6WEiB"
-      },
-      {
-        "rank": 14,
-        "title": "补档：钢成军的秘密被灭建国发现了，这下可惨了",
-        "heat": "84.1万",
-        "raw_heat": 840924,
-        "link": "https://www.bilibili.com/video/BV1VmWL6fE7z"
-      },
-      {
-        "rank": 15,
-        "title": "《反方向の忠》",
-        "heat": "115.4万",
-        "raw_heat": 1154093,
-        "link": "https://www.bilibili.com/video/BV1MRWm65EMC"
-      },
-      {
-        "rank": 16,
-        "title": "拿中老年病痛玩梗，还被44万人点赞，这是最近最让我恶心的烂梗！",
-        "heat": "21.9万",
-        "raw_heat": 219420,
-        "link": "https://www.bilibili.com/video/BV11CWD6EEjf"
-      },
-      {
-        "rank": 17,
         "title": "提辖老妈《暴躁老妈》雷霆丧病配音1~8大合集",
-        "heat": "29.3万",
-        "raw_heat": 293372,
+        "heat": "54.4万",
+        "raw_heat": 544005,
         "link": "https://www.bilibili.com/video/BV1qAWJ6LER9"
       },
       {
-        "rank": 18,
+        "rank": 7,
+        "title": "NVIDIA：黄仁勋辞职",
+        "heat": "53.9万",
+        "raw_heat": 538538,
+        "link": "https://www.bilibili.com/video/BV1efWd6CEvF"
+      },
+      {
+        "rank": 8,
+        "title": "竹子从来都不欺人，只要你顺着它的脾气，会给你惊喜！",
+        "heat": "31.1万",
+        "raw_heat": 310584,
+        "link": "https://www.bilibili.com/video/BV1V9W96uEVa"
+      },
+      {
+        "rank": 9,
+        "title": "《崩坏：星穹铁道》EP：「无中生有」",
+        "heat": "129.4万",
+        "raw_heat": 1293633,
+        "link": "https://www.bilibili.com/video/BV1nEWu6xEyq"
+      },
+      {
+        "rank": 10,
+        "title": "《反方向の忠》",
+        "heat": "142.3万",
+        "raw_heat": 1423097,
+        "link": "https://www.bilibili.com/video/BV1MRWm65EMC"
+      },
+      {
+        "rank": 11,
+        "title": "“我大肥鱼待客，宾至鱼肥！”",
+        "heat": "29.7万",
+        "raw_heat": 297089,
+        "link": "https://www.bilibili.com/video/BV1JGWj6kEne"
+      },
+      {
+        "rank": 12,
+        "title": "iPhone 18 Pro Max不是苹果今年行 是乱世容易出枭雄",
+        "heat": "30.9万",
+        "raw_heat": 308562,
+        "link": "https://www.bilibili.com/video/BV1ZMWd6mE77"
+      },
+      {
+        "rank": 13,
+        "title": "补档：钢成军的秘密被灭建国发现了，这下可惨了",
+        "heat": "118.8万",
+        "raw_heat": 1187756,
+        "link": "https://www.bilibili.com/video/BV1VmWL6fE7z"
+      },
+      {
+        "rank": 14,
+        "title": "MJ宇宙校园之末日降临第一集",
+        "heat": "21.9万",
+        "raw_heat": 218910,
+        "link": "https://www.bilibili.com/video/BV1jDW963EWf"
+      },
+      {
+        "rank": 15,
+        "title": "英伟达公司宣布：黄仁勋辞职",
+        "heat": "214.4万",
+        "raw_heat": 2143783,
+        "link": "https://www.bilibili.com/video/BV1FuWZ6dEjb"
+      },
+      {
+        "rank": 16,
         "title": "《你跟他废什么话》",
-        "heat": "212.9万",
-        "raw_heat": 2128934,
+        "heat": "246.8万",
+        "raw_heat": 2468458,
         "link": "https://www.bilibili.com/video/BV1NvWg6YEjs"
       },
       {
+        "rank": 17,
+        "title": "鸡符咒算不算浮力鸡",
+        "heat": "5.0万",
+        "raw_heat": 49764,
+        "link": "https://www.bilibili.com/video/BV13HWY66Eq2"
+      },
+      {
+        "rank": 18,
+        "title": "我将负责嘎嘎乱吃！",
+        "heat": "55.9万",
+        "raw_heat": 558560,
+        "link": "https://www.bilibili.com/video/BV1anWd6zEsN"
+      },
+      {
         "rank": 19,
-        "title": "华农兄弟：抓鸭抓鹅一起炖，兄弟都说好吃",
-        "heat": "43.4万",
-        "raw_heat": 433881,
-        "link": "https://www.bilibili.com/video/BV1aFW16VEdr"
+        "title": "【烂奇迹】三毛：我的一生颠沛流离，活到现在算是个奇迹",
+        "heat": "51.4万",
+        "raw_heat": 513900,
+        "link": "https://www.bilibili.com/video/BV14gW16iEq8"
       },
       {
         "rank": 20,
-        "title": "“这是解锁了什么特殊CG吗？！”",
-        "heat": "47.7万",
-        "raw_heat": 476689,
-        "link": "https://www.bilibili.com/video/BV1xsWQ6nE2v"
+        "title": "拿中老年病痛玩梗，还被44万人点赞，这是最近最让我恶心的烂梗！",
+        "heat": "33.2万",
+        "raw_heat": 332343,
+        "link": "https://www.bilibili.com/video/BV11CWD6EEjf"
       }
     ],
     "百度热搜": [],
     "抖音热榜": [],
     "头条热榜": [],
     "小红书热榜": [],
-    "快手热榜": [],
+    "快手热榜": [
+      {
+        "rank": 1,
+        "title": "为强国建设民族复兴而团结奋斗",
+        "heat": "",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 2,
+        "title": "刘欢已安葬",
+        "heat": "1206.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 3,
+        "title": "微软多项服务宕机",
+        "heat": "1205.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 4,
+        "title": "加快构建现代化基础设施体系",
+        "heat": "1205.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 5,
+        "title": "国内金价已经跌回一年前",
+        "heat": "1205.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 6,
+        "title": "3万元一件的苗族百鸟衣有多绝",
+        "heat": "1118.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 7,
+        "title": "奔驰暂停在德投资考虑关厂",
+        "heat": "1096.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 8,
+        "title": "台青年：我们身份证上写的台湾省",
+        "heat": "1054.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 9,
+        "title": "一代腿王黄正利去世",
+        "heat": "1034万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 10,
+        "title": "刘欢父母临终都不知道儿子病情",
+        "heat": "1011.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 11,
+        "title": "普京称俄罗斯从未拒绝与欧洲对话",
+        "heat": "991.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 12,
+        "title": "赵本山演我精神状态",
+        "heat": "974.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 13,
+        "title": "NBA常规赛活塞森林狼大胜独行侠",
+        "heat": "968.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 14,
+        "title": "2027研究生报考人数347万",
+        "heat": "965.5万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 15,
+        "title": "一块火锅底料做出12个菜",
+        "heat": "959.8万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 16,
+        "title": "伊朗称摧毁美军巴林雷达",
+        "heat": "957.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 17,
+        "title": "大美被实名举报偷税漏税",
+        "heat": "955万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 18,
+        "title": "女子刮痧排淤刮出3条大血印",
+        "heat": "952.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 19,
+        "title": "朴树哥哥否认朴树去世",
+        "heat": "949.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 20,
+        "title": "奇迹少女新角色诺一登场",
+        "heat": "946.5万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 21,
+        "title": "你买的品种狗可能来自繁殖笼地狱",
+        "heat": "943.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 22,
+        "title": "苗年里的幸福感具象化了",
+        "heat": "936.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 23,
+        "title": "俄方：俄美领导人计划在APEC会晤",
+        "heat": "933.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 24,
+        "title": "高迪大美到底怎么了",
+        "heat": "930.5万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 25,
+        "title": "普京不接受外国军队出现在乌克兰",
+        "heat": "927.1万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 26,
+        "title": "芹菜妹妹家疑遭投毒",
+        "heat": "924.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 27,
+        "title": "油价下调 加满一箱油少花约26元",
+        "heat": "921.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 28,
+        "title": "伊朗锡里克遭敌方袭击",
+        "heat": "918.8万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 29,
+        "title": "自贡南湖映月18日闭幕",
+        "heat": "916万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 30,
+        "title": "KPL为十周年庆包下四层楼",
+        "heat": "913.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 31,
+        "title": "红楼梦AI剧侵害17位演员肖像权",
+        "heat": "907.7万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 32,
+        "title": "卢璐长文追忆刘欢多年隐忍抗癌路",
+        "heat": "905万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 33,
+        "title": "NBA常规赛76人轻取猛龙",
+        "heat": "903万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 34,
+        "title": "买来的“副主任”帽子戴上是耻辱",
+        "heat": "900.3万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 35,
+        "title": "孙中山后人：东方大港梦已圆",
+        "heat": "898.1万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 36,
+        "title": "AG全员参加王者巅峰之夜彩排",
+        "heat": "896万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 37,
+        "title": "佩古拉晋级四强",
+        "heat": "893.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 38,
+        "title": "花坛藏尸案男子行凶原因",
+        "heat": "891.1万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 39,
+        "title": "雷山苗年万人长桌宴热闹开席",
+        "heat": "888.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 40,
+        "title": "自制关东煮",
+        "heat": "886.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 41,
+        "title": "刘欢说宁死不背尿袋",
+        "heat": "881.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 42,
+        "title": "民警深夜送迷路男孩回家",
+        "heat": "876.3万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 43,
+        "title": "KPL年总评论席阵容价值两个亿",
+        "heat": "873.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 44,
+        "title": "全民进入过日子时代",
+        "heat": "870.8万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 45,
+        "title": "长白山云顶天宫重磅回归",
+        "heat": "867.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 46,
+        "title": "雷山苗年节名场面回顾",
+        "heat": "866.9万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 47,
+        "title": "KPL年总决赛定制FMVP皮肤",
+        "heat": "866.1万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 48,
+        "title": "宝石老舅说去成都必须来碗蹄花汤",
+        "heat": "865.2万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 49,
+        "title": "“一字肩”羽绒服引争议",
+        "heat": "864.4万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      },
+      {
+        "rank": 50,
+        "title": "昆明通报积水路段逃逸案",
+        "heat": "863.6万",
+        "raw_heat": 0,
+        "link": "https://www.kuaishou.com/hot-board"
+      }
+    ],
     "微信热点": []
   }
 }
