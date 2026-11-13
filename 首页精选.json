@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T03:40:18+08:00",
+  "generated": "2026-11-13T08:57:35+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 4156352805,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-13T03:40:18+08:00"
+      "选入时间": "2026-11-13T08:57:35+08:00"
     },
     {
       "id": 3876321069,
@@ -85,31 +85,26 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-13T03:40:18+08:00"
+      "选入时间": "2026-11-13T08:57:35+08:00"
     },
     {
-      "id": 652886934,
-      "标题": "【原生·模型】SetPrint：通过响应变化的 Setwise 对应关系进行黑盒 LLM 指纹识别",
-      "摘要": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output",
-      "内容": "arXiv:2611.12950v1 Announce Type: new Abstract: Black-box LLM fingerprinting aims to determine whether a target model was derived from a source model when only the output",
-      "来源": "arXiv AI",
-      "分类": "原生资讯",
-      "日期": "2026-11-11",
+      "id": 3766058575,
+      "标题": "Build once, run on any agent: A practical guide to agent skills",
+      "摘要": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The",
+      "内容": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The",
+      "来源": "GitHub 官方博客",
+      "分类": "AI应用",
+      "日期": "2026-11-12",
       "热度": 50,
-      "链接": "https://arxiv.org/abs/2611.12950",
-      "标签": [
-        "原生资讯",
-        "arXiv AI"
-      ],
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "原标题": "【原生·模型】SetPrint: Black-Box LLM Fingerprinting via Setwise Correspondence of Response Changes",
-      "中文提炼": "",
+      "链接": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "标签": [],
+      "图片": "https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png",
       "候选栏目": "AI",
-      "编辑分": 79,
+      "编辑分": 80,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
-        "公共价值": 16,
+        "时效": 14,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -121,16 +116,32 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-13T03:40:18+08:00"
+      "选入时间": "2026-11-13T08:57:35+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-13T03:40:18+08:00",
+    "as_of": "2026-11-13T08:57:35+08:00",
     "candidate_count": 604,
-    "rejected_count": 399,
+    "rejected_count": 400,
     "rejected": [
       {
+        "id": 665978888,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4278070854,
+        "reason": "off_topic"
+      },
+      {
         "id": 408092471,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4026993310,
+        "reason": "off_topic"
+      },
+      {
+        "id": 365052274,
         "reason": "off_topic"
       },
       {
@@ -138,7 +149,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 3168676809,
+        "reason": "off_topic"
+      },
+      {
         "id": 3145784962,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2755353883,
         "reason": "off_topic"
       },
       {
@@ -155,6 +174,14 @@
       },
       {
         "id": 166422325,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1485793271,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1001797549,
         "reason": "off_topic"
       },
       {
@@ -1416,35 +1443,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 53477349,
-        "reason": "off_topic"
-      },
-      {
-        "id": 481229423,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 475486557,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4276583994,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4215953866,
-        "reason": "off_topic"
-      },
-      {
-        "id": 414443092,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4104309416,
-        "reason": "off_topic"
-      },
-      {
         "id": 286534759,
         "reason": "score_below_50",
         "score": 33
@@ -1515,7 +1513,7 @@
         "score": 33
       },
       {
-        "id": 252099099,
+        "id": 921943936,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1525,42 +1523,27 @@
         "score": 38
       },
       {
+        "id": 4165682024,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1986835,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 112442337,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 4077737368,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 354055758,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1352808391,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1629030612,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
         "id": 1422391412,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2285098704,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2191326693,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3474595960,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1570,7 +1553,12 @@
         "score": 32
       },
       {
-        "id": 1708445142,
+        "id": 1629030612,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 2285098704,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1580,14 +1568,24 @@
         "score": 32
       },
       {
+        "id": 3088669939,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 3094526234,
         "reason": "score_below_50",
         "score": 37
       },
       {
-        "id": 2674249285,
+        "id": 224860106,
         "reason": "score_below_50",
-        "score": 37
+        "score": 32
+      },
+      {
+        "id": 3166776870,
+        "reason": "score_below_50",
+        "score": 32
       },
       {
         "id": 2488645258,
@@ -1620,22 +1618,22 @@
         "score": 16
       },
       {
-        "id": 444437417,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
       },
       {
-        "id": 2175254021,
+        "id": 444437417,
         "reason": "score_below_50",
-        "score": 25
+        "score": 20
       },
       {
         "id": 1930382564,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 2793568773,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1732,6 +1730,11 @@
         "score": 24
       },
       {
+        "id": 387687564,
+        "reason": "score_below_50",
+        "score": 20
+      },
+      {
         "id": 2262564214,
         "reason": "score_below_50",
         "score": 24
@@ -1758,11 +1761,6 @@
       },
       {
         "id": 2027906285,
-        "reason": "score_below_50",
-        "score": 24
-      },
-      {
-        "id": 2755203002,
         "reason": "score_below_50",
         "score": 24
       },
