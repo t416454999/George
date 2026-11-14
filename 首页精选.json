@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T05:54:20+08:00",
+  "generated": "2026-11-14T10:01:49+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 1477987988,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,7 +49,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-14T05:54:20+08:00"
+      "选入时间": "2026-11-14T10:01:49+08:00"
     },
     {
       "id": 1908131317,
@@ -85,45 +85,54 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-14T05:54:20+08:00"
+      "选入时间": "2026-11-14T10:01:49+08:00"
     },
     {
-      "id": 3766058575,
-      "标题": "Build once, run on any agent: A practical guide to agent skills",
-      "摘要": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The",
-      "内容": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The",
-      "来源": "GitHub 官方博客",
-      "分类": "AI应用",
-      "日期": "2026-11-12",
+      "id": 279214811,
+      "标题": "白宫呼吁放宽责任追究 鼓励AI企业上报安全事件",
+      "摘要": "知情官员透露，在周四白宫会议上，特朗普总统旗下人工智能专项工作组的官员建议各机构放宽网络安全追责政策，激励AI企业上报重大安全事件。",
+      "内容": "知情官员透露，在周四白宫会议上，特朗普总统旗下人工智能专项工作组的官员建议各机构放宽网络安全追责政策，激励AI企业上报重大安全事件。",
+      "来源": "新浪科技",
+      "分类": "行业动态",
+      "日期": "2026-11-14",
       "热度": 50,
-      "链接": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "链接": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysepk7526023.shtml",
       "标签": [],
-      "图片": "https://github.blog/wp-content/uploads/2026/11/5b5fed0ce69f241f469053d4f178383688adb2fb7ef44dff82c1a2dd6a626fa1-1920x1080-1.png",
+      "图片": {
+        "u": "http://n.sinaimg.cn/finance/c30320b4/20210712/wx_poster_finance1.png",
+        "w": 100,
+        "h": 100,
+        "t": ""
+      },
       "候选栏目": "AI",
-      "编辑分": 74,
+      "编辑分": 76,
       "评分分项": {
-        "可信度": 25,
-        "时效": 8,
-        "公共价值": 11,
-        "一手可追溯": 15,
+        "可信度": 17,
+        "时效": 20,
+        "公共价值": 16,
+        "一手可追溯": 10,
         "完整度": 10,
         "真实图片": 0,
-        "编辑价值": 5,
+        "编辑价值": 3,
         "扣分": 0
       },
-      "来源级别": "A",
+      "来源级别": "B",
       "扣分项": [],
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-14T05:54:20+08:00"
+      "选入时间": "2026-11-14T10:01:49+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-14T05:54:20+08:00",
+    "as_of": "2026-11-14T10:01:49+08:00",
     "candidate_count": 604,
-    "rejected_count": 407,
+    "rejected_count": 410,
     "rejected": [
+      {
+        "id": 500396550,
+        "reason": "off_topic"
+      },
       {
         "id": 451061311,
         "reason": "rumor_or_unverified"
@@ -137,7 +146,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 362851588,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3622834657,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3298983581,
+        "reason": "off_topic"
+      },
+      {
         "id": 2883661176,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2634733002,
         "reason": "off_topic"
       },
       {
@@ -149,7 +174,15 @@
         "reason": "off_topic"
       },
       {
+        "id": 2001543871,
+        "reason": "off_topic"
+      },
+      {
         "id": 1651576555,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1639459780,
         "reason": "off_topic"
       },
       {
@@ -1443,22 +1476,6 @@
         "score": 49
       },
       {
-        "id": 705651989,
-        "reason": "off_topic"
-      },
-      {
-        "id": 59367216,
-        "reason": "off_topic"
-      },
-      {
-        "id": 431364246,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4182836761,
-        "reason": "off_topic"
-      },
-      {
         "id": 1312602353,
         "reason": "score_below_50",
         "score": 33
@@ -1544,17 +1561,22 @@
         "score": 38
       },
       {
-        "id": 795272495,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 180420921,
+        "id": 627342460,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2560719074,
+        "id": 3168459592,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3546075466,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3636494091,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1569,22 +1591,17 @@
         "score": 38
       },
       {
-        "id": 627342460,
+        "id": 1204886121,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2206205872,
+        "id": 795272495,
         "reason": "score_below_50",
-        "score": 38
+        "score": 43
       },
       {
-        "id": 3546075466,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3494012182,
+        "id": 2560719074,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1604,6 +1621,11 @@
         "score": 37
       },
       {
+        "id": 689449262,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 3526255675,
         "reason": "score_below_50",
         "score": 32
@@ -1612,11 +1634,6 @@
         "id": 1614120097,
         "reason": "score_below_50",
         "score": 32
-      },
-      {
-        "id": 2285098704,
-        "reason": "score_below_50",
-        "score": 26
       },
       {
         "id": 2991065328,
@@ -1716,6 +1733,11 @@
         "reason": "stale_section"
       },
       {
+        "id": 4229265781,
+        "reason": "score_below_50",
+        "score": 26
+      },
+      {
         "id": 276319990,
         "reason": "score_below_50",
         "score": 30
@@ -1759,11 +1781,6 @@
         "id": 2128158106,
         "reason": "score_below_50",
         "score": 24
-      },
-      {
-        "id": 387687564,
-        "reason": "score_below_50",
-        "score": 20
       },
       {
         "id": 2262564214,
