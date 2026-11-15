@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-14T14:52:04+08:00",
+  "updated": "2026-11-15T15:28:27+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "187.0k",
+      "星标": "187.1k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "149.5k",
+      "星标": "149.6k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "27.9k",
+      "星标": "28.0k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -63,65 +63,57 @@
       "名称": "astryx",
       "repo": "meta/astryx",
       "说明": "An open source design system that's fully customizable and agent ready",
-      "星标": 27778,
-      "本周新增": 13375,
+      "星标": 28605,
+      "本周新增": 13660,
       "语言": "TypeScript"
     },
     {
       "名称": "skills",
       "repo": "anthropics/skills",
       "说明": "Public repository for Agent Skills",
-      "星标": 194423,
-      "本周新增": 6169,
-      "语言": "Python"
-    },
-    {
-      "名称": "agent-browser",
-      "repo": "vercel-labs/agent-browser",
-      "说明": "Browser automation CLI for AI agents",
-      "星标": 51000,
-      "本周新增": 4360,
-      "语言": "Rust"
-    },
-    {
-      "名称": "elephant-goldfish-model",
-      "repo": "google/elephant-goldfish-model",
-      "说明": "Open-source plugin for designing and reviewing software with agents",
-      "星标": 18909,
-      "本周新增": 5560,
-      "语言": "Python"
-    },
-    {
-      "名称": "daily_stock_analysis",
-      "repo": "ZhuLinsen/daily_stock_analysis",
-      "说明": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "星标": 72141,
-      "本周新增": 3778,
+      "星标": 195138,
+      "本周新增": 6220,
       "语言": "Python"
     },
     {
       "名称": "plannotator",
       "repo": "backnotprop/plannotator",
       "说明": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "星标": 10752,
-      "本周新增": 511,
+      "星标": 11648,
+      "本周新增": 818,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "agent-browser",
+      "repo": "vercel-labs/agent-browser",
+      "说明": "Browser automation CLI for AI agents",
+      "星标": 51461,
+      "本周新增": 4601,
+      "语言": "Rust"
+    },
+    {
+      "名称": "daily_stock_analysis",
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "说明": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "星标": 72411,
+      "本周新增": 4526,
+      "语言": "Python"
+    },
+    {
+      "名称": "elephant-goldfish-model",
+      "repo": "google/elephant-goldfish-model",
+      "说明": "Open-source plugin for designing and reviewing software with agents",
+      "星标": 19514,
+      "本周新增": 5539,
+      "语言": "Python"
     },
     {
       "名称": "agent-skills",
       "repo": "addyosmani/agent-skills",
       "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 117407,
-      "本周新增": 3502,
+      "星标": 117794,
+      "本周新增": 3670,
       "语言": "JavaScript"
-    },
-    {
-      "名称": "claude-quickstarts",
-      "repo": "anthropics/claude-quickstarts",
-      "说明": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "星标": 20928,
-      "本周新增": 1731,
-      "语言": "Python"
     }
   ]
 }
