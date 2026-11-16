@@ -1,32 +1,31 @@
 {
-  "generated": "2026-11-16T08:13:56+08:00",
+  "generated": "2026-11-16T15:07:37+08:00",
   "policy_version": "editorial-v1.0",
-  "headline_id": 3112955093,
+  "headline_id": 1884526749,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
   "count": 3,
   "articles": [
     {
-      "id": 3112955093,
-      "标题": "【原生·研究】SynthCorp：为数据代理创建基准的平台",
-      "摘要": "arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a",
-      "内容": "arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a",
+      "id": 1884526749,
+      "标题": "【原生·模型】模型退火：通过审查和整合进行数据高效学习",
+      "摘要": "arXiv:2611.17524v1 Announce Type: new Abstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted",
+      "内容": "arXiv:2611.17524v1 Announce Type: new Abstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted",
       "来源": "arXiv AI",
       "分类": "原生资讯",
-      "日期": "2026-11-14",
+      "日期": "2026-11-16",
       "热度": 50,
-      "链接": "https://arxiv.org/abs/2611.14765",
+      "链接": "https://arxiv.org/abs/2611.17524",
       "标签": [
         "原生资讯",
         "arXiv AI"
       ],
-      "原标题": "【原生·研究】SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+      "原标题": "【原生·模型】Model Annealing: Data-Efficient Learning through Review and Consolidation",
       "中文提炼": "",
-      "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 79,
+      "编辑分": 91,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
+        "时效": 20,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -39,11 +38,11 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-16T08:13:56+08:00"
+      "选入时间": "2026-11-16T15:07:37+08:00"
     },
     {
       "id": 660257447,
-      "标题": "【原生·模型】A step toward defining the Standard Model on a lattice",
+      "标题": "【原生·模型】在晶格上定义标准模型的一步",
       "摘要": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
       "内容": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
       "来源": "OpenAI 官方",
@@ -55,6 +54,8 @@
         "原生资讯",
         "OpenAI 官方"
       ],
+      "原标题": "【原生·模型】A step toward defining the Standard Model on a lattice",
+      "中文提炼": "",
       "候选栏目": "AI",
       "编辑分": 80,
       "评分分项": {
@@ -72,7 +73,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-16T08:13:56+08:00"
+      "选入时间": "2026-11-16T15:07:37+08:00"
     },
     {
       "id": 99600261,
@@ -118,14 +119,18 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-16T08:13:56+08:00"
+      "选入时间": "2026-11-16T15:07:37+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-16T08:13:56+08:00",
+    "as_of": "2026-11-16T15:07:37+08:00",
     "candidate_count": 604,
-    "rejected_count": 420,
+    "rejected_count": 406,
     "rejected": [
+      {
+        "id": 424579750,
+        "reason": "off_topic"
+      },
       {
         "id": 4230233855,
         "reason": "off_topic"
@@ -147,6 +152,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 3931404400,
+        "reason": "off_topic"
+      },
+      {
         "id": 3904154249,
         "reason": "off_topic"
       },
@@ -155,7 +164,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 3450752510,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3293922598,
+        "reason": "off_topic"
+      },
+      {
         "id": 2779892436,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2599447826,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2598630916,
         "reason": "off_topic"
       },
       {
@@ -163,7 +188,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 1732937161,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1371665280,
+        "reason": "off_topic"
+      },
+      {
         "id": 1043657105,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1039189543,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1033642954,
         "reason": "off_topic"
       },
       {
@@ -1411,104 +1452,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 813316745,
-        "reason": "off_topic"
-      },
-      {
-        "id": 802937485,
-        "reason": "off_topic"
-      },
-      {
-        "id": 731582271,
-        "reason": "off_topic"
-      },
-      {
-        "id": 721254242,
-        "reason": "off_topic"
-      },
-      {
-        "id": 677372889,
-        "reason": "off_topic"
-      },
-      {
-        "id": 568918945,
-        "reason": "off_topic"
-      },
-      {
-        "id": 541418711,
-        "reason": "off_topic"
-      },
-      {
-        "id": 490108639,
-        "reason": "off_topic"
-      },
-      {
-        "id": 486989074,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4174428703,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4162966769,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4154939224,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3964358377,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 3946261769,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3814726559,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3768160023,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3755589974,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3697607109,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3671863127,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3566678476,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3543197718,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3310534596,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3159892017,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 3123438512,
-        "reason": "off_topic"
-      },
-      {
         "id": 1593832531,
         "reason": "score_below_50",
         "score": 33
@@ -1594,14 +1537,24 @@
         "score": 43
       },
       {
+        "id": 3420357473,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
         "id": 1805699658,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 1044624162,
+        "id": 897985128,
         "reason": "score_below_50",
-        "score": 32
+        "score": 38
+      },
+      {
+        "id": 1427797747,
+        "reason": "score_below_50",
+        "score": 38
       },
       {
         "id": 195373402,
@@ -1609,42 +1562,27 @@
         "score": 37
       },
       {
-        "id": 78679984,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 4077945330,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 523344089,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 401856924,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3407088782,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
         "id": 4187480832,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 342051022,
+        "id": 78679984,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 212503181,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 183333667,
+        "id": 1044624162,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3407088782,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1657,6 +1595,11 @@
         "id": 3803831882,
         "reason": "score_below_50",
         "score": 32
+      },
+      {
+        "id": 1869165216,
+        "reason": "score_below_50",
+        "score": 37
       },
       {
         "id": 2488645258,
@@ -1674,9 +1617,9 @@
         "score": 37
       },
       {
-        "id": 3247681971,
+        "id": 4100734377,
         "reason": "score_below_50",
-        "score": 26
+        "score": 31
       },
       {
         "id": 2470484058,
@@ -1826,6 +1769,11 @@
         "score": 20
       },
       {
+        "id": 1853407084,
+        "reason": "score_below_50",
+        "score": 24
+      },
+      {
         "id": 2027906285,
         "reason": "score_below_50",
         "score": 24
@@ -1834,11 +1782,6 @@
         "id": 133200706,
         "reason": "score_below_50",
         "score": 20
-      },
-      {
-        "id": 2755203002,
-        "reason": "score_below_50",
-        "score": 24
       },
       {
         "id": 4138627420,
