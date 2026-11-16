@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T04:13:49+08:00",
+  "generated": "2026-11-16T08:13:56+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 3112955093,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -39,7 +39,40 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-16T04:13:49+08:00"
+      "选入时间": "2026-11-16T08:13:56+08:00"
+    },
+    {
+      "id": 660257447,
+      "标题": "【原生·模型】A step toward defining the Standard Model on a lattice",
+      "摘要": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "内容": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-11-15",
+      "热度": 58,
+      "链接": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方"
+      ],
+      "候选栏目": "AI",
+      "编辑分": 80,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 11,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-11-16T08:13:56+08:00"
     },
     {
       "id": 99600261,
@@ -68,7 +101,7 @@
       "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
-      "栏目状态": "ok",
+      "栏目状态": "partial",
       "编辑分": 78,
       "评分分项": {
         "可信度": 25,
@@ -85,52 +118,52 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-16T04:13:49+08:00"
-    },
-    {
-      "id": 1908131317,
-      "标题": "【原生·发布】ChatGPT 钱包简介",
-      "摘要": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card",
-      "内容": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-11-13",
-      "热度": 64,
-      "链接": "https://openai.com/index/introducing-chatgpt-wallet",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "ChatGPT"
-      ],
-      "原标题": "【原生·发布】Introducing ChatGPT Wallet",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 73,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 2,
-        "公共价值": 16,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-11-16T04:13:49+08:00"
+      "选入时间": "2026-11-16T08:13:56+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-16T04:13:49+08:00",
+    "as_of": "2026-11-16T08:13:56+08:00",
     "candidate_count": 604,
-    "rejected_count": 421,
+    "rejected_count": 420,
     "rejected": [
       {
+        "id": 4230233855,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4174496223,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4034411232,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4001194555,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3948763659,
+        "reason": "off_topic"
+      },
+      {
         "id": 3904154249,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3627774630,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2779892436,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2075923372,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1043657105,
         "reason": "off_topic"
       },
       {
@@ -1476,49 +1509,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 3086824310,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2978800572,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2911309771,
-        "reason": "off_topic"
-      },
-      {
-        "id": 288647674,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2873555586,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2758851780,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 2646096441,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2622312973,
-        "reason": "off_topic"
-      },
-      {
-        "id": 2554267038,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
-        "id": 238610033,
-        "reason": "score_below_50",
-        "score": 49
-      },
-      {
         "id": 1593832531,
         "reason": "score_below_50",
         "score": 33
@@ -1604,7 +1594,12 @@
         "score": 43
       },
       {
-        "id": 4187480832,
+        "id": 1805699658,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1044624162,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1624,12 +1619,27 @@
         "score": 37
       },
       {
+        "id": 523344089,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 401856924,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 3407088782,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 212503181,
+        "id": 4187480832,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 342051022,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1639,37 +1649,12 @@
         "score": 32
       },
       {
-        "id": 1076408057,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1044624162,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3219153953,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1244234463,
+        "id": 3339784579,
         "reason": "score_below_50",
         "score": 32
       },
       {
         "id": 3803831882,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2477240852,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3530883047,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1682,6 +1667,16 @@
         "id": 3527521787,
         "reason": "score_below_50",
         "score": 28
+      },
+      {
+        "id": 2205320059,
+        "reason": "score_below_50",
+        "score": 37
+      },
+      {
+        "id": 3247681971,
+        "reason": "score_below_50",
+        "score": 26
       },
       {
         "id": 2470484058,
@@ -1709,17 +1704,12 @@
         "score": 25
       },
       {
-        "id": 1930382564,
-        "reason": "score_below_50",
-        "score": 16
-      },
-      {
         "id": 4265813590,
         "reason": "score_below_50",
         "score": 21
       },
       {
-        "id": 2793568773,
+        "id": 1930382564,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1801,14 +1791,14 @@
         "score": 24
       },
       {
-        "id": 2624698564,
-        "reason": "score_below_50",
-        "score": 25
-      },
-      {
         "id": 2266033708,
         "reason": "score_below_50",
         "score": 24
+      },
+      {
+        "id": 4030196979,
+        "reason": "score_below_50",
+        "score": 20
       },
       {
         "id": 468590270,
@@ -1826,9 +1816,9 @@
         "score": 20
       },
       {
-        "id": 145575372,
+        "id": 3049165558,
         "reason": "score_below_50",
-        "score": 29
+        "score": 24
       },
       {
         "id": 3687896276,
@@ -1846,7 +1836,7 @@
         "score": 20
       },
       {
-        "id": 3242876717,
+        "id": 2755203002,
         "reason": "score_below_50",
         "score": 24
       },
