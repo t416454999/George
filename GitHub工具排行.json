@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-16T18:07:03+08:00",
+  "updated": "2026-11-17T17:28:00+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "187.2k",
+      "星标": "187.4k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "149.7k",
+      "星标": "149.8k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -37,7 +37,7 @@
       "名称": "DeepSeek-V3",
       "repo": "deepseek-ai/DeepSeek-V3",
       "说明": "深度求索开源大语言模型，MoE 架构 671B 参数，性能对标 GPT-4。",
-      "星标": "104.8k",
+      "星标": "104.9k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,88 +63,96 @@
       "名称": "modern-web-guidance-src",
       "repo": "GoogleChrome/modern-web-guidance-src",
       "说明": "Keep your coding agent up to date with the latest web best practices",
-      "星标": 7885,
-      "本周新增": 5692,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "astryx",
-      "repo": "meta/astryx",
-      "说明": "An open source design system that's fully customizable and agent ready",
-      "星标": 29460,
-      "本周新增": 13501,
+      "星标": 8337,
+      "本周新增": 6542,
       "语言": "TypeScript"
     },
     {
       "名称": "plannotator",
       "repo": "backnotprop/plannotator",
       "说明": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "星标": 12402,
-      "本周新增": 1719,
+      "星标": 12962,
+      "本周新增": 2325,
       "语言": "TypeScript"
     },
     {
-      "名称": "skills",
-      "repo": "anthropics/skills",
-      "说明": "Public repository for Agent Skills",
-      "星标": 195874,
-      "本周新增": 6077,
-      "语言": "Python"
-    },
-    {
-      "名称": "agent-browser",
-      "repo": "vercel-labs/agent-browser",
-      "说明": "Browser automation CLI for AI agents",
-      "星标": 51930,
-      "本周新增": 4217,
-      "语言": "Rust"
+      "名称": "astryx",
+      "repo": "meta/astryx",
+      "说明": "An open source design system that's fully customizable and agent ready",
+      "星标": 30020,
+      "本周新增": 10939,
+      "语言": "TypeScript"
     },
     {
       "名称": "daily_stock_analysis",
       "repo": "ZhuLinsen/daily_stock_analysis",
       "说明": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "星标": 72762,
-      "本周新增": 4548,
+      "星标": 73043,
+      "本周新增": 4355,
       "语言": "Python"
     },
     {
-      "名称": "elephant-goldfish-model",
-      "repo": "google/elephant-goldfish-model",
-      "说明": "Open-source plugin for designing and reviewing software with agents",
-      "星标": 20260,
-      "本周新增": 5060,
+      "名称": "skills",
+      "repo": "anthropics/skills",
+      "说明": "Public repository for Agent Skills",
+      "星标": 196565,
+      "本周新增": 5666,
+      "语言": "Python"
+    },
+    {
+      "名称": "Claude-BugHunter",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "说明": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "星标": 8679,
+      "本周新增": 1747,
       "语言": "Python"
     },
     {
       "名称": "open-code-review",
       "repo": "alibaba/open-code-review",
       "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 52810,
-      "本周新增": 2238,
+      "星标": 53554,
+      "本周新增": 3056,
       "语言": "Go"
     },
     {
-      "名称": "agent-skills",
-      "repo": "addyosmani/agent-skills",
-      "说明": "Production-grade engineering skills for AI coding agents.",
-      "星标": 118247,
-      "本周新增": 3889,
-      "语言": "JavaScript"
+      "名称": "agent-browser",
+      "repo": "vercel-labs/agent-browser",
+      "说明": "Browser automation CLI for AI agents",
+      "星标": 52294,
+      "本周新增": 3760,
+      "语言": "Rust"
+    },
+    {
+      "名称": "chrome-devtools-mcp",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "说明": "Chrome DevTools for coding agents",
+      "星标": 57989,
+      "本周新增": 2593,
+      "语言": "TypeScript"
+    },
+    {
+      "名称": "claude-trading-skills",
+      "repo": "tradermonty/claude-trading-skills",
+      "说明": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "星标": 6799,
+      "本周新增": 2407,
+      "语言": "Python"
+    },
+    {
+      "名称": "stitch-skills",
+      "repo": "google-labs-code/stitch-skills",
+      "说明": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "星标": 9996,
+      "本周新增": 943,
+      "语言": "TypeScript"
     },
     {
       "名称": "codex-security",
       "repo": "openai/codex-security",
       "说明": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "星标": 13711,
-      "本周新增": 2294,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "qwen-code",
-      "repo": "QwenLM/qwen-code",
-      "说明": "An open-source AI coding agent that lives in your terminal.",
-      "星标": 30608,
-      "本周新增": 1469,
+      "星标": 13908,
+      "本周新增": 2352,
       "语言": "TypeScript"
     }
   ]
