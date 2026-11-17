@@ -1,13 +1,94 @@
 {
-  "updated": "2026-11-17T01:20:21+08:00",
-  "as_of": "2026-11-17T01:20:21+08:00",
+  "updated": "2026-11-17T09:00:45+08:00",
+  "as_of": "2026-11-17T09:00:45+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
   "status": "partial",
-  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
+  "message": "GDELT：HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=30)",
   "count": 40,
   "articles": [
+    {
+      "id": 4252345146,
+      "标题": "联合国：叙利亚政治过渡、经济复苏和安全局势仍面临多重挑战",
+      "摘要": "联合国两位高级官员周一向安理会通报叙利亚局势时表示，叙利亚在阿萨德政权垮台两年来取得了一些进展，但政治过渡、经济复苏、国家重建和安全稳定仍面临多重挑战。他们呼吁国际社会继续提供人道主义援助、支持排雷和冬季应急行动，并加大对长期恢复工作的投入",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-16",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143208",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-4252345146.webp",
+      "封面": "assets/media/un-4252345146.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/08/27-08-2026-UN-Photo-Claudio-Cordone.jpg/image560x340cropped.jpg",
+      "导语": "联合国两位高级官员周一向安理会通报叙利亚局势时表示，叙利亚在阿萨德政权垮台两年来取得了一些进展，但政治过渡、经济复苏、国家重建和安全稳定仍面临多重挑战。他们呼吁国际社会继续提供人道主义援助、支持排雷和冬季应急行动，并加大",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国两位高级官员周一向安理会通报叙利亚局势时表示，叙利亚在阿萨德政权垮台两年来取得了一些进展，但政治过渡、经济复苏、国家重建和安全稳定仍面临多重挑战。他们呼吁国际社会继续提供人道主义援助、支持排雷和冬季应急行动，并加大对长期恢复工作的投入。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143208",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 814780392,
+      "标题": "资金削减削弱难民保护，儿童遭贩运和剥削风险上升",
+      "摘要": "联合国难民署与牛津大学纳菲尔德学院周一发布的两份报告警告，资金持续削减正在削弱对难民的保护，使他们更容易遭受人口贩运、剥削和虐待，儿童的处境尤其令人担忧",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-16",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143207",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-814780392.webp",
+      "封面": "assets/media/un-814780392.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/07/29-07-2026-UNICEF-Rohingya.jpg/image560x340cropped.jpg",
+      "导语": "联合国难民署与牛津大学纳菲尔德学院周一发布的两份报告警告，资金持续削减正在削弱对难民的保护，使他们更容易遭受人口贩运、剥削和虐待，儿童的处境尤其令人担忧",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国难民署与牛津大学纳菲尔德学院周一发布的两份报告警告，资金持续削减正在削弱对难民的保护，使他们更容易遭受人口贩运、剥削和虐待，儿童的处境尤其令人担忧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143207",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 190559182,
+      "标题": "古特雷斯呼吁就“杀人机器人”制定具有法律约束力的文书",
+      "摘要": "周一，旨在推动对通常被称为“杀人机器人”的致命自主武器系统实施管控的谈判在日内瓦拉开帷幕",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-16",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143206",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-190559182.webp",
+      "封面": "assets/media/un-190559182.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/10/23-10-2026-UN-Abyei-Sudan-01.jpg/image560x340cropped.jpg",
+      "导语": "周一，旨在推动对通常被称为“杀人机器人”的致命自主武器系统实施管控的谈判在日内瓦拉开帷幕",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "周一，旨在推动对通常被称为“杀人机器人”的致命自主武器系统实施管控的谈判在日内瓦拉开帷幕。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143206",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 1654114821,
       "标题": "东盟-联合国峰会：古特雷斯呼吁坚定不移地发挥合作的力量",
@@ -1035,96 +1116,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.fox32chicago.com/news/trump-start-new-nuclear-talks-russia-china-next-week",
       "出处说明": "根据fox32chicago.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1949675759,
-      "标题": "宣读 - 卡尼总理会见巴西总统路易斯·伊纳西奥·卢拉·达席尔瓦",
-      "原标题": "Readout - Prime Minister Carney meets with President of Brazil Luiz Inácio Lula da Silva",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 theobserver.ca 最新报道，点击阅读原文。",
-      "来源": "theobserver.ca",
-      "分类": "国际形势",
-      "日期": "2026-11-15",
-      "链接": "https://www.theobserver.ca/press-releases/pr-newswire/readout-prime-minister-carney-meets-with-president-of-brazil-luiz-inacio-lula-da-silva/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-15T20:13:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 theobserver.ca 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 theobserver.ca 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.theobserver.ca/press-releases/pr-newswire/readout-prime-minister-carney-meets-with-president-of-brazil-luiz-inacio-lula-da-silva/",
-      "出处说明": "根据theobserver.ca公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1702552276,
-      "标题": "所有人都应该注意到，最高1.4亿越南盾罚款的规定即将实施",
-      "原标题": "Tất cả người dân lưu ý quy định về mức phạt lên tới 140 triệu đồng sắp được áp dụng",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 genk.vn 最新报道，点击阅读原文。",
-      "来源": "genk.vn",
-      "分类": "国际形势",
-      "日期": "2026-11-15",
-      "链接": "https://genk.vn/tat-ca-nguoi-dan-luu-y-quy-dinh-ve-muc-phat-len-toi-140-trieu-dong-sap-duoc-ap-dung-165261115041019292.chn",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-15T20:13:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 genk.vn 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 genk.vn 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://genk.vn/tat-ca-nguoi-dan-luu-y-quy-dinh-ve-muc-phat-len-toi-140-trieu-dong-sap-duoc-ap-dung-165261115041019292.chn",
-      "出处说明": "根据genk.vn公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1282623490,
-      "标题": "埃尔多安总统详细介绍特朗普的伊朗计划！摩萨德采取行动",
-      "原标题": "Trump ın İran planında Cumhurbaşkanı Erdoğan detayı ! Mossad harekete geçti",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 bursadabugun.com 最新报道，点击阅读原文。",
-      "来源": "bursadabugun.com",
-      "分类": "国际形势",
-      "日期": "2026-11-15",
-      "链接": "https://www.bursadabugun.com/haber/trump-in-iran-planinda-cumhurbaskani-erdogan-detayi-mossad-harekete-gecti-1963308.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://images.bursadabugun.com/haber/2026/11/15/1963308-trump-in-iran-planinda-cumhurbaskani-erdogan-detayi-mossad-harekete-gecti-6af93d4cd782a.webp",
-      "数据截至": "2026-11-15T20:13:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 bursadabugun.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 bursadabugun.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.bursadabugun.com/haber/trump-in-iran-planinda-cumhurbaskani-erdogan-detayi-mossad-harekete-gecti-1963308.html",
-      "出处说明": "根据bursadabugun.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
