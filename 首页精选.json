@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T01:53:01+08:00",
+  "generated": "2026-11-19T07:59:51+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 4059999695,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -49,7 +49,43 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-19T01:53:01+08:00"
+      "选入时间": "2026-11-19T07:59:51+08:00"
+    },
+    {
+      "id": 3961076427,
+      "标题": "【原生·研究】研究加速：锯齿状的前沿",
+      "摘要": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive",
+      "内容": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive",
+      "来源": "OpenAI 官方",
+      "分类": "原生资讯",
+      "日期": "2026-11-18",
+      "热度": 59,
+      "链接": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "标签": [
+        "原生资讯",
+        "OpenAI 官方",
+        "OpenAI"
+      ],
+      "原标题": "【原生·研究】Research acceleration: The jagged frontier",
+      "中文提炼": "",
+      "候选栏目": "AI",
+      "编辑分": 85,
+      "评分分项": {
+        "可信度": 25,
+        "时效": 14,
+        "公共价值": 16,
+        "一手可追溯": 15,
+        "完整度": 10,
+        "真实图片": 0,
+        "编辑价值": 5,
+        "扣分": 0
+      },
+      "来源级别": "A",
+      "扣分项": [],
+      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
+      "规则版本": "editorial-v1.0",
+      "重大世界杯比赛": false,
+      "选入时间": "2026-11-19T07:59:51+08:00"
     },
     {
       "id": 2286068812,
@@ -85,52 +121,40 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-19T01:53:01+08:00"
-    },
-    {
-      "id": 888090112,
-      "标题": "【原生·模型】利用 OpenAI 模型推进芯片设计",
-      "摘要": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6",
-      "内容": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6",
-      "来源": "OpenAI 官方",
-      "分类": "原生资讯",
-      "日期": "2026-11-18",
-      "热度": 67,
-      "链接": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "标签": [
-        "原生资讯",
-        "OpenAI 官方",
-        "OpenAI"
-      ],
-      "原标题": "【原生·模型】Advancing chip design with OpenAI models",
-      "中文提炼": "",
-      "候选栏目": "AI",
-      "编辑分": 80,
-      "评分分项": {
-        "可信度": 25,
-        "时效": 14,
-        "公共价值": 11,
-        "一手可追溯": 15,
-        "完整度": 10,
-        "真实图片": 0,
-        "编辑价值": 5,
-        "扣分": 0
-      },
-      "来源级别": "A",
-      "扣分项": [],
-      "入选理由": "可信来源、时效与公共价值达到推荐门槛",
-      "规则版本": "editorial-v1.0",
-      "重大世界杯比赛": false,
-      "选入时间": "2026-11-19T01:53:01+08:00"
+      "选入时间": "2026-11-19T07:59:51+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-19T01:53:01+08:00",
+    "as_of": "2026-11-19T07:59:51+08:00",
     "candidate_count": 604,
-    "rejected_count": 393,
+    "rejected_count": 395,
     "rejected": [
       {
         "id": 93859990,
+        "reason": "off_topic"
+      },
+      {
+        "id": 582391868,
+        "reason": "off_topic"
+      },
+      {
+        "id": 557089496,
+        "reason": "off_topic"
+      },
+      {
+        "id": 4208993060,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3684061911,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3067671584,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2738830195,
         "reason": "off_topic"
       },
       {
@@ -142,11 +166,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 1684569789,
+        "reason": "off_topic"
+      },
+      {
         "id": 1545518693,
         "reason": "off_topic"
       },
       {
+        "id": 1314738763,
+        "reason": "off_topic"
+      },
+      {
         "id": 1304254901,
+        "reason": "off_topic"
+      },
+      {
+        "id": 1157184989,
         "reason": "off_topic"
       },
       {
@@ -239,6 +275,10 @@
       },
       {
         "id": 2772368529,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2664819933,
         "reason": "off_topic"
       },
       {
@@ -1367,38 +1407,6 @@
         "reason": "off_topic"
       },
       {
-        "id": 798757690,
-        "reason": "off_topic"
-      },
-      {
-        "id": 783589045,
-        "reason": "off_topic"
-      },
-      {
-        "id": 477662175,
-        "reason": "off_topic"
-      },
-      {
-        "id": 426474292,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4263396467,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4160041195,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4030947784,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4011824740,
-        "reason": "off_topic"
-      },
-      {
         "id": 1921215202,
         "reason": "score_below_50",
         "score": 33
@@ -1479,7 +1487,7 @@
         "score": 33
       },
       {
-        "id": 3929873532,
+        "id": 355042369,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1489,12 +1497,22 @@
         "score": 38
       },
       {
-        "id": 3547663067,
+        "id": 1138142457,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 1385448269,
+        "id": 2824440132,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 1204434310,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 3727910898,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1504,9 +1522,24 @@
         "score": 38
       },
       {
-        "id": 2556443559,
+        "id": 2638482271,
+        "reason": "score_below_50",
+        "score": 43
+      },
+      {
+        "id": 2701301155,
         "reason": "score_below_50",
         "score": 38
+      },
+      {
+        "id": 72018608,
+        "reason": "score_below_50",
+        "score": 38
+      },
+      {
+        "id": 2488645258,
+        "reason": "score_below_50",
+        "score": 34
       },
       {
         "id": 185101262,
@@ -1519,37 +1552,17 @@
         "score": 32
       },
       {
+        "id": 3839313266,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
         "id": 1275261306,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 671422342,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 105257091,
-        "reason": "score_below_50",
-        "score": 37
-      },
-      {
-        "id": 1009022768,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 1497206509,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 2524268782,
-        "reason": "score_below_50",
-        "score": 32
-      },
-      {
-        "id": 3597116607,
+        "id": 1251671934,
         "reason": "score_below_50",
         "score": 32
       },
@@ -1557,11 +1570,6 @@
         "id": 3481473592,
         "reason": "score_below_50",
         "score": 32
-      },
-      {
-        "id": 2488645258,
-        "reason": "score_below_50",
-        "score": 28
       },
       {
         "id": 3094448896,
@@ -1579,12 +1587,12 @@
         "score": 16
       },
       {
-        "id": 461933557,
+        "id": 3246854698,
         "reason": "score_below_50",
         "score": 16
       },
       {
-        "id": 3246854698,
+        "id": 461933557,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1594,12 +1602,12 @@
         "score": 20
       },
       {
-        "id": 2175254021,
+        "id": 1930382564,
         "reason": "score_below_50",
-        "score": 25
+        "score": 16
       },
       {
-        "id": 1930382564,
+        "id": 2946713387,
         "reason": "score_below_50",
         "score": 16
       },
@@ -1656,6 +1664,11 @@
         "reason": "stale_section"
       },
       {
+        "id": 1514006736,
+        "reason": "score_below_50",
+        "score": 30
+      },
+      {
         "id": 1429486760,
         "reason": "score_below_50",
         "score": 26
@@ -1671,19 +1684,14 @@
         "score": 24
       },
       {
-        "id": 4030196979,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 468590270,
         "reason": "score_below_50",
         "score": 24
       },
       {
-        "id": 2262564214,
+        "id": 2257736009,
         "reason": "score_below_50",
-        "score": 24
+        "score": 20
       },
       {
         "id": 2734772322,
@@ -1711,11 +1719,6 @@
         "score": 20
       },
       {
-        "id": 1757692967,
-        "reason": "score_below_50",
-        "score": 20
-      },
-      {
         "id": 1853407084,
         "reason": "score_below_50",
         "score": 24
@@ -1729,6 +1732,11 @@
         "id": 133200706,
         "reason": "score_below_50",
         "score": 20
+      },
+      {
+        "id": 3242876717,
+        "reason": "score_below_50",
+        "score": 24
       },
       {
         "id": 4138627420,
