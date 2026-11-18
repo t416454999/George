@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-17T17:28:00+08:00",
+  "updated": "2026-11-18T17:01:28+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "187.4k",
+      "星标": "187.5k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "149.8k",
+      "星标": "149.9k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -21,7 +21,7 @@
       "名称": "Vercel AI SDK",
       "repo": "vercel/ai",
       "说明": "Vercel 推出的 AI SDK，提供统一的 LLM 调用接口，支持流式输出、多模型切换。",
-      "星标": "28.0k",
+      "星标": "28.1k",
       "本周变化": "─",
       "语言": "TypeScript"
     },
@@ -63,96 +63,96 @@
       "名称": "modern-web-guidance-src",
       "repo": "GoogleChrome/modern-web-guidance-src",
       "说明": "Keep your coding agent up to date with the latest web best practices",
-      "星标": 8337,
-      "本周新增": 6542,
+      "星标": 8749,
+      "本周新增": 7015,
       "语言": "TypeScript"
     },
     {
       "名称": "plannotator",
       "repo": "backnotprop/plannotator",
       "说明": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "星标": 12962,
-      "本周新增": 2325,
+      "星标": 13339,
+      "本周新增": 2926,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "astryx",
-      "repo": "meta/astryx",
-      "说明": "An open source design system that's fully customizable and agent ready",
-      "星标": 30020,
-      "本周新增": 10939,
-      "语言": "TypeScript"
-    },
-    {
-      "名称": "daily_stock_analysis",
-      "repo": "ZhuLinsen/daily_stock_analysis",
-      "说明": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "星标": 73043,
-      "本周新增": 4355,
-      "语言": "Python"
-    },
-    {
-      "名称": "skills",
-      "repo": "anthropics/skills",
-      "说明": "Public repository for Agent Skills",
-      "星标": 196565,
-      "本周新增": 5666,
-      "语言": "Python"
     },
     {
       "名称": "Claude-BugHunter",
       "repo": "elementalsouls/Claude-BugHunter",
       "说明": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "星标": 8679,
-      "本周新增": 1747,
+      "星标": 10905,
+      "本周新增": 2508,
       "语言": "Python"
+    },
+    {
+      "名称": "astryx",
+      "repo": "meta/astryx",
+      "说明": "An open source design system that's fully customizable and agent ready",
+      "星标": 30500,
+      "本周新增": 8700,
+      "语言": "TypeScript"
     },
     {
       "名称": "open-code-review",
       "repo": "alibaba/open-code-review",
       "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 53554,
-      "本周新增": 3056,
+      "星标": 54140,
+      "本周新增": 3675,
       "语言": "Go"
     },
     {
-      "名称": "agent-browser",
-      "repo": "vercel-labs/agent-browser",
-      "说明": "Browser automation CLI for AI agents",
-      "星标": 52294,
-      "本周新增": 3760,
-      "语言": "Rust"
-    },
-    {
-      "名称": "chrome-devtools-mcp",
-      "repo": "ChromeDevTools/chrome-devtools-mcp",
-      "说明": "Chrome DevTools for coding agents",
-      "星标": 57989,
-      "本周新增": 2593,
+      "名称": "stitch-skills",
+      "repo": "google-labs-code/stitch-skills",
+      "说明": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "星标": 10330,
+      "本周新增": 1197,
       "语言": "TypeScript"
     },
     {
       "名称": "claude-trading-skills",
       "repo": "tradermonty/claude-trading-skills",
       "说明": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "星标": 6799,
-      "本周新增": 2407,
+      "星标": 7031,
+      "本周新增": 2985,
       "语言": "Python"
     },
     {
-      "名称": "stitch-skills",
-      "repo": "google-labs-code/stitch-skills",
-      "说明": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "星标": 9996,
-      "本周新增": 943,
+      "名称": "chrome-devtools-mcp",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "说明": "Chrome DevTools for coding agents",
+      "星标": 58180,
+      "本周新增": 2948,
       "语言": "TypeScript"
     },
     {
-      "名称": "codex-security",
-      "repo": "openai/codex-security",
-      "说明": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "星标": 13908,
-      "本周新增": 2352,
+      "名称": "skills",
+      "repo": "anthropics/skills",
+      "说明": "Public repository for Agent Skills",
+      "星标": 197080,
+      "本周新增": 4847,
+      "语言": "Python"
+    },
+    {
+      "名称": "daily_stock_analysis",
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "说明": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "星标": 73305,
+      "本周新增": 3653,
+      "语言": "Python"
+    },
+    {
+      "名称": "last30days-skill",
+      "repo": "mvanhorn/last30days-skill",
+      "说明": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "星标": 69774,
+      "本周新增": 1548,
+      "语言": "Python"
+    },
+    {
+      "名称": "ag-ui",
+      "repo": "ag-ui-protocol/ag-ui",
+      "说明": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "星标": 20355,
+      "本周新增": 2773,
       "语言": "TypeScript"
     }
   ]
