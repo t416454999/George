@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-19T17:10:13+08:00",
+  "updated": "2026-11-20T16:48:21+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "187.6k",
+      "星标": "187.7k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -13,7 +13,7 @@
       "名称": "LangChain",
       "repo": "langchain-ai/langchain",
       "说明": "LLM 应用开发框架，提供链式调用、Agent 编排、RAG 检索增强生成等核心能力。",
-      "星标": "149.9k",
+      "星标": "150.0k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -29,7 +29,7 @@
       "名称": "AutoGen",
       "repo": "microsoft/autogen",
       "说明": "微软开源的多 Agent 对话框架，支持多个 AI Agent 协同完成复杂任务。",
-      "星标": "61.9k",
+      "星标": "62.0k",
       "本周变化": "─",
       "语言": "Python"
     },
@@ -63,88 +63,88 @@
       "名称": "plannotator",
       "repo": "backnotprop/plannotator",
       "说明": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "星标": 13617,
-      "本周新增": 3290,
+      "星标": 13828,
+      "本周新增": 3468,
       "语言": "TypeScript"
     },
     {
       "名称": "stitch-skills",
       "repo": "google-labs-code/stitch-skills",
       "说明": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "星标": 10629,
-      "本周新增": 1567,
+      "星标": 10935,
+      "本周新增": 1829,
       "语言": "TypeScript"
     },
     {
       "名称": "modern-web-guidance-src",
       "repo": "GoogleChrome/modern-web-guidance-src",
       "说明": "Keep your coding agent up to date with the latest web best practices",
-      "星标": 9046,
-      "本周新增": 7257,
+      "星标": 9455,
+      "本周新增": 6858,
       "语言": "TypeScript"
     },
     {
       "名称": "open-code-review",
       "repo": "alibaba/open-code-review",
       "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 54338,
-      "本周新增": 4383,
+      "星标": 54631,
+      "本周新增": 4492,
       "语言": "Go"
     },
     {
       "名称": "last30days-skill",
       "repo": "mvanhorn/last30days-skill",
       "说明": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "星标": 70638,
-      "本周新增": 2423,
+      "星标": 71285,
+      "本周新增": 3179,
       "语言": "Python"
     },
     {
       "名称": "chrome-devtools-mcp",
       "repo": "ChromeDevTools/chrome-devtools-mcp",
       "说明": "Chrome DevTools for coding agents",
-      "星标": 58328,
-      "本周新增": 3143,
+      "星标": 58492,
+      "本周新增": 3229,
       "语言": "TypeScript"
     },
     {
       "名称": "claude-trading-skills",
       "repo": "tradermonty/claude-trading-skills",
       "说明": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "星标": 7191,
-      "本周新增": 3242,
+      "星标": 7378,
+      "本周新增": 3385,
       "语言": "Python"
     },
     {
       "名称": "ag-ui",
       "repo": "ag-ui-protocol/ag-ui",
       "说明": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "星标": 20585,
-      "本周新增": 3221,
+      "星标": 20761,
+      "本周新增": 3455,
       "语言": "TypeScript"
     },
     {
       "名称": "astryx",
       "repo": "meta/astryx",
       "说明": "An open source design system that's fully customizable and agent ready",
-      "星标": 30860,
-      "本周新增": 6250,
+      "星标": 31263,
+      "本周新增": 4977,
       "语言": "TypeScript"
     },
     {
       "名称": "univer",
       "repo": "dream-num/univer",
       "说明": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "星标": 30402,
-      "本周新增": 6840,
+      "星标": 30882,
+      "本周新增": 7248,
       "语言": "TypeScript"
     },
     {
       "名称": "ffmpeg-skill",
       "repo": "kajisho5/ffmpeg-skill",
       "说明": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "星标": 8229,
-      "本周新增": 2894,
+      "星标": 8699,
+      "本周新增": 2998,
       "语言": "Python"
     }
   ]
