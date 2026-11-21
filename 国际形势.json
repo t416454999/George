@@ -1,13 +1,40 @@
 {
-  "updated": "2026-11-21T18:44:59+08:00",
-  "as_of": "2026-11-21T18:44:59+08:00",
+  "updated": "2026-11-22T01:55:23+08:00",
+  "as_of": "2026-11-22T01:55:23+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 2916502151,
+      "标题": "走近冰川：一场关于地球未来的青春探索",
+      "摘要": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143243",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2916502151.webp",
+      "封面": "assets/media/un-2916502151.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Graphics%20Library/2026/11/20-11-2026_bayi_glacier.jpg/image560x340cropped.jpg",
+      "导语": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143243",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 2232277203,
       "标题": "【世界进行时】2026年11月20日",
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.thehindu.com/news/national/kiren-rijiju-hits-back-at-rahul-gandhis-compromised-pm-jibe-questions-congress-on-1962-war-poverty/article71727457.ece",
       "出处说明": "根据thehindu.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 1835556263,
-      "标题": "随着美国在乌克兰会谈中讨论欧洲安全问题，俄罗斯重新提出战前要求",
-      "原标题": "Russia dusts off its prewar demands as the US raises discussing European security at Ukraine talks",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 stcatharinesstandard.ca 最新报道，点击阅读原文。",
-      "来源": "stcatharinesstandard.ca",
-      "分类": "国际形势",
-      "日期": "2026-11-21",
-      "链接": "https://www.stcatharinesstandard.ca/news/world/europe/russia-dusts-off-its-prewar-demands-as-the-us-raises-discussing-european-security-at-ukraine-talks/article_b5f9c543-47ed-59ea-a303-dcf3a97192d8.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://bloximages.chicago2.vip.townnews.com/stcatharinesstandard.ca/content/tncms/assets/v3/editorial/9/1c/91cbf3c9-dce0-5ba6-95e7-22fc74bd5027/6af5c14fac69f.image.jpg?crop=1620%2C851%2C0%2C114",
-      "数据截至": "2026-11-21T10:44:44+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 stcatharinesstandard.ca 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 stcatharinesstandard.ca 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.stcatharinesstandard.ca/news/world/europe/russia-dusts-off-its-prewar-demands-as-the-us-raises-discussing-european-security-at-ukraine-talks/article_b5f9c543-47ed-59ea-a303-dcf3a97192d8.html",
-      "出处说明": "根据stcatharinesstandard.ca公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
