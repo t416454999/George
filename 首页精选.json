@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T18:50:43+08:00",
+  "generated": "2026-11-23T02:18:25+08:00",
   "policy_version": "editorial-v1.0",
   "headline_id": 2916502151,
   "headline_reason": "可信来源、时效与公共价值达到推荐门槛",
@@ -33,10 +33,10 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写",
       "候选栏目": "国际形势",
       "栏目状态": "partial",
-      "编辑分": 90,
+      "编辑分": 84,
       "评分分项": {
         "可信度": 25,
-        "时效": 14,
+        "时效": 8,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -49,32 +49,31 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-22T18:50:43+08:00"
+      "选入时间": "2026-11-23T02:18:25+08:00"
     },
     {
-      "id": 3229872874,
-      "标题": "【原生·模型】Hebbia 通过 GPT-6 Astra 看到了金融研究的进步",
-      "摘要": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation",
-      "内容": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation",
+      "id": 2017949991,
+      "标题": "【原生·一手】困惑与智慧",
+      "摘要": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "内容": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
       "来源": "OpenAI 官方",
       "分类": "原生资讯",
-      "日期": "2026-11-20",
-      "热度": 58,
-      "链接": "https://openai.com/business/customer-stories/hebbia",
+      "日期": "2026-11-22",
+      "热度": 50,
+      "链接": "https://openai.com/index/perplexity-and-intelligence",
       "标签": [
         "原生资讯",
-        "OpenAI 官方",
-        "RAG"
+        "OpenAI 官方"
       ],
-      "原标题": "【原生·模型】Hebbia sees improvements in financial research with GPT-6 Astra",
+      "原标题": "【原生·一手】Perplexity and Intelligence",
       "中文提炼": "",
-      "图片": "https://images.ctfassets.net/kftzwdyauwt9/70gWqYyqb096it9EoD7OqI/5df8cad1c7fdf2a4e942c3183a10f405/hebbia-smoked-depth-social.png?w=1600&amp;h=900&amp;fit=fill",
+      "图片": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&amp;h=900&amp;fit=fill",
       "候选栏目": "AI",
-      "编辑分": 79,
+      "编辑分": 80,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
-        "公共价值": 16,
+        "时效": 14,
+        "公共价值": 11,
         "一手可追溯": 15,
         "完整度": 10,
         "真实图片": 0,
@@ -86,7 +85,7 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-22T18:50:43+08:00"
+      "选入时间": "2026-11-23T02:18:25+08:00"
     },
     {
       "id": 1295186251,
@@ -107,10 +106,10 @@
       "中文提炼": "",
       "图片": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "候选栏目": "AI",
-      "编辑分": 79,
+      "编辑分": 73,
       "评分分项": {
         "可信度": 25,
-        "时效": 8,
+        "时效": 2,
         "公共价值": 16,
         "一手可追溯": 15,
         "完整度": 10,
@@ -123,14 +122,22 @@
       "入选理由": "可信来源、时效与公共价值达到推荐门槛",
       "规则版本": "editorial-v1.0",
       "重大世界杯比赛": false,
-      "选入时间": "2026-11-22T18:50:43+08:00"
+      "选入时间": "2026-11-23T02:18:25+08:00"
     }
   ],
   "audit": {
-    "as_of": "2026-11-22T18:50:43+08:00",
+    "as_of": "2026-11-23T02:18:25+08:00",
     "candidate_count": 604,
     "rejected_count": 403,
     "rejected": [
+      {
+        "id": 1370288546,
+        "reason": "off_topic"
+      },
+      {
+        "id": 909734712,
+        "reason": "off_topic"
+      },
       {
         "id": 909348778,
         "reason": "off_topic"
@@ -148,6 +155,10 @@
         "reason": "off_topic"
       },
       {
+        "id": 7608370,
+        "reason": "off_topic"
+      },
+      {
         "id": 754237531,
         "reason": "off_topic"
       },
@@ -160,7 +171,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 3585948738,
+        "reason": "sensational_title"
+      },
+      {
+        "id": 3410496850,
+        "reason": "off_topic"
+      },
+      {
         "id": 3240197791,
+        "reason": "off_topic"
+      },
+      {
+        "id": 3189920864,
         "reason": "off_topic"
       },
       {
@@ -168,7 +191,19 @@
         "reason": "off_topic"
       },
       {
+        "id": 2875662646,
+        "reason": "off_topic"
+      },
+      {
         "id": 2709055733,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2570191791,
+        "reason": "off_topic"
+      },
+      {
+        "id": 2496766107,
         "reason": "off_topic"
       },
       {
@@ -188,11 +223,23 @@
         "reason": "off_topic"
       },
       {
+        "id": 2115613854,
+        "reason": "off_topic"
+      },
+      {
         "id": 1958614232,
         "reason": "off_topic"
       },
       {
+        "id": 1832178909,
+        "reason": "off_topic"
+      },
+      {
         "id": 1802982282,
+        "reason": "off_topic"
+      },
+      {
+        "id": 158091719,
         "reason": "off_topic"
       },
       {
@@ -1396,180 +1443,87 @@
         "reason": "off_topic"
       },
       {
-        "id": 500208636,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4278070854,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4226215614,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4195158473,
-        "reason": "off_topic"
-      },
-      {
-        "id": 413940103,
-        "reason": "off_topic"
-      },
-      {
-        "id": 408092471,
-        "reason": "off_topic"
-      },
-      {
-        "id": 4026993310,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3878654104,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3861891844,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3768363581,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3761839438,
-        "reason": "off_topic"
-      },
-      {
-        "id": 3760927396,
-        "reason": "off_topic"
-      },
-      {
         "id": 2123580958,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2724982518,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3606989294,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2196305792,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 4270833377,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2452303414,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3114625628,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1156815469,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3282739858,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3966090662,
         "reason": "score_below_50",
-        "score": 43
+        "score": 37
       },
       {
         "id": 801694009,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 3674674114,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 2844937187,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
         "id": 1420877753,
         "reason": "score_below_50",
-        "score": 43
+        "score": 37
       },
       {
         "id": 611349096,
         "reason": "score_below_50",
-        "score": 39
+        "score": 33
       },
       {
-        "id": 833460587,
+        "id": 3918291681,
         "reason": "score_below_50",
         "score": 38
       },
       {
-        "id": 2165069180,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 964238779,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1819714306,
-        "reason": "score_below_50",
-        "score": 43
-      },
-      {
-        "id": 4076725717,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 671097219,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1759002355,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 1395464030,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3440272316,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 652170516,
-        "reason": "score_below_50",
-        "score": 38
-      },
-      {
-        "id": 3831058169,
+        "id": 1048412505,
         "reason": "score_below_50",
         "score": 38
       },
@@ -1579,54 +1533,94 @@
         "score": 34
       },
       {
-        "id": 2793705654,
+        "id": 1502763960,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 3052099553,
+        "id": 695352067,
         "reason": "score_below_50",
         "score": 32
       },
       {
-        "id": 2261999944,
+        "id": 3738235555,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 4058127951,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 2045358786,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 513648031,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3416214237,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3757632321,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 671097219,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 769792001,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 3806313670,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 964238779,
+        "reason": "score_below_50",
+        "score": 32
+      },
+      {
+        "id": 106921332,
         "reason": "score_below_50",
         "score": 32
       },
       {
         "id": 136968376,
         "reason": "score_below_50",
-        "score": 22
+        "score": 16
       },
       {
         "id": 3533389601,
         "reason": "score_below_50",
-        "score": 26
+        "score": 20
       },
       {
         "id": 980449669,
         "reason": "score_below_50",
-        "score": 22
+        "score": 16
       },
       {
         "id": 2656434309,
         "reason": "score_below_50",
-        "score": 22
-      },
-      {
-        "id": 1858785023,
-        "reason": "score_below_50",
-        "score": 22
+        "score": 16
       },
       {
         "id": 1739636628,
         "reason": "score_below_50",
-        "score": 22
-      },
-      {
-        "id": 4202516902,
-        "reason": "score_below_50",
-        "score": 20
+        "score": 16
       },
       {
         "id": 2608301006,
@@ -1640,6 +1634,11 @@
       },
       {
         "id": 3246854698,
+        "reason": "score_below_50",
+        "score": 16
+      },
+      {
+        "id": 461933557,
         "reason": "score_below_50",
         "score": 16
       },
