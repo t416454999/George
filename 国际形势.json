@@ -1,40 +1,13 @@
 {
-  "updated": "2026-11-22T10:53:39+08:00",
-  "as_of": "2026-11-22T10:53:39+08:00",
+  "updated": "2026-11-22T18:50:32+08:00",
+  "as_of": "2026-11-22T18:50:32+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
-    {
-      "id": 2916502151,
-      "标题": "走近冰川：一场关于地球未来的青春探索",
-      "摘要": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案",
-      "来源": "联合国新闻",
-      "分类": "国际形势",
-      "日期": "2026-11-21",
-      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143243",
-      "标签": [
-        "国际",
-        "联合国"
-      ],
-      "图片": "assets/media/un-2916502151.webp",
-      "封面": "assets/media/un-2916502151.webp",
-      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Graphics%20Library/2026/11/20-11-2026_bayi_glacier.jpg/image560x340cropped.jpg",
-      "导语": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143243",
-      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
     {
       "id": 2232277203,
       "标题": "【世界进行时】2026年11月20日",
@@ -657,6 +630,60 @@
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     },
     {
+      "id": 2538839274,
+      "标题": "美国等三国麻疹持续传播，泛美卫生组织呼吁加强疫苗接种",
+      "摘要": "泛美卫生组织周二表示，玻利维亚、墨西哥和美国因麻疹病毒持续传播至少12个月，已不再符合消除麻疹的认定标准。随着美洲多地疫情继续蔓延，该组织呼吁各国加强疫苗接种、监测和疫情应对，阻断传播",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-17",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143219",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2538839274.webp",
+      "封面": "assets/media/un-2538839274.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/13-03-2025-WHO-measles-01.jpg/image560x340cropped.jpg",
+      "导语": "泛美卫生组织周二表示，玻利维亚、墨西哥和美国因麻疹病毒持续传播至少12个月，已不再符合消除麻疹的认定标准。随着美洲多地疫情继续蔓延，该组织呼吁各国加强疫苗接种、监测和疫情应对，阻断传播",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "泛美卫生组织周二表示，玻利维亚、墨西哥和美国因麻疹病毒持续传播至少12个月，已不再符合消除麻疹的认定标准。随着美洲多地疫情继续蔓延，该组织呼吁各国加强疫苗接种、监测和疫情应对，阻断传播。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143219",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 2916502151,
+      "标题": "走近冰川：一场关于地球未来的青春探索",
+      "摘要": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-21",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143243",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-2916502151.webp",
+      "封面": "assets/media/un-2916502151.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Graphics%20Library/2026/11/20-11-2026_bayi_glacier.jpg/image560x340cropped.jpg",
+      "导语": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "冰川，看似坚不可摧，却是气候变化最敏感的见证者之一。跟随联合国新闻的镜头，去聆听祁连山八一冰川的故事，寻找属于年轻一代的答案。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143243",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
       "id": 2123580958,
       "标题": "保守党和大学对伯纳姆布鲁塞尔协议表示担忧",
       "原标题": "Tories and universities raise concerns over Burnham Brussels deal",
@@ -1104,36 +1131,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://www.kmib.co.kr/article/20261122500041",
       "出处说明": "根据kmib.co.kr公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2806325643,
-      "标题": "1935年11月22日：中国快船，第一架开辟跨太平洋航空​​邮件航线的飞机",
-      "原标题": "22 November 1935 : China Clipper , Pesawat Pertama yang Buka Jalur Pos Udara Lintas Pasifik",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 liputan6.com 最新报道，点击阅读原文。",
-      "来源": "liputan6.com",
-      "分类": "国际形势",
-      "日期": "2026-11-22",
-      "链接": "https://www.liputan6.com/global/read/8336268/22-november-1935-china-clipper-pesawat-pertama-yang-buka-jalur-pos-udara-lintas-pasifik",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://cdn0-production-images-kly.akamaized.net/Kx8l6WkHbCuVbEj5M3ar20TWLd8=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/9398749/original/051335000_1794818885-sue-hughes-toQNPpuDuwI-unsplash.jpg",
-      "数据截至": "2026-11-22T02:53:24+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 liputan6.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 liputan6.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.liputan6.com/global/read/8336268/22-november-1935-china-clipper-pesawat-pertama-yang-buka-jalur-pos-udara-lintas-pasifik",
-      "出处说明": "根据liputan6.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
