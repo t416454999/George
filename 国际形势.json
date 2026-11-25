@@ -1,13 +1,67 @@
 {
-  "updated": "2026-11-25T16:18:48+08:00",
-  "as_of": "2026-11-25T16:18:48+08:00",
+  "updated": "2026-11-26T02:48:32+08:00",
+  "as_of": "2026-11-26T02:48:32+08:00",
   "category": "国际形势",
   "source": "联合国新闻 / GDELT",
   "description": "全球局势与外交动态；仅展示摘要并链接至原始来源。",
-  "status": "ok",
-  "message": "",
+  "status": "partial",
+  "message": "GDELT：429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28diplomacy+OR+ceasefire+OR+summit+OR+sanctions+OR+%22peace+talks%22%29&mode=artlist&format=json&maxrecords=20&sort=datedesc&timespan=2d",
   "count": 40,
   "articles": [
+    {
+      "id": 3747923983,
+      "标题": "人权高专警告：以色列针对巴勒斯坦人民犯下暴行罪的风险日益加剧",
+      "摘要": "联合国人权事务高级专员蒂尔克周三警告说，以色列持续针对巴勒斯坦人实施的袭击、政策和侵犯人权行为表明，整个被占领的巴勒斯坦领土上发生更多暴行罪的风险正在加剧",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143264",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-3747923983.webp",
+      "封面": "assets/media/un-3747923983.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Production%20Library/02-04-2025-UN-Photo-Volker-Turk.jpg/image560x340cropped.jpg",
+      "导语": "联合国人权事务高级专员蒂尔克周三警告说，以色列持续针对巴勒斯坦人实施的袭击、政策和侵犯人权行为表明，整个被占领的巴勒斯坦领土上发生更多暴行罪的风险正在加剧",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "联合国人权事务高级专员蒂尔克周三警告说，以色列持续针对巴勒斯坦人实施的袭击、政策和侵犯人权行为表明，整个被占领的巴勒斯坦领土上发生更多暴行罪的风险正在加剧。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143264",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
+    {
+      "id": 1472170101,
+      "标题": "【专题报道】电力转型不能止步于发电：三国经验揭示全球清洁能源转型中构筑电网挑战",
+      "摘要": "随着全球太阳能和风能装机容量持续增长，如何将清洁电力可靠、高效地输送到家庭、企业和工业设施，正成为能源转型面临的关键挑战",
+      "来源": "联合国新闻",
+      "分类": "国际形势",
+      "日期": "2026-11-25",
+      "链接": "https://news.un.org/feed/view/zh/story/2026/11/1143199",
+      "标签": [
+        "国际",
+        "联合国"
+      ],
+      "图片": "assets/media/un-1472170101.webp",
+      "封面": "assets/media/un-1472170101.webp",
+      "原始图片": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/11-06-2025-UN-Women-Bangladesh.jpg/image560x340cropped.jpg",
+      "导语": "随着全球太阳能和风能装机容量持续增长，如何将清洁电力可靠、高效地输送到家庭、企业和工业设施，正成为能源转型面临的关键挑战",
+      "要点": [
+        "发生了什么",
+        "涉及哪些主体",
+        "后续值得关注什么"
+      ],
+      "正文": "随着全球太阳能和风能装机容量持续增长，如何将清洁电力可靠、高效地输送到家庭、企业和工业设施，正成为能源转型面临的关键挑战。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
+      "编辑方式": "规则整理",
+      "原文链接": "https://news.un.org/feed/view/zh/story/2026/11/1143199",
+      "出处说明": "根据联合国新闻公开元数据/摘要整理，非原文转载。",
+      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
+    },
     {
       "id": 3473579189,
       "标题": "美国华盛顿州报告3例人感染H5N1禽流感病例 其中1人死亡",
@@ -1074,66 +1128,6 @@
       "编辑方式": "规则整理",
       "原文链接": "https://asianews.network/asean-sec-gen-warns-of-renewed-thai-cambodian-clashes-upbeat-on-finalising-south-china-sea-pact/",
       "出处说明": "根据asianews.network公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 2347560298,
-      "标题": "外文资讯",
-      "原标题": "Ahmet Almaz - 152 Jetle Geldiler , Anlaşamadan Gittiler : Antalyadaki İklim Çelişkisi ve Güneşin Gösterdiği Yol",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 haberler.com 最新报道，点击阅读原文。",
-      "来源": "haberler.com",
-      "分类": "国际形势",
-      "日期": "2026-11-25",
-      "链接": "https://www.haberler.com/yazarlar/ahmet-almaz-2-70/152-jetle-geldiler-anlasamadan-gittiler-antalyadaki-iklim-celiskisi-ve-gunesin-gosterdigi-yol-7502/",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "https://foto.haberler.com/genel/yazar-yazilari/2026/11/24/152-jetle-geldiler-anlasamadan-gittiler_4409_o.jpg",
-      "数据截至": "2026-11-25T08:18:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 haberler.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 haberler.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.haberler.com/yazarlar/ahmet-almaz-2-70/152-jetle-geldiler-anlasamadan-gittiler-antalyadaki-iklim-celiskisi-ve-gunesin-gosterdigi-yol-7502/",
-      "出处说明": "根据haberler.com公开元数据/摘要整理，非原文转载。",
-      "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
-    },
-    {
-      "id": 922261069,
-      "标题": "Seedance 2 . 5 级别 ， 价格只要 1 / 10 ， 我们实测了计划开源的 MAGI - 2",
-      "原标题": "Seedance 2 . 5 级别 ， 价格只要 1 / 10 ， 我们实测了计划开源的 MAGI - 2",
-      "标题翻译方式": "短译/历史复用",
-      "摘要": "全球新闻索引收录的 163.com 最新报道，点击阅读原文。",
-      "来源": "163.com",
-      "分类": "国际形势",
-      "日期": "2026-11-25",
-      "链接": "https://www.163.com/dy/article/LCJ6UJJL05118O8G.html",
-      "标签": [
-        "国际",
-        "全球媒体"
-      ],
-      "原始图片": "",
-      "数据截至": "2026-11-25T08:18:32+00:00",
-      "图片": "assets/covers/international.svg",
-      "封面": "assets/covers/international.svg",
-      "导语": "全球新闻索引收录的 163.com 最新报道，点击阅读原文",
-      "要点": [
-        "发生了什么",
-        "涉及哪些主体",
-        "后续值得关注什么"
-      ],
-      "正文": "全球新闻索引收录的 163.com 最新报道，点击阅读原文。本短稿依据公开标题与摘要整理，用于帮助读者快速了解事件脉络；信息仍可能更新，请结合原出处核对",
-      "编辑方式": "规则整理",
-      "原文链接": "https://www.163.com/dy/article/LCJ6UJJL05118O8G.html",
-      "出处说明": "根据163.com公开元数据/摘要整理，非原文转载。",
       "版权": "标题与摘要版权归原发布者；本站短稿为资料性改写"
     }
   ]
