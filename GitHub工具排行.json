@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-25T18:31:00+08:00",
+  "updated": "2026-11-26T18:13:51+08:00",
   "stable": [
     {
       "名称": "Ollama",
       "repo": "ollama/ollama",
       "说明": "本地大模型运行工具，一键下载并运行 Llama、DeepSeek、Qwen 等开源模型。",
-      "星标": "188.1k",
+      "星标": "188.2k",
       "本周变化": "─",
       "语言": "Go"
     },
@@ -63,97 +63,97 @@
       "名称": "plannotator",
       "repo": "backnotprop/plannotator",
       "说明": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "星标": 15053,
-      "本周新增": 1956,
+      "星标": 15221,
+      "本周新增": 1764,
       "语言": "TypeScript"
     },
     {
       "名称": "stitch-skills",
       "repo": "google-labs-code/stitch-skills",
       "说明": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "星标": 12919,
-      "本周新增": 2626,
+      "星标": 13222,
+      "本周新增": 2616,
       "语言": "TypeScript"
     },
     {
       "名称": "modern-web-guidance-src",
       "repo": "GoogleChrome/modern-web-guidance-src",
       "说明": "Keep your coding agent up to date with the latest web best practices",
-      "星标": 10994,
-      "本周新增": 2494,
+      "星标": 11219,
+      "本周新增": 2309,
       "语言": "TypeScript"
     },
     {
       "名称": "nod",
       "repo": "n8n-io/nod",
       "说明": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
-      "星标": 3491,
-      "本周新增": 1011,
+      "星标": 3883,
+      "本周新增": 1008,
       "语言": "TypeScript"
     },
     {
       "名称": "open-code-review",
       "repo": "alibaba/open-code-review",
       "说明": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "星标": 56307,
-      "本周新增": 2638,
+      "星标": 56605,
+      "本周新增": 2259,
       "语言": "Go"
     },
     {
       "名称": "last30days-skill",
       "repo": "mvanhorn/last30days-skill",
       "说明": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "星标": 74953,
-      "本周新增": 5369,
+      "星标": 75612,
+      "本周新增": 5302,
       "语言": "Python"
     },
     {
       "名称": "chrome-devtools-mcp",
       "repo": "ChromeDevTools/chrome-devtools-mcp",
       "说明": "Chrome DevTools for coding agents",
-      "星标": 59330,
-      "本周新增": 1258,
+      "星标": 59474,
+      "本周新增": 1203,
       "语言": "TypeScript"
     },
     {
       "名称": "claude-trading-skills",
       "repo": "tradermonty/claude-trading-skills",
       "说明": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "星标": 8427,
-      "本周新增": 1504,
+      "星标": 8557,
+      "本周新增": 1422,
       "语言": "Python"
     },
     {
       "名称": "ag-ui",
       "repo": "ag-ui-protocol/ag-ui",
       "说明": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "星标": 21697,
-      "本周新增": 1753,
+      "星标": 21823,
+      "本周新增": 1421,
       "语言": "TypeScript"
     },
     {
       "名称": "astryx",
       "repo": "meta/astryx",
       "说明": "An open source design system that's fully customizable and agent ready",
-      "星标": 33073,
-      "本周新增": 2890,
+      "星标": 33305,
+      "本周新增": 2635,
       "语言": "TypeScript"
+    },
+    {
+      "名称": "obsidian-skills",
+      "repo": "obsidianmd/obsidian-skills",
+      "说明": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+      "星标": 53923,
+      "本周新增": 704,
+      "语言": "Shell"
     },
     {
       "名称": "univer",
       "repo": "dream-num/univer",
       "说明": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "星标": 31836,
-      "本周新增": 3278,
+      "星标": 31940,
+      "本周新增": 2319,
       "语言": "TypeScript"
-    },
-    {
-      "名称": "ffmpeg-skill",
-      "repo": "kajisho5/ffmpeg-skill",
-      "说明": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "星标": 11019,
-      "本周新增": 2993,
-      "语言": "Python"
     }
   ]
 }
